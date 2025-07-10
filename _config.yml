@@ -1,10 +1,12 @@
 # _config.yml
 title: Bioinspired Communication & Ethics
+
 theme: minima  # Built-in GitHub Pages theme
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
 header_pages:
   - index.md      # Welcome page
   - foundation.md    # Team work
