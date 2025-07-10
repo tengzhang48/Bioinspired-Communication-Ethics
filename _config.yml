@@ -1,16 +1,30 @@
-# _config.yml
 title: Bioinspired Communication & Ethics
+description: Graduate course on bioinspired systems, communication, and ethics
+theme: minima
+url: "https://tengzhang48.github.io/Bioinspired-Communication-Ethics/" 
 
-theme: minima  # Built-in GitHub Pages theme
+# Navigation configuration
+header_pages:
+  - index.md       # First in navigation
+  - foundation.md    # Team work
+  - science.md       # Scientific Literature Review
+  - proposal.md      # Proposal Writing and Review
+  - ethics.md      # Second in navigation
 
+# Default page settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+# Plugin configuration
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-header_pages:
-  - index.md      # Welcome page
-  - foundation.md    # Team work
-  - science.md       # Scientific Literature Review
-  - proposal.md      # Proposal Writing and Review
-  - ethics.md     # Research Ethics
-# Minimal safe configuration
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
