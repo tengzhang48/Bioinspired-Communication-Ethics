@@ -1,7 +1,6 @@
 ---
 layout: home
-# Remove title here to prevent duplication
 ---
 
-# Welcome to the Course! <!-- Keep only this heading -->
+# Welcome to the Course!
 Course description text goes here...
