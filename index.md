@@ -16,4 +16,4 @@ This graduate-level course trains students from diverse academic backgrounds in 
 **Course Website:**  
 [Blackboard](https://blackboard.syr.edu) for announcements and assignments
 
-[Explore Research Ethics](/ethics){: .btn .btn-purple}
+[Explore Research Ethics](ethics/){: .btn .btn-purple}
