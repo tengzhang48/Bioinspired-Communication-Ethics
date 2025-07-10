@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research Ethics
-nav_order: 2  # Explicit position in navigation
+permalink: /modules/ethics/  # Explicit URL definition
 ---
 
 # Research Ethics Module
@@ -23,4 +23,4 @@ Team-based analysis of ethical case studies focusing on:
 - Team analysis of ethical dilemmas
 - Regulatory framework discussions
 
-[Back to Home](/){: .btn .btn-outline}
+[Back to Home]({{ site.baseurl }}/){: .btn .btn-outline}
