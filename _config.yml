@@ -1,13 +1,6 @@
 # _config.yml
 title: Bioinspired Communication & Ethics
 theme: minima  # Built-in GitHub Pages theme
----
-layout: home
-# Remove title here to prevent duplication
----
-
-# Welcome to the Course! <!-- Keep only this heading -->
-Course description text goes here...
 
 plugins:
   - jekyll-feed
