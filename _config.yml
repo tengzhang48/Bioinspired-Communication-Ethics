@@ -1,5 +1,9 @@
+# _config.yml
 title: Bioinspired Communication & Ethics
-theme: minima  # Built-in GitHub Pages theme
+theme: minima  # GitHub's default theme
+
 plugins:
-  - jekyll-remote-theme
-remote_theme: pages-themes/minima@v0.2.0
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minimal safe configuration
