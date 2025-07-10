@@ -1,16 +1,21 @@
 title: Bioinspired Communication & Ethics
 description: Graduate course on bioinspired systems, communication, and ethics
 theme: minima
-url: "https://tengzhang48.github.io/Bioinspired-Communication-Ethics/" 
-baseurl: "" # Leave empty if site is at root
+url: "https://tengzhang48.github.io/Bioinspired-Communication-Ethics/"
+baseurl: ""
 
-# Navigation configuration
-header_pages:
-  - index.md       # First in navigation
-  - modules/foundation.md    # Team work
-  - modules/science.md       # Scientific Literature Review
-  - modules/proposal.md      # Proposal Writing and Review
-  - modules/ethics.md      # Second in navigation
+# Corrected navigation with explicit URLs
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Foundations"
+    url: "/modules/foundation/"
+  - title: "Scientific Literature"
+    url: "/modules/science/"
+  - title: "Proposal Writing"
+    url: "/modules/proposal/"
+  - title: "Research Ethics"
+    url: "/modules/ethics/"
 
 # Default page settings
 defaults:
@@ -29,3 +34,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Custom variables for styling
+custom_css: 
+  - "/assets/css/styles.css"
