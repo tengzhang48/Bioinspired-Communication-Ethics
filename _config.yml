@@ -1,0 +1,4 @@
+title: Bioinspired Communication & Ethics
+theme: minima  # Built-in GitHub Pages theme
+plugins:
+  - jekyll-remote-theme
