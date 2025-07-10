@@ -1,9 +1,7 @@
 ---
 layout: home
-title:
+title: Welcome to the course
 ---
-
-# Welcome to Bioinspired Communication & Ethics
 
 This graduate-level course trains students from diverse academic backgrounds in interdisciplinary research, with examples from biological and bioinspired systems. 
 
@@ -16,4 +14,4 @@ This graduate-level course trains students from diverse academic backgrounds in 
 **Course Website:**  
 [Blackboard](https://blackboard.syr.edu) for announcements and assignments
 
-[Explore Research Ethics](ethics/){: .btn .btn-purple}
+[Explore Research Ethics]({{ site.baseurl }}/modules/ethics/){: .btn .btn-purple}
