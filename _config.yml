@@ -2,6 +2,7 @@ title: Bioinspired Communication & Ethics
 description: Graduate course on bioinspired systems, communication, and ethics
 theme: minima
 url: "https://tengzhang48.github.io/Bioinspired-Communication-Ethics/" 
+baseurl: "" # Leave empty if site is at root
 
 # Navigation configuration
 header_pages:
