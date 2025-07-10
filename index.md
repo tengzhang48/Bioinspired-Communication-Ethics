@@ -1,5 +1,6 @@
 ---
 layout: home
+title:
 ---
 
 # Welcome to Bioinspired Communication & Ethics
