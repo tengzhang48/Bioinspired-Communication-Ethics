@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Welcome to the Course
 ---
 
 # Welcome to Bioinspired Communication & Ethics
