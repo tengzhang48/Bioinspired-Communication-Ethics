@@ -5,5 +5,10 @@ theme: minima  # GitHub's default theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+header_pages:
+  - index.md      # Welcome page
+  - foundation.md    # Team work
+  - science.md       # Scientific Literature Review
+  - proposal.md      # Proposal Writing and Review
+  - ethics.md     # Research Ethics
 # Minimal safe configuration
