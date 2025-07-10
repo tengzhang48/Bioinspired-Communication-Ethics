@@ -6,10 +6,10 @@ url: "https://tengzhang48.github.io/Bioinspired-Communication-Ethics/"
 # Navigation configuration
 header_pages:
   - index.md       # First in navigation
-  - foundation.md    # Team work
-  - science.md       # Scientific Literature Review
-  - proposal.md      # Proposal Writing and Review
-  - ethics.md      # Second in navigation
+  - modules/foundation.md    # Team work
+  - modules/science.md       # Scientific Literature Review
+  - modules/proposal.md      # Proposal Writing and Review
+  - modules/ethics.md      # Second in navigation
 
 # Default page settings
 defaults:
