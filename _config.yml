@@ -1,41 +1,22 @@
 title: Bioinspired Communication & Ethics
-description: Graduate Course on Interdisciplinary Research, Communication, and Ethics
+description: Graduate course on bioinspired systems, communication, and ethics
+
 theme: minima
-url: "https://tengzhang48.github.io/Bioinspired-Communication-Ethics/"
-baseurl: ""
 
-# Navigation structure
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Syllabus"
-    url: "/syllabus"
-  - title: "Schedule"
-    url: "/schedule"
-  - title: "Modules"
-    url: "/modules/"
-  - title: "Resources"
-    url: "/resources"
+url: "https://tengzhang48.github.io"
+baseurl: "/Bioinspired-Communication-Ethics"
 
-# Default page settings
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: page
-      toc: true
-
-# Plugin configuration
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude unnecessary files
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
 
-# Custom styling
-custom_css: 
-  - "/assets/css/styles.css"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
