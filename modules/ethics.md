@@ -1,28 +1,35 @@
 ---
 layout: page
-title: Research Ethics Module
-parent: Modules
-permalink: /modules/ethics/
-nav_order: 4
+title: Research Ethics
+permalink: /Bioinspired-Communication-Ethics/modules/ethics/
 ---
 
-# Module 4: Research Ethics
+# Research Ethics Module
 
-## Overview
-Team-based analysis of ethical challenges in scientific research with focus on:
+## Module Overview
 
-- Research misconduct and integrity
-- Dual-use research concerns
-- Biomatter ethics protocols
-- AI ethics frameworks
-- Regulatory compliance
+Team-based analysis of ethical case studies focusing on:
 
-## Guest Lecturer
-**XX JD** (XX Medical University)
+- Research misconduct
+- Dual-use research
+- Biomatter ethics
+- AI ethics
+- Regulatory frameworks
+
+### Guest Lecturer
+
+**XX JD** from XX Medical University
 
 ## Key Activities
-```{ .activity-list }
-- Case-based debate simulations
-- Role-playing ethical dilemmas
-- Regulatory framework analysis
-- Team-based moral reasoning exercises
+
+- Case-based debates
+- Role-playing exercises
+- Team analysis of ethical dilemmas
+- Regulatory framework discussions
+
+---
+
+<div class="module-nav">
+  <a href="/Bioinspired-Communication-Ethics/modules/proposal/" class="btn">← Proposal Writing</a>
+  <a href="/Bioinspired-Communication-Ethics/modules/foundation/" class="btn">Foundations →</a>
+</div>
