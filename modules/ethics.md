@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research Ethics
-permalink: /Bioinspired-Communication-Ethics/modules/ethics/
+permalink: /modules/ethics/
 ---
 
 # Research Ethics Module
