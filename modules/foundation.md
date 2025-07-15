@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Foundations
+title: Team Work
 permalink: /modules/foundation/
 ---
 ## Module 1 Content
