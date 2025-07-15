@@ -31,5 +31,5 @@ Team-based analysis of ethical case studies focusing on:
 
 <div class="module-nav">
   <a href="/Bioinspired-Communication-Ethics/modules/proposal/" class="btn">← Proposal Writting and Review</a>
-  <a href="/Bioinspired-Communication-Ethics/modules/foundation/" class="btn"> Research Foundation →</a>
+  <a href="/Bioinspired-Communication-Ethics/modules/foundation/" class="btn"> Team Work →</a>
 </div>
