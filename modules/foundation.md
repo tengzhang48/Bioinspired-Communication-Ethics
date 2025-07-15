@@ -5,7 +5,7 @@ permalink: /modules/foundation/
 ---
 
 # Module 1: Team Work  
-This module introduces the foundations of working in effective, diverse, and interdisciplinary research teams. You’ll explore tools like CATME for peer evaluation and learn strategies for thriving in collaborative, convergence-driven research.
+This module introduces the foundations of working in effective, diverse, and interdisciplinary research teams. You'll explore tools like CATME for peer evaluation and learn strategies for thriving in collaborative, convergence-driven research.
 
 ---
 
@@ -23,24 +23,29 @@ This module introduces the foundations of working in effective, diverse, and int
 ### ▶️ CATME: Team Formation & Peer Evaluation
 
 - 🔗 [CATME Official Website](https://info.catme.org/)
-- 📄 [Using CATME Effectively in Courses (Faculty Guide)](https://info.catme.org/wp-content/uploads/2021/01/CATME-Instructor-Guide.pdf)
-- 🎥 [Video: Introduction to CATME (YouTube)](https://www.youtube.com/watch?v=RxpNPSXfbsY)
+- 📄 [CATME Student Guide: How to Use the System](https://info.catme.org/student/student-help/)
+- 🎥 [Video: Student Introduction to CATME (YouTube)](https://www.youtube.com/watch?v=2S9hVQYJb8g)
+- 📄 [Peer Evaluation Best Practices for Students](https://info.catme.org/student/student-help/peer-evaluation/)
 
 ---
 
 ## 👥 Building Effective Teams
 
-- 📄 [“The Secrets of Great Teamwork” – *Harvard Business Review*](https://hbr.org/2016/06/the-secrets-of-great-teamwork)
-- 📄 [“Managing Multidisciplinary Teams in Research” – *Nature*](https://www.nature.com/articles/d41586-020-01789-8)
+- 📄 [“The Secrets of Great Teamwork” – Harvard Business Review](https://hbr.org/2016/06/the-secrets-of-great-teamwork)
+- 📄 [“Managing Multidisciplinary Teams in STEM Research” – Nature](https://www.nature.com/articles/d41586-020-01789-8)
 - 🎥 [Video: What Makes a Team Successful? (MIT Sloan)](https://www.youtube.com/watch?v=Q8pA3JH3jYg)
+- 📄 [STEM Team Strategies from National Science Foundation](https://www.nsf.gov/pubs/2018/nsf18045/nsf18045.pdf)
+- 📄 [Conflict Resolution in Engineering Teams](https://ctl.yale.edu/sites/default/files/basic-page-supplementary-materials-files/team_agreement_template_1.pdf)
 
 ---
 
 ## 🔬 What is Interdisciplinary Research?
 
-- 📄 [National Academies Report: Facilitating Interdisciplinary Research (2004)](https://nap.nationalacademies.org/catalog/11153/facilitating-interdisciplinary-research)
-- 📄 [“Interdisciplinary Research: A Philosophy, Art and a Skill” – *PNAS*](https://www.pnas.org/doi/10.1073/pnas.0400238101)
+- 📄 [National Academies Report: Facilitating Interdisciplinary Research](https://nap.nationalacademies.org/catalog/11153/facilitating-interdisciplinary-research)
+- 📄 [“Interdisciplinary Research in STEM: Philosophy and Practice” – PNAS](https://www.pnas.org/doi/10.1073/pnas.0400238101)
 - 🎥 [Video: Why Interdisciplinary Research Matters (UCL)](https://www.youtube.com/watch?v=sflgjko2nao)
+- 📄 [Case Study: Human Genome Project Collaboration](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project)
+- 📄 [NASA's Interdisciplinary Team Approach](https://www.nasa.gov/hrp/bodyinspace)
 
 ---
 
@@ -49,9 +54,10 @@ This module introduces the foundations of working in effective, diverse, and int
 > Convergence research integrates knowledge, tools, and ways of thinking from multiple disciplines to solve complex societal problems.
 
 - 📄 [NSF: Convergence Research Program Overview](https://www.nsf.gov/od/oia/convergence/index.jsp)
-- 📄 [“The Convergence of Disciplines” – *Science*](https://www.science.org/doi/10.1126/science.331.6020.713)
-- 📄 [“Convergence: The Future of Health” – *MIT White Paper*](https://convergencerevolution.net/the-book/)
-- 🎥 [Video: NSF's Vision for Convergence Research (YouTube)](https://www.youtube.com/watch?v=JWbZ3TbTKF8)
+- 📄 [“Convergence in Bioinspired Engineering” – Science](https://www.science.org/doi/10.1126/science.1246431)
+- 📄 [“Convergence: The Future of Health” – MIT Report](https://dc.mit.edu/sites/default/files/2020-07/Convergence_The_Future_of_Health.pdf)
+- 🎥 [Video: NSF's Vision for Convergence Research](https://www.youtube.com/watch?v=JWbZ3TbTKF8)
+- 📄 [Biomimicry Case Studies: Nature-Inspired Solutions](https://biomimicry.org/what-is-biomimicry/)
 
 ---
 
@@ -59,7 +65,9 @@ This module introduces the foundations of working in effective, diverse, and int
 
 - ✅ Team role self-assessment activity (via CATME or Google Form)
 - ✅ Group brainstorming: What makes a team interdisciplinary?
-- ✅ Team contract assignment (define roles, expectations, and meeting norms)
+- ✅ STEM team contract assignment (define roles, expectations, and safety protocols)
+- ✅ Case analysis: [Ant Colony Optimization in Network Design](https://www.sciencedirect.com/science/article/pii/S1877050915004978)
+- ✅ Simulation: [NASA Robotics Challenge Team Exercise](https://www.nasa.gov/stem/moon2mars/overview/moon.html)
 
 ---
 
