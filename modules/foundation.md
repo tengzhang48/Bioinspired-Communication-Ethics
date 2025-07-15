@@ -54,7 +54,6 @@ This module introduces the foundations of working in effective, diverse, and int
 > Convergence research integrates knowledge, tools, and ways of thinking from multiple disciplines to solve complex societal problems.
 
 - 📄 [NSF: Convergence Research Program Overview](https://www.nsf.gov/od/oia/convergence/index.jsp)
-- 📄 [“Convergence in Bioinspired Engineering” – Science](https://www.science.org/doi/10.1126/science.1246431)
 - 📄 [“Convergence: The Future of Health” – MIT Report](https://www.aplu.org/wp-content/uploads/convergence_futureofHealth.pdf)
 - 🎥 [Video: NSF's Vision for Convergence Research](https://www.youtube.com/watch?v=8BNc1d4WSdQ)
 - 📄 [Biomimicry Case Studies: Nature-Inspired Solutions](https://biomimicry.org/what-is-biomimicry/)
