@@ -66,8 +66,7 @@ This module introduces the foundations of working in effective, diverse, and int
 - ✅ Team role self-assessment activity (via CATME or Google Form)
 - ✅ Group brainstorming: What makes a team interdisciplinary?
 - ✅ STEM team contract assignment (define roles, expectations, and safety protocols)
-- ✅ Case analysis: [Ant Colony Optimization in Network Design](https://www.sciencedirect.com/science/article/pii/S1877050915004978)
-- ✅ Simulation: [NASA Robotics Challenge Team Exercise](https://www.nasa.gov/stem/moon2mars/overview/moon.html)
+- ✅ Case analysis: 
 
 ---
 
