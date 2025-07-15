@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Welcome to Bioinspired Communication & Ethics
-permalink: /Bioinspired-Communication-Ethics
+permalink: /
 ---
 
 # Welcome to the Course!
@@ -24,4 +24,4 @@ This graduate-level course trains students from diverse academic backgrounds in 
 
 - [Course Syllabus](/syllabus)
 - [Module Schedule](/schedule)
-- [Research Ethics Module](/modules/ethics)
+- [Research Ethics Module](/Bioinspired-Communication-Ethics/modules/ethics)
