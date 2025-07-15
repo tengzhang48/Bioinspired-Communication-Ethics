@@ -10,6 +10,6 @@ permalink: /modules/paper/
 ---
 
 <div class="module-nav">
-  <a href="/Bioinspired-Communication-Ethics/modules/paper/" class="btn">← Scientific writing & Peer Review</a>
-  <a href="/Bioinspired-Communication-Ethics/modules/ethics/" class="btn"> Research Ethics →</a>
+  <a href="/Bioinspired-Communication-Ethics/modules/foundation/" class="btn">← Team Work</a>
+  <a href="/Bioinspired-Communication-Ethics/modules/proposal/" class="btn"> Proposal Writting and Review →</a>
 </div>
