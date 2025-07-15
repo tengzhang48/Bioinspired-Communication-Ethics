@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Welcome to Bioinspired Communication & Ethics
-permalink: /
+permalink: /Bioinspired-Communication-Ethics
 ---
 
 # Welcome to the Course!
