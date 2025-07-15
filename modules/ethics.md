@@ -18,7 +18,7 @@ Team-based analysis of ethical case studies focusing on:
 
 ### Guest Lecturer
 
-**XX JD** from XX Medical University
+**Prof. Sarah Reckess, JD** from Upstate Medical University
 
 ## Key Activities
 
