@@ -22,6 +22,6 @@ This graduate-level course trains students from diverse academic backgrounds in 
 
 ### 🔗 Quick Links
 
-- [Course Syllabus](/syllabus)
-- [Module Schedule](/schedule)
-- [Research Ethics Module](/Bioinspired-Communication-Ethics/modules/ethics)
+- [Course Syllabus]({{ site.baseurl }}/syllabus)
+- [Module Schedule]({{ site.baseurl }}/schedule)
+- [Research Ethics]({{ site.baseurl }}/modules/ethics/)
