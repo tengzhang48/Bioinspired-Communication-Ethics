@@ -55,7 +55,7 @@ This module introduces the foundations of working in effective, diverse, and int
 
 - 📄 [NSF: Convergence Research Program Overview](https://www.nsf.gov/od/oia/convergence/index.jsp)
 - 📄 [“Convergence in Bioinspired Engineering” – Science](https://www.science.org/doi/10.1126/science.1246431)
-- 📄 [“Convergence: The Future of Health” – MIT Report](https://dc.mit.edu/sites/default/files/2020-07/Convergence_The_Future_of_Health.pdf)
+- 📄 [“Convergence: The Future of Health” – MIT Report](https://www.aplu.org/wp-content/uploads/convergence_futureofHealth.pdf)
 - 🎥 [Video: NSF's Vision for Convergence Research](https://www.youtube.com/watch?v=8BNc1d4WSdQ)
 - 📄 [Biomimicry Case Studies: Nature-Inspired Solutions](https://biomimicry.org/what-is-biomimicry/)
 - 🎥 [Video: NSF Growing Convergence Research case Studies: Reversing Inland Freshwater Salinization](https://www.youtube.com/watch?v=XuhH3Qir4kM)
