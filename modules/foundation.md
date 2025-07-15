@@ -9,6 +9,6 @@ permalink: /modules/foundation/
 ---
 
 <div class="module-nav">
-  <a href="/Bioinspired-Communication-Ethics/modules/proposal/" class="btn">← Scientific writing & Peer Review</a>
-  <a href="/Bioinspired-Communication-Ethics/modules/ethics/" class="btn">Foundations →</a>
+  <a href="/Bioinspired-Communication-Ethics/modules/ethics/" class="btn">← Research Ethics</a>
+  <a href="/Bioinspired-Communication-Ethics/modules/proposal/" class="btn">Scientific writing & Peer Review →</a>
 </div>
