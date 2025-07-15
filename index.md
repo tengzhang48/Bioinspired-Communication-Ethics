@@ -25,3 +25,6 @@ This graduate-level course trains students from diverse academic backgrounds in 
 - [Course Syllabus]({{ site.baseurl }}/syllabus)
 - [Module Schedule]({{ site.baseurl }}/schedule)
 - [Research Ethics]({{ site.baseurl }}/modules/ethics/)
+- [Research Foundation]({{ site.baseurl }}/modules/foundation/)
+- [Scientific Writing & Review]({{ site.baseurl }}/modules/paper/)
+- [Proposal Writing & Review]({{ site.baseurl }}/modules/proposal/)
