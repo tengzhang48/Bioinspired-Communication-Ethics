@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Foundations
+title: Research Foundations
 permalink: /modules/foundation/
 ---
 ## Module 1 Content
