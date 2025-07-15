@@ -35,7 +35,7 @@ This module introduces the foundations of working in effective, diverse, and int
 - 📄 [“Managing Multidisciplinary Teams in STEM Research” – Nature](https://www.nature.com/articles/d41586-020-01789-8)
 - 🎥 [Video: What Makes a Team Successful? (MIT Sloan)](https://www.youtube.com/watch?v=Q8pA3JH3jYg)
 - 📄 [STEM Team Strategies from National Science Foundation](https://www.nsf.gov/pubs/2018/nsf18045/nsf18045.pdf)
-- 📄 [Conflict Resolution in Engineering Teams](https://ctl.yale.edu/sites/default/files/basic-page-supplementary-materials-files/team_agreement_template_1.pdf)
+- 📄 [Conflict Resolution in Science and Engineering Teams](https://www.science.org/content/article/conflict-your-research-group-here-are-four-strategies-finding-resolution)
 
 ---
 
@@ -56,8 +56,9 @@ This module introduces the foundations of working in effective, diverse, and int
 - 📄 [NSF: Convergence Research Program Overview](https://www.nsf.gov/od/oia/convergence/index.jsp)
 - 📄 [“Convergence in Bioinspired Engineering” – Science](https://www.science.org/doi/10.1126/science.1246431)
 - 📄 [“Convergence: The Future of Health” – MIT Report](https://dc.mit.edu/sites/default/files/2020-07/Convergence_The_Future_of_Health.pdf)
-- 🎥 [Video: NSF's Vision for Convergence Research](https://www.youtube.com/watch?v=JWbZ3TbTKF8)
+- 🎥 [Video: NSF's Vision for Convergence Research](https://www.youtube.com/watch?v=8BNc1d4WSdQ)
 - 📄 [Biomimicry Case Studies: Nature-Inspired Solutions](https://biomimicry.org/what-is-biomimicry/)
+- 🎥 [Video: NSF Growing Convergence Research case Studies: Reversing Inland Freshwater Salinization](https://www.youtube.com/watch?v=XuhH3Qir4kM)
 
 ---
 
