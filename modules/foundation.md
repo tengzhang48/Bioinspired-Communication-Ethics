@@ -24,7 +24,7 @@ This module introduces the foundations of working in effective, diverse, and int
 
 - 🔗 [CATME Official Website](https://info.catme.org/)
 - 📄 [CATME Student Guide: How to Use the System](https://info.catme.org/student/student-help/)
-- 🎥 [Video: Student Introduction to CATME (YouTube)](https://www.youtube.com/watch?v=2S9hVQYJb8g)
+- 🎥 [Video: Student Introduction to CATME (YouTube)](https://www.youtube.com/watch?v=HhZxVf0YpDc)
 - 📄 [Peer Evaluation Best Practices for Students](https://info.catme.org/student/student-help/peer-evaluation/)
 
 ---
