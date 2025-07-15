@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Scientific Literature Review
+title: Scientific writing & Peer Review
 ---
-## Module 1 Content
+## Module 2 Content
 - Team-building resources
 - [Literature review guide](link)
