@@ -2,6 +2,6 @@
 layout: page
 title: Proposal Writting and Review
 ---
-## Module 1 Content
+## Module 3 Content
 - Team-building resources
 - [Literature review guide](link)
