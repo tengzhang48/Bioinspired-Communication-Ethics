@@ -6,7 +6,7 @@ permalink: /modules/paper/
 ## Module 2 Content
 - Team-building resources
 - [Literature review guide](link)
-
+- https://www.nature.com/articles/s41586-025-09304-4
 ---
 
 <div class="module-nav">
