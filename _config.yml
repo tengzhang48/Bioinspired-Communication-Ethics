@@ -1,64 +1,24 @@
-# Site Settings
+# Site settings
 title: "MAE 600: Bioinspired Communication & Ethics"
 email: tzhang48@syr.edu
 description: >-
   Graduate course on bioinspired communication and ethics at Syracuse University
-baseurl: "/Bioinspired-Communication-Ethics" # Important: must match your repository name
+baseurl: "/Bioinspired-Communication-Ethics"
 url: "https://tengzhang48.github.io"
 repository: "tengzhang48/Bioinspired-Communication-Ethics"
-author: "Teng Zhang"
 
-# Build Settings
+# Build settings
 markdown: kramdown
-highlighter: rouge
 permalink: pretty
-exclude:
-  - "*.gem"
-  - "*.rbc"
-  - "Gemfile*"
-  - "LICENSE.txt"
-  - "README.md"
-  - "CNAME"
-  - "vendor"
-
-# Theme Settings
-theme: jekyll-theme-minimal
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-relative-links
+  - jekyll-sitemap
 
-# Navigation Settings
-header_pages:
-  - index.md
-  - syllabus.md
-  - modules/foundation/index.md
-  - modules/paper/index.md
-  - modules/proposal/index.md
-  - modules/ethics/index.md
-
-# Collections
+# Collection configuration
 collections:
   modules:
     output: true
-    permalink: /:collection/:path/
-
-# Custom Variables
-course:
-  instructor: "Teng Zhang"
-  office: "Link Hall 214"
-  credits: "3"
-  university: "Syracuse University"
-  department: "Mechanical and Aerospace Engineering"
-  course_number: "MAE 600"
-  semester: "Fall 2023"
-
-# SEO Settings
-twitter:
-  username: SyracuseU
-social:
-  name: Teng Zhang
-  links:
-    - https://github.com/tengzhang48
-    - mailto:tzhang48@syr.edu
+    permalink: /modules/:path/
