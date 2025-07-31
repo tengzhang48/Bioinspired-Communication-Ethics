@@ -128,6 +128,6 @@ This module connects bioinspired principles with ethical considerations:
 ---
 
 <div class="module-nav">
-  <a href="{{ site.baseurl }}/modules/proposal/" class="btn">← Proposal Writing & Review</a>
-  <a href="{{ site.baseurl }}/modules/foundation/" class="btn">Team Work →</a>
+  <a href="../proposal/" class="btn">← Proposal Writing & Review</a>
+  <a href="../foundation/" class="btn">Team Work →</a>
 </div>
