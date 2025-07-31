@@ -91,8 +91,8 @@ This schedule outlines the topics, readings, and assignments for the semester. A
 
 ## 🔗 Related Resources
 
-- [Course Syllabus](syllabus)
-- [Team Foundations Module](modules/foundation)
-- [Scientific Writing Module](modules/paper)
-- [Proposal Writing Module](modules/proposal)
-- [Research Ethics Module](modules/ethics)
+- [Course Syllabus](../syllabus)
+- [Team Foundations Module](../modules/foundation)
+- [Scientific Writing Module](../modules/paper)
+- [Proposal Writing Module](../modules/proposal)
+- [Research Ethics Module](../modules/ethics)
