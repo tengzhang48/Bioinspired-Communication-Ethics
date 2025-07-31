@@ -152,6 +152,6 @@ This module connects bioinspired principles with scientific communication:
 ---
 
 <div class="module-nav">
-  <a href="{{ site.baseurl }}/modules/foundation/" class="btn">← Team Work</a>
-  <a href="{{ site.baseurl }}/modules/proposal/" class="btn">Proposal Writing & Review →</a>
+  <a href="../foundation/" class="btn">← Team Work</a>
+  <a href="../proposal/" class="btn">Proposal Writing & Review →</a>
 </div>
