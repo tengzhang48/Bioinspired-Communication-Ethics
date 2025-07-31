@@ -4,9 +4,10 @@ title: "MAE 600: Bioinspired Communication & Ethics"
 permalink: /
 ---
 
-# Welcome to MAE 600: Bioinspired Communication & Ethics
-
-![Bioinspired Communication Banner](https://via.placeholder.com/1200x300?text=Bioinspired+Communication+%26+Ethics+Course)
+<div style="background: linear-gradient(135deg, #1a3a5f 0%, #2c3e50 100%); color: white; padding: 40px 20px; border-radius: 8px; margin-bottom: 30px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <h1 style="margin: 0; font-size: 2.5em; letter-spacing: -0.5px;">Bioinspired Communication & Ethics</h1>
+  <p style="font-size: 1.3em; opacity: 0.9; max-width: 800px; margin: 15px auto 0; font-weight: 300;">MAE 600 - Graduate Course at Syracuse University</p>
+</div>
 
 *This graduate-level course trains students from diverse academic backgrounds in interdisciplinary research, with examples from biological and bioinspired systems.*
 
@@ -45,21 +46,28 @@ NSF-style grant proposal development, presentations, and mock panel review
 ### ⚖️ Module 4: Ethics (with Prof. Sarah Reckess, JD)
 Ethical case studies, dual-use research discussions, and AI ethics considerations
 
-## 📚 Course Syllabus
-View the complete course syllabus [here](syllabus/).
+## 📚 Essential Resources
 
-## 📅 Modules
-- [Team Foundations](modules/foundation/)
-- [Scientific Writing & Peer Review](modules/paper/)
-- [Proposal Writing & Review](modules/proposal/)
-- [Research Ethics](modules/ethics/)
+- [Course Syllabus](syllabus)
+- [Module Schedule](schedule)
+- [Research Ethics Resources](modules/ethics)
+- [Research Foundation Materials](modules/foundation)
+- [Scientific Writing & Review](modules/paper)
+- [Proposal Writing & Review](modules/proposal)
 
 ## 📂 Repository Structure
 
 The GitHub repository is organized to support your learning:
-├── docs/ # This website content
-├── syllabus.md # Complete course syllabus
-├── lectures/ # Lecture slides and materials
-├── assignments/ # Assignment descriptions and templates
-├── resources/ # Supplementary readings
-└── ethics-handbook/ # Ethics guidelines and case studies
+├── index.md # Homepage
+├── syllabus.md # Course syllabus
+├── schedule.md # Course schedule
+├── modules/ # Course modules
+│ ├── foundation/ # Team foundations
+│ │ └── index.md # Module content
+│ ├── paper/ # Scientific writing
+│ │ └── index.md # Module content
+│ ├── proposal/ # Proposal writing
+│ │ └── index.md # Module content
+│ └── ethics/ # Research ethics
+│ └── index.md # Module content
+└── _config.yml # Site configuration
