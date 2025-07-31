@@ -43,20 +43,36 @@ This module introduces the essential elements of working in effective, diverse, 
 - 📄 [**"The Secrets of Great Teamwork" – Harvard Business Review**](https://hbr.org/2016/06/the-secrets-of-great-teamwork)
   > *"What matters most isn't the personalities or behavior of the team members; it's whether a team has a compelling direction, a strong structure, and a supportive context. Today's teams also need a shared mindset to overcome 'us versus them' thinking and incomplete information."*
   
-- 📄 [Managing Multidisciplinary Teams in STEM Research – Nature](https://www.nature.com/articles/d41586-020-01789-8)
-- 🎥 [Video: What Makes a Team Successful? (MIT Sloan)](https://www.youtube.com/watch?v=Q8pA3JH3jYg)
-- 📄 [STEM Team Strategies from National Science Foundation](https://www.nsf.gov/pubs/2018/nsf18045/nsf18045.pdf)
-- 📄 [Conflict Resolution in Research Groups: Four Strategies for Finding Resolution](https://www.science.org/content/article/conflict-your-research-group-here-are-four-strategies-finding-resolution)
+- 📄 [**"Team Science: A Guide to Collaborative Research" – National Academies**](https://www.nationalacademies.org/keck/committee-on-the-principles-of-scientific-inquiry/team-science)
+  > *"Successful team science requires attention to team composition, leadership, communication, and institutional support. Teams that invest in relationship-building and shared understanding outperform those that focus solely on technical aspects."*
+
+- 🎥 [**Video: The Science of Building Great Teams – MIT**](https://www.youtube.com/watch?v=VHRj7LkA8E8)
+  > *Professor Alex Pentland presents research on team dynamics and what makes teams truly effective, based on data from hundreds of teams.*
+
+- 📄 [**NSF Convergence Accelerators: Team Science Strategies**](https://www.nsf.gov/pubs/2018/nsf18045/nsf18045.pdf)
+  > *This NSF guide provides practical strategies for building effective STEM research teams, including case studies of successful convergence research projects.*
+
+- 📄 [**Conflict Resolution in Research Groups: Four Strategies for Finding Resolution**](https://www.science.org/content/article/conflict-your-research-group-here-are-four-strategies-finding-resolution)
+  > *"When conflict arises in research groups, addressing it directly and constructively is essential. These four strategies can help researchers navigate disagreements while maintaining productive working relationships."*
 
 ---
 
 ## 🔬 What is Interdisciplinary Research?
 
-- 📄 [National Academies Report: Facilitating Interdisciplinary Research](https://nap.nationalacademies.org/catalog/11153/facilitating-interdisciplinary-research)
-- 📄 ["Interdisciplinary Research in STEM: Philosophy and Practice" – PNAS](https://www.pnas.org/doi/10.1073/pnas.0400238101)
-- 🎥 [Video: Why Interdisciplinary Research Matters (UCL)](https://www.youtube.com/watch?v=sflgjko2nao)
-- 📄 [Case Study: Human Genome Project Collaboration](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project)
-- 📄 [NASA's Interdisciplinary Team Approach](https://www.nasa.gov/hrp/bodyinspace)
+- 📄 [**National Academies Report: Facilitating Interdisciplinary Research**](https://nap.nationalacademies.org/catalog/11153/facilitating-interdisciplinary-research)
+  > *"Interdisciplinary research integrates information, data, techniques, tools, perspectives, concepts, and/or theories from two or more disciplines or bodies of specialized knowledge to advance fundamental understanding or to solve problems whose solutions are beyond the scope of a single discipline or area of research practice."*
+
+- 📄 [**"Interdisciplinary Research: What Is It and How Can It Be Supported?" – Frontiers**](https://www.frontiersin.org/articles/10.3389/feduc.2020.00079/full)
+  > *"Interdisciplinary research requires not just bringing together experts from different fields, but creating a shared language and framework that transcends disciplinary boundaries."*
+
+- 🎥 [**Video: Why Interdisciplinary Research is Important – Oxford University**](https://www.youtube.com/watch?v=9YfYkIeQ5qA)
+  > *This video explains why complex problems require interdisciplinary approaches and how researchers can effectively collaborate across disciplinary boundaries.*
+
+- 📄 [**Case Study: Human Genome Project Collaboration**](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project)
+  > *The Human Genome Project stands as a landmark example of successful interdisciplinary collaboration, bringing together biologists, computer scientists, ethicists, and engineers.*
+
+- 📄 [**NASA's Approach to Interdisciplinary Research**](https://science.nasa.gov/science-research/research-infrastructure/interdisciplinary-research)
+  > *NASA's approach to interdisciplinary research demonstrates how space exploration challenges require integration of diverse scientific disciplines to develop comprehensive solutions.*
 
 ---
 
@@ -64,11 +80,11 @@ This module introduces the essential elements of working in effective, diverse, 
 
 > Convergence research integrates knowledge, tools, and ways of thinking from multiple disciplines to solve complex societal problems. It goes beyond traditional interdisciplinary work by creating new frameworks that transcend disciplinary boundaries.
 
-- 📄 [NSF: Convergence Research Program Overview](https://www.nsf.gov/od/oia/convergence/index.jsp)
-- 📄 ["Convergence: The Future of Health" – MIT Report](https://www.aplu.org/wp-content/uploads/convergence_futureofHealth.pdf)
-- 🎥 [Video: NSF's Vision for Convergence Research](https://www.youtube.com/watch?v=8BNc1d4WSdQ)
-- 📄 [Biomimicry Case Studies: Nature-Inspired Solutions](https://biomimicry.org/what-is-biomimicry/)
-- 🎥 [Video: NSF Growing Convergence Research Case Studies: Reversing Inland Freshwater Salinization](https://www.youtube.com/watch?v=XuhH3Qir4kM)
+- 📄 [**NSF: Convergence Research Program Overview**](https://www.nsf.gov/od/oia/convergence/index.jsp)
+- 📄 [**"Convergence: The Future of Health" – MIT Report**](https://www.aplu.org/wp-content/uploads/convergence_futureofHealth.pdf)
+- 🎥 [**Video: NSF's Vision for Convergence Research**](https://www.youtube.com/watch?v=8BNc1d4WSdQ)
+- 📄 [**Biomimicry Case Studies: Nature-Inspired Solutions**](https://biomimicry.org/what-is-biomimicry/)
+- 🎥 [**Video: NSF Growing Convergence Research Case Studies: Reversing Inland Freshwater Salinization**](https://www.youtube.com/watch?v=XuhH3Qir4kM)
 
 ---
 
