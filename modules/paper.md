@@ -28,8 +28,15 @@ This module provides comprehensive training in scientific communication through 
 - 📄 [**"Whitesides' Group: How to Write a Paper"**](https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper)
   > *"A paper is not a scientific result; it is a communication about a scientific result. The goal of writing is communication, not the documentation of research activity."* This seminal guide from Harvard's Whitesides Group provides practical advice on structuring papers, writing clearly, and avoiding common pitfalls.
 
-- 🎥 [**"How to Write a Scientific Paper" – MIT Video Tutorial**](https://www.youtube.com/watch?v=q3mrRH2aS98)
-  > *This comprehensive video covers the entire paper writing process, from planning and structure to editing and submission, with specific examples from engineering and physical sciences.*
+- 🎥 [**"How to Write a Paper" – Whitesides Group Video Tutorial**](https://www.youtube.com/watch?v=q3mrRH2aS98)
+  > *This comprehensive video from the Whitesides Group covers essential strategies for effective scientific writing, including structure, clarity, and communication principles specifically for bioinspired and interdisciplinary research.*
+
+- 📄 [**TechRabbits: Complete Guide to Scientific Publication**](https://www.hyunwooyuk.com/table-of-contents.html)
+  > *This detailed resource covers the entire publication journey from literature reviews through post-acceptance tasks, with specific sections on:*
+  > - Publication Process (6-part series covering presubmission to acceptance)
+  > - Scientific Figure Preparation (including color theory and design basics)
+  > - Literature Review strategies
+  > *Particularly valuable for understanding the "Art of Rebuttal" when responding to reviewer comments.*
 
 - 📄 [**Nature Portfolio: Author Instructions**](https://www.nature.com/nature-portfolio/editorial-policies)
   > *Detailed guidelines from one of the world's leading scientific publishers on manuscript preparation, ethical standards, and the submission process.*
@@ -46,14 +53,18 @@ This module provides comprehensive training in scientific communication through 
 - 📄 [**Nature: How to Review a Paper**](https://www.nature.com/nature-portfolio/editorial-policies/how-review-paper)
   > *"Peer review is the backbone of the scholarly publication system. It helps editors decide which papers to publish and provides authors with constructive feedback to improve their work."* This guide outlines the responsibilities of reviewers and provides a structured approach to evaluation.
 
+- 📄 [**eLife: Transparent Review Process**](https://elifesciences.org/inside-elife/3d8c981b/transparent-peer-review-at-elife)
+  > *"eLife publishes review reports alongside accepted papers, creating a transparent record of the scientific evaluation process."* This resource shows actual examples of published review histories, including:
+  > - Initial reviewer comments
+  > - Author responses
+  > - Final editorial decisions
+  > *Excellent for understanding how transparent peer review works in practice.*
+
 - 📄 [**PLOS ONE: Peer Review Criteria**](https://journals.plos.org/plosone/s/criteria-for-publication)
   > *Transparent criteria used by one of the world's largest open-access journals, emphasizing methodological rigor over perceived impact.*
 
 - 📄 [**COPE: Ethical Guidelines for Peer Reviewers**](https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers.pdf)
   > *The Committee on Publication Ethics provides essential guidelines for maintaining integrity throughout the review process.*
-
-- 📄 [**Transparent Peer Review: Nature Portfolio Pilot**](https://www.nature.com/nature-portfolio/editorial-policies/transparent-peer-review)
-  > *Learn about the growing movement toward publishing review reports alongside articles to increase accountability and improve the review process.*
 
 ---
 
@@ -62,11 +73,14 @@ This module provides comprehensive training in scientific communication through 
 > **Learning from Real Examples**  
 > One of the most effective ways to learn peer review is by examining actual published review reports and author responses.
 
-- 📄 [**Example: Published Review Reports from Nature Communications**](https://www.nature.com/ncomms/)
+- 📄 [**eLife Published Review Histories**](https://elifesciences.org/articles/87398#public-review)
+  > *Browse complete review histories for published eLife papers, including initial submissions, reviewer comments, author responses, and editorial decisions.*
 
-- 📄 [**Case Study: Transparent Review Process in PLOS ONE**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0256363)
+- 📄 [**Nature Communications: Published Peer Review**](https://www.nature.com/ncomms/)
+  > *Nature Communications offers authors the option to publish peer review reports alongside their articles.*
 
 - 📄 [**Response to Reviewers: A Template Approach**](https://www.nature.com/scitable/blog/mental_elixir/how_to_respond_to_peer_reviewers/)
+  > *Practical guidance on crafting professional, effective responses to reviewer comments.*
 
 ---
 
@@ -121,7 +135,7 @@ This module connects bioinspired principles with scientific communication:
 
 **Implementation Tips**:
 - Use CATME for peer review assignments to ensure fair distribution of review workload
-- Consider implementing transparent peer review where students can see each other's reviews
+- Have students analyze actual eLife review histories to see transparent peer review in action
 - Connect writing exercises to the bioinspired communication theme (e.g., "Write an abstract for a paper inspired by ant colony communication systems")
 
 ---
@@ -133,6 +147,7 @@ This module connects bioinspired principles with scientific communication:
 - 📄 [**Editage Insights: Academic Writing Resources**](https://www.editage.com/insights/)
 - 📄 [**How to Respond to Reviewer Comments – Nature Guide**](https://www.nature.com/scitable/blog/mental_elixir/how_to_respond_to_peer_reviewers/)
 - 📄 [**Ethical Peer Review: A Guide for Researchers**](https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers.pdf)
+- 📄 [**eLife Review Process Case Studies**](https://elifesciences.org/inside-elife/8c0c8e6e/learning-from-the-review-process-a-case-study)
 
 ---
 
