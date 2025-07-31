@@ -28,8 +28,8 @@ This module provides comprehensive training in scientific communication through 
 - 📄 [**"Whitesides' Group: How to Write a Paper"**](https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper)
   > *"A paper is not a scientific result; it is a communication about a scientific result. The goal of writing is communication, not the documentation of research activity."* This seminal guide from Harvard's Whitesides Group provides practical advice on structuring papers, writing clearly, and avoiding common pitfalls.
 
-- 🎥 [**"How to Write a Paper" – Whitesides Group Video Tutorial**](https://www.youtube.com/watch?v=q3mrRH2aS98)
-  > *This comprehensive video from the Whitesides Group covers essential strategies for effective scientific writing, including structure, clarity, and communication principles specifically for bioinspired and interdisciplinary research.*
+- 🎥 [**"How to Write a Paper" – Prof. Whitesides Video Tutorial**](https://www.youtube.com/watch?v=q3mrRH2aS98)
+  > *This comprehensive video from the Prof. Whitesides covers essential strategies for effective scientific writing, including structure, clarity, and communication principles specifically for bioinspired and interdisciplinary research.*
 
 - 📄 [**TechRabbits: Complete Guide to Scientific Publication**](https://www.hyunwooyuk.com/table-of-contents.html)
   > *This detailed resource covers the entire publication journey from literature reviews through post-acceptance tasks, with specific sections on:*
