@@ -94,6 +94,3 @@ The grading is based on a combination of individual and group assessments, desig
 | D | 60-69 |
 | F | Below 60 |
 
-## 📂 Repository Structure
-
-This GitHub repository contains course materials organized as follows:
