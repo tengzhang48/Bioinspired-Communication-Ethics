@@ -24,6 +24,19 @@ permalink: /
 - **Open Repository:** [GitHub Course Materials](https://github.com/tengzhang48/Bioinspired-Communication-Ethics)
 - **Public Course Website:** [tengzhang48.github.io/Bioinspired-Communication-Ethics](https://tengzhang48.github.io/Bioinspired-Communication-Ethics/)
 
+## 🔷 Part of EMIRGE-Bio NRT Program
+
+This course is part of the NSF Research Traineeship (NRT) program,  
+**Emergent Intelligence Research for Graduate Excellence in Biological and Bio-Inspired Systems (EMIRGE-Bio)**.
+
+The EMIRGE-Bio program trains students to:
+- **Communicate** their knowledge and value expertise in others on diverse teams
+- **Recognize and analyze** emergent behavior in biological and bio-inspired systems
+- **Design and evaluate** intelligent responses that allow such systems to sense, actuate, and learn
+
+Learn more at:  
+[https://bioinspired.syr.edu/emirge-bio/](https://bioinspired.syr.edu/emirge-bio/)
+
 ## 🔐 Blackboard Access Instructions
 
 To access course materials on Blackboard:
