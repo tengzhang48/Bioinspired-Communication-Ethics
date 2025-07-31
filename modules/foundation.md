@@ -125,6 +125,6 @@ This module establishes the foundation for all subsequent team-based work in the
 ---
 
 <div class="module-nav">
-  <a href="{{ site.baseurl }}/modules/ethics/" class="btn">← Research Ethics</a>
-  <a href="{{ site.baseurl }}/modules/paper/" class="btn">Scientific Writing & Peer Review →</a>
+  <a href="../ethics/" class="btn">← Research Ethics</a>
+  <a href="../paper/" class="btn">Scientific Writing & Peer Review →</a>
 </div>
