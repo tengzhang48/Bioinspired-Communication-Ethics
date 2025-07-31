@@ -62,7 +62,7 @@ Ethical case studies, dual-use research discussions, and AI ethics consideration
 ## 📚 Essential Resources
 
 - [Course Syllabus](syllabus)
-- [Module Schedule](schedule)
+- [Course Schedule](schedule)
 - [Research Ethics Resources](modules/ethics)
 - [Research Foundation Materials](modules/foundation)
 - [Scientific Writing & Review](modules/paper)
