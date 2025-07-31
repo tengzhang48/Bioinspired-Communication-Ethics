@@ -24,7 +24,7 @@ This module provides a focused exploration of ethical considerations in bioinspi
 ## 👥 Guest Lecturer
 
 ### Dr. Sarah Reckess, JD
-**Associate Professor of Bioethics, Upstate Medical University**
+**Assistant Professor of Bioethics, Upstate Medical University**
 
 > *"The complexity and rapid advances of research, as well as numerous instances of deception, conflicts of interest, and inappropriate practices, suggest that merely having good intentions is not always sufficient. This module will help you develop the moral reasoning skills necessary to navigate ethical challenges in bioinspired research."*
 
