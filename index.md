@@ -45,14 +45,14 @@ NSF-style grant proposal development, presentations, and mock panel review
 ### ⚖️ Module 4: Ethics (with Prof. Sarah Reckess, JD)
 Ethical case studies, dual-use research discussions, and AI ethics considerations
 
-## 📚 Essential Resources
+## 📚 Course Syllabus
+View the complete course syllabus [here](syllabus/).
 
-- [Course Syllabus](/syllabus/)
-- [Module Schedule](/schedule/)
-- [Research Ethics Resources](/modules/ethics/)
-- [Research Foundation Materials](/modules/foundation/)
-- [Scientific Writing & Review](/modules/paper/)
-- [Proposal Writing & Review](/modules/proposal/)
+## 📅 Modules
+- [Team Foundations](modules/foundation/)
+- [Scientific Writing & Peer Review](modules/paper/)
+- [Proposal Writing & Review](modules/proposal/)
+- [Research Ethics](modules/ethics/)
 
 ## 📂 Repository Structure
 
