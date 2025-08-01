@@ -65,14 +65,11 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
 - 📄 [**Ethical, Legal, and Social Implications of Ingestible and Implantable Devices**](https://www.cell.com/device/fulltext/S2666-9986(25)00154-1)
   > *"Our analysis found that informed consent documentation and processes do not adequately convey risks related to data use and health effects of these technologies."* This paper provides a framework for analyzing ethical concerns that directly applies to bioinspired communication technologies that interface with biological systems, particularly regarding privacy, consent, and regulatory gaps.
 
-- 📄 [**Ethical Guidelines for Bioinspired Design**](https://www.nature.com/articles/s41598-021-98814-5)
-  > *"Bioinspired design must consider not only technical feasibility but also the ethical implications of transferring biological principles to technological applications."* This paper establishes a comprehensive framework for ethical considerations in bioinspired design, including respect for nature, avoiding biomimetic appropriation, and considering long-term ecological impacts.
+📄 [**Biomimethics: A Critical Perspective on the Ethical Implications of Biomimetics in Technological Innovation**](https://doi.org/10.1088/1748-3190/ace7a2)
+> *“This perspective outlines the moral, ethical, and legal challenges inherent to bio‑inspired technologies, urging practitioners to consider motivations, valuation of nature, and responsible commercialization.”* :contentReference[oaicite:5]{index=5}
 
 - 📄 [**Ethics Guidelines for Trustworthy AI - European Commission**](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
   > *"Trustworthy AI should be: (1) lawful - respecting all applicable laws and regulations, (2) ethical - respecting ethical principles and values, (3) robust - both from a technical perspective while taking into account its social environment."* This framework provides essential guidelines for AI applications within bioinspired communication systems.
-
-- 📄 [**Conflict in Research Groups: Four Strategies for Finding Resolution**](https://www.science.org/content/article/conflict-your-research-group-here-are-four-strategies-finding-resolution)
-  > *"When conflict arises in research groups, addressing it directly and constructively is essential. These four strategies can help researchers navigate disagreements while maintaining productive working relationships."* Particularly relevant for interdisciplinary teams working on ethically complex bioinspired projects.
 
 ---
 
