@@ -174,7 +174,7 @@ This module provides comprehensive training in research proposal development and
 
 ---
 
-<div class="module-nav">
-  <a href="../paper/" class="btn">← Scientific Writing & Peer Review</a>
-  <a href="../ethics/" class="btn">Research Ethics →</a>
+<div class="module-nav" style="margin-right: 30px;">
+  <a href="../paper/" class="btn" style="margin-right: 40px;">← Scientific Writing & Peer Review</a>
+  <a href="../ethics/" class="btn" style="margin-right: 40px;">Research Ethics →</a>
 </div>
