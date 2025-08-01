@@ -62,8 +62,8 @@ This module introduces the essential elements of working in effective, diverse, 
 - 📄 [**National Academies Report: Facilitating Interdisciplinary Research**](https://nap.nationalacademies.org/catalog/11153/facilitating-interdisciplinary-research)
   > *"Interdisciplinary research integrates information, data, techniques, tools, perspectives, concepts, and/or theories from two or more disciplines or bodies of specialized knowledge to advance fundamental understanding or to solve problems whose solutions are beyond the scope of a single discipline or area of research practice."*
 
-- 🎥 [**Video: Why Interdisciplinary Research is Important – Oxford University**](https://youtu.be/J-qmo0X_2Xw)
-  > *This video highlights how Oxford University brings together multiple disciplines to address global issues with interdisciplinary research.*
+🎥 [**Video: How an Interdisciplinary Approach Makes All the Difference – Oxford Martin School**](https://www.youtube.com/watch?v=py6R1rK_Yu4)  
+> A clear case study showing how Oxford integrates diverse academic strengths to drive collaborative outcomes.
 
 - 📄 [**Case Study: Human Genome Project Collaboration**](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project)
   > *The Human Genome Project stands as a landmark example of successful interdisciplinary collaboration, bringing together biologists, computer scientists, ethicists, and engineers.*
