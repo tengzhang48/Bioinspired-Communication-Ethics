@@ -42,31 +42,32 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
 - 📄 [**NSF's Responsible Conduct of Research (RCR) Guidelines**](https://www.nsf.gov/bfa/dias/policy/rcr.jsp)
   > *NSF's comprehensive guidelines covering research ethics across all scientific disciplines, with specific sections relevant to interdisciplinary and bioinspired research.*
 
-- 📄 [**Responsible Research and Innovation Framework**](https://ec.europa.eu/research/swafs/pdf/pub_ethics/RRI_principles.pdf)
-  > *A European framework emphasizing anticipation, reflection, inclusion, and responsiveness in research and innovation processes.*
-
 ---
 
 ## 🔬 Case Studies in Bioinspired Ethics
 
 ### ▶️ Dual-Use Research Considerations
 
-- 📄 [**Dual Use Research of Concern: A Framework for Identifying, Assessing, and Managing**](https://www.phe.gov/s3/dualuse/Documents/DURC-Framework.pdf)
-  > *"Dual-use research has legitimate scientific purpose but could potentially be misapplied to pose a threat to public health and safety."* This framework helps researchers identify and manage dual-use concerns in bioinspired communication research.
+- 📄 [**U.S. Government Policy for Oversight of Dual-Use Research of Concern**](https://aspr.hhs.gov/S3/Pages/Dual-Use-Research-of-Concern-Oversight-Policy-Framework.aspx)
+  > *"Research that can be reasonably anticipated to provide knowledge, products, or technologies that could be misapplied to pose a significant threat."* Official framework for identifying and managing DURC in bioinspired systems, with specific guidance for synthetic biology and communication technologies.
 
-- 📄 [**Biosecurity and Dual Use in the Life Sciences: A Framework for Education**](https://nap.nationalacademies.org/catalog/12434/biosecurity-and-dual-use-in-the-life-sciences-a-framework-for)
-  > *Practical guidance for identifying dual-use concerns in biological research, with applications to bioinspired systems.*
+- 📄 [**Biosecurity Challenges of the Global Expansion of High-Containment Labs**](https://nap.nationalacademies.org/catalog/11330/biosecurity-challenges-of-the-global-expansion-of-high-containment-biological)
+  > *Practical assessment of dual-use risks in biological research with applications to bioinspired communication systems. Includes case studies on technology transfer and knowledge security.*
 
-- 🎥 [**Video: Dual Use Dilemmas in Synthetic Biology**](https://www.youtube.com/watch?v=4dJ0e3YvGqI)
-  > *Case studies demonstrating how bioinspired research can have both beneficial and potentially harmful applications.*
+- 🎥 [**NIH Videocast: Dual-Use Dilemmas in Synthetic Biology**](https://videocast.nih.gov/watch=5990)
+  > *Expert panel discussing real-world case studies where bioinspired research has both beneficial applications and potential security implications, featuring Dr. Claire Fraser-Liggett (NSABB).*
 
 ### ▶️ Bioinspired Communication Ethics
 
 - 📄 [**Ethical, Legal, and Social Implications of Ingestible and Implantable Devices**](https://www.cell.com/device/fulltext/S2666-9986(25)00154-1)
   > *"Our analysis found that informed consent documentation and processes do not adequately convey risks related to data use and health effects of these technologies."* This paper provides a framework for analyzing ethical concerns that directly applies to bioinspired communication technologies that interface with biological systems, particularly regarding privacy, consent, and regulatory gaps.
 
-📄 [**Biomimethics: A Critical Perspective on the Ethical Implications of Biomimetics in Technological Innovation**](https://doi.org/10.1088/1748-3190/ace7a2)
-> *“This perspective outlines the moral, ethical, and legal challenges inherent to bio‑inspired technologies, urging practitioners to consider motivations, valuation of nature, and responsible commercialization.”* :contentReference[oaicite:5]{index=5}
+- 📄 [**Biomimethics: A Critical Perspective on the Ethical Implications of Biomimetics in Technological Innovation**](https://doi.org/10.1088/1748-3190/ace7a2)
+  > *"This perspective outlines the moral, ethical, and legal challenges inherent to bio‑inspired technologies, urging practitioners to consider motivations, valuation of nature, and responsible commercialization."* :contentReference[oaicite:5]{index=5}
+
+- 📄 [**Environmental Ethics and Biomimetic Ethics: Nature as Object and Source of Ethics** – H. Dicks (2017)](*)
+  > *Explores how biomimicry should be evaluated using nature itself as a normative standard—going beyond exploitation to ethical emulation.*  
+:contentReference[oaicite:8]{index=8}
 
 - 📄 [**Ethics Guidelines for Trustworthy AI - European Commission**](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
   > *"Trustworthy AI should be: (1) lawful - respecting all applicable laws and regulations, (2) ethical - respecting ethical principles and values, (3) robust - both from a technical perspective while taking into account its social environment."* This framework provides essential guidelines for AI applications within bioinspired communication systems.
@@ -113,7 +114,8 @@ This module connects bioinspired principles with ethical considerations:
 - Use CATME for team formation in ethics case studies
 - Connect ethics discussions to students' specific bioinspired communication projects
 - Emphasize how ethical considerations can enhance rather than hinder innovation
-- Consider incorporating the Cell paper as a case study for analyzing ethical implications of bioinspired devices
+- Incorporate the NIH videocast as a discussion starter on dual-use dilemmas
+- Use the updated DURC framework for practical risk assessment exercises
 
 ---
 
