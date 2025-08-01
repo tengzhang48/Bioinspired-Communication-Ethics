@@ -108,7 +108,7 @@ Create a team contract that includes:
 
 ---
 
-<div class="module-nav">
-  <a href="../ethics/" class="btn">← Research Ethics</a>
-  <a href="../paper/" class="btn">Scientific Writing & Peer Review →</a>
+<div class="module-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../ethics/" class="btn" style="flex: 1; text-align: left; margin-right: 10px;">← Research Ethics</a>
+  <a href="../paper/" class="btn" style="flex: 1; text-align: right; margin-left: 10px;">Scientific Writing & Peer Review →</a>
 </div>
