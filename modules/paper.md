@@ -125,21 +125,6 @@ This module provides comprehensive training in scientific communication through 
 
 ---
 
-## 💡 Instructor Notes
-
-This module connects bioinspired principles with scientific communication:
-
-- **Bioinspired Writing Structure**: Just as biological systems optimize for efficiency, scientific writing should eliminate unnecessary complexity while maintaining clarity.
-- **Peer Review as an Evolutionary Process**: The iterative review process mirrors natural selection, where only the strongest arguments survive critical evaluation.
-- **Ethical Considerations**: Emphasize how peer review ethics intersect with broader research ethics—particularly regarding dual-use research in bioinspired communication.
-
-**Implementation Tips**:
-- Use CATME for peer review assignments to ensure fair distribution of review workload
-- Have students analyze actual eLife review histories to see transparent peer review in action
-- Connect writing exercises to the bioinspired communication theme (e.g., "Write an abstract for a paper inspired by ant colony communication systems")
-
----
-
 ## 📚 Additional Resources
 
 - 📄 [**"The Science of Scientific Writing" – American Scientist**](https://www.americanscientist.org/article/the-science-of-scientific-writing)
