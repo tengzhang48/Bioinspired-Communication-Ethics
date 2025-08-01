@@ -136,7 +136,7 @@ This module provides comprehensive training in scientific communication through 
 
 ---
 
-<div class="module-nav">
-  <a href="../foundation/" class="btn">← Team Work</a>
-  <a href="../proposal/" class="btn">Proposal Writing & Review →</a>
+<div class="module-nav" style="margin-right: 30px;">
+  <a href="../foundation/" class="btn" style="margin-right: 40px;">← Team Work</a>
+  <a href="../proposal/" class="btn" style="margin-right: 40px;">Proposal Writing & Review →</a>
 </div>
