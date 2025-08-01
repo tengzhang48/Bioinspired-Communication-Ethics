@@ -69,34 +69,3 @@ permalink: /schedule/
 | **Oct 27** | Broader Impacts Statement | Module 3 |
 | **Nov 17** | Complete Proposal Draft | Module 3 |
 | **Dec 15** | Final Project Reports | All Modules |
-
----
-
-## 💡 Important Notes
-1. **Enhanced Ethics Instruction**:
-   - Prof. Sarah Reckess now contributes to all ethics sessions (Nov 3-Dec 1)
-   - Provides specialized workshops on:
-     - Dual-use case studies (Nov 10)
-     - Ethical communication practices (Nov 12)
-     - AI ethics applications (Nov 17)
-     - Biomatter ethics frameworks (Nov 19)
-
-2. **Final Presentation Format**:
-   - Dedicated full-class session on Dec 8
-   - All teams present with integrated ethics reflection
-   - Prof. Reckess provides final commentary
-
-3. **Name Correction**:
-   - Confirmed guest lecturer as "Dr. Hyunoo Yuk"
-
-4. **Schedule Optimization**:
-   - Maintained full Thanksgiving break (Nov 24-28)
-   - Preserved all key assignments and deadlines
-   - NSF GRFP workshop timed for October application cycle
-
-5. **Ethics Module Expansion**:
-   - Added "Ethical Communication of Research Findings" (Nov 12)
-   - Includes practical guidance on:
-     - Responsible reporting standards
-     - Authorship and contribution transparency
-     - Dual-use implications communication
