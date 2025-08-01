@@ -108,16 +108,6 @@ Create a team contract that includes:
 
 ---
 
-## 💡 Instructor Notes
-
-This module establishes the foundation for all subsequent team-based work in the course. Pay special attention to:
-- Ensuring all students complete CATME registration early
-- Facilitating the team contract process to prevent future conflicts
-- Connecting bioinspired principles to team dynamics (e.g., swarm intelligence models for team coordination)
-- Emphasizing how ethical considerations intersect with team formation and dynamics
-
----
-
 <div class="module-nav">
   <a href="../ethics/" class="btn">← Research Ethics</a>
   <a href="../paper/" class="btn">Scientific Writing & Peer Review →</a>
