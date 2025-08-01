@@ -39,8 +39,8 @@ permalink: /schedule/
 | **Mon, Oct 6** | Module 2: Scientific Literature Review | Module 2 Wrap-up | - *Assignment: Final review response due Oct 20* |
 | **Wed, Oct 8** | Module 3: Proposal Prep | NSF Proposal Structure | - Intellectual merit vs. broader impacts |
 | **Mon, Oct 13** | ❌ | **NO CLASS** | *Fall Break* |
-| **Wed, Oct 15** | Module 3: Proposal Prep | Developing Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
-| **Mon, Oct 20** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
+| **Mon, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
+| **Wed, Oct 20** | Module 3: Proposal Prep | Developing Intellectual and Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
 | **Wed, Oct 22** | Module 3: Proposal Prep | Proposal Writing Workshop | - Writing effective project descriptions |
 | **Mon, Oct 27** | Module 3: Proposal Prep | **NSF Proposal Review Practice** | - Mock review process<br>- Role-playing reviewer perspectives |
 | **Wed, Oct 29** | Module 3: Proposal Prep | Module 3 Wrap-up | - *Assignment: Complete proposal draft due Nov 17* |
