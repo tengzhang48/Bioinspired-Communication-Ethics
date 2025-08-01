@@ -30,7 +30,7 @@ permalink: /schedule/
 | **Wed, Sep 3** | Module 1: Foundations | Literature Review Best Practices | - Zotero/Mendeley workshop<br>- *Assignment: Revised team charter due Sep 8* |
 | **Mon, Sep 8** | Module 1: Foundations | 2-Minute Pitch Training | - **Team Charter Final Submission** |
 | **Wed, Sep 10** | Module 1: Foundations | Team Communication Strategies | - Conflict resolution techniques |
-| **Mon, Sep 15** | Module 1: Foundations | **Guest Lecture: Dr. Hyunoo Yuk** | *"Bioinspired Design Principles for Team Structures"*<br>- Q&A session |
+| **Mon, Sep 15** | Module 1: Foundations | **Guest Lecture: Dr. Hyunwoo Yuk** | *"Bioinspired Design Principles for Team Structures"*<br>- Q&A session |
 | **Wed, Sep 17** | Module 1: Foundations | Module 1 Wrap-up | - *Assignment: Literature review outline due Sep 22* |
 | **Mon, Sep 22** | Module 2: Scientific Literature Review | Introduction to Peer Review | - Transparent peer review models |
 | **Wed, Sep 24** | Module 2: Scientific Literature Review | Analyzing Published Reviews | - Case study: eLife review histories |
