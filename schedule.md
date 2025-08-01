@@ -27,34 +27,34 @@ permalink: /schedule/
 | **Mon, Aug 25** | Introduction | Course Overview & Team Formation | - CATME team registration<br>- Icebreaker: Bioinspired morphing experiments |
 | **Wed, Aug 27** | Module 1: Foundations | Principles of Effective Teams | - Research on diverse teams<br>- *Assignment: Team charter draft due Sep 3* |
 | **Mon, Sep 1** | Labor Day | **NO CLASS** | *University holiday* |
-| **Wed, Sep 3** | Module 1: Foundations | Literature Review Best Practices | - Zotero/Mendeley workshop<br>- *Assignment: Revised team charter due Sep 8* |
-| **Mon, Sep 8** | Module 1: Foundations | 2-Minute Pitch Training | - **Team Charter Final Submission** |
-| **Wed, Sep 10** | Module 1: Foundations | Team Communication Strategies | - Conflict resolution techniques |
-| **Mon, Sep 15** | Module 1: Foundations | **Guest Lecture: Dr. Hyunwoo Yuk** | *"Bioinspired Design Principles for Team Structures"*<br>- Q&A session |
-| **Wed, Sep 17** | Module 1: Foundations | Module 1 Wrap-up | - *Assignment: Literature review outline due Sep 22* |
-| **Mon, Sep 22** | Module 2: Scientific Literature Review | Introduction to Peer Review | - Transparent peer review models |
-| **Wed, Sep 24** | Module 2: Scientific Literature Review | Analyzing Published Reviews | - Case study: eLife review histories |
-| **Mon, Sep 29** | Module 2: Scientific Literature Review | Writing Effective Reviews | - *Assignment: Draft review due Oct 6* |
-| **Wed, Oct 1** | Module 2: Scientific Literature Review | Ethics of Peer Review | - Bias mitigation strategies |
-| **Mon, Oct 6** | Module 2: Scientific Literature Review | Peer Review Workshop | - **Draft Review Submission** |
-| **Wed, Oct 8** | Module 2: Scientific Literature Review | Responding to Reviews | - Strategies for addressing comments |
+| **Wed, Sep 3** | Module 1: Foundations | **Literature Review & Team Communication** | - Zotero/Mendeley workshop<br>- Conflict resolution techniques<br>- *Assignment: Revised team charter due Sep 8* |
+| **Mon, Sep 8** | Module 1: Foundations | **Guest Lecture: Dr. Hyunoo Yuk** | *"Bioinspired Design Principles for Team Structures"*<br>- Q&A session<br>- **Team Charter Final Submission** |
+| **Wed, Sep 10** | Module 1: Foundations | Module 1 Wrap-up | - *Assignment: Literature review outline due Sep 22* |
+| **Mon, Sep 15** | Module 2: Scientific Literature Review | Introduction to Peer Review | - Transparent peer review models |
+| **Wed, Sep 17** | Module 2: Scientific Literature Review | Analyzing Published Reviews | - Case study: eLife review histories |
+| **Mon, Sep 22** | Module 2: Scientific Literature Review | Writing Effective Reviews | - *Assignment: Draft review due Oct 6* |
+| **Wed, Sep 24** | Module 2: Scientific Literature Review | Ethics of Peer Review | - Bias mitigation strategies |
+| **Mon, Sep 29** | Module 2: Scientific Literature Review | Peer Review Workshop | - **Draft Review Submission** |
+| **Wed, Oct 1** | Module 2: Scientific Literature Review | Responding to Reviews | - Strategies for addressing comments |
+| **Mon, Oct 6** | Module 2: Scientific Literature Review | Module 2 Wrap-up | - *Assignment: Final review response due Oct 20* |
+| **Wed, Oct 8** | Module 3: Proposal Prep | NSF Proposal Structure | - Intellectual merit vs. broader impacts |
 | **Mon, Oct 13** | ❌ | **NO CLASS** | *Fall Break* |
-| **Wed, Oct 15** | Module 2: Scientific Literature Review | Module 2 Wrap-up | - *Assignment: Final review response due Oct 20* |
-| **Mon, Oct 20** | Module 3: Proposal Prep | NSF Proposal Structure | - Intellectual merit vs. broader impacts |
-| **Wed, Oct 22** | Module 3: Proposal Prep | Developing Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
-| **Mon, Oct 27** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
-| **Wed, Oct 29** | Module 3: Proposal Prep | Proposal Writing Workshop | - Writing effective project descriptions |
-| **Mon, Nov 3** | Module 3: Proposal Prep | **NSF Proposal Review Practice** | - Mock review process<br>- Role-playing reviewer perspectives |
-| **Wed, Nov 5** | Module 3: Proposal Prep | Grant Writing Strategies | - Finding funding opportunities |
-| **Mon, Nov 10** | Module 3: Proposal Prep | Module 3 Wrap-up | - *Assignment: Complete proposal draft due Nov 17* |
-| **Wed, Nov 12** | Module 4: Ethics | Introduction to Research Ethics | - Guest lecture: Prof. Sarah Reckess |
-| **Mon, Nov 17** | Module 4: Ethics | Research Misconduct | - **Proposal Draft Submission** |
-| **Wed, Nov 19** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies |
+| **Wed, Oct 15** | Module 3: Proposal Prep | Developing Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
+| **Mon, Oct 20** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
+| **Wed, Oct 22** | Module 3: Proposal Prep | Proposal Writing Workshop | - Writing effective project descriptions |
+| **Mon, Oct 27** | Module 3: Proposal Prep | **NSF Proposal Review Practice** | - Mock review process<br>- Role-playing reviewer perspectives |
+| **Wed, Oct 29** | Module 3: Proposal Prep | Module 3 Wrap-up | - *Assignment: Complete proposal draft due Nov 17* |
+| **Mon, Nov 3** | Module 4: Ethics | Introduction to Research Ethics | - Guest lecture: Prof. Sarah Reckess |
+| **Wed, Nov 5** | Module 4: Ethics | Research Misconduct | - Case studies in fabrication/plagiarism |
+| **Mon, Nov 10** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies<br>- Prof. Reckess consultation |
+| **Wed, Nov 12** | Module 4: Ethics | **Ethical Communication of Research Findings** | - Responsible reporting standards<br>- Authorship guidelines<br>- Prof. Reckess workshop |
+| **Mon, Nov 17** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation<br>- **Proposal Draft Submission**<br>- Prof. Reckess Q&A |
+| **Wed, Nov 19** | Module 4: Ethics | Biomatter Ethics | - Ethical use of biological materials<br>- Prof. Reckess case analysis |
 | **Mon, Nov 24** | ❌ | **NO CLASS** | *Thanksgiving Break begins* |
 | **Wed, Nov 26** | ❌ | **NO CLASS** | *Thanksgiving Break* |
-| **Mon, Dec 1** | Module 4: Ethics | **Ethical Communication of Research Findings** | - Responsible reporting standards<br>- Authorship guidelines<br>- Data visualization ethics |
-| **Wed, Dec 3** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation |
-| **Mon, Dec 8** | Module 4: Ethics | **Project Presentations & Ethics Integration** | - Team presentations<br>- Ethical reflections on projects<br>- **Final reports due Dec 15** |
+| **Mon, Dec 1** | Module 4: Ethics | Ethics Integration Workshop | - Applying frameworks to projects<br>- Prof. Reckess final guidance |
+| **Wed, Dec 3** | Final Projects | Project Preparation | - Team consultations<br>- Presentation dry runs |
+| **Mon, Dec 8** | Final Projects | **Project Presentations & Course Wrap-up** | - Full class presentations<br>- Ethical reflections with Prof. Reckess<br>- **Final reports due Dec 15** |
 
 ---
 
@@ -73,22 +73,30 @@ permalink: /schedule/
 ---
 
 ## 💡 Important Notes
-1. **New Ethics Lecture Added**: "Ethical Communication of Research Findings" (Dec 1) covers:
-   - Responsible reporting standards
-   - Authorship and contribution guidelines
-   - Ethical data visualization practices
-   - Communicating dual-use implications
+1. **Enhanced Ethics Instruction**:
+   - Prof. Sarah Reckess now contributes to all ethics sessions (Nov 3-Dec 1)
+   - Provides specialized workshops on:
+     - Dual-use case studies (Nov 10)
+     - Ethical communication practices (Nov 12)
+     - AI ethics applications (Nov 17)
+     - Biomatter ethics frameworks (Nov 19)
 
-2. **Integrated Final Session**: Dec 8 combines project presentations with ethics reflection:
-   - Teams discuss ethical dimensions of their work
-   - Apply ethical frameworks to project outcomes
-   - Submit final reports by Dec 15
+2. **Final Presentation Format**:
+   - Dedicated full-class session on Dec 8
+   - All teams present with integrated ethics reflection
+   - Prof. Reckess provides final commentary
 
-3. **NSF GRFP Deadlines**: 2026 application window opens August 1, 2025. Engineering deadlines typically mid-October.
+3. **Name Correction**:
+   - Confirmed guest lecturer as "Dr. Hyunoo Yuk"
 
-4. **Team Charter** includes:  
-   - Role assignments  
-   - Communication protocols  
-   - Conflict resolution workflow  
+4. **Schedule Optimization**:
+   - Maintained full Thanksgiving break (Nov 24-28)
+   - Preserved all key assignments and deadlines
+   - NSF GRFP workshop timed for October application cycle
 
-5. **Thanksgiving Break**: Full week break (Nov 24-28) with no classes.
+5. **Ethics Module Expansion**:
+   - Added "Ethical Communication of Research Findings" (Nov 12)
+   - Includes practical guidance on:
+     - Responsible reporting standards
+     - Authorship and contribution transparency
+     - Dual-use implications communication
