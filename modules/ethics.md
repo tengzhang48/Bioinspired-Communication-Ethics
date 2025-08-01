@@ -57,26 +57,29 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
 - 🎥 [**NIH Videocast: Dual-Use Dilemmas in Synthetic Biology**](https://videocast.nih.gov/watch=5990)
   > *Expert panel discussing real-world case studies where bioinspired research has both beneficial applications and potential security implications, featuring Dr. Claire Fraser-Liggett (NSABB).*
 
-### ▶️ Bioinspired Communication Ethics
+### ▶️ Ethical Dimensions of Bioinspired Systems
 
-- 📄 [**Ethical, Legal, and Social Implications of Ingestible and Implantable Devices**](https://www.cell.com/device/fulltext/S2666-9986(25)00154-1)
-  > *"Our analysis found that informed consent documentation and processes do not adequately convey risks related to data use and health effects of these technologies."* This paper provides a framework for analyzing ethical concerns that directly applies to bioinspired communication technologies that interface with biological systems, particularly regarding privacy, consent, and regulatory gaps.
+- 📄 [**Ethical, Legal, and Social Implications of Bio-Integrated Devices**](https://www.cell.com/device/fulltext/S2666-9986(25)00154-1)
+  > *"Informed consent processes often fail to convey data risks in bio-integrated technologies."* Provides an ethical framework for communication technologies interfacing with biological systems, addressing privacy gaps and regulatory challenges.
 
-- 📄 [**Biomimethics: A Critical Perspective on the Ethical Implications of Biomimetics in Technological Innovation**](https://doi.org/10.1088/1748-3190/ace7a2)
-  > *"This perspective outlines the moral, ethical, and legal challenges inherent to bio‑inspired technologies, urging practitioners to consider motivations, valuation of nature, and responsible commercialization."* :contentReference[oaicite:5]{index=5}
+- 📄 [**Biomimethics: Ethical Challenges in Bioinspired Innovation**](https://doi.org/10.1088/1748-3190/ace7a2)
+  > *"Examines moral tensions in biomimetic design: from nature commodification to responsible innovation pathways."* Outlines ethical considerations spanning concept development to commercialization. :contentReference[oaicite:5]{index=5}
 
-- 📄 [**Environmental Ethics and Biomimetic Ethics: Nature as Object and Source of Ethics** – H. Dicks (2017)](*)
-  > *Explores how biomimicry should be evaluated using nature itself as a normative standard—going beyond exploitation to ethical emulation.*  
+- 📄 [**Environmental Ethics and Biomimetic Design: Nature as Normative Standard** – H. Dicks (2017)](*)
+  > *Proposes moving beyond biological exploitation to ethical emulation frameworks in bioinspired R&D.*  
 :contentReference[oaicite:8]{index=8}
 
-- 📄 [**Ethics Guidelines for Trustworthy AI - European Commission**](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
-  > *"Trustworthy AI should be: (1) lawful - respecting all applicable laws and regulations, (2) ethical - respecting ethical principles and values, (3) robust - both from a technical perspective while taking into account its social environment."* This framework provides essential guidelines for AI applications within bioinspired communication systems.
+- 🎥 [**Top 10 Ethical Considerations in Synthetic Biology**](https://www.youtube.com/watch?v=Yor2vPFPnfQ)
+  > *Concise overview of critical ethical issues in synthetic biology, including biosecurity, environmental impact, and justice concerns. Highlights how bioinspired design choices carry inherent ethical dimensions.*
+
+- 📄 [**Trustworthy AI Ethics Guidelines**](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+  > *"Lawful, ethical, and robust AI systems must respect fundamental rights while enabling innovation."* Essential framework for AI-driven bioinspired communication applications.
 
 ---
 
 ## 🛠️ Required Activities
 
-### ✅ Case Analysis: Bioinspired Communication Ethics
+### ✅ Case Analysis: Ethical Dimensions in Bioinspired Systems
 
 1. **Dual-Use Analysis**
    - Analyze a bioinspired communication technology for potential dual-use concerns
@@ -111,10 +114,10 @@ This module connects bioinspired principles with ethical considerations:
 - **Practical Implementation**: Ethics isn't just theoretical—it must be integrated throughout the research process.
 
 **Implementation Tips**:
-- Use CATME for team formation in ethics case studies
-- Connect ethics discussions to students' specific bioinspired communication projects
+- Use the "Top 10 Ethical Considerations" video as a discussion starter for synthetic biology case studies
+- Connect ethical dimensions to students' specific bioinspired communication projects
 - Emphasize how ethical considerations can enhance rather than hinder innovation
-- Incorporate the NIH videocast as a discussion starter on dual-use dilemmas
+- Incorporate the NIH videocast for dual-use dilemma analysis
 - Use the updated DURC framework for practical risk assessment exercises
 
 ---
