@@ -105,23 +105,6 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
 
 ---
 
-## 💡 Instructor Notes
-
-This module connects bioinspired principles with ethical considerations:
-
-- **Bioinspired Ethics Frameworks**: Just as biological systems have evolved mechanisms for ethical behavior (e.g., cooperation in social species), bioinspired communication systems require analogous ethical frameworks.
-- **Convergence Ethics**: The intersection of biology, engineering, and communication creates novel ethical challenges that require convergence in ethical thinking.
-- **Practical Implementation**: Ethics isn't just theoretical—it must be integrated throughout the research process.
-
-**Implementation Tips**:
-- Use the "Top 10 Ethical Considerations" video as a discussion starter for synthetic biology case studies
-- Connect ethical dimensions to students' specific bioinspired communication projects
-- Emphasize how ethical considerations can enhance rather than hinder innovation
-- Incorporate the NIH videocast for dual-use dilemma analysis
-- Use the updated DURC framework for practical risk assessment exercises
-
----
-
 ## 📚 Additional Resources
 
 - 📄 [**The 4As Framework for AI Ethics**](https://arxiv.org/abs/2109.07901)
