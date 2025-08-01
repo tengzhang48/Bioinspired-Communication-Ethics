@@ -27,7 +27,7 @@ This schedule outlines the topics, readings, and assignments for the semester. A
 
 | Date | Module | Topic | Activities & Assignments |
 |------|--------|-------|--------------------------|
-| **Mon, Aug 25** | Introduction | Course Overview & Team Formation | - Course introduction and expectations<br>- CATME team registration<br>- Icebreaker activity: Interdisciplinary backgrounds |
+| **Mon, Aug 25** | Introduction | Course Overview & Team Formation | - Course introduction and expectations<br>- CATME team registration<br>- Icebreaker activity: Hands on experiments of bioinspired moorphing |
 | **Wed, Aug 27** | Module 1: Foundations | Principles of Effective Teams | - Research on diverse teams<br>- Team roles and responsibilities<br>- *Assignment: Team contract draft due Sep 1* |
 | **Mon, Sep 1** | Labor Day | **NO CLASS** | *University holiday* |
 | **Wed, Sep 3** | Module 1: Foundations | Literature Review Best Practices | - Literature search strategies<br>- Evaluating sources<br>- Zotero/Mendeley workshop |
