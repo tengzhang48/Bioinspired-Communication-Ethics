@@ -11,11 +11,11 @@ permalink: /schedule/
 
 ## 📅 Semester Overview
 - **First Class:** Monday, August 25, 2025  
-- **Last Class:** Tuesday, December 9, 2025  
+- **Last Class:** Monday, December 8, 2025  
 - **Labor Day Break:** Monday, September 1, 2025  
 - **Fall Break:** Monday, October 13, 2025  
 - **Thanksgiving Break:** Monday, November 24 - Friday, November 28, 2025  
-- **Final Project Presentations:** December 8-9, 2025  
+- **Final Project Presentations:** December 8, 2025  
 - **Course Ends:** December 15, 2025  
 
 ---
@@ -52,9 +52,9 @@ permalink: /schedule/
 | **Wed, Nov 19** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies |
 | **Mon, Nov 24** | ❌ | **NO CLASS** | *Thanksgiving Break begins* |
 | **Wed, Nov 26** | ❌ | **NO CLASS** | *Thanksgiving Break* |
-| **Mon, Dec 1** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation |
-| **Wed, Dec 3** | Module 4: Ethics | Biomatter Ethics | - Ethical use of biological materials |
-| **Mon, Dec 8** | Final Projects | Project Presentations | - Team presentations <br>- **Final reports due Dec 15** |
+| **Mon, Dec 1** | Module 4: Ethics | **Ethical Communication of Research Findings** | - Responsible reporting standards<br>- Authorship guidelines<br>- Data visualization ethics |
+| **Wed, Dec 3** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation |
+| **Mon, Dec 8** | Module 4: Ethics | **Project Presentations & Ethics Integration** | - Team presentations<br>- Ethical reflections on projects<br>- **Final reports due Dec 15** |
 
 ---
 
@@ -73,10 +73,22 @@ permalink: /schedule/
 ---
 
 ## 💡 Important Notes
-1. **NSF GRFP Deadlines**: 2026 application window opens August 1, 2025. Engineering deadlines typically mid-October.
-2. **Team Charter** includes:  
+1. **New Ethics Lecture Added**: "Ethical Communication of Research Findings" (Dec 1) covers:
+   - Responsible reporting standards
+   - Authorship and contribution guidelines
+   - Ethical data visualization practices
+   - Communicating dual-use implications
+
+2. **Integrated Final Session**: Dec 8 combines project presentations with ethics reflection:
+   - Teams discuss ethical dimensions of their work
+   - Apply ethical frameworks to project outcomes
+   - Submit final reports by Dec 15
+
+3. **NSF GRFP Deadlines**: 2026 application window opens August 1, 2025. Engineering deadlines typically mid-October.
+
+4. **Team Charter** includes:  
    - Role assignments  
    - Communication protocols  
    - Conflict resolution workflow  
-3. **Final Class Meeting**: Tuesday, December 9 is a special session for project presentations.
-4. **Thanksgiving Break**: Full week break (Nov 24-28) with no classes.
+
+5. **Thanksgiving Break**: Full week break (Nov 24-28) with no classes.
