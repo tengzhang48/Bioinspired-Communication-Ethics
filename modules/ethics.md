@@ -105,7 +105,7 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
 
 ---
 
-<div class="module-nav">
-  <a href="../proposal/" class="btn">← Proposal Writing & Review</a>
-  <a href="../foundation/" class="btn">Team Work →</a>
+<div style="margin-top: 30px;">
+  <a href="../proposal/" class="btn" style="margin-right: 40px;">← Proposal Writing & Review</a>
+  <a href="../foundation/" class="btn" style="margin-right: 40px;">Team Work →</a>
 </div>
