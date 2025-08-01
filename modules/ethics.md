@@ -105,16 +105,6 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
 
 ---
 
-## 📚 Additional Resources
-
-- 📄 [**The 4As Framework for AI Ethics**](https://arxiv.org/abs/2109.07901)
-- 📄 [**Bioethics Resources from the National Institutes of Health**](https://www.bioethics.nih.gov/)
-- 📄 [**Case Studies in Scientific Ethics**](https://www.nap.edu/read/10158/chapter/1)
-- 📄 [**EMIRGE-Bio Program Overview**](https://bioinspired.syr.edu/emirge-bio/)
-  > *The EMIRGE-Bio program emphasizes how researchers "communicate their own knowledge and value expertise in others on diverse teams" while designing systems that "sense, actuate, and learn."*
-
----
-
 <div class="module-nav">
   <a href="../proposal/" class="btn">← Proposal Writing & Review</a>
   <a href="../foundation/" class="btn">Team Work →</a>
