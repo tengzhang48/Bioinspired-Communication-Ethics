@@ -155,21 +155,6 @@ This module provides comprehensive training in research proposal development and
 
 ---
 
-## 💡 Instructor Notes
-
-This module connects bioinspired principles with proposal development:
-
-- **Bioinspired Proposal Structure**: Just as biological systems optimize for efficiency, research proposals should eliminate unnecessary complexity while maintaining clarity and impact.
-- **Evolutionary Proposal Development**: The iterative proposal review process mirrors natural selection, where only the strongest arguments survive critical evaluation.
-- **Ethical Considerations**: Emphasize how ethical considerations must be integrated throughout the proposal (e.g., dual-use research implications).
-
-**Implementation Tips**:
-- Use CATME for peer review assignments to ensure fair distribution of review workload
-- Have students analyze actual NSF award abstracts to understand successful proposals
-- Connect proposal exercises to the bioinspired communication theme (e.g., "Develop a proposal for bioinspired communication systems inspired by animal swarm behavior")
-
----
-
 ## 📚 Additional Resources
 
 - 📄 [**NSF Award Search**](https://www.nsf.gov/awardsearch/)
