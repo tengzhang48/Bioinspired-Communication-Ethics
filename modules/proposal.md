@@ -121,37 +121,15 @@ This module provides comprehensive training in research proposal development and
   > *Practical examples and templates for developing meaningful broader impacts activities.*
 
 ---
+## 📚 Module Activities & Learning Objectives
 
-## 🛠️ Required Activities
+This module provides hands-on experience with the complete research funding lifecycle. Through guided practice, students will develop essential skills in:
 
-### ✅ Proposal Development Workshop
+*   **Research Proposal Development:** Crafting compelling research narratives that clearly articulate both intellectual merit and broader impacts, following the specific guidelines of major funding agencies like the NSF.
+*   **Grant Review Process:** Evaluating research proposals using official NSF merit review criteria, participating in simulated panel reviews, and providing constructive feedback to improve proposal quality.
+*   **Professional Response to Review:** Developing evidence-based responses to critique, balancing the need to address reviewer concerns while maintaining the core research vision and scientific integrity.
 
-1. **Research Idea Pitch**
-   - Develop a 2-minute pitch for a bioinspired communication research project
-   - Focus on intellectual merit and broader impacts
-
-2. **Proposal Outline Creation**
-   - Create a detailed outline for an NSF-style research proposal
-   - Include sections for:
-     * Project Summary
-     * Intellectual Merit
-     * Broader Impacts
-     * Project Description
-     * References
-
-### ✅ NSF-Style Mock Panel Review
-
-1. **Proposal Review Practice**
-   - Evaluate 2-3 anonymized proposal drafts using NSF merit review criteria
-   - Complete review forms with specific, actionable feedback
-
-2. **Panel Discussion Simulation**
-   - Participate in a mock panel discussion where proposals are debated
-   - Practice advocating for proposals while considering budget constraints
-
-3. **Response to Review Exercise**
-   - Respond to critical review comments on your own proposal draft
-   - Practice addressing concerns while maintaining your research vision
+**» Detailed assignment instructions, rubrics, and submission portals are available on the course Blackboard site.**
 
 ---
 
