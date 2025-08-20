@@ -83,47 +83,15 @@ This module provides comprehensive training in scientific communication through 
   > *Practical guidance on crafting professional, effective responses to reviewer comments.*
 
 ---
+## 📚 Module Activities & Learning Objectives
 
-## 🛠️ Required Activities
+This module provides hands-on experience with the complete scientific communication lifecycle. Through guided practice, students will develop essential skills in:
 
-### ✅ Writing Workshop: Abstract & Introduction
+*   **Scientific Manuscript Writing:** Applying structured frameworks (IMRaD, CARS model) to craft clear and compelling abstracts and introductions for bioinspired research.
+*   **Constructive Peer Review:** Evaluating research manuscripts using established criteria, focusing on providing specific, actionable, and respectful feedback that improves scientific quality.
+*   **Professional Response to Review:** Developing strategies to effectively address reviewer comments, from implementing suggested changes to crafting evidence-based justifications for contested points.
 
-1. **Structured Abstract Writing**
-   - Create a structured abstract (Objective, Methods, Results, Conclusion) for a bioinspired communication research project
-   - Use the [IMRaD format](https://www.nature.com/scitable/topicpage/structure-of-a-scientific-paper-14103486/) guidelines
-
-2. **Introduction Framework Practice**
-   - Apply the "CARS" (Create A Research Space) model to draft an introduction
-   - Focus on establishing context, identifying a research gap, and stating your contribution
-
-### ✅ Peer Review Simulation
-
-1. **Review Practice with Rubric**
-   - Evaluate a provided manuscript draft using the [Nature review criteria](https://www.nature.com/nature-portfolio/editorial-policies/how-review-paper)
-   - Focus on:
-     * Originality and significance
-     * Technical soundness
-     * Clarity of presentation
-     * Ethical considerations
-
-2. **Constructive Feedback Training**
-   - Practice writing reviews that are:
-     * Specific (point to exact sections/lines)
-     * Actionable (suggest concrete improvements)
-     * Respectful (maintain professional tone)
-     * Balanced (note strengths as well as weaknesses)
-
-### ✅ Response to Reviewers Exercise
-
-> **Scenario**: You've received reviewer comments on your bioinspired communication manuscript. Some comments are straightforward, while others challenge your methodology and question your conclusions.
-> 
-> **Task**:
-> 1. Categorize the reviewer comments as major/minor and valid/questionable
-> 2. Draft a professional response addressing each comment
-> 3. Identify which changes you would make to your manuscript
-> 4. For questionable comments, develop a respectful but firm justification for maintaining your approach
-
----
+**» Detailed assignment instructions, rubrics, and submission portals are available on the course Blackboard site.**
 
 ## 📚 Additional Resources
 
