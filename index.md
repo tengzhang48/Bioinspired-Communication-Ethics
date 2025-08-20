@@ -39,12 +39,6 @@ The EMIRGE-Bio program trains students to:
 Learn more at:  
 [https://bioinspired.syr.edu/emirge-bio/](https://bioinspired.syr.edu/emirge-bio/)
 
-## 🔐 Blackboard Access Instructions
-
-To access course materials on Blackboard:
-1. **Download** an authenticator app (Microsoft Authenticator, Google Authenticator, or Authy) on your phone
-2. **Open** the app and scan the QR code or copy the key when prompted on Blackboard
-
 ## 🎯 Course Highlights
 
 This course emphasizes **teamwork**, **scientific communication**, and **ethical research practices** through four integrated modules:
