@@ -82,29 +82,15 @@ This module introduces the essential elements of working in effective, diverse, 
 
 ---
 
-## 📚 Required Activities
+## 📚 Module Activities & Learning Objectives
 
-### ✅ Team Formation & Assessment
-1. Complete the CATME team formation survey
-2. Participate in the Teamwork Behavior Training module
-3. Complete the team role self-assessment activity
+This module combines theory with practice. Students will engage in hands-on activities designed to build foundational team skills, including:
 
-### ✅ Team Contract Development
-Create a team contract that includes:
-- Clear roles and responsibilities
-- Communication protocols
-- Meeting schedules and expectations
-- Conflict resolution procedures
-- Quality standards for deliverables
+*   **Team Formation & Self-Assessment:** Using established tools to form balanced teams and understand individual roles and contributions within a group.
+*   **Developing a Team Charter:** Collaboratively creating a document that outlines team norms, communication protocols, and conflict resolution strategies to ensure a productive working environment.
+*   **Analysis of Interdisciplinary Conflict:** Working through a realistic case study of a stalled research project, students will diagnose communication breakdowns and develop strategies to build a shared mindset and get the collaboration back on track.
 
-### ✅ Case Analysis: Interdisciplinary Team Conflict
-> **Scenario**: Your team includes members from biology, engineering, and ethics backgrounds working on a bioinspired communication project. The biologists want to focus on organism behavior observations, engineers want to jump to prototype development, and ethicists are concerned about potential misuse of the technology. Tensions are rising, and progress has stalled.
-> 
-> **Task**: 
-> 1. Identify the root causes of the conflict using the "us versus them" framework from the HBR article
-> 2. Develop a strategy to establish a shared mindset among team members
-> 3. Create specific interventions to get the project back on track
-> 4. Present your solution to the class
+**» Detailed assignment instructions, worksheets, and submission portals are available on the course Blackboard site.**
 
 ---
 
