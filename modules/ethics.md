@@ -76,32 +76,15 @@ Dr. Reckess brings expertise in biomedical ethics with a focus on regulatory fra
   > *"Lawful, ethical, and robust AI systems must respect fundamental rights while enabling innovation."* Essential framework for AI-driven bioinspired communication applications.
 
 ---
+## 📚 Module Activities & Learning Objectives
 
-## 🛠️ Required Activities
+This module provides practical experience in navigating complex ethical challenges in bioinspired research. Through guided analysis and discussion, students will develop essential skills in:
 
-### ✅ Case Analysis: Ethical Dimensions in Bioinspired Systems
+*   **Ethical Reasoning Frameworks:** Applying established ethical principles (Belmont Report, RCR guidelines) to analyze complex research scenarios involving bioinspired communication technologies.
+*   **Dual-Use Research Analysis:** Identifying and evaluating potential dual-use concerns in bioinspired research, developing risk mitigation strategies, and understanding regulatory frameworks for responsible innovation.
+*   **Stakeholder Analysis & Ethical Decision-Making:** Considering multiple perspectives in ethical dilemmas, weighing competing values, and formulating ethically defensible courses of action for research involving biological systems and bioinspired technologies.
 
-1. **Dual-Use Analysis**
-   - Analyze a bioinspired communication technology for potential dual-use concerns
-   - Develop a risk mitigation strategy using the DURC framework
-
-2. **Ethical Decision-Making Framework**
-   - Apply an ethical decision-making model to a complex case study
-   - Consider multiple stakeholders and long-term implications
-
-3. **Regulatory Landscape Mapping**
-   - Identify relevant regulatory frameworks for your bioinspired communication project
-   - Analyze gaps where current regulations may not address novel bioinspired technologies
-
-### ✅ Role-Playing Exercise: Ethics Committee Simulation
-
-> **Scenario**: Your team has developed a bioinspired communication system that mimics neural networks in animal swarms. The technology has potential applications in disaster response but could also be adapted for surveillance.
-> 
-> **Task**:
-> 1. Form an ethics committee with assigned roles (researcher, ethicist, industry representative, community advocate)
-> 2. Debate the ethical implications of the technology
-> 3. Develop recommendations for responsible development and deployment
-> 4. Present your committee's findings to the class
+**» Detailed case studies, role-playing scenarios, and assignment instructions are available on the course Blackboard site.**
 
 ---
 
