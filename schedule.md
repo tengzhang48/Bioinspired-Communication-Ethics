@@ -30,20 +30,20 @@ permalink: /schedule/
 | **Wed, Sep 3** | Module 1: Foundations | Tools for Collaboration & Literature Review | - Zotero/Mendeley workshop<br>- Conflict resolution techniques<br>- *Assignment: Revised team charter due Sep 8* |
 | **Mon, Sep 8** | Module 1: Foundations | Principles of Effective Teams | - Team dynamics workshop<br>- Collaborative project planning<br>- **Team Charter Final Submission** |
 | **Wed, Sep 10** | Module 1: Foundations | From Teamwork to Research: The 2-Minute Pitch | - Team project pitches<br>- Peer feedback session<br>- *Assignment: Literature review outline due Sep 22* |
-| **Mon, Sep 15** | Module 2: Scientific Literature Review | **Guest Lecture: Dr. Hyunoo Yuk** | *"Bioinspired Design Principles for Research Communication"*<br>- Q&A session |
-| **Wed, Sep 17** | Module 2: Scientific Literature Review | Analyzing Published Reviews | - Case study: eLife review histories |
-| **Mon, Sep 22** | Module 2: Scientific Literature Review | Writing Effective Reviews | - *Assignment: Draft review due Oct 6* |
-| **Wed, Sep 24** | Module 2: Scientific Literature Review | Ethics of Peer Review | - Bias mitigation strategies |
-| **Mon, Sep 29** | Module 2: Scientific Literature Review | Peer Review Workshop | - **Draft Review Submission** |
-| **Wed, Oct 1** | Module 2: Scientific Literature Review | Responding to Reviews | - Strategies for addressing comments |
-| **Mon, Oct 6** | Module 2: Scientific Literature Review | Module 2 Wrap-up | - *Assignment: Final review response due Oct 20* |
-| **Wed, Oct 8** | Module 3: Proposal Prep | NSF Proposal Structure | - Intellectual merit vs. broader impacts |
+| **Mon, Sep 15** | Module 2: Scientific Writing & Peer Review | **Guest Lecture: Dr. Hyunoo Yuk** | ***"Principles of Effective Scientific Writing & Review"*** <br> - Structuring papers for clarity and impact <br> - The author's perspective: writing for your audience <br> - The reviewer's perspective: providing constructive feedback <br> - Q&A session |
+| **Wed, Sep 17** | Module 2: Scientific Writing & Peer Review | **Crafting Effective Abstracts & Introductions** | - Deconstructing the "CARS" model (Create A Research Space) <br> - Hands-on workshop: writing and critiquing abstracts <br> - *Assignment: Literature review outline due* |
+| **Mon, Sep 22** | Module 2: Scientific Writing & Peer Review | **Structuring Papers and Arguments** | - IMRaD deep dive: what goes in each section? <br> - Building a logical narrative flow <br> - Workshop: outlining a paper from your literature review <br> - *Assignment: Draft review due Oct 6* |
+| **Wed, Sep 24** | Module 2: Scientific Writing & Peer Review | **The Ethics and Process of Peer Review** | - Understanding different review models (single-blind, double-blind, transparent) <br> - Identifying and mitigating bias (conscious and unconscious) <br> - COPE guidelines for ethical reviewing |
+| **Mon, Sep 29** | Module 2: Scientific Writing & Peer Review | **Peer Review Workshop I: The Practice** | - Applying NSF/Nature criteria to evaluate manuscripts <br> - Writing specific, actionable, and respectful reviews <br> - **Draft Review Submission** |
+| **Wed, Oct 1** | Module 2: Scientific Writing & Peer Review | **Peer Review Workshop II: The Art of Response** | - Strategies for categorizing and addressing reviewer comments <br> - Crafting a persuasive and professional rebuttal <br> - Deciding when to revise, push back, or concede |
+| **Mon, Oct 6** | Module 2: Scientific Writing & Peer Review | **Module 2 Wrap-up & Integration** | - How writing and review skills improve your own research <br> - Discussion: lessons learned from being a reviewer <br> - *Assignment: Final review response due Oct 20* |
+| **Wed, Oct 8** | Module 3: Proposal Prep | **Funding Landscape: NSF, NIH, DOD & Foundations** | - **NSF:** Deep dive on Intellectual Merit & Broader Impacts <br> - **NIH:** Overview of significance, innovation, approach criteria <br> - **DOD/DOE:** Mission alignment and applied research focus <br> - **Foundations:** Identifying private funding opportunities |
 | **Mon, Oct 13** | ❌ | **NO CLASS** | *Fall Break* |
-| **Wed, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
-| **Mon, Oct 20** | Module 3: Proposal Prep | Developing Intellectual and Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
-| **Wed, Oct 22** | Module 3: Proposal Prep | Proposal Writing Workshop | - Writing effective project descriptions |
-| **Mon, Oct 27** | Module 3: Proposal Prep | **NSF Proposal Review Practice** | - Mock review process<br>- Role-playing reviewer perspectives |
-| **Wed, Oct 29** | Module 3: Proposal Prep | Module 3 Wrap-up | - *Assignment: Complete proposal draft due Nov 17* |
+| **Wed, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Fellowship-specific strategies <br> - Review criteria for personal and research statements <br> - *Assignment: Broader impacts draft due Oct 27* |
+| **Mon, Oct 20** | Module 3: Proposal Prep | **Crafting the Core Argument: Significance & Innovation** | - Writing compelling project descriptions for any agency <br> - Defining the research gap and your solution <br> - Workshop: Drafting and critiquing significance statements |
+| **Wed, Oct 22** | Module 3: Proposal Prep | **Agency Deep Dive & Review Practice** | - **Session 1:** Comparing review panels & culture across agencies <br> - **Session 2:** **Mock Panel Review** using blended criteria <br> - Role-playing reviewer perspectives from different agencies |
+| **Mon, Oct 27** | Module 3: Proposal Prep | **Developing Broader Impacts & Integration** | - Writing broader impacts for society, not just NSF <br> - Translating research outcomes for different stakeholders <br> - **Broader Impacts Statement Submission** |
+| **Wed, Oct 29** | Module 3: Proposal Prep | **Module 3 Wrap-up: From Proposal to Project** | - Budget justifications and project management basics <br> - Responding to reviewer comments across agencies <br> - *Assignment: Complete proposal draft due Nov 17* |
 | **Mon, Nov 3** | Module 4: Ethics | Introduction to Research Ethics | - Guest lecture: Prof. Sarah Reckess |
 | **Wed, Nov 5** | Module 4: Ethics | Research Misconduct | - Case studies in fabrication/plagiarism |
 | **Mon, Nov 10** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies<br>- Prof. Reckess consultation |
