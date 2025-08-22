@@ -25,12 +25,12 @@ permalink: /schedule/
 | Date | Module | Topic | Activities & Assignments |
 |------|--------|-------|--------------------------|
 | **Mon, Aug 25** | Introduction | Course Overview & Team Formation | - CATME team registration<br>- Icebreaker: Bioinspired morphing experiments |
-| **Wed, Aug 27** | Module 1: Foundations | Principles of Effective Teams | - Research on diverse teams<br>- *Assignment: Team charter draft due Sep 3* |
+| **Wed, Aug 27** | Module 1: Foundations | The Science of Successful Teams | - Research on diverse teams<br>- *Assignment: Team charter draft due Sep 3* |
 | **Mon, Sep 1** | Labor Day | **NO CLASS** | *University holiday* |
-| **Wed, Sep 3** | Module 1: Foundations | **Literature Review & Team Communication** | - Zotero/Mendeley workshop<br>- Conflict resolution techniques<br>- *Assignment: Revised team charter due Sep 8* |
-| **Mon, Sep 8** | Module 1: Foundations | **Guest Lecture: Dr. Hyunoo Yuk** | *"Bioinspired Design Principles for Team Structures"*<br>- Q&A session<br>- **Team Charter Final Submission** |
-| **Wed, Sep 10** | Module 1: Foundations | Module 1 Wrap-up | - *Assignment: Literature review outline due Sep 22* |
-| **Mon, Sep 15** | Module 2: Scientific Literature Review | Introduction to Peer Review | - Transparent peer review models |
+| **Wed, Sep 3** | Module 1: Foundations | Tools for Collaboration & Literature Review | - Zotero/Mendeley workshop<br>- Conflict resolution techniques<br>- *Assignment: Revised team charter due Sep 8* |
+| **Mon, Sep 8** | Module 1: Foundations | Principles of Effective Teams | - Team dynamics workshop<br>- Collaborative project planning<br>- **Team Charter Final Submission** |
+| **Wed, Sep 10** | Module 1: Foundations | From Teamwork to Research: The 2-Minute Pitch | - Team project pitches<br>- Peer feedback session<br>- *Assignment: Literature review outline due Sep 22* |
+| **Mon, Sep 15** | Module 2: Scientific Literature Review | **Guest Lecture: Dr. Hyunoo Yuk** | *"Bioinspired Design Principles for Research Communication"*<br>- Q&A session |
 | **Wed, Sep 17** | Module 2: Scientific Literature Review | Analyzing Published Reviews | - Case study: eLife review histories |
 | **Mon, Sep 22** | Module 2: Scientific Literature Review | Writing Effective Reviews | - *Assignment: Draft review due Oct 6* |
 | **Wed, Sep 24** | Module 2: Scientific Literature Review | Ethics of Peer Review | - Bias mitigation strategies |
@@ -39,8 +39,8 @@ permalink: /schedule/
 | **Mon, Oct 6** | Module 2: Scientific Literature Review | Module 2 Wrap-up | - *Assignment: Final review response due Oct 20* |
 | **Wed, Oct 8** | Module 3: Proposal Prep | NSF Proposal Structure | - Intellectual merit vs. broader impacts |
 | **Mon, Oct 13** | ❌ | **NO CLASS** | *Fall Break* |
-| **Mon, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
-| **Wed, Oct 20** | Module 3: Proposal Prep | Developing Intellectual and Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
+| **Wed, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Eligibility requirements<br>- Research statement drafting<br>- Review criteria |
+| **Mon, Oct 20** | Module 3: Proposal Prep | Developing Intellectual and Broader Impacts | - *Assignment: Broader impacts draft due Oct 27* |
 | **Wed, Oct 22** | Module 3: Proposal Prep | Proposal Writing Workshop | - Writing effective project descriptions |
 | **Mon, Oct 27** | Module 3: Proposal Prep | **NSF Proposal Review Practice** | - Mock review process<br>- Role-playing reviewer perspectives |
 | **Wed, Oct 29** | Module 3: Proposal Prep | Module 3 Wrap-up | - *Assignment: Complete proposal draft due Nov 17* |
