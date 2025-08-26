@@ -40,7 +40,7 @@ This module introduces the essential elements of working in effective, diverse, 
 
 ## 👥 Building Effective Teams
 
-- 📄 [**"The Secrets of Great Teamwork" – Harvard Business Review**](https://hbr.org/2016/06/the-secrets-of-great-teamwork)
+- 📄 [**"The Secrets of Great Teamwork" – Harvard Business Review**]([https://hbr.org/2016/06/the-secrets-of-great-teamwork](https://ombuds.columbia.edu/sites/default/files/content/pics/30%20Anniv/The%20Secrets%20of%20Great%20Teamwork.pdf)
   > *"What matters most isn't the personalities or behavior of the team members; it's whether a team has a compelling direction, a strong structure, and a supportive context. Today's teams also need a shared mindset to overcome 'us versus them' thinking and incomplete information."*
   
 - 📄 [**"Team Science: A Guide to Collaborative Research" – National Academies**](https://nap.nationalacademies.org/catalog/19007/enhancing-the-effectiveness-of-team-science)
