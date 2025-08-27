@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "MAE 600: Bioinspired Communication & Ethics"
+title: "Bioinspired Communication & Ethics"
 permalink: /
 ---
 
