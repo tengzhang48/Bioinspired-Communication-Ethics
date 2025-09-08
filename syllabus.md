@@ -1,4 +1,4 @@
-# MAE 600: Bioinspired Communication and Ethics
+# Bioinspired Communication and Ethics
 
 ## 📌 Course Information
 
