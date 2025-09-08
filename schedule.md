@@ -36,11 +36,11 @@ permalink: /schedule/
 | **Wed, Sep 24** | Module 2: Scientific Writing & Peer Review | **Guest Lecture: Dr. Zhao Qin** | ***"Leveraging AI as a Research Partner: From Literature Review to Discovery"*** <br> - Using AI tools to efficiently map and synthesize existing literature <br> - Employing AI for identifying emerging trends and research gaps <br> - Navigating the ethical considerations and limitations of AI in research <br> - **Action:** Develop a protocol for AI use in your team's project <br>- *Assignment: Draft review due Oct 6* |
 | **Mon, Sep 29** | Module 2: Scientific Writing & Peer Review | **Peer Review Workshop I: The Practice** | - Applying NSF/Nature criteria to evaluate manuscripts <br> - Writing specific, actionable, and respectful reviews <br> - **Draft Review Submission** |
 | **Wed, Oct 1** | Module 2: Scientific Writing & Peer Review | **Peer Review Workshop II: The Art of Response** | - Strategies for categorizing and addressing reviewer comments <br> - Crafting a persuasive and professional rebuttal <br> - Deciding when to revise, push back, or concede |
-| **Mon, Oct 6** | Module 2: Scientific Writing & Peer Review | **Module 2 Wrap-up & Integration** | - How writing and review skills improve your own research <br> - Discussion: lessons learned from being a reviewer <br> - *Assignment: Final review response due Oct 20* |
-| **Wed, Oct 8** | Module 3: Proposal Prep | **Funding Landscape: NSF, NIH, DOD & Foundations** | - **NSF:** Deep dive on Intellectual Merit & Broader Impacts <br> - **NIH:** Overview of significance, innovation, approach criteria <br> - **DOD/DOE:** Mission alignment and applied research focus <br> - **Foundations:** Identifying private funding opportunities |
+| **Mon, Oct 6** | Module 2: Scientific Writing & Peer Review | **Module 2 Wrap-up & Integration** | - How writing and review skills improve your own research <br> - Discussion: lessons learned from being a reviewer |
+| **Wed, Oct 8** | Module 3: Proposal Prep | **Funding Landscape: NSF, NIH, DOD & Foundations** | - **NSF:** Deep dive on Intellectual Merit & Broader Impacts <br> - **NIH:** Overview of significance, innovation, approach criteria <br> - **DOD/DOE:** Mission alignment and applied research focus <br> - **Foundations:** Identifying private funding opportunities <br> - *Assignment: Final review response due Oct 20*|
 | **Mon, Oct 13** | ❌ | **NO CLASS** | *Fall Break* |
-| **Wed, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Fellowship-specific strategies <br> - Review criteria for personal and research statements <br> - *Assignment: Broader impacts draft due Oct 27* |
-| **Mon, Oct 20** | Module 3: Proposal Prep | **Crafting the Core Argument: Significance & Innovation** | - Writing compelling project descriptions for any agency <br> - Defining the research gap and your solution <br> - Workshop: Drafting and critiquing significance statements |
+| **Wed, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Fellowship-specific strategies <br> - Review criteria for personal and research statements <br> - *Assignment: Intellectual Merit statement due Oct 20* |
+| **Mon, Oct 20** | Module 3: Proposal Prep | **Crafting the Core Argument: Significance & Innovation** | - Writing compelling project descriptions for any agency <br> - Defining the research gap and your solution <br> - Workshop: Drafting and critiquing significance statements <br> - **Intellectual Merit Statement Submission** |
 | **Wed, Oct 22** | Module 3: Proposal Prep | **Agency Deep Dive & Review Practice** | - **Session 1:** Comparing review panels & culture across agencies <br> - **Session 2:** **Mock Panel Review** using blended criteria <br> - Role-playing reviewer perspectives from different agencies |
 | **Mon, Oct 27** | Module 3: Proposal Prep | **Developing Broader Impacts & Integration** | - Writing broader impacts for society, not just NSF <br> - Translating research outcomes for different stakeholders <br> - **Broader Impacts Statement Submission** |
 | **Wed, Oct 29** | Module 3: Proposal Prep | **Module 3 Wrap-up: From Proposal to Project** | - Budget justifications and project management basics <br> - Responding to reviewer comments across agencies <br> - *Assignment: Complete proposal draft due Nov 17* |
@@ -48,11 +48,11 @@ permalink: /schedule/
 | **Wed, Nov 5** | Module 4: Ethics | Research Misconduct | - Case studies in fabrication/plagiarism |
 | **Mon, Nov 10** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies<br>- Prof. Reckess consultation |
 | **Wed, Nov 12** | Module 4: Ethics | **Ethical Communication of Research Findings** | - Responsible reporting standards<br>- Authorship guidelines<br>- Prof. Reckess workshop |
-| **Mon, Nov 17** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation<br>- **Proposal Draft Submission**<br>- Prof. Reckess Q&A |
+| **Mon, Nov 17** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation<br>- **Complete Proposal Draft Submission**<br>- Prof. Reckess Q&A |
 | **Wed, Nov 19** | Module 4: Ethics | Biomatter Ethics | - Ethical use of biological materials<br>- Prof. Reckess case analysis |
 | **Mon, Nov 24** | ❌ | **NO CLASS** | *Thanksgiving Break begins* |
 | **Wed, Nov 26** | ❌ | **NO CLASS** | *Thanksgiving Break* |
-| **Mon, Dec 1** | Module 4: Ethics | Ethics Integration Workshop | - Applying frameworks to projects<br>- Prof. Reckess final guidance |
+| **Mon, Dec 1** | Module 4: Ethics | Ethics Integration Workshop | - Applying frameworks to projects<br>- Prof. Reckess final guidance <br>- **Ethics Integration Memo Due** |
 | **Wed, Dec 3** | Final Projects | Project Preparation | - Team consultations<br>- Presentation dry runs |
 | **Mon, Dec 8** | Final Projects | **Project Presentations & Course Wrap-up** | - Full class presentations<br>- Ethical reflections with Prof. Reckess<br>- **Final reports due Dec 15** |
 
@@ -63,9 +63,11 @@ permalink: /schedule/
 | Date | Assignment | Module |
 |------|------------|--------|
 | **Sep 15** | Team Charter & Collaboration Agreement | Module 1 |
-| **Sep 22** | Literature Review Outline | Module 1 |
-| **Oct 6** | Draft Peer Review | Module 2 |
-| **Oct 20** | Final Review Response | Module 2 |
+| **Sep 22** | Literature Review Outline | Module 2 |
+| **Sep 29** | Draft Peer Review | Module 2 |
+| **Oct 8** | Final Review Response | Module 2 |
+| **Oct 20** | Intellectual Merit Statement | Module 3 |
 | **Oct 27** | Broader Impacts Statement | Module 3 |
-| **Nov 17** | Complete Proposal Draft | Module 3 |
+| **Nov 17** | Complete Proposal Draft | Module 4 |
+| **Dec 1** | Ethics Integration Memo | Module 4 |
 | **Dec 15** | Final Project Reports | All Modules |
