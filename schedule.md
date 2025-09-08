@@ -4,7 +4,7 @@ title: "Course Schedule"
 permalink: /schedule/
 ---
 
-# MAE 600: Bioinspired Communication and Ethics  
+# Bioinspired Communication and Ethics  
 ## Detailed Course Schedule (Fall 2025)
 
 ---
@@ -62,7 +62,7 @@ permalink: /schedule/
 
 | Date | Assignment | Module |
 |------|------------|--------|
-| **Sep 8** | Team Charter & Collaboration Agreement | Module 1 |
+| **Sep 15** | Team Charter & Collaboration Agreement | Module 1 |
 | **Sep 22** | Literature Review Outline | Module 1 |
 | **Oct 6** | Draft Peer Review | Module 2 |
 | **Oct 20** | Final Review Response | Module 2 |
