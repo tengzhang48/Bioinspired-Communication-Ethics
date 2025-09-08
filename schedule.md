@@ -45,10 +45,10 @@ permalink: /schedule/
 | **Mon, Oct 27** | Module 3: Proposal Prep | **Developing Broader Impacts & Integration** | - Writing broader impacts for society, not just NSF <br> - Translating research outcomes for different stakeholders <br> - **Broader Impacts Statement Submission** |
 | **Wed, Oct 29** | Module 3: Proposal Prep | **Module 3 Wrap-up: From Proposal to Project** | - Budget justifications and project management basics <br> - Responding to reviewer comments across agencies <br> - *Assignment: Complete proposal draft due Nov 17* |
 | **Mon, Nov 3** | Module 4: Ethics | Introduction to Research Ethics | - Guest lecture: Prof. Sarah Reckess |
-| **Wed, Nov 5** | Module 4: Ethics | Research Misconduct | - Case studies in fabrication/plagiarism |
+| **Wed, Nov 5** | Module 4: Ethics | Research Misconduct | - Case studies in fabrication/plagiarism <br>- **Complete Proposal Draft Submission**|
 | **Mon, Nov 10** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies<br>- Prof. Reckess consultation |
 | **Wed, Nov 12** | Module 4: Ethics | **Ethical Communication of Research Findings** | - Responsible reporting standards<br>- Authorship guidelines<br>- Prof. Reckess workshop |
-| **Mon, Nov 17** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation<br>- **Complete Proposal Draft Submission**<br>- Prof. Reckess Q&A |
+| **Mon, Nov 17** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation<br>- Prof. Reckess Q&A |
 | **Wed, Nov 19** | Module 4: Ethics | Biomatter Ethics | - Ethical use of biological materials<br>- Prof. Reckess case analysis |
 | **Mon, Nov 24** | ❌ | **NO CLASS** | *Thanksgiving Break begins* |
 | **Wed, Nov 26** | ❌ | **NO CLASS** | *Thanksgiving Break* |
@@ -68,6 +68,6 @@ permalink: /schedule/
 | **Oct 8** | Final Review Response | Module 2 |
 | **Oct 20** | Intellectual Merit Statement | Module 3 |
 | **Oct 27** | Broader Impacts Statement | Module 3 |
-| **Nov 17** | Complete Proposal Draft | Module 4 |
+| **Nov 5** | Complete Proposal Draft | Module 3 |
 | **Dec 1** | Ethics Integration Memo | Module 4 |
 | **Dec 15** | Final Project Reports | All Modules |
