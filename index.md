@@ -6,7 +6,7 @@ permalink: /
 
 <div style="background: linear-gradient(135deg, #1a3a5f 0%, #2c3e50 100%); color: white; padding: 40px 20px; border-radius: 8px; margin-bottom: 30px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <h1 style="margin: 0; font-size: 2.5em; letter-spacing: -0.5px;">Bioinspired Communication & Ethics</h1>
-  <p style="font-size: 1.3em; opacity: 0.9; max-width: 800px; margin: 15px auto 0; font-weight: 300;">MAE 600 - Graduate Course at Syracuse University</p>
+  <p style="font-size: 1.3em; opacity: 0.9; max-width: 800px; margin: 15px auto 0; font-weight: 300;">Graduate Course at Syracuse University</p>
 </div>
 
 *This graduate-level course trains students from diverse academic backgrounds in interdisciplinary research, with examples from biological and bioinspired systems.*
