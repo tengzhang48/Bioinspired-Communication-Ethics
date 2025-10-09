@@ -65,7 +65,7 @@ permalink: /schedule/
 | **Sep 15** | Team Charter & Collaboration Agreement | Module 1 |
 | **Sep 22** | Literature Review Outline | Module 2 |
 | **Sep 29** | Draft Peer Review | Module 2 |
-| **Oct 8** | Final Review Response | Module 2 |
+| **Oct 15** | Final Review Response | Module 2 |
 | **Oct 20** | Intellectual Merit Statement | Module 3 |
 | **Oct 27** | Broader Impacts Statement | Module 3 |
 | **Nov 5** | Complete Proposal Draft | Module 3 |
