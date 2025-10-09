@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is a Hypothesis?</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .slide {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 50px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .intro-box {
+            background: linear-gradient(135deg, #e8f4f8 0%, #d4e7f5 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0 40px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        .intro-box h3 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .intro-box p {
+            color: #34495e;
+            line-height: 1.6;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .definitions-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .key-point {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+
+        .key-point:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-color: #667eea;
+        }
+
+        .key-point h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .key-point p {
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .key-point p strong {
+            color: #495057;
+            font-size: 1.05em;
+        }
+
+        .citation {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .key-point ul {
+            list-style: none;
+            margin-top: 15px;
+            padding-left: 0;
+        }
+
+        .key-point li {
+            color: #495057;
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.5;
+        }
+
+        .key-point li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        /* Comparative View Slide Styles */
+        .principle-box {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0 30px 0;
+            border-left: 5px solid #e17055;
+        }
+
+        .principle-box h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .principle-text {
+            color: #2d3436;
+            line-height: 1.6;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        thead tr {
+            background: #2c3e50;
+            color: white;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 15px;
+            vertical-align: top;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .key-point.full-width {
+            margin-top: 20px;
+        }
+
+        .key-point.full-width ul li strong {
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .definitions-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .slide {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- First Slide: Multiple Perspectives -->
+        <div class="slide">
+            <h1>What is a Hypothesis? Multiple Perspectives</h1>
+            
+            <div class="intro-box">
+                <h3>📊 Core Definition</h3>
+                <p>A hypothesis is a testable statement or prediction about the relationship between variables that can be empirically examined through observation or experimentation.</p>
+            </div>
+
+            <div class="definitions-grid">
+                <div class="key-point">
+                    <h3>🔬 Scientific Method</h3>
+                    <p><strong>"A testable prediction about the relationship between two or more variables."</strong></p>
+                    <p class="citation">Standard textbook definition</p>
+                    <ul>
+                        <li>Must be falsifiable</li>
+                        <li>Leads to specific predictions</li>
+                        <li>Based on prior knowledge</li>
+                        <li>Can be proven wrong through evidence</li>
+                    </ul>
+                </div>
+
+                <div class="key-point">
+                    <h3>📚 Karl Popper</h3>
+                    <p><strong>"A hypothesis is falsifiable if it belongs to a language or logical structure capable of describing an empirical observation that contradicts it."</strong></p>
+                    <p class="citation">The Logic of Scientific Discovery (1934)</p>
+                    <ul>
+                        <li>Must be falsifiable</li>
+                        <li>Provisional conjecture until disproven</li>
+                        <li>Basis for critical testing</li>
+                        <li>Distinguishes science from non-science</li>
+                    </ul>
+                </div>
+
+                <div class="key-point">
+                    <h3>🧠 Psychology Research</h3>
+                    <p><strong>"A statement describing the investigator's expectation about the pattern of data that may result from a given study."</strong></p>
+                    <p class="citation">APA Dictionary of Psychology</p>
+                    <ul>
+                        <li>States specific expectations about direction and magnitude</li>
+                        <li>Based on theoretical framework</li>
+                        <li>Guides research methodology</li>
+                        <li>Links theory to empirical testing</li>
+                    </ul>
+                </div>
+
+                <div class="key-point">
+                    <h3>💡 Thomas Huxley</h3>
+                    <p><strong>"The 'Origin' provided us with the working hypothesis we sought... a working basis for further investigation."</strong></p>
+                    <p class="citation">On the Reception of the 'Origin of Species' (1887)</p>
+                    <ul>
+                        <li>Practical orientation</li>
+                        <li>Temporary and flexible tool</li>
+                        <li>Foundation for exploration</li>
+                        <li>Starting point, not final answer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Slide: Comparative View -->
+        <div class="slide">
+            <h1>What is a Hypothesis? A Comparative View</h1>
+            
+            <div class="principle-box">
+                <h2>Core Commonality: A Testable Starting Point</h2>
+                <div class="principle-text">
+                    Despite different phrasing, all definitions agree a hypothesis is a proposed explanation or prediction that initiates and guides investigation.
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Source</th>
+                        <th style="width: 55%;">Definition</th>
+                        <th style="width: 20%;">Key Emphasis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight: 600;">Oxford Languages</td>
+                        <td>"a supposition or proposed explanation made on the basis of limited evidence as a starting point for further investigation."</td>
+                        <td>Starting point, limited evidence</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">Merriam-Webster</td>
+                        <td>"An assumption or concession made for the sake of argument... a tentative assumption made in order to draw out and test its logical or empirical consequences."</td>
+                        <td>Tentative assumption, testing consequences</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">ChatGPT</td>
+                        <td>"a proposed explanation or prediction about how something works, which can be tested through experiments, observations, or analysis"</td>
+                        <td>Explanation/prediction, testability</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">Claude</td>
+                        <td>"a proposed explanation or prediction that can be tested through observation or experimentation. It's essentially an educated guess based on existing knowledge or observations."</td>
+                        <td>Educated guess, existing knowledge</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">DeepSeek</td>
+                        <td>"a testable, falsifiable prediction about the relationship between variables or the outcome of an experiment. It's a proposed explanation that can be supported or refuted through empirical investigation."</td>
+                        <td>Falsifiability, variables, empirical</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="key-point full-width">
+                <h3>Common Themes Across Definitions</h3>
+                <ul>
+                    <li><strong>Testability</strong> - Must be investigable through experiment or observation</li>
+                    <li><strong>Provisional Nature</strong> - A starting point, not a conclusion</li>
+                    <li><strong>Explanatory Power</strong> - Seeks to explain or predict phenomena</li>
+                    <li><strong>Evidence-Based</strong> - Grounded in existing knowledge or limited evidence</li>
+                    <li><strong>Action-Oriented</strong> - Designed to guide further investigation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
