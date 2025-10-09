@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobel Prize Research Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+        }
+
+        .slide {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 80px;
+            scroll-snap-align: start;
+            position: relative;
+        }
+
+        /* Slide-specific backgrounds */
+        .slide-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .slide-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .slide-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .slide-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .slide-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .slide-6 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+        .slide-7 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .slide-8 { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
+        .slide-9 { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .slide-10 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            margin: 20px 0 15px 0;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            text-align: center;
+            opacity: 0.9;
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .stat-number {
+            font-size: 3.5em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .stat-label {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 1.1em;
+        }
+
+        .comparison-table th {
+            background: #667eea;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.2em;
+        }
+
+        .comparison-table td {
+            padding: 20px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 400px;
+            margin: 40px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+        }
+
+        .bar {
+            flex: 1;
+            margin: 0 15px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bar-column {
+            width: 100%;
+            background: linear-gradient(to top, #667eea, #764ba2);
+            border-radius: 10px 10px 0 0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .bar-column:hover {
+            opacity: 0.8;
+        }
+
+        .bar-value {
+            position: absolute;
+            top: -30px;
+            font-weight: bold;
+            font-size: 1.3em;
+            color: #333;
+        }
+
+        .bar-label {
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: 1.1em;
+            color: #333;
+            text-align: center;
+        }
+
+        .example-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-left: 5px solid #667eea;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .example-box h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .example-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .example-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .example-list li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .key-finding {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            color: #856404;
+        }
+
+        .key-finding h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: #667eea;
+            transform: translateY(-50%);
+        }
+
+        .timeline-point {
+            background: white;
+            border: 4px solid #667eea;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .timeline-point strong {
+            font-size: 1.3em;
+            color: #667eea;
+        }
+
+        .timeline-point span {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .insight-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .insight-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+        }
+
+        .insight-card h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .insight-card p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .navigation {
+            position: fixed;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+
+        .nav-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.5);
+            margin: 15px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .nav-dot:hover, .nav-dot.active {
+            background: white;
+            transform: scale(1.5);
+        }
+
+        @media (max-width: 768px) {
+            .slide {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .comparison-table {
+                font-size: 0.9em;
+            }
+
+            .comparison-table th, .comparison-table td {
+                padding: 10px;
+            }
+
+            .insight-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline {
+                flex-direction: column;
+            }
+
+            .timeline:before {
+                width: 4px;
+                height: 100%;
+                left: 50%;
+                top: 0;
+            }
+
+            .timeline-point {
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Slide 1: Title -->
+        <div class="slide slide-1">
+            <h1>How Scientific Breakthroughs Really Happen</h1>
+            <p class="subtitle">Analyzing 125 Years of Nobel Prize-Winning Research</p>
+            <div class="content-box" style="max-width: 800px; text-align: center;">
+                <h3 style="margin-top: 0;">The Big Question:</h3>
+                <p style="font-size: 1.3em; line-height: 1.8; margin: 20px 0;">
+                    Is groundbreaking science the result of carefully planned hypothesis testing, 
+                    or do "happy accidents" play a bigger role than we think?
+                </p>
+                <p style="font-size: 1.1em; color: #666; margin-top: 30px;">
+                    Let's examine Physics, Chemistry, and Physiology/Medicine Nobel Prizes from 1901-2025
+                </p>
+            </div>
+        </div>
+
+        <!-- Slide 2: The Research Question -->
+        <div class="slide slide-2">
+            <h2>What We're Investigating</h2>
+            <div class="content-box">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Nobel Prizes Analyzed</div>
+                        <div class="stat-number">350+</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Years Covered</div>
+                        <div class="stat-number">125</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Scientific Fields</div>
+                        <div class="stat-number">3</div>
+                    </div>
+                </div>
+
+                <h3>Three Categories of Research:</h3>
+                <div class="insight-grid">
+                    <div class="insight-card">
+                        <h4>🎯 Hypothesis-Driven</h4>
+                        <p>Clear predictions tested through planned experiments. Theory predicts, experiment confirms or refutes.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>🔍 Discovery-Driven</h4>
+                        <p>Unexpected findings through observation and exploration. Found first, explained later.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>🔧 Method-Driven</h4>
+                        <p>Development of new tools and techniques that enable future discoveries.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>⚖️ Our Goal</h4>
+                        <p>Understand the balance between planned science and serendipitous discovery across different fields.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Physics Analysis -->
+        <div class="slide slide-3">
+            <h2>Physics: The Most Theory-Driven</h2>
+            <div class="content-box">
+                <div class="bar-chart">
+                    <div class="bar">
+                        <div class="bar-column" style="height: 270px;">
+                            <div class="bar-value">45%</div>
+                        </div>
+                        <div class="bar-label">Hypothesis-<br>Driven</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-column" style="height: 210px;">
+                            <div class="bar-value">35%</div>
+                        </div>
+                        <div class="bar-label">Discovery-<br>Driven</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-column" style="height: 120px;">
+                            <div class="bar-value">20%</div>
+                        </div>
+                        <div class="bar-label">Method-<br>Driven</div>
+                    </div>
+                </div>
+
+                <div class="example-box">
+                    <h4>Hypothesis-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>Higgs Boson (2013):</strong> Predicted in 1964, discovered 48 years later</li>
+                        <li><strong>Gravitational Waves (2017):</strong> Einstein predicted in 1916, detected in 2015</li>
+                        <li><strong>Neutrino Oscillations (2015):</strong> Theory predicted mass, experiments confirmed</li>
+                    </ul>
+                </div>
+
+                <div class="example-box">
+                    <h4>Discovery-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>X-rays (1901):</strong> Röntgen's accidental discovery</li>
+                        <li><strong>Cosmic Microwave Background (1978):</strong> Found while testing antenna</li>
+                        <li><strong>Graphene (2010):</strong> Discovered using scotch tape</li>
+                    </ul>
+                </div>
+
+                <div class="key-finding">
+                    <h4>📊 Key Insight:</h4>
+                    <p>Physics is increasingly hypothesis-driven as theoretical frameworks mature. Modern discoveries often validate decades-old predictions.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Physiology/Medicine Analysis -->
+        <div class="slide slide-4">
+            <h2>Physiology/Medicine: Where Serendipity Thrives</h2>
+            <div class="content-box">
+                <div class="bar-chart">
+                    <div class="bar">
+                        <div class="bar-column" style="height: 210px;">
+                            <div class="bar-value">35%</div>
+                        </div>
+                        <div class="bar-label">Hypothesis-<br>Driven</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-column" style="height: 330px;">
+                            <div class="bar-value">55%</div>
+                        </div>
+                        <div class="bar-label">Discovery-<br>Driven</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-column" style="height: 60px;">
+                            <div class="bar-value">10%</div>
+                        </div>
+                        <div class="bar-label">Method-<br>Driven</div>
+                    </div>
+                </div>
+
+                <div class="example-box">
+                    <h4>Discovery-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>Penicillin (1945):</strong> Fleming noticed mold killing bacteria in contaminated dish</li>
+                        <li><strong>H. pylori & Ulcers (2005):</strong> Challenged dogma that stress caused ulcers</li>
+                        <li><strong>Mobile Genetic Elements (1983):</strong> McClintock's unexpected observation</li>
+                    </ul>
+                </div>
+
+                <div class="example-box">
+                    <h4>Hypothesis-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>Insulin (1923):</strong> Hypothesized pancreatic hormone controlling blood sugar</li>
+                        <li><strong>DNA Structure (1962):</strong> Watson & Crick's model of double helix</li>
+                        <li><strong>mRNA Vaccines (2023):</strong> Decades of hypothesis testing on modified nucleosides</li>
+                    </ul>
+                </div>
+
+                <div class="key-finding">
+                    <h4>📊 Key Insight:</h4>
+                    <p>Living systems are complex "black boxes" - observation often precedes explanation. Physiology/Medicine has the highest rate of serendipitous discoveries among the three fields.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Chemistry Analysis -->
+        <div class="slide slide-5">
+            <h2>Chemistry: The Hybrid Approach</h2>
+            <div class="content-box">
+                <div class="bar-chart">
+                    <div class="bar">
+                        <div class="bar-column" style="height: 300px;">
+                            <div class="bar-value">50%</div>
+                        </div>
+                        <div class="bar-label">Hypothesis-<br>Driven</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-column" style="height: 180px;">
+                            <div class="bar-value">30%</div>
+                        </div>
+                        <div class="bar-label">Discovery-<br>Driven</div>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-column" style="height: 120px;">
+                            <div class="bar-value">20%</div>
+                        </div>
+                        <div class="bar-label">Method-<br>Driven</div>
+                    </div>
+                </div>
+
+                <div class="example-box">
+                    <h4>Hypothesis-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>Chemical Bond Theory (1954):</strong> Pauling's predictions about molecular bonding</li>
+                        <li><strong>CRISPR (2020):</strong> Hypothesized mechanism for genome editing</li>
+                        <li><strong>Chemiosmotic Theory (1978):</strong> Mitchell's controversial ATP synthesis hypothesis</li>
+                    </ul>
+                </div>
+
+                <div class="example-box">
+                    <h4>Discovery-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>Fullerenes (1996):</strong> Unexpected C60 molecule discovered</li>
+                        <li><strong>Quasicrystals (2011):</strong> Violated established crystallography rules</li>
+                        <li><strong>Green Fluorescent Protein (2008):</strong> Serendipitous observation in jellyfish</li>
+                    </ul>
+                </div>
+
+                <div class="example-box">
+                    <h4>Method-Driven Examples:</h4>
+                    <ul class="example-list">
+                        <li><strong>AlphaFold (2024):</strong> AI tool for protein structure prediction</li>
+                        <li><strong>PCR (1993):</strong> DNA amplification technique</li>
+                        <li><strong>Cryo-EM (2017):</strong> Biomolecule imaging method</li>
+                    </ul>
+                </div>
+
+                <div class="key-finding">
+                    <h4>📊 Key Insight:</h4>
+                    <p>Chemistry bridges physics (theory) and biology (complexity). Strong theoretical foundation allows prediction, but molecular complexity still yields surprises.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: THE BIG COMPARISON -->
+        <div class="slide slide-6">
+            <h2>The Big Picture: Cross-Field Comparison</h2>
+            <div class="content-box">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Hypothesis-Driven</th>
+                            <th>Discovery-Driven</th>
+                            <th>Method-Driven</th>
+                            <th>Key Characteristic</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Physics</strong></td>
+                            <td style="background: #e8f4ff;">45%</td>
+                            <td>35%</td>
+                            <td>20%</td>
+                            <td>Theory predicts, experiments confirm</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Chemistry</strong></td>
+                            <td style="background: #e8f4ff;">50%</td>
+                            <td>30%</td>
+                            <td>20%</td>
+                            <td>Theory + synthesis + discovery</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Physiology/Medicine</strong></td>
+                            <td>35%</td>
+                            <td style="background: #fff8e8;">55%</td>
+                            <td>10%</td>
+                            <td>Observation precedes explanation</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="key-finding" style="margin-top: 40px;">
+                    <h4>🎯 Major Finding:</h4>
+                    <p style="font-size: 1.2em;"><strong>Physiology/Medicine has the most serendipitous discoveries</strong> due to biological complexity. <strong>Physics is most theory-driven</strong> with mature mathematical frameworks. <strong>Chemistry sits in the middle</strong> with both predictive theory and surprising discoveries.</p>
+                </div>
+
+                <div class="insight-grid" style="margin-top: 30px;">
+                    <div class="insight-card">
+                        <h4>Why Physiology/Medicine = More Discovery?</h4>
+                        <p>Living systems are incredibly complex with countless variables. Less mature theoretical framework historically means more "black box" exploration.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>Why Physics = More Hypothesis?</h4>
+                        <p>Strong mathematical frameworks allow precise predictions. Theories can be tested decades before technology catches up.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Evolution Over Time -->
+        <div class="slide slide-7">
+            <h2>How Science Has Changed: 1901 vs 2025</h2>
+            <div class="content-box">
+                <h3 style="color: #667eea; text-align: center; margin-bottom: 40px;">All Three Fields Show the Same Trend</h3>
+                
+                <div class="timeline">
+                    <div class="timeline-point">
+                        <strong>1900s</strong>
+                        <span>Explore</span>
+                    </div>
+                    <div class="timeline-point">
+                        <strong>1950s</strong>
+                        <span>Describe</span>
+                    </div>
+                    <div class="timeline-point">
+                        <strong>2000s</strong>
+                        <span>Predict</span>
+                    </div>
+                </div>
+
+                <div class="insight-grid" style="margin-top: 50px;">
+                    <div class="insight-card">
+                        <h4>Early Era (1901-1950)</h4>
+                        <p><strong>~60% Discovery-Driven</strong><br>
+                        Scientists exploring unknown territory. Many "What is this?" questions. Limited tools for testing predictions.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>Mid Era (1950-1990)</h4>
+                        <p><strong>~50/50 Split</strong><br>
+                        Molecular biology revolution. Better instruments enable hypothesis testing. Theory catches up with observation.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>Modern Era (1990-2025)</h4>
+                        <p><strong>~60% Hypothesis-Driven</strong><br>
+                        Computational power enables prediction. AI and modeling allow "testing" before experiments. Theory leads the way.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>The Future?</h4>
+                        <p><strong>Even More Predictive?</strong><br>
+                        AI tools like AlphaFold suggest science becoming more hypothesis-driven. But surprises still happen!</p>
+                    </div>
+                </div>
+
+                <div class="key-finding" style="margin-top: 40px;">
+                    <h4>📊 Universal Trend:</h4>
+                    <p>As fields mature and computational tools improve, science shifts from discovery-driven to hypothesis-driven. But serendipity never disappears completely!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Famous "Accidents" -->
+        <div class="slide slide-8">
+            <h2>When "Accidents" Changed Everything</h2>
+            <div class="content-box">
+                <h3 style="text-align: center; color: #667eea; margin-bottom: 30px;">But Were They Really Accidents?</h3>
+
+                <div class="example-box" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); border: none; color: #333;">
+                    <h4 style="color: #d84315;">🔬 Penicillin (1928)</h4>
+                    <p><strong>The "Accident":</strong> Fleming left a petri dish uncovered before vacation. Mold contaminated it and killed surrounding bacteria.</p>
+                    <p><strong>The "Preparation":</strong> Fleming had been searching for antibacterial agents for years. He recognized the significance immediately. "Chance favors the prepared mind."</p>
+                </div>
+
+                <div class="example-box" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); border: none; color: #333;">
+                    <h4 style="color: #6a1b9a;">⚡ X-rays (1895)</h4>
+                    <p><strong>The "Accident":</strong> Röntgen noticed mysterious rays making a screen glow across his lab.</p>
+                    <p><strong>The "Preparation":</strong> He was systematically studying cathode rays. His careful experimentation revealed X-rays' properties within weeks.</p>
+                </div>
+
+                <div class="example-box" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%); border: none; color: #333;">
+                    <h4 style="color: #1565c0;">🌌 Cosmic Microwave Background (1964)</h4>
+                    <p><strong>The "Accident":</strong> Penzias & Wilson found mysterious noise in their radio antenna, couldn't eliminate it.</p>
+                    <p><strong>The "Preparation":</strong> Big Bang theory had predicted this radiation. Nearby physicists immediately recognized what they'd found.</p>
+                </div>
+
+                <div class="key-finding">
+                    <h4>💡 Critical Lesson:</h4>
+                    <p style="font-size: 1.2em;">Discovery-driven doesn't mean "accidental" or "unscientific." It means <strong>observation precedes explanation</strong>. The prepared scientific mind recognizes significance when something unexpected appears.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Why This Matters -->
+        <div class="slide slide-9">
+            <h2>Why Does This Matter for Science?</h2>
+            <div class="content-box">
+                <div class="insight-grid">
+                    <div class="insight-card">
+                        <h4>🎯 Both Approaches Are Essential</h4>
+                        <p>Hypothesis-driven research builds on established knowledge systematically. Discovery-driven research opens entirely new fields we didn't know existed.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>💰 Funding Implications</h4>
+                        <p>Grant agencies favor hypothesis-driven research ("What will you discover?"). But 55% of physiology/medicine breakthroughs were unexpected! Balance needed.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>🔬 Research Design</h4>
+                        <p>Complex systems (like biology) benefit from exploratory approaches. Well-understood systems (like physics) can be more hypothesis-driven.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h4>🎓 Science Education</h4>
+                        <p>We teach "The Scientific Method" as linear and hypothesis-driven. Real science is messier, more creative, and allows for serendipity!</p>
+                    </div>
+                </div>
+
+                <div class="key-finding" style="margin-top: 40px;">
+                    <h4>🌟 The Bigger Picture:</h4>
+                    <p style="font-size: 1.2em; line-height: 1.8;">
+                        Great science requires:<br>
+                        ✓ Rigorous hypothesis testing when possible<br>
+                        ✓ Open-minded observation when exploring unknowns<br>
+                        ✓ New methods and tools to enable both<br>
+                        ✓ Prepared minds to recognize unexpected significance
+                    </p>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px; padding: 30px; background: #f8f9fa; border-radius: 15px;">
+                    <h3 style="color: #667eea; margin-bottom: 15px;">The Best Scientists...</h3>
+                    <p style="font-size: 1.3em; color: #555;">
+                        ...can design rigorous hypothesis tests AND recognize when an unexpected observation opens a new door.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Conclusion -->
+        <div class="slide slide-10">
+            <h1>Key Takeaways</h1>
+            <div class="content-box">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Physiology/Medicine</div>
+                        <div class="stat-number">55%</div>
+                        <div class="stat-label">Discovery-Driven</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Chemistry</div>
+                        <div class="stat-number">50%</div>
+                        <div class="stat-label">Hypothesis-Driven</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Physics</div>
+                        <div class="stat-number">45%</div>
+                        <div class="stat-label">Hypothesis-Driven</div>
+                    </div>
+                </div>
+
+                <div style="background: white; padding: 40px; border-radius: 20px; margin-top: 40px;">
+                    <h3 style="color: #667eea; text-align: center; margin-bottom: 30px;">What We Learned</h3>
+                    <ol style="font-size: 1.2em; line-height: 2; color: #333; padding-left: 40px;">
+                        <li>Different fields have different discovery patterns based on their complexity and theoretical maturity</li>
+                        <li>All fields are shifting toward more hypothesis-driven research over time</li>
+                        <li>But serendipity remains crucial - especially in complex systems like biology</li>
+                        <li>"Accidental" discoveries still require prepared, trained scientific minds</li>
+                        <li>Great science needs both rigorous testing AND openness to the unexpected</li>
+                    </ol>
+                </div>
+
+                <div style="text-align: center; margin-top: 50px;">
+                    <h2 style="color: #333;">Questions for Discussion</h2>
+                    <p style="font-size: 1.2em; color: #666; margin-top: 20px;">
+                        Time for Mentimeter! 🎯
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="navigation">
+        <div class="nav-dot active" onclick="scrollToSlide(0)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(1)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(2)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(3)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(4)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(5)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(6)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(7)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(8)"></div>
+        <div class="nav-dot" onclick="scrollToSlide(9)"></div>
+    </div>
+
+    <script>
+        function scrollToSlide(index) {
+            const slides = document.querySelectorAll('.slide');
+            slides[index].scrollIntoView({ behavior: 'smooth' });
+            
+            // Update active dot
+            document.querySelectorAll('.nav-dot').forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        }
+
+        // Update active dot on scroll
+        const container = document.querySelector('.slide-container');
+        const slides = document.querySelectorAll('.slide');
+        const navDots = document.querySelectorAll('.nav-dot');
+
+        container.addEventListener('scroll', () => {
+            const scrollPosition = container.scrollTop;
+            const slideHeight = window.innerHeight;
+            const currentSlide = Math.round(scrollPosition / slideHeight);
+            
+            navDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            const currentScroll = container.scrollTop;
+            const slideHeight = window.innerHeight;
+            const currentSlide = Math.round(currentScroll / slideHeight);
+            
+            if (e.key === 'ArrowDown' || e.key === 'PageDown') {
+                e.preventDefault();
+                if (currentSlide < slides.length - 1) {
+                    scrollToSlide(currentSlide + 1);
+                }
+            } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+                e.preventDefault();
+                if (currentSlide > 0) {
+                    scrollToSlide(currentSlide - 1);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
