@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Advice Summary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #2c3e50;
+            padding: 20px;
+        }
+        
+        .slides-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .slide {
+            background: white;
+            border-radius: 10px;
+            padding: 50px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide-number {
+            color: #95a5a6;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #e74c3c;
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            margin-top: 20px;
+        }
+        
+        h3 {
+            color: #16a085;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            flex: 1;
+        }
+        
+        .three-column {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+        
+        .principle-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .principle-box h2 {
+            color: white;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        
+        .principle-text {
+            font-size: 1.3em;
+            line-height: 1.6;
+        }
+        
+        .key-point {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .key-point h3 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        
+        .key-point p {
+            color: #34495e;
+            line-height: 1.6;
+        }
+        
+        ul {
+            margin-left: 25px;
+            line-height: 2;
+        }
+        
+        li {
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-size: 1.05em;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #856404;
+        }
+        
+        .warning-box {
+            background: #fee;
+            border-left: 4px solid #e74c3c;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .warning-box h3 {
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+        
+        .do-dont-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .do-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .dont-box {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .do-box h4, .dont-box h4 {
+            margin-bottom: 12px;
+            font-size: 1.2em;
+        }
+        
+        .do-box h4 {
+            color: #28a745;
+        }
+        
+        .dont-box h4 {
+            color: #dc3545;
+        }
+        
+        .workflow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+        
+        .workflow-step {
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            font-weight: 600;
+        }
+        
+        .arrow {
+            font-size: 2em;
+            color: #3498db;
+        }
+        
+        .quote-box {
+            background: #f8f9fa;
+            border-left: 4px solid #f39c12;
+            padding: 25px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+        
+        .transparent-review-example {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .transparent-review-example h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        strong {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="slides-container">
+        
+        <!-- Slide 1: Title -->
+        <div class="slide">
+            <div class="slide-number">Slide 1</div>
+            <h1 style="text-align: center; margin-top: 100px; font-size: 3em;">Writing Scientific Papers</h1>
+            <h2 style="text-align: center; color: #7f8c8d; font-weight: normal; border: none;">Key Principles from Whitesides, Weitz & Suo Labs</h2>
+            <div style="text-align: center; margin-top: 80px; color: #95a5a6; font-size: 1.2em;">
+                A synthesis of best practices for effective scientific communication
+            </div>
+        </div>
+
+        <!-- Slide 2: The Golden Rule -->
+        <div class="slide">
+            <div class="slide-number">Slide 2</div>
+            <h1>The Golden Rule</h1>
+            
+            <div class="principle-box">
+                <h2>Start Writing Immediately</h2>
+                <div class="principle-text">
+                    "Start drafting the paper the moment that you have a point to make, or a hypothesis to test."
+                </div>
+            </div>
+            
+            <div class="key-point">
+                <h3>Why This Matters</h3>
+                <p>Writing helps organize your thinking and guides your research. Don't wait until experiments are "finished" - there's no such thing as finished until the paper is published.</p>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>In the papers you reviewed, notice how authors who started writing early had more complete methods sections and clearer research narratives. Papers with "last-minute" writing often have inconsistencies that reviewers catch.</p>
+            </div>
+            
+            <div class="key-point">
+                <h3>The Living Document Approach</h3>
+                <p>Use the same document from hypothesis to publication. Keep refining your outline, abstract, and figures as your understanding evolves.</p>
+            </div>
+            
+            <div class="quote-box">
+                "A paper is not just an archival device for storing a completed research program; it is also a structure for planning your research in progress."
+            </div>
+        </div>
+
+        <!-- Slide 3: The Conclusion-First Principle -->
+        <div class="slide">
+            <div class="slide-number">Slide 3</div>
+            <h1>Write Your Conclusion First</h1>
+            
+            <div class="key-point">
+                <h3>The Most Important Sentences</h3>
+                <p><strong>Before anything else</strong>, write 1-2 sentences summarizing your main point. This determines what the entire paper is about.</p>
+            </div>
+            
+            <div style="background: #e8f4f8; padding: 25px; border-radius: 10px; margin: 20px 0;">
+                <h3 style="color: #2c3e50;">Example Conclusion Statements:</h3>
+                <ul style="margin-top: 15px;">
+                    <li>"Degradable polymers commonly erode by hydrolysis, but hydrolysis makes cracks greatly outrun erosion."</li>
+                    <li>"Lithiated silicon is capable of inelastic deformation at sufficiently small length scales."</li>
+                    <li>"A highly entangled polymer network has both high modulus and high fatigue threshold."</li>
+                </ul>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>In your review assignment, identify papers where the conclusion was unclear in the original submission. Notice how reviewers asked "What is the main contribution?" - a sign the authors didn't clarify their conclusion early enough.</p>
+            </div>
+            
+            <div class="warning-box">
+                <h3>Important</h3>
+                <p>Never be afraid to revise these sentences as you write. Clarity about your main point may emerge during the writing process. If you change it, rewrite relevant sections - this always leads to a better paper.</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: The Outline is Everything -->
+        <div class="slide">
+            <div class="slide-number">Slide 4</div>
+            <h1>The Power of Outlines</h1>
+            
+            <div class="principle-box">
+                <h2>Most Efficient Way to Write</h2>
+                <div class="principle-text">
+                    An outline is a written plan of the organization of a paper, including the data on which it rests.
+                </div>
+            </div>
+            
+            <h3>What Your Outline Should Contain:</h3>
+            <ul>
+                <li><strong>Title(s)</strong> - Multiple options initially</li>
+                <li><strong>Authors</strong> - Tentative order, can change</li>
+                <li><strong>1-2 sentence summary</strong> - Your conclusion</li>
+                <li><strong>Target journals</strong> - Multiple options</li>
+                <li><strong>Suggested reviewers</strong> - Build your list early</li>
+                <li><strong>Abstract</strong> - Write early, refine constantly</li>
+                <li><strong>Figures with detailed captions</strong> - These tell your story</li>
+                <li><strong>Methods</strong> - Complete details for reproducibility</li>
+                <li><strong>To-do list</strong> - What, how, who, and why</li>
+            </ul>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>Look for papers in your assignment where the organization seemed disjointed. Reviewers often comment on "lack of logical flow" - a sign the authors didn't develop a strong outline before writing.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Introduction Strategy -->
+        <div class="slide">
+            <div class="slide-number">Slide 5</div>
+            <h1>Writing the Introduction</h1>
+            
+            <div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #f39c12;">
+                <strong>Key insight:</strong> The introduction is the most important part of the paper. It determines whether readers continue and whether editors accept.
+            </div>
+            
+            <h3>The Winning Structure (5-Step Process):</h3>
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;">
+                <ol style="line-height: 2; font-size: 1.05em;">
+                    <li><strong>General topic sentence</strong> - Broad context</li>
+                    <li><strong>Establish importance</strong> - Why this matters scientifically and technologically</li>
+                    <li><strong>Review literature concisely</strong> - What is already known</li>
+                    <li><strong>Identify the gap</strong> - What is still unknown</li>
+                    <li><strong>Your contribution</strong> - What you discovered/did</li>
+                </ol>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>In your assignment, find papers where reviewers said "The introduction doesn't clearly state the research gap" or "Motivation is unclear." Notice how authors strengthened these sections in revisions.</p>
+            </div>
+            
+            <div class="key-point">
+                <h3>Nature Summary Paragraph Structure</h3>
+                <p><strong>What is the problem?</strong> (General audience → Specific audience)</p>
+                <p><strong>What is new?</strong> (Your findings and approach)</p>
+                <p><strong>Who cares?</strong> (Significance and impact)</p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Figures First -->
+        <div class="slide">
+            <div class="slide-number">Slide 6</div>
+            <h1>Figures Drive the Story</h1>
+            
+            <div class="principle-box">
+                <h2>Choose Figures Before Writing Text</h2>
+                <div class="principle-text">
+                    Figures should be chosen to make the point of your conclusion. Write detailed captions that tell a self-contained story.
+                </div>
+            </div>
+            
+            <h3>The Golden Rule of Figure Discussion:</h3>
+            <div class="key-point">
+                <p><strong>Describe what you're showing BEFORE saying "in Fig. X"</strong></p>
+                <p>Readers' eyes go to the figure when you reference it, breaking text flow. Tell them what to look for first.</p>
+            </div>
+            
+            <div class="do-dont-grid">
+                <div class="do-box">
+                    <h4>✓ DO</h4>
+                    <p>"The polymer network shows high fracture toughness even at 90% water content, as shown in Fig. 3."</p>
+                </div>
+                <div class="dont-box">
+                    <h4>✗ DON'T</h4>
+                    <p>"In Fig. 3, we show the fracture toughness of the polymer network at different water contents."</p>
+                </div>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>Look for reviewer comments like "Figure X is confusing" or "Caption doesn't explain key elements." These are signs the authors didn't develop figures with clear storytelling in mind.</p>
+            </div>
+            
+            <div class="key-point" style="margin-top: 20px;">
+                <h3>Caption Strategy</h3>
+                <p>Make captions self-contained stories. You can always move caption content to main text later if needed.</p>
+            </div>
+        </div>
+
+        <!-- Slide 7: Writing for Readability -->
+        <div class="slide">
+            <div class="slide-number">Slide 7</div>
+            <h1>Make Your Paper Readable</h1>
+            
+            <div class="quote-box">
+                "All papers should tell a story and should be interesting for the reader to read. This ensures they are read, understood, and cited."
+            </div>
+            
+            <div class="two-column">
+                <div>
+                    <h3>Structure Strategy</h3>
+                    <ul>
+                        <li>Don't be historical - be clear</li>
+                        <li>Present data in the order that best makes your point</li>
+                        <li>Short papers rarely follow traditional format</li>
+                        <li>Use the "hypothesis → test → proof" narrative</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>Grammar Guidelines</h3>
+                    <ul>
+                        <li><strong>Use present tense</strong> - makes paper immediate</li>
+                        <li><strong>No parentheses</strong> in text</li>
+                        <li><strong>Avoid "i.e."</strong> - it's lazy writing</li>
+                        <li><strong>Use parallelism</strong> for emphasis</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>Notice how reviewers respond positively to papers with clear narratives. Comments like "well-written" and "easy to follow" often correlate with papers that follow these readability principles.</p>
+            </div>
+        </div>
+
+        <!-- Slide 8: Words to Avoid -->
+        <div class="slide">
+            <div class="slide-number">Slide 8</div>
+            <h1>Common Writing Pitfalls</h1>
+            
+            <div class="warning-box">
+                <h3>Forbidden Phrases - Search and Destroy</h3>
+            </div>
+            
+            <div class="do-dont-grid">
+                <div class="dont-box">
+                    <h4>✗ NEVER SAY</h4>
+                    <ul style="margin-left: 0; list-style: none;">
+                        <li>"In order to" → Use "to"</li>
+                        <li>"On the other hand" (unless you said "on the one hand")</li>
+                        <li>"We now describe..." → Just describe it</li>
+                        <li>"It is instructive to..." → Just do it</li>
+                        <li>"As a rule of thumb" → "In general"</li>
+                        <li>"As discussed below" → Fix your flow</li>
+                    </ul>
+                </div>
+                
+                <div class="dont-box">
+                    <h4>✗ AVOID</h4>
+                    <ul style="margin-left: 0; list-style: none;">
+                        <li>Starting sentences with "This"</li>
+                        <li>Overusing "one..." without "another..."</li>
+                        <li>Heaping multiple adjectives</li>
+                        <li>Jargon without definition</li>
+                        <li>Living people's names in text</li>
+                        <li>Trite segues between sections</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>Look for reviewer comments that specifically call out unclear phrasing or jargon. These are often the exact phrases we're discussing here.</p>
+            </div>
+            
+            <div class="key-point" style="margin-top: 25px;">
+                <h3>Better Segues</h3>
+                <p>Connect ideas naturally through content, not announcements. Find logical transitions that advance your argument.</p>
+            </div>
+        </div>
+
+        <!-- Slide 9: The Abstract Formula -->
+        <div class="slide">
+            <div class="slide-number">Slide 9</div>
+            <h1>Writing the Abstract</h1>
+            
+            <div class="principle-box">
+                <h2>Write the Abstract LAST</h2>
+                <div class="principle-text">
+                    After the rest of the paper is complete, you'll know exactly what to say.
+                </div>
+            </div>
+            
+            <h3>The 2-2-1 Formula (Weitz Lab)</h3>
+            <div style="background: #e8f4f8; padding: 30px; border-radius: 10px; margin: 25px 0;">
+                <ul style="font-size: 1.1em; line-height: 2.2;">
+                    <li><strong>2 sentences from Introduction</strong><br>
+                    <span style="color: #7f8c8d; font-size: 0.95em;">(Context and gap in knowledge)</span></li>
+                    
+                    <li><strong>2 sentences from Conclusion</strong><br>
+                    <span style="color: #7f8c8d; font-size: 0.95em;">(What you found and what it means)</span></li>
+                    
+                    <li><strong>1 sentence about importance</strong><br>
+                    <span style="color: #7f8c8d; font-size: 0.95em;">(Why anyone should care)</span></li>
+                </ul>
+            </div>
+            
+            <div class="transparent-review-example">
+                <h4>📚 Transparent Review Insight</h4>
+                <p>Compare abstracts in your assignment papers. Notice how abstracts that follow this formula are clearer and more compelling. Reviewers rarely question the significance when the abstract clearly states it.</p>
+            </div>
+            
+            <div class="key-point">
+                <h3>Remember</h3>
+                <p>Each sentence in the abstract should be supported by the main text. The abstract makes the title clear if it's not self-explanatory.</p>
+            </div>
+        </div>
+
+        <!-- Slide 10: The To-Do List Approach -->
+        <div class="slide">
+            <div class="slide-number">Slide 10</div>
+            <h1>Stay Organized: The To-Do List</h1>
+            
+            <div class="key-point">
+                <h3>Be Explicit About Everything</h3>
+                <p>State what needs to be done, how to do it, who will do it, and why (if not obvious).</p>
+            </div>
+            
+            <h3>Example To-Do Items:</h3>
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;">
+                <ul style="line-height: 2;">
+                    <li>"<strong>Measure toughness</strong> of the hydrogel using the pure shear test <em>(Widusha)</em>"</li>
+                    <li>"<strong>Check if fracture energy</strong> depends on sample thickness <em>(Widusha)</em>"</li>
+                    <li>"<strong>Derive approximate expression</strong> for critical fluid pressure using shear-lag model <em>(Qihan)</em>"</li>
+                    <li>"<strong>Compare expression with FEM results</strong> <em>(Qihan)</em>. This comparison is important because the model has several assumptions."</li>
+                </ul>
+            </div>
+            
+            <div class="warning-box">
+                <h3>Integration with Writing</h3>
+                <p>Your to-do list evolves as you write. Identifying gaps in your argument will reveal new experiments or analyses needed.</p>
+            </div>
+        </div>
+
+        <!-- Slide 11: Learning from Transparent Peer Review -->
+        <div class="slide">
+            <div class="slide-number">Slide 11</div>
+            <h1>Learning from Transparent Peer Review</h1>
+            
+            <div class="principle-box">
+                <h2>Behind the Scenes: The Complete Publication Journey</h2>
+                <div class="principle-text">
+                    Published papers with review history show you the ENTIRE conversation:<br>
+                    Original submission → Reviews → Responses → Revised paper
+                </div>
+            </div>
+            
+            <h3>What You Can Learn from Transparent Reviews:</h3>
+            <div class="two-column">
+                <div class="key-point">
+                    <h3>🎯 How to Write Better Initially</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>What confused reviewers?</li>
+                        <li>Which methods needed clarification?</li>
+                        <li>What claims were too strong?</li>
+                        <li>Which figures needed improvement?</li>
+                    </ul>
+                </div>
+                
+                <div class="key-point">
+                    <h3>✍️ How to Respond Professionally</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Tone and language used</li>
+                        <li>How to disagree respectfully</li>
+                        <li>Evidence-based responses</li>
+                        <li>When to add new analyses</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="key-point" style="margin-top: 20px;">
+                <h3>👥 How to Write Review Comments</h3>
+                <p>See what constructive, helpful reviews look like vs. unhelpful ones. Notice how reviewers identify core issues vs. minor details.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 12: The Writing-Review Cycle -->
+        <div class="slide">
+            <div class="slide-number">Slide 12</div>
+            <h1>Writing Quality Directly Impacts Review Outcomes</h1>
+            
+            <h3>Compare These Two Scenarios:</h3>
+            
+            <div class="do-dont-grid" style="margin: 30px 0;">
+                <div class="do-box">
+                    <h4>✓ Well-Written Paper</h4>
+                    <ul style="margin-left: 0; list-style: none; line-height: 1.8;">
+                        <li><strong>Clear introduction</strong> → Reviewer understands motivation</li>
+                        <li><strong>Complete methods</strong> → No questions about reproducibility</li>
+                        <li><strong>Self-contained figures</strong> → Easy to evaluate</li>
+                        <li><strong>Logical flow</strong> → Conclusions make sense</li>
+                        <li><strong>Result:</strong> Minor revisions or acceptance</li>
+                    </ul>
+                </div>
+                
+                <div class="dont-box">
+                    <h4>✗ Poorly-Written Paper</h4>
+                    <ul style="margin-left: 0; list-style: none; line-height: 1.8;">
+                        <li><strong>Vague introduction</strong> → "What's the point?"</li>
+                        <li><strong>Missing details</strong> → "How did you measure X?"</li>
+                        <li><strong>Confusing figures</strong> → "What am I looking at?"</li>
+                        <li><strong>Weak logic</strong> → "This doesn't follow"</li>
+                        <li><strong>Result:</strong> Major revisions or rejection</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="quote-box">
+                From your transparent review analysis: Notice how many reviewer questions could have been prevented by following the writing principles we discussed today.
+            </div>
+            
+            <div class="warning-box" style="margin-top: 20px;">
+                <h3>Key Insight from Modern Peer Review</h3>
+                <p>With transparent review, your initial submission quality is now visible to everyone. This increases the importance of strong initial writing - not just for acceptance, but for your scientific reputation.</p>
+            </div>
+        </div>
+
+        <!-- Slide 13: Bringing It All Together -->
+        <div class="slide">
+            <div class="slide-number">Slide 13</div>
+            <h1>The Complete Cycle: Write → Review → Revise</h1>
+            
+            <div style="background: #667eea; color: white; padding: 25px; border-radius: 10px; margin-bottom: 25px;">
+                <h3 style="color: white; font-size: 1.5em; margin-bottom: 15px;">Everything Connects</h3>
+                <div style="font-size: 1.15em; line-height: 1.8;">
+                    Good writing principles → Easier peer review → Better responses → Stronger science communication
+                </div>
+            </div>
+            
+            <h3>Using Your Transparent Review Assignment:</h3>
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;">
+                <ol style="line-height: 2; font-size: 1.05em;">
+                    <li><strong>Read the original submission</strong> - What writing issues do you notice?</li>
+                    <li><strong>Read the reviews</strong> - What did reviewers question or praise?</li>
+                    <li><strong>Read the author response</strong> - How did they address concerns professionally?</li>
+                    <li><strong>Read the revised paper</strong> - How did writing improve?</li>
+                    <li><strong>Apply to your work</strong> - What can you do better from the start?</li>
+                </ol>
+            </div>
+            
+            <div class="quote-box">
+                You now have the full toolkit: principles for writing, strategies for responding to reviews, and real examples of the complete process through transparent peer review.
+            </div>
+        </div>
+        
+        <!-- Slide 14: Summary -->
+        <div class="slide">
+            <div class="slide-number">Slide 14</div>
+            <h1>Key Takeaways</h1>
+            
+            <div style="background: #667eea; color: white; padding: 25px; border-radius: 10px; margin-bottom: 20px;">
+                <h3 style="color: white; font-size: 1.5em; margin-bottom: 15px;">The Writing Process</h3>
+                <div style="font-size: 1.2em; line-height: 2;">
+                    Start Early → Outline First → Conclusion First → Figures First → Write Text → Revise Introduction → Write Abstract Last
+                </div>
+            </div>
+            
+            <div class="two-column">
+                <div>
+                    <h3 style="color: #e74c3c;">Don't</h3>
+                    <ul>
+                        <li>Wait until experiments are done</li>
+                        <li>Write like a lab report</li>
+                        <li>Use lazy phrases and jargon</li>
+                        <li>Put off writing the introduction</li>
+                        <li>Ignore lessons from transparent reviews</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color: #27ae60;">Do</h3>
+                    <ul>
+                        <li>Start with 1-2 sentence conclusion</li>
+                        <li>Make detailed outlines with data</li>
+                        <li>Choose figures before writing</li>
+                        <li>Tell a compelling story</li>
+                        <li>Learn from published review histories</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px; padding: 25px; background: #f39c12; color: white; border-radius: 10px; font-size: 1.3em; font-weight: 600;">
+                Start your next paper's outline TODAY
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
