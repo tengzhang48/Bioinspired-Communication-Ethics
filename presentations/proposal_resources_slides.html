@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Proposal Writing Resources</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .slide-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 900px;
+            min-height: 600px;
+            padding: 50px;
+            position: relative;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #764ba2;
+            font-size: 2em;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #667eea;
+            font-size: 1.4em;
+            margin: 25px 0 15px 0;
+        }
+
+        .resource-card {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .resource-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+        }
+
+        .resource-title {
+            font-weight: bold;
+            color: #764ba2;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        .resource-desc {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .resource-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            background: #e8eaf6;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .resource-link:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .nav-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .nav-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .slide-counter {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .slide {
+            display: none;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>Research Proposal Writing Resources</h1>
+            <p class="subtitle">Essential guides for PhD qualifying exams, NSF, NIH, and other funding applications</p>
+            <div style="text-align: center; margin-top: 50px;">
+                <p style="font-size: 1.3em; color: #555; line-height: 1.8;">
+                    A comprehensive collection of resources to help you craft compelling research proposals for qualifying exams, grant applications, and funding opportunities.
+                </p>
+            </div>
+        </div>
+
+        <!-- Slide 2: University Writing Guides -->
+        <div class="slide">
+            <h2>University Writing Guides</h2>
+            <div class="resource-card">
+                <div class="resource-title">University of South Florida - Proposal Samples</div>
+                <div class="resource-desc">Collection of successful proposal examples across multiple disciplines</div>
+                <a href="https://www.usf.edu/arts-sciences/research-scholarship/proposal-tools/proposal-samples.aspx" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Virginia Commonwealth University - Proposal Writing Guide</div>
+                <div class="resource-desc">Comprehensive guide on writing competitive proposals with practical tips</div>
+                <a href="https://research.vcu.edu/resources/research-development/proposal-writing-guide/" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">University of North Texas - Dissertation/Thesis Proposal Guide</div>
+                <div class="resource-desc">Step-by-step guidance with examples for dissertation proposals</div>
+                <a href="https://guides.library.unt.edu/Dissertation-thesis-proposal" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 3: Proposal Examples & Templates -->
+        <div class="slide">
+            <h2>Proposal Examples & Templates</h2>
+            <div class="resource-card">
+                <div class="resource-title">York St John University - Research Proposal Examples</div>
+                <div class="resource-desc">Multiple PhD proposal examples with guides for humanities and creative writing</div>
+                <a href="https://www.yorksj.ac.uk/study/postgraduate/research-degrees/apply/examples-of-research-proposals/" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">University of Sheffield - Successful Sample PhD Proposals</div>
+                <div class="resource-desc">Real successful proposals with 1,500-2,000 word examples from various fields</div>
+                <a href="https://sheffield.ac.uk/spir/phd/proposal" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">University of Texas - Intellectual Entrepreneurship</div>
+                <div class="resource-desc">20+ completed dissertation proposals available for review</div>
+                <a href="https://guides.library.unt.edu/Dissertation-thesis-proposal" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 4: How-to Guides -->
+        <div class="slide">
+            <h2>Comprehensive How-to Guides</h2>
+            <div class="resource-card">
+                <div class="resource-title">FindAPhD.com - How to Write a Great PhD Research Proposal</div>
+                <div class="resource-desc">Detailed guide on what makes a strong proposal, with tips and common mistakes</div>
+                <a href="https://www.findaphd.com/guides/writing-phd-research-proposal" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">University of Sydney - Research Proposal Guide</div>
+                <div class="resource-desc">Clear framework for presenting your idea, methodology, and significance</div>
+                <a href="https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Prospects.ac.uk - Writing a Successful Research Proposal</div>
+                <div class="resource-desc">Tips on structure, scope, and making a compelling argument for your research</div>
+                <a href="https://www.prospects.ac.uk/postgraduate-study/phd-study/how-to-write-a-successful-research-proposal" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 5: NSF GRFP Resources -->
+        <div class="slide">
+            <h2>NSF Graduate Research Fellowship Program (GRFP)</h2>
+            <div class="highlight-box">
+                <strong>Highly Prestigious Fellowship:</strong> The NSF GRFP provides 3 years of support ($37,000 annual stipend) and requires a 2-page research proposal demonstrating intellectual merit and broader impacts.
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">MIT CommLab - NSF GRFP Research Proposal Guide</div>
+                <div class="resource-desc">Excellent guide for writing a focused 2-page research proposal with intellectual merit and broader impacts</div>
+                <a href="https://mitcommlab.mit.edu/broad/commkit/nsf-research-proposal/" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Alex Lang's NSF Fellowship Resource Page</div>
+                <div class="resource-desc">Comprehensive collection with successful essays, advice from past winners, and detailed tips</div>
+                <a href="https://www.alexhunterlang.com/nsf-fellowship" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">GEMS - Graduate Application Examples</div>
+                <div class="resource-desc">Collection of NSF GRFP materials from 2008-2019 in geosciences and related fields</div>
+                <a href="https://gems-program.org/example-apps" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 6: NIH Biosketch Resources -->
+        <div class="slide">
+            <h2>NIH Grant Writing & Biosketch</h2>
+            <div class="highlight-box">
+                <strong>Why this matters:</strong> Learning NIH biosketch format helps you present your qualifications professionally and prepare strong biosketches for future grant applications.
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">NIH - Biosketch Format, Instructions, and Samples</div>
+                <div class="resource-desc">Official NIH biosketch requirements with examples and templates</div>
+                <a href="https://grants.nih.gov/grants-process/write-application/forms-directory/biosketch" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Penn State Health - Tips for Writing an Effective NIH Biosketch</div>
+                <div class="resource-desc">Top 5 tips including how to tell your research story through contributions</div>
+                <a href="https://pennstatehealthnews.org/topics/nih-biosketch-tips/" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Better at the Bench - How to Prepare a Stellar NIH Biosketch</div>
+                <div class="resource-desc">Step-by-step guide with sections on personal statement and contributions to science</div>
+                <a href="https://www.betteratthebench.com/week-4-how-to-prepare-a-stellar-nih-biosketch" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 7: Discipline-Specific Resources -->
+        <div class="slide">
+            <h2>Discipline-Specific Guidance</h2>
+            <div class="resource-card">
+                <div class="resource-title">University of Sussex - Research Proposal by Discipline</div>
+                <div class="resource-desc">Tailored guidance for Psychology, Engineering, Education, and Media/Film proposals</div>
+                <a href="https://www.sussex.ac.uk/study/phd/apply/tips-research-degrees/research-proposal" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Harvard SEAS - Oral Qualifying Exam for Computer Science</div>
+                <div class="resource-desc">Details on CS qualifying exam including research project presentation requirements</div>
+                <a href="https://seas.harvard.edu/computer-science/graduate-program/general-requirements/cs-oral-qualifying" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">MIT BE - Thesis Proposal/Oral Exam Guidelines</div>
+                <div class="resource-desc">Biological Engineering specific requirements including 30-minute presentation format</div>
+                <a href="https://begradhandbook.mit.edu/thesis-proposal/" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 8: Oral Presentation Resources -->
+        <div class="slide">
+            <h2>Oral Presentation & Defense</h2>
+            <div class="resource-card">
+                <div class="resource-title">MIT MechE CommLab - Qualifying Exam Presentation</div>
+                <div class="resource-desc">Excellent guide on structuring your talk, demonstrating qualifications, and handling Q&A</div>
+                <a href="https://mitcommlab.mit.edu/meche/commkit/qualifying-exam-presentation/" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">Inside Higher Ed - Qualifying Exam Proposal Checklist</div>
+                <div class="resource-desc">Timeline, study strategies, and wedding-binder approach to preparation</div>
+                <a href="https://www.insidehighered.com/blogs/gradhacker/qualifying-exam-proposal-checklist" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+            <div class="resource-card">
+                <div class="resource-title">University of Arizona LPL - How to Pass Your PhD Qualifying Exam</div>
+                <div class="resource-desc">Practical advice on preparing 15-minute primary presentation and handling oral examination</div>
+                <a href="https://www.lpl.arizona.edu/grad/guidebook/academic-requirements/how-pass-your-phd-qualifying-exam" target="_blank" class="resource-link">View Resource →</a>
+            </div>
+        </div>
+
+        <!-- Slide 9: Key Proposal Components -->
+        <div class="slide">
+            <h2>Key Components of a Strong Proposal</h2>
+            <h3>Essential Elements:</h3>
+            <ul>
+                <li><strong>Clear Research Question:</strong> Specific, focused, and feasible</li>
+                <li><strong>Background & Significance:</strong> Literature review showing the gap your research fills</li>
+                <li><strong>Methodology:</strong> Detailed approach with justification for methods</li>
+                <li><strong>Timeline:</strong> Realistic plan showing feasibility within PhD timeframe</li>
+                <li><strong>Expected Outcomes:</strong> Concrete deliverables and broader impacts</li>
+            </ul>
+            <div class="highlight-box" style="margin-top: 30px;">
+                <strong>Remember:</strong> Your proposal demonstrates your ability to think as an independent researcher, not a binding contract for your actual dissertation work.
+            </div>
+        </div>
+
+        <!-- Slide 10: Best Practices -->
+        <div class="slide">
+            <h2>Best Practices & Tips</h2>
+            <h3>Writing Tips:</h3>
+            <ul>
+                <li>Start early - give yourself 3-5 months for a strong proposal</li>
+                <li>Write for non-experts in your specific area (but experts in your field)</li>
+                <li>Use clear structure with headers and logical flow</li>
+                <li>Get feedback from multiple sources (advisor, committee, peers)</li>
+                <li>Practice your oral presentation many times</li>
+            </ul>
+            <h3>Common Pitfalls to Avoid:</h3>
+            <ul>
+                <li>Proposing an overly broad or ambitious project</li>
+                <li>Insufficient literature review or engagement with prior work</li>
+                <li>Vague methodology without specific details</li>
+                <li>Unrealistic timeline for proposed work</li>
+                <li>Not addressing "why this matters" - significance is crucial</li>
+            </ul>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="nav-button" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+            <span class="slide-counter"><span id="currentSlide">1</span> / <span id="totalSlides">10</span></span>
+            <button class="nav-button" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = document.querySelectorAll('.slide').length;
+
+        document.getElementById('totalSlides').textContent = totalSlides;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            
+            if (n > totalSlides) { currentSlide = totalSlides; }
+            if (n < 1) { currentSlide = 1; }
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[currentSlide - 1].classList.add('active');
+            
+            document.getElementById('currentSlide').textContent = currentSlide;
+            
+            document.getElementById('prevBtn').disabled = (currentSlide === 1);
+            document.getElementById('nextBtn').disabled = (currentSlide === totalSlides);
+        }
+
+        function changeSlide(n) {
+            currentSlide += n;
+            showSlide(currentSlide);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+            if (e.key === 'ArrowRight') changeSlide(1);
+        });
+
+        // Initialize
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
