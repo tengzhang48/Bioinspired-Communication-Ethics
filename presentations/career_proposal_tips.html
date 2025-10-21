@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSF CAREER Proposal Writing: Key Tips</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .slide-container {
+            padding: 50px;
+            min-height: 600px;
+        }
+
+        .slide-title {
+            font-size: 2.5rem;
+            color: #1a202c;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .slide-subtitle {
+            font-size: 1.25rem;
+            color: #718096;
+            margin-bottom: 30px;
+        }
+
+        .slide-content {
+            color: #2d3748;
+            line-height: 1.6;
+        }
+
+        /* Box Styles */
+        .box {
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .box-blue { background-color: #ebf8ff; }
+        .box-green { background-color: #f0fff4; }
+        .box-yellow { background-color: #fffff0; border-left: 4px solid #ecc94b; }
+        .box-red { background-color: #fff5f5; border-left: 4px solid #fc8181; }
+        .box-purple { background-color: #faf5ff; }
+        .box-indigo { background-color: #ebf4ff; }
+        .box-gray { background-color: #f7fafc; }
+
+        .box-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .text-blue { color: #2b6cb0; }
+        .text-green { color: #2f855a; }
+        .text-yellow { color: #b7791f; }
+        .text-red { color: #c53030; }
+        .text-purple { color: #6b46c1; }
+        .text-indigo { color: #4c51bf; }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #ebf8ff 0%, #faf5ff 100%);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .highlight-text {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: #f7fafc;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .nav-button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #4299e1;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background-color: #3182ce;
+        }
+
+        .nav-button:disabled {
+            background-color: #cbd5e0;
+            cursor: not-allowed;
+        }
+
+        .indicators {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #cbd5e0;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .indicator.active {
+            background-color: #4299e1;
+            width: 32px;
+            border-radius: 4px;
+        }
+
+        .indicator:hover {
+            background-color: #a0aec0;
+        }
+
+        .slide-counter {
+            color: #718096;
+            font-size: 0.9rem;
+            margin-right: 15px;
+        }
+
+        .icon {
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+
+        .flex-start {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .slide-container {
+                padding: 30px 20px;
+                min-height: 500px;
+            }
+
+            .slide-title {
+                font-size: 1.8rem;
+            }
+
+            .slide-subtitle {
+                font-size: 1rem;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .navigation {
+                padding: 15px 20px;
+            }
+        }
+
+        .slide {
+            display: none;
+        }
+
+        .slide.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slide-container">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <h1 class="slide-title">NSF CAREER Proposal Writing</h1>
+                <p class="slide-subtitle">Essential Tips from Award Winners</p>
+                <div class="slide-content">
+                    <div class="box box-blue">
+                        <div class="box-title text-blue">What is the CAREER Award?</div>
+                        <p>NSF's most prestigious award supporting early career-development activities of teacher-scholars who effectively integrate research and education.</p>
+                    </div>
+                    <div class="grid-2">
+                        <div class="box box-green">
+                            <p class="box-title text-green">5-year award</p>
+                            <p style="font-size: 0.9rem;">Foundation for lifetime contributions</p>
+                        </div>
+                        <div class="box box-purple">
+                            <p class="box-title text-purple">~10-15% success rate</p>
+                            <p style="font-size: 0.9rem;">Highly competitive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <h1 class="slide-title">Before You Write</h1>
+                <p class="slide-subtitle">Critical Preparation Steps</p>
+                <div class="slide-content">
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">⏰ Start Early: 6+ months before deadline</p>
+                    </div>
+                    
+                    <div class="flex-start">
+                        <span class="icon">📚</span>
+                        <div>
+                            <p style="font-weight: 600;">Read successful CAREER proposals</p>
+                            <p style="font-size: 0.9rem; color: #718096;">Request from NSF or colleagues (public documents)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-start">
+                        <span class="icon">🤝</span>
+                        <div>
+                            <p style="font-weight: 600;">Find mentors outside your department</p>
+                            <p style="font-size: 0.9rem; color: #718096;">Get fresh perspectives and honest feedback</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-start">
+                        <span class="icon">👥</span>
+                        <div>
+                            <p style="font-weight: 600;">Serve on an NSF review panel</p>
+                            <p style="font-size: 0.9rem; color: #718096;">Invaluable insight into the review process</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-start">
+                        <span class="icon">💬</span>
+                        <div>
+                            <p style="font-weight: 600;">Talk to your program director BEFORE submission</p>
+                            <p style="font-size: 0.9rem; color: #718096;">Ensure your proposal fits the program</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <h1 class="slide-title">Know Yourself & Your Vision</h1>
+                <p class="slide-subtitle">The Career Development Foundation</p>
+                <div class="slide-content">
+                    <div class="box box-indigo">
+                        <p class="box-title text-indigo">Critical Questions to Answer:</p>
+                        <ul>
+                            <li>Where do you see yourself in 5, 10, 20 years?</li>
+                            <li>What contributions will you make as a researcher AND educator?</li>
+                            <li>How does this 5-year plan launch your long-term career?</li>
+                            <li>What makes YOU uniquely qualified for this work?</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-red">
+                        <p class="box-title text-red">⚠️ Common Mistake:</p>
+                        <p>Not articulating a clear vision. Reviewers want to know where your career is headed, not just what you'll do in 5 years.</p>
+                    </div>
+                    
+                    <div class="box box-green">
+                        <p class="box-title text-green">✓ This is YOUR career plan</p>
+                        <p style="font-size: 0.9rem;">Write activities you'll pursue regardless of funding</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide">
+                <h1 class="slide-title">The First Page is CRITICAL</h1>
+                <p class="slide-subtitle">Hook Your Reviewers Immediately</p>
+                <div class="slide-content">
+                    <div class="box box-red" style="border: 2px solid #fc8181;">
+                        <p class="box-title text-red" style="font-size: 1.3rem;">George Hazelrigg's Rule:</p>
+                        <p style="font-size: 1.1rem; font-style: italic; margin: 15px 0;">
+                            "The research objective of this proposal is..."
+                        </p>
+                        <p style="font-size: 0.9rem; color: #718096;">
+                            Should be in the FIRST SENTENCE of page 1, paragraph 1
+                        </p>
+                    </div>
+                    
+                    <div class="box box-gray">
+                        <p style="font-weight: 600;">Every inch down the page = ~1% lower rating</p>
+                        <p style="font-size: 0.9rem;">If objectives aren't clear by page 12, chance of award → 0</p>
+                    </div>
+                    
+                    <div class="box box-blue">
+                        <p style="font-weight: 600;">Make it accessible to non-experts</p>
+                        <p style="font-size: 0.9rem;">Write first 2-3 pages for Scientific American readers</p>
+                    </div>
+                    
+                    <div class="box box-purple">
+                        <p style="font-weight: 600;">One-sentence summary is key</p>
+                        <p style="font-size: 0.9rem;">Crisp concept helps reviewers understand immediately</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide">
+                <h1 class="slide-title">Research Plan Essentials</h1>
+                <p class="slide-subtitle">Demonstrating Technical Merit</p>
+                <div class="slide-content">
+                    <div class="grid-2">
+                        <div class="box box-green">
+                            <p class="box-title text-green">✓ DO:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Be ambitious yet believable</li>
+                                <li>Show preliminary results</li>
+                                <li>Include realistic timeline</li>
+                                <li>State clear success metrics</li>
+                                <li>Propose fundamental research</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="box box-red">
+                            <p class="box-title text-red">✗ DON'T:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Use "develop," "design," "optimize"</li>
+                                <li>Propose too much or too little</li>
+                                <li>Be incremental</li>
+                                <li>Leave methodology vague</li>
+                                <li>Ignore seminal literature</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">Research Objective Formats (only 4 ways!):</p>
+                        <ol style="font-size: 0.9rem;">
+                            <li>Test the hypothesis H</li>
+                            <li>Measure parameter P with accuracy A</li>
+                            <li>Prove the conjecture C</li>
+                            <li>Apply method M from field D to problem P in field E</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="box box-blue">
+                        <p style="font-weight: 600; color: #2b6cb0;">Balance: ~2/3 research, ~1/3 education</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide">
+                <h1 class="slide-title">Education Plan</h1>
+                <p class="slide-subtitle">More Than Just Teaching</p>
+                <div class="slide-content">
+                    <div class="box box-red" style="border: 2px solid #fc8181;">
+                        <p class="box-title text-red">⚠️ NOT Sufficient (too standard):</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>Developing a new graduate course</li>
+                            <li>Working with graduate students</li>
+                            <li>Including research in courses</li>
+                            <li>Generic diversity statements</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-green">
+                        <p class="box-title text-green">✓ Strong Education Plans:</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li><strong>Integrate</strong> research and education seamlessly</li>
+                            <li><strong>Be unique and creative</strong> (TV programs, interactive tools, novel outreach)</li>
+                            <li><strong>Show assessment plans</strong> - how will you measure impact?</li>
+                            <li><strong>Use existing infrastructure</strong> - partner with campus centers, local schools</li>
+                            <li><strong>Cite education literature</strong> (10+ references)</li>
+                            <li><strong>Be specific</strong> - name contacts, describe actual activities</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-purple">
+                        <p style="font-weight: 600; color: #6b46c1;">Focus on depth, not breadth</p>
+                        <p style="font-size: 0.9rem;">Do 2-3 things excellently rather than everything superficially</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide">
+                <h1 class="slide-title">Intellectual Merit & Broader Impacts</h1>
+                <p class="slide-subtitle">NSF's Two Core Review Criteria</p>
+                <div class="slide-content">
+                    <div class="box box-blue">
+                        <p class="box-title text-blue" style="font-size: 1.2rem;">Intellectual Merit</p>
+                        <ul>
+                            <li>What is the technical contribution to your field?</li>
+                            <li>How does it advance knowledge across disciplines?</li>
+                            <li>Connection to Grand Challenges or National Academies reports?</li>
+                            <li>Why is this scientifically important NOW?</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-green">
+                        <p class="box-title text-green" style="font-size: 1.2rem;">Broader Impacts</p>
+                        <ul>
+                            <li>Benefits to society beyond your research field</li>
+                            <li>Educational outreach (K-12, underrepresented groups)</li>
+                            <li>Technology transfer and industry collaboration</li>
+                            <li>Infrastructure development (tools, databases, etc.)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">Make These EXPLICIT</p>
+                        <p style="font-size: 0.9rem;">Use headers, bold text, or dedicated sections. Don't make reviewers hunt for them!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide">
+                <h1 class="slide-title">Letters & Collaborations</h1>
+                <p class="slide-subtitle">Building Credibility Through Partners</p>
+                <div class="slide-content">
+                    <div class="box box-indigo">
+                        <p class="box-title text-indigo">Letters of Collaboration (NOT Support)</p>
+                        <p style="margin: 10px 0;">Strong letters demonstrate:</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li><strong>Knowledge of your work</strong> - they understand your research</li>
+                            <li><strong>Substantive commitment</strong> - money, equipment, data, personnel time</li>
+                            <li><strong>Clear relationship</strong> - specific plans for collaboration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="grid-2">
+                        <div class="box box-green">
+                            <p class="box-title text-green">Good Partners:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Industry collaborators</li>
+                                <li>National labs</li>
+                                <li>Other universities</li>
+                                <li>Campus teaching centers</li>
+                                <li>K-12 schools/museums</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="box box-blue">
+                            <p class="box-title text-blue">Value Added:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Validation of relevance</li>
+                                <li>Access to data/facilities</li>
+                                <li>Technology transfer</li>
+                                <li>Cost-sharing support</li>
+                                <li>Broader impact reach</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="box box-yellow">
+                        <p style="font-weight: 600;">Start building relationships 1+ year early</p>
+                        <p style="font-size: 0.9rem;">Strong partnerships take time to develop</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="slide">
+                <h1 class="slide-title">Writing & Formatting</h1>
+                <p class="slide-subtitle">Professional Presentation Matters</p>
+                <div class="slide-content">
+                    <div class="box box-red">
+                        <p class="box-title text-red">Critical Formatting Rules:</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>Use 12-point font (Times Roman) - nothing smaller!</li>
+                            <li>1-inch margins (don't squeeze)</li>
+                            <li>15-page limit for Project Description</li>
+                            <li>1-page Project Summary</li>
+                            <li>Follow NSF Grant Proposal Guide exactly</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="grid-2">
+                        <div class="box box-green">
+                            <p class="box-title text-green">✓ Good Practices:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>High-quality figures</li>
+                                <li>Bold key concepts</li>
+                                <li>Clear section headers</li>
+                                <li>No grammatical errors</li>
+                                <li>Minimal technical jargon</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="box box-red">
+                            <p class="box-title text-red">✗ Avoid:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Small, illegible fonts</li>
+                                <li>Dense text walls</li>
+                                <li>Excessive bullet points</li>
+                                <li>Typos in title(!)</li>
+                                <li>Poor quality images</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="box box-purple">
+                        <p style="font-weight: 600;">Have multiple people proofread</p>
+                        <p style="font-size: 0.9rem;">Including technical experts AND non-technical readers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10 -->
+            <div class="slide">
+                <h1 class="slide-title">Common Mistakes to Avoid</h1>
+                <p class="slide-subtitle">Learning from Others' Experiences</p>
+                <div class="slide-content">
+                    <div class="box box-red">
+                        <p style="font-weight: 600;">1. Not following submission guidelines</p>
+                        <p style="font-size: 0.9rem;">NSF will return without review - read the GPG!</p>
+                    </div>
+                    
+                    <div class="box box-red">
+                        <p style="font-weight: 600;">2. Treating it like a regular research proposal</p>
+                        <p style="font-size: 0.9rem;">This is about YOUR CAREER, not just a 5-year project</p>
+                    </div>
+                    
+                    <div class="box box-red">
+                        <p style="font-weight: 600;">3. Marginalizing education component</p>
+                        <p style="font-size: 0.9rem;">Integration of research and education is the heart of CAREER</p>
+                    </div>
+                    
+                    <div class="box box-red">
+                        <p style="font-weight: 600;">4. Being too incremental or too ambitious</p>
+                        <p style="font-size: 0.9rem;">Find the balance between impact and feasibility</p>
+                    </div>
+                    
+                    <div class="box box-red">
+                        <p style="font-weight: 600;">5. Weak or generic letters of support</p>
+                        <p style="font-size: 0.9rem;">Get substantive commitments from collaborators</p>
+                    </div>
+                    
+                    <div class="box box-red">
+                        <p style="font-weight: 600;">6. Submitting at the last minute</p>
+                        <p style="font-size: 0.9rem;">Technical problems or missing materials = return without review</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11 -->
+            <div class="slide">
+                <h1 class="slide-title">The Review Process</h1>
+                <p class="slide-subtitle">Understanding Your Audience</p>
+                <div class="slide-content">
+                    <div class="box box-indigo">
+                        <p class="box-title text-indigo">Review Panel Composition</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>3 assigned reviewers + full panel of ~15 experts</li>
+                            <li>Mix of expertise levels in your specific area</li>
+                            <li>Reading 10-20 proposals each</li>
+                            <li>Limited time per proposal (~45 minutes)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">What Reviewers Look For:</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>Clear research and career objectives (page 1!)</li>
+                            <li>Feasibility and PI qualifications</li>
+                            <li>Novel, fundamental contributions</li>
+                            <li>Strong integration of research/education</li>
+                            <li>Realistic timeline and methodology</li>
+                            <li>Evidence of preliminary work</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-blue">
+                        <p style="font-weight: 600;">Reviewers will ask:</p>
+                        <p style="font-size: 0.9rem; font-style: italic;">"Why should we invest in THIS person to do THIS work?"</p>
+                    </div>
+                    
+                    <div class="box box-green">
+                        <p style="font-weight: 600;">Success = Making reviewers excited</p>
+                        <p style="font-size: 0.9rem;">"Gee, I wish I thought of that!"</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12 -->
+            <div class="slide">
+                <h1 class="slide-title">If Your Proposal is Rejected</h1>
+                <p class="slide-subtitle">Strategies for Resubmission</p>
+                <div class="slide-content">
+                    <div class="box box-blue">
+                        <p class="box-title text-blue">Most PIs Need 2-3 Attempts</p>
+                        <p>Success rate is ~10-15%, so rejection is common even for excellent proposals</p>
+                    </div>
+                    
+                    <div class="box box-green">
+                        <p class="box-title text-green">After Rejection:</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>Read ALL reviewer comments carefully</li>
+                            <li>Meet with program director to discuss feedback</li>
+                            <li>Consider rewriting from scratch (not just revising)</li>
+                            <li>Get more preliminary data/results</li>
+                            <li>Strengthen letters and collaborations</li>
+                            <li>Have 5+ people review next version</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">Common Reasons for Rejection:</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>Incremental rather than transformative</li>
+                            <li>Unclear objectives or methodology</li>
+                            <li>Scope too broad or too narrow</li>
+                            <li>Weak education plan</li>
+                            <li>Missing key literature</li>
+                            <li>Lack of preliminary results</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13 -->
+            <div class="slide">
+                <h1 class="slide-title">Final Advice</h1>
+                <p class="slide-subtitle">Wisdom from Award Winners</p>
+                <div class="slide-content">
+                    <div class="highlight-box">
+                        <p class="highlight-text">
+                            "The CAREER proposal is about planning your career, not just your CAREER proposal."
+                        </p>
+                    </div>
+                    
+                    <div class="grid-2">
+                        <div class="box box-green">
+                            <p class="box-title text-green">✓ Remember:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Communicate your passion</li>
+                                <li>Be brave but realistic</li>
+                                <li>Show your unique perspective</li>
+                                <li>Quality over quantity</li>
+                                <li>Enjoy the process</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="box box-blue">
+                            <p class="box-title text-blue">Resources:</p>
+                            <ul style="font-size: 0.9rem;">
+                                <li>NSF CAREER workshops</li>
+                                <li>University grant offices</li>
+                                <li>Senior faculty mentors</li>
+                                <li>Previous awardees</li>
+                                <li>NSF program directors</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="box box-yellow" style="border: 2px solid #ecc94b;">
+                        <p class="box-title text-yellow" style="text-align: center;">Most Important Takeaway:</p>
+                        <p style="text-align: center;">
+                            NSF funds <strong>good people</strong> with <strong>good projects</strong>
+                        </p>
+                    </div>
+                    
+                    <div class="box box-purple" style="text-align: center;">
+                        <p style="font-size: 1.1rem; font-weight: 600; color: #6b46c1;">
+                            Success is about demonstrating YOUR potential for a lifetime of integrated contributions to research and education
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="nav-button" id="prevBtn" onclick="changeSlide(-1)">
+                ← Previous
+            </button>
+
+            <div class="indicators">
+                <span class="slide-counter" id="slideCounter">1 / 13</span>
+                <div class="indicator active" onclick="goToSlide(0)"></div>
+                <div class="indicator" onclick="goToSlide(1)"></div>
+                <div class="indicator" onclick="goToSlide(2)"></div>
+                <div class="indicator" onclick="goToSlide(3)"></div>
+                <div class="indicator" onclick="goToSlide(4)"></div>
+                <div class="indicator" onclick="goToSlide(5)"></div>
+                <div class="indicator" onclick="goToSlide(6)"></div>
+                <div class="indicator" onclick="goToSlide(7)"></div>
+                <div class="indicator" onclick="goToSlide(8)"></div>
+                <div class="indicator" onclick="goToSlide(9)"></div>
+                <div class="indicator" onclick="goToSlide(10)"></div>
+                <div class="indicator" onclick="goToSlide(11)"></div>
+                <div class="indicator" onclick="goToSlide(12)"></div>
+            </div>
+
+            <button class="nav-button" id="nextBtn" onclick="changeSlide(1)">
+                Next →
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 13;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            const indicators = document.querySelectorAll('.indicator');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const slideCounter = document.getElementById('slideCounter');
+
+            if (n >= totalSlides) currentSlide = totalSlides - 1;
+            if (n < 0) currentSlide = 0;
+
+            slides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+
+            slideCounter.textContent = `${currentSlide + 1} / ${totalSlides}`;
+
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === totalSlides - 1;
+        }
+
+        function changeSlide(n) {
+            currentSlide += n;
+            showSlide(currentSlide);
+        }
+
+        function goToSlide(n) {
+            currentSlide = n;
+            showSlide(currentSlide);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowLeft') changeSlide(-1);
+            if (event.key === 'ArrowRight') changeSlide(1);
+        });
+
+        // Initialize
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
