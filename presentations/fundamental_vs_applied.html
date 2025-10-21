@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental vs. Applied Research: Word Choice Matters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .slide-container {
+            padding: 50px;
+            min-height: 600px;
+        }
+
+        .slide-title {
+            font-size: 2.5rem;
+            color: #1a202c;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .slide-subtitle {
+            font-size: 1.25rem;
+            color: #718096;
+            margin-bottom: 30px;
+        }
+
+        .slide-content {
+            color: #2d3748;
+            line-height: 1.6;
+        }
+
+        /* Box Styles */
+        .box {
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .box-blue { background-color: #ebf8ff; }
+        .box-green { background-color: #f0fff4; }
+        .box-yellow { background-color: #fffff0; border-left: 4px solid #ecc94b; }
+        .box-red { background-color: #fff5f5; border-left: 4px solid #fc8181; }
+        .box-purple { background-color: #faf5ff; }
+        .box-orange { background-color: #fffaf0; }
+        .box-gray { background-color: #f7fafc; }
+
+        .box-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .text-blue { color: #2b6cb0; }
+        .text-green { color: #2f855a; }
+        .text-yellow { color: #b7791f; }
+        .text-red { color: #c53030; }
+        .text-purple { color: #6b46c1; }
+        .text-orange { color: #c05621; }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .comparison-box {
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid;
+        }
+
+        .comparison-box.bad {
+            background-color: #fff5f5;
+            border-color: #fc8181;
+        }
+
+        .comparison-box.good {
+            background-color: #f0fff4;
+            border-color: #68d391;
+        }
+
+        .comparison-header {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .icon {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        .example {
+            background-color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .highlight {
+            background-color: #fef5e7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .arrow {
+            text-align: center;
+            font-size: 2rem;
+            color: #4299e1;
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th {
+            background-color: #edf2f7;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        tr:hover {
+            background-color: #f7fafc;
+        }
+
+        .emphasis-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .checklist {
+            background-color: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4299e1;
+        }
+
+        .checklist-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: start;
+        }
+
+        .checklist-item::before {
+            content: "→";
+            color: #4299e1;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: #f7fafc;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .nav-button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #4299e1;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background-color: #3182ce;
+        }
+
+        .nav-button:disabled {
+            background-color: #cbd5e0;
+            cursor: not-allowed;
+        }
+
+        .indicators {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #cbd5e0;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .indicator.active {
+            background-color: #4299e1;
+            width: 32px;
+            border-radius: 4px;
+        }
+
+        .indicator:hover {
+            background-color: #a0aec0;
+        }
+
+        .slide-counter {
+            color: #718096;
+            font-size: 0.9rem;
+            margin-right: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .slide-container {
+                padding: 30px 20px;
+                min-height: 500px;
+            }
+
+            .slide-title {
+                font-size: 1.8rem;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .navigation {
+                padding: 15px 20px;
+            }
+        }
+
+        .slide {
+            display: none;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .word-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+            margin: 2px;
+        }
+
+        .word-bad {
+            background-color: #fed7d7;
+            color: #c53030;
+        }
+
+        .word-good {
+            background-color: #c6f6d5;
+            color: #2f855a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slide-container">
+            <!-- Slide 1: Introduction -->
+            <div class="slide active">
+                <h1 class="slide-title">Word Choice Matters</h1>
+                <p class="slide-subtitle">Why Language Shapes How Reviewers Perceive Your Research</p>
+                <div class="slide-content">
+                    <div class="box box-red" style="border: 3px solid #fc8181;">
+                        <p class="box-title text-red" style="font-size: 1.3rem;">⏱️ The Reality of Proposal Review</p>
+                        <ul style="font-size: 1.05rem;">
+                            <li><strong>5-8 proposals</strong> per reviewer (often reviewed in last few days before deadline)</li>
+                            <li><strong>Panel discussion:</strong> 10 minutes to 1 hour per proposal</li>
+                            <li><strong>Time pressure is REAL</strong> - reviewers are rushed</li>
+                            <li><strong>First impressions</strong> are critical</li>
+                            <li><strong>Keywords trigger mental categories</strong> instantly</li>
+                        </ul>
+                    </div>
+
+                    <div class="emphasis-box">
+                        Reviewers make snap judgments based on the words you use.<br>
+                        Choose them carefully.
+                    </div>
+
+                    <div class="box box-blue">
+                        <p class="box-title text-blue">NSF's Fundamental Question:</p>
+                        <p style="font-size: 1.15rem; font-style: italic; margin-top: 10px;">
+                            "Is this proposal advancing <strong>fundamental knowledge</strong> (research) or creating <strong>specific solutions</strong> (development)?"
+                        </p>
+                    </div>
+
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">⚠️ The Problem:</p>
+                        <p>Certain words automatically signal "development" to reviewers, even if your work IS fundamental research. Your job is to frame it correctly.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: The Forbidden Words -->
+            <div class="slide">
+                <h1 class="slide-title">Words That Signal "Not Research"</h1>
+                <p class="slide-subtitle">According to NSF Program Directors</p>
+                <div class="slide-content">
+                    <div class="box box-red">
+                        <p class="box-title text-red">❌ Red Flag Words (Use with Extreme Caution):</p>
+                        <div style="margin: 20px 0;">
+                            <span class="word-badge word-bad">develop</span>
+                            <span class="word-badge word-bad">design</span>
+                            <span class="word-badge word-bad">optimize</span>
+                            <span class="word-badge word-bad">control</span>
+                            <span class="word-badge word-bad">manage</span>
+                            <span class="word-badge word-bad">build</span>
+                            <span class="word-badge word-bad">create</span>
+                            <span class="word-badge word-bad">improve</span>
+                            <span class="word-badge word-bad">implement</span>
+                        </div>
+                    </div>
+
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">Why These Words Are Problematic:</p>
+                        <table>
+                            <tr>
+                                <th>Word</th>
+                                <th>What Reviewers Think</th>
+                            </tr>
+                            <tr>
+                                <td><strong>"Develop"</strong></td>
+                                <td>Creating a product/tool (engineering development)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Design"</strong></td>
+                                <td>Creating a specific solution (applied work)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Optimize"</strong></td>
+                                <td>Incremental improvement, not new knowledge</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Build/Create"</strong></td>
+                                <td>Construction, not discovery</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Improve"</strong></td>
+                                <td>Incremental, not transformative</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="box box-blue">
+                        <p class="box-title text-blue">NSF's Mandate:</p>
+                        <p style="font-style: italic;">"NSF specializes in funding <strong>fundamental research</strong>. NSF does NOT support development."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Applied vs Fundamental -->
+            <div class="slide">
+                <h1 class="slide-title">Applied vs. Fundamental Research</h1>
+                <p class="slide-subtitle">Understanding the Core Distinction</p>
+                <div class="slide-content">
+                    <div class="comparison-grid">
+                        <div class="comparison-box bad">
+                            <div class="comparison-header text-red">
+                                <span class="icon">❌</span>
+                                Applied/Development
+                            </div>
+                            <ul>
+                                <li><strong>Creates</strong> specific solutions</li>
+                                <li><strong>Solves</strong> particular problems</li>
+                                <li><strong>Produces</strong> products or tools</li>
+                                <li><strong>Demonstrates</strong> feasibility</li>
+                                <li><strong>Context-specific</strong></li>
+                                <li><strong>Outcome:</strong> "We have a thing"</li>
+                            </ul>
+                            <div class="example">
+                                "Design a more efficient turbine blade for wind energy"
+                            </div>
+                        </div>
+
+                        <div class="comparison-box good">
+                            <div class="comparison-header text-green">
+                                <span class="icon">✓</span>
+                                Fundamental Research
+                            </div>
+                            <ul>
+                                <li><strong>Discovers</strong> principles</li>
+                                <li><strong>Explains</strong> mechanisms</li>
+                                <li><strong>Tests</strong> hypotheses</li>
+                                <li><strong>Establishes</strong> bounds/limits</li>
+                                <li><strong>Generalizable knowledge</strong></li>
+                                <li><strong>Outcome:</strong> "We understand why"</li>
+                            </ul>
+                            <div class="example">
+                                "Test the hypothesis that vortex generators reduce drag by 25% through boundary layer energization"
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box box-purple">
+                        <p class="box-title text-purple">The Key Distinction:</p>
+                        <p style="font-size: 1.1rem; margin-top: 10px;">
+                            <strong>Applied:</strong> "I want to <span class="highlight">design</span> a better X"<br><br>
+                            <strong>Fundamental:</strong> "I want to <span class="highlight">understand the principles</span> that enable effective design of X"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: The Framework -->
+            <div class="slide">
+                <h1 class="slide-title">The Framework That Works</h1>
+                <p class="slide-subtitle">Distinguishing the Activity from the Knowledge</p>
+                <div class="slide-content">
+                    <div class="box box-blue" style="border: 3px solid #4299e1;">
+                        <p style="font-size: 1.3rem; font-weight: bold; color: #2b6cb0; margin-bottom: 20px;">
+                            🎯 Critical Insight:
+                        </p>
+                        <p style="font-size: 1.15rem; line-height: 1.8;">
+                            <strong style="color: #c53030;">Design itself</strong> → Applied<br><br>
+                            <strong style="color: #2f855a;">Discovering design principles</strong> → Fundamental<br><br>
+                            <strong style="color: #c53030;">Optimizing performance</strong> → Applied<br><br>
+                            <strong style="color: #2f855a;">Understanding why optimal solutions exist</strong> → Fundamental
+                        </p>
+                    </div>
+
+                    <div class="box box-green">
+                        <p class="box-title text-green">Ask Yourself These Questions:</p>
+                        <div class="checklist">
+                            <div class="checklist-item">
+                                <span style="flex: 1;">If this works, <strong>what will we LEARN?</strong> (not just "what will we have?")</span>
+                            </div>
+                            <div class="checklist-item">
+                                <span style="flex: 1;"><strong>What fundamental question</strong> am I answering?</span>
+                            </div>
+                            <div class="checklist-item">
+                                <span style="flex: 1;">Will the <strong>knowledge transfer</strong> to other contexts?</span>
+                            </div>
+                            <div class="checklist-item">
+                                <span style="flex: 1;">Am I <strong>discovering principles</strong> or <strong>implementing solutions?</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">The Litmus Test:</p>
+                        <p style="font-size: 1.05rem;">Can you frame your objective using one of these four formats?</p>
+                        <ol style="margin-top: 10px; font-weight: 600;">
+                            <li>Test the hypothesis H</li>
+                            <li>Measure parameter P with accuracy A</li>
+                            <li>Prove the conjecture C</li>
+                            <li>Apply method M from field D to problem P in field E</li>
+                        </ol>
+                        <p style="margin-top: 10px; font-style: italic;">If yes → You're framing it as fundamental research</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Side-by-Side Examples Part 1 -->
+            <div class="slide">
+                <h1 class="slide-title">Reframing Examples (Part 1)</h1>
+                <p class="slide-subtitle">From Development to Discovery</p>
+                <div class="slide-content">
+                    <div style="margin-bottom: 25px;">
+                        <div class="comparison-box bad" style="margin-bottom: 10px;">
+                            <div class="comparison-header text-red">
+                                <span class="icon">❌</span>
+                                Applied/Developmental Framing
+                            </div>
+                            <div class="example" style="background-color: #fff5f5;">
+                                "The objective is to <span class="highlight" style="background-color: #fed7d7;">design</span> an <span class="highlight" style="background-color: #fed7d7;">optimized</span> heat exchanger for automotive applications."
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="comparison-box good">
+                            <div class="comparison-header text-green">
+                                <span class="icon">✓</span>
+                                Fundamental Research Framing
+                            </div>
+                            <div class="example" style="background-color: #f0fff4;">
+                                "The objective is to <span class="highlight" style="background-color: #c6f6d5;">test the hypothesis</span> that counter-flow geometries enhance heat transfer coefficients by 30% through turbulence-induced boundary layer disruption, as <span class="highlight" style="background-color: #c6f6d5;">measured</span> by PIV analysis."
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="comparison-box bad" style="margin-bottom: 10px;">
+                            <div class="comparison-header text-red">
+                                <span class="icon">❌</span>
+                                Applied/Developmental Framing
+                            </div>
+                            <div class="example" style="background-color: #fff5f5;">
+                                "The goal is to <span class="highlight" style="background-color: #fed7d7;">develop</span> a control algorithm for autonomous vehicles."
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="comparison-box good">
+                            <div class="comparison-header text-green">
+                                <span class="icon">✓</span>
+                                Fundamental Research Framing
+                            </div>
+                            <div class="example" style="background-color: #f0fff4;">
+                                "The objective is to <span class="highlight" style="background-color: #c6f6d5;">test the conjecture</span> that adaptive model predictive control reduces uncertainty propagation by 40% in multi-agent systems under sensor noise, as <span class="highlight" style="background-color: #c6f6d5;">measured</span> by Monte Carlo simulation."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Side-by-Side Examples Part 2 -->
+            <div class="slide">
+                <h1 class="slide-title">Reframing Examples (Part 2)</h1>
+                <p class="slide-subtitle">More Real-World Cases</p>
+                <div class="slide-content">
+                    <div style="margin-bottom: 25px;">
+                        <div class="comparison-box bad" style="margin-bottom: 10px;">
+                            <div class="comparison-header text-red">
+                                <span class="icon">❌</span>
+                                Applied Framing
+                            </div>
+                            <div class="example" style="background-color: #fff5f5;">
+                                "We will <span class="highlight" style="background-color: #fed7d7;">optimize</span> the supply chain to reduce costs by 15%."
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="comparison-box good">
+                            <div class="comparison-header text-green">
+                                <span class="icon">✓</span>
+                                Fundamental Research Framing
+                            </div>
+                            <div class="example" style="background-color: #f0fff4;">
+                                "We will <span class="highlight" style="background-color: #c6f6d5;">prove</span> that phase transitions exist in network reliability as a function of redundancy topology, establishing <span class="highlight" style="background-color: #c6f6d5;">theoretical bounds</span> on achievable resilience."
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <div class="comparison-box bad" style="margin-bottom: 10px;">
+                            <div class="comparison-header text-red">
+                                <span class="icon">❌</span>
+                                Applied Framing
+                            </div>
+                            <div class="example" style="background-color: #fff5f5;">
+                                "This project will <span class="highlight" style="background-color: #fed7d7;">design</span> a prosthetic hand with improved grip."
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="comparison-box good">
+                            <div class="comparison-header text-green">
+                                <span class="icon">✓</span>
+                                Fundamental Research Framing
+                            </div>
+                            <div class="example" style="background-color: #f0fff4;">
+                                "This project will <span class="highlight" style="background-color: #c6f6d5;">identify the biomechanical principles</span> that enable force distribution in multi-digit grasping, <span class="highlight" style="background-color: #c6f6d5;">measuring</span> contact mechanics across anatomical variations."
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="comparison-box bad" style="margin-bottom: 10px;">
+                            <div class="comparison-header text-red">
+                                <span class="icon">❌</span>
+                                Applied Framing
+                            </div>
+                            <div class="example" style="background-color: #fff5f5;">
+                                "We will <span class="highlight" style="background-color: #fed7d7;">build</span> a faster sorting algorithm."
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="comparison-box good">
+                            <div class="comparison-header text-green">
+                                <span class="icon">✓</span>
+                                Fundamental Research Framing
+                            </div>
+                            <div class="example" style="background-color: #f0fff4;">
+                                "We will <span class="highlight" style="background-color: #c6f6d5;">establish the theoretical lower bounds</span> for comparison-based sorting under memory constraints, <span class="highlight" style="background-color: #c6f6d5;">proving</span> optimality conditions."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Word Replacement Guide -->
+            <div class="slide">
+                <h1 class="slide-title">Your Word Replacement Toolkit</h1>
+                <p class="slide-subtitle">Strategic Language for Fundamental Research</p>
+                <div class="slide-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="background-color: #fff5f5; color: #c53030;">❌ Instead of...</th>
+                                <th style="background-color: #f0fff4; color: #2f855a;">✓ Use...</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>"Develop a method"</strong></td>
+                                <td><strong>"Test the hypothesis that..."</strong><br>
+                                <strong>"Investigate whether..."</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Design a system"</strong></td>
+                                <td><strong>"Understand the principles governing..."</strong><br>
+                                <strong>"Identify the mechanisms enabling..."</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Optimize performance"</strong></td>
+                                <td><strong>"Determine the theoretical limits of..."</strong><br>
+                                <strong>"Measure the tradeoffs between..."</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Build a tool"</strong></td>
+                                <td><strong>"Discover the mechanisms enabling..."</strong><br>
+                                <strong>"Establish the principles for..."</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Improve existing X"</strong></td>
+                                <td><strong>"Test whether fundamental principle Y enables..."</strong><br>
+                                <strong>"Understand why current approaches fail..."</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Create a solution"</strong></td>
+                                <td><strong>"Prove the existence of..."</strong><br>
+                                <strong>"Characterize the conditions under which..."</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="box box-blue" style="margin-top: 20px;">
+                        <p class="box-title text-blue">Key Verbs for Fundamental Research:</p>
+                        <div style="margin-top: 10px;">
+                            <span class="word-badge word-good">Test</span>
+                            <span class="word-badge word-good">Measure</span>
+                            <span class="word-badge word-good">Prove</span>
+                            <span class="word-badge word-good">Understand</span>
+                            <span class="word-badge word-good">Discover</span>
+                            <span class="word-badge word-good">Identify</span>
+                            <span class="word-badge word-good">Establish</span>
+                            <span class="word-badge word-good">Determine</span>
+                            <span class="word-badge word-good">Investigate</span>
+                            <span class="word-badge word-good">Characterize</span>
+                            <span class="word-badge word-good">Elucidate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: The Gray Area -->
+            <div class="slide">
+                <h1 class="slide-title">Navigating the Gray Area</h1>
+                <p class="slide-subtitle">When Design/Optimization IS Research</p>
+                <div class="slide-content">
+                    <div class="box box-purple">
+                        <p class="box-title text-purple">Important Nuance:</p>
+                        <p style="font-size: 1.1rem;">
+                            You CAN do research <strong>on</strong> design, optimization, and control—<br>
+                            just frame it in terms of <strong>fundamental questions</strong>, not products.
+                        </p>
+                    </div>
+
+                    <div class="box box-blue">
+                        <p class="box-title text-blue">From the NSF Guidelines:</p>
+                        <p style="font-style: italic; margin-top: 10px;">
+                            "Understanding and applying the mathematics of [engineering decisions] is also important. This includes the application of probability theory, decision theory, game theory, <strong>optimization</strong>, <strong>control theory</strong>... This also is a legitimate area of research for engineering."
+                        </p>
+                    </div>
+
+                    <div class="box box-green">
+                        <p class="box-title text-green">✓ Acceptable When You're Studying:</p>
+                        <ul>
+                            <li>The <strong>principles</strong> underlying design</li>
+                            <li>The <strong>mechanisms</strong> that explain optimization</li>
+                            <li>The <strong>theoretical bounds</strong> of what's achievable</li>
+                            <li>The <strong>fundamental tradeoffs</strong> in complex systems</li>
+                            <li>The <strong>mathematical properties</strong> of control strategies</li>
+                            <li>The <strong>conditions</strong> under which approaches succeed/fail</li>
+                        </ul>
+                    </div>
+
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow">⚠️ The Test:</p>
+                        <p style="font-size: 1.05rem; margin-top: 10px;">
+                            <strong>Question:</strong> "If I complete this work successfully, what will the scientific community have learned that they didn't know before?"
+                        </p>
+                        <p style="margin-top: 10px;">
+                            <strong>Good answer:</strong> New principles, bounds, mechanisms, or understanding<br>
+                            <strong>Bad answer:</strong> A working prototype or improved performance metric
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Educational Research Example -->
+            <div class="slide">
+                <h1 class="slide-title">Example from Your Domain</h1>
+                <p class="slide-subtitle">Scientific Communication & Education Research</p>
+                <div class="slide-content">
+                    <div class="comparison-box bad" style="margin-bottom: 15px;">
+                        <div class="comparison-header text-red">
+                            <span class="icon">❌</span>
+                            Applied/Development Framing
+                        </div>
+                        <div class="example" style="background-color: #fff5f5; margin-top: 10px;">
+                            "This project will <span class="highlight" style="background-color: #fed7d7;">design</span> an educational module for teaching hypothesis formation to PhD students."
+                        </div>
+                        <p style="margin-top: 15px; color: #c53030;">
+                            <strong>Problem:</strong> Signals product development, not research
+                        </p>
+                    </div>
+
+                    <div class="arrow">↓</div>
+
+                    <div class="comparison-box good" style="margin-top: 15px;">
+                        <div class="comparison-header text-green">
+                            <span class="icon">✓</span>
+                            Fundamental Research Framing
+                        </div>
+                        <div class="example" style="background-color: #f0fff4; margin-top: 10px;">
+                            "This project will <span class="highlight" style="background-color: #c6f6d5;">test the hypothesis</span> that metacognitive scaffolding improves students' ability to <span class="highlight" style="background-color: #c6f6d5;">identify causal relationships</span> in complex systems by 35%, as <span class="highlight" style="background-color: #c6f6d5;">measured</span> by pre/post assessment of hypothesis quality using validated rubrics."
+                        </div>
+                        <p style="margin-top: 15px; color: #2f855a;">
+                            <strong>Why this works:</strong> Reveals underlying mechanism (metacognitive scaffolding → improved causal reasoning) with measurable outcomes
+                        </p>
+                    </div>
+
+                    <div class="box box-blue" style="margin-top: 20px;">
+                        <p class="box-title text-blue">What Makes This Fundamental:</p>
+                        <ul>
+                            <li><strong>Hypothesis-driven:</strong> Testing a specific mechanism</li>
+                            <li><strong>Measurable:</strong> 35% improvement, validated rubrics</li>
+                            <li><strong>Generalizable:</strong> Findings apply beyond one course</li>
+                            <li><strong>Advances understanding:</strong> How metacognition affects scientific reasoning</li>
+                            <li><strong>Knowledge creation:</strong> Not just "we made a module"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Practical Exercise -->
+            <div class="slide">
+                <h1 class="slide-title">Practice Exercise</h1>
+                <p class="slide-subtitle">Reframe These Statements</p>
+                <div class="slide-content">
+                    <div class="box box-orange" style="border: 2px solid #ed8936;">
+                        <p class="box-title text-orange">📝 Exercise: Identify the Problem and Reframe</p>
+                    </div>
+
+                    <div style="background-color: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                        <p style="font-weight: bold; margin-bottom: 10px;">Statement 1:</p>
+                        <p style="font-style: italic;">"We will develop a machine learning model to predict protein folding."</p>
+                        <p style="margin-top: 10px; color: #718096;">What's wrong? How would you reframe this?</p>
+                    </div>
+
+                    <div style="background-color: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                        <p style="font-weight: bold; margin-bottom: 10px;">Statement 2:</p>
+                        <p style="font-style: italic;">"The goal is to design and optimize a manufacturing process for sustainable materials."</p>
+                        <p style="margin-top: 10px; color: #718096;">What's wrong? How would you reframe this?</p>
+                    </div>
+
+                    <div style="background-color: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                        <p style="font-weight: bold; margin-bottom: 10px;">Statement 3:</p>
+                        <p style="font-style: italic;">"This project will build an online platform to improve science communication skills."</p>
+                        <p style="margin-top: 10px; color: #718096;">What's wrong? How would you reframe this?</p>
+                    </div>
+
+                    <div class="box box-blue">
+                        <p class="box-title text-blue">Key Questions to Ask:</p>
+                        <ul>
+                            <li>What <strong>fundamental question</strong> are you answering?</li>
+                            <li>What <strong>mechanism or principle</strong> will you discover?</li>
+                            <li>How is this <strong>measurable</strong>?</li>
+                            <li>What will the field <strong>learn</strong> from this work?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Sample Answers -->
+            <div class="slide">
+                <h1 class="slide-title">Sample Reframes</h1>
+                <p class="slide-subtitle">Possible Solutions to the Exercise</p>
+                <div class="slide-content">
+                    <div style="margin-bottom: 25px;">
+                        <p style="font-weight: bold; color: #c53030; margin-bottom: 8px;">❌ Original Statement 1:</p>
+                        <p style="font-style: italic; padding: 10px; background-color: #fff5f5; border-radius: 6px;">
+                            "We will develop a machine learning model to predict protein folding."
+                        </p>
+                        <p style="font-weight: bold; color: #2f855a; margin-top: 15px; margin-bottom: 8px;">✓ Reframed:</p>
+                        <p style="padding: 10px; background-color: #f0fff4; border-radius: 6px;">
+                            "We will <strong>test the hypothesis</strong> that local geometric constraints predict global folding topology with 90% accuracy, <strong>establishing the minimum information content</strong> required for structure prediction."
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <p style="font-weight: bold; color: #c53030; margin-bottom: 8px;">❌ Original Statement 2:</p>
+                        <p style="font-style: italic; padding: 10px; background-color: #fff5f5; border-radius: 6px;">
+                            "The goal is to design and optimize a manufacturing process for sustainable materials."
+                        </p>
+                        <p style="font-weight: bold; color: #2f855a; margin-top: 15px; margin-bottom: 8px;">✓ Reframed:</p>
+                        <p style="padding: 10px; background-color: #f0fff4; border-radius: 6px;">
+                            "The objective is to <strong>identify the thermodynamic limits</strong> of energy efficiency in biodegradable polymer processing and <strong>determine the scaling relationships</strong> between processing temperature, material degradation, and mechanical properties."
+                        </p>
+                    </div>
+
+                    <div>
+                        <p style="font-weight: bold; color: #c53030; margin-bottom: 8px;">❌ Original Statement 3:</p>
+                        <p style="font-style: italic; padding: 10px; background-color: #fff5f5; border-radius: 6px;">
+                            "This project will build an online platform to improve science communication skills."
+                        </p>
+                        <p style="font-weight: bold; color: #2f855a; margin-top: 15px; margin-bottom: 8px;">✓ Reframed:</p>
+                        <p style="padding: 10px; background-color: #f0fff4; border-radius: 6px;">
+                            "This project will <strong>test whether</strong> real-time peer feedback increases the use of audience-appropriate language in scientific presentations by 40%, as <strong>measured</strong> by readability metrics and expert assessment, <strong>elucidating the cognitive mechanisms</strong> underlying effective science communication."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Summary Checklist -->
+            <div class="slide">
+                <h1 class="slide-title">Your Proposal Writing Checklist</h1>
+                <p class="slide-subtitle">Before You Submit</p>
+                <div class="slide-content">
+                    <div class="checklist" style="background-color: #ebf8ff; border-left: 4px solid #4299e1;">
+                        <p style="font-weight: bold; font-size: 1.2rem; margin-bottom: 15px; color: #2b6cb0;">
+                            ✓ Word Choice Audit:
+                        </p>
+                        <div class="checklist-item">
+                            <span>Search your proposal for: "develop," "design," "optimize," "build," "create," "improve"</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>For each instance, ask: "Am I describing a product or a discovery?"</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Reframe in terms of: test, measure, prove, understand, discover, identify</span>
+                        </div>
+                    </div>
+
+                    <div class="checklist" style="background-color: #f0fff4; border-left: 4px solid #68d391; margin-top: 20px;">
+                        <p style="font-weight: bold; font-size: 1.2rem; margin-bottom: 15px; color: #2f855a;">
+                            ✓ Fundamental Research Test:
+                        </p>
+                        <div class="checklist-item">
+                            <span>Can I state my objective using one of the 4 acceptable formats?</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Does my work discover principles, not just create solutions?</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Is the knowledge generalizable beyond one specific case?</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Will reviewers understand what we'll LEARN, not just what we'll HAVE?</span>
+                        </div>
+                    </div>
+
+                    <div class="checklist" style="background-color: #fffaf0; border-left: 4px solid #ed8936; margin-top: 20px;">
+                        <p style="font-weight: bold; font-size: 1.2rem; margin-bottom: 15px; color: #c05621;">
+                            ✓ First Sentence Test:
+                        </p>
+                        <div class="checklist-item">
+                            <span>Does page 1, paragraph 1 start with "The research objective of this proposal is..."?</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Is it specific, measurable, and clearly fundamental research?</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Would a non-expert understand what I'm trying to discover?</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Final Takeaways -->
+            <div class="slide">
+                <h1 class="slide-title">Key Takeaways</h1>
+                <p class="slide-subtitle">Remember These Points</p>
+                <div class="slide-content">
+                    <div class="emphasis-box" style="font-size: 1.15rem;">
+                        Words trigger mental categories in reviewers' minds.<br>
+                        You have ~45 minutes to make your case.<br>
+                        Choose your words strategically.
+                    </div>
+
+                    <div class="box box-blue">
+                        <p class="box-title text-blue" style="font-size: 1.2rem;">1. The Distinction That Matters:</p>
+                        <p style="font-size: 1.05rem; margin-top: 10px;">
+                            <strong style="color: #c53030;">Design/optimize/develop something</strong> = Applied<br>
+                            <strong style="color: #2f855a;">Discover principles/mechanisms/bounds</strong> = Fundamental
+                        </p>
+                    </div>
+
+                    <div class="box box-green">
+                        <p class="box-title text-green" style="font-size: 1.2rem;">2. The Reframing Strategy:</p>
+                        <p style="font-size: 1.05rem; margin-top: 10px;">
+                            Don't describe the <strong>activity</strong> (designing, building)<br>
+                            Describe the <strong>knowledge you'll create</strong> (understanding, discovering)
+                        </p>
+                    </div>
+
+                    <div class="box box-purple">
+                        <p class="box-title text-purple" style="font-size: 1.2rem;">3. The Question to Always Ask:</p>
+                        <p style="font-size: 1.1rem; margin-top: 10px; font-style: italic;">
+                            "If this works, what will we <strong>LEARN</strong> that we didn't know before?"
+                        </p>
+                    </div>
+
+                    <div class="box box-yellow">
+                        <p class="box-title text-yellow" style="font-size: 1.2rem;">4. Your Mission as Educators:</p>
+                        <p style="font-size: 1.05rem; margin-top: 10px;">
+                            Teach students to think and write like fundamental researchers, not just practitioners. The language shapes how they conceptualize their work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="nav-button" id="prevBtn" onclick="changeSlide(-1)">
+                ← Previous
+            </button>
+
+            <div class="indicators">
+                <span class="slide-counter" id="slideCounter">1 / 13</span>
+                <div class="indicator active" onclick="goToSlide(0)"></div>
+                <div class="indicator" onclick="goToSlide(1)"></div>
+                <div class="indicator" onclick="goToSlide(2)"></div>
+                <div class="indicator" onclick="goToSlide(3)"></div>
+                <div class="indicator" onclick="goToSlide(4)"></div>
+                <div class="indicator" onclick="goToSlide(5)"></div>
+                <div class="indicator" onclick="goToSlide(6)"></div>
+                <div class="indicator" onclick="goToSlide(7)"></div>
+                <div class="indicator" onclick="goToSlide(8)"></div>
+                <div class="indicator" onclick="goToSlide(9)"></div>
+                <div class="indicator" onclick="goToSlide(10)"></div>
+                <div class="indicator" onclick="goToSlide(11)"></div>
+                <div class="indicator" onclick="goToSlide(12)"></div>
+            </div>
+
+            <button class="nav-button" id="nextBtn" onclick="changeSlide(1)">
+                Next →
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 13;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            const indicators = document.querySelectorAll('.indicator');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const slideCounter = document.getElementById('slideCounter');
+
+            if (n >= totalSlides) currentSlide = totalSlides - 1;
+            if (n < 0) currentSlide = 0;
+
+            slides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+
+            slideCounter.textContent = `${currentSlide + 1} / ${totalSlides}`;
+
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === totalSlides - 1;
+        }
+
+        function changeSlide(n) {
+            currentSlide += n;
+            showSlide(currentSlide);
+        }
+
+        function goToSlide(n) {
+            currentSlide = n;
+            showSlide(currentSlide);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowLeft') changeSlide(-1);
+            if (event.key === 'ArrowRight') changeSlide(1);
+        });
+
+        // Initialize
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
