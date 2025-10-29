@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Research Challenges & Objectives</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .slide-container {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            padding: 3rem;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-header {
+            border-bottom: 3px solid #e5e7eb;
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .slide-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .slide-subtitle {
+            font-size: 1.25rem;
+            color: #6b7280;
+        }
+
+        .slide-content {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .navigation {
+            border-top: 3px solid #e5e7eb;
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .nav-button {
+            padding: 0.75rem 1.5rem;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background 0.3s;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: #1d4ed8;
+        }
+
+        .nav-button:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+        }
+
+        .dots-container {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+
+        .dot {
+            width: 0.75rem;
+            height: 0.75rem;
+            border-radius: 50%;
+            background: #d1d5db;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .dot.active {
+            background: #2563eb;
+            width: 2rem;
+        }
+
+        .slide-counter {
+            text-align: center;
+            margin-top: 1rem;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .gradient-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 1.5rem;
+        }
+
+        .gradient-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .info-box {
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid;
+        }
+
+        .info-box.blue {
+            background: #eff6ff;
+            border-color: #2563eb;
+        }
+
+        .info-box.green {
+            background: #f0fdf4;
+            border-color: #16a34a;
+        }
+
+        .info-box.red {
+            background: #fef2f2;
+            border-color: #dc2626;
+        }
+
+        .info-box.yellow {
+            background: #fefce8;
+            border-color: #ca8a04;
+        }
+
+        .info-box.purple {
+            background: #faf5ff;
+            border-color: #9333ea;
+        }
+
+        .info-box.orange {
+            background: #fff7ed;
+            border-color: #ea580c;
+        }
+
+        .info-box.teal {
+            background: #f0fdfa;
+            border-color: #14b8a6;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .highlight-box {
+            background: #f3f4f6;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .example-box {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 0.75rem 0;
+            border-left: 4px solid #3b82f6;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 0.25rem 0;
+            line-height: 1.6;
+        }
+
+        .space-y-4 > * + * {
+            margin-top: 1rem;
+        }
+
+        .space-y-3 > * + * {
+            margin-top: 0.75rem;
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+        }
+
+        .text-xs {
+            font-size: 0.75rem;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem;
+        }
+
+        .mb-3 {
+            margin-bottom: 0.75rem;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .quote-box {
+            background: #f9fafb;
+            border-left: 3px solid #6b7280;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #374151;
+        }
+
+        .formula-box {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 1rem;
+            }
+            
+            .slide-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slide-container">
+            <div class="slide-header">
+                <h1 class="slide-title" id="slide-title"></h1>
+                <p class="slide-subtitle" id="slide-subtitle"></p>
+            </div>
+
+            <div class="slide-content" id="slide-content"></div>
+
+            <div class="navigation">
+                <div class="nav-buttons">
+                    <button class="nav-button" id="prev-btn" onclick="prevSlide()">
+                        ← Previous
+                    </button>
+                    <div class="dots-container" id="dots-container"></div>
+                    <button class="nav-button" id="next-btn" onclick="nextSlide()">
+                        Next →
+                    </button>
+                </div>
+                <div class="slide-counter" id="slide-counter"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const slides = [
+            {
+                title: "Writing Compelling Research Challenges & Objectives",
+                subtitle: "Best Practices from NSF-Funded Proposals",
+                content: `
+                    <div class="gradient-box">
+                        <h3 class="center" style="font-size: 1.75rem; margin-bottom: 1rem;">The Golden Thread</h3>
+                        <p class="center" style="font-size: 1.1rem; line-height: 1.6;">
+                            The most successful proposals create a clear, logical, and compelling narrative that connects:
+                        </p>
+                        <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; margin-top: 1.5rem; color: #1f2937;">
+                            <p class="center" style="font-size: 1rem; line-height: 2; font-weight: 600;">
+                                Societal Need → Knowledge Gap → Challenge → Specific Objectives → Expected Outcomes
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info-box blue">
+                        <h4 class="font-bold mb-3" style="font-size: 1.25rem; color: #1e40af;">Why This Matters</h4>
+                        <p style="font-size: 1rem; line-height: 1.7;">
+                            This structure directly addresses NSF's Intellectual Merit criteria by making it easy for reviewers 
+                            to understand the <strong>why</strong>, the <strong>what</strong>, and the <strong>how</strong> of your proposal.
+                        </p>
+                    </div>
+
+                    <div class="info-box green">
+                        <h4 class="font-bold mb-3" style="font-size: 1.25rem; color: #15803d;">What We'll Cover</h4>
+                        <ul style="font-size: 1rem; line-height: 1.8;">
+                            <li>✓ How to frame compelling research challenges</li>
+                            <li>✓ Writing specific, action-oriented objectives</li>
+                            <li>✓ Creating logical connections between elements</li>
+                            <li>✓ Field-specific best practices (BIO, PHY, CMMI, CBET, CHE)</li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                title: "Writing Research Challenges: Core Principles",
+                subtitle: "",
+                content: `
+                    <div style="background: #2563eb; color: white; padding: 1.5rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">What Is a Research Challenge?</h3>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;">The fundamental problem or knowledge gap that your research addresses</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #15803d;">✓ Anchor in a Broad Need</h4>
+                            <p class="text-sm mb-2">Start with a significant real-world problem or critical gap in fundamental understanding</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Example (CBET - PFAS in Compost):</p>
+                                <p class="text-sm italic">"Composting is a widely used method... However, recent studies have found that compost can contain PFAS — a group of harmful, long-lasting chemicals..."</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #1e40af;">✓ Identify the Specific Knowledge Gap</h4>
+                            <p class="text-sm mb-2">Move from the broad need to the precise, unsolved question</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Example (PHY - Gravitational Waves):</p>
+                                <p class="text-sm italic">"The rapidly growing observational samples present new computational challenges for GW astrophysics and bring to light new questions regarding their origins."</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #7c3aed;">✓ Frame as a Critical Bottleneck</h4>
+                            <p class="text-sm mb-2">Describe what is currently holding back progress</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Example (CMMI - DEM Simulations):</p>
+                                <p class="text-sm italic">"For nearly five decades since its inception, prohibitively high computational costs have constrained the scale and duration of DEM simulations."</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Challenge Writing: The 'While...However' Structure",
+                subtitle: "",
+                content: `
+                    <div class="formula-box">
+                        <h4 class="font-bold mb-3 center" style="font-size: 1.3rem; color: #92400e;">Effective Challenge Template</h4>
+                        <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; line-height: 2;">
+                            <p style="font-size: 1rem;">
+                                <strong>While</strong> [broad area] is critical for [benefit/goal],<br/>
+                                <strong>a major challenge is</strong> [specific knowledge gap],<br/>
+                                <strong>which limits</strong> our ability to [achieve something important].<br/>
+                                <strong>This gap exists because</strong> [current state] fails to [explain/account for phenomenon].
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2">Strong Example (CHE):</h4>
+                            <p class="text-sm">"<strong>While</strong> nucleic acids are being developed for many therapeutic purposes, <strong>the broad range of structures and properties results in many analytical challenges</strong> that must be solved in order to determine sequences, modifications, and structures. <strong>These challenges motivate</strong> the development of new mass spectrometry strategies..."</p>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2">Strong Example (BIO):</h4>
+                            <p class="text-sm">"<strong>While</strong> tidal marsh ecosystems provide critical habitat, <strong>we lack understanding of how</strong> ponding influences bird population dynamics. <strong>This limits</strong> our ability to predict tipping points in these vulnerable ecosystems."</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box yellow">
+                        <h4 class="font-bold mb-2">💡 Pro Tip: Use Deficit-Based Language</h4>
+                        <p class="text-sm">Effective phrases include:</p>
+                        <ul class="text-sm" style="margin-top: 0.5rem; padding-left: 1rem;">
+                            <li>• "It remains poorly understood..."</li>
+                            <li>• "A critical barrier is..."</li>
+                            <li>• "The fundamental mechanisms are unknown..."</li>
+                            <li>• "Current methods fail to..."</li>
+                            <li>• "This knowledge gap hinders..."</li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                title: "Writing Research Objectives: Core Principles",
+                subtitle: "",
+                content: `
+                    <div style="background: #16a34a; color: white; padding: 1.5rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">What Are Research Objectives?</h3>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;">Specific, measurable, achievable steps you will take to address the challenge</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">✓ Make Them Specific and Action-Oriented</h4>
+                            <div class="grid-2" style="margin-top: 0.75rem;">
+                                <div style="background: #fef2f2; padding: 1rem; border-radius: 0.5rem; border-left: 3px solid #dc2626;">
+                                    <p class="font-bold text-sm" style="color: #991b1b;">❌ Weak (Avoid):</p>
+                                    <p class="text-sm">"Study the system"</p>
+                                    <p class="text-sm">"Look into the problem"</p>
+                                    <p class="text-sm">"Understand better"</p>
+                                </div>
+                                <div style="background: #f0fdf4; padding: 1rem; border-radius: 0.5rem; border-left: 3px solid #16a34a;">
+                                    <p class="font-bold text-sm" style="color: #15803d;">✓ Strong (Use):</p>
+                                    <p class="text-sm">"Quantify force profiles"</p>
+                                    <p class="text-sm">"Develop AI monitoring system"</p>
+                                    <p class="text-sm">"Elucidate mechanisms"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">✓ Use Strong Action Verbs</h4>
+                            <div class="grid-2 text-sm" style="gap: 0.5rem; margin-top: 0.5rem;">
+                                <div class="highlight-box"><strong>Develop</strong> • Design • Establish • Build</div>
+                                <div class="highlight-box"><strong>Investigate</strong> • Characterize • Quantify</div>
+                                <div class="highlight-box"><strong>Validate</strong> • Demonstrate • Test • Evaluate</div>
+                                <div class="highlight-box"><strong>Integrate</strong> • Synthesize • Elucidate</div>
+                            </div>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">✓ Structure as a Logical Sequence</h4>
+                            <p class="text-sm mb-2">Objectives should build upon one another:</p>
+                            <div style="background: white; padding: 1rem; border-radius: 0.5rem; margin-top: 0.5rem;">
+                                <p class="text-sm"><strong>Objective 1:</strong> Develop the new tool/material/method</p>
+                                <p class="text-sm" style="margin-top: 0.5rem;"><strong>Objective 2:</strong> Characterize and test fundamental properties</p>
+                                <p class="text-sm" style="margin-top: 0.5rem;"><strong>Objective 3:</strong> Apply to real-world problem to demonstrate utility</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "The Three-Objective Framework",
+                subtitle: "Most Common Structure in Successful Proposals",
+                content: `
+                    <div class="gradient-box">
+                        <h3 class="center" style="font-size: 1.5rem; margin-bottom: 1rem;">Typical 3-Objective Structure</h3>
+                        <p class="center" style="font-size: 1rem;">This pattern appears consistently across all NSF directorates</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #15803d;">Objective 1: Foundational/Development</h4>
+                            <p class="text-sm mb-2">Establish the foundation or develop the core tool/method</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold">CBET Example:</p>
+                                <p class="text-sm italic">"<strong>Determine</strong> how the physicochemical properties of PFAS influence their uptake by plants"</p>
+                            </div>
+                            <div class="example-box">
+                                <p class="text-sm font-bold">CMMI Example:</p>
+                                <p class="text-sm italic">"<strong>Develop</strong> a fine-tuned, multimodal LLM tailored for robotic EV battery repair"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #1e40af;">Objective 2: Mechanistic/Understanding</h4>
+                            <p class="text-sm mb-2">Elucidate the underlying mechanisms or test core hypotheses</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold">CBET Example:</p>
+                                <p class="text-sm italic">"<strong>Investigate</strong> the mechanisms regulating the transport of PFAS within plant tissues"</p>
+                            </div>
+                            <div class="example-box">
+                                <p class="text-sm font-bold">PHY Example:</p>
+                                <p class="text-sm italic">"<strong>Probe</strong> non-equilibrium quantum dynamics to test hypotheses about emergent classical behavior"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #7c3aed;">Objective 3: Application/Validation</h4>
+                            <p class="text-sm mb-2">Apply findings to demonstrate utility or validate the approach</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold">CBET Example:</p>
+                                <p class="text-sm italic">"<strong>Understand</strong> how PFAS exposure affects plant nutritional quality and food safety"</p>
+                            </div>
+                            <div class="example-box">
+                                <p class="text-sm font-bold">CMMI Example:</p>
+                                <p class="text-sm italic">"<strong>Validate</strong> portable cold spray equipment on full-scale, naturally corroded bridge beams"</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Connecting Challenges to Objectives",
+                subtitle: "Creating the Logical Thread",
+                content: `
+                    <div style="background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); color: white; padding: 2rem; border-radius: 0.75rem; margin-bottom: 1.5rem;">
+                        <h3 class="center" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.75rem;">The "If-Then" Logic</h3>
+                        <p class="center" style="font-size: 1rem;">Each objective should directly respond to a specific aspect of your challenge</p>
+                    </div>
+
+                    <div class="formula-box">
+                        <h4 class="font-bold mb-3" style="font-size: 1.2rem; color: #92400e;">Strong Example: CMMI Proposal</h4>
+                        
+                        <div style="background: #fef2f2; padding: 1rem; border-radius: 0.5rem; border-left: 3px solid #dc2626; margin-bottom: 1rem;">
+                            <p class="font-bold text-sm" style="color: #991b1b;">Challenge:</p>
+                            <p class="text-sm italic">"Prohibitively high computational costs have constrained the scale and duration of DEM simulations"</p>
+                        </div>
+
+                        <div style="text-align: center; font-size: 1.5rem; margin: 0.5rem 0;">↓</div>
+
+                        <div style="background: #f0fdf4; padding: 1rem; border-radius: 0.5rem; border-left: 3px solid #16a34a; margin-bottom: 1rem;">
+                            <p class="font-bold text-sm" style="color: #15803d;">Objective:</p>
+                            <p class="text-sm italic">"Integrate artificial neural computations into DEM"</p>
+                        </div>
+
+                        <div style="text-align: center; font-size: 1.5rem; margin: 0.5rem 0;">↓</div>
+
+                        <div style="background: #eff6ff; padding: 1rem; border-radius: 0.5rem; border-left: 3px solid #2563eb;">
+                            <p class="font-bold text-sm" style="color: #1e40af;">Expected Outcome:</p>
+                            <p class="text-sm italic">"Enable simulation speeds five orders of magnitude faster"</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box blue">
+                        <h4 class="font-bold mb-2">The Golden Rule:</h4>
+                        <p class="text-sm" style="line-height: 1.8;">
+                            <strong>If</strong> we can achieve Objective 1 (develop the tool),<br/>
+                            <strong>then</strong> we can perform Objective 2 (characterize its properties),<br/>
+                            <strong>which will allow us</strong> to accomplish Objective 3 (apply it to the problem),<br/>
+                            <strong>thereby solving</strong> the central Challenge.
+                        </p>
+                    </div>
+                `
+            },
+            {
+                title: "Quantifying Ambition and Impact",
+                subtitle: "",
+                content: `
+                    <div style="background: #7c3aed; color: white; padding: 1.5rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">Show the Scale of Your Ambition</h3>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;">Use quantifiable metrics wherever possible</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">✓ Performance Improvements</h4>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">CMMI Example:</p>
+                                <p class="text-sm">"Aiming to enable real-time simulation of systems with <strong>up to 100 million</strong> sand-sized particles"</p>
+                            </div>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">CMMI Example:</p>
+                                <p class="text-sm">"With a goal of achieving <strong>100× reduction in compute time</strong>"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">✓ Precision Targets</h4>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">PHY Example:</p>
+                                <p class="text-sm">"Provide an independent measurement of G with a precision of <strong>10 parts per million</strong>"</p>
+                            </div>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">CMMI Example:</p>
+                                <p class="text-sm">"Achieving deposition with mechanical properties <strong>comparable to structural-grade steel</strong>"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">✓ Scale-Up Metrics</h4>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">PHY Example:</p>
+                                <p class="text-sm">"Enable efficient entanglement distribution across <strong>up to five spatially separated memory nodes</strong> — a substantial scale-up from existing two-node systems"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box yellow">
+                        <h4 class="font-bold mb-2">💡 Why Quantification Matters</h4>
+                        <p class="text-sm">Specific numbers:</p>
+                        <ul class="text-sm" style="margin-top: 0.5rem; padding-left: 1rem;">
+                            <li>• Make your ambition concrete and verifiable</li>
+                            <li>• Help reviewers assess feasibility</li>
+                            <li>• Demonstrate you understand the current state-of-the-art</li>
+                            <li>• Provide clear success criteria</li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                title: "Field-Specific Best Practices: BIO & CBET",
+                subtitle: "",
+                content: `
+                    <div class="gradient-box">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Biology & Bioengineering</h3>
+                        <p style="font-size: 1rem;">Emphasis on hypotheses and mechanisms</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">BIO: Lead with Clear Hypotheses</h4>
+                            <p class="text-sm mb-2">Frame objectives around testing specific biological predictions</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Challenge:</p>
+                                <p class="text-sm italic">"It's unclear how drought influences the composition of active microbial taxa in plant-soil systems"</p>
+                                <p class="text-sm font-bold mb-1" style="margin-top: 0.5rem;">Objective:</p>
+                                <p class="text-sm">"<strong>Test the hypothesis that</strong> drought-induced shifts in microbial community composition alter plant stress responses through below-ground feedbacks"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">CBET: Integrate Fundamental & Applied</h4>
+                            <p class="text-sm mb-2">Balance mechanistic understanding with practical applications</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Strong Pattern:</p>
+                                <p class="text-sm"><strong>Objective 1:</strong> Elucidate fundamental mechanism (how does X work?)</p>
+                                <p class="text-sm" style="margin-top: 0.25rem;"><strong>Objective 2:</strong> Quantify key parameters (what are the rates/limits?)</p>
+                                <p class="text-sm" style="margin-top: 0.25rem;"><strong>Objective 3:</strong> Apply to environmental/medical problem (can we use this?)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box teal">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">Common Structure: The Mechanistic Cascade</h4>
+                            <div class="quote-box">
+                                <p class="text-sm"><strong>Where?</strong> → Determine the location/distribution (Objective 1)</p>
+                                <p class="text-sm" style="margin-top: 0.5rem;"><strong>How?</strong> → Investigate the mechanisms (Objective 2)</p>
+                                <p class="text-sm" style="margin-top: 0.5rem;"><strong>Impact?</strong> → Understand the consequences (Objective 3)</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Field-Specific Best Practices: PHY & CHE",
+                subtitle: "",
+                content: `
+                    <div class="gradient-box">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Physics & Chemistry</h3>
+                        <p style="font-size: 1rem;">Emphasis on measurement, characterization, and theory</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">PHY: Frame Around Measurement Goals</h4>
+                            <p class="text-sm mb-2">State what you will measure and to what precision</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Challenge:</p>
+                                <p class="text-sm italic">"Current measurements of the neutron lifetime have unresolved systematic uncertainties"</p>
+                                <p class="text-sm font-bold mb-1" style="margin-top: 0.5rem;">Objective:</p>
+                                <p class="text-sm">"<strong>Measure</strong> the neutron lifetime, beta-asymmetry parameter, and electric dipole moment with improved precision using ultracold neutrons"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">PHY: Connect to Fundamental Questions</h4>
+                            <p class="text-sm mb-2">Link specific measurements to big physics questions</p>
+                            <div class="example-box">
+                                <p class="text-sm">"This measurement will <strong>constrain theories of</strong> dark matter by testing whether ultralight bosonic fields constitute a significant fraction of the dark matter density"</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box yellow">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">CHE: Emphasize Synthesis → Characterization → Application</h4>
+                            <p class="text-sm mb-2">The classic three-step chemistry proposal</p>
+                            <div style="background: white; padding: 1rem; border-radius: 0.5rem; margin-top: 0.5rem;">
+                                <p class="text-sm"><strong>Aim 1:</strong> <strong>Synthesize</strong> 2D Si with precisely defined surfaces</p>
+                                <p class="text-sm" style="margin-top: 0.5rem;"><strong>Aim 2:</strong> <strong>Characterize</strong> the surfaces using spectroscopy</p>
+                                <p class="text-sm" style="margin-top: 0.5rem;"><strong>Aim 3:</strong> <strong>Determine relationships</strong> between structure and optical properties</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Field-Specific Best Practices: CMMI",
+                subtitle: "",
+                content: `
+                    <div class="gradient-box">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Civil, Mechanical & Manufacturing Innovation</h3>
+                        <p style="font-size: 1rem;">Emphasis on cross-disciplinary integration and technical innovation</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">CMMI: Demonstrate Innovation Through Integration</h4>
+                            <p class="text-sm mb-2">Highlight how you combine methods from different fields</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Pattern:</p>
+                                <p class="text-sm">"The novelty lies in: <strong>1)</strong> the joint integration of anomaly detection and multi-objective inspection routing..."</p>
+                            </div>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Pattern:</p>
+                                <p class="text-sm">"This project introduces a <strong>novel approach</strong> for shear band engineering through strategic patterning, seeding, and spreading..."</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">CMMI: Use Multi-Thrust Structure (2-4 Thrusts)</h4>
+                            <p class="text-sm mb-2">Organize objectives that build logically toward the overall goal</p>
+                            <div class="example-box">
+                                <p class="text-sm font-bold mb-1">Example: Design for Product Evolution</p>
+                                <p class="text-sm"><strong>Thrust 1:</strong> Extending the DFT-based model to multi-decision framework</p>
+                                <p class="text-sm" style="margin-top: 0.25rem;"><strong>Thrust 2:</strong> Modeling demand dynamics using networked epidemic models</p>
+                                <p class="text-sm" style="margin-top: 0.25rem;"><strong>Thrust 3:</strong> Integration of multi-resolution models for optimal design</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem;">CMMI: Include Validation Plans</h4>
+                            <p class="text-sm mb-2">Specify how you will demonstrate success</p>
+                            <div class="example-box">
+                                <p class="text-sm">"The system will be <strong>tested in both laboratory and real-world settings</strong> to evaluate its robustness and effectiveness"</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Common Mistakes to Avoid",
+                subtitle: "",
+                content: `
+                    <div style="background: #dc2626; color: white; padding: 1.5rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">What NOT to Do</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box red">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #991b1b;">❌ Vague or Overly Broad Challenges</h4>
+                            <div class="grid-2" style="gap: 0.75rem;">
+                                <div>
+                                    <p class="text-sm font-bold mb-1" style="color: #991b1b;">Weak:</p>
+                                    <p class="text-sm italic">"Cancer is a major health problem"</p>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold mb-1" style="color: #15803d;">Strong:</p>
+                                    <p class="text-sm italic">"The lack of real-time biomarkers for detecting tumor metastasis limits early intervention"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box red">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #991b1b;">❌ Generic or Passive Objectives</h4>
+                            <div class="grid-2" style="gap: 0.75rem;">
+                                <div>
+                                    <p class="text-sm font-bold mb-1" style="color: #991b1b;">Weak:</p>
+                                    <p class="text-sm italic">"Understand the system better"</p>
+                                    <p class="text-sm italic">"Study various aspects"</p>
+                                    <p class="text-sm italic">"Look into the mechanisms"</p>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold mb-1" style="color: #15803d;">Strong:</p>
+                                    <p class="text-sm italic">"Quantify integrin force profiles using DNA probes"</p>
+                                    <p class="text-sm italic">"Elucidate electron transfer pathways via spectroscopy"</p>
+                                    <p class="text-sm italic">"Develop AI-based detection algorithm"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box red">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #991b1b;">❌ Disconnected Objectives</h4>
+                            <p class="text-sm mb-2">Objectives that feel like a random list rather than a coherent plan</p>
+                            <div class="quote-box">
+                                <p class="text-sm" style="color: #991b1b;"><strong>Problem:</strong> "Objective 1: Synthesize nanoparticles. Objective 2: Study bee behavior. Objective 3: Develop a traffic model."</p>
+                                <p class="text-sm" style="margin-top: 0.75rem; color: #15803d;"><strong>Solution:</strong> Each objective should logically build on the previous one and collectively address your challenge</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box red">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #991b1b;">❌ Too Many Objectives</h4>
+                            <p class="text-sm">Having 6+ objectives makes the proposal seem unfocused and unrealistic</p>
+                            <div style="background: white; padding: 1rem; border-radius: 0.5rem; margin-top: 0.5rem;">
+                                <p class="text-sm font-bold" style="color: #15803d;">Best Practice:</p>
+                                <p class="text-sm">Stick to 3-4 well-defined, significant objectives that can realistically be accomplished within your timeline and budget</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "The Complete Template",
+                subtitle: "Putting It All Together",
+                content: `
+                    <div class="gradient-box">
+                        <h3 class="center" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Your Intellectual Merit Narrative</h3>
+                        <p class="center" style="font-size: 1rem;">Use this structure to create a compelling case</p>
+                    </div>
+
+                    <div class="formula-box">
+                        <h4 class="font-bold mb-3" style="font-size: 1.2rem; color: #92400e;">Paragraph 1: The Challenge</h4>
+                        <div style="background: white; padding: 1.25rem; border-radius: 0.5rem; line-height: 1.8;">
+                            <p class="text-sm">
+                                "[Broad Area] is critical for [Societal Benefit]. <strong>However,</strong> a major challenge is [Specific Knowledge Gap], which limits our ability to [Achieve a Goal]. This gap exists because [Current State of Knowledge] fails to explain/account for [The Specific Phenomenon or Problem]."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="formula-box">
+                        <h4 class="font-bold mb-3" style="font-size: 1.2rem; color: #92400e;">Paragraph 2: The Innovation</h4>
+                        <div style="background: white; padding: 1.25rem; border-radius: 0.5rem; line-height: 1.8;">
+                            <p class="text-sm">
+                                "This project will overcome this barrier through an integrated approach that [State Overall Goal]. Our research is innovative because it [Develops Novel Tool / Applies Method from Another Field / Tests New Hypothesis]. This will provide the first [Data/Framework/Model] capable of [Addressing the Specific Challenge]."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="formula-box">
+                        <h4 class="font-bold mb-3" style="font-size: 1.2rem; color: #92400e;">Paragraph 3: The Objectives</h4>
+                        <div style="background: white; padding: 1.25rem; border-radius: 0.5rem; line-height: 1.8;">
+                            <p class="text-sm mb-2">The intellectual merits are realized through three specific objectives:</p>
+                            <p class="text-sm"><strong>Objective 1 (Foundational):</strong> [Action Verb] + [Specific System/Parameter] to establish [Foundation].</p>
+                            <p class="text-sm" style="margin-top: 0.5rem;"><strong>Objective 2 (Mechanistic):</strong> [Action Verb] + [Core Process] to elucidate underlying mechanisms.</p>
+                            <p class="text-sm" style="margin-top: 0.5rem;"><strong>Objective 3 (Application):</strong> [Action Verb] + [Output/System] to validate findings and demonstrate utility.</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Real Example: Putting It All Together",
+                subtitle: "From an NSF CBET Award",
+                content: `
+                    <div style="background: linear-gradient(135deg, #059669 0%, #14b8a6 100%); color: white; padding: 2rem; border-radius: 0.75rem; margin-bottom: 1.5rem;">
+                        <h3 class="center" style="font-size: 1.5rem; font-weight: bold;">Complete Example: PFAS in Plant Systems</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box red">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #991b1b;">The Challenge</h4>
+                            <p class="text-sm italic" style="line-height: 1.7;">
+                                "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants that can accumulate in food crops. <strong>However,</strong> the physicochemical properties that govern PFAS uptake and translocation within plants remain poorly understood. This knowledge gap limits our ability to predict contamination risks and develop mitigation strategies."
+                            </p>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #1e40af;">The Innovation</h4>
+                            <p class="text-sm italic" style="line-height: 1.7;">
+                                "This project will address this gap through a comprehensive investigation that integrates molecular-scale characterization with plant physiology. Our research is innovative because it will establish the first quantitative structure-activity relationships (QSARs) linking PFAS chemical properties to plant uptake and distribution patterns."
+                            </p>
+                        </div>
+
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #15803d;">The Objectives</h4>
+                            <div style="background: white; padding: 1rem; border-radius: 0.5rem; margin-top: 0.5rem;">
+                                <p class="text-sm"><strong>Objective 1:</strong> <strong>Determine</strong> how the physicochemical properties of PFAS (chain length, functional groups) influence their uptake by plant roots and shoots.</p>
+                                <p class="text-sm" style="margin-top: 0.75rem;"><strong>Objective 2:</strong> <strong>Investigate</strong> the mechanisms regulating the transport of PFAS within plant tissues, including the role of membrane transporters.</p>
+                                <p class="text-sm" style="margin-top: 0.75rem;"><strong>Objective 3:</strong> <strong>Understand</strong> how PFAS exposure affects plant nutritional quality and identify strategies to minimize food chain transfer.</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #7c3aed;">The Logical Thread</h4>
+                            <p class="text-sm" style="line-height: 1.7;">
+                                Notice how each objective builds on the previous one: <strong>Where does PFAS go?</strong> (Obj 1) → <strong>How does it get there?</strong> (Obj 2) → <strong>What are the consequences?</strong> (Obj 3). Together, they completely address the stated challenge.
+                            </p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Key Takeaways & Checklist",
+                subtitle: "",
+                content: `
+                    <div class="gradient-box">
+                        <h3 class="center" style="font-size: 1.75rem; margin-bottom: 1rem;">Before You Submit: The Checklist</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #1e40af;">✓ For Your Challenge:</h4>
+                            <ul class="text-sm" style="padding-left: 1rem; line-height: 1.8;">
+                                <li>□ Does it start with a broad, important context?</li>
+                                <li>□ Does it identify a specific, non-trivial knowledge gap?</li>
+                                <li>□ Is it framed as a critical bottleneck to progress?</li>
+                                <li>□ Does it explain why current approaches are insufficient?</li>
+                                <li>□ Can a reviewer immediately see why this matters?</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #15803d;">✓ For Your Objectives:</h4>
+                            <ul class="text-sm" style="padding-left: 1rem; line-height: 1.8;">
+                                <li>□ Are they specific and action-oriented (strong verbs)?</li>
+                                <li>□ Do they directly address the stated challenge?</li>
+                                <li>□ Are there 3-4 objectives (not too many, not too few)?</li>
+                                <li>□ Do they build logically on one another?</li>
+                                <li>□ Does each integrate methodology seamlessly?</li>
+                                <li>□ Can you explain the "if-then" logic connecting them?</li>
+                                <li>□ Are success criteria clear (ideally quantifiable)?</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #7c3aed;">✓ For the Overall Narrative:</h4>
+                            <ul class="text-sm" style="padding-left: 1rem; line-height: 1.8;">
+                                <li>□ Is there a clear "golden thread" connecting all parts?</li>
+                                <li>□ Have you articulated what's innovative?</li>
+                                <li>□ Is the intellectual merit obvious?</li>
+                                <li>□ Does it feel feasible yet ambitious?</li>
+                                <li>□ Could someone unfamiliar with your field understand the logic?</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box yellow">
+                            <h4 class="font-bold mb-2" style="font-size: 1.1rem; color: #92400e;">💡 Final Pro Tip:</h4>
+                            <p class="text-sm" style="line-height: 1.8;">
+                                Read your challenge and objectives aloud. If you can't clearly explain in 2 minutes why the work is necessary and what you'll do about it, revise for clarity. Reviewers have limited time—make your logic impossible to miss.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: #1f2937; color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; margin-top: 1.5rem;">
+                        <p style="font-size: 1.25rem; font-weight: bold; margin-bottom: 0.5rem;">Remember:</p>
+                        <p style="font-size: 1rem;">A well-framed challenge + specific objectives = A compelling intellectual merit case</p>
+                    </div>
+                `
+            }
+        ];
+
+        let currentSlide = 0;
+
+        function renderSlide() {
+            const slide = slides[currentSlide];
+            document.getElementById('slide-title').textContent = slide.title;
+            document.getElementById('slide-subtitle').textContent = slide.subtitle;
+            document.getElementById('slide-content').innerHTML = slide.content;
+            document.getElementById('slide-counter').textContent = `Slide ${currentSlide + 1} of ${slides.length}`;
+            
+            document.getElementById('prev-btn').disabled = currentSlide === 0;
+            document.getElementById('next-btn').disabled = currentSlide === slides.length - 1;
+
+            renderDots();
+        }
+
+        function renderDots() {
+            const dotsContainer = document.getElementById('dots-container');
+            dotsContainer.innerHTML = '';
+            
+            slides.forEach((_, index) => {
+                const dot = document.createElement('div');
+                dot.className = 'dot' + (index === currentSlide ? ' active' : '');
+                dot.onclick = () => goToSlide(index);
+                dotsContainer.appendChild(dot);
+            });
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                renderSlide();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                renderSlide();
+            }
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            renderSlide();
+        }
+
+        // Initialize
+        renderSlide();
+    </script>
+</body>
+</html>
