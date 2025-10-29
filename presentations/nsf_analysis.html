@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSF Grant Research Types Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .slide-container {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            padding: 3rem;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-header {
+            border-bottom: 3px solid #e5e7eb;
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .slide-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .slide-subtitle {
+            font-size: 1.25rem;
+            color: #6b7280;
+        }
+
+        .slide-content {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .navigation {
+            border-top: 3px solid #e5e7eb;
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .nav-button {
+            padding: 0.75rem 1.5rem;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background 0.3s;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: #1d4ed8;
+        }
+
+        .nav-button:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+        }
+
+        .dots-container {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+
+        .dot {
+            width: 0.75rem;
+            height: 0.75rem;
+            border-radius: 50%;
+            background: #d1d5db;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .dot.active {
+            background: #2563eb;
+            width: 2rem;
+        }
+
+        .slide-counter {
+            text-align: center;
+            margin-top: 1rem;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .gradient-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 1.5rem;
+        }
+
+        .gradient-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .info-box {
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid;
+        }
+
+        .info-box.blue {
+            background: #eff6ff;
+            border-color: #2563eb;
+        }
+
+        .info-box.green {
+            background: #f0fdf4;
+            border-color: #16a34a;
+        }
+
+        .info-box.red {
+            background: #fef2f2;
+            border-color: #dc2626;
+        }
+
+        .info-box.yellow {
+            background: #fefce8;
+            border-color: #ca8a04;
+        }
+
+        .info-box.purple {
+            background: #faf5ff;
+            border-color: #9333ea;
+        }
+
+        .info-box.orange {
+            background: #fff7ed;
+            border-color: #ea580c;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.875rem;
+        }
+
+        th, td {
+            border: 1px solid #d1d5db;
+            padding: 0.75rem;
+            text-align: center;
+        }
+
+        th {
+            background: #1f2937;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(odd) {
+            background: #f9fafb;
+        }
+
+        .highlight-box {
+            background: #f3f4f6;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 0.25rem 0;
+            line-height: 1.6;
+        }
+
+        .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .space-y-4 > * + * {
+            margin-top: 1rem;
+        }
+
+        .space-y-3 > * + * {
+            margin-top: 0.75rem;
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+        }
+
+        .text-xs {
+            font-size: 0.75rem;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem;
+        }
+
+        .mb-3 {
+            margin-bottom: 0.75rem;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 1rem;
+            }
+            
+            .slide-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slide-container">
+            <div class="slide-header">
+                <h1 class="slide-title" id="slide-title"></h1>
+                <p class="slide-subtitle" id="slide-subtitle"></p>
+            </div>
+
+            <div class="slide-content" id="slide-content"></div>
+
+            <div class="navigation">
+                <div class="nav-buttons">
+                    <button class="nav-button" id="prev-btn" onclick="prevSlide()">
+                        ← Previous
+                    </button>
+                    <div class="dots-container" id="dots-container"></div>
+                    <button class="nav-button" id="next-btn" onclick="nextSlide()">
+                        Next →
+                    </button>
+                </div>
+                <div class="slide-counter" id="slide-counter"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const slides = [
+            {
+                title: "Research Methodology Patterns Across NSF Directorates",
+                subtitle: "Analysis of 494 Grant Abstracts (2024-2025)",
+                content: `
+                    <div class="gradient-box">
+                        <h3 style="font-size: 1.75rem; margin-bottom: 1.5rem;">Four Categories of Research</h3>
+                        <div class="grid-2" style="gap: 1rem;">
+                            <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; color: #1f2937;">
+                                <strong style="font-size: 1.1rem;">Category 1:</strong><br/>
+                                <span style="font-size: 1rem;">Test a Hypothesis (H)</span>
+                            </div>
+                            <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; color: #1f2937;">
+                                <strong style="font-size: 1.1rem;">Category 2:</strong><br/>
+                                <span style="font-size: 1rem;">Measure Parameter P with Accuracy A</span>
+                            </div>
+                            <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; color: #1f2937;">
+                                <strong style="font-size: 1.1rem;">Category 3:</strong><br/>
+                                <span style="font-size: 1rem;">Prove a Conjecture (C)</span>
+                            </div>
+                            <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; color: #1f2937;">
+                                <strong style="font-size: 1.1rem;">Category 4:</strong><br/>
+                                <span style="font-size: 1rem;">Apply Method M from Field D to Problem P in Field E</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box blue">
+                        <h4 class="font-bold mb-3" style="font-size: 1.25rem; color: #1e40af;">Directorates Analyzed</h4>
+                        <div class="grid-2" style="font-size: 1rem;">
+                            <div><strong>• BIO:</strong> 108 grants</div>
+                            <div><strong>• PHY:</strong> 100 grants</div>
+                            <div><strong>• CMMI:</strong> 97 grants</div>
+                            <div><strong>• CHE:</strong> 82 grants</div>
+                            <div><strong>• CBET:</strong> 107 grants</div>
+                            <div><strong>• Total:</strong> 494 grants</div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Comparative Overview: All Five Directorates",
+                subtitle: "",
+                content: `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Directorate</th>
+                                <th>Cat 1<br/>(Hypothesis)</th>
+                                <th>Cat 2<br/>(Measure)</th>
+                                <th>Cat 3<br/>(Prove)</th>
+                                <th>Cat 4<br/>(Integrate)</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background: #f0fdf4;">
+                                <td class="font-bold">BIO</td>
+                                <td>49%</td>
+                                <td>8%</td>
+                                <td>0%</td>
+                                <td>42%</td>
+                                <td>108</td>
+                            </tr>
+                            <tr style="background: #eff6ff;">
+                                <td class="font-bold">PHY</td>
+                                <td>22%</td>
+                                <td>47%</td>
+                                <td>2%</td>
+                                <td>29%</td>
+                                <td>100</td>
+                            </tr>
+                            <tr style="background: #faf5ff;">
+                                <td class="font-bold">CMMI</td>
+                                <td>11%</td>
+                                <td>1%</td>
+                                <td>0%</td>
+                                <td>88%</td>
+                                <td>97</td>
+                            </tr>
+                            <tr style="background: #fefce8;">
+                                <td class="font-bold">CHE</td>
+                                <td>58.5%</td>
+                                <td>9.8%</td>
+                                <td>0%</td>
+                                <td>31.7%</td>
+                                <td>82</td>
+                            </tr>
+                            <tr style="background: #fff7ed;">
+                                <td class="font-bold">CBET</td>
+                                <td>63.6%</td>
+                                <td>11.2%</td>
+                                <td>7.5%</td>
+                                <td>79.4%</td>
+                                <td>107</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="info-box yellow">
+                        <p class="text-sm"><strong>Note:</strong> CBET percentages exceed 100% because many proposals combine multiple categories (hybrid approaches).</p>
+                    </div>
+                `
+            },
+            {
+                title: "Key Finding #1: The Rise of Interdisciplinary Research",
+                subtitle: "",
+                content: `
+                    <div style="background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.75rem; font-weight: bold; margin-bottom: 0.5rem;">Category 4 Dominates Engineering</h3>
+                        <p style="font-size: 1.25rem;">Applying methods across disciplines is the primary research mode</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2">🏆 CMMI: 88% Interdisciplinary</h4>
+                            <p class="text-sm mb-2">Overwhelmingly focused on cross-disciplinary application</p>
+                            <p class="text-xs" style="font-style: italic;">Example: Apply AI/ML to manufacturing, robotics inspired by paleobiology</p>
+                        </div>
+
+                        <div class="info-box orange">
+                            <h4 class="font-bold mb-2">🥈 CBET: 79.4% Interdisciplinary</h4>
+                            <p class="text-sm mb-2">Most proposals bridge multiple fields</p>
+                            <p class="text-xs" style="font-style: italic;">Example: Apply ML to battery design, synthetic biology to environmental remediation</p>
+                        </div>
+
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2">🥉 BIO: 42% Interdisciplinary</h4>
+                            <p class="text-sm mb-2">Significant integration of computational tools</p>
+                            <p class="text-xs" style="font-style: italic;">Example: Apply AI for pollinator monitoring, computer vision for arthropod identification</p>
+                        </div>
+
+                        <div class="info-box blue">
+                            <p class="text-sm font-bold" style="color: #1e40af;">
+                                💡 Trend: AI/Machine Learning integration is prominent across ALL directorates
+                            </p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Key Finding #2: Field-Specific Methodology Preferences",
+                subtitle: "",
+                content: `
+                    <div style="background: #2563eb; color: white; padding: 1.5rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">Different Fields, Different Approaches</h3>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2" style="color: #1e40af;">📊 Physics (PHY)</h4>
+                            <div class="text-sm space-y-3">
+                                <p><strong>Primary:</strong> Measurement (47%)</p>
+                                <p class="text-xs">Determining physical quantities with precision</p>
+                                <p class="text-xs" style="font-style: italic;">Examples: neutron lifetime, fine-structure constant, gravitational waves</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="color: #15803d;">🧬 Biology (BIO)</h4>
+                            <div class="text-sm space-y-3">
+                                <p><strong>Primary:</strong> Hypothesis Testing (49%)</p>
+                                <p class="text-xs">Testing explicit biological hypotheses</p>
+                                <p class="text-xs" style="font-style: italic;">Examples: drought effects on microbiomes, thermal physiology differences</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box yellow">
+                            <h4 class="font-bold mb-2" style="color: #a16207;">🧪 Chemistry (CHE)</h4>
+                            <div class="text-sm space-y-3">
+                                <p><strong>Primary:</strong> Hypothesis Testing (58.5%)</p>
+                                <p class="text-xs">Understanding mechanisms and properties</p>
+                                <p class="text-xs" style="font-style: italic;">Examples: reaction mechanisms, molecular interactions, metabolic pathways</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box orange">
+                            <h4 class="font-bold mb-2" style="color: #c2410c;">⚙️ Engineering (CBET)</h4>
+                            <div class="text-sm space-y-3">
+                                <p><strong>Hybrid:</strong> 63.6% Hypothesis + 79.4% Integration</p>
+                                <p class="text-xs">Combines fundamental science with cross-disciplinary tools</p>
+                                <p class="text-xs" style="font-style: italic;">Most proposals fall into BOTH categories</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Key Finding #3: The Absent Category",
+                subtitle: "",
+                content: `
+                    <div style="background: #fef2f2; border: 2px solid #dc2626; padding: 2rem; border-radius: 0.75rem; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold; color: #991b1b; text-align: center; margin-bottom: 1rem;">
+                            Category 3: Prove a Conjecture
+                        </h3>
+                        <div class="center icon">📉</div>
+                        <p style="text-align: center; font-size: 1.25rem; font-weight: 600; color: #991b1b;">
+                            Virtually Non-Existent Across These Directorates
+                        </p>
+                    </div>
+
+                    <div class="grid-2 text-sm" style="margin-bottom: 1.5rem;">
+                        <div class="highlight-box">
+                            <h4 class="font-bold mb-2">BIO: 0%</h4>
+                            <p class="text-xs">Not represented at all</p>
+                        </div>
+                        <div class="highlight-box">
+                            <h4 class="font-bold mb-2">PHY: 2%</h4>
+                            <p class="text-xs">Only 2 out of 100 grants</p>
+                        </div>
+                        <div class="highlight-box">
+                            <h4 class="font-bold mb-2">CMMI: 0%</h4>
+                            <p class="text-xs">Not represented at all</p>
+                        </div>
+                        <div class="highlight-box">
+                            <h4 class="font-bold mb-2">CHE: 0%</h4>
+                            <p class="text-xs">Not represented at all</p>
+                        </div>
+                        <div class="highlight-box" style="grid-column: span 2;">
+                            <h4 class="font-bold mb-2">CBET: 7.5%</h4>
+                            <p class="text-xs">Highest, but still rare (theoretical/computational models)</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box blue">
+                        <h4 class="font-bold mb-2">Why is Category 3 so rare in these directorates?</h4>
+                        <ul class="text-sm space-y-3">
+                            <li>• <strong>Experimental Nature:</strong> These directorates emphasize empirical evidence over formal mathematical proof</li>
+                            <li>• <strong>Terminology Difference:</strong> "Conjecture" is more common in pure mathematics</li>
+                            <li>• <strong>Framework Shift:</strong> Even theoretical work is framed as hypothesis testing or model development</li>
+                            <li>• <strong>Sample Limitation:</strong> This analysis covers BIO, PHY, CMMI, CHE, and CBET - other NSF programs (e.g., DMS) may show different patterns</li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                title: "Deep Dive: Engineering's Hybrid Model",
+                subtitle: "",
+                content: `
+                    <div style="background: linear-gradient(135deg, #fb923c 0%, #dc2626 100%); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">CBET: The Exception That Proves the Rule</h3>
+                        <p style="margin-top: 0.5rem;">Most proposals combine multiple categories</p>
+                    </div>
+
+                    <div style="background: #fef3c7; border: 2px solid #f59e0b; padding: 2rem; border-radius: 0.75rem;">
+                        <h4 class="font-bold mb-3">Typical CBET Grant Structure:</h4>
+                        <div class="space-y-3 text-sm">
+                            <div class="highlight-box" style="background: white;">
+                                <strong>Start with a hypothesis (Category 1):</strong>
+                                <p class="text-xs" style="font-style: italic; margin-top: 0.25rem;">"The central hypothesis is that altered load reprograms downstream signaling..."</p>
+                            </div>
+                            <div class="center" style="font-size: 1.5rem;">+</div>
+                            <div class="highlight-box" style="background: white;">
+                                <strong>Apply methods from another field (Category 4):</strong>
+                                <p class="text-xs" style="font-style: italic; margin-top: 0.25rem;">"...using machine learning tools from computer science to analyze the biological data"</p>
+                            </div>
+                            <div class="center" style="font-size: 1.5rem;">=</div>
+                            <div style="background: #d1fae5; padding: 1rem; border-radius: 0.5rem; border: 2px solid #10b981;">
+                                <strong>Hybrid Research Approach</strong>
+                                <p class="text-xs" style="margin-top: 0.25rem;">Fundamental science motivated by real-world applications, enabled by cross-disciplinary tools</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box blue" style="margin-top: 1.5rem;">
+                        <p class="text-sm font-bold" style="color: #1e40af;">
+                            💡 This explains why CBET percentages exceed 100% - it's not an error, it's the nature of engineering research!
+                        </p>
+                    </div>
+                `
+            },
+            {
+                title: "Emerging Trend: AI/ML Integration",
+                subtitle: "",
+                content: `
+                    <div class="gradient-box">
+                        <h3 class="center mb-3">Artificial Intelligence Across All Fields</h3>
+                        <p class="center">A cross-cutting theme in Category 4 research</p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2">🧬 Biology Examples</h4>
+                            <ul class="text-sm">
+                                <li>• AI-based pollinator monitoring using acoustics and cameras</li>
+                                <li>• Automated arthropod identification using computer vision</li>
+                                <li>• Deep learning for ecological data analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2">⚛️ Physics Examples</h4>
+                            <ul class="text-sm">
+                                <li>• Deep learning for precision nucleon tomography</li>
+                                <li>• ML for gravitational-wave astrophysics (LIGO data)</li>
+                                <li>• Physics-constrained deep learning for plasma sheaths</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box orange">
+                            <h4 class="font-bold mb-2">⚙️ Engineering Examples</h4>
+                            <ul class="text-sm">
+                                <li>• AI for amorphous-crystalline interface control</li>
+                                <li>• Quantum algorithms for traffic management</li>
+                                <li>• ML for battery design optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="background: #d1fae5; padding: 2rem; border-radius: 0.75rem; border: 2px solid #10b981; margin-top: 1.5rem;">
+                        <p class="font-bold center" style="color: #15803d; font-size: 1.125rem;">
+                            AI/ML has become a universal tool for scientific discovery
+                        </p>
+                    </div>
+                `
+            },
+            {
+                title: "Implications for Proposal Writers",
+                subtitle: "",
+                content: `
+                    <div style="background: #2563eb; color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold;">What Does This Mean for Your Proposal?</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2">✓ For Biology Proposals (BIO)</h4>
+                            <ul class="text-sm">
+                                <li>• Lead with clear, testable hypotheses (49% of funded work)</li>
+                                <li>• Consider integrating computational tools (42% interdisciplinary)</li>
+                                <li>• AI/ML integration increasingly competitive</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box blue">
+                            <h4 class="font-bold mb-2">✓ For Physics Proposals (PHY)</h4>
+                            <ul class="text-sm">
+                                <li>• Emphasize precision measurement objectives (47% of grants)</li>
+                                <li>• Detail your validation and accuracy targets</li>
+                                <li>• Interdisciplinary methods increasingly important (29%)</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box purple">
+                            <h4 class="font-bold mb-2">✓ For Engineering Proposals (CMMI/CBET)</h4>
+                            <ul class="text-sm">
+                                <li>• <strong>Must be interdisciplinary</strong> (88% CMMI, 79% CBET)</li>
+                                <li>• Frame as both hypothesis-driven AND method-integration</li>
+                                <li>• Show how you bridge disciplines to solve problems</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box yellow">
+                            <h4 class="font-bold mb-2">✓ For Chemistry Proposals (CHE)</h4>
+                            <ul class="text-sm">
+                                <li>• Strong hypothesis about mechanisms/properties (58.5%)</li>
+                                <li>• Consider interdisciplinary approaches (31.7%)</li>
+                                <li>• Balance fundamental science with applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Know Your Directorate's Culture",
+                subtitle: "",
+                content: `
+                    <div class="gradient-box">
+                        <h3 class="center">Different Directorates Value Different Approaches</h3>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="info-box red">
+                            <h4 class="font-bold mb-2" style="color: #991b1b;">❌ Don't Do This:</h4>
+                            <ul class="text-sm space-y-3">
+                                <li>• Submit pure measurement study to BIO (only 8% funded)</li>
+                                <li>• Submit pure hypothesis test to CMMI (only 11% funded)</li>
+                                <li>• Focus solely on mathematical proof in these directorates</li>
+                                <li>• Ignore interdisciplinary trends in engineering</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box green">
+                            <h4 class="font-bold mb-2" style="color: #15803d;">✓ Do This Instead:</h4>
+                            <ul class="text-sm space-y-3">
+                                <li>• Match your framing to directorate preferences</li>
+                                <li>• For engineering: emphasize cross-disciplinary integration</li>
+                                <li>• For physics: highlight measurement precision</li>
+                                <li>• For bio/chem: lead with hypotheses, add tools</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="info-box blue" style="margin-top: 1.5rem;">
+                        <h4 class="font-bold mb-3">Strategic Advice:</h4>
+                        <div class="text-sm space-y-3">
+                            <p><strong>1. Read funded abstracts in your target program</strong></p>
+                            <p class="text-xs" style="padding-left: 1rem;">Notice how successful PIs frame their work</p>
+                            
+                            <p><strong>2. Mirror the dominant methodology</strong></p>
+                            <p class="text-xs" style="padding-left: 1rem;">Use language that matches what reviewers expect to see</p>
+                            
+                            <p><strong>3. Consider hybrid approaches for engineering</strong></p>
+                            <p class="text-xs" style="padding-left: 1rem;">Combine hypothesis testing with method integration</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Summary: Key Takeaways",
+                subtitle: "",
+                content: `
+                    <div style="background: linear-gradient(135deg, #10b981 0%, #14b8a6 100%); color: white; padding: 2rem; border-radius: 0.75rem; margin-bottom: 1.5rem;">
+                        <h3 style="font-size: 1.5rem; font-weight: bold; text-align: center;">What We Learned from 494 NSF Grants</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="info-box purple">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="icon">🔬</div>
+                                <div>
+                                    <h4 class="font-bold mb-2">1. Interdisciplinarity is King</h4>
+                                    <p class="text-sm">Category 4 (cross-disciplinary integration) dominates engineering (88% CMMI, 79% CBET) and is growing across all fields</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box blue">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="icon">📊</div>
+                                <div>
+                                    <h4 class="font-bold mb-2">2. Field-Specific Preferences Matter</h4>
+                                    <p class="text-sm">Physics favors measurement (47%), Biology/Chemistry favor hypothesis testing (~50-60%), Engineering requires integration</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box red">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="icon">🚫</div>
+                                <div>
+                                    <h4 class="font-bold mb-2">3. "Proof" is Rare in These Directorates</h4>
+                                    <p class="text-sm">Category 3 (prove a conjecture) is virtually absent in the five directorates analyzed (~0-7.5%). These programs emphasize empirical evidence over formal mathematical proof</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box yellow">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="icon">🤖</div>
+                                <div>
+                                    <h4 class="font-bold mb-2">4. AI/ML is Everywhere</h4>
+                                    <p class="text-sm">Machine learning integration is a cross-cutting theme in Category 4 research across all directorates analyzed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box orange">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="icon">🔄</div>
+                                <div>
+                                    <h4 class="font-bold mb-2">5. Hybrid Approaches Win in Engineering</h4>
+                                    <p class="text-sm">CBET shows that combining hypothesis testing (63.6%) with interdisciplinary methods (79.4%) is the norm, not the exception</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: #fef3c7; border: 2px solid #f59e0b; padding: 2rem; border-radius: 0.75rem; margin-top: 1.5rem;">
+                        <h4 class="font-bold mb-3">⚠️ Important Limitation:</h4>
+                        <p class="text-sm mb-2">This analysis covers only <strong>five directorates: BIO, PHY, CMMI, CHE, and CBET</strong>.</p>
+                        <p class="text-sm">Other NSF programs—particularly Division of Mathematical Sciences (DMS), Computer Science (CISE), or theoretical programs—may show very different patterns. Category 3 research may be common in those areas.</p>
+                    </div>
+
+                    <div style="background: #1f2937; color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; margin-top: 1.5rem;">
+                        <p class="mb-2" style="font-size: 1.125rem; font-weight: bold;">Bottom Line for Proposal Writers:</p>
+                        <p class="text-sm">Know your directorate's preferences, embrace interdisciplinarity, and frame your work using the methodology that reviewers expect to see.</p>
+                    </div>
+                `
+            }
+        ];
+
+        let currentSlide = 0;
+
+        function renderSlide() {
+            const slide = slides[currentSlide];
+            document.getElementById('slide-title').textContent = slide.title;
+            document.getElementById('slide-subtitle').textContent = slide.subtitle;
+            document.getElementById('slide-content').innerHTML = slide.content;
+            document.getElementById('slide-counter').textContent = `Slide ${currentSlide + 1} of ${slides.length}`;
+            
+            document.getElementById('prev-btn').disabled = currentSlide === 0;
+            document.getElementById('next-btn').disabled = currentSlide === slides.length - 1;
+
+            renderDots();
+        }
+
+        function renderDots() {
+            const dotsContainer = document.getElementById('dots-container');
+            dotsContainer.innerHTML = '';
+            
+            slides.forEach((_, index) => {
+                const dot = document.createElement('div');
+                dot.className = 'dot' + (index === currentSlide ? ' active' : '');
+                dot.onclick = () => goToSlide(index);
+                dotsContainer.appendChild(dot);
+            });
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                renderSlide();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                renderSlide();
+            }
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            renderSlide();
+        }
+
+        // Initialize
+        renderSlide();
+    </script>
+</body>
+</html>
