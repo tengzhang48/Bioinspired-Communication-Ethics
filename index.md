@@ -63,3 +63,8 @@ Ethical case studies, dual-use research discussions, and AI ethics consideration
 - [Research Foundation Materials](modules/foundation)
 - [Scientific Writing & Review](modules/paper)
 - [Proposal Writing & Review](modules/proposal)
+
+## 🗺️ Repository Map
+
+- 📄 [**PACKAGE_MAP.md**](https://github.com/tengzhang48/Bioinspired-Communication-Ethics/blob/main/PACKAGE_MAP.md) — Detailed scan of every file in this repository: directory tree, file descriptions, site navigation map, assignment timeline, grading breakdown, and file-relationship diagram.
+- 🌐 [**sitemap.xml**](https://github.com/tengzhang48/Bioinspired-Communication-Ethics/blob/main/sitemap.xml) — Machine-readable XML sitemap listing every URL on this course website.

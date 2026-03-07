@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static sitemap for the Bioinspired Communication & Ethics course website.
+  Base URL: https://tengzhang48.github.io/Bioinspired-Communication-Ethics
+  Generated: 2026-03-07
+
+  Note: Jekyll's jekyll-sitemap plugin also auto-generates a sitemap.xml at
+  build time.  This file serves as a permanent, human-readable reference of
+  every URL in the site.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ============================================================ -->
+  <!-- Core Pages                                                    -->
+  <!-- ============================================================ -->
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/syllabus/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/schedule/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- Module Pages                                                  -->
+  <!-- ============================================================ -->
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/foundation/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/paper/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/proposal/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/ethics/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- Presentation Slide Decks                                      -->
+  <!-- ============================================================ -->
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/Project_summary_tips.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/Reframe_Applied_Research.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/Writing_Advice_Summary.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/career_proposal_tips.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/deepseek_review_1.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/deepseek_review_2.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/fundamental_vs_applied.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/hypothesis_definition.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/nobel-analysis.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/nsf_analysis.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/nsf_research_challenges.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/professor_advice_slides.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/presentations/proposal_resources_slides.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
