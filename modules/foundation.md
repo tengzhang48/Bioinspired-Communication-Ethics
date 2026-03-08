@@ -32,7 +32,7 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Lecture 1: Team Formation &amp; Shared Standards</strong></summary>
 
 **Case Study: Mars Climate Orbiter (1999)** — A $125 million spacecraft lost because NASA's navigation team used metric units while Lockheed Martin provided data in imperial. The root cause wasn't the math error — it was the failure of systems engineering to detect it, compounded by ignored warnings, team handoffs, and understaffing.
@@ -57,7 +57,7 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Lecture 2: CATME &amp; Peer Evaluation</strong></summary>
 
 This lecture introduces CATME as both a practical tool you'll use this semester and a window into how peer accountability works in professional research teams.
@@ -170,7 +170,7 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Lecture 3: Cross-Disciplinary Communication</strong></summary>
 
 **Case Study: AlphaFold (2016–2024)** — DeepMind built a small interdisciplinary team of structural biologists, physicists, and machine learning researchers to solve protein folding. The team won the 2024 Nobel Prize in Chemistry after predicting structures for over 200 million proteins. Success required genuine integration — the ML researchers built biological knowledge into the neural network architecture, not just applied generic AI to biological data.
@@ -196,7 +196,7 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Lecture 4: Credit, Conflict &amp; Accountability</strong></summary>
 
 **Case Study: CRISPR Patent Dispute (2012–present)** — Jennifer Doudna and Emmanuelle Charpentier demonstrated CRISPR gene editing in a test tube (2012). Feng Zhang demonstrated it working inside mammalian cells months later. Doudna and Charpentier won the Nobel Prize (2020), but the Broad Institute holds the key U.S. patents. The dispute involves over $100 million in licensing revenues and remains unresolved.
@@ -222,7 +222,7 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Lecture 5: Trust Under Pressure &amp; Open Science</strong></summary>
 
 **Case Studies: COVID-19 Vaccine (2020) and Human Genome Project (1990–2003)**
