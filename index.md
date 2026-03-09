@@ -46,7 +46,7 @@ This course emphasizes **teamwork**, **scientific communication**, and **ethical
 ### 🧩 Module 1: Foundations
 Team-building with CATME, literature review best practices, and 2-minute pitch exercises
 
-### 💡 Module 2: Proposal Preparation
+### 💡 Module 2: Research Proposal Preparation
 NSF-style grant proposal development, presentations, and mock panel review
 
 ### 📝 Module 3: Scientific Literature Review
