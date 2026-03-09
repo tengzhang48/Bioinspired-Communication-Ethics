@@ -5,56 +5,93 @@ permalink: /schedule/
 ---
 
 # Bioinspired Communication and Ethics  
-## Detailed Course Schedule (Fall 2025)
+## Course Schedule (Fall 2026)
 
 ---
 
 ## 📅 Semester Overview
-- **First Class:** Monday, August 25, 2025  
-- **Last Class:** Monday, December 8, 2025  
-- **Labor Day Break:** Monday, September 1, 2025  
-- **Fall Break:** Monday, October 13, 2025  
-- **Thanksgiving Break:** Monday, November 24 - Friday, November 28, 2025  
-- **Final Project Presentations:** December 8, 2025  
-- **Course Ends:** December 15, 2025  
+
+- **First Class:** Monday, August 24, 2026  
+- **Last Class:** Monday, December 7, 2026  
+- **Labor Day (no class):** Monday, September 7  
+- **Fall Break (no class):** Monday, October 12  
+- **Thanksgiving Break (no class):** Monday, November 23 & Wednesday, November 25  
+- **Final Reports Due:** Tuesday, December 15, 2026  
+- **Total Sessions:** 27 (MW, 80 min each)
+
+---
+
+## 📐 Module Sequence
+
+| Module | Sessions | Weeks | Focus |
+|--------|:---:|:---:|-------|
+| [Module 1: Foundations of Teamwork](../modules/foundation/) | 5 | Aug 24 – Sep 9 | Team formation, CATME, collaboration skills |
+| [Module 2: Proposal Writing & Review](../modules/proposal/) | 8 | Sep 14 – Oct 7 | Research landscape, framing, proposal development |
+| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 7 | Oct 14 – Nov 4 | Writing principles, revision, peer review, AI tools |
+| [Module 4: Research Ethics](../modules/ethics/) | 7 | Nov 9 – Dec 7 | Misconduct, dual-use, sci-comm, AI ethics, IP |
 
 ---
 
 ## 🗓️ Weekly Schedule
 
-| Date | Module | Topic | Activities & Assignments |
-|------|--------|-------|--------------------------|
-| **Mon, Aug 25** | Introduction | Course Overview & Team Formation | - CATME team registration<br>- Icebreaker: Bioinspired morphing experiments |
-| **Wed, Aug 27** | Module 1: Foundations | The Science of Successful Teams | - Research on diverse teams<br>- *Assignment: Team charter draft due Sep 3* |
-| **Mon, Sep 1** | Labor Day | **NO CLASS** | *University holiday* |
-| **Wed, Sep 3** | Module 1: Foundations | Tools for Collaboration & Literature Review | - tool survey<br>- Conflict resolution techniques<br>- *Assignment: Revised team charter due Sep 15* |
-| **Mon, Sep 8** | Module 1: Foundations | Principles of Effective Teams | - Team dynamics workshop<br>- Collaborative project planning |
-| **Wed, Sep 10** | Module 1: Foundations | From Teamwork to Research: The 2-Minute Pitch | - Team project pitches<br>- Peer feedback session<br>- *Assignment: Literature review outline due Sep 22* |
-| **Mon, Sep 15** | Module 2: Scientific Writing & Peer Review | **Guest Lecture: Dr. Hyunwoo Yuk** | ***"Principles of Effective Scientific Writing & Review"*** <br> - Structuring papers for clarity and impact <br> - The author's perspective: writing for your audience <br> - The reviewer's perspective: providing constructive feedback <br> - Q&A session <br>- **Team Charter Final Submission**|
-| **Wed, Sep 17** | Module 2: Scientific Writing & Peer Review | **Crafting Effective Abstracts & Introductions** | - Deconstructing the "CARS" model (Create A Research Space) <br> - Hands-on workshop: writing and critiquing abstracts |
-| **Mon, Sep 22** | Module 2: Scientific Writing & Peer Review | **Structuring Papers and Arguments** | - IMRaD deep dive: what goes in each section? <br> - Building a logical narrative flow <br> - Workshop: outlining a paper from your literature review <br> - *Assignment: Literature review outline due* |
-| **Wed, Sep 24** | Module 2: Scientific Writing & Peer Review | **Guest Lecture: Dr. Zhao Qin** | ***"Leveraging AI as a Research Partner: From Literature Review to Discovery"*** <br> - Using AI tools to efficiently map and synthesize existing literature <br> - Employing AI for identifying emerging trends and research gaps <br> - Navigating the ethical considerations and limitations of AI in research <br> - **Action:** Develop a protocol for AI use in your team's project <br>- *Assignment: Draft review due Oct 6* |
-| **Mon, Sep 29** | Module 2: Scientific Writing & Peer Review | **Peer Review Workshop I: The Practice** | - Applying NSF/Nature criteria to evaluate manuscripts <br> - Writing specific, actionable, and respectful reviews <br> - **Draft Review Submission** |
-| **Wed, Oct 1** | Module 2: Scientific Writing & Peer Review | **Peer Review Workshop II: The Art of Response** | - Strategies for categorizing and addressing reviewer comments <br> - Crafting a persuasive and professional rebuttal <br> - Deciding when to revise, push back, or concede |
-| **Mon, Oct 6** | Module 2: Scientific Writing & Peer Review | **Module 2 Wrap-up & Integration** | - How writing and review skills improve your own research <br> - Discussion: lessons learned from being a reviewer |
-| **Wed, Oct 8** | Module 3: Proposal Prep | **Funding Landscape: NSF, NIH, DOD & Foundations** | - **NSF:** Deep dive on Intellectual Merit & Broader Impacts <br> - **NIH:** Overview of significance, innovation, approach criteria <br> - **DOD/DOE:** Mission alignment and applied research focus <br> - **Foundations:** Identifying private funding opportunities <br> -  **Final review response**|
-| **Mon, Oct 13** | ❌ | **NO CLASS** | *Fall Break* |
-| **Wed, Oct 15** | Module 3: Proposal Prep | **NSF GRFP Application Workshop** | - Fellowship-specific strategies <br> - Review criteria for personal and research statements <br> - *Assignment: Intellectual Merit statement due Oct 20* |
-| **Mon, Oct 20** | Module 3: Proposal Prep | **Crafting the Core Argument: Significance & Innovation** | - Writing compelling project descriptions for any agency <br> - Defining the research gap and your solution <br> - Workshop: Drafting and critiquing significance statements <br> - **Intellectual Merit Statement Submission** |
-| **Wed, Oct 22** | Module 3: Proposal Prep | **Agency Deep Dive & Review Practice** | - **Session 1:** Comparing review panels & culture across agencies <br> - **Session 2:** **Mock Panel Review** using blended criteria <br> - Role-playing reviewer perspectives from different agencies |
-| **Mon, Oct 27** | Module 3: Proposal Prep | **Developing Broader Impacts & Integration** | - Writing broader impacts for society, not just NSF <br> - Translating research outcomes for different stakeholders <br> - **Broader Impacts Statement Submission** |
-| **Wed, Oct 29** | Module 3: Proposal Prep | **Module 3 Wrap-up: From Proposal to Project** | - Budget justifications and project management basics <br> - Responding to reviewer comments across agencies <br> - *Assignment: Complete proposal draft due Nov 5* |
-| **Mon, Nov 3** | Module 4: Ethics | Introduction to Research Ethics | - Guest lecture: Prof. Sarah Reckess <br> - *Assignment: Case Study Analysis due Nov 10* |
-| **Wed, Nov 5** | Module 4: Ethics | Research Misconduct | - Case studies in fabrication/plagiarism <br>- **Complete Proposal Draft Submission**|
-| **Mon, Nov 10** | Module 4: Ethics | Dual-Use Research | - Bioinspired tech case studies<br>- Prof. Reckess consultation <br> - **Case Study Analysis Due** |
-| **Wed, Nov 12** | Module 4: Ethics | **Ethical Communication of Research Findings** | - Responsible reporting standards<br>- Authorship guidelines<br>- Prof. Reckess workshop |
-| **Mon, Nov 17** | Module 4: Ethics | AI Ethics in Bioinspired Systems | - Algorithmic bias mitigation<br>- Prof. Reckess Q&A |
-| **Wed, Nov 19** | Module 4: Ethics | Biomatter Ethics | - Ethical use of biological materials<br>- Prof. Reckess case analysis |
-| **Mon, Nov 24** | ❌ | **NO CLASS** | *Thanksgiving Break begins* |
-| **Wed, Nov 26** | ❌ | **NO CLASS** | *Thanksgiving Break* |
-| **Mon, Dec 1** | Module 4: Ethics | Ethics Integration Workshop | - Applying frameworks to projects<br>- Prof. Reckess final guidance <br>- **Ethics Integration Memo Due** |
-| **Wed, Dec 3** | Final Projects | Project Preparation | - Team consultations<br>- Presentation dry runs |
-| **Mon, Dec 8** | Final Projects | **Project Presentations & Course Wrap-up** | - Full class presentations<br>- Ethical reflections with Prof. Reckess<br>- **Final reports due Dec 15** |
+### Module 1: Foundations of Teamwork (5 sessions)
+
+| # | Date | Topic | Key Activities | Deliverable |
+|:---:|------|-------|----------------|-------------|
+| 1 | Mon, Aug 24 | [Team Formation & Shared Standards](../modules/foundation/#lecture-1) | Mars Climate Orbiter case; team ice-breaker; "unit conversion" exercise | Team Charter Draft |
+| 2 | Wed, Aug 26 | [CATME & Peer Evaluation](../modules/foundation/#lecture-2) | CATME walkthrough; rater practice; feedback writing workshop | CATME Rater Practice |
+| 3 | Mon, Aug 31 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-3) | AlphaFold case; skills inventory; "translation" exercise | Skills Inventory |
+| 4 | Wed, Sep 2 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-4) | CRISPR patent case; CATME midterm reflection; contribution plan | Contribution Plan |
+| | Mon, Sep 7 | **NO CLASS** | *Labor Day* | |
+| 5 | Wed, Sep 9 | [Trust Under Pressure & Open Science](../modules/foundation/#lecture-5) | COVID vaccine + Human Genome Project cases; final charter revision | **Final Team Charter** |
+
+---
+
+### Module 2: Proposal Writing & Review (8 sessions)
+
+| # | Date | Topic | Key Activities | Deliverable |
+|:---:|------|-------|----------------|-------------|
+| 6 | Mon, Sep 14 | [The Research Landscape](../modules/proposal/#lecture-1) | Nobel Prize analysis; "Classify Your Own Field" team exercise | |
+| 7 | Wed, Sep 16 | [Research Framing & Word Choice](../modules/proposal/#lecture-2) | NSF directorate analysis; paragraph-level reframing exercise | |
+| 8 | Mon, Sep 21 | [Funding Agencies & Your First Research Narrative](../modules/proposal/#lecture-3) | NSF vs. NIH comparison; draft challenge statement + 3 objectives; peer review in pairs | Challenge/Objectives Draft |
+| 9 | Wed, Sep 23 | [Writing the Research Narrative](../modules/proposal/#lecture-4) | Field-specific best practices; NIH specific aims; revision workshop; "Elevator Test" | Revised Challenge/Objectives |
+| 10 | Mon, Sep 28 | [Intellectual Merit, Broader Impacts & Case Studies](../modules/proposal/#lecture-5) | NSF CAREER case study; review panel simulation | |
+| 11 | Wed, Sep 30 | [AI in the Research Enterprise](../modules/proposal/#lecture-6) | AI history quiz; AI Winter jigsaw; hypothesis generation debate; AI detection analysis | |
+| 12 | Mon, Oct 5 | [Peer Review, Ethics & Responding to Critique](../modules/proposal/#lecture-7) | AI over-values structure case; mock panel review; ethics discussion | Panel Summary |
+| 13 | Wed, Oct 7 | [GCR Team Proposal Workshop](../modules/proposal/#lecture-8) | GCR proposal drafting; cross-team peer review | **GCR Proposal (final due Oct 14)** |
+| | Mon, Oct 12 | **NO CLASS** | *Fall Break* | |
+
+---
+
+### Module 3: Scientific Writing & Peer Review (7 sessions)
+
+| # | Date | Topic | Key Activities | Deliverable |
+|:---:|------|-------|----------------|-------------|
+| 14 | Wed, Oct 14 | [Your Writing Journey](../modules/paper/#lecture-1) | Mentimeter survey; CARS exercise; speed-reading challenge | Portfolio: Topic Selection |
+| 15 | Mon, Oct 19 | [Writing Principles in Action](../modules/paper/#lecture-2) | Writing principles presentation; mini-debate; "Reviewer Simulator" | Portfolio: Draft 1 |
+| 16 | Wed, Oct 21 | [The Art of Revision: Abstract Case Study](../modules/paper/#lecture-3) | Hydrogel abstract evolution (4 versions); 2-2-1 test; apply to own work | Portfolio: Draft 2 |
+| 17 | Mon, Oct 26 | [Peer Review & Transparent Publishing](../modules/paper/#lecture-4) | eLife model; seed carrier paper analysis; open access discussion | |
+| 18 | Wed, Oct 28 | [Responding to Reviewers](../modules/paper/#lecture-5) | Rebuttal anatomy; response drafting; tone test | Portfolio: Peer Review |
+| 19 | Mon, Nov 2 | [AI Tools in Scientific Writing](../modules/paper/#lecture-6) | ChatGPT vs. DeepSeek case; AI stress test; ethics discussion | Portfolio: AI Stress Test |
+| 20 | Wed, Nov 4 | [From Hypothesis to Publication](../modules/paper/#lecture-7) | Nobel Prize patterns; hypothesis frameworks; bridge to ethics module | **Portfolio: Final Version** |
+
+---
+
+### Module 4: Research Ethics (7 sessions)
+
+| # | Date | Topic | Key Activities | Deliverable |
+|:---:|------|-------|----------------|-------------|
+| 21 | Mon, Nov 9 | [Introduction to Ethics in Research](../modules/ethics/#session-1) | Ethics vs. law vs. morals; Resnik principles; Alberts systemic pressures; perverse incentives exercise | |
+| 22 | Wed, Nov 11 | [Research Misconduct, COI & Industry](../modules/ethics/#session-2) | FFP + gray zone; paper mills case; COI scenario analysis | |
+| 23 | Mon, Nov 16 | [Dual-Use Research](../modules/ethics/#session-3) | DURC framework; scenario concern ratings; gene drive debate; oversight ranking | |
+| 24 | Wed, Nov 18 | [Science Communication as Ethical Obligation](../modules/ethics/#session-4) | Scientist/family info gap; genuine vs. false successes; press release rewrite; preliminary findings scenario | |
+| | Mon, Nov 23 | **NO CLASS** | *Thanksgiving Break* | |
+| | Wed, Nov 25 | **NO CLASS** | *Thanksgiving Break* | |
+| 25 | Mon, Nov 30 | [Artificial Intelligence in Research](../modules/ethics/#session-5) | Ghostwriting problem; AI bias; detection paradox; regulatory frameworks debate | |
+| 26 | Wed, Dec 2 | [Authorship & Credit](../modules/ethics/#session-6) | ICMJE criteria; CRediT taxonomy; authorship scenarios; AI authorship exercise | |
+| 27 | Mon, Dec 7 | [Intellectual Property & Data Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent revisited; data sharing dilemma; course wrap-up | |
+
+**Final Team Project (Technology & Responsibility Report) due: Tuesday, December 15**
 
 ---
 
@@ -62,13 +99,24 @@ permalink: /schedule/
 
 | Date | Assignment | Module |
 |------|------------|--------|
-| **Sep 15** | Team Charter & Collaboration Agreement | Module 1 |
-| **Sep 22** | Literature Review Outline | Module 2 |
-| **Sep 29** | Draft Peer Review | Module 2 |
-| **Oct 15** | Final Review Response | Module 2 |
-| **Oct 20** | Intellectual Merit Statement | Module 3 |
-| **Oct 27** | Broader Impacts Statement | Module 3 |
-| **Nov 5** | Complete Proposal Draft | Module 3 |
-| **Nov 10** | Case Study Analysis | Module 4 |
-| **Dec 1** | Ethics Integration Memo | Module 4 |
-| **Dec 15** | Final Project Reports | All Modules |
+| **Sep 9** | Final Team Charter | Module 1 |
+| **Sep 21** | Challenge/Objectives Draft | Module 2 |
+| **Sep 23** | Revised Challenge/Objectives | Module 2 |
+| **Oct 5** | Panel Summary | Module 2 |
+| **Oct 14** | GCR Proposal (final) | Module 2 |
+| **Oct 19** | Writing Portfolio Draft 1 | Module 3 |
+| **Oct 21** | Writing Portfolio Draft 2 | Module 3 |
+| **Oct 28** | Writing Portfolio Peer Review | Module 3 |
+| **Nov 2** | Writing Portfolio AI Stress Test | Module 3 |
+| **Nov 4** | Writing Portfolio Final Version | Module 3 |
+| **Dec 15** | Technology & Responsibility Report | Module 4 |
+
+### CATME Peer Evaluation Schedule
+
+| Evaluation | Opens After | Grade Impact |
+|------------|-------------|:---:|
+| Rater Practice | Session 2 (Aug 26) | None |
+| Evaluation 1 | Module 1 ends (Sep 9) | None |
+| Evaluation 2 | Module 2 ends (Oct 7) | None |
+| Evaluation 3 | Module 3 ends (Nov 4) | None |
+| Evaluation 4 | End of semester (Dec 7) | **Multiplier applied** |
