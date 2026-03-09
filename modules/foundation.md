@@ -12,15 +12,37 @@ This module builds the skills and frameworks for working in effective, diverse, 
 
 ---
 
-## Module Overview: 5 Lectures (80 min each)
+## Module Structure: 5 Lectures (80 min each)
 
-| Lecture | Topic | Case Study | Field Guide Chapters | Deliverable |
-|---|---|---|---|---|
-| 1 | Team Formation & Shared Standards | Mars Climate Orbiter | Ch. 4–5 (Building Teams, Trust) | Team Charter Draft |
-| 2 | CATME & Peer Evaluation | — | — | CATME Rater Practice |
-| 3 | Cross-Disciplinary Communication | AlphaFold | Ch. 6–7 (Vision, Communication) | Skills Inventory |
-| 4 | Credit, Conflict & Accountability | CRISPR Patent Dispute | Ch. 8, 10 (Credit, Conflict) | Contribution Plan |
-| 5 | Trust Under Pressure & Open Science | COVID Vaccine + Human Genome Project | Ch. 5, 9, 12 (Trust, Difference, Networks) | Final Team Charter |
+| # | Lecture | Case Study | Field Guide Ch. | Deliverable |
+|---|--------|------------|:---:|-------------|
+| 1 | [Team Formation & Shared Standards](#lecture-1) | Mars Climate Orbiter | 4–5 | Team Charter Draft |
+| 2 | [CATME & Peer Evaluation](#lecture-2) | — | — | CATME Rater Practice |
+| 3 | [Cross-Disciplinary Communication](#lecture-3) | AlphaFold | 6–7 | Skills Inventory |
+| 4 | [Credit, Conflict & Accountability](#lecture-4) | CRISPR Patent Dispute | 8, 10 | Contribution Plan |
+| 5 | [Trust Under Pressure & Open Science](#lecture-5) | COVID Vaccine + Human Genome Project | 5, 9, 12 | Final Team Charter |
+
+### 📝 Running Assignments
+
+Two threads build across the module:
+
+**Team Charter (evolves across 3 lectures)**
+
+| Lecture | Milestone |
+|:---:|---------------------|
+| 1 | Draft: communication protocols, roles, meeting schedule, problem-raising process |
+| 3 | Revision: updated with skills inventory and communication needs |
+| 5 | Final: comprehensive document incorporating CATME insights, contribution plan, and workflow design |
+
+**CATME Peer Evaluation (4 cycles across the semester)**
+
+| Evaluation | Timing | Grade Impact |
+|:---:|---------------------|:---:|
+| Rater Practice | Week 2 | None |
+| Evaluation 1 | After Module 1 | None — formative |
+| Evaluation 2 | After Module 2 | None — formative |
+| Evaluation 3 | After Module 3 | None — formative |
+| Evaluation 4 | End of semester | **Multiplier applied** |
 
 ---
 
@@ -33,7 +55,7 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 ---
 
 <details markdown="1">
-<summary><strong>Lecture 1: Team Formation &amp; Shared Standards</strong></summary>
+<summary><strong id="lecture-1">Lecture 1: Team Formation & Shared Standards</strong></summary>
 
 **Case Study: Mars Climate Orbiter (1999)** — A $125 million spacecraft lost because NASA's navigation team used metric units while Lockheed Martin provided data in imperial. The root cause wasn't the math error — it was the failure of systems engineering to detect it, compounded by ignored warnings, team handoffs, and understaffing.
 
@@ -44,10 +66,13 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 
 ### In-Class Activities (80 min)
 
-1. **Case discussion** (20 min) — What organizational conditions allowed a known problem to go unaddressed for 10 months? How does this connect to the Field Guide's argument about psychological safety?
-2. **Team formation & ice-breaker** (20 min) — Teams are announced. Interview exercise: each team member interviews another for 5 minutes about their background, why they chose this program, their research interests, and something unexpected about themselves (favorite breakfast cereal, hidden talent, etc.). Then introduce your partner to the group.
-3. **"Unit conversion" exercise** (15 min) — Each team member identifies one disciplinary assumption they hold that teammates from other fields might not share. (e.g., What does "validated" mean in your field? What counts as a "complete" deliverable?)
-4. **Team Charter drafting** (25 min) — Begin drafting your charter with specific protocols for communication tools, response time expectations, meeting schedule, and a process for raising concerns.
+**Case discussion (~20 min):** What organizational conditions allowed a known problem to go unaddressed for 10 months? How does this connect to the Field Guide's argument about psychological safety?
+
+**Team formation & ice-breaker (~20 min):** Teams are announced. Interview exercise: each team member interviews another for 5 minutes about their background, why they chose this program, their research interests, and something unexpected about themselves (favorite breakfast cereal, hidden talent, etc.). Then introduce your partner to the group.
+
+**"Unit conversion" exercise (~15 min):** Each team member identifies one disciplinary assumption they hold that teammates from other fields might not share. (e.g., What does "validated" mean in your field? What counts as a "complete" deliverable?)
+
+**Team Charter drafting (~25 min):** Begin drafting your charter with specific protocols for communication tools, response time expectations, meeting schedule, and a process for raising concerns.
 
 ### Deliverable
 
@@ -58,7 +83,7 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 ---
 
 <details markdown="1">
-<summary><strong>Lecture 2: CATME &amp; Peer Evaluation</strong></summary>
+<summary><strong id="lecture-2">Lecture 2: CATME & Peer Evaluation</strong></summary>
 
 This lecture introduces CATME as both a practical tool you'll use this semester and a window into how peer accountability works in professional research teams.
 
@@ -157,10 +182,13 @@ The multiplier **drops self-evaluations** from the calculation. Your grade adjus
 
 ### In-Class Activities (80 min)
 
-1. **CATME walkthrough** (15 min) — Demonstration of the system, five dimensions, and rating scales. Key message: the middle is the expectation, not the floor.
-2. **Rater Practice** (25 min) — Complete CATME's game-based rating simulation with hypothetical teammates. Pay attention to where the system tells you your ratings were too generous or too harsh.
-3. **Debrief** (15 min) — Where did your ratings diverge from the "correct" answers? What made it hard to give a 2 or a 3? Why do we default to inflated ratings?
-4. **Discussion: Giving honest feedback** (25 min) — Practice writing one positive and one constructive comment for a hypothetical teammate. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
+**CATME walkthrough (~15 min):** Demonstration of the system, five dimensions, and rating scales. Key message: the middle is the expectation, not the floor.
+
+**Rater Practice (~25 min):** Complete CATME's game-based rating simulation with hypothetical teammates. Pay attention to where the system tells you your ratings were too generous or too harsh.
+
+**Debrief (~15 min):** Where did your ratings diverge from the "correct" answers? What made it hard to give a 2 or a 3? Why do we default to inflated ratings?
+
+**Discussion: Giving honest feedback (~25 min):** Practice writing one positive and one constructive comment for a hypothetical teammate. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
 
 ### Deliverable
 
@@ -171,7 +199,7 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 ---
 
 <details markdown="1">
-<summary><strong>Lecture 3: Cross-Disciplinary Communication</strong></summary>
+<summary><strong id="lecture-3">Lecture 3: Cross-Disciplinary Communication</strong></summary>
 
 **Case Study: AlphaFold (2016–2024)** — DeepMind built a small interdisciplinary team of structural biologists, physicists, and machine learning researchers to solve protein folding. The team won the 2024 Nobel Prize in Chemistry after predicting structures for over 200 million proteins. Success required genuine integration — the ML researchers built biological knowledge into the neural network architecture, not just applied generic AI to biological data.
 
@@ -183,10 +211,13 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 
 ### In-Class Activities (80 min)
 
-1. **Case discussion** (20 min) — What does "genuine integration" look like compared to dividing work into disciplinary silos? Why was a measurable shared goal (CASP competition) important?
-2. **Skills inventory exercise** (30 min) — Each team member presents (3 min each): What methods, tools, and frameworks do you bring? What are you *not* comfortable leading? What terminology from your field might confuse others?
-3. **"Translation" exercise** (15 min) — Pick one concept from the team's project. Each member explains how they'd approach it from their discipline. Identify overlaps and gaps.
-4. **Team Charter revision** (15 min) — Update your charter based on what you learned about each other's strengths and communication needs.
+**Case discussion (~20 min):** What does "genuine integration" look like compared to dividing work into disciplinary silos? Why was a measurable shared goal (CASP competition) important?
+
+**Skills inventory exercise (~30 min):** Each team member presents (3 min each): What methods, tools, and frameworks do you bring? What are you *not* comfortable leading? What terminology from your field might confuse others?
+
+**"Translation" exercise (~15 min):** Pick one concept from the team's project. Each member explains how they'd approach it from their discipline. Identify overlaps and gaps.
+
+**Team Charter revision (~15 min):** Update your charter based on what you learned about each other's strengths and communication needs.
 
 ### Deliverable
 
@@ -197,7 +228,7 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 ---
 
 <details markdown="1">
-<summary><strong>Lecture 4: Credit, Conflict &amp; Accountability</strong></summary>
+<summary><strong id="lecture-4">Lecture 4: Credit, Conflict & Accountability</strong></summary>
 
 **Case Study: CRISPR Patent Dispute (2012–present)** — Jennifer Doudna and Emmanuelle Charpentier demonstrated CRISPR gene editing in a test tube (2012). Feng Zhang demonstrated it working inside mammalian cells months later. Doudna and Charpentier won the Nobel Prize (2020), but the Broad Institute holds the key U.S. patents. The dispute involves over $100 million in licensing revenues and remains unresolved.
 
@@ -209,10 +240,13 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 
 ### In-Class Activities (80 min)
 
-1. **Case discussion** (25 min) — Who "invented" CRISPR? How can scientific credit (Nobel) and legal credit (patents) diverge? What would an early contribution agreement have changed?
-2. **Connection to Module 4 (Ethics)** (10 min) — Brief discussion of the Rosalind Franklin parallel and gender dynamics in credit allocation
-3. **CATME midterm reflection** (15 min) — By this point, students have completed 1–2 formative CATME evaluations. Teams review their anonymized feedback. Discussion prompt: Where did your self-rating differ from peer ratings? What specific change will you make for the second half of the semester? Share your reflection goals with your team.
-4. **Drafting a contribution plan** (30 min) — Using the Field Guide's "Prenup for Scientists" as a template, teams draft a contribution and authorship plan for the final project. Specify: who leads each section, how to handle unequal contributions, and how to resolve credit disagreements.
+**Case discussion (~25 min):** Who "invented" CRISPR? How can scientific credit (Nobel) and legal credit (patents) diverge? What would an early contribution agreement have changed?
+
+**Connection to Module 4 (Ethics) (~10 min):** Brief discussion of the Rosalind Franklin parallel and gender dynamics in credit allocation.
+
+**CATME midterm reflection (~15 min):** By this point, students have completed 1–2 formative CATME evaluations. Teams review their anonymized feedback. Discussion prompt: Where did your self-rating differ from peer ratings? What specific change will you make for the second half of the semester? Share your reflection goals with your team.
+
+**Drafting a contribution plan (~30 min):** Using the Field Guide's "Prenup for Scientists" as a template, teams draft a contribution and authorship plan for the final project. Specify: who leads each section, how to handle unequal contributions, and how to resolve credit disagreements.
 
 ### Deliverable
 
@@ -223,7 +257,7 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 ---
 
 <details markdown="1">
-<summary><strong>Lecture 5: Trust Under Pressure &amp; Open Science</strong></summary>
+<summary><strong id="lecture-5">Lecture 5: Trust Under Pressure & Open Science</strong></summary>
 
 **Case Studies: COVID-19 Vaccine (2020) and Human Genome Project (1990–2003)**
 
@@ -238,10 +272,13 @@ Complete **CATME Rater Practice** before next class. First formative peer evalua
 
 ### In-Class Activities (80 min)
 
-1. **Case discussion: Trust** (20 min) — What conditions made BioNTech's radical transparency possible? When is this level of trust visionary vs. irresponsible?
-2. **Case discussion: Competition and openness** (15 min) — Was it ethical for Celera to use public HGP data while keeping its own data proprietary? How does this connect to current debates about open science and AI model access?
-3. **Parallel vs. sequential work** (15 min) — Teams identify one aspect of their final project where they're working sequentially and design a way to parallelize it. What trust is required?
-4. **Final Team Charter** (30 min) — Revise and finalize your charter incorporating everything from the module: communication protocols (Lecture 1), CATME insights (Lectures 2 & 4), skills inventory (Lecture 3), contribution plan (Lecture 4), and workflow design (Lecture 5).
+**Case discussion: Trust (~20 min):** What conditions made BioNTech's radical transparency possible? When is this level of trust visionary vs. irresponsible?
+
+**Case discussion: Competition and openness (~15 min):** Was it ethical for Celera to use public HGP data while keeping its own data proprietary? How does this connect to current debates about open science and AI model access?
+
+**Parallel vs. sequential work (~15 min):** Teams identify one aspect of their final project where they're working sequentially and design a way to parallelize it. What trust is required?
+
+**Final Team Charter (~30 min):** Revise and finalize your charter incorporating everything from the module: communication protocols (Lecture 1), CATME insights (Lectures 2 & 4), skills inventory (Lecture 3), contribution plan (Lecture 4), and workflow design (Lecture 5).
 
 ### Deliverable
 
