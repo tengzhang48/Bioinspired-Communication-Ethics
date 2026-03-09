@@ -16,8 +16,44 @@ This module provides training in research proposal development and evaluation. W
 
 ## Module Structure: 8 Lectures
 
+| # | Lecture | Key Topics |
+|---|--------|------------|
+| 1 | [The Research Landscape](#lecture-1) | Nobel Prize discovery patterns, hypothesis vs. serendipity |
+| 2 | [Research Framing & Word Choice](#lecture-2) | Hypothesis-driven framing, fundamental vs. applied, NSF directorate culture |
+| 3 | [Funding Agencies & Your First Research Narrative](#lecture-3) | NSF vs. NIH, drafting challenge & objectives |
+| 4 | [Writing the Research Narrative](#lecture-4) | Field-specific best practices, NIH specific aims, revision workshop |
+| 5 | [Intellectual Merit, Broader Impacts & Case Studies](#lecture-5) | NSF review criteria, CAREER case study, review panel simulation |
+| 6 | [AI in the Research Enterprise](#lecture-6) | AI history, hypothesis generation debate, AI detection failure |
+| 7 | [Peer Review, Ethics & Responding to Critique](#lecture-7) | Mock panel review, AI evaluation limits, ethical framing |
+| 8 | [GCR Team Proposal Workshop](#lecture-8) | Growing Convergence Research proposal drafting & cross-team review |
+
+### 📝 Running Assignments
+
+Two threads build across the module — one individual, one team-based:
+
+**Individual: Research Narrative Draft**
+
+| Lecture | Milestone |
+|:---:|---------------------|
+| 3 | Draft challenge statement (While…However) + 3 research objectives |
+| 3 | Peer review in pairs (cross-discipline) |
+| 4 | Revision workshop: strengthen challenge & sharpen objectives |
+| 4 | "Elevator Test" — 90-second pitch of your narrative |
+
+> This produces a draft challenge/objectives statement students can use for their qualifying exam proposals.
+
+**Team: GCR Convergence Proposal**
+
+| Lecture | Milestone |
+|:---:|---------------------|
+| 8 | Draft convergent research question + challenge + objectives + IM/BI |
+| 8 | Cross-team peer review using simplified rubric |
+| Post-L8 | Final revised submission on Blackboard |
+
+---
+
 <details open>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 1: The Research Landscape — How Breakthroughs Happen</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: The Research Landscape — How Breakthroughs Happen</h3></summary>
 
 **Goal:** Before writing proposals, understand what the research enterprise actually looks like — how discoveries are made, what patterns exist across fields, and why this matters for how you frame your own work.
 
@@ -53,7 +89,7 @@ Each team (15 min discussion + 15 min share-out):
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 2: Research Framing — Hypothesis, Fundamental vs. Applied, & Word Choice</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-2">Lecture 2: Research Framing — Hypothesis, Fundamental vs. Applied, & Word Choice</h3></summary>
 
 **Goal:** Learn why "hypothesis-driven" became synonymous with "fundamental research" in grant writing, where that association breaks down, and how to frame your work strategically without misrepresenting it.
 
@@ -89,7 +125,7 @@ Use the interactive exercises built into the Word Choice presentation (Slides 7�
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 3: Funding Agencies & Your First Research Narrative</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: Funding Agencies & Your First Research Narrative</h3></summary>
 
 **Goal:** Understand the key differences between NSF and NIH (and other agencies), then immediately apply that knowledge by drafting your first challenge–objective statement.
 
@@ -163,7 +199,7 @@ Revise based on partner feedback. Submit on Blackboard for instructor review.
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 4: Writing the Research Narrative — From Challenge to Objectives</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Writing the Research Narrative — From Challenge to Objectives</h3></summary>
 
 **Goal:** Deepen narrative writing skills with field-specific best practices, the NIH specific aims page structure, and hands-on revision of the challenge statements drafted in Lecture 3.
 
@@ -215,12 +251,19 @@ Students receive written feedback on their Lecture 3 challenge/objectives submis
 
 Each student reads their challenge + objectives aloud in 90 seconds. Partner answers: "What will you learn?" and "Why should I care?" If the partner can't answer both, revise.
 
+#### 💡 Key Takeaways
+
+- The NIH specific aims page is a complete argument in one page — master its structure even if you target NSF
+- The "While…However" template works across agencies and fields
+- "If-then" logic between objectives tells reviewers your plan is coherent
+- The elevator test reveals whether your narrative communicates to non-specialists
+
 ---
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 5: Proposal Components — Intellectual Merit, Broader Impacts & Case Studies</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: Proposal Components — Intellectual Merit, Broader Impacts & Case Studies</h3></summary>
 
 **Goal:** Understand what makes Intellectual Merit and Broader Impacts compelling through real case studies, then practice evaluating and writing these sections.
 
@@ -265,7 +308,7 @@ Each panel presents their consensus rating and the single most important strengt
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 6: AI in the Research Enterprise</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: AI in the Research Enterprise</h3></summary>
 
 **Goal:** Examine AI's role in science through its history, capabilities, limitations, and ethical implications — connecting the proposal module to the paper writing module that follows.
 
@@ -311,21 +354,28 @@ Brief presentation of the AI detection results from the CAREER proposal reviews:
 
 Connect to students' survey data: trust in AI for funding decisions was 2.7/5; 13/18 preferred human-centric AI role.
 
-#### 🌉 Bridge to Next Module
+#### 🌉 Bridge to Module 4
 
-Close with: "You've now seen AI generate hypotheses, write proposal reviews, evaluate proposals, and create research timelines. In the next module, we ask: what happens when AI enters the publication pipeline — from writing to reviewing to retracting? The same tensions between capability and judgment apply, but the stakes are different."
+Close with: "You've now seen AI generate hypotheses, write proposal reviews, evaluate proposals, and create research timelines. In the Ethics module, we ask: what are the ethical responsibilities when using these tools? The same tensions between capability and judgment apply, but the stakes are different."
 
 #### 📚 Reading
 
 - 📄 [**A brief history of AI: how to prevent another winter**](https://arxiv.org/abs/2109.01517) — Toosi et al. (2021), arXiv
 - Geoffrey Hinton's and Daniel Kahneman's perspectives on AI communication (discussed in class)
 
+#### 💡 Key Takeaways
+
+- AI hype cycles repeat — the rhetoric of the 1960s is nearly indistinguishable from 2020s discourse
+- AI can generate plausible-sounding hypotheses but cannot evaluate their scientific merit
+- AI detection is unreliable — focus on demonstrating understanding, not catching cheaters
+- Understanding AI's history helps you communicate about AI more responsibly in your own proposals
+
 ---
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 7: Peer Review, Ethics & Responding to Critique</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: Peer Review, Ethics & Responding to Critique</h3></summary>
 
 **Goal:** Experience the reviewer's perspective, develop constructive review skills, and engage with ethical questions about AI, framing, and responsible communication in science.
 
@@ -382,7 +432,7 @@ Structured around the Caltech case study (José Andrade's mechanics course redes
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;">Lecture 8: GCR Team Proposal Workshop</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-8">Lecture 8: GCR Team Proposal Workshop</h3></summary>
 
 **Goal:** Apply everything from the module by developing a Growing Convergence Research (GCR) proposal as a team, then conducting cross-team peer review.
 
@@ -427,6 +477,13 @@ Each team reviews another team's draft using a simplified rubric:
 Teams return reviews; original teams have 10 minutes to discuss and plan revisions.
 
 > **Final submissions** (revised based on peer review) are due on Blackboard by the following week.
+
+#### 💡 Key Takeaways
+
+- True convergence means disciplines reshape each other — not just contribute side by side
+- The "While…However" structure and three-objective framework apply to team proposals just as they do to individual ones
+- Cross-team peer review reveals whether your proposal communicates to non-specialists
+- Everything in this module — framing, narrative, review criteria, ethical reasoning — comes together in this exercise
 
 ---
 
