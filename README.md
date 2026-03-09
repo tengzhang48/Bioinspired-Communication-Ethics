@@ -18,7 +18,7 @@ This course is structured into four integrated modules:
 1. **Team Work**  
    Foundations of interdisciplinary collaboration, CATME peer evaluation, convergence research.
 
-4. **Grant Proposal Writing & Review**  
+4. **Research Proposal Writing & Review**  
    NSF-style grant preparation, oral presentations, and mock review panels.
    
 3. **Scientific Writing & Peer Review**  
