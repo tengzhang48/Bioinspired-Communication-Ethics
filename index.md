@@ -46,11 +46,11 @@ This course emphasizes **teamwork**, **scientific communication**, and **ethical
 ### 🧩 Module 1: Foundations
 Team-building with CATME, literature review best practices, and 2-minute pitch exercises
 
-### 📝 Module 2: Scientific Literature Review
-Transparent peer review process, manuscript analysis, and ethical review practices
-
-### 💡 Module 3: Proposal Preparation
+### 💡 Module 2: Proposal Preparation
 NSF-style grant proposal development, presentations, and mock panel review
+
+### 📝 Module 3: Scientific Literature Review
+Transparent peer review process, manuscript analysis, and ethical review practices
 
 ### ⚖️ Module 4: Ethics (with Prof. Sarah Reckess, JD)
 Ethical case studies, dual-use research discussions, and AI ethics considerations
