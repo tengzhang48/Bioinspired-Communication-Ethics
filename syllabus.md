@@ -39,34 +39,23 @@ By the end of the course, students will be equipped with the tools and knowledge
 
 Upon successful completion of this course, students will be able to:
 
-### Communication
+1. **Apply** evidence-based scientific writing principles to produce and iteratively revise a research abstract, and **evaluate** peer manuscripts by writing specific, actionable, and constructive reviews.
+   > *Assessed through:* Writing Portfolio (Module 3), peer review exercises (Modules 2 & 3)
 
-1. **Explain in writing** the core principles of effective scientific communication (conclusion-first structure, figure-driven narrative, audience awareness) and **apply** them to produce a polished research abstract through iterative revision.
-2. **Analyze and compare** different approaches to peer review (traditional anonymous, transparent/open) by examining published review histories, and **evaluate** reviewer feedback for specificity, actionability, and constructiveness.
-3. **Demonstrate** the ability to communicate research findings to both specialist and non-specialist audiences by drafting grant proposal narratives and presenting research in oral formats (2-minute pitches, team presentations).
+2. **Construct** a research proposal narrative — including a challenge statement, research objectives, intellectual merit, and broader impacts — and **evaluate** proposals through mock review panels using agency-specific criteria.
+   > *Assessed through:* Challenge/objectives draft, GCR team proposal, panel summary (Module 2)
 
-### Teamwork
+3. **Demonstrate** effective interdisciplinary collaboration by developing a Team Charter, providing behaviorally anchored peer feedback through CATME, and contributing equitably to team deliverables across the semester.
+   > *Assessed through:* Team Charter, CATME evaluations, team project contributions (Module 1, ongoing)
 
-4. **Use** the CATME peer evaluation system to provide specific, behaviorally anchored feedback to teammates, and **demonstrate** improvement in team contribution across four evaluation cycles.
-5. **Develop** a comprehensive Team Charter that specifies communication protocols, role assignments, contribution plans, and conflict resolution processes, revising it iteratively based on team experience.
-6. **Apply** cross-disciplinary communication strategies (skills inventories, terminology translation, shared goal-setting) to collaborate effectively with teammates from different research backgrounds.
+4. **Analyze** research ethics dilemmas — including misconduct, conflicts of interest, dual-use research, and AI use — by applying established ethical frameworks (Resnik's principles, Alberts' systemic analysis) to real-world scenarios.
+   > *Assessed through:* Ethics case discussions, in-class scenario analyses (Module 4)
 
-### Research Workflow
+5. **Explain in writing** why science communication is an ethical obligation, and **compare** AI capabilities and limitations in scientific research by evaluating AI-generated feedback against human peer review.
+   > *Assessed through:* Writing Portfolio AI stress test (Module 3), ethics session participation (Module 4)
 
-7. **Describe and compare** how different funding agencies (NSF, NIH, DOE) evaluate research proposals, and **apply** agency-specific framing strategies to write compelling challenge statements and research objectives.
-8. **Construct** a research proposal narrative — including a challenge statement, three structured objectives, intellectual merit, and broader impacts — using evidence-based frameworks (While…However structure, Foundational → Mechanistic → Application sequence).
-9. **Conduct** a mock review panel using official NSF criteria, **evaluate** proposal excerpts for intellectual merit and broader impacts, and **write** a constructive panel summary with consensus recommendations.
-
-### Ethics
-
-10. **Distinguish** between ethics, law, and moral values, and **apply** Resnik's ethical principles and Alberts et al.'s systemic analysis to reason about real research dilemmas involving misconduct, conflicts of interest, and questionable research practices.
-11. **Analyze** dual-use research scenarios by identifying competing values (scientific openness vs. security), evaluating risk levels, and **proposing** evidence-based oversight strategies.
-12. **Explain in writing** why science communication is an ethical obligation (grounded in NSPE, ABET, and Resnik's principles), and **evaluate** real-world examples of successful and unsuccessful science communication using identifiable trait patterns.
-13. **Compare and contrast** AI capabilities and limitations in scientific research (structural feedback vs. factual attribution, hypothesis generation vs. scientific judgment), and **apply** ethical reasoning to determine appropriate disclosure obligations when using AI tools.
-
-### Integration
-
-14. **Produce** a Technology & Responsibility Report (team project) that integrates research synthesis, ethical analysis using course frameworks, and concrete recommendations for responsible stewardship of a transformative technology.
+6. **Produce** a Technology & Responsibility Report that integrates research synthesis, ethical analysis using course frameworks, and concrete recommendations for responsible stewardship of a transformative technology.
+   > *Assessed through:* Final team report and presentation (Module 4)
 
 ---
 
