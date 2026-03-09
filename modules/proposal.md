@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Module 3: Proposal Writing & Review"
+title: "Module 2: Proposal Writing & Review"
 permalink: /modules/proposal/
 ---
 
