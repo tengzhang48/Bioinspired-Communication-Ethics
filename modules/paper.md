@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Module 2: Scientific Writing & Peer Review"
+title: "Module 3: Scientific Writing & Peer Review"
 permalink: /modules/paper/
 ---
 
