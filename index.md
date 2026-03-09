@@ -43,16 +43,16 @@ Learn more at:
 
 This course emphasizes **teamwork**, **scientific communication**, and **ethical research practices** through four integrated modules:
 
-### 🧩 Module 1: Foundations
+### 🧩 [Module 1: Foundations](modules/foundation)
 Team-building with CATME, literature review best practices, and 2-minute pitch exercises
 
-### 💡 Module 2: Research Proposal Preparation
+### 💡 [Module 2: Research Proposal Preparation](modules/proposal)
 NSF-style grant proposal development, presentations, and mock panel review
 
-### 📝 Module 3: Scientific Literature Review
+### 📝 [Module 3: Scientific Literature Review](modules/paper)
 Transparent peer review process, manuscript analysis, and ethical review practices
 
-### ⚖️ Module 4: Ethics (with Prof. Sarah Reckess, JD)
+### ⚖️ [Module 4: Ethics (with Prof. Sarah Reckess, JD)](modules/ethics)
 Ethical case studies, dual-use research discussions, and AI ethics considerations
 
 ## 📚 Essential Resources
