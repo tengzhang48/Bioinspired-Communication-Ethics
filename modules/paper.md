@@ -4,7 +4,7 @@ title: "Module 3: Scientific Writing & Peer Review"
 permalink: /modules/paper/
 ---
 
-# Module 2: Scientific Writing & Peer Review  
+# Module 3: Scientific Writing & Peer Review  
 
 This module provides comprehensive training in scientific communication through writing and the peer review process. Across seven lectures, you'll learn evidence-based strategies for effective scientific writing, practice transparent peer review techniques, examine how AI tools interact with scientific writing, and develop skills to respond constructively to reviewer feedback—all grounded in real case studies and your own survey responses.
 
