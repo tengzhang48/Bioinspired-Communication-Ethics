@@ -4,7 +4,7 @@ title: "Module 2: Proposal Writing & Review"
 permalink: /modules/proposal/
 ---
 
-# Module 3: Proposal Writing & Review
+# Module 2: Proposal Writing & Review
 
 This module provides training in research proposal development and evaluation. We begin with the research landscape — how breakthroughs happen and how funding works — then build proposal writing skills through practice, case studies, and peer review, before examining how AI is reshaping the research enterprise.
 
