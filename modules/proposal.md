@@ -314,7 +314,7 @@ Each panel presents their consensus rating and the single most important strengt
 
 #### 🎮 AI Quiz & History (~25 min)
 
-Interactive Mentimeter quiz on AI history and facts (competitive, with leaderboard):
+Interactive Poll Everywhere quiz on AI history and facts (competitive, with leaderboard):
 
 - Who is the most famous figure in AI history? (Students said Sam Altman and Alan Turing — but 0/16 named Donald Hebb)
 - First formal model of an artificial neuron? (13/16 correctly identified McCulloch & Pitts, 1943)

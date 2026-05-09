@@ -126,6 +126,22 @@ CATME allows peer-to-peer comments that are released anonymously to teammates. G
 
 Consider the **compliment sandwich** for written feedback: acknowledge something positive, suggest an area for improvement, and end with encouragement or confidence in future work.
 
+### AI, Contribution, and Transparency in Teamwork
+
+Because generative AI tools are now part of many students' working environment, the CATME lecture is also the right place to establish one basic principle for the semester: **AI use in team settings must be transparent to teammates.**
+
+The key question is not simply whether someone used AI, but **how** it was used and whether that use changed the nature of their contribution. If a teammate uses AI to brainstorm, reorganize notes, or clean up prose after doing the underlying thinking, that is different from using AI to produce a draft that the rest of the team must verify, rewrite, or repair.
+
+This matters for CATME because peer evaluation is based on **observable contribution, communication, accountability, and quality control**. AI does not remove those responsibilities. In fact, it can sharpen them:
+
+- **Contributing to the Team's Work:** Did the teammate actually advance the work, or did they hand the team something unverified that created more cleanup for others?
+- **Interacting with Teammates:** Did they disclose their AI use honestly and communicate what still needed checking?
+- **Keeping the Team on Track:** Did AI help them meet deadlines responsibly, or did it create hidden risks late in the process?
+- **Expecting Quality:** Did they verify claims, references, and reasoning before sharing work with the team?
+- **Having Relevant Knowledge/Skills:** Did they use AI as a support tool while still applying their own judgment and expertise?
+
+The goal is not to ban AI in team work. The goal is to prevent AI from becoming a source of hidden labor, unequal contribution, or confusion about authorship and responsibility. This conversation prepares students to think about AI first as a **team science** issue and later, in Modules 2–4, as a writing, peer review, and research ethics issue.
+
 ### How We'll Use CATME This Semester
 
 | Evaluation | Timing | Purpose | Grade Impact |
@@ -184,15 +200,17 @@ The multiplier **drops self-evaluations** from the calculation. Your grade adjus
 
 **CATME walkthrough (~15 min):** Demonstration of the system, five dimensions, and rating scales. Key message: the middle is the expectation, not the floor.
 
-**Rater Practice (~25 min):** Complete CATME's game-based rating simulation with hypothetical teammates. Pay attention to where the system tells you your ratings were too generous or too harsh.
+**Rater Practice (~20 min):** Complete CATME's game-based rating simulation with hypothetical teammates. Pay attention to where the system tells you your ratings were too generous or too harsh.
 
-**Debrief (~15 min):** Where did your ratings diverge from the "correct" answers? What made it hard to give a 2 or a 3? Why do we default to inflated ratings?
+**Debrief (~10 min):** Where did your ratings diverge from the "correct" answers? What made it hard to give a 2 or a 3? Why do we default to inflated ratings?
 
-**Discussion: Giving honest feedback (~25 min):** Practice writing one positive and one constructive comment for a hypothetical teammate. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
+**AI and team accountability scenario (~15 min):** Small groups discuss a short scenario: one teammate uses AI to draft a section quickly, but the draft includes unsupported claims and fabricated references that others must fix. Which CATME dimensions are affected? What should that teammate have disclosed? Does "working fast" count as contribution if it creates hidden verification labor for others?
+
+**Discussion: Giving honest feedback (~20 min):** Practice writing one positive and one constructive comment for a hypothetical teammate. Include one version of the exercise involving AI-assisted work. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
 
 ### Deliverable
 
-Complete **CATME Rater Practice** before next class. First formative peer evaluation opens after Module 1 presentations.
+Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared to propose **one team norm for transparent AI use** that can be incorporated into your Team Charter revision. First formative peer evaluation opens after Module 1 presentations.
 
 </details>
 

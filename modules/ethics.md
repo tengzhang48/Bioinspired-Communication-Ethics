@@ -274,7 +274,7 @@ This session produced the richest survey data in the module:
 
 **Regulatory frameworks mini-debate (~15 min):** Should AI in research be regulated through existing research integrity frameworks (extend current rules), through new AI-specific legislation (create new rules), or through professional self-regulation (scientists police themselves)? Teams take assigned positions.
 
-**Closing: Where do YOU draw the line? (~10 min):** Mentimeter scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
+**Closing: Where do YOU draw the line? (~10 min):** Poll Everywhere scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
 
 > 🔗 **Connection to Module 2:** The AI hallucination case study from Module 2 Lecture 6 (ChatGPT vs. DeepSeek evaluating the hydrogel abstract) demonstrated a *capability* limitation. Today's session asks: given those limitations, what are the *ethical* obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
 

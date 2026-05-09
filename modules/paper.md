@@ -339,7 +339,7 @@ DeepSeek's response is particularly instructive: it *confidently* provided incor
 
 **Ethics discussion (~15 min):** If AI can't reliably identify authors of a paper it's analyzing, what does that mean for using AI to write literature reviews? Where do you draw the line?
 
-**Mentimeter (~5 min):** "After this exercise, how much do you trust AI feedback on scientific writing?" (Scale 1–5)
+**Poll Everywhere (~5 min):** "After this exercise, how much do you trust AI feedback on scientific writing?" (Scale 1–5)
 
 > 🔗 **Connection to Module 4 (Ethics):** AI hallucinations in citation are a research integrity issue. If a student uses AI-generated references without verification, is that fabrication? Negligence? We'll explore this further in the Ethics module alongside discussions of responsible AI use in research (Resnik's principles of honesty and due diligence).
 
