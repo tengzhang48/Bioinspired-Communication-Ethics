@@ -66,7 +66,7 @@ The course is organized into four modules taught sequentially. Each module page 
 
 ### Module 1: Foundations of Teamwork (5 sessions)
 {: .module-header}
-**Focus:** Team formation, CATME peer evaluation, cross-disciplinary collaboration, and the dynamics of effective research teams — grounded in real case studies (Mars Climate Orbiter, AlphaFold, CRISPR patent dispute, COVID vaccine development, Human Genome Project).
+**Focus:** Team formation, CATME peer evaluation, cross-disciplinary collaboration, and the dynamics of effective research teams — grounded in real case studies (Apollo 13, AlphaFold, Transistor + BCS Theory, Challenger + COVID vaccine, Human Genome Project).
 
 → [Module 1 Details](../modules/foundation/)
 

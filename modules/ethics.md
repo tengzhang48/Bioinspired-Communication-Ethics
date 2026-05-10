@@ -311,7 +311,7 @@ This session produced the richest survey data in the module:
 - A collaborator provides a critical reagent and protocol but doesn't review the manuscript. Author?
 - A graduate student writes the paper but their advisor insists on first authorship. What do you do?
 
-Connect to CRISPR credit dispute from Module 1 (Lecture 4): scientific credit (Nobel) and legal credit (patents) can diverge entirely.
+In Module 1, you examined two team-level credit cases (Bardeen-Brattain-Shockley and BCS Theory) where the question was who counts as an inventor on a small team. Today we look at credit at the institutional and legal level, where the question becomes who owns the right to commercialize a discovery. The CRISPR patent dispute is the canonical contemporary example.
 
 **Self-plagiarism revisited (~15 min):** This was introduced in Session 2 with the iThenticate reading. Now apply it to authorship: Is republishing your own conference paper in a journal (with minor revisions) ethical if you disclose it? What about reusing your methods section across papers? The nuance: copyright transfer agreements may make your own words legally someone else's property.
 
@@ -343,9 +343,9 @@ Connect to CRISPR credit dispute from Module 1 (Lecture 4): scientific credit (N
 
 **Mini-lecture: Four types of IP (~20 min):** Patents, copyrights, trade secrets, trademarks — each with different implications for scientific research. Key distinctions: patents protect inventions (but require disclosure), copyright protects expression (but not ideas), trade secrets protect information (but require secrecy). How each creates different incentive structures for openness vs. protection.
 
-**Patent case study (~15 min):** Return to the CRISPR patent dispute from Module 1. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Over $100M in licensing at stake. Discussion: Does the patent system reward the right people? Should fundamental biological discoveries be patentable at all?
+**Patent case study (~15 min):** Return to the CRISPR patent dispute from Session 6. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Over $100M in licensing at stake. Discussion: Does the patent system reward the right people? Should fundamental biological discoveries be patentable at all?
 
-**Data sharing dilemma (~20 min):** The Human Genome Project's "Bermuda Agreement" (release all data within 24 hours) vs. Celera's proprietary model (use public data, keep own data private). Connect to Module 1's case study on trust and open science. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
+**Data sharing dilemma (~20 min):** The Human Genome Project's "Bermuda Agreement" (release all data within 24 hours) vs. Celera's proprietary model (use public data, keep own data private). Connect to Module 1's compressed treatment of HGP/Celera in Lecture 5. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
 
 **IP in your research (~15 min):** Each student identifies one potential IP issue in their own research: Does your university have a technology transfer office? Who owns your thesis data? If you develop code or a method, who controls it? What happens if you leave your lab?
 

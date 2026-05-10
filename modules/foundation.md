@@ -16,11 +16,11 @@ This module builds the skills and frameworks for working in effective, diverse, 
 
 | # | Lecture | Case Study | Field Guide Ch. | Deliverable |
 |---|--------|------------|:---:|-------------|
-| 1 | [Team Formation & Shared Standards](#lecture-1) | Mars Climate Orbiter | 4–5 | Team Charter Draft |
-| 2 | [CATME & Peer Evaluation](#lecture-2) | — | — | CATME Rater Practice |
+| 1 | [CATME & Peer Evaluation](#lecture-1) | — | — | CATME Rater Practice |
+| 2 | [Team Formation & Shared Standards](#lecture-2) | Apollo 13 | 4–5 | Team Charter Draft |
 | 3 | [Cross-Disciplinary Communication](#lecture-3) | AlphaFold | 6–7 | Skills Inventory |
-| 4 | [Credit, Conflict & Accountability](#lecture-4) | CRISPR Patent Dispute | 8, 10 | Contribution Plan |
-| 5 | [Trust Under Pressure & Open Science](#lecture-5) | COVID Vaccine + Human Genome Project | 5, 9, 12 | Final Team Charter |
+| 4 | [Credit, Conflict & Accountability](#lecture-4) | Transistor + BCS Theory | 8, 10 | Contribution Plan |
+| 5 | [Trust Under Pressure](#lecture-5) | Challenger + COVID Vaccine | 5, 9, 12 | Final Team Charter |
 
 ### 📝 Running Assignments
 
@@ -30,7 +30,7 @@ Two threads build across the module:
 
 | Lecture | Milestone |
 |:---:|---------------------|
-| 1 | Draft: communication protocols, roles, meeting schedule, problem-raising process |
+| 2 | Draft: communication protocols, roles, meeting schedule, problem-raising process |
 | 3 | Revision: updated with skills inventory and communication needs |
 | 5 | Final: comprehensive document incorporating CATME insights, contribution plan, and workflow design |
 
@@ -38,7 +38,7 @@ Two threads build across the module:
 
 | Evaluation | Timing | Grade Impact |
 |:---:|---------------------|:---:|
-| Rater Practice | Week 2 | None |
+| Rater Practice | Lecture 1 | None |
 | Evaluation 1 | After Module 1 | None — formative |
 | Evaluation 2 | After Module 2 | None — formative |
 | Evaluation 3 | After Module 3 | None — formative |
@@ -55,35 +55,7 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 ---
 
 <details markdown="1">
-<summary><strong id="lecture-1">Lecture 1: Team Formation & Shared Standards</strong></summary>
-
-**Case Study: Mars Climate Orbiter (1999)** — A $125 million spacecraft lost because NASA's navigation team used metric units while Lockheed Martin provided data in imperial. The root cause wasn't the math error — it was the failure of systems engineering to detect it, compounded by ignored warnings, team handoffs, and understaffing.
-
-### Reading (before class)
-
-- Field Guide **Ch. 4** (Building a Research Team) and **Ch. 5** (Trust) — ~20 pages
-- Case study brief provided on Blackboard: **Mars Climate Orbiter — Team Science Case Study**
-
-### In-Class Activities (80 min)
-
-**Case discussion (~20 min):** What organizational conditions allowed a known problem to go unaddressed for 10 months? How does this connect to the Field Guide's argument about psychological safety?
-
-**Team formation & ice-breaker (~20 min):** Teams are announced. Interview exercise: each team member interviews another for 5 minutes about their background, why they chose this program, their research interests, and something unexpected about themselves (favorite breakfast cereal, hidden talent, etc.). Then introduce your partner to the group.
-
-**"Unit conversion" exercise (~15 min):** Each team member identifies one disciplinary assumption they hold that teammates from other fields might not share. (e.g., What does "validated" mean in your field? What counts as a "complete" deliverable?)
-
-**Team Charter drafting (~25 min):** Begin drafting your charter with specific protocols for communication tools, response time expectations, meeting schedule, and a process for raising concerns.
-
-### Deliverable
-
-**Team Charter Draft** (due next week) — Must include: communication tools and response time expectations, role assignments, meeting schedule, and a specific protocol for what happens when someone notices a problem.
-
-</details>
-
----
-
-<details markdown="1">
-<summary><strong id="lecture-2">Lecture 2: CATME & Peer Evaluation</strong></summary>
+<summary><strong id="lecture-1">Lecture 1: CATME & Peer Evaluation</strong></summary>
 
 This lecture introduces CATME as both a practical tool you'll use this semester and a window into how peer accountability works in professional research teams.
 
@@ -146,7 +118,7 @@ The goal is not to ban AI in team work. The goal is to prevent AI from becoming 
 
 | Evaluation | Timing | Purpose | Grade Impact |
 |---|---|---|---|
-| **Rater Practice** | Week 2 | Learn the system; practice with hypothetical teammates | None |
+| **Rater Practice** | Lecture 1 | Learn the system; practice with hypothetical teammates | None |
 | **Evaluation 1** | After Module 1 presentations | Early formative feedback; establish baseline | None — purely feedback |
 | **Evaluation 2** | After Module 2 deliverable | Mid-semester check; identify issues while there's time to change | None — purely feedback |
 | **Evaluation 3** | After Module 3 deliverable | Late formative; final chance to adjust | None — purely feedback |
@@ -195,6 +167,7 @@ The multiplier **drops self-evaluations** from the calculation. Your grade adjus
 - [CATME Overview](https://info.catme.org/features/overview/)
 - [CATME Peer Evaluation](https://info.catme.org/features/peer-evaluation/)
 - [Student Help & FAQ](https://info.catme.org/student/student-help/faq/)
+- Free-rider scenario brief provided on Blackboard: *Mid-Semester, Three Weeks In*
 
 ### In-Class Activities (80 min)
 
@@ -202,15 +175,43 @@ The multiplier **drops self-evaluations** from the calculation. Your grade adjus
 
 **Rater Practice (~20 min):** Complete CATME's game-based rating simulation with hypothetical teammates. Pay attention to where the system tells you your ratings were too generous or too harsh.
 
-**Debrief (~10 min):** Where did your ratings diverge from the "correct" answers? What made it hard to give a 2 or a 3? Why do we default to inflated ratings?
+**Rater Practice debrief and free-rider scenario discussion (~18 min):** Brief debrief on Rater Practice patterns (~3 min): where did your ratings diverge from the "correct" answers, and why is the middle so hard to use? Then turn to the free-rider scenario you read before class. The scenario is meant to make the rater practice harder: real teammates do not come with correct answers. Walk through the five CATME dimensions for the character "Alex" based only on the scenario evidence, and identify the assumptions you are making to assign each rating. Discussion connects to Field Guide Ch. 11 ("One Bad Apple") and to the Team Charter norms students will draft in Lecture 2.
 
-**AI and team accountability scenario (~15 min):** Small groups discuss a short scenario: one teammate uses AI to draft a section quickly, but the draft includes unsupported claims and fabricated references that others must fix. Which CATME dimensions are affected? What should that teammate have disclosed? Does "working fast" count as contribution if it creates hidden verification labor for others?
+**AI and team accountability scenario (~12 min):** Small groups discuss a short scenario: one teammate uses AI to draft a section quickly, but the draft includes unsupported claims and fabricated references that others must fix. Which CATME dimensions are affected? What should that teammate have disclosed? Does "working fast" count as contribution if it creates hidden verification labor for others?
 
-**Discussion: Giving honest feedback (~20 min):** Practice writing one positive and one constructive comment for a hypothetical teammate. Include one version of the exercise involving AI-assisted work. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
+**Discussion: Giving honest feedback (~15 min):** Practice writing one positive and one constructive comment for a hypothetical teammate. Include one version of the exercise involving AI-assisted work. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
 
 ### Deliverable
 
 Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared to propose **one team norm for transparent AI use** that can be incorporated into your Team Charter revision. First formative peer evaluation opens after Module 1 presentations.
+
+</details>
+
+---
+
+<details markdown="1">
+<summary><strong id="lecture-2">Lecture 2: Team Formation & Shared Standards</strong></summary>
+
+**Case Study: Apollo 13 (April 1970)** — Fifty-five hours into the mission, an oxygen tank in the service module exploded. The mission was 200,000 miles from Earth. Mission Control structured the response around four flight directors rotating through 12-hour shifts; multiple parallel "tiger teams" working specific problems (oxygen, power, trajectory, CO2 scrubbing); explicit norms about not making the situation worse through guesswork; and empowered individual controllers making real-time calls within their domains of authority. All three crew members returned alive on April 17, 1970.
+
+### Reading (before class)
+
+- Field Guide **Ch. 4** (Building a Research Team) and **Ch. 5** (Trust) — ~20 pages
+- Case study brief provided on Blackboard: **Apollo 13: Distributed Decision-Making Under Pressure**
+
+### In-Class Activities (80 min)
+
+**Case discussion: Apollo 13 (~20 min):** *Brief instructor note: students may bring assumptions from the 1995 film. "Failure is not an option" was a screenwriter's line, not a real quote from the mission. The actual recordings show calmer, more procedural language. The teamwork lessons are in the structure — flight director rotation, tiger teams, controller authority — not in the dramatic moments.* What about the structure made fast, distributed decision-making possible without descending into chaos?
+
+**Team formation & ice-breaker (~20 min):** Teams are announced. Interview exercise: each team member interviews another for 5 minutes about their background, why they chose this program, their research interests, and something unexpected about themselves (favorite breakfast cereal, hidden talent, etc.). Then introduce your partner to the group.
+
+**"Unit conversion" exercise (~15 min):** Each team member identifies one disciplinary assumption they hold that teammates from other fields might not share. (e.g., What does "validated" mean in your field? What counts as a "complete" deliverable?) Then, connecting to the case: *What does "unsafe" mean in your field? What evidence would you need to see before telling your advisor you don't think an experiment, analysis, or submission should proceed?*
+
+**Team Charter drafting (~25 min):** Begin drafting your charter with specific protocols for communication tools, response time expectations, meeting schedule, and a process for raising concerns. Include a specific protocol for what happens when one team member raises a serious concern that others initially disagree with. The protocol should specify: how the concern gets documented, who needs to be informed, and what consensus or escalation looks like before the team proceeds.
+
+### Deliverable
+
+**Team Charter Draft** (due next week) — Must include: communication tools and response time expectations, role assignments, meeting schedule, and a specific protocol for raising and resolving concerns.
 
 </details>
 
@@ -248,55 +249,79 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 <details markdown="1">
 <summary><strong id="lecture-4">Lecture 4: Credit, Conflict & Accountability</strong></summary>
 
-**Case Study: CRISPR Patent Dispute (2012–present)** — Jennifer Doudna and Emmanuelle Charpentier demonstrated CRISPR gene editing in a test tube (2012). Feng Zhang demonstrated it working inside mammalian cells months later. Doudna and Charpentier won the Nobel Prize (2020), but the Broad Institute holds the key U.S. patents. The dispute involves over $100 million in licensing revenues and remains unresolved.
+**Paired Case Studies: Same Lead Scientist, Two Different Teams**
+
+This lecture uses an unusual pairing: John Bardeen led both teams, separated by ten years and one Nobel Prize. The teams produced very different outcomes. The pairing forces students to identify what *changed* — leadership style, institutional setting, role clarity, or something deeper.
+
+**Case 1 — Bardeen, Brattain, and Shockley (Bell Labs, 1947–1948).** A three-person team produced the first transistor and shared the 1956 Nobel Prize. The team also dissolved within four years. The breakthrough happened while Shockley, the group leader, was away from the lab; the patent listed only Bardeen and Brattain. Shockley spent the following weeks working alone in a Chicago hotel room, developed a competing design, and afterward redirected the work in ways that pushed his teammates to the periphery. The team had no early agreement on attribution and no process for handling the question once it became urgent.
+
+**Case 2 — Bardeen, Cooper, and Schrieffer (University of Illinois, 1955–1957).** After leaving Bell Labs, Bardeen assembled a new three-person team — himself, postdoctoral fellow Leon Cooper, and graduate student J. Robert Schrieffer — to attack superconductivity. They produced the BCS theory and shared the 1972 Nobel. The collaboration is remembered for the opposite reasons: Bardeen's quiet, collegial leadership; alphabetical authorship with no senior author designation; and a famous moment when Schrieffer wanted to quit and Bardeen told him to take a month and think without the senior author looking over his shoulder.
 
 ### Reading (before class)
 
 - Field Guide **Ch. 8** (Credit and Sharing) and **Ch. 10** (Conflict is Normal) — ~20 pages
 - Field Guide **Appendix**: "Collaborative Agreement Questions (Prenup for Scientists)" — 2 pages
-- Case study brief provided on Blackboard: **CRISPR Patent Dispute — Team Science Case Study**
+- Case study briefs provided on Blackboard: **Bardeen, Brattain, and Shockley** and **Bardeen, Cooper, and Schrieffer**
 
 ### In-Class Activities (80 min)
 
-**Case discussion (~25 min):** Who "invented" CRISPR? How can scientific credit (Nobel) and legal credit (patents) diverge? What would an early contribution agreement have changed?
+**Framing the pairing (~5 min):** Same scientist, ten years apart, two very different team outcomes. What changed?
 
-**Connection to Module 4 (Ethics) (~10 min):** Brief discussion of the Rosalind Franklin parallel and gender dynamics in credit allocation.
+**Case 1 discussion: the Shockley team (~18 min):** *Open with a brief framing for the cohort: "You don't need to understand semiconductors to analyze this case. The technical question is just whether the team had a process for deciding who was an inventor — they didn't."* Was the failure that Shockley behaved badly, or that the team had no process for deciding attribution? What should the team have agreed on in 1945, before any breakthrough? How does the patent system's binary "inventor / not inventor" decision interact with the gradient nature of actual scientific contribution?
 
-**CATME midterm reflection (~15 min):** By this point, students have completed 1–2 formative CATME evaluations. Teams review their anonymized feedback. Discussion prompt: Where did your self-rating differ from peer ratings? What specific change will you make for the second half of the semester? Share your reflection goals with your team.
+**Case 2 discussion: the BCS team (~13 min):** *Similar framing: "The physics detail does not matter. This case is about how a professor responded when his graduate student wanted to quit."* Bardeen could have insisted Schrieffer keep working, or taken the project over himself. He did neither. What does that decision say about how he understood his role on the team?
 
-**Drafting a contribution plan (~30 min):** Using the Field Guide's "Prenup for Scientists" as a template, teams draft a contribution and authorship plan for the final project. Specify: who leads each section, how to handle unequal contributions, and how to resolve credit disagreements.
+**Comparative analysis (~8 min):** Same Bardeen. Bell Labs in 1947, Illinois in 1957. Where did the difference come from — leadership style, institutional setting, role clarity, the personalities of the other team members, or something else? Connect the answer to your own team.
+
+**CATME midterm reflection (~10 min):** By this point, students have completed 1–2 formative CATME evaluations. Brief team huddle: where did your self-rating differ from peer ratings? What specific change will you make for the second half of the semester?
+
+**Drafting the Contribution Plan (~20 min):** Using the Field Guide's "Prenup for Scientists" template, teams draft a contribution and authorship plan for the final project. Specify: who leads each section, how to handle unequal contributions, and how to resolve credit disagreements before they happen.
 
 ### Deliverable
 
-**Contribution and Authorship Plan** (one page per team) — Specifies individual responsibilities, credit allocation principles, and a process for resolving disputes.
+**Contribution and Authorship Plan** (one page per team) — Specifies individual responsibilities, credit allocation principles, and a specific process for resolving disputes.
+
+### Bridge to Module 4
+
+The CRISPR patent dispute (Doudna/Charpentier vs. Broad) is treated in **Module 4 (Ethics)** as a case about institutional credit, IP, and the divergence between scientific and legal recognition. That case raises the same vocabulary — "credit," "first," "inventor" — but operates at a different scale and asks different questions. Holding the two cases in different modules lets students see that *team* credit problems and *institutional/ethical* credit problems are distinct, even when they look similar.
 
 </details>
 
 ---
 
 <details markdown="1">
-<summary><strong id="lecture-5">Lecture 5: Trust Under Pressure & Open Science</strong></summary>
+<summary><strong id="lecture-5">Lecture 5: Trust Under Pressure</strong></summary>
 
-**Case Studies: COVID-19 Vaccine (2020) and Human Genome Project (1990–2003)**
+**Paired Case Studies: When Trust Holds Under Pressure, and When It Breaks**
 
-**COVID Vaccine:** BioNTech (1,300 employees) and Pfizer (70,000 employees) developed the first mRNA vaccine in 11 months. BioNTech's co-founder instructed his team to "share everything" with Pfizer before the legal agreement was finalized — subordinating financial self-protection to speed while carrying €400 million in debt.
+Two crises, fifteen years apart. In one, a team carrying €400 million in debt extended unprecedented trust to a corporate partner before the legal agreement was finalized — and produced the first mRNA vaccine for COVID-19 in eleven months. In the other, an engineering team's documented concerns were overridden by managers in a five-minute caucus, and seven astronauts died seventy-three seconds after launch.
 
-**Human Genome Project:** A $3 billion public effort competed with Craig Venter's privately funded Celera Genomics. The public project committed to releasing all data freely within 24 hours (the "Bermuda Agreement"). Celera used publicly available data while keeping its own database proprietary. Both claimed to finish at roughly the same time.
+The cases sit at opposite ends of a single spectrum: when stakes are high and the clock is running, what conditions allow trust to expand, and what conditions make it collapse?
+
+**Case 1 — Challenger and the Night-Before Teleconference (January 27, 1986).** Roger Boisjoly and Arnie Thompson, engineers at Morton Thiokol, presented data showing the SRB O-rings were likely to fail at the forecast launch temperature. Thiokol's initial recommendation was not to launch. NASA managers pushed back. In a five-minute caucus, Senior VP Jerald Mason told VP of Engineering Bob Lund, "Take off your engineering hat and put on your management hat." Lund changed his recommendation. The engineers were not asked to sign. Trust between the engineering and management sides of the same organization collapsed, and trust between Thiokol and NASA Marshall was revealed never to have rested on shared standards in the first place.
+
+**Case 2 — BioNTech and Pfizer (2020).** Project Lightspeed launched in March 2020. BioNTech (1,300 employees, headquartered in Germany) needed a manufacturing and distribution partner; Pfizer (70,000 employees) had global capacity. Uğur Şahin, BioNTech's co-founder, instructed his team to share everything — preliminary data, scientific approaches, manufacturing details — with Pfizer *before* the legal agreement was finalized. BioNTech was carrying €400 million in debt at the time. The vaccine received FDA emergency authorization on December 11, 2020.
+
+**Framing parable — HGP and Celera (1990–2003).** A $3 billion public Human Genome Project committed to releasing all data freely within 24 hours under the Bermuda Agreement. Craig Venter's privately funded Celera Genomics used the public data while keeping its own proprietary. Both projects claimed to finish at roughly the same time. Five minutes of framing, used as a bridge into the student-scale open-science activity below.
 
 ### Reading (before class)
 
-- Field Guide **Ch. 5** (Trust — re-read with new context), **Ch. 9** (Managing Difference), and **Ch. 12** (Navigating Networks and Systems) — ~20 pages
-- Case study briefs provided on Blackboard: **COVID Vaccine** and **Human Genome Project**
+- Field Guide **Ch. 5** (Trust — re-read with new context after the module's other readings), **Ch. 9** (Managing Difference), and **Ch. 12** (Navigating Networks and Systems) — ~20 pages
+- Case study briefs provided on Blackboard: **Challenger and the Night-Before Teleconference**, **BioNTech and Pfizer Project Lightspeed**, and **HGP and Celera (framing brief)**
 
 ### In-Class Activities (80 min)
 
-**Case discussion: Trust (~20 min):** What conditions made BioNTech's radical transparency possible? When is this level of trust visionary vs. irresponsible?
+**Memorial framing for Challenger (~3 min):** *Brief framing before Case 1 discussion. Seven astronauts died on Challenger — Francis Scobee, Michael Smith, Ronald McNair, Ellison Onizuka, Judith Resnik, Gregory Jarvis, and Christa McAuliffe. Their families and colleagues have spent four decades examining how the decision to launch was made. We study this case to understand what their experience teaches about how teams handle dissent, hierarchy, and pressure under time constraint — not to extract neat lessons from a tragedy.*
 
-**Case discussion: Competition and openness (~15 min):** Was it ethical for Celera to use public HGP data while keeping its own data proprietary? How does this connect to current debates about open science and AI model access?
+**Case 1 discussion: Challenger (~15 min):** Boisjoly raised the concern. The concern was heard. The concern was overridden in a private caucus. At what point in that sequence did trust fail — and was it trust between the engineers and Thiokol management, between Thiokol and NASA, or something more fundamental about whether shared standards existed at all? *Discussion prompt for the second half: in your own field, what would an advisor need to say to override your concern about an experiment, analysis, or submission? Would you accept the override? At week five, you've been working with your team long enough to answer this concretely rather than abstractly.*
 
-**Parallel vs. sequential work (~15 min):** Teams identify one aspect of their final project where they're working sequentially and design a way to parallelize it. What trust is required?
+**Case 2 discussion: BioNTech and Pfizer (~15 min):** What conditions made Şahin's "share everything" instruction possible? What would have made it irresponsible? When is radical pre-legal-agreement transparency visionary, and when is it negligent? Carrying €400 million in debt while extending unilateral trust to a 70,000-employee partner is, on its face, the kind of decision that gets a CEO fired. Why did it work?
 
-**Final Team Charter (~30 min):** Revise and finalize your charter incorporating everything from the module: communication protocols (Lecture 1), CATME insights (Lectures 2 & 4), skills inventory (Lecture 3), contribution plan (Lecture 4), and workflow design (Lecture 5).
+**Comparative beat (~7 min):** Both teams faced extreme pressure with non-negotiable deadlines. Both teams' decisions were essentially irreversible once made. One produced a vaccine; one produced a disaster. *What structural conditions* — not personality, not luck — *separated the two outcomes?* Identify two or three concrete structural elements present in one case and absent in the other.
+
+**HGP framing parable + student-scale open-science activity (~10 min):** Brief instructor framing on HGP/Celera (~3 min): the Bermuda Agreement's 24-hour data release rule, Celera's mixed strategy, the open-science debate that followed. Then teams discuss (~7 min): *Should our team share our preliminary proposal draft with another team for feedback before submission? Should we share our final draft as a preprint before formal review? What would each decision require of us, and of the team we're sharing with?* This is the trust-and-openness question at student scale.
+
+**Final Team Charter revision (~25 min):** Revise and finalize your charter incorporating everything from the module: communication protocols (Lecture 2), CATME insights (Lectures 1 & 4), skills inventory (Lecture 3), contribution and authorship plan (Lecture 4), and now — informed by both Challenger and BioNTech — *explicit team norms about trust under pressure*. What does your team commit to when stakes get high and the clock is running? Specifically: when one of you raises a serious concern under deadline pressure, what process does the team follow before proceeding?
 
 ### Deliverable
 
@@ -339,7 +364,7 @@ The survey also asks about leadership preferences (shared leadership, prefer to 
 
 | Evaluation | Opens | Purpose | Grade Impact |
 |---|---|---|---|
-| Rater Practice | Week 2 | Learn the system | None |
+| Rater Practice | Lecture 1 | Learn the system | None |
 | Evaluation 1 | After Module 1 | Early formative feedback | None |
 | Evaluation 2 | After Module 2 | Mid-semester check | None |
 | Evaluation 3 | After Module 3 | Late formative | None |
@@ -383,8 +408,8 @@ After each evaluation, complete the **individual reflection** on Blackboard (3 q
 | Communication breakdowns | Field Guide Ch. 7; AlphaFold case study |
 | One person doing all the work | Field Guide Ch. 11 (One Bad Apple); CATME midterm data |
 | Difficulty finding meeting times | Baumgartner et al., section on tools and infrastructure |
-| Disagreements about direction | Field Guide Ch. 10 (Conflict is Normal); HGP case study |
-| Unclear credit or contributions | Field Guide Ch. 8 and Appendix; CRISPR case study |
+| Disagreements about direction | Field Guide Ch. 10 (Conflict is Normal); HGP framing parable (Lecture 5) |
+| Unclear credit or contributions | Field Guide Ch. 8 and Appendix; Transistor + BCS Theory cases |
 | Incompatible writing styles | Baumgartner et al., section on collaborative writing |
 | Lack of trust or psychological safety | Field Guide Ch. 5; COVID vaccine case study |
 

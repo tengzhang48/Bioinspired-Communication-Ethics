@@ -38,12 +38,12 @@ permalink: /schedule/
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 1 | Mon, Aug 24 | [Team Formation & Shared Standards](../modules/foundation/#lecture-1) | Mars Climate Orbiter case; team ice-breaker; "unit conversion" exercise | Team Charter Draft |
-| 2 | Wed, Aug 26 | [CATME & Peer Evaluation](../modules/foundation/#lecture-2) | CATME walkthrough; rater practice; feedback writing workshop | CATME Rater Practice |
+| 1 | Mon, Aug 24 | [CATME & Peer Evaluation](../modules/foundation/#lecture-1) | CATME walkthrough; rater practice; feedback writing workshop | CATME Rater Practice |
+| 2 | Wed, Aug 26 | [Team Formation & Shared Standards](../modules/foundation/#lecture-2) | Apollo 13 case; team ice-breaker; "unit conversion" exercise | Team Charter Draft |
 | 3 | Mon, Aug 31 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-3) | AlphaFold case; skills inventory; "translation" exercise | Skills Inventory |
-| 4 | Wed, Sep 2 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-4) | CRISPR patent case; CATME midterm reflection; contribution plan | Contribution Plan |
+| 4 | Wed, Sep 2 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-4) | Transistor + BCS Theory cases; CATME midterm reflection; contribution plan | Contribution Plan |
 | | Mon, Sep 7 | **NO CLASS** | *Labor Day* | |
-| 5 | Wed, Sep 9 | [Trust Under Pressure & Open Science](../modules/foundation/#lecture-5) | COVID vaccine + Human Genome Project cases; final charter revision | **Final Team Charter** |
+| 5 | Wed, Sep 9 | [Trust Under Pressure](../modules/foundation/#lecture-5) | Challenger + COVID vaccine cases; HGP framing parable; open-science activity; final charter revision | **Final Team Charter** |
 
 ---
 
@@ -89,7 +89,7 @@ permalink: /schedule/
 | | Wed, Nov 25 | **NO CLASS** | *Thanksgiving Break* | |
 | 25 | Mon, Nov 30 | [Artificial Intelligence in Research](../modules/ethics/#session-5) | Ghostwriting problem; AI bias; detection paradox; regulatory frameworks debate | |
 | 26 | Wed, Dec 2 | [Authorship & Credit](../modules/ethics/#session-6) | ICMJE criteria; CRediT taxonomy; authorship scenarios; AI authorship exercise | |
-| 27 | Mon, Dec 7 | [Intellectual Property & Data Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent revisited; data sharing dilemma; course wrap-up | |
+| 27 | Mon, Dec 7 | [Intellectual Property & Data Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent dispute (revisited from Session 6); data sharing dilemma; course wrap-up | |
 
 **Final Team Project (Technology & Responsibility Report) due: Tuesday, December 15**
 
@@ -115,7 +115,7 @@ permalink: /schedule/
 
 | Evaluation | Opens After | Grade Impact |
 |------------|-------------|:---:|
-| Rater Practice | Session 2 (Aug 26) | None |
+| Rater Practice | Lecture 1 (Aug 24) | None |
 | Evaluation 1 | Module 1 ends (Sep 9) | None |
 | Evaluation 2 | Module 2 ends (Oct 7) | None |
 | Evaluation 3 | Module 3 ends (Nov 4) | None |
