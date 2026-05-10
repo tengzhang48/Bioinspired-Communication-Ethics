@@ -220,7 +220,13 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 <details markdown="1">
 <summary><strong id="lecture-3">Lecture 3: Cross-Disciplinary Communication</strong></summary>
 
-**Case Study: AlphaFold (2016–2024)** — DeepMind built a small interdisciplinary team of structural biologists, physicists, and machine learning researchers to solve protein folding. The team won the 2024 Nobel Prize in Chemistry after predicting structures for over 200 million proteins. Success required genuine integration — the ML researchers built biological knowledge into the neural network architecture, not just applied generic AI to biological data.
+**Case Study: AlphaFold (2016–2024)** — DeepMind built a small interdisciplinary team of structural biologists, physicists, and machine learning researchers to solve the protein folding problem. The team won the 2024 Nobel Prize in Chemistry after predicting structures for over 200 million proteins. The popular narrative treats AlphaFold as a clean success of "genuine interdisciplinary integration." The actual record is more interesting and more useful as a teaching case, because the team's path was not straight.
+
+Three tensions in the historical record matter for understanding how the integration actually worked:
+
+- **The early CASP failures and the decision to start over.** AlphaFold 1 entered CASP13 in 2018 and won, but only narrowly, and the predictions were not yet biologically useful. The team's response was to abandon the AlphaFold 1 approach and redesign the system from scratch for AlphaFold 2 — a decision that cost roughly two years and required keeping a corporate funder convinced. Most teams in that position iterate. This team did not.
+- **The ML-versus-biology integration debate.** Early in the project there were internal debates about whether the ML researchers needed to learn structural biology or whether biologists could simply provide constraints to the ML team. The eventual answer — embedding biological priors directly in the network architecture (the evoformer and the structure module) — required ML researchers to develop genuine biological intuition. The team had to reorganize the integration question multiple times before landing on this answer.
+- **Post-release tensions with the experimental community.** When AlphaFold 2 and the AlphaFold Database were released, parts of the experimental structural biology community responded with concerns about funding implications for X-ray crystallography and cryo-EM facilities. The team had to navigate publicly the question of what AlphaFold *should not* be used for (membrane proteins, dynamics, ligand-bound states). This raised a teamwork question that extends beyond the team itself.
 
 ### Reading (before class)
 
@@ -230,17 +236,19 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 
 ### In-Class Activities (80 min)
 
-**Case discussion (~20 min):** What does "genuine integration" look like compared to dividing work into disciplinary silos? Why was a measurable shared goal (CASP competition) important?
+**Case discussion: where the team almost failed (~20 min):** What did the AlphaFold 1 → AlphaFold 2 redesign require of the team — both technically and in terms of internal trust? Most teams iterate when their first attempt only narrowly succeeds; this team rebuilt. What conditions allow a team to make that decision? Discussion connects to Field Guide Ch. 6 on shared vision: a team that does not share a vision cannot make a decision like this, because half of them will see it as failure and half as a fresh start.
 
-**Skills inventory exercise (~30 min):** Each team member presents (3 min each): What methods, tools, and frameworks do you bring? What are you *not* comfortable leading? What terminology from your field might confuse others?
+**Case discussion: what "integration" actually meant (~15 min):** The popular framing — "they built biological knowledge into the architecture" — is a *conclusion*, not a description of how it happened. The actual integration required ML researchers to develop biological intuition, biologists to develop comfort with neural-network architecture decisions, and multiple internal reorganizations of how the disciplines related. Pull this apart: what does "integration" demand of individual team members, beyond just "communicating across disciplines"?
 
-**"Translation" exercise (~15 min):** Pick one concept from the team's project. Each member explains how they'd approach it from their discipline. Identify overlaps and gaps.
+**Skills inventory exercise (~25 min):** Each team member presents (3 min each): What methods, tools, and frameworks do you bring? What are you *not* comfortable leading? What terminology from your field might confuse others? *Then a second pass (1 min each):* What is one thing from another teammate's discipline that you would need to develop genuine intuition for, not just understand at a surface level, to do excellent integrated work with them?
 
-**Team Charter revision (~15 min):** Update your charter based on what you learned about each other's strengths and communication needs.
+**"Translation" exercise (~15 min):** Pick one concept from the team's project. Each member explains how they'd approach it from their discipline. Identify overlaps and gaps. Connect to the AlphaFold case: where in your team's integration would you face the same kind of decision DeepMind faced — biologists provide constraints vs. everyone develops cross-disciplinary intuition?
+
+**Team Charter revision (~5 min):** Briefly note what should be added to the charter based on today's discussion. Full revision happens between lectures.
 
 ### Deliverable
 
-**Skills Inventory** (one page per team) — Lists each member's expertise, tools, blind spots, and preferred communication style. Submitted via Blackboard.
+**Skills Inventory** (one page per team) — Lists each member's expertise, tools, blind spots, preferred communication style, and *one cross-disciplinary skill the team will commit to building together*. Submitted via Blackboard.
 
 </details>
 
