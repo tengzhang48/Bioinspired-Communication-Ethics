@@ -25,8 +25,8 @@ permalink: /schedule/
 
 | Module | Sessions | Weeks | Focus |
 |--------|:---:|:---:|-------|
-| [Module 1: Foundations of Teamwork](../modules/foundation/) | 5 | Aug 24 – Sep 9 | Team formation, CATME, collaboration skills |
-| [Module 2: Proposal Writing & Review](../modules/proposal/) | 8 | Sep 14 – Oct 7 | Research landscape, framing, proposal development |
+| [Module 1: Foundations of Teamwork](../modules/foundation/) | 6 | Aug 24 – Sep 14 | Team formation, CATME, collaboration skills |
+| [Module 2: Proposal Writing & Review](../modules/proposal/) | 7 | Sep 16 – Oct 7 | Research landscape, framing, proposal development |
 | [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 7 | Oct 14 – Nov 4 | Writing principles, revision, peer review, AI tools |
 | [Module 4: Research Ethics](../modules/ethics/) | 7 | Nov 9 – Dec 7 | Misconduct, dual-use, sci-comm, AI ethics, IP |
 
@@ -34,31 +34,31 @@ permalink: /schedule/
 
 ## 🗓️ Weekly Schedule
 
-### Module 1: Foundations of Teamwork (5 sessions)
+### Module 1: Foundations of Teamwork (6 sessions)
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
 | 1 | Mon, Aug 24 | [CATME & Peer Evaluation](../modules/foundation/#lecture-1) | CATME walkthrough; rater practice; feedback writing workshop | CATME Rater Practice |
 | 2 | Wed, Aug 26 | [Team Formation & Shared Standards](../modules/foundation/#lecture-2) | Apollo 13 case; team ice-breaker; "unit conversion" exercise | Team Charter Draft |
-| 3 | Mon, Aug 31 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-3) | AlphaFold case; skills inventory; "translation" exercise | Skills Inventory |
-| 4 | Wed, Sep 2 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-4) | Transistor + BCS Theory cases; CATME midterm reflection; contribution plan | Contribution Plan |
+| 3 | Mon, Aug 31 | [When the Tools Change the Work](../modules/foundation/#lecture-3) | *Frontiers* retraction case; team tool audit; AI detection data; verification protocol; Team Charter tooling section | |
+| 4 | Wed, Sep 2 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-4) | AlphaFold case; skills inventory; "translation" exercise | Skills Inventory |
+| 5 | Wed, Sep 9 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-5) | Transistor + BCS Theory cases; CATME midterm reflection; contribution plan | Contribution Plan |
 | | Mon, Sep 7 | **NO CLASS** | *Labor Day* | |
-| 5 | Wed, Sep 9 | [Trust Under Pressure](../modules/foundation/#lecture-5) | Challenger + COVID vaccine cases; HGP framing parable; open-science activity; final charter revision | **Final Team Charter** |
+| 6 | Mon, Sep 14 | [Trust Under Pressure](../modules/foundation/#lecture-6) | Challenger + COVID vaccine cases; HGP framing parable; open-science activity; final charter revision | **Final Team Charter** |
 
 ---
 
-### Module 2: Proposal Writing & Review (8 sessions)
+### Module 2: Proposal Writing & Review (7 sessions)
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 6 | Mon, Sep 14 | [The Research Landscape](../modules/proposal/#lecture-1) | Nobel Prize analysis; "Classify Your Own Field" team exercise | |
-| 7 | Wed, Sep 16 | [Research Framing & Word Choice](../modules/proposal/#lecture-2) | NSF directorate analysis; paragraph-level reframing exercise | |
-| 8 | Mon, Sep 21 | [Funding Agencies & Your First Research Narrative](../modules/proposal/#lecture-3) | NSF vs. NIH comparison; draft challenge statement + 3 objectives; peer review in pairs | Challenge/Objectives Draft |
-| 9 | Wed, Sep 23 | [Writing the Research Narrative](../modules/proposal/#lecture-4) | Field-specific best practices; NIH specific aims; revision workshop; "Elevator Test" | Revised Challenge/Objectives |
-| 10 | Mon, Sep 28 | [Intellectual Merit, Broader Impacts & Case Studies](../modules/proposal/#lecture-5) | NSF CAREER case study; review panel simulation | |
-| 11 | Wed, Sep 30 | [AI in the Research Enterprise](../modules/proposal/#lecture-6) | AI history quiz; AI Winter jigsaw; hypothesis generation debate; AI detection analysis | |
-| 12 | Mon, Oct 5 | [Peer Review, Ethics & Responding to Critique](../modules/proposal/#lecture-7) | AI over-values structure case; mock panel review; ethics discussion | Panel Summary |
-| 13 | Wed, Oct 7 | [GCR Team Proposal Workshop](../modules/proposal/#lecture-8) | GCR proposal drafting; cross-team peer review | **GCR Proposal (final due Oct 14)** |
+| 7 | Wed, Sep 16 | [The Research Landscape & Research Framing](../modules/proposal/#lecture-1) | Pre-read: Nobel + NSF directorate analysis; "Classify Your Own Field" exercise; paragraph-level reframing | |
+| 8 | Mon, Sep 21 | [Funding Agencies & Your First Research Narrative](../modules/proposal/#lecture-2) | NSF vs. NIH comparison; draft challenge statement + 3 objectives; peer review in pairs | Challenge/Objectives Draft |
+| 9 | Wed, Sep 23 | [Writing the Research Narrative](../modules/proposal/#lecture-3) | Field-specific best practices; NIH specific aims; revision workshop; "Elevator Test" | Revised Challenge/Objectives |
+| 10 | Mon, Sep 28 | [Intellectual Merit, Broader Impacts & Case Studies](../modules/proposal/#lecture-4) | NSF CAREER case study; review panel simulation | |
+| 11 | Wed, Sep 30 | [AI in the Research Enterprise](../modules/proposal/#lecture-5) | AI history quiz; AI Winter jigsaw; hypothesis generation debate; AI detection callback | |
+| 12 | Mon, Oct 5 | [Peer Review, Ethics & Responding to Critique](../modules/proposal/#lecture-6) | AI over-values structure case; mock panel review; ethics discussion | Panel Summary |
+| 13 | Wed, Oct 7 | [GCR Team Proposal Workshop](../modules/proposal/#lecture-7) | GCR proposal drafting; cross-team peer review | **GCR Proposal (final due Oct 14)** |
 | | Mon, Oct 12 | **NO CLASS** | *Fall Break* | |
 
 ---
@@ -99,7 +99,7 @@ permalink: /schedule/
 
 | Date | Assignment | Module |
 |------|------------|--------|
-| **Sep 9** | Final Team Charter | Module 1 |
+| **Sep 14** | Final Team Charter | Module 1 |
 | **Sep 21** | Challenge/Objectives Draft | Module 2 |
 | **Sep 23** | Revised Challenge/Objectives | Module 2 |
 | **Oct 5** | Panel Summary | Module 2 |
@@ -116,7 +116,7 @@ permalink: /schedule/
 | Evaluation | Opens After | Grade Impact |
 |------------|-------------|:---:|
 | Rater Practice | Lecture 1 (Aug 24) | None |
-| Evaluation 1 | Module 1 ends (Sep 9) | None |
+| Evaluation 1 | Module 1 ends (Sep 14) | None |
 | Evaluation 2 | Module 2 ends (Oct 7) | None |
 | Evaluation 3 | Module 3 ends (Nov 4) | None |
 | Evaluation 4 | End of semester (Dec 7) | **Multiplier applied** |

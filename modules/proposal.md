@@ -14,18 +14,17 @@ This module provides training in research proposal development and evaluation. W
 
 ---
 
-## Module Structure: 8 Lectures
+## Module Structure: 7 Lectures
 
 | # | Lecture | Key Topics |
 |---|--------|------------|
-| 1 | [The Research Landscape](#lecture-1) | Nobel Prize discovery patterns, hypothesis vs. serendipity |
-| 2 | [Research Framing & Word Choice](#lecture-2) | Hypothesis-driven framing, fundamental vs. applied, NSF directorate culture |
-| 3 | [Funding Agencies & Your First Research Narrative](#lecture-3) | NSF vs. NIH, drafting challenge & objectives |
-| 4 | [Writing the Research Narrative](#lecture-4) | Field-specific best practices, NIH specific aims, revision workshop |
-| 5 | [Intellectual Merit, Broader Impacts & Case Studies](#lecture-5) | NSF review criteria, CAREER case study, review panel simulation |
-| 6 | [AI in the Research Enterprise](#lecture-6) | AI history, hypothesis generation debate, AI detection failure |
-| 7 | [Peer Review, Ethics & Responding to Critique](#lecture-7) | Mock panel review, AI evaluation limits, ethical framing |
-| 8 | [GCR Team Proposal Workshop](#lecture-8) | Growing Convergence Research proposal drafting & cross-team review |
+| 1 | [The Research Landscape & Research Framing](#lecture-1) | Nobel patterns, NSF directorate culture, hypothesis-driven framing, paragraph-level reframing |
+| 2 | [Funding Agencies & Your First Research Narrative](#lecture-2) | NSF vs. NIH, drafting challenge & objectives |
+| 3 | [Writing the Research Narrative](#lecture-3) | Field-specific best practices, NIH specific aims, revision workshop |
+| 4 | [Intellectual Merit, Broader Impacts & Case Studies](#lecture-4) | NSF review criteria, CAREER case study, review panel simulation |
+| 5 | [AI in the Research Enterprise](#lecture-5) | AI history, hypothesis generation debate, AI detection callback |
+| 6 | [Peer Review, Ethics & Responding to Critique](#lecture-6) | Mock panel review, AI evaluation limits, ethical framing |
+| 7 | [GCR Team Proposal Workshop](#lecture-7) | Growing Convergence Research proposal drafting & cross-team review |
 
 ### 📝 Running Assignments
 
@@ -35,10 +34,10 @@ Two threads build across the module — one individual, one team-based:
 
 | Lecture | Milestone |
 |:---:|---------------------|
-| 3 | Draft challenge statement (While…However) + 3 research objectives |
-| 3 | Peer review in pairs (cross-discipline) |
-| 4 | Revision workshop: strengthen challenge & sharpen objectives |
-| 4 | "Elevator Test" — 90-second pitch of your narrative |
+| 2 | Draft challenge statement (While…However) + 3 research objectives |
+| 2 | Peer review in pairs (cross-discipline) |
+| 3 | Revision workshop: strengthen challenge & sharpen objectives |
+| 3 | "Elevator Test" — 90-second pitch of your narrative |
 
 > This produces a draft challenge/objectives statement students can use for their qualifying exam proposals.
 
@@ -46,25 +45,31 @@ Two threads build across the module — one individual, one team-based:
 
 | Lecture | Milestone |
 |:---:|---------------------|
-| 8 | Draft convergent research question + challenge + objectives + IM/BI |
-| 8 | Cross-team peer review using simplified rubric |
-| Post-L8 | Final revised submission on Blackboard |
+| 7 | Draft convergent research question + challenge + objectives + IM/BI |
+| 7 | Cross-team peer review using simplified rubric |
+| Post-L7 | Final revised submission on Blackboard |
 
 ---
 
 <details open>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: The Research Landscape — How Breakthroughs Happen</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: The Research Landscape & Research Framing — How Breakthroughs Happen and How to Frame Them</h3></summary>
 
-**Goal:** Before writing proposals, understand what the research enterprise actually looks like — how discoveries are made, what patterns exist across fields, and why this matters for how you frame your own work.
+**Goal:** Before writing proposals, understand what the research enterprise looks like — how discoveries are made, what patterns exist across fields, and how to frame your work strategically for different funding cultures.
 
-#### 📊 Presentation (~35 min)
+#### 📖 Pre-Class Reading
 
 - 🔬 [**How Scientific Breakthroughs Really Happen: 125 Years of Nobel Prizes**](../presentations/nobel-analysis.html)
   > Analysis of Physics, Chemistry, and Physiology/Medicine Nobel Prizes (1901–2025). Key findings: Physiology/Medicine has the highest rate of serendipitous discoveries (~50%); Physics is most theory-driven (~45–50% hypothesis-driven); Chemistry has the strongest tool-building tradition. All fields are shifting toward more hypothesis-driven research over time.
 
-#### 🎯 Team Activity: "Classify Your Own Field" (~30 min)
+- 📈 [**Research Methodology Patterns Across NSF Directorates**](../presentations/nsf_analysis.html)
+  > Analysis of 494 funded grant abstracts (2024–2025) across BIO, PHY, CMMI, CHE, and CBET. Physics favors measurement (47%), Biology/Chemistry favor hypothesis testing (~50–60%), Engineering requires interdisciplinary integration (88% CMMI).
 
-Each team (15 min discussion + 15 min share-out):
+- 🎯 [**Hypothesis, Fundamental Research & Word Choice**](../presentations/fundamental_vs_applied.html)
+  > The critical connection between hypothesis-driven and fundamental research. Includes corrected word choice guidance (words aren't "forbidden" — context is everything), the 2×2 matrix (hypothesis vs. discovery × fundamental vs. applied), and the NSF quote explicitly endorsing optimization and control as research topics.
+
+#### 🎯 Team Activity: "Classify Your Own Field" (~25 min)
+
+Each team (12 min discussion + 13 min share-out):
 
 1. **Pick 3 landmark discoveries in your team members' fields** (can be Nobel-winning or not)
 2. **Classify each** as hypothesis-driven, discovery-driven, or method-driven — and defend your choice
@@ -73,59 +78,34 @@ Each team (15 min discussion + 15 min share-out):
 
 > This exercise forces students to apply the Nobel analysis framework to their own disciplines, rather than treating it as an abstract historical overview.
 
-#### 💬 Mentimeter Discussion (~15 min)
+#### ✍️ In-Class Practice: Paragraph-Level Reframing (~30 min)
+
+Use the interactive exercises built into the Word Choice presentation (Slides 7–8). Teams work on the realistic paragraph-level prompts:
+
+- **Round 1 (12 min):** Each team takes one exercise passage (biomedical, environmental/AI, or chemistry/materials). Reframe without changing the actual research.
+- **Round 2 (8 min):** Teams swap and critique each other's reframes — did they change the research or just the framing? Did they fabricate unsupported numbers?
+- **Share-out (10 min):** Each team presents their best reframe. Class votes on which ones successfully led with the knowledge question without losing the applied context.
+
+#### 💬 Mentimeter Discussion & Quick Poll (~15 min)
 
 - Where does your own dissertation research fall on the hypothesis–discovery–method spectrum?
 - Has your field had its own "penicillin moment" — a breakthrough no one was looking for?
+- Which of these words would most trigger "not fundamental" for a reviewer in *your* field? (Revisit the survey from last year — "Optimize" was #1 at 10/16)
 
 #### 💡 Key Takeaways
 
 - Different fields have different discovery patterns — there's no single "scientific method"
 - The funding system's preference for hypothesis-driven proposals creates structural tension with how breakthroughs actually happen
-- Understanding these patterns helps you position your own work strategically
-
----
-
-</details>
-
-<details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-2">Lecture 2: Research Framing — Hypothesis, Fundamental vs. Applied, & Word Choice</h3></summary>
-
-**Goal:** Learn why "hypothesis-driven" became synonymous with "fundamental research" in grant writing, where that association breaks down, and how to frame your work strategically without misrepresenting it.
-
-#### 📊 Presentations (~30 min)
-
-- 📈 [**Research Methodology Patterns Across NSF Directorates**](../presentations/nsf_analysis.html)
-  > Analysis of 494 funded grant abstracts (2024–2025) across BIO, PHY, CMMI, CHE, and CBET. Physics favors measurement (47%), Biology/Chemistry favor hypothesis testing (~50–60%), Engineering requires interdisciplinary integration (88% CMMI). Open with this to show students what funded proposals actually look like.
-
-- 🎯 [**Hypothesis, Fundamental Research & Word Choice**](../presentations/fundamental_vs_applied.html)
-  > The critical connection between hypothesis-driven and fundamental research. Includes corrected word choice guidance (words aren't "forbidden" — context is everything), the 2×2 matrix (hypothesis vs. discovery × fundamental vs. applied), and the NSF quote explicitly endorsing optimization and control as research topics.
-
-#### ✍️ In-Class Practice: Paragraph-Level Reframing (~35 min)
-
-Use the interactive exercises built into the Word Choice presentation (Slides 7–8). Teams work on the realistic paragraph-level prompts:
-
-- **Round 1 (15 min):** Each team takes one exercise passage (biomedical, environmental/AI, or chemistry/materials). Reframe without changing the actual research.
-- **Round 2 (10 min):** Teams swap and critique each other's reframes — did they change the research or just the framing? Did they fabricate unsupported numbers?
-- **Share-out (10 min):** Each team presents their best reframe. Class votes on which ones successfully led with the knowledge question without losing the applied context.
-
-#### 💬 Mentimeter Quick Poll
-
-- Which of these words would most trigger "not fundamental" for a reviewer in *your* field? (Revisit the survey from last year — "Optimize" was #1 at 10/16)
-
-#### 💡 Key Takeaways
-
 - "Hypothesis-driven" is a useful framing strategy, not a logical requirement for fundamental research
-- Words need careful framing, not avoidance — "design" is fine when discovering design *principles*
+- Words need careful framing, not avoidance — match your framing to your target directorate's culture
 - Don't fabricate specific predictions without evidence — reviewers will question unsupported claims
-- Match your framing to your target directorate's culture
 
 ---
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: Funding Agencies & Your First Research Narrative</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-2">Lecture 2: Funding Agencies & Your First Research Narrative</h3></summary>
 
 **Goal:** Understand the key differences between NSF and NIH (and other agencies), then immediately apply that knowledge by drafting your first challenge–objective statement.
 
@@ -146,7 +126,7 @@ Use the interactive exercises built into the Word Choice presentation (Slides 7�
 
 **Other key agencies** (brief overview): DOE Office of Science, DARPA, private foundations (Sloan, Gates, CZI). **Fellowships:** NSF GRFP, NIH F31, Ford, Hertz.
 
-**Growing Convergence Research (GCR):** NSF's emphasis on deep integration across disciplines — not just collaboration, but disciplines reshaping each other. This connects to the team GCR proposal assignment in Lecture 8.
+**Growing Convergence Research (GCR):** NSF's emphasis on deep integration across disciplines — not just collaboration, but disciplines reshaping each other. This connects to the team GCR proposal assignment in Lecture 7.
 
 #### 📚 Key References
 
@@ -199,9 +179,9 @@ Revise based on partner feedback. Submit on Blackboard for instructor review.
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Writing the Research Narrative — From Challenge to Objectives</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: Writing the Research Narrative — From Challenge to Objectives</h3></summary>
 
-**Goal:** Deepen narrative writing skills with field-specific best practices, the NIH specific aims page structure, and hands-on revision of the challenge statements drafted in Lecture 3.
+**Goal:** Deepen narrative writing skills with field-specific best practices, the NIH specific aims page structure, and hands-on revision of the challenge statements drafted in Lecture 2.
 
 #### 📊 Presentation (~25 min)
 
@@ -232,9 +212,9 @@ The 1-page specific aims document is arguably the most important page in biomedi
 <em>These materials will be developed in consultation with NIH-experienced faculty and may include a dedicated guest lecture session.</em>
 </div>
 
-#### ✍️ Revision Workshop: Strengthen Your Lecture 3 Drafts (~40 min)
+#### ✍️ Revision Workshop: Strengthen Your Lecture 2 Drafts (~40 min)
 
-Students receive written feedback on their Lecture 3 challenge/objectives submissions. Working in pairs:
+Students receive written feedback on their Lecture 2 challenge/objectives submissions. Working in pairs:
 
 **Round 1 — Strengthen the Challenge (15 min):**
 - Does your challenge use deficit-based language? ("It remains poorly understood…," "Current methods fail to…")
@@ -263,7 +243,7 @@ Each student reads their challenge + objectives aloud in 90 seconds. Partner ans
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: Proposal Components — Intellectual Merit, Broader Impacts & Case Studies</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Proposal Components — Intellectual Merit, Broader Impacts & Case Studies</h3></summary>
 
 **Goal:** Understand what makes Intellectual Merit and Broader Impacts compelling through real case studies, then practice evaluating and writing these sections.
 
@@ -308,7 +288,7 @@ Each panel presents their consensus rating and the single most important strengt
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: AI in the Research Enterprise</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: AI in the Research Enterprise</h3></summary>
 
 **Goal:** Examine AI's role in science through its history, capabilities, limitations, and ethical implications — connecting the proposal module to the paper writing module that follows.
 
@@ -345,12 +325,11 @@ Prompt with data: "GPT-4 generated 100 hypotheses in 3 hours; experts rated 40% 
 - Teams take assigned positions (pro/con/nuanced) and debate for 15 min
 - Close with: What does "generate" mean? Is pattern-matching the same as understanding?
 
-#### 🔎 AI Detection Failure (~15 min)
+#### 🔎 AI Detection Callback (~5 min)
 
-Brief presentation of the AI detection results from the CAREER proposal reviews:
+Brief callback to the AI detection data you examined in Module 1 (Lecture 3):
 
-- 🔎 **AI detection results from the CAREER proposal review case study**
-  > Three AI models achieved 0–20% accuracy. The "angry reviewer" persona (AI-generated) fooled all detectors. Key implication: detection is unreliable; focus on demonstrating understanding instead.
+> You saw in Module 1 that AI detection fails reliably — three models achieved 0–20% accuracy, and the "angry reviewer" persona fooled all detectors. Today we ask what AI can and cannot do in the research enterprise, given that detection is off the table.
 
 Connect to students' survey data: trust in AI for funding decisions was 2.7/5; 13/18 preferred human-centric AI role.
 
@@ -375,7 +354,7 @@ Close with: "You've now seen AI generate hypotheses, write proposal reviews, eva
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: Peer Review, Ethics & Responding to Critique</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: Peer Review, Ethics & Responding to Critique</h3></summary>
 
 **Goal:** Experience the reviewer's perspective, develop constructive review skills, and engage with ethical questions about AI, framing, and responsible communication in science.
 
@@ -388,7 +367,7 @@ Discussion prompt: "If AI can't reliably evaluate proposals, what CAN it usefull
 
 #### ✍️ Mock Panel Review (~45 min)
 
-Teams conduct a formal mock panel review of a provided proposal excerpt (different from Lecture 5):
+Teams conduct a formal mock panel review of a provided proposal excerpt (different from Lecture 4):
 
 **Step 1 — Individual Written Review (15 min):**
 Using simplified NSF criteria, each student writes a structured review:
@@ -432,7 +411,7 @@ Structured around the Caltech case study (José Andrade's mechanics course redes
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-8">Lecture 8: GCR Team Proposal Workshop</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: GCR Team Proposal Workshop</h3></summary>
 
 **Goal:** Apply everything from the module by developing a Growing Convergence Research (GCR) proposal as a team, then conducting cross-team peer review.
 
@@ -500,7 +479,7 @@ Teams return reviews; original teams have 10 minutes to discuss and plan revisio
 **Planned development (for future iterations):**
 
 **Priority 1 — Real NIH Specific Aims Pages:**
-Collect 2–3 publicly shared specific aims pages (strong and weak) for in-class analysis. Many funded PIs share these on lab websites or through institutional resources. These would anchor Lecture 4's NIH section, replacing the current text-only template.
+Collect 2–3 publicly shared specific aims pages (strong and weak) for in-class analysis. Many funded PIs share these on lab websites or through institutional resources. These would anchor Lecture 3's NIH section, replacing the current text-only template.
 
 **Priority 2 — Before/After Aims Page Revision:**
 Develop a case study showing a weak specific aims page revised to be competitive — parallel to the NSF CAREER 2018→2019 case study. Ideally from a real resubmission, anonymized with permission.

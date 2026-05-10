@@ -64,13 +64,13 @@ Upon successful completion of this course, students will be able to:
 
 The course is organized into four modules taught sequentially. Each module page contains detailed lecture plans, readings, activities, and deliverables.
 
-### Module 1: Foundations of Teamwork (5 sessions)
+### Module 1: Foundations of Teamwork (6 sessions)
 {: .module-header}
 **Focus:** Team formation, CATME peer evaluation, cross-disciplinary collaboration, and the dynamics of effective research teams — grounded in real case studies (Apollo 13, AlphaFold, Transistor + BCS Theory, Challenger + COVID vaccine, Human Genome Project).
 
 → [Module 1 Details](../modules/foundation/)
 
-### Module 2: Proposal Writing & Review (8 sessions)
+### Module 2: Proposal Writing & Review (7 sessions)
 {: .module-header}
 **Focus:** How scientific breakthroughs happen, funding agency cultures, strategic research framing, and hands-on proposal development. Students draft challenge statements and research objectives for their own dissertation research, conduct mock review panels, and develop a team Growing Convergence Research (GCR) proposal.
 

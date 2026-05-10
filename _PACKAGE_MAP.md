@@ -188,7 +188,7 @@ Homepage (/)
 
 | Due Date | Assignment | Module |
 |---|---|---|
-| Sep 9 | Final Team Charter | Module 1 |
+| Sep 14 | Final Team Charter | Module 1 |
 | Sep 21 | Challenge/Objectives Draft | Module 2 |
 | Sep 23 | Revised Challenge/Objectives | Module 2 |
 | Oct 5 | Panel Summary | Module 2 |

@@ -123,7 +123,7 @@ Teams discuss: Where is the line between acceptable and unacceptable? Does discl
 
 **Closing: Most powerful change (~5 min):** Open-ended: "Based on all the readings, what is the most powerful change we could make to reduce research misconduct?"
 
-> 🔗 **Connection to Module 2:** In Module 2 Lecture 4, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity — the same pressures that make transparent review uncomfortable also make it valuable.
+> 🔗 **Connection to Module 2:** In Module 2 Lecture 3, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity — the same pressures that make transparent review uncomfortable also make it valuable.
 
 #### 💡 Key Takeaways
 
@@ -232,7 +232,7 @@ This session produced the richest survey data in the module:
 
 **Closing: Barriers and next steps (~10 min):** Your #1 barrier was "don't know where/how to start" (12/15). Brief overview of concrete starting points: lab website, LinkedIn posts summarizing papers, departmental newsletters, local media contacts. The barrier is practical, and practical barriers have practical solutions.
 
-> 🔗 **Connection to Module 2:** In Module 2 Lecture 4, you examined transparent peer review and open access. The same principle applies here — making science accessible isn't just a nice-to-have, it's an ethical obligation grounded in the same transparency values you identified as benefits of open review.
+> 🔗 **Connection to Module 2:** In Module 2 Lecture 3, you examined transparent peer review and open access. The same principle applies here — making science accessible isn't just a nice-to-have, it's an ethical obligation grounded in the same transparency values you identified as benefits of open review.
 
 #### 💡 Key Takeaways
 
@@ -264,7 +264,7 @@ This session produced the richest survey data in the module:
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Bridge from Modules 2 & 3 (~10 min):** Recall: In Module 2 (Lecture 6), you saw AI hallucinate the authors and lab of a paper it was analyzing. In Module 3 (Lecture 6), you saw AI fail to detect AI-written text and over-value structural polish in proposal evaluation. Those were *capability* questions. Today we ask the *ethical* questions.
+**Bridge from Modules 2 & 3 (~10 min):** Recall: In Module 2 (Lecture 5), you saw AI hallucinate the authors and lab of a paper it was analyzing. In Module 3 (Lecture 6), you saw AI fail to detect AI-written text and over-value structural polish in proposal evaluation. Those were *capability* questions. Today we ask the *ethical* questions.
 
 **The ghostwriting problem (~15 min):** Brainard reports far more authors use AI than disclose it. Discussion: Is undisclosed AI writing assistance the same as ghostwriting? As plagiarism? As a new category we don't have a name for yet? Where is the line between "AI as spell-checker" and "AI as co-author"?
 
@@ -276,7 +276,7 @@ This session produced the richest survey data in the module:
 
 **Closing: Where do YOU draw the line? (~10 min):** Poll Everywhere scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
 
-> 🔗 **Connection to Module 2:** The AI hallucination case study from Module 2 Lecture 6 (ChatGPT vs. DeepSeek evaluating the hydrogel abstract) demonstrated a *capability* limitation. Today's session asks: given those limitations, what are the *ethical* obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
+> 🔗 **Connection to Module 2:** The AI hallucination case study from Module 2 Lecture 5 (ChatGPT vs. DeepSeek evaluating the hydrogel abstract) demonstrated a *capability* limitation. Today's session asks: given those limitations, what are the *ethical* obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
 
 #### 💡 Key Takeaways
 
@@ -345,7 +345,7 @@ In Module 1, you examined two team-level credit cases (Bardeen-Brattain-Shockley
 
 **Patent case study (~15 min):** Return to the CRISPR patent dispute from Session 6. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Over $100M in licensing at stake. Discussion: Does the patent system reward the right people? Should fundamental biological discoveries be patentable at all?
 
-**Data sharing dilemma (~20 min):** The Human Genome Project's "Bermuda Agreement" (release all data within 24 hours) vs. Celera's proprietary model (use public data, keep own data private). Connect to Module 1's compressed treatment of HGP/Celera in Lecture 5. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
+**Data sharing dilemma (~20 min):** The Human Genome Project's "Bermuda Agreement" (release all data within 24 hours) vs. Celera's proprietary model (use public data, keep own data private). Connect to Module 1's compressed treatment of HGP/Celera in Lecture 6. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
 
 **IP in your research (~15 min):** Each student identifies one potential IP issue in their own research: Does your university have a technology transfer office? Who owns your thesis data? If you develop code or a method, who controls it? What happens if you leave your lab?
 
