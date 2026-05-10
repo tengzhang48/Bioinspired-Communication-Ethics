@@ -18,7 +18,7 @@
 | **Instructor** | Teng Zhang (tzhang48@syr.edu) |
 | **Guest Lecturer** | Dr. Sarah Reckess, JD (Upstate Medical University) |
 | **Course Credits** | 3 |
-| **Semester** | Fall 2025 (Aug 25 – Dec 15, 2025) |
+| **Semester** | Fall 2026 (Aug 24 – Dec 15, 2026) |
 | **Build System** | Jekyll (via GitHub Pages) |
 | **Markdown Engine** | kramdown |
 | **Permalink Style** | Pretty (`/page-name/`) |
@@ -31,7 +31,7 @@
 Bioinspired-Communication-Ethics/
 │
 ├── README.md                          ← Repository overview & GitHub Pages info
-├── PACKAGE_MAP.md                     ← This file — package scan & structural map
+├── _PACKAGE_MAP.md                    ← This file — package scan & structural map
 ├── _config.yml                        ← Jekyll site configuration
 ├── index.md                           ← Homepage (/)
 ├── syllabus.md                        ← Course syllabus (/syllabus/)
@@ -60,7 +60,7 @@ Bioinspired-Communication-Ethics/
 ```
 
 **Summary counts:**
-- Markdown source files: **7** (README + config + 5 pages + 4 module pages — see below)
+- Markdown source files: **10** (README, package map, config, 3 site pages, and 4 module pages)
 - HTML presentation decks: **13**
 - Jekyll collections: **1** (`modules`)
 - Total repository files: **22** (excluding `.git/`)
@@ -74,19 +74,19 @@ Bioinspired-Communication-Ethics/
 | File | Live URL | Size | Description |
 |---|---|---|---|
 | `README.md` | *(GitHub repo page)* | ~60 lines | Repository overview, link to live site, course summary, tech stack, license |
-| `PACKAGE_MAP.md` | *(GitHub repo page)* | — | This file — complete package scan and structural map |
+| `_PACKAGE_MAP.md` | *(GitHub repo page)* | — | This file — complete package scan and structural map |
 | `_config.yml` | *(build-time only)* | 25 lines | Jekyll configuration: site title, email, baseurl, url, repository, Markdown engine, permalink style, plugins, and module collection settings |
 | `index.md` | `/` | 65 lines | Homepage: course info, instructor contact, course platforms (Blackboard + GitHub), EMIRGE-Bio NRT program description, module highlights, links to all resources |
 | `syllabus.md` | `/syllabus/` | 99 lines | Full course syllabus: description, learning outcomes (Communication, Teamwork, Research Workflow, Ethics), Blackboard access instructions, module-level schedule overview, grading breakdown |
-| `schedule.md` | `/schedule/` | 75 lines | Detailed week-by-week Fall 2025 class schedule with dates, topics, activities, and assignment due dates; key deadlines table |
+| `schedule.md` | `/schedule/` | 75 lines | Detailed week-by-week Fall 2026 class schedule with dates, topics, activities, and assignment due dates; key deadlines table |
 
 ### Module Pages (`modules/` collection)
 
 | File | Live URL | Description |
 |---|---|---|
 | `modules/foundation.md` | `/modules/foundation/` | **Module 1 — Foundations of Teamwork.** CATME platform guides, team-science research (HBR, National Academies, MIT), NSF Convergence Research resources, interdisciplinary research frameworks, module learning objectives |
-| `modules/paper.md` | `/modules/paper/` | **Module 2 — Scientific Writing & Peer Review.** Whitesides writing guide, TechRabbits publication guide, Nature/Science author instructions, peer review frameworks (Nature, eLife, PLOS ONE, COPE), analyzing published reviews, module learning objectives |
-| `modules/proposal.md` | `/modules/proposal/` | **Module 3 — Proposal Writing & Review.** NSF PAPPG, NSF merit review criteria, NSF GRFP application strategies, NIH application guides, foundation/private funding (Gates, Sloan, Google, CZI), fellowship programs (F31, Ford, Hertz), broader impacts toolkit, module learning objectives |
+| `modules/paper.md` | `/modules/paper/` | **Module 3 — Scientific Writing & Peer Review.** Whitesides writing guide, TechRabbits publication guide, Nature/Science author instructions, peer review frameworks (Nature, eLife, PLOS ONE, COPE), analyzing published reviews, module learning objectives |
+| `modules/proposal.md` | `/modules/proposal/` | **Module 2 — Proposal Writing & Review.** NSF PAPPG, NSF merit review criteria, NSF GRFP application strategies, NIH application guides, foundation/private funding (Gates, Sloan, Google, CZI), fellowship programs (F31, Ford, Hertz), broader impacts toolkit, module learning objectives |
 | `modules/ethics.md` | `/modules/ethics/` | **Module 4 — Research Ethics.** Guest lecturer Dr. Sarah Reckess (JD, Upstate Medical University). Belmont Report, NSF RCR guidelines, dual-use research policy, biosecurity challenges, bioinspired ethics case studies, trustworthy AI ethics guidelines, module learning objectives |
 
 ### Presentation Slide Decks (`presentations/`)
@@ -146,7 +146,7 @@ Homepage (/)
 │   └── Grading, learning outcomes, course description
 │
 ├── Course Schedule (/schedule/)
-│   └── Week-by-week Fall 2025 calendar + key deadlines
+│   └── Week-by-week Fall 2026 calendar + key deadlines
 │
 ├── Module 1: Foundations (/modules/foundation/)
 │   ├── CATME team tools
@@ -188,19 +188,17 @@ Homepage (/)
 
 | Due Date | Assignment | Module |
 |---|---|---|
-| Sep 3 | Team Charter Draft | Module 1 |
-| Sep 15 | Team Charter Final | Module 1 |
-| Sep 22 | Literature Review Outline | Module 2 |
-| Sep 29 | Draft Peer Review | Module 2 |
-| Oct 6 | Guest Lecture — Dr. Zhao Qin (AI in Research) | Module 2 |
-| Oct 15 | Final Review Response | Module 2 |
-| Oct 20 | Intellectual Merit Statement | Module 3 |
-| Oct 27 | Broader Impacts Statement | Module 3 |
-| Nov 5 | Complete Proposal Draft | Module 3 |
-| Nov 10 | Case Study Analysis | Module 4 |
-| Dec 1 | Ethics Integration Memo | Module 4 |
-| Dec 8 | Final Project Presentations | All |
-| Dec 15 | Final Project Reports | All |
+| Sep 9 | Final Team Charter | Module 1 |
+| Sep 21 | Challenge/Objectives Draft | Module 2 |
+| Sep 23 | Revised Challenge/Objectives | Module 2 |
+| Oct 5 | Panel Summary | Module 2 |
+| Oct 14 | GCR Proposal (final) | Module 2 |
+| Oct 19 | Writing Portfolio Draft 1 | Module 3 |
+| Oct 21 | Writing Portfolio Draft 2 | Module 3 |
+| Oct 28 | Writing Portfolio Peer Review | Module 3 |
+| Nov 2 | Writing Portfolio AI Stress Test | Module 3 |
+| Nov 4 | Writing Portfolio Final Version | Module 3 |
+| Dec 15 | Technology & Responsibility Report | Module 4 |
 
 ---
 

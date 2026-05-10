@@ -62,7 +62,7 @@ For a class of ~25 students, this means approximately 8 teams of 3 (with one tea
 ### Reading (before class)
 
 - Field Guide **Ch. 4** (Building a Research Team) and **Ch. 5** (Trust) — ~20 pages
-- Case study brief: [Mars Climate Orbiter — Team Science Case Studies](/path-to-case-studies#case-1)
+- Case study brief provided on Blackboard: **Mars Climate Orbiter — Team Science Case Study**
 
 ### In-Class Activities (80 min)
 
@@ -224,7 +224,7 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 ### Reading (before class)
 
 - Field Guide **Ch. 6** (Vision) and **Ch. 7** (Communication) — ~15 pages
-- Case study brief: [AlphaFold — Team Science Case Studies](/path-to-case-studies#case-2)
+- Case study brief provided on Blackboard: **AlphaFold — Team Science Case Study**
 - DeepMind blog: ["AlphaFold: Using AI for scientific discovery"](https://deepmind.google/discover/blog/alphafold-using-ai-for-scientific-discovery-2020/)
 
 ### In-Class Activities (80 min)
@@ -254,7 +254,7 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 
 - Field Guide **Ch. 8** (Credit and Sharing) and **Ch. 10** (Conflict is Normal) — ~20 pages
 - Field Guide **Appendix**: "Collaborative Agreement Questions (Prenup for Scientists)" — 2 pages
-- Case study brief: [CRISPR Patent Dispute — Team Science Case Studies](/path-to-case-studies#case-3)
+- Case study brief provided on Blackboard: **CRISPR Patent Dispute — Team Science Case Study**
 
 ### In-Class Activities (80 min)
 
@@ -286,7 +286,7 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 ### Reading (before class)
 
 - Field Guide **Ch. 5** (Trust — re-read with new context), **Ch. 9** (Managing Difference), and **Ch. 12** (Navigating Networks and Systems) — ~20 pages
-- Case study briefs: [COVID Vaccine](/path-to-case-studies#case-4) and [Human Genome Project](/path-to-case-studies#case-5)
+- Case study briefs provided on Blackboard: **COVID Vaccine** and **Human Genome Project**
 
 ### In-Class Activities (80 min)
 
@@ -365,7 +365,7 @@ After each evaluation, complete the **individual reflection** on Blackboard (3 q
 
 ### Case Study Source Document
 
-- [Team Science Case Studies](/path-to-case-studies) — Full case briefs with discussion questions, sources, and team activities for all five cases used in this module
+- **Team Science Case Studies** — Full case briefs with discussion questions, sources, and team activities for all five cases used in this module are provided on Blackboard
 
 ### Supplementary References (Consult as Needed)
 

@@ -92,7 +92,7 @@ Each team selects a research topic from their members' work and writes a rough 1
 
 #### ▶️ Interactive Presentation (~25 min)
 
-- 📊 [**Writing Scientific Papers: Key Principles from Whitesides, Weitz & Suo Labs**](presentations/writing-principles.html)
+- 📊 [**Writing Scientific Papers: Key Principles from Whitesides, Weitz & Suo Labs**](../presentations/Writing_Advice_Summary.html)
 
 #### 📊 What Your Survey Told Us
 
@@ -165,7 +165,7 @@ This abstract went through four major revisions before publication. By tracking 
 
 #### ▶️ Interactive Presentation
 
-- 📊 [**The Art of Revision: An Abstract Case Study**](presentations/abstract-evolution.html) — Interactive side-by-side comparison of all 4 versions with diff highlighting
+- 📊 **The Art of Revision: An Abstract Case Study** — Interactive side-by-side comparison of all 4 versions with diff highlighting
 
 #### 📖 Materials
 
@@ -312,7 +312,7 @@ Remember the hydrogel abstract we traced through 4 revisions in Lecture 3? We ga
 
 #### ▶️ Interactive Presentation (~20 min)
 
-- 📊 [**AI Tools in Scientific Writing: Capabilities and Failures**](presentations/ai-writing-comparison.html) — Side-by-side AI responses with error annotations
+- 📊 **AI Tools in Scientific Writing: Capabilities and Failures** — Side-by-side AI responses with error annotations
 
 **What both AI models got right:**
 - Identified the IMRaD structure correctly
@@ -376,8 +376,8 @@ Each team submits their revised abstract to an AI tool and evaluates the feedbac
 
 #### ▶️ Interactive Presentations (~25 min)
 
-- 📊 [**What is a Hypothesis?**](presentations/hypothesis-definitions.html)
-- 📊 [**Nobel Prize Analysis: How Scientific Breakthroughs Really Happen**](presentations/nobel-analysis.html)
+- 📊 [**What is a Hypothesis?**](../presentations/hypothesis_definition.html)
+- 📊 [**Nobel Prize Analysis: How Scientific Breakthroughs Really Happen**](../presentations/nobel-analysis.html)
 
 #### 📖 Pre-Class Reading
 

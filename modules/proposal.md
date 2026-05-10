@@ -59,7 +59,7 @@ Two threads build across the module — one individual, one team-based:
 
 #### 📊 Presentation (~35 min)
 
-- 🔬 [**How Scientific Breakthroughs Really Happen: 125 Years of Nobel Prizes**](Nobel_Prize_Research_Analysis.html)
+- 🔬 [**How Scientific Breakthroughs Really Happen: 125 Years of Nobel Prizes**](../presentations/nobel-analysis.html)
   > Analysis of Physics, Chemistry, and Physiology/Medicine Nobel Prizes (1901–2025). Key findings: Physiology/Medicine has the highest rate of serendipitous discoveries (~50%); Physics is most theory-driven (~45–50% hypothesis-driven); Chemistry has the strongest tool-building tradition. All fields are shifting toward more hypothesis-driven research over time.
 
 #### 🎯 Team Activity: "Classify Your Own Field" (~30 min)
@@ -95,10 +95,10 @@ Each team (15 min discussion + 15 min share-out):
 
 #### 📊 Presentations (~30 min)
 
-- 📈 [**Research Methodology Patterns Across NSF Directorates**](NSF_Grant_Research_Types.html)
+- 📈 [**Research Methodology Patterns Across NSF Directorates**](../presentations/nsf_analysis.html)
   > Analysis of 494 funded grant abstracts (2024–2025) across BIO, PHY, CMMI, CHE, and CBET. Physics favors measurement (47%), Biology/Chemistry favor hypothesis testing (~50–60%), Engineering requires interdisciplinary integration (88% CMMI). Open with this to show students what funded proposals actually look like.
 
-- 🎯 [**Hypothesis, Fundamental Research & Word Choice**](Hypothesis_FundamentalResearch_WordChoice.html)
+- 🎯 [**Hypothesis, Fundamental Research & Word Choice**](../presentations/fundamental_vs_applied.html)
   > The critical connection between hypothesis-driven and fundamental research. Includes corrected word choice guidance (words aren't "forbidden" — context is everything), the 2×2 matrix (hypothesis vs. discovery × fundamental vs. applied), and the NSF quote explicitly endorsing optimization and control as research topics.
 
 #### ✍️ In-Class Practice: Paragraph-Level Reframing (~35 min)
@@ -205,7 +205,7 @@ Revise based on partner feedback. Submit on Blackboard for instructor review.
 
 #### 📊 Presentation (~25 min)
 
-- ✍️ [**Writing Compelling Research Challenges & Objectives**](Writing_Research_Challenges_Objectives.html)
+- ✍️ [**Writing Compelling Research Challenges & Objectives**](../presentations/nsf_research_challenges.html)
   > Field-specific best practices from funded NSF proposals (BIO, PHY, CMMI, CBET, CHE). Covers the three-objective framework in depth with real examples, quantifying ambition, the "if-then" logic connecting challenge to objectives, and common mistakes to avoid.
 
 #### 📋 NIH Specific Aims Page (~15 min)
@@ -269,10 +269,10 @@ Each student reads their challenge + objectives aloud in 90 seconds. Partner ans
 
 #### 📊 Presentations (~30 min)
 
-- 📋 [**Writing Excellent Intellectual Merit & Broader Impacts**](Intellectual_Merit_Broader_Impacts.html)
+- 📋 [**Writing Excellent Intellectual Merit & Broader Impacts**](../presentations/Project_summary_tips.html)
   > NSF's two review criteria in depth. Side-by-side comparisons of weak vs. strong approaches. Key insight: the strongest proposals weave IM and BI together, rather than treating them as separate sections.
 
-- 🏆 [**NSF CAREER: A Case Study in Proposal Revision**](NSF_CAREER_Case_Study.html)
+- 🏆 [**NSF CAREER: A Case Study in Proposal Revision**](../presentations/deepseek_review_2.html)
   > Two versions of the same CAREER proposal (2018 unfunded → 2019 funded). The "irregular lattice = FEM" proof was the killer preliminary result. Key lesson: scientific substance beats structural polish.
 
 #### 🎯 Team Activity: "Review Panel Simulation" (~40 min)
@@ -293,7 +293,7 @@ Each panel presents their consensus rating and the single most important strengt
 #### 📚 References
 
 - 📄 [**NSF CAREER Program**](https://www.nsf.gov/funding/programs/faculty-early-career-development-program-career) — Current solicitation
-- 🔍 [**Writing a Winning NSF CAREER Proposal**](Writing_NSF_CAREER.html) — Detailed lessons from proposal versions
+- 🔍 [**Writing a Winning NSF CAREER Proposal**](../presentations/deepseek_review_1.html) — Detailed lessons from proposal versions
 - 📄 [**Science of Science Funding**](https://www.science.org/doi/10.1126/science.1165317) — Research on what makes proposals successful
 
 #### 💡 Key Takeaways
@@ -349,7 +349,7 @@ Prompt with data: "GPT-4 generated 100 hypotheses in 3 hours; experts rated 40% 
 
 Brief presentation of the AI detection results from the CAREER proposal reviews:
 
-- 🔎 [**Can AI Detect AI-Written Text?**](AI_Detection_Analysis.html)
+- 🔎 **AI detection results from the CAREER proposal review case study**
   > Three AI models achieved 0–20% accuracy. The "angry reviewer" persona (AI-generated) fooled all detectors. Key implication: detection is unreliable; focus on demonstrating understanding instead.
 
 Connect to students' survey data: trust in AI for funding decisions was 2.7/5; 13/18 preferred human-centric AI role.
@@ -381,7 +381,7 @@ Close with: "You've now seen AI generate hypotheses, write proposal reviews, eva
 
 #### 📊 Case Study: AI Over-Values Structure (~15 min)
 
-- 🤖 [**NSF CAREER: AI Analysis Case Study**](NSF_CAREER_AI_Analysis.html)
+- 🤖 [**NSF CAREER: AI Analysis Case Study**](../presentations/deepseek_review_2.html)
   > AI models attempted to evaluate which CAREER proposal version was stronger — and got it wrong. AI over-valued structural polish ("modular, reviewer-friendly") and under-valued the scientific substance (preliminary data, demonstrated feasibility).
 
 Discussion prompt: "If AI can't reliably evaluate proposals, what CAN it usefully do in the review process?" Connect to the student survey showing 13/18 prefer human-centric AI roles.

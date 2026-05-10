@@ -11,7 +11,8 @@ permalink: /syllabus/
 **Instructor:** Teng Zhang  
 **Office Location:** Link Hall 214  
 **Email:** tzhang48@syr.edu  
-**Class Location and Time:** TBD  
+**Class Time:** MoWe 12:45PM - 2:05PM  
+**Location:** Marshall Square Mall 205B  
 **Office Hours:** TBD and by appointment  
 **Credits:** 3
 
