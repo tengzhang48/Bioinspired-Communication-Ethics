@@ -42,17 +42,14 @@ The document is **not a simple guest-lecture request**. It is a 9-page partnersh
 ## 3. Critical Questions Raised
 
 ### Should AI ethics be grounded in ecology and biology?
-**Partially valid:** AI ethics has been too anthropocentric and has ignored environmental costs (energy, water, e-waste) and ecological applications (biodiversity monitoring, agricultural AI).
+**Valuable contribution:** AI ethics has often been too anthropocentric, and ecology brings important dimensions that are easy to overlook — environmental costs of model training (energy, water, e-waste), AI applications in biodiversity monitoring, and agricultural decision-making. These are genuine ethical concerns that deserve more attention.
 
-**But insufficient on its own:**
-- The "living systems" framing risks being too abstract to help students with immediate problems (disclosure, authorship, hallucination, bias).
-- "Rules and compliance" are not the enemy — they are the infrastructure of professional life that journals, funders, and institutions operate through.
-- Most AI ethics problems in research are about **labor, accountability, and truthfulness**, not ecological stewardship.
+**Complementary rather than primary:** For a graduate research ethics course, the ecological framing works best as a **valuable complement** to other approaches rather than a replacement for them. Students also need practical tools for the professional decisions they face daily: disclosure, authorship, verification of AI-generated content, and navigating institutional policies. Rules and compliance are not sufficient on their own, but they are the necessary infrastructure through which journals, funders, and universities operate.
 
-### Why connect AI with ecology at all?
-**Honest answer:** Mathis connects AI to ecology because it is the foundation of his research identity (AI+Ethics Project, Story of the Plate, RCI). The connection serves **his organizational agenda**, not the course's learning objectives.
+### Why connect AI with ecology?
+Mathis approaches AI ethics from ecology and sustainability because that is his **disciplinary home and research expertise**. This is a legitimate and productive lens — scholars naturally bring their deepest training to ethical questions. At the same time, it is one lens among many. For students in this course (biology, engineering, physics, chemistry), the most immediate AI ethics questions tend to be professional and institutional: How do I disclose AI use in a manuscript? Who is accountable for a hallucinated citation? How do I maintain integrity when AI can draft faster than I can think?
 
-For this course, the ecology-AI connection is at best a **10-minute enrichment** (environmental cost of training models), not a foundational frame.
+The ecology-AI connection enriches the conversation — for example, by surfacing the environmental footprint of large language models — without needing to become the foundational frame for the entire course.
 
 ---
 
