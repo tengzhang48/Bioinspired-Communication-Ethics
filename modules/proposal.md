@@ -58,13 +58,13 @@ Two threads build across the module — one individual, one team-based:
 
 #### 📖 Pre-Class Reading
 
-- 🔬 [**How Scientific Breakthroughs Really Happen: 125 Years of Nobel Prizes**](../presentations/nobel-analysis.html)
+- 🔬 **How Scientific Breakthroughs Really Happen: 125 Years of Nobel Prizes** *(presentation under revision — link temporarily removed)*
   > Analysis of Physics, Chemistry, and Physiology/Medicine Nobel Prizes (1901–2025). Key findings: Physiology/Medicine has the highest rate of serendipitous discoveries (~50%); Physics is most theory-driven (~45–50% hypothesis-driven); Chemistry has the strongest tool-building tradition. All fields are shifting toward more hypothesis-driven research over time.
 
-- 📈 [**Research Methodology Patterns Across NSF Directorates**](../presentations/nsf_analysis.html)
+- 📈 **Research Methodology Patterns Across NSF Directorates** *(presentation under revision — link temporarily removed)*
   > Analysis of 494 funded grant abstracts (2024–2025) across BIO, PHY, CMMI, CHE, and CBET. Physics favors measurement (47%), Biology/Chemistry favor hypothesis testing (~50–60%), Engineering requires interdisciplinary integration (88% CMMI).
 
-- 🎯 [**Hypothesis, Fundamental Research & Word Choice**](../presentations/fundamental_vs_applied.html)
+- 🎯 **Hypothesis, Fundamental Research & Word Choice** *(presentation under revision — link temporarily removed)*
   > The critical connection between hypothesis-driven and fundamental research. Includes corrected word choice guidance (words aren't "forbidden" — context is everything), the 2×2 matrix (hypothesis vs. discovery × fundamental vs. applied), and the NSF quote explicitly endorsing optimization and control as research topics.
 
 #### 🎯 Team Activity: "Classify Your Own Field" (~25 min)
