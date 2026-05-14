@@ -102,19 +102,18 @@ Consider the **compliment sandwich** for written feedback: acknowledge something
 
 ### AI, Contribution, and Transparency in Teamwork
 
-Because generative AI tools are now part of many students' working environment, the CATME lecture is also the right place to establish one basic principle for the semester: **AI use in team settings must be transparent to teammates.**
+Generative AI tools are now part of many research environments. In this course, one basic principle applies: **AI use in team settings must be transparent to teammates.**
 
-The key question is not simply whether someone used AI, but **how** it was used and whether that use changed the nature of their contribution. If a teammate uses AI to brainstorm, reorganize notes, or clean up prose after doing the underlying thinking, that is different from using AI to produce a draft that the rest of the team must verify, rewrite, or repair.
+The key question is not whether you used AI, but **how** you used it and whether that use changed the nature of your contribution. Using AI to brainstorm, reorganize notes, or clean up prose after doing the underlying thinking is different from using AI to produce a draft that the rest of the team must verify, rewrite, or repair.
 
-This matters for CATME because peer evaluation is based on **observable contribution, communication, accountability, and quality control**. AI does not remove those responsibilities. In fact, it can sharpen them:
+Peer evaluation is based on **observable contribution, communication, accountability, and quality control**. AI does not remove those responsibilities. When you share work with your team, you are expected to:
 
-- **Contributing to the Team's Work:** Did the teammate actually advance the work, or did they hand the team something unverified that created more cleanup for others?
-- **Interacting with Teammates:** Did they disclose their AI use honestly and communicate what still needed checking?
-- **Keeping the Team on Track:** Did AI help them meet deadlines responsibly, or did it create hidden risks late in the process?
-- **Expecting Quality:** Did they verify claims, references, and reasoning before sharing work with the team?
-- **Having Relevant Knowledge/Skills:** Did they use AI as a support tool while still applying their own judgment and expertise?
+- **Advance the work, not create cleanup.** Verify claims, references, and reasoning before sharing. Do not hand the team unverified output that others must fix.
+- **Disclose AI use honestly.** Tell teammates what you used AI for and what still needs human checking.
+- **Meet deadlines responsibly.** AI should help you manage time, not create last-minute surprises or hidden risks.
+- **Apply your own judgment.** Use AI as a support tool, not a replacement for your expertise and critical thinking.
 
-The goal is not to ban AI in team work. The goal is to prevent AI from becoming a source of hidden labor, unequal contribution, or confusion about authorship and responsibility. This conversation prepares students to think about AI first as a **team science** issue and later, in Modules 2–4, as a writing, peer review, and research ethics issue.
+This course does not ban AI in teamwork. The goal is to prevent AI from becoming a source of hidden labor, unequal contribution, or confusion about authorship and responsibility. You will revisit these questions in later modules as writing, peer review, and research ethics issues.
 
 ### How We'll Use CATME This Semester
 
