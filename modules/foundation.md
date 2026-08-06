@@ -67,8 +67,9 @@ For a class of approximately 25 students, this means about eight teams, with one
 
 ---
 
-<details markdown="1">
-<summary><strong id="lecture-1">Lecture 1: CATME & Peer Evaluation</strong></summary>
+<details>
+<summary id="lecture-1" markdown="0"><strong>Lecture 1: CATME & Peer Evaluation</strong></summary>
+<div markdown="1">
 
 This lecture introduces CATME as both a practical tool you'll use this semester and a window into how peer accountability works in professional research teams.
 
@@ -200,12 +201,14 @@ Before applying a substantial downward adjustment—or when the underlying CATME
 
 Complete **CATME Rater Practice during class** and submit the feedback/Charter-norm exit ticket before leaving. If a technical problem prevents completion, notify the instructor and finish within the arranged window. Evaluation 1 opens after Module 1 ends on September 14.
 
+</div>
 </details>
 
 ---
 
-<details markdown="1">
-<summary><strong id="lecture-2">Lecture 2: Team Formation & Shared Standards</strong></summary>
+<details>
+<summary id="lecture-2" markdown="0"><strong>Lecture 2: Team Formation & Shared Standards</strong></summary>
+<div markdown="1">
 
 **Case Study: Apollo 13 (April 1970)** — An oxygen tank in the service module failed about 56 hours into the mission. The crew, Mission Control, contractors, and support teams had to preserve power and consumables, adapt the lunar module as a lifeboat, improvise a carbon-dioxide removal solution, and plan a safe return. The three astronauts returned on April 17. The case is useful because the response depended on role clarity, specialized expertise, disciplined communication, simulation, and coordination across organizational boundaries. It is not a model of a newly formed student team: Mission Control was a mature, trained, hierarchical system with extensive infrastructure. See NASA's [Apollo 13 mission overview](https://www.nasa.gov/mission/apollo-13/).
 
@@ -236,12 +239,14 @@ Approximately five minutes remain distributed across transitions and discussion.
 
 **Team Charter core draft** — Drafted in class and completed before Lecture 3. The core is a maximum of two pages and contains the elements above. Each procedure must identify the trigger, responsible person, action, timeframe, and escalation or revision route. Appendices are added in Lectures 3–5.
 
+</div>
 </details>
 
 ---
 
-<details markdown="1">
-<summary><strong id="lecture-3">Lecture 3: When the Tools Change the Work</strong></summary>
+<details>
+<summary id="lecture-3" markdown="0"><strong>Lecture 3: When the Tools Change the Work</strong></summary>
+<div markdown="1">
 
 **Case Study: The *Frontiers* Retracted Figure (February 2024)** — A review article published on February 13 contained disclosed Midjourney-generated figures with impossible anatomy and nonsense labels. According to *Frontiers*, one reviewer had raised valid concerns about the figures and requested revisions; the authors did not respond to those requests, yet the article proceeded to publication. *Frontiers* retracted it on February 16 and investigated why its process had failed to act. The case is therefore not simply “AI made an image and no one noticed.” A warning existed, but the workflow did not ensure that it was resolved before publication.
 
@@ -280,12 +285,14 @@ Tool decisions are team governance decisions. Teams can make those decisions imp
 
 The skills-and-limits inventory in Lecture 4 presupposes infrastructure for sharing knowledge, tracking decisions, and making cross-disciplinary discussion legible. Lecture 3 establishes that infrastructure; Lecture 4 then adds people, terminology, learning, and integration procedures to it.
 
+</div>
 </details>
 
 ---
 
-<details markdown="1">
-<summary><strong id="lecture-4">Lecture 4: Cross-Disciplinary Communication</strong></summary>
+<details>
+<summary id="lecture-4" markdown="0"><strong>Lecture 4: Cross-Disciplinary Communication</strong></summary>
+<div markdown="1">
 
 **Case Study: AlphaFold (2018–2024)** — AlphaFold's first system led the CASP13 blind assessment decisively: it produced high-accuracy structures for 24 of 43 free-modelling domains, compared with 14 for the next method. AlphaFold 2 was then described by its authors as an “entirely redesigned” and “completely different” model. Its architecture coupled evolutionary, geometric, physical, biological, and machine-learning ideas; DeepMind and EMBL-EBI later collaborated to turn predictions into a public database. These products document interdisciplinary integration, but the cited public record does not establish presumed internal debates, reorganizations, “near failures,” or negotiations with funders. Those must not be narrated as facts.
 
@@ -314,12 +321,14 @@ The 2024 Nobel Prize in Chemistry also provides a useful credit distinction: one
 
 **Team Charter Appendix B: Skills & Integration** — Completed before Lecture 5. It includes the two-sentence vision, member skills and limits, backups, shared glossary, cross-disciplinary learning commitment, integration point, and discussion norm.
 
+</div>
 </details>
 
 ---
 
-<details markdown="1">
-<summary><strong id="lecture-5">Lecture 5: Credit, Conflict & Accountability</strong></summary>
+<details>
+<summary id="lecture-5" markdown="0"><strong>Lecture 5: Credit, Conflict & Accountability</strong></summary>
+<div markdown="1">
 
 **Paired Case Studies: The Same Scientist in Two Different Collaborations**
 
@@ -360,12 +369,14 @@ John Bardeen contributed to both the transistor work at Bell Labs and BCS theory
 
 This lecture introduces early conversation and record-keeping. Module 4 returns to the ethical and policy questions: author eligibility and order, CRediT roles, accountability, honorary and ghost authorship, power, disputes, AI assistance, patent inventorship, ownership, and intellectual property. “Author,” “contributor,” “inventor,” “owner,” “rightsholder,” and “prize recipient” are not interchangeable categories.
 
+</div>
 </details>
 
 ---
 
-<details markdown="1">
-<summary><strong id="lecture-6">Lecture 6: Trust Under Pressure</strong></summary>
+<details>
+<summary id="lecture-6" markdown="0"><strong>Lecture 6: Trust Under Pressure</strong></summary>
+<div markdown="1">
 
 **Paired Case Studies: When Trust Holds Under Pressure, and When It Breaks**
 
@@ -403,6 +414,7 @@ The cases are deliberately contrasting, but not moral mirror images. Challenger 
 
 **Final Team Charter package** (due September 14) — The two-page core, Appendices A–C, version history, and all-member review/sign-off. A signature indicates that the member reviewed the package and can raise future revisions; it does not waive the right to dissent or report a concern.
 
+</div>
 </details>
 
 ---
