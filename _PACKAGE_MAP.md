@@ -43,18 +43,21 @@ Bioinspired-Communication-Ethics/
 │   ├── paper.md                       ← Module 3: Scientific Writing (/modules/paper/)
 │   └── ethics.md                      ← Module 4: Research Ethics (/modules/ethics/)
 │
-├── case-studies/                       ← Source-linked Module 1 case pages
-│   ├── case-apollo-13.md
-│   ├── case-frontiers-retraction.md
-│   ├── case-alphafold.md
-│   ├── case-transistor-bcs.md
-│   ├── case-challenger.md
-│   └── case-biontech-pfizer.md
+├── case-studies/                       ← Source-linked documented cases by module
+│   └── module-1/
+│       ├── case-apollo-13.md
+│       ├── case-frontiers-retraction.md
+│       ├── case-alphafold.md
+│       ├── case-transistor-bcs.md
+│       ├── case-challenger.md
+│       └── case-biontech-pfizer.md
 │
-├── scenarios/                          ← Explicitly constructed teaching cases
-│   ├── scenario-free-rider.md
-│   ├── module-1-microcases.md
-│   └── module-2-microcases.md
+├── scenarios/                          ← Explicitly constructed teaching cases by module
+│   ├── module-1/
+│   │   ├── scenario-free-rider.md
+│   │   └── module-1-microcases.md
+│   └── module-2/
+│       └── module-2-microcases.md
 │
 └── presentations/                     ← Standalone HTML slide decks
     ├── Project_summary_tips.html      (21 KB)
@@ -71,6 +74,8 @@ Bioinspired-Communication-Ethics/
     ├── professor_advice_slides.html   (13 KB)
     └── proposal_resources_slides.html (20 KB)
 ```
+
+Case and scenario source files are grouped by instructional module. Their explicit front-matter permalinks preserve the existing public website URLs, so this repository reorganization does not hide pages or break bookmarked links.
 
 **Summary counts (August 6, 2026 core published tree; uploaded readings and working review documents excluded):**
 - Markdown course/site source files: **18**
@@ -107,15 +112,15 @@ Bioinspired-Communication-Ethics/
 
 | File | Live URL | Role |
 |---|---|---|
-| `case-studies/case-apollo-13.md` | `/case-studies/case-apollo-13/` | Roles, trust, verification, redundancy, and transfer limits |
-| `case-studies/case-frontiers-retraction.md` | `/case-studies/case-frontiers-retraction/` | AI disclosure, an unresolved reviewer warning, and workflow control |
-| `case-studies/case-alphafold.md` | `/case-studies/case-alphafold/` | Interdisciplinary integration with documented-fact/inference separation |
-| `case-studies/case-transistor-bcs.md` | `/case-studies/case-transistor-bcs/` | Paired contribution, authorship, inventorship, ownership, and recognition records |
-| `case-studies/case-challenger.md` | `/case-studies/case-challenger/` | Dissent, authority, escalation, and outcome-bias analysis |
-| `case-studies/case-biontech-pfizer.md` | `/case-studies/case-biontech-pfizer/` | Staged trust, asymmetric capabilities, and retained safeguards |
-| `scenarios/scenario-free-rider.md` | `/scenarios/scenario-free-rider/` | Composite CATME evidence and indirect-communication scenario |
-| `scenarios/module-1-microcases.md` | `/scenarios/module-1-microcases/` | Six fictional Charter stress tests with facilitation notes |
-| `scenarios/module-2-microcases.md` | `/scenarios/module-2-microcases/` | Two fictional proposal-review decisions on confidential AI use, preliminary evidence, and prestige proxies |
+| `case-studies/module-1/case-apollo-13.md` | `/case-studies/case-apollo-13/` | Roles, trust, verification, redundancy, and transfer limits |
+| `case-studies/module-1/case-frontiers-retraction.md` | `/case-studies/case-frontiers-retraction/` | AI disclosure, an unresolved reviewer warning, and workflow control |
+| `case-studies/module-1/case-alphafold.md` | `/case-studies/case-alphafold/` | Interdisciplinary integration with documented-fact/inference separation |
+| `case-studies/module-1/case-transistor-bcs.md` | `/case-studies/case-transistor-bcs/` | Paired contribution, authorship, inventorship, ownership, and recognition records |
+| `case-studies/module-1/case-challenger.md` | `/case-studies/case-challenger/` | Dissent, authority, escalation, and outcome-bias analysis |
+| `case-studies/module-1/case-biontech-pfizer.md` | `/case-studies/case-biontech-pfizer/` | Staged trust, asymmetric capabilities, and retained safeguards |
+| `scenarios/module-1/scenario-free-rider.md` | `/scenarios/scenario-free-rider/` | Composite CATME evidence and indirect-communication scenario |
+| `scenarios/module-1/module-1-microcases.md` | `/scenarios/module-1-microcases/` | Six fictional Charter stress tests with facilitation notes |
+| `scenarios/module-2/module-2-microcases.md` | `/scenarios/module-2-microcases/` | Two fictional proposal-review decisions on confidential AI use, preliminary evidence, and prestige proxies |
 
 ### Presentation Slide Decks (`presentations/`)
 
