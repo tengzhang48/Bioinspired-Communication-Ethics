@@ -38,13 +38,13 @@ permalink: /schedule/
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 1 | Mon, Aug 24 | [CATME & Peer Evaluation](../modules/foundation/#lecture-1) | CATME walkthrough; rater practice; feedback writing workshop | CATME Rater Practice |
-| 2 | Wed, Aug 26 | [Team Formation & Shared Standards](../modules/foundation/#lecture-2) | Apollo 13 case; team ice-breaker; "unit conversion" exercise | Team Charter Draft |
-| 3 | Mon, Aug 31 | [When the Tools Change the Work](../modules/foundation/#lecture-3) | *Frontiers* retraction case; team tool audit; AI detection data; verification protocol; Team Charter tooling section | |
-| 4 | Wed, Sep 2 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-4) | AlphaFold case; skills inventory; "translation" exercise | Skills Inventory |
-| 5 | Wed, Sep 9 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-5) | Transistor + BCS Theory cases; CATME midterm reflection; contribution plan | Contribution Plan |
+| 1 | Mon, Aug 24 | [CATME & Peer Evaluation](../modules/foundation/#lecture-1) | CATME walkthrough and rater practice; free-rider and AI-labor microcases; SBIF feedback role-play | Rater Practice + exit ticket |
+| 2 | Wed, Aug 26 | [Team Formation & Shared Standards](../modules/foundation/#lecture-2) | Apollo 13 case; team interviews; “unit conversion” and deadline-error microcases; core Charter drafting | Team Charter core draft |
+| 3 | Mon, Aug 31 | [When the Tools Change the Work](../modules/foundation/#lecture-3) | *Frontiers* workflow reconstruction; tool/labor audit; inaccessible-workspace microcase; verification protocol | Charter Appendix A: Tooling & Verification |
+| 4 | Wed, Sep 2 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-4) | AlphaFold evidence/inference audit; skills and limits; shared glossary; integration mapping | Charter Appendix B: Skills & Integration |
+| 5 | Wed, Sep 9 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-5) | Transistor + BCS evidence jigsaw; two-first-authors microcase; conflict protocol; contribution planning | Charter Appendix C: Contribution & Credit |
 | | Mon, Sep 7 | **NO CLASS** | *Labor Day* | |
-| 6 | Mon, Sep 14 | [Trust Under Pressure](../modules/foundation/#lecture-6) | Challenger + COVID vaccine cases; HGP framing parable; open-science activity; final charter revision | **Final Team Charter** |
+| 6 | Mon, Sep 14 | [Trust Under Pressure](../modules/foundation/#lecture-6) | Challenger + BioNTech/Pfizer decision maps; outcome-bias check; network map; Charter stress test | **Final Team Charter package** |
 
 ---
 
@@ -89,7 +89,7 @@ permalink: /schedule/
 | | Wed, Nov 25 | **NO CLASS** | *Thanksgiving Break* | |
 | 25 | Mon, Nov 30 | [Artificial Intelligence in Research](../modules/ethics/#session-5) | Ghostwriting problem; AI bias; detection paradox; regulatory frameworks debate | |
 | 26 | Wed, Dec 2 | [Authorship & Credit](../modules/ethics/#session-6) | ICMJE criteria; CRediT taxonomy; authorship scenarios; AI authorship exercise | |
-| 27 | Mon, Dec 7 | [Intellectual Property & Data Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent dispute (revisited from Session 6); data sharing dilemma; course wrap-up | |
+| 27 | Mon, Dec 7 | [Intellectual Property & Data Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent dispute; data sharing dilemma; course wrap-up | |
 
 **Final Team Project (Technology & Responsibility Report) due: Tuesday, December 15**
 
@@ -99,7 +99,7 @@ permalink: /schedule/
 
 | Date | Assignment | Module |
 |------|------------|--------|
-| **Sep 14** | Final Team Charter | Module 1 |
+| **Sep 14** | Final Team Charter package | Module 1 |
 | **Sep 21** | Challenge/Objectives Draft | Module 2 |
 | **Sep 23** | Revised Challenge/Objectives | Module 2 |
 | **Oct 5** | Panel Summary | Module 2 |

@@ -66,7 +66,7 @@ The course is organized into four modules taught sequentially. Each module page 
 
 ### Module 1: Foundations of Teamwork (6 sessions)
 {: .module-header}
-**Focus:** Team formation, CATME peer evaluation, cross-disciplinary collaboration, and the dynamics of effective research teams — grounded in real case studies (Apollo 13, AlphaFold, Transistor + BCS Theory, Challenger + COVID vaccine, Human Genome Project).
+**Focus:** Team formation, CATME peer evaluation, cross-disciplinary collaboration, tooling and verification, contribution planning, and trust under pressure—grounded in the Field Guide, documented cases (Apollo 13, the *Frontiers* retraction, AlphaFold, transistor + BCS theory, Challenger, and BioNTech/Pfizer), and short decision scenarios.
 
 → [Module 1 Details](../modules/foundation/)
 
@@ -106,7 +106,7 @@ Grading is based on a combination of individual and team assessments, designed t
 
 ### CATME Peer Evaluation & Grade Adjustment
 
-The final CATME evaluation produces a grade multiplier (0.85–1.05) applied to team project scores. Only the end-of-semester evaluation affects grades; earlier evaluations are purely formative. See [Module 1](../modules/foundation/) for full details on the CATME system, rating guidelines, and the multiplier calculation.
+The final CATME evaluation produces a grade multiplier (0.85–1.05) applied to team project scores. Only the end-of-semester **ratings** affect grades; earlier ratings are formative, while completing every evaluation remains a separate course responsibility. See [Module 1](../modules/foundation/) for the CATME rating guidelines and review safeguards.
 
 ### Letter Grade Assignment
 
@@ -129,7 +129,7 @@ The final CATME evaluation produces a grade multiplier (0.85–1.05) applied to 
 
 | Assignment | Module | Type | Due |
 |------------|:---:|:---:|------|
-| Team Charter (iterative: draft → revision → final) | 1 | Team | Weeks 1–3 |
+| Team Charter package (iterative core + three appendices + final stress test) | 1 | Team | Aug 24–Sep 14 |
 | Challenge Statement & Research Objectives | 2 | Individual | Weeks 4–5 |
 | GCR Team Proposal | 2 | Team | Week 8 |
 | Writing Portfolio (iterative: 6 milestones) | 3 | Team | Weeks 8–12 |
@@ -145,7 +145,7 @@ Active participation is essential. This course relies heavily on in-class activi
 
 ### Late Work
 
-Assignments are due by the posted deadline on Blackboard. Late submissions receive a 10% deduction per day unless an extension is arranged in advance. CATME evaluations have a strict deadline — late submissions receive a 5-point deduction on the associated project grade because teammates' grade adjustments cannot be calculated until all evaluations are submitted.
+Assignments are due by the posted deadline on Blackboard. Late submissions receive a 10% deduction per day unless an extension is arranged in advance. CATME evaluations have a strict deadline: unless an extension is arranged, late completion receives a 5-point deduction on the associated project grade. This is a completion consequence, separate from the ratings given or received.
 
 ### Academic Integrity
 
@@ -155,7 +155,7 @@ Students are expected to uphold the highest standards of academic integrity in a
 
 AI tools (ChatGPT, Claude, etc.) may be used as writing aids for brainstorming, structural feedback, and grammar checking. However:
 - AI-generated content must be disclosed when used in any assignment
-- AI may not be used to generate citations or references (as demonstrated in Module 3, AI fabricates these)
+- AI output is not an acceptable source record for a citation. Every cited work must be independently located, read, and verified against the original source; fabricated or misattributed references violate academic-integrity expectations.
 - AI may not be used as a substitute for completing readings or engaging with course materials
 - The Technology & Responsibility Report must reflect your team's original analysis and reasoning
 

@@ -1,4 +1,10 @@
-# Scenario: Mid-Semester, Three Weeks In
+---
+layout: page
+title: "Scenario: Mid-Project, Four Weeks In"
+permalink: /scenarios/scenario-free-rider/
+---
+
+# Scenario: Mid-Project, Four Weeks In
 
 *A constructed scenario for discussion. The names are fictional; the dynamic is composite — assembled from patterns common in graduate team projects, not drawn from any single real case.*
 
@@ -24,7 +30,7 @@ It is Sunday evening. **Jordan** has just texted **Sam**: *"We need to talk abou
 
 2. **CATME's five dimensions** — Contributing to the Team's Work, Interacting with Teammates, Keeping the Team on Track, Expecting Quality, and Having Relevant Knowledge/Skills — walk through how Alex might be rated on each based only on what is in this scenario. Do all five dimensions point in the same direction? If not, what does that tell you?
 
-3. **Jordan's text proposes a private conversation between two teammates about a third.** Field Guide Ch. 11 ("One Bad Apple") has guidance on this kind of move. What does the chapter recommend, and what does this scenario make harder than the chapter suggests?
+3. **Jordan's text proposes a private conversation between two teammates about a third.** Compare this move with Field Guide Case Study 23 and Chapter 11's “When It's Not Working” indicators concerning indirect communication, side conversations, and gossip. Which ideas apply directly, which require interpretation, and what additional information would you need?
 
 4. **If you were Sam, what would you reply to Jordan?** What would you say to Alex? What's the difference between those two conversations, and why does the order matter?
 

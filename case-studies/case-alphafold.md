@@ -1,83 +1,111 @@
+---
+layout: page
+title: "Case Study: AlphaFold"
+permalink: /case-studies/case-alphafold/
+---
+
 # Case Study: AlphaFold
 
-**DeepMind, London, 2016–2024 | A small interdisciplinary team, two failed years between a narrow win and a transformative result, and a 2024 Nobel Prize in Chemistry.**
+**DeepMind / Google DeepMind, London, 2018–2024 | A major result, a substantially redesigned system, interdisciplinary knowledge expressed in a technical architecture, and the difference between team achievement and individual recognition.**
 
 ---
 
-*A note before reading: AlphaFold is usually told as a success story — DeepMind built a small interdisciplinary team, the team won the Nobel Prize, the lesson is "genuine integration matters." That summary is correct but not very useful for learning. The actual record contains three tensions that explain how the integration actually worked: an early failure that forced the team to start over, a sustained internal debate about what "integration" should mean, and a post-release set of conflicts with parts of the community the work was supposed to serve. This brief foregrounds those tensions rather than the success.*
+*Evidence note: Public sources document AlphaFold's results, architectures, author contributions, database partnership, and Nobel recognition. They provide much less evidence about the team's internal deliberations. This case therefore distinguishes documented events from teaching inferences. It does not treat presumed debates, reorganizations, or negotiations with funders as facts.*
 
 ---
 
 ## Setting
 
-The protein folding problem — predicting a protein's three-dimensional structure from its amino acid sequence — had been recognized as central to molecular biology since at least the 1960s. By the mid-2010s, fifty years of effort had produced incremental progress but no general solution. The biennial Critical Assessment of Protein Structure Prediction (CASP) competition, which had run since 1994, served as the field's shared benchmark.
+Predicting a protein's three-dimensional structure from its amino-acid sequence has been a central problem in molecular biology for decades. Since 1994, the biennial Critical Assessment of Structure Prediction (CASP) has tested methods against structures that have been determined experimentally but not yet released publicly. This blind assessment gives researchers a shared benchmark.
 
-DeepMind, a London-based AI research company acquired by Google in 2014, began serious work on the protein folding problem around 2016. The decision to enter the field was unusual. DeepMind's prior public successes had been in game-playing systems (AlphaGo defeated Lee Sedol in March 2016), and the move into computational biology was an institutional risk: a domain where success would require deep collaboration with structural biologists, none of whom were on the original team.
+DeepMind (now Google DeepMind) entered CASP13 in 2018. The work brought machine learning into contact with concepts and evidence from structural biology, physics, evolutionary analysis, and software engineering. That combination makes AlphaFold useful for studying interdisciplinary integration, even though public publications do not reveal every detail of how the team collaborated internally.
 
-The first AlphaFold team was assembled in 2017–2018. It included machine learning researchers, computational biologists, and software engineers. The team entered the CASP13 competition in late 2018.
+## CASP13: A Decisive Result, Not a Narrow Win
 
-## The First Win and the Decision to Start Over
+The first AlphaFold system performed substantially better than other methods in CASP13. It produced high-accuracy structures—defined in the paper as a template-modelling score of at least 0.7—for **24 of 43 free-modelling domains**. The next-best method did so for **14 of 43**. The team subsequently described the method in *Nature* (Senior et al., 2020).
 
-AlphaFold 1 won CASP13. Its scores were the best ever recorded in the competition. The team published the system in *Nature* in early 2020 (Senior et al., "Improved protein structure prediction using potentials from deep learning").
+AlphaFold 1 predicted distributions of distances between pairs of residues and used the resulting potential to generate structures through optimization. It was a major advance, but it did not end the protein-structure prediction problem. The more important teamwork question is therefore not why a “failure” was abandoned. It is how a team decides what a strong benchmark result does—and does not—demonstrate.
 
-In CASP terms, the team had succeeded. In biological terms, they had not. AlphaFold 1's predictions were better than competing methods but were still not accurate enough to substitute for experimental structures. The narrow win revealed the gap between "best in competition" and "useful for biology."
+## From AlphaFold 1 to an Entirely Redesigned Model
 
-What happened next is the first tension worth understanding. The team's response was not to iterate on the AlphaFold 1 architecture. They effectively abandoned it.
+The AlphaFold 2 paper calls the CASP14 system an “entirely redesigned” version of AlphaFold and a “completely different model” from the CASP13 system. That documented architectural change is significant. It does **not**, by itself, establish that the team experienced two failed years, abandoned the earlier system immediately, underwent repeated reorganizations, or had to persuade a reluctant corporate funder. Those claims require evidence not supplied by the papers and official accounts cited here.
 
-The decision to start over cost roughly two years. It required keeping a corporate funder convinced that the team that had just won the field's premier competition should not extend that success but rather rebuild from scratch. Most teams in this position iterate. Iterating is safer, faster, and easier to justify to leadership. This team chose the harder path.
+AlphaFold 2 represented multiple-sequence alignments and pairwise residue relationships within an **Evoformer** network. A structure module then produced three-dimensional coordinates, and information was recycled through the network to refine the prediction. The authors describe the approach as incorporating physical and biological knowledge about protein structure while using multiple-sequence alignments and machine learning.
 
-The redesigned system, AlphaFold 2, used a fundamentally different architecture — the "evoformer" module, which treated multiple sequence alignments and pairwise residue relationships as primary objects of computation, and a structure module that built three-dimensional coordinates iteratively. The architectural decisions reflected a different theory about what made protein folding hard, not just a refinement of the original theory.
+This transition supports a careful inference: the team revised its technical account of the problem rather than merely scaling the original architecture. How authority, disagreement, or disciplinary learning contributed to that revision remains an appropriate subject for analysis, but not a settled part of the historical record.
 
-## What "Integration" Actually Meant
+## What Can We Say About Integration?
 
-The popular framing of AlphaFold's success is that the team "built biological knowledge into the architecture." This is a *conclusion*, not a description of how it happened. The actual integration was harder.
+AlphaFold 2 provides direct evidence of integration in the **research product**:
 
-Early in the project, there were sustained internal debates about the appropriate division of labor between disciplines. One framing held that biologists should provide constraints — knowledge of bond angles, common motifs, evolutionary conservation patterns — and ML researchers should incorporate those constraints into the network. Under this framing, biologists were domain experts whose knowledge was an input to the ML team's work.
+- evolutionary relationships in multiple-sequence alignments and residue-pair representations interact throughout the Evoformer;
+- geometric reasoning is built into the structure module rather than added only after prediction;
+- the published work combines model design, protein-structure knowledge, engineering, evaluation, and scientific interpretation; and
+- the papers identify many contributors and differentiate roles in their author-contribution statements.
 
-The team's eventual approach was different. The architectural choices that distinguished AlphaFold 2 — the evoformer's treatment of multiple sequence alignments, the iterative structure module's enforcement of physical plausibility — required ML researchers to develop biological intuition, not merely to implement biologists' constraints. ML researchers had to internalize *why* certain configurations were physically meaningful, not just *which* ones were. Biologists, in turn, had to develop comfort with neural network architecture decisions that they could not fully evaluate on their own.
+These facts show that biological, physical, and computational ideas were coupled in the system. They do not reveal exactly how individual biologists, machine-learning researchers, or engineers negotiated their roles. Nor do they prove that every contributor acquired equal fluency in the other disciplines.
 
-This kind of integration is what makes AlphaFold pedagogically distinctive. "Genuine integration" is not communication across disciplines. It is each discipline developing intuition for the other.
+For this course, the distinction matters. **Integration visible in an output is evidence that coordination occurred, but it is not a complete record of the team's process.** Students can use the Field Guide to propose the processes that might support such work—shared goals, clarified roles, psychologically safe challenge, boundary spanning, and repeated translation—while labeling those proposals as evidence-based interpretations rather than AlphaFold history.
 
-The team had to reorganize the integration question multiple times before landing on this answer. Earlier configurations of the team had treated ML and biology as more separable. Each reorganization required some team members to do work that, in their disciplinary training, they had not been prepared to do. There is little public record of how this happened internally — corporate research environments do not typically document team restructurings — but the architectural transition from AlphaFold 1 to AlphaFold 2 makes the underlying process visible.
+### Evidence and inference
 
-## CASP14 and the AlphaFold Database
+| Claim | Status for this case |
+|---|---|
+| AlphaFold led CASP13 by 24 of 43 high-accuracy free-modelling domains to 14 of 43 for the next method. | Documented in Senior et al. |
+| The CASP14 system was entirely redesigned and completely different from the CASP13 model. | Documented in Jumper et al. |
+| The AlphaFold 2 architecture combines biological, physical, and machine-learning ideas. | Documented in Jumper et al. |
+| The redesign probably required contributors to revisit assumptions and coordinate across areas of expertise. | Reasonable teaching inference; internal process is not documented in the cited sources. |
+| The team held sustained disciplinary debates, reorganized repeatedly, or negotiated continued funding. | Not established by the cited sources; do not present as fact. |
 
-AlphaFold 2 entered CASP14 in late 2020. The performance was unprecedented. For many target proteins, predictions were within experimental error of the gold-standard structures determined by X-ray crystallography or cryo-electron microscopy. The team published the system in *Nature* in July 2021 (Jumper et al., "Highly accurate protein structure prediction with AlphaFold").
+## CASP14 and Translation into Shared Infrastructure
 
-A second paper that month announced the AlphaFold Protein Structure Database, developed in partnership with EMBL-EBI. The initial release contained 350,000 predicted structures covering the human proteome and twenty model organisms. By 2022, the database had expanded to over 200 million predicted structures, covering essentially every cataloged protein. Access was free.
+AlphaFold 2 entered CASP14 in 2020. Its structures had a median backbone accuracy of 0.96 Å RMSD95 across CASP domains, compared with 2.8 Å for the next-best method. The authors reported accuracy competitive with experimental structures in a majority of cases. The method was published in *Nature* in July 2021 (Jumper et al.).
 
-## Tensions With the Experimental Community
+In the same month, DeepMind and the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI) released the AlphaFold Protein Structure Database. Its initial release contained more than 350,000 predictions, including the human proteome and twenty other organisms. In 2022, it expanded to more than 200 million predictions. The predictions were made freely available.
 
-The third tension worth understanding emerged after the AlphaFold 2 release. The reaction from the experimental structural biology community was mixed and, in places, sharp.
+This stage broadens the collaboration case. Producing a high-performing model and sustaining a usable scientific resource are different forms of work. EMBL-EBI contributed expertise in organizing, linking, presenting, and maintaining biological data. The partnership illustrates how a research result becomes shared infrastructure through collaboration with an institution whose expertise and responsibilities differ from those of the model-development team.
 
-Some welcomed AlphaFold as a transformative tool. Others raised concerns about what it would do to funding for X-ray crystallography and cryo-EM facilities — which were expensive to maintain and whose primary scientific output was now potentially obtainable from a freely available computational system. Some structural biologists expressed concern that journals were applying different review standards to AlphaFold-derived papers than to experimental papers.
+## Limits and Responsibilities
 
-The DeepMind team's response included a series of published cautions about appropriate use. AlphaFold 2's predictions are less reliable for membrane proteins, for protein dynamics rather than static structures, for disordered regions, and for ligand-bound states. The team was relatively quick to publish these limitations and to engage with the experimental community on appropriate use cases. This engagement did not resolve the tensions but kept them within the bounds of normal scientific debate rather than allowing them to become a public conflict.
+AlphaFold predictions are models with varying confidence, not experimental observations. The AlphaFold Database advises users to interpret them carefully. Among the documented limitations of AlphaFold 2 are that it:
 
-The teamwork question this raised — how does a team handle its relationship with the broader research community when its work threatens parts of that community? — is not a question Field Guide chapters on internal team dynamics directly address. But it is real.
+- generally provides one conformation rather than representing protein dynamics;
+- gives low-confidence predictions for many intrinsically disordered regions;
+- does not predict non-protein components such as ligands, ions, DNA, or RNA; and
+- was not validated for predicting the structural effects of mutations.
 
-## The Nobel Prize
+These limitations make confidence communication and continued interaction with experimental research important. The cited record does not, however, establish a broad conflict between the AlphaFold team and structural biologists, a threat to facility funding, or different journal-review standards for AlphaFold-derived studies. Those may be useful stakeholder scenarios to investigate with additional sources, but they should not be stated as events in this case.
 
-The 2024 Nobel Prize in Chemistry was awarded jointly. Half went to David Baker (University of Washington) for computational protein design, work that developed in parallel to AlphaFold and produced the contemporary RoseTTAFold system. The other half went jointly to Demis Hassabis (DeepMind's CEO) and John Jumper (the scientific lead of AlphaFold 2) for protein structure prediction.
+A defensible teaching question is prospective: **when a computational tool changes an experimental workflow, how should its developers involve the researchers who will test, use, and sometimes be affected by it?** The database partnership, confidence measures, open predictions, and published limitations provide concrete material for discussing that question.
 
-The award structure itself reflects the cross-disciplinary nature of the work: a chemistry prize given to a computer scientist (Hassabis) and a chemist (Jumper) for work that depended on machine learning, and shared with a biochemist (Baker) whose lab produced parallel results.
+## Nobel Recognition and Team Credit
+
+The **2024 Nobel Prize in Chemistry was awarded to three named individuals**, not to the AlphaFold team. One half went to **David Baker** “for computational protein design.” The other half went jointly to **Demis Hassabis and John Jumper** “for protein structure prediction.”
+
+The distinction is useful for a course that introduces authorship and credit. The AlphaFold papers list many authors and detailed contributions; the database also depended on an institutional partnership. The Nobel Prize applied a different recognition system and selected three individuals. Comparing those systems can prompt discussion of how teams document contributions, how external awards simplify collective work, and why authorship, contribution, leadership, and prizes should not be treated as equivalent.
 
 ## Discussion Questions
 
-1. **The decision to start over.** AlphaFold 1 won CASP13. Most teams would have iterated. This team rebuilt from scratch — at a cost of roughly two years and the requirement to keep a corporate funder convinced. What conditions allow a team to make this kind of decision? Specifically, what does the team have to share — in terms of vision, trust, and authority — for "abandon what just succeeded" to be a viable choice?
+1. **Interpreting success.** AlphaFold 1 led CASP13 decisively, but AlphaFold 2 used a completely different model. What evidence should an interdisciplinary team use to decide whether a benchmark success validates its approach or reveals the need for a new one?
 
-2. **What integration required.** The popular framing — "they built biological knowledge into the architecture" — describes an outcome, not a process. The actual integration required ML researchers to develop biological intuition and biologists to develop comfort with neural network architecture decisions. **What does this kind of integration demand from individual team members that ordinary cross-disciplinary communication does not?** What would it require of you, given your discipline?
+2. **Integration in the architecture.** Where can you see biological, physical, and machine-learning ideas interacting in AlphaFold 2? Which parts demonstrate integration rather than the simple handoff of one discipline's requirements to another?
 
-3. **Reorganization as a sign of progress.** The team reorganized its disciplinary integration multiple times before landing on the AlphaFold 2 approach. Most academic teams treat reorganization as a sign of dysfunction. When is reorganization actually a sign that the team is doing the integration work properly, rather than a sign that something is wrong?
+3. **From evidence to process.** The public record documents the architectural redesign but not the internal deliberations that produced it. Using the Field Guide, propose two team processes that could support such a redesign. What evidence would you need before claiming that AlphaFold actually used them?
 
-4. **The community tension.** AlphaFold's release threatened parts of the experimental structural biology community whose funding and methods it potentially displaced. The team responded by publishing limitations and engaging with the community. **What teamwork question does this raise that internal team dynamics do not address?** How would you handle a situation where your team's work, if successful, would harm a community you respect?
+4. **Constructive challenge.** Imagine that your team has just achieved the best result in its field, while some members believe the underlying approach has reached its limit. How would you structure the decision so that status, disciplinary authority, and sunk costs do not determine the outcome?
 
-5. **Compare AlphaFold with a contemporary research effort you know well.** Does the team you have in mind have the conditions that allowed AlphaFold to make the decisions it did? If not, which conditions are missing — and which of those could be built rather than wished for?
+5. **Research product versus infrastructure.** What new roles, agreements, and accountabilities arise when a model-development team partners with an organization such as EMBL-EBI to maintain a public scientific resource?
+
+6. **Credit and recognition.** Compare the author and contribution statements in the two AlphaFold papers with the three individual Nobel laureates. What does each system recognize? What contributions become less visible in the Nobel narrative?
+
+7. **Responsible use.** Choose one documented limitation of AlphaFold 2. How should developers, database maintainers, experimental researchers, journals, and users divide responsibility for preventing overclaiming or misuse?
 
 ## Sources for Further Reading
 
-- Jumper, John, et al. "Highly accurate protein structure prediction with AlphaFold." *Nature* 596 (2021): 583–589. The AlphaFold 2 paper.
-- Senior, Andrew W., et al. "Improved protein structure prediction using potentials from deep learning." *Nature* 577 (2020): 706–710. The AlphaFold 1 paper.
-- Varadi, Mihaly, et al. "AlphaFold Protein Structure Database." *Nucleic Acids Research* 50 (2022): D439–D444. The AlphaFold Database paper.
-- DeepMind. ["AlphaFold: Using AI for scientific discovery."](https://deepmind.google/discover/blog/alphafold-using-ai-for-scientific-discovery-2020/) Public blog post on the team's approach.
-- The Royal Swedish Academy of Sciences. *Scientific Background to the Nobel Prize in Chemistry 2024.* The Academy's technical justification for the prize, including discussion of how AlphaFold relates to David Baker's parallel work.
+- Senior, Andrew W., et al. [“Improved protein structure prediction using potentials from deep learning.”](https://doi.org/10.1038/s41586-019-1923-7) *Nature* 577 (2020): 706–710. Primary source for the AlphaFold 1 method and the CASP13 comparison.
+- Jumper, John, et al. [“Highly accurate protein structure prediction with AlphaFold.”](https://doi.org/10.1038/s41586-021-03819-2) *Nature* 596 (2021): 583–589. Primary source for the AlphaFold 2 architecture, CASP14 performance, limitations, and author contributions.
+- Varadi, Mihaly, et al. [“AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.”](https://doi.org/10.1093/nar/gkab1061) *Nucleic Acids Research* 50 (2022): D439–D444. Primary source for the database partnership and initial release.
+- EMBL-EBI. [“AlphaFold Protein Structure Database: Frequently Asked Questions.”](https://alphafold.ebi.ac.uk/faq) Guidance on confidence, coverage, and limitations. The database changes over time, so current counts may differ from the historical milestones in this case.
+- Google DeepMind. [“AlphaFold: a solution to a 50-year-old grand challenge in biology.”](https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/) Official account of the CASP13-to-CASP14 methods change; useful as an organizational source rather than an independent assessment.
+- The Royal Swedish Academy of Sciences. [“The Nobel Prize in Chemistry 2024: Press release.”](https://www.nobelprize.org/prizes/chemistry/2024/press-release/) Official attribution of the prize to David Baker, Demis Hassabis, and John Jumper.
+- The Royal Swedish Academy of Sciences. [“Scientific Background to the Nobel Prize in Chemistry 2024.”](https://www.nobelprize.org/uploads/2024/10/advanced-chemistryprize2024.pdf) Technical context for the prize.

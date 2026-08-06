@@ -6,9 +6,11 @@ permalink: /modules/foundation/
 
 # Module 1: Foundations of Teamwork
 
-This module builds the skills and frameworks for working in effective, diverse, and interdisciplinary research teams. Through real case studies from science and engineering, you'll learn evidence-based strategies for collaboration, practice peer evaluation with CATME, and develop a Team Charter that addresses the actual challenges interdisciplinary teams face.
+This module builds practical skills for working in diverse, interdisciplinary research teams. Through documented cases, short decision scenarios, CATME peer evaluation, and repeated application to your own team, you will learn strategies informed by research, interviews, workshops, cases, and professional experience. The central product is a living Team Charter that your team will test and revise—not a document written once and forgotten.
 
-**Primary Reference:** Bennett, L.M. & Gadlin, H. *Collaboration and Team Science Field Guide*, NIH.
+**Primary reference:** L. Michelle Bennett, Howard Gadlin, and Christophe Marchand, [*Collaboration and Team Science: A Field Guide*](https://www.cancer.gov/about-nci/organization/crs/research-initiatives/team-science-field-guide/collaboration-team-science-guide.pdf), 2nd ed. (NCI/NIH, 2018).
+
+**Current evidence update:** The Field Guide remains the accessible foundation. Selected contemporary practices are informed by the National Academies' [*The Science and Practice of Team Science*](https://www.ncbi.nlm.nih.gov/books/NBK615760/) (2025) and current NIH intramural guidance. These supplements update rather than replace the Guide.
 
 ---
 
@@ -16,25 +18,34 @@ This module builds the skills and frameworks for working in effective, diverse, 
 
 | # | Lecture | Case Study | Field Guide Ch. | Deliverable |
 |---|--------|------------|:---:|-------------|
-| 1 | [CATME & Peer Evaluation](#lecture-1) | — | — | CATME Rater Practice |
-| 2 | [Team Formation & Shared Standards](#lecture-2) | Apollo 13 | 4–5 | Team Charter Draft |
-| 3 | [When the Tools Change the Work](#lecture-3) | AI detection failure | 7 | Team Charter — extended draft |
-| 4 | [Cross-Disciplinary Communication](#lecture-4) | AlphaFold | 6–7 | Skills Inventory |
-| 5 | [Credit, Conflict & Accountability](#lecture-5) | Transistor + BCS Theory | 8, 10 | Contribution Plan |
-| 6 | [Trust Under Pressure](#lecture-6) | Challenger + COVID Vaccine | 5, 9, 12 | Final Team Charter |
+| 1 | [CATME & Peer Evaluation](#lecture-1) | Free-rider + feedback microcases | 2, 11 (selected pages) | Rater Practice + feedback exit ticket |
+| 2 | [Team Formation & Shared Standards](#lecture-2) | Apollo 13 | 4–5 (selected pages) | Team Charter core draft |
+| 3 | [When the Tools Change the Work](#lecture-3) | *Frontiers* retraction | 4–5 (selected pages) | Tooling & verification appendix |
+| 4 | [Cross-Disciplinary Communication](#lecture-4) | AlphaFold | 6–7, 9 (selected pages) | Skills & integration appendix |
+| 5 | [Credit, Conflict & Accountability](#lecture-5) | Transistor + BCS Theory | 8, 10 + Appendix A | Provisional Contribution & Credit Plan |
+| 6 | [Trust Under Pressure](#lecture-6) | Challenger + BioNTech/Pfizer | 5, 12 | Final Team Charter package |
+
+The short prompts are not additional historical claims. They are explicitly fictional composites collected in [*Module 1 Microcases: Charter Decisions in Practice*]({{ '/scenarios/module-1-microcases/' | relative_url }}), with timing, required outputs, and instructor cautions.
 
 ### 📝 Running Assignments
 
 Two threads build across the module:
 
-**Team Charter (evolves across 3 lectures)**
+**Team Charter (evolves across Lectures 2–6)**
 
 | Lecture | Milestone |
 |:---:|---------------------|
-| 2 | Draft: communication protocols, roles, meeting schedule, problem-raising process |
-| 3 | Extension: tooling decisions (knowledge management, AI use norms, coordination tools, version control) |
-| 4 | Revision: updated with skills inventory and communication needs |
-| 6 | Final: comprehensive document incorporating CATME insights, contribution plan, workflow design, and tooling commitments |
+| 2 | Core draft: purpose, outputs, roles, decision rights, meeting/communication norms, provisional data and credit expectations, concern process |
+| 3 | Appendix A: tooling, records, access, AI disclosure, verification, version control, and fallback procedures |
+| 4 | Appendix B: skills, blind spots, shared terminology, cross-disciplinary learning, and inclusive discussion norms |
+| 5 | Appendix C: provisional contributions, recognition/credit principles, review dates, change contingencies, and dispute process |
+| 6 | Final package: stress-tested core Charter and appendices, version history, all-member review, and sign-off |
+
+**Format:** The final package uses a **two-page core Charter plus structured appendices**. The core contains the norms the team needs during ordinary work; appendices hold the detail needed for tools and verification, skills and integration, and contribution/credit planning. A useful clause identifies a **trigger, responsible person, required action, timeframe, escalation route, and revision rule**. Specific, workable commitments matter more than polished but vague prose.
+
+The Charter is a framework for a working relationship, not a substitute for one. After each formative CATME cycle and major deliverable, teams will conduct a short debrief and revise or reaffirm at least one Charter clause using aggregated patterns—not another member's confidential comments.
+
+**Final quality check:** A complete package (1) includes every required core and appendix element; (2) uses procedures another team could follow without guessing; (3) gives high-consequence integrity or safety concerns a pause, record, response, and escalation route rather than relying only on majority vote; (4) accounts for access, capacity, role visibility, backups, and change; and (5) shows revision through a dated version history. The instructor will state point values and appendix length limits on Blackboard before the assignment begins.
 
 **CATME Peer Evaluation (4 cycles across the semester)**
 
@@ -50,9 +61,9 @@ Two threads build across the module:
 
 ## A Note on Team Size
 
-Research and teaching experience consistently show that **teams of 3** produce the best dynamics in project-based courses. With teams of 4, one person often disengages; with teams of 5, the problem compounds. Three is large enough for genuine collaboration and diverse perspectives but small enough that everyone must contribute — there's nowhere to hide.
+For this course, **teams of three** are used to increase participation, make individual responsibilities visible, and keep coordination manageable. This is a course-design choice, not a claim that three is the universally optimal size for research teams; the Field Guide explicitly covers teams ranging from two-person collaborations to large international networks.
 
-For a class of ~25 students, this means approximately 8 teams of 3 (with one team of 4 if enrollment doesn't divide evenly). Teams stay together for the full semester. Continuity matters: the investment you make in learning to work together pays off only if you stick with it through the difficult middle phase.
+For a class of approximately 25 students, this means about eight teams, with one team of four when enrollment does not divide evenly. Teams normally stay together for the semester so that members can practice repair and revision through the difficult middle phase. The instructor may intervene when safety, accessibility, sustained nonparticipation, or another serious condition makes continuity inappropriate.
 
 ---
 
@@ -63,7 +74,7 @@ This lecture introduces CATME as both a practical tool you'll use this semester 
 
 ### Why Peer Evaluation Matters
 
-The biggest effect of peer evaluation isn't the grade adjustment — it's that you know it's coming. Research consistently shows that the *anticipation* of peer evaluation changes team behavior more than the evaluation itself. When you know your teammates will independently rate you on specific observable behaviors, the social cost of free-riding becomes concrete.
+Peer evaluation makes expectations visible and gives teams a structured way to discuss contribution, interaction, coordination, quality, and relevant expertise. Repeated formative cycles create time to change behavior before the summative evaluation. Peer ratings are still judgments: they can be affected by incomplete visibility, disciplinary expectations, power, and bias. For that reason, ratings and comments must be tied to specific observed behavior and unusual patterns receive instructor review rather than automatic punishment.
 
 ### CATME: How It Works
 
@@ -79,26 +90,35 @@ The biggest effect of peer evaluation isn't the grade adjustment — it's that y
 
 ### The Most Important Thing: Normalize the Middle
 
-> **In a perfectly functioning team, each member is expected to be at the middle description.** Save the higher ratings for teammates who truly exceeded expectations, and the lower ratings for when expectations genuinely were not met.
+> **For this course, a rating of 3 represents meeting the team's stated expectations well.** Save higher ratings for behavior that exceeded those expectations and lower ratings for specific expectations that were not met.
 
-A rating of **3** means: "This person did their job well. They met deadlines, contributed their share, and communicated effectively." That is a **good rating**. It describes a competent, reliable teammate.
+A rating of **3 on a dimension** means the observed behavior most closely matches CATME's Level 3 anchor for that dimension. In course shorthand, the teammate met the relevant expectation well. This is a **good rating**, not a weak one.
 
-A rating of **5** means: "This person did something exceptional — they architected the core approach, resolved a critical problem that stalled the team, or contributed far beyond their share." This should be rare.
+A rating of **5 on a dimension** means the behavior matches that dimension's highest anchor—not simply that the teammate was generally strong or performed one memorable act.
 
-A rating of **1–2** means: "This person's work required others to redo it, or they didn't engage meaningfully." This should also be rare — and if you're giving it, you should leave specific comments explaining why.
+A rating of **1–2 on a dimension** means the behavior matches one of that dimension's lower anchors. If you select it, identify the specific observed behavior and impact in the comments.
 
-**If you rate everyone a 4 or 5, you're not providing useful information.** You're making it impossible for the instructor to identify teams that need help, and you're robbing teammates of honest feedback that could help them grow.
+Ratings are not a forced curve: a team may genuinely perform very well. The important requirement is that the rating match the behavioral anchors and the evidence, not a desire to be generous, punitive, or consistent with everyone else.
 
 ### How to Give Constructive Feedback
 
-CATME allows peer-to-peer comments that are released anonymously to teammates. Good feedback is:
+CATME allows peer-to-peer comments that the instructor releases **without names**. The comments are confidential, but in a team of three the writer may still be inferable from content or style. Write feedback you could stand behind in a respectful conversation.
+
+Use the Field Guide's **Situation–Behavior–Impact–Future (SBIF)** structure:
+
+- **Situation:** Identify when and where the behavior occurred.
+- **Behavior:** Describe an observable action, not a personality judgment or presumed motive.
+- **Impact:** Explain the effect on the work or team.
+- **Future:** Request or propose a concrete next action.
+
+Good feedback is:
 
 - **Specific:** "The literature review section you drafted needed significant restructuring before we could integrate it" — not "needs improvement"
 - **Actionable:** "Starting your portion earlier would give the team time to integrate and revise" — not "be more responsible"
 - **Respectful, especially when critical:** Frame suggestions around improvement, not blame for past actions
 - **About the team when appropriate:** "Our team struggled with starting tasks early enough" is sometimes more constructive than targeting one person
 
-Consider the **compliment sandwich** for written feedback: acknowledge something positive, suggest an area for improvement, and end with encouragement or confidence in future work.
+Receiving feedback is also a team skill. Begin with a sincere “thank you”; ask a clarifying question if needed; and do not immediately rebut, explain, or infer hostile intent. You can reflect and respond later after understanding the observation and impact.
 
 ### AI, Contribution, and Transparency in Teamwork
 
@@ -120,14 +140,14 @@ This course does not ban AI in teamwork. The goal is to prevent AI from becoming
 | Evaluation | Timing | Purpose | Grade Impact |
 |---|---|---|---|
 | **Rater Practice** | Lecture 1 | Learn the system; practice with hypothetical teammates | None |
-| **Evaluation 1** | After Module 1 presentations | Early formative feedback; establish baseline | None — purely feedback |
+| **Evaluation 1** | After Module 1 ends | Early formative feedback; establish baseline | Ratings do not affect grades |
 | **Evaluation 2** | After Module 2 deliverable | Mid-semester check; identify issues while there's time to change | None — purely feedback |
 | **Evaluation 3** | After Module 3 deliverable | Late formative; final chance to adjust | None — purely feedback |
 | **Evaluation 4** | End of semester | Full-semester summative evaluation | **Grade multiplier applied** |
 
-**Why only the final evaluation affects grades:** Early evaluations are about learning and improving — not punishment. If you receive lower ratings early on, that's useful information, not a penalty. The system is designed so you can act on feedback and improve before it matters for your grade.
+**Why only the final evaluation affects grades:** Early ratings are for learning and improvement. A lower early rating is information to investigate, not a grade penalty. Teams have time to discuss patterns, revise one Charter clause, and change behavior before the summative cycle.
 
-**Completion is mandatory.** Every team member must complete each evaluation by the deadline. Late submissions receive a **5-point deduction** on the associated project grade — because your teammates' grade adjustments cannot be calculated until everyone has submitted.
+**Completion is mandatory.** The ratings in Evaluations 1–3 do not adjust grades, but submitting each evaluation is a separate course responsibility. Under the syllabus late-completion policy, a late CATME submission receives a **5-point deduction on the associated project grade** unless an extension was arranged. This is a completion consequence, not a consequence of the ratings given or received.
 
 ### After Each Evaluation: Reflection
 
@@ -141,50 +161,44 @@ These reflections are private (only the instructor sees them) and are designed t
 
 ### CATME Flags
 
-CATME automatically flags unusual rating patterns for the instructor:
-
-- **Under-contributor:** Average rating below 2.5
-- **Over-rater (self):** Self-rating significantly higher than peer ratings (though this flag sometimes identifies a student who genuinely did most of the work — instructor judgment is needed)
-- **Conflict:** Substantial disagreement among raters about a team member
-- **Clique:** Subgroups rating each other high and outsiders low
-
-These flags trigger instructor review and conversation, not automatic penalties.
+CATME can flag patterns such as unusually low contribution ratings, disagreement among raters, self/peer discrepancies, or possible subgroup effects. A flag is a prompt to examine evidence and context; it is not a finding of misconduct or an automatic penalty. Team size, role visibility, workload changes, access needs, bias, and other circumstances may affect a pattern.
 
 ### The Grade Multiplier
 
-The final CATME evaluation produces a grade multiplier applied to team project scores. Here's how it works in practice:
+Only Evaluation 4 produces the course grade multiplier. The applied multiplier is bounded at **0.85–1.05**, matching the syllabus. For this course, self-ratings are excluded from the multiplier; they are used for reflection and discrepancy review.
 
-- **0.95 – 1.05** is the normal range for a functioning team. Most students land here.
-- **1.05** is the maximum bonus — even exceptional contributors get at most a 5% boost.
-- **0.95** means peers rated you slightly below the team average — a minor adjustment.
-- **Below 0.85** triggers an **in-person conversation** with the instructor and all team members before any grade adjustment is applied. No significant penalty is assigned without investigation.
-
-The multiplier **drops self-evaluations** from the calculation. Your grade adjustment is based entirely on how your teammates rated you, not on how you rated yourself.
+Before applying a substantial downward adjustment—or when the underlying CATME pattern would fall below the course floor—the instructor reviews the behavioral evidence, written comments, role visibility, workload and access circumstances, possible bias, and the student's response. A CATME flag or raw score alone does not determine the adjustment. Students may ask for the calculation and request review before the multiplier is finalized.
 
 **Example:** If your team earns 90 on a project and your multiplier is 1.02, your individual score is 91.8. If your multiplier is 0.95, your score is 85.5.
 
 ### Reading
 
+- Field Guide **pp. 16–18 and 21–23**: self-reflection, disciplinary lenses, the Maxim/Lao vignette, psychological safety in feedback, and SBIF
+- Field Guide **p. 26**: “Am I Ready to Participate?” self-check
+- Field Guide **pp. 118–120**: Case Study 23 and indicators of indirect communication, disengagement, and gossip
 - [CATME Overview](https://info.catme.org/features/overview/)
 - [CATME Peer Evaluation](https://info.catme.org/features/peer-evaluation/)
-- [Student Help & FAQ](https://info.catme.org/student/student-help/faq/)
-- Free-rider scenario brief provided on Blackboard: *Mid-Semester, Three Weeks In*
+- [Free-rider scenario]({{ '/scenarios/scenario-free-rider/' | relative_url }}): *Mid-Project, Four Weeks In*
 
 ### In-Class Activities (80 min)
 
-**CATME walkthrough (~15 min):** Demonstration of the system, five dimensions, and rating scales. Key message: the middle is the expectation, not the floor.
+**CATME purpose and walkthrough (~12 min):** Demonstrate the five dimensions and behavioral anchors. Distinguish observed behavior from assumptions, popularity, and personality judgments.
 
-**Rater Practice (~20 min):** Complete CATME's game-based rating simulation with hypothetical teammates. Pay attention to where the system tells you your ratings were too generous or too harsh.
+**Rater Practice (~18 min):** Complete CATME's rating simulation with hypothetical teammates. Record one place where your initial rating differed from the practice feedback.
 
-**Rater Practice debrief and free-rider scenario discussion (~18 min):** Brief debrief on Rater Practice patterns (~3 min): where did your ratings diverge from the "correct" answers, and why is the middle so hard to use? Then turn to the free-rider scenario you read before class. The scenario is meant to make the rater practice harder: real teammates do not come with correct answers. Walk through the five CATME dimensions for the character "Alex" based only on the scenario evidence, and identify the assumptions you are making to assign each rating. Discussion connects to Field Guide Ch. 11 ("One Bad Apple") and to the Team Charter norms students will draft in Lecture 2.
+**Free-rider scenario and evidence audit (~12 min):** Rate Alex on each dimension using only the scenario. Mark each statement as observation, inference, or missing information. Compare Jordan's proposed private conversation with Field Guide Case Study 23 and the Chapter 11 “When It's Not Working” indicators on indirect communication and gossip.
 
-**AI and team accountability scenario (~12 min):** Small groups discuss a short scenario: one teammate uses AI to draft a section quickly, but the draft includes unsupported claims and fabricated references that others must fix. Which CATME dimensions are affected? What should that teammate have disclosed? Does "working fast" count as contribution if it creates hidden verification labor for others?
+**AI and hidden-verification-labor scenario (~9 min):** One teammate uses AI to draft a section quickly, but unsupported claims and fabricated references create repair work for the others. Which CATME dimensions are implicated? What behavior and impact—not assumed intent—should appear in feedback?
 
-**Discussion: Giving honest feedback (~15 min):** Practice writing one positive and one constructive comment for a hypothetical teammate. Include one version of the exercise involving AI-assisted work. Workshop the comments in pairs: Is it specific? Is it actionable? Is it respectful? Connection to peer review in Module 2 (scientific writing).
+**SBIF giving-and-receiving role-play (~15 min):** Adapt the Field Guide's Maxim/Lao vignette. Partners separate the observed question from the story each scientist constructs, write one SBIF comment, and practice receiving it with thanks and one clarifying question before responding.
+
+**Individual reflection and provisional norm (~8 min):** Write one evidence rule for future CATME ratings and one provisional team norm for feedback or transparent AI use. These become inputs to the Lecture 2 Charter draft.
+
+**Buffer and exit check (~6 min).**
 
 ### Deliverable
 
-Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared to propose **one provisional team norm for transparent AI use** that can be incorporated into your Team Charter revision. First formative peer evaluation opens after Module 1 presentations.
+Complete **CATME Rater Practice during class** and submit the feedback/Charter-norm exit ticket before leaving. If a technical problem prevents completion, notify the instructor and finish within the arranged window. Evaluation 1 opens after Module 1 ends on September 14.
 
 </details>
 
@@ -193,26 +207,34 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 <details markdown="1">
 <summary><strong id="lecture-2">Lecture 2: Team Formation & Shared Standards</strong></summary>
 
-**Case Study: Apollo 13 (April 1970)** — Fifty-five hours into the mission, an oxygen tank in the service module exploded. The mission was 200,000 miles from Earth. Mission Control structured the response around four flight directors rotating through 12-hour shifts; multiple parallel "tiger teams" working specific problems (oxygen, power, trajectory, CO2 scrubbing); explicit norms about not making the situation worse through guesswork; and empowered individual controllers making real-time calls within their domains of authority. All three crew members returned alive on April 17, 1970.
+**Case Study: Apollo 13 (April 1970)** — An oxygen tank in the service module failed about 56 hours into the mission. The crew, Mission Control, contractors, and support teams had to preserve power and consumables, adapt the lunar module as a lifeboat, improvise a carbon-dioxide removal solution, and plan a safe return. The three astronauts returned on April 17. The case is useful because the response depended on role clarity, specialized expertise, disciplined communication, simulation, and coordination across organizational boundaries. It is not a model of a newly formed student team: Mission Control was a mature, trained, hierarchical system with extensive infrastructure. See NASA's [Apollo 13 mission overview](https://www.nasa.gov/mission/apollo-13/).
 
 ### Reading (before class)
 
-- Field Guide **Ch. 4** (Building a Research Team) and **Ch. 5** (Trust) — ~20 pages
-- Case study brief provided on Blackboard: **Apollo 13: Distributed Decision-Making Under Pressure**
+- Field Guide **pp. 37–40, 44–52, 54–55, and 57**: team formation, expectation setting, forms of trust, psychological safety, and trust practices
+- [Evidence packet: Apollo 13—Coordinating an Evidence-Based Response]({{ '/case-studies/case-apollo-13/' | relative_url }})
 
 ### In-Class Activities (80 min)
 
-**Case discussion: Apollo 13 (~20 min):** *Brief instructor note: students may bring assumptions from the 1995 film. "Failure is not an option" was a screenwriter's line, not a real quote from the mission. The actual recordings show calmer, more procedural language. The teamwork lessons are in the structure — flight director rotation, tiger teams, controller authority — not in the dramatic moments.* What about the structure made fast, distributed decision-making possible without descending into chaos?
+**Trust retrieval prompt (~5 min):** Identify one example each of competence-based, swift, identity-based, or calculus-based trust from the reading. Which kinds can a new course team reasonably possess in week one?
 
-**Team formation & ice-breaker (~20 min):** Teams are announced. Interview exercise: each team member interviews another for 5 minutes about their background, why they chose this program, their research interests, and something unexpected about themselves (favorite breakfast cereal, hidden talent, etc.). Then introduce your partner to the group.
+**Apollo 13 discussion (~15 min):** *Instructor note: “Failure is not an option” was created for the 1995 film, not spoken during the mission.* What roles, authority, communication routines, and verification resources supported distributed decisions? Which practices can a three-person student team adopt, and which depended on years of training, hierarchy, redundancy, simulation, and institutional infrastructure?
 
-**"Unit conversion" exercise (~15 min):** Each team member identifies one disciplinary assumption they hold that teammates from other fields might not share. (e.g., What does "validated" mean in your field? What counts as a "complete" deliverable?) Then, connecting to the case: *What does "unsafe" mean in your field? What evidence would you need to see before telling your advisor you don't think an experiment, analysis, or submission should proceed?*
+**Team interviews (~12 min):** Teams are announced. Interview a partner about their research interests, a strength they enjoy contributing, work they do not yet feel ready to lead, what helps them respond to disagreement, one access or scheduling condition relevant to teamwork, and one light personal question. Introduce the partner without disclosing information they did not agree to share.
 
-**Team Charter drafting (~25 min):** Begin drafting your charter with specific protocols for communication tools, response time expectations, meeting schedule, and a process for raising concerns. Include a specific protocol for what happens when one team member raises a serious concern that others initially disagree with. The protocol should specify: how the concern gets documented, who needs to be informed, and what consensus or escalation looks like before the team proceeds.
+**“Unit conversion” exercise (~10 min):** Each member names one disciplinary assumption teammates may not share—for example, what “validated,” “significant,” “safe,” or “complete” means. Write an operational definition and identify what evidence would justify pausing an experiment, analysis, or submission.
+
+**Core Charter drafting (~20 min):** Draft the team's shared purpose and expected outputs; definition of complete/high-quality work; roles, backups, and decision rights; meeting and communication routines; procedure for missed commitments and workload reset; provisional data/file access and credit expectations; and Charter review process. Add a concern protocol that records the issue, identifies who must respond, defines temporary pause conditions, and provides an escalation route when consensus is inappropriate or unavailable.
+
+**Micro-scenario—“Friday at 4:52” (~8 min):** Eight minutes before submission, the member responsible for quantitative validation finds a unit mismatch that may reverse the conclusion. The coordinator proposes a two-to-one vote to submit. Apply the draft Charter: Does work pause? Who has authority? What is documented? When is the instructor contacted? What happens if no answer arrives before the deadline?
+
+**Revise one clause and exit check (~5 min):** Rewrite the concern clause so another team could follow it without guessing.
+
+Approximately five minutes remain distributed across transitions and discussion.
 
 ### Deliverable
 
-**Team Charter Draft** (due next week) — Must include: communication tools and response time expectations, role assignments, meeting schedule, and a specific protocol for raising and resolving concerns.
+**Team Charter core draft** — Drafted in class and completed before Lecture 3. The core is a maximum of two pages and contains the elements above. Each procedure must identify the trigger, responsible person, action, timeframe, and escalation or revision route. Appendices are added in Lectures 3–5.
 
 </details>
 
@@ -221,40 +243,42 @@ Complete **CATME Rater Practice** before next class. Come to Lecture 3 prepared 
 <details markdown="1">
 <summary><strong id="lecture-3">Lecture 3: When the Tools Change the Work</strong></summary>
 
-**Case Study: The *Frontiers* Retracted Figure (February 2024)** — A peer-reviewed paper passed through three authors, two reviewers, and one editor before publication. The figure it contained was generated by AI, was disclosed as AI-generated in the figure caption, and was anatomically impossible — an absurdly proportioned rat with nonsense labels formed by AI hallucination. The figure was published anyway. Public mockery on social media within hours forced retraction within two days. The case is sometimes told as "AI made up an image and got published." It is more usefully told as "AI use was disclosed correctly and the verification chain failed at every layer." That distinction is the point of this lecture.
+**Case Study: The *Frontiers* Retracted Figure (February 2024)** — A review article published on February 13 contained disclosed Midjourney-generated figures with impossible anatomy and nonsense labels. According to *Frontiers*, one reviewer had raised valid concerns about the figures and requested revisions; the authors did not respond to those requests, yet the article proceeded to publication. *Frontiers* retracted it on February 16 and investigated why its process had failed to act. The case is therefore not simply “AI made an image and no one noticed.” A warning existed, but the workflow did not ensure that it was resolved before publication.
 
-Tool decisions are team governance decisions. Most graduate teams make those decisions by accident — by which member happens to know which tool, by inertia from a previous project, by following whoever speaks first. The cost of accidental tool decisions is rarely visible until the team is several months in and the asymmetries have hardened. This lecture's job is making the underlying decisions explicit before that happens.
+Tool decisions are team governance decisions. Teams can make those decisions implicitly—by adopting the tool one member already knows, continuing a previous workflow, or following the first confident suggestion. Access, labor, and record-keeping consequences may not become visible until the workflow is established. This lecture makes those decisions explicit early enough to revise them.
 
 ### Reading (before class)
 
-- Field Guide **Ch. 7** (Communication) — re-read in light of tooling questions; communication norms and tool choices are the same decision viewed from two angles
-- Case study brief provided on Blackboard: ***Frontiers* Retracted Figure — Verification Without a Protocol**
-- Pearson, H. "AI-generated images of rats with giant penises show why publishers need vigilance." *Nature*, February 16, 2024 (~5 minute read)
+- Field Guide **pp. 45 and 53**: keep agreements living, and decide in advance how analysis, review, submission, and publication will be handled
+- [Case brief: *The Frontiers Retracted Figure*]({{ '/case-studies/case-frontiers-retraction/' | relative_url }}), including the official publisher statement and retraction notice
+- NIH Office of Intramural Research, [*Guidelines and Policies for the Conduct of Research*](https://oir.nih.gov/system/files/media/file/2026-06/guidelines-conduct_research.pdf), **pp. 61–65**, “Responsible Use of AI and Documenting its Utilization.” This is current NIH **intramural** guidance, not a universal policy for every institution.
 - **Pre-class reflection prompt:** Identify one tool you currently use heavily for research work and one tool you have considered using but have not adopted. Bring both to class.
 
 ### In-Class Activities (80 min)
 
 **Framing: tools as team governance (~5 min):** Five failure modes that follow from implicit tool decisions: asymmetric tool fluency, verification labor, documentation choices, coordination friction, and tool selection as governance. Each is a teamwork problem, not a technology problem.
 
-**Tool category survey with team implications (~12 min):** Brief walk through four categories — knowledge management (shared notes, lab notebooks), literature management (reference managers, shared annotations), meeting coordination (calendaring, agenda-keeping, follow-up tracking), and version control on conceptual documents (proposals, papers, shared writing). For each: what does the team's choice determine? Specific products mentioned where relevant, but the discussion is about what the team commits to documenting, sharing, and tracking.
+**Tool category survey with team implications (~10 min):** Briefly examine knowledge management, literature management, meeting coordination, collaborative writing/version control, analysis/code, and generative AI. For each category, ask what the choice determines about access, records, labor, privacy, reproducibility, and responsibility.
 
-**Case discussion: the *Frontiers* retraction (~13 min):** Walk through the five-layer verification failure. The figure was disclosed as AI-generated. The disclosure was followed correctly. And it did not prevent the failure. *Discussion prompt:* what is the difference between a team having a disclosure norm and a team having a verification protocol? Connect to the deference pattern — "someone else upstream or downstream will catch it" — and to the Challenger case students will see in Lecture 6, where review existed but did not function.
+**Case workflow reconstruction (~12 min):** Separate the documented record from assumptions. Map author preparation, peer review, editorial control, and production/publication. Mark where evidence is known, where it is missing, and where a blocking reviewer request should have remained open. What is the difference between disclosing a tool and closing a verification concern?
 
-**AI detection: the classroom evidence (~10 min):** Present the empirical data from this course's prior cohort. Three AI models — Claude, DeepSeek, and Qwen — were tested on their ability to distinguish AI-written peer reviews from human-written ones. Detection accuracy: 0–20% across all three models. *Discussion prompt:* You will not reliably know when your teammates are using AI. Given that, what must your team's norms be? The norms cannot be "we will detect and flag AI use" because detection does not work. The norms have to be about disclosure, about verification, and about what the team commits to checking regardless of whether AI was disclosed.
+**AI detection evidence check (~8 min):** If the prior-course demonstration is used, present the 0–20% result only as a small local classroom exercise—not as a general benchmark or proof about all detection systems. Ask what information about prompts, samples, scoring, and models would be needed to interpret it. Then identify norms that do not depend on reliably guessing whether AI was used.
 
-**Team tool audit activity (~15 min):** Each team identifies its current implicit tool stack. Where is knowledge being stored? Where is literature being tracked? How are meetings being coordinated? Then: where is the asymmetry? Which teammate is doing more of which kind of coordination labor without the rest of the team noticing? Which tool decisions has the team made without realizing it was a decision?
+**Team tool-and-labor audit (~13 min):** Identify the team's current tool stack and where decisions, sources, drafts, data, and code are stored. Who pays, configures, documents, verifies, troubleshoots, and onboards others? Which access, privacy, security, or accessibility constraints have not been discussed?
 
-**Drafting tooling section of Team Charter (~20 min):** The Team Charter draft from Lecture 2 is extended in this lecture with a tooling section covering: knowledge management decisions, literature management norms, meeting coordination practices, version control commitments, AI use disclosure norms, the team's **verification protocol for AI-assisted work**, and a **mid-semester tool-revision checkpoint** — the process by which the team will reconsider any tool decision that stops working. Static inventories age badly; living protocols do not. The charter section ends with: who has authority to call the team to revisit a tool decision, what triggers a revision discussion, and how the team decides whether to switch.
+**Microcase—“The inaccessible workspace” (~7 min):** A team adopts a paid, visually dense workspace because two members already use it; the system does not work reliably with the third member's access setup, and they miss decisions recorded there. Apply the Charter's concern and decision rules without asking for private medical information. What must be changed now, and what selection rule would have prevented the problem?
 
-**Buffer (~5 min)** — for discussion that runs over.
+**Drafting Appendix A: tooling and verification (~18 min):** For each important tool or output, specify the record to retain, disclosure requirement, primary verifier, evidence/source check, second-review trigger, sign-off authority, and what blocks submission. Add access/cost, privacy/security, accessibility, onboarding, version-control, fallback, and revision procedures. An unresolved high-consequence concern must have an owner and deadline and must remain visible until it is closed or escalated.
+
+**Buffer and submission check (~7 min).**
 
 ### Deliverable
 
-**Team Charter — extended draft.** The charter draft from Lecture 2, extended with the tooling section described above. Single document, not a separate addendum. The full charter continues to evolve through Lectures 4, 5, and 6, with this lecture establishing the infrastructure layer.
+**Team Charter Appendix A: Tooling & Verification** — Drafted in class and completed before Lecture 4. This structured appendix must be usable as a procedure, not merely list preferred products.
 
 ### Connection to Lecture 4 (Cross-Disciplinary Communication)
 
-The skills inventory exercise in Lecture 4 (AlphaFold) presupposes that teams have an infrastructure for sharing knowledge, tracking decisions, and making cross-disciplinary discussion legible. Lecture 3 establishes that infrastructure. Teams that have committed to specific knowledge management and literature management practices in their charter will produce a substantively better Skills Inventory in Lecture 4 because they will have a place to put it.
+The skills-and-limits inventory in Lecture 4 presupposes infrastructure for sharing knowledge, tracking decisions, and making cross-disciplinary discussion legible. Lecture 3 establishes that infrastructure; Lecture 4 then adds people, terminology, learning, and integration procedures to it.
 
 </details>
 
@@ -263,35 +287,32 @@ The skills inventory exercise in Lecture 4 (AlphaFold) presupposes that teams ha
 <details markdown="1">
 <summary><strong id="lecture-4">Lecture 4: Cross-Disciplinary Communication</strong></summary>
 
-**Case Study: AlphaFold (2016–2024)** — DeepMind built a small interdisciplinary team of structural biologists, physicists, and machine learning researchers to solve the protein folding problem. The team won the 2024 Nobel Prize in Chemistry after predicting structures for over 200 million proteins. The popular narrative treats AlphaFold as a clean success of "genuine interdisciplinary integration." The actual record is more interesting and more useful as a teaching case, because the team's path was not straight.
+**Case Study: AlphaFold (2018–2024)** — AlphaFold's first system led the CASP13 blind assessment decisively: it produced high-accuracy structures for 24 of 43 free-modelling domains, compared with 14 for the next method. AlphaFold 2 was then described by its authors as an “entirely redesigned” and “completely different” model. Its architecture coupled evolutionary, geometric, physical, biological, and machine-learning ideas; DeepMind and EMBL-EBI later collaborated to turn predictions into a public database. These products document interdisciplinary integration, but the cited public record does not establish presumed internal debates, reorganizations, “near failures,” or negotiations with funders. Those must not be narrated as facts.
 
-Three tensions in the historical record matter for understanding how the integration actually worked:
-
-- **The early CASP failures and the decision to start over.** AlphaFold 1 entered CASP13 in 2018 and won, but only narrowly, and the predictions were not yet biologically useful. The team's response was to abandon the AlphaFold 1 approach and redesign the system from scratch for AlphaFold 2 — a decision that cost roughly two years and required keeping a corporate funder convinced. Most teams in that position iterate. This team did not.
-- **The ML-versus-biology integration debate.** Early in the project there were internal debates about whether the ML researchers needed to learn structural biology or whether biologists could simply provide constraints to the ML team. The eventual answer — embedding biological priors directly in the network architecture (the evoformer and the structure module) — required ML researchers to develop genuine biological intuition. The team had to reorganize the integration question multiple times before landing on this answer.
-- **Post-release tensions with the experimental community.** When AlphaFold 2 and the AlphaFold Database were released, parts of the experimental structural biology community responded with concerns about funding implications for X-ray crystallography and cryo-EM facilities. The team had to navigate publicly the question of what AlphaFold *should not* be used for (membrane proteins, dynamics, ligand-bound states). This raised a teamwork question that extends beyond the team itself.
+The 2024 Nobel Prize in Chemistry also provides a useful credit distinction: one half went to David Baker for computational protein design, and the other half jointly to Demis Hassabis and John Jumper for protein structure prediction. The prize recognized three individuals, not “the AlphaFold team,” while the papers and database document many contributors and an institutional partnership.
 
 ### Reading (before class)
 
-- Field Guide **Ch. 6** (Vision) and **Ch. 7** (Communication) — ~15 pages
-- Case study brief provided on Blackboard: **AlphaFold — Team Science Case Study**
-- DeepMind blog: ["AlphaFold: Using AI for scientific discovery"](https://deepmind.google/discover/blog/alphafold-using-ai-for-scientific-discovery-2020/)
+- Field Guide **pp. 58–63, 64–70, and 90–96**: shared vision, communication, and managing disciplinary difference
+- [Case brief: AlphaFold]({{ '/case-studies/case-alphafold/' | relative_url }}), including the two primary *Nature* papers, database paper, and official Nobel attribution
 
 ### In-Class Activities (80 min)
 
-**Case discussion: where the team almost failed (~20 min):** What did the AlphaFold 1 → AlphaFold 2 redesign require of the team — both technically and in terms of internal trust? Most teams iterate when their first attempt only narrowly succeeds; this team rebuilt. What conditions allow a team to make that decision? Discussion connects to Field Guide Ch. 6 on shared vision: a team that does not share a vision cannot make a decision like this, because half of them will see it as failure and half as a fresh start.
+**Shared-vision retrieval and “validated” microcase (~6 min):** Compare three disciplinary meanings of “validated.” Write a two-sentence project vision that states both the shared outcome and the evidence needed to claim success.
 
-**Case discussion: what "integration" actually meant (~15 min):** The popular framing — "they built biological knowledge into the architecture" — is a *conclusion*, not a description of how it happened. The actual integration required ML researchers to develop biological intuition, biologists to develop comfort with neural-network architecture decisions, and multiple internal reorganizations of how the disciplines related. Pull this apart: what does "integration" demand of individual team members, beyond just "communicating across disciplines"?
+**AlphaFold evidence/inference audit (~18 min):** Examine the CASP13 result, the documented redesign, the architecture, author-contribution statements, database partnership, limitations, and Nobel recognition. Classify claims as documented, reasonable teaching inference, or unsupported history. What team processes *could* support this result, and what additional evidence would show that AlphaFold used them?
 
-**Skills inventory exercise (~25 min):** Each team member presents (3 min each): What methods, tools, and frameworks do you bring? What are you *not* comfortable leading? What terminology from your field might confuse others? *Then a second pass (1 min each):* What is one thing from another teammate's discipline that you would need to develop genuine intuition for, not just understand at a surface level, to do excellent integrated work with them?
+**Integration architecture (~12 min):** Map how domain concepts, model design, engineering, evaluation, and database stewardship depend on one another. Distinguish integration, reciprocal translation, and handoff. Where would a designated connector between disciplines or a redundant communication path reduce risk?
 
-**"Translation" exercise (~15 min):** Pick one concept from the team's project. Each member explains how they'd approach it from their discipline. Identify overlaps and gaps. Connect to the AlphaFold case: where in your team's integration would you face the same kind of decision DeepMind faced — biologists provide constraints vs. everyone develops cross-disciplinary intuition?
+**Skills-and-limits inventory (~20 min):** Each member identifies the expertise, methods, tools, and relationships they can contribute; work they are not yet ready to lead; a term teammates may interpret differently; a skill they want to learn; and the kind of challenge or support that helps them participate. Record backups for single points of expertise.
 
-**Team Charter revision (~5 min):** Briefly note what should be added to the charter based on today's discussion. Full revision happens between lectures.
+**Reciprocal translation exercise (~12 min):** Apply each discipline's lens to one project concept. Build a small shared glossary containing operational definitions, evidence standards, and “ask before assuming” terms. Identify one point where the team needs integration rather than sequential handoff.
+
+**Appendix B revision and exit check (~5 min):** Add the inventory, glossary, learning commitment, integration point, and a norm for inclusive scientific disagreement. Approximately seven minutes remain distributed across transitions and discussion.
 
 ### Deliverable
 
-**Skills Inventory** (one page per team) — Lists each member's expertise, tools, blind spots, preferred communication style, and *one cross-disciplinary skill the team will commit to building together*. Submitted via Blackboard.
+**Team Charter Appendix B: Skills & Integration** — Completed before Lecture 5. It includes the two-sentence vision, member skills and limits, backups, shared glossary, cross-disciplinary learning commitment, integration point, and discussion norm.
 
 </details>
 
@@ -300,41 +321,44 @@ Three tensions in the historical record matter for understanding how the integra
 <details markdown="1">
 <summary><strong id="lecture-5">Lecture 5: Credit, Conflict & Accountability</strong></summary>
 
-**Paired Case Studies: Same Lead Scientist, Two Different Teams**
+**Paired Case Studies: The Same Scientist in Two Different Collaborations**
 
-This lecture uses an unusual pairing: John Bardeen led both teams, separated by ten years and one Nobel Prize. The teams produced very different outcomes. The pairing forces students to identify what *changed* — leadership style, institutional setting, role clarity, or something deeper.
+John Bardeen contributed to both the transistor work at Bell Labs and BCS theory at the University of Illinois. The cases are not controlled experiments in leadership, and the record does not justify treating one as a simple “failed team” and the other as its opposite. The pairing instead lets students compare how contributions, authority, and recognition are recorded and narrated in different institutional and disciplinary settings.
 
-**Case 1 — Bardeen, Brattain, and Shockley (Bell Labs, 1947–1948).** A three-person team produced the first transistor and shared the 1956 Nobel Prize. The team also dissolved within four years. The breakthrough happened while Shockley, the group leader, was away from the lab; the patent listed only Bardeen and Brattain. Shockley spent the following weeks working alone in a Chicago hotel room, developed a competing design, and afterward redirected the work in ways that pushed his teammates to the periphery. The team had no early agreement on attribution and no process for handling the question once it became urgent.
+**Case 1 — Bardeen, Brattain, and Shockley (Bell Labs, 1947–1948).** Bardeen's Nobel lecture describes a semiconductor group under William Shockley's general direction, Bardeen's theoretical work, Walter Brattain's experimental work on surface effects, and an amplifier produced by Bardeen and Brattain and further developed by Shockley. The three later shared the 1956 Nobel Prize in Physics. Rather than asking students to assign personality-based blame from anecdotes, the class asks what contemporaneous records and decision rules could distinguish scientific contribution, leadership, patent inventorship, and later prize recognition.
 
-**Case 2 — Bardeen, Cooper, and Schrieffer (University of Illinois, 1955–1957).** After leaving Bell Labs, Bardeen assembled a new three-person team — himself, postdoctoral fellow Leon Cooper, and graduate student J. Robert Schrieffer — to attack superconductivity. They produced the BCS theory and shared the 1972 Nobel. The collaboration is remembered for the opposite reasons: Bardeen's quiet, collegial leadership; alphabetical authorship with no senior author designation; and a famous moment when Schrieffer wanted to quit and Bardeen told him to take a month and think without the senior author looking over his shoulder.
+**Case 2 — Bardeen, Cooper, and Schrieffer (University of Illinois, 1955–1957).** Bardeen, postdoctoral fellow Leon Cooper, and graduate student J. Robert Schrieffer developed BCS theory and shared the 1972 Nobel Prize in Physics. Their 1957 paper listed authors alphabetically. Alphabetical order is a documented fact; without a source establishing the authors' intent, it is not proof that they selected the order as a fairness intervention. Bardeen later emphasized their close collaboration and said that each member was essential.
 
 ### Reading (before class)
 
-- Field Guide **Ch. 8** (Credit and Sharing) and **Ch. 10** (Conflict is Normal) — ~20 pages
-- Field Guide **Appendix**: "Collaborative Agreement Questions (Prenup for Scientists)" — 2 pages
-- Case study briefs provided on Blackboard: **Bardeen, Brattain, and Shockley** and **Bardeen, Cooper, and Schrieffer**
+- Field Guide **pp. 77–82 and 100–111**: credit, contribution tracking, disagreement, and conflict
+- Field Guide **pp. 132–133**: “Collaborative Agreement Questions” (“Prenup for Scientists”)
+- NIH Office of Intramural Research, [*Research Contributions to Consider When Making Authorship Decisions*](https://oir.nih.gov/system/files/media/file/2024-07/guidelines-authorship_contributions.pdf), revised March 5, 2026 (one-page preview). Treat it as a planning prompt and NIH intramural example; the Ethics module handles authorship eligibility and accountability in depth.
+- [Paired evidence packet: The Transistor and BCS Theory]({{ '/case-studies/case-transistor-bcs/' | relative_url }}), with primary-source records and a fact/inference table
 
 ### In-Class Activities (80 min)
 
-**Framing the pairing (~5 min):** Same scientist, ten years apart, two very different team outcomes. What changed?
+**Framing the pairing (~5 min):** The same scientist appears in two different collaborations. What can the available records establish, and what would be an interpretation rather than a fact?
 
-**Case 1 discussion: the Shockley team (~18 min):** *Open with a brief framing for the cohort: "You don't need to understand semiconductors to analyze this case. The technical question is just whether the team had a process for deciding who was an inventor — they didn't."* Was the failure that Shockley behaved badly, or that the team had no process for deciding attribution? What should the team have agreed on in 1945, before any breakthrough? How does the patent system's binary "inventor / not inventor" decision interact with the gradient nature of actual scientific contribution?
+**Evidence-packet jigsaw (~18 min):** Groups examine Nobel lectures, paper metadata, and short institutional histories. Identify each source's claim, perspective, and limit. Do not infer motives or the absence of a process merely because a surviving source does not describe one.
 
-**Case 2 discussion: the BCS team (~13 min):** *Similar framing: "The physics detail does not matter. This case is about how a professor responded when his graduate student wanted to quit."* Bardeen could have insisted Schrieffer keep working, or taken the project over himself. He did neither. What does that decision say about how he understood his role on the team?
+**Comparative analysis (~7 min):** Compare contribution recording, formal authority, career stage, publication order, and later recognition. Which explanations are supported, plausible but unproven, or contradicted?
 
-**Comparative analysis (~8 min):** Same Bardeen. Bell Labs in 1947, Illinois in 1957. Where did the difference come from — leadership style, institutional setting, role clarity, the personalities of the other team members, or something else? Connect the answer to your own team.
+**Microcase—“Two first authors” (~9 min):** Two trainees have both led major parts of a project, but their fields interpret first-author order differently. Separate contribution, author eligibility, order, corresponding responsibility, patent inventorship, ownership, and prize recognition. What must be recorded now, and what remains provisional?
 
-**CATME midterm reflection (~10 min):** By this point, students have completed 1–2 formative CATME evaluations. Brief team huddle: where did your self-rating differ from peer ratings? What specific change will you make for the second half of the semester?
+**Conflict-protocol drill (~10 min):** One member believes invisible verification work has been omitted from the contribution record; another says the plan has already been agreed. Use Field Guide Chapter 10 to specify the first conversation, documentation, neutral consultation, decision authority, and escalation point.
 
-**Drafting the Contribution Plan (~20 min):** Using the Field Guide's "Prenup for Scientists" template, teams draft a contribution and authorship plan for the final project. Specify: who leads each section, how to handle unequal contributions, and how to resolve credit disagreements before they happen.
+**Drafting Appendix C (~20 min):** Create a provisional contribution matrix, record both intellectual and coordination/verification labor, state recognition and credit principles, and set review dates. Add procedures for changing scope, unequal or missing contributions, new or departing members, non-author recognition, disagreement, and escalation.
+
+**Peer stress test and exit check (~6 min):** Another team applies one change scenario and identifies any clause that cannot be executed. Approximately five minutes remain distributed across transitions and discussion.
 
 ### Deliverable
 
-**Contribution and Authorship Plan** (one page per team) — Specifies individual responsibilities, credit allocation principles, and a specific process for resolving disputes.
+**Team Charter Appendix C: Provisional Contribution & Credit Plan** — Completed before Lecture 6. This is a living planning document, not a final authorship determination or guaranteed author order. It records current expectations and a process for revisiting them as the work changes.
 
 ### Bridge to Module 4
 
-The CRISPR patent dispute (Doudna/Charpentier vs. Broad) is treated in **Module 4 (Ethics)** as a case about institutional credit, IP, and the divergence between scientific and legal recognition. That case raises the same vocabulary — "credit," "first," "inventor" — but operates at a different scale and asks different questions. Holding the two cases in different modules lets students see that *team* credit problems and *institutional/ethical* credit problems are distinct, even when they look similar.
+This lecture introduces early conversation and record-keeping. Module 4 returns to the ethical and policy questions: author eligibility and order, CRediT roles, accountability, honorary and ghost authorship, power, disputes, AI assistance, patent inventorship, ownership, and intellectual property. “Author,” “contributor,” “inventor,” “owner,” “rightsholder,” and “prize recipient” are not interchangeable categories.
 
 </details>
 
@@ -345,38 +369,39 @@ The CRISPR patent dispute (Doudna/Charpentier vs. Broad) is treated in **Module 
 
 **Paired Case Studies: When Trust Holds Under Pressure, and When It Breaks**
 
-Two crises, fifteen years apart. In one, a team carrying €400 million in debt extended unprecedented trust to a corporate partner before the legal agreement was finalized — and produced the first mRNA vaccine for COVID-19 in eleven months. In the other, an engineering team's documented concerns were overridden by managers in a five-minute caucus, and seven astronauts died seventy-three seconds after launch.
+The cases are deliberately contrasting, but not moral mirror images. Challenger involved a launch decision in a hierarchical, safety-critical system; the vaccine partnership unfolded over months with legal agreements, independent monitoring, clinical-trial rules, and regulatory gates. Compare how each setting handled expertise, uncertainty, dissent, decision authority, and redundant checks while resisting outcome bias.
 
-The cases sit at opposite ends of a single spectrum: when stakes are high and the clock is running, what conditions allow trust to expand, and what conditions make it collapse?
+**Case 1 — Challenger and the Night-Before Teleconference (January 27, 1986).** Morton Thiokol initially recommended against launch below 53°F. NASA participants challenged the basis for the recommendation. Thiokol requested about five minutes off the communication loop; Rogers Commission testimony indicates that the private caucus actually lasted approximately **30–35 minutes** before management returned with a recommendation to launch. The final recommendation was signed by management. The case supports close analysis of authority, dissent, documentation, and the conditions under which a technical concern can be overruled; it should not be reduced to a mistaken “five-minute decision.”
 
-**Case 1 — Challenger and the Night-Before Teleconference (January 27, 1986).** Roger Boisjoly and Arnie Thompson, engineers at Morton Thiokol, presented data showing the SRB O-rings were likely to fail at the forecast launch temperature. Thiokol's initial recommendation was not to launch. NASA managers pushed back. In a five-minute caucus, Senior VP Jerald Mason told VP of Engineering Bob Lund, "Take off your engineering hat and put on your management hat." Lund changed his recommendation. The engineers were not asked to sign. Trust between the engineering and management sides of the same organization collapsed, and trust between Thiokol and NASA Marshall was revealed never to have rested on shared standards in the first place.
-
-**Case 2 — BioNTech and Pfizer (2020).** Project Lightspeed launched in March 2020. BioNTech (1,300 employees, headquartered in Germany) needed a manufacturing and distribution partner; Pfizer (70,000 employees) had global capacity. Uğur Şahin, BioNTech's co-founder, instructed his team to share everything — preliminary data, scientific approaches, manufacturing details — with Pfizer *before* the legal agreement was finalized. BioNTech was carrying €400 million in debt at the time. The vaccine received FDA emergency authorization on December 11, 2020.
-
-**Framing parable — HGP and Celera (1990–2003).** A $3 billion public Human Genome Project committed to releasing all data freely within 24 hours under the Bermuda Agreement. Craig Venter's privately funded Celera Genomics used the public data while keeping its own proprietary. Both projects claimed to finish at roughly the same time. Five minutes of framing, used as a bridge into the student-scale open-science activity below.
+**Case 2 — BioNTech and Pfizer (2020).** BioNTech dates the start of Project Lightspeed to January 27. The companies announced a letter of intent and an executed material-transfer and collaboration agreement on March 17, while fuller commercial terms remained under negotiation; those terms were announced April 9. The partners combined distinct capabilities, shared development costs, overlapped work, manufactured at financial risk, and retained trial-monitoring and regulatory safeguards. A retrospective insider account reports an instruction to “share everything,” but the documented interim legal scaffolding and prior relationship make this a case of staged or bounded trust—not trust without agreements or controls.
 
 ### Reading (before class)
 
-- Field Guide **Ch. 5** (Trust — re-read with new context after the module's other readings), **Ch. 9** (Managing Difference), and **Ch. 12** (Navigating Networks and Systems) — ~20 pages
-- Case study briefs provided on Blackboard: **Challenger and the Night-Before Teleconference**, **BioNTech and Pfizer Project Lightspeed**, and **HGP and Celera (framing brief)**
+- Field Guide **pp. 50–57 and 122–127**: trust practices and navigating networks and systems
+- [Evidence packet: Challenger and the Night-Before Teleconference]({{ '/case-studies/case-challenger/' | relative_url }}), with selected Rogers Commission records and an authority map
+- [Case brief: BioNTech and Pfizer—Project Lightspeed]({{ '/case-studies/case-biontech-pfizer/' | relative_url }}), including primary company, journal, and regulatory sources
 
 ### In-Class Activities (80 min)
 
 **Memorial framing for Challenger (~3 min):** *Brief framing before Case 1 discussion. Seven astronauts died on Challenger — Francis Scobee, Michael Smith, Ronald McNair, Ellison Onizuka, Judith Resnik, Gregory Jarvis, and Christa McAuliffe. Their families and colleagues have spent four decades examining how the decision to launch was made. We study this case to understand what their experience teaches about how teams handle dissent, hierarchy, and pressure under time constraint — not to extract neat lessons from a tragedy.*
 
-**Case 1 discussion: Challenger (~15 min):** Boisjoly raised the concern. The concern was heard. The concern was overridden in a private caucus. At what point in that sequence did trust fail — and was it trust between the engineers and Thiokol management, between Thiokol and NASA, or something more fundamental about whether shared standards existed at all? *Discussion prompt for the second half: in your own field, what would an advisor need to say to override your concern about an experiment, analysis, or submission? Would you accept the override? At week five, you've been working with your team long enough to answer this concretely rather than abstractly.*
+**Challenger evidence and decision map (~15 min):** Trace the initial recommendation, NASA challenge, request to caucus, actual caucus duration, changed recommendation, signature, and launch decision. Who had voice, advice, sign-off, veto, and escalation authority? Which statements are documented and which are later interpretations?
 
-**Case 2 discussion: BioNTech and Pfizer (~15 min):** What conditions made Şahin's "share everything" instruction possible? What would have made it irresponsible? When is radical pre-legal-agreement transparency visionary, and when is it negligent? Carrying €400 million in debt while extending unilateral trust to a 70,000-employee partner is, on its face, the kind of decision that gets a CEO fired. Why did it work?
+**BioNTech/Pfizer decision map (~10 min):** Identify the prior relationship, provisional agreements, different capabilities, cost sharing, information exchange, independent monitoring, evidentiary standards, and regulatory gates. Which risks were accepted, allocated, retained, or independently checked?
 
-**Comparative beat (~7 min):** Both teams faced extreme pressure with non-negotiable deadlines. Both teams' decisions were essentially irreversible once made. One produced a vaccine; one produced a disaster. *What structural conditions* — not personality, not luck — *separated the two outcomes?* Identify two or three concrete structural elements present in one case and absent in the other.
+**Outcome-bias comparison (~7 min):** Imagine that the vaccine had failed despite the same process, or that Challenger had launched without an accident despite the same decision process. Which judgments about process quality remain? Which differences make direct comparison misleading?
 
-**HGP framing parable + student-scale open-science activity (~10 min):** Brief instructor framing on HGP/Celera (~3 min): the Bermuda Agreement's 24-hour data release rule, Celera's mixed strategy, the open-science debate that followed. Then teams discuss (~7 min): *Should our team share our preliminary proposal draft with another team for feedback before submission? Should we share our final draft as a preprint before formal review? What would each decision require of us, and of the team we're sharing with?* This is the trust-and-openness question at student scale.
+**Chapter 12 network map (~10 min):** Map the team's **Knowledge, Access, Source Receptive, and Energy Networks**, using the Guide's four labels. Add a redundant path for one critical resource. Drawing on Chapter 8, identify any member functioning as a boundary spanner and avoid making that person a single point of failure.
 
-**Final Team Charter revision (~25 min):** Revise and finalize your charter incorporating everything from the module: communication protocols (Lecture 2), CATME insights (Lectures 1 & 5), skills inventory (Lecture 4), contribution and authorship plan (Lecture 5), and now — informed by both Challenger and BioNTech — *explicit team norms about trust under pressure*. What does your team commit to when stakes get high and the clock is running? Specifically: when one of you raises a serious concern under deadline pressure, what process does the team follow before proceeding?
+**Deadline-dissent microcase (~8 min):** A senior member says a concern has been heard and the team must now submit. Apply the Charter: what evidence triggers a pause, who records the concern, who can close it, when is voting inappropriate, and where does escalation go?
+
+**Final Charter stress test and revision (~20 min):** Exchange packages and apply two new variants: an external collaborator asks for a draft and underlying data when sharing permission is unclear; then a member leaves after making significant contributions while still holding the only editable source files and one service credential. Revise clauses that rely on goodwill, an unnamed actor, inaccessible records, unresolved ownership/permission, or a decision rule that cannot handle membership change.
+
+**All-member review and exit check (~5 min):** Confirm that each member understands the core and appendices and record unresolved items. Approximately two minutes remain as buffer.
 
 ### Deliverable
 
-**Final Team Charter** — Comprehensive document incorporating all revisions from the module. Submitted via Blackboard.
+**Final Team Charter package** (due September 14) — The two-page core, Appendices A–C, version history, and all-member review/sign-off. A signature indicates that the member reviewed the package and can raise future revisions; it does not waive the right to dissent or report a concern.
 
 </details>
 
@@ -396,20 +421,22 @@ The survey also asks about leadership preferences (shared leadership, prefer to 
 
 ### Rating Guidelines
 
-| Rating | What It Means | When to Use It |
+| Rating | Course Interpretation | How to Use It |
 |---|---|---|
-| **5 — Exceptional** | Went far beyond expectations; led critical aspects of the work; resolved problems others couldn't | Rare — reserve for truly outstanding contributions |
-| **4 — Above expectations** | Consistently exceeded what was asked; proactively improved the team's work | When someone genuinely did more than their share |
-| **3 — Meets expectations** | Did their job well; met deadlines; contributed their fair share; communicated effectively | **This is the baseline for a functioning team** |
-| **2 — Below expectations** | Needed reminders; work required significant revision by others; inconsistent participation | When someone consistently fell short |
-| **1 — Did not contribute** | Work had to be completely redone; did not engage meaningfully | Rare — and should be accompanied by specific comments |
+| **5** | Highest behavior anchor for the dimension | Use only when the observed behavior best matches CATME's Level 5 description |
+| **4** | Above the course's meets-expectations anchor | Use when the observed behavior best matches that dimension's Level 4 description |
+| **3** | **Course standard for meeting the relevant expectation well** | Use when the observed behavior best matches that dimension's Level 3 description |
+| **2** | Below the meets-expectations anchor for the dimension | Use when specific observed behavior best matches that dimension's Level 2 description |
+| **1** | Lowest behavior anchor for the dimension | Use when specific observed behavior best matches that dimension's Level 1 description; explain the evidence and impact |
+
+CATME's descriptions differ by dimension. Do not apply one global label such as “did not contribute” to all five dimensions; read the behavior anchor displayed for the dimension you are rating.
 
 ### Understanding Your Results
 
-- **Self-rating higher than peer average:** The most common pattern. Your perception of your contribution may differ from your teammates'. Ask for specific examples rather than dismissing the feedback.
+- **Self-rating higher than peer average:** One possible pattern. Your perception of your contribution may differ from your teammates'. Ask for specific examples rather than dismissing the feedback.
 - **Self-rating lower than peer average:** You may be undervaluing your contributions. Your teammates see you more positively than you see yourself.
 - **High variance among raters:** Different teammates see your contribution differently. This sometimes reflects subgroup dynamics or different visibility into your work.
-- **Lower ratings on early evaluations:** This is expected and okay — early evaluations exist precisely so you can identify areas for growth. What matters is the trajectory, not the starting point.
+- **Lower ratings on early evaluations:** Treat the pattern as information to understand while there is time to improve. Consider evidence, role visibility, context, and possible bias before drawing a conclusion.
 
 ### Semester CATME Calendar
 
@@ -428,7 +455,7 @@ After each evaluation, complete the **individual reflection** on Blackboard (3 q
 - [CATME Official Website](https://info.catme.org/)
 - [Student Help & FAQ](https://info.catme.org/student/student-help/faq/)
 - [Peer Evaluation Feature Overview](https://info.catme.org/features/peer-evaluation/)
-- [CATME Rater Practice Demo](https://info.catme.org/features/overview/)
+- [CATME Rater Practice](https://info.catme.org/features/rater-practice/)
 
 ---
 
@@ -436,19 +463,20 @@ After each evaluation, complete the **individual reflection** on Blackboard (3 q
 
 ### Primary Text (Assigned Chapters)
 
-- Bennett, L.M. & Gadlin, H. [*Collaboration and Team Science Field Guide*](https://www.cancer.gov/about-nci/organization/crs/research-initiatives/team-science-field-guide), NIH.
-  - Lectures 1–5 assign specific chapters timed to when you need them (~20 pages per lecture, ~80 pages total across the module)
+- Bennett, L. Michelle, Howard Gadlin, and Christophe Marchand. [*Collaboration and Team Science: A Field Guide*](https://www.cancer.gov/about-nci/organization/crs/research-initiatives/team-science-field-guide/collaboration-team-science-guide.pdf), 2nd ed. NCI/NIH, 2018.
+  - Each lecture assigns selected pages at the point of use. Students do not need to read the Guide cover to cover during this module.
 
 ### Case Study Source Document
 
-- **Team Science Case Studies** — Full case briefs with discussion questions, sources, and team activities for all five cases used in this module are provided on Blackboard
+- Source-linked briefs and evidence packets are included for [Apollo 13]({{ '/case-studies/case-apollo-13/' | relative_url }}), the [*Frontiers* retraction]({{ '/case-studies/case-frontiers-retraction/' | relative_url }}), [AlphaFold]({{ '/case-studies/case-alphafold/' | relative_url }}), the [transistor/BCS comparison]({{ '/case-studies/case-transistor-bcs/' | relative_url }}), [Challenger]({{ '/case-studies/case-challenger/' | relative_url }}), and [BioNTech/Pfizer]({{ '/case-studies/case-biontech-pfizer/' | relative_url }}).
+- The [constructed microcase pack]({{ '/scenarios/module-1-microcases/' | relative_url }}) contains the six short decision scenarios and facilitation notes; the [free-rider scenario]({{ '/scenarios/scenario-free-rider/' | relative_url }}) is a separate composite used in Lecture 1.
 
 ### Supplementary References (Consult as Needed)
 
 - National Academies of Sciences, Engineering, and Medicine. [*The Science and Practice of Team Science*](https://doi.org/10.17226/29043) (2025). Latest comprehensive review.
 - National Research Council. [*Enhancing the Effectiveness of Team Science*](https://doi.org/10.17226/19007) (2015). Foundational report on team composition, processes, and institutional support.
 - Hall, K.L., et al. ["The Science of Team Science: A Review of the Empirical Evidence."](https://dx.doi.org/10.1037/amp0000319) *American Psychologist* (2018).
-- Baumgartner, H.A., et al. "How to build up big team science: A practical guide." *Royal Society Open Science* (2023).
+- Baumgartner, H.A., et al. [“How to build up big team science: a practical guide for large-scale collaborations.”](https://doi.org/10.1098/rsos.230235) *Royal Society Open Science* 10 (2023): 230235.
 - Jahn, T., Bergmann, M., & Keil, F. "Transdisciplinarity: Between mainstreaming and marginalization." *Ecological Economics* (2012).
 - Ohland, M.W., et al. "The comprehensive assessment of team member effectiveness: Development of a behaviorally anchored rating scale." *Academy of Management Learning & Education* 11, 609–630 (2012). The research behind CATME's design.
 
@@ -457,9 +485,9 @@ After each evaluation, complete the **individual reflection** on Blackboard (3 q
 | If your team is experiencing... | Read this |
 |---|---|
 | Communication breakdowns | Field Guide Ch. 7; AlphaFold case study |
-| One person doing all the work | Field Guide Ch. 11 (One Bad Apple); CATME midterm data |
+| One person doing all the work | Field Guide Ch. 11; CATME patterns and Charter workload-reset procedure |
 | Difficulty finding meeting times | Baumgartner et al., section on tools and infrastructure |
-| Disagreements about direction | Field Guide Ch. 10 (Conflict is Normal); HGP framing parable (Lecture 6) |
+| Disagreements about direction | Field Guide Ch. 10; Charter concern and decision-rights procedures |
 | Unclear credit or contributions | Field Guide Ch. 8 and Appendix; Transistor + BCS Theory cases |
 | Incompatible writing styles | Baumgartner et al., section on collaborative writing |
 | Lack of trust or psychological safety | Field Guide Ch. 5; COVID vaccine case study |
@@ -470,11 +498,11 @@ After each evaluation, complete the **individual reflection** on Blackboard (3 q
 
 By the end of this module, students will be able to:
 
-1. **Analyze** real cases of team collaboration successes and failures, connecting specific practices to outcomes
-2. **Evaluate** their own team's dynamics using CATME peer evaluation data and the Field Guide's frameworks
+1. **Analyze** documented team cases by separating evidence, interpretation, process quality, and outcome
+2. **Prepare to evaluate** their own team's dynamics by practicing CATME's behavioral anchors and establishing a reflection-and-revision procedure
 3. **Develop** a Team Charter that addresses coordination, communication, credit, and conflict with specific, actionable protocols
 4. **Articulate** the unique challenges of interdisciplinary collaboration and strategies for bridging disciplinary differences
-5. **Apply** formative peer feedback to improve team functioning before summative evaluation
+5. **Develop** a concrete plan for using future aggregated CATME feedback to revise one behavior and one Charter clause before summative evaluation
 6. **Give and receive** constructive peer feedback using CATME's behaviorally anchored dimensions
 
 **» Detailed assignment instructions, rubrics, and submission portals are available on the course [Blackboard site](https://blackboard.syr.edu).**
@@ -482,6 +510,6 @@ By the end of this module, students will be able to:
 ---
 
 <div style="margin-top: 30px;">
-  <a href="../ethics/" class="btn" style="margin-right: 40px;">← Research Ethics</a>
-  <a href="../paper/" class="btn" style="margin-left: 40px;">Scientific Writing & Peer Review →</a>
+  <a href="../../" class="btn" style="margin-right: 40px;">← Course Home</a>
+  <a href="../proposal/" class="btn" style="margin-left: 40px;">Proposal Communication →</a>
 </div>

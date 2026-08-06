@@ -3,7 +3,7 @@
 > **Detailed scan and structural map of the repository.**  
 > Repository: `tengzhang48/Bioinspired-Communication-Ethics`  
 > Live site: <https://tengzhang48.github.io/Bioinspired-Communication-Ethics/>  
-> Last updated: 2026-03-07
+> Last updated: 2026-08-06 (Module 1 resources and navigation)
 
 ---
 
@@ -37,11 +37,23 @@ Bioinspired-Communication-Ethics/
 ├── syllabus.md                        ← Course syllabus (/syllabus/)
 ├── schedule.md                        ← Week-by-week schedule (/schedule/)
 │
-├── modules/                           ← Course module pages (Jekyll collection)
+├── modules/                           ← Course module pages with explicit permalinks
 │   ├── foundation.md                  ← Module 1: Foundations (/modules/foundation/)
-│   ├── paper.md                       ← Module 2: Scientific Writing (/modules/paper/)
-│   ├── proposal.md                    ← Module 3: Proposal Writing (/modules/proposal/)
+│   ├── proposal.md                    ← Module 2: Proposal Writing (/modules/proposal/)
+│   ├── paper.md                       ← Module 3: Scientific Writing (/modules/paper/)
 │   └── ethics.md                      ← Module 4: Research Ethics (/modules/ethics/)
+│
+├── case-studies/                       ← Source-linked Module 1 case pages
+│   ├── case-apollo-13.md
+│   ├── case-frontiers-retraction.md
+│   ├── case-alphafold.md
+│   ├── case-transistor-bcs.md
+│   ├── case-challenger.md
+│   └── case-biontech-pfizer.md
+│
+├── scenarios/                          ← Explicitly constructed teaching cases
+│   ├── scenario-free-rider.md
+│   └── module-1-microcases.md
 │
 └── presentations/                     ← Standalone HTML slide decks
     ├── Project_summary_tips.html      (21 KB)
@@ -59,11 +71,12 @@ Bioinspired-Communication-Ethics/
     └── proposal_resources_slides.html (20 KB)
 ```
 
-**Summary counts:**
-- Markdown source files: **10** (README, package map, config, 3 site pages, and 4 module pages)
+**Summary counts (August 6, 2026 published tree):**
+- Markdown source files: **17**
 - HTML presentation decks: **13**
-- Jekyll collections: **1** (`modules`)
-- Total repository files: **22** (excluding `.git/`)
+- Other tracked source files: **1 YAML and 1 XML**
+- Jekyll collections configured: **1** (`modules`), but the current `modules/` files are ordinary permalinked pages rather than `_modules/` collection documents; case studies and scenarios are also permalinked pages
+- Total tracked repository files: **32** (excluding `.git/`)
 
 ---
 
@@ -73,39 +86,52 @@ Bioinspired-Communication-Ethics/
 
 | File | Live URL | Size | Description |
 |---|---|---|---|
-| `README.md` | *(GitHub repo page)* | ~60 lines | Repository overview, link to live site, course summary, tech stack, license |
-| `_PACKAGE_MAP.md` | *(GitHub repo page)* | — | This file — complete package scan and structural map |
-| `_config.yml` | *(build-time only)* | 25 lines | Jekyll configuration: site title, email, baseurl, url, repository, Markdown engine, permalink style, plugins, and module collection settings |
-| `index.md` | `/` | 65 lines | Homepage: course info, instructor contact, course platforms (Blackboard + GitHub), EMIRGE-Bio NRT program description, module highlights, links to all resources |
-| `syllabus.md` | `/syllabus/` | 99 lines | Full course syllabus: description, learning outcomes (Communication, Teamwork, Research Workflow, Ethics), Blackboard access instructions, module-level schedule overview, grading breakdown |
-| `schedule.md` | `/schedule/` | 75 lines | Detailed week-by-week Fall 2026 class schedule with dates, topics, activities, and assignment due dates; key deadlines table |
+| `README.md` | *(GitHub repo page)* | 66 lines | Repository overview, link to live site, course summary, tech stack, license |
+| `_PACKAGE_MAP.md` | *(GitHub repo page)* | ~300 lines | This file — package scan and structural map |
+| `_config.yml` | *(build-time only)* | 26 lines | Jekyll configuration: site title, email, baseurl, url, repository, Markdown engine, permalink style, plugins, and module collection settings |
+| `index.md` | `/` | 66 lines | Homepage: course info, instructor contact, course platforms (Blackboard + GitHub), EMIRGE-Bio NRT program description, module highlights, links to all resources |
+| `syllabus.md` | `/syllabus/` | 182 lines | Full course syllabus: description, learning outcomes (Communication, Teamwork, Research Workflow, Ethics), Blackboard access instructions, module-level schedule overview, grading breakdown |
+| `schedule.md` | `/schedule/` | 122 lines | Detailed week-by-week Fall 2026 class schedule with dates, topics, activities, and assignment due dates; key deadlines table |
 
-### Module Pages (`modules/` collection)
+### Module Pages (`modules/` ordinary page directory)
 
 | File | Live URL | Description |
 |---|---|---|
-| `modules/foundation.md` | `/modules/foundation/` | **Module 1 — Foundations of Teamwork.** CATME platform guides, team-science research (HBR, National Academies, MIT), NSF Convergence Research resources, interdisciplinary research frameworks, module learning objectives |
-| `modules/paper.md` | `/modules/paper/` | **Module 3 — Scientific Writing & Peer Review.** Whitesides writing guide, TechRabbits publication guide, Nature/Science author instructions, peer review frameworks (Nature, eLife, PLOS ONE, COPE), analyzing published reviews, module learning objectives |
+| `modules/foundation.md` | `/modules/foundation/` | **Module 1 — Foundations of Teamwork.** Field Guide readings, CATME, documented team-science cases, decision microcases, and a staged Team Charter with tooling, integration, and contribution appendices |
 | `modules/proposal.md` | `/modules/proposal/` | **Module 2 — Proposal Writing & Review.** NSF PAPPG, NSF merit review criteria, NSF GRFP application strategies, NIH application guides, foundation/private funding (Gates, Sloan, Google, CZI), fellowship programs (F31, Ford, Hertz), broader impacts toolkit, module learning objectives |
+| `modules/paper.md` | `/modules/paper/` | **Module 3 — Scientific Writing & Peer Review.** Whitesides writing guide, TechRabbits publication guide, Nature/Science author instructions, peer review frameworks (Nature, eLife, PLOS ONE, COPE), analyzing published reviews, module learning objectives |
 | `modules/ethics.md` | `/modules/ethics/` | **Module 4 — Research Ethics.** Guest lecturer Dr. Sarah Reckess (JD, Upstate Medical University). Belmont Report, NSF RCR guidelines, dual-use research policy, biosecurity challenges, bioinspired ethics case studies, trustworthy AI ethics guidelines, module learning objectives |
+
+### Module 1 Cases and Scenarios
+
+| File | Live URL | Role |
+|---|---|---|
+| `case-studies/case-apollo-13.md` | `/case-studies/case-apollo-13/` | Roles, trust, verification, redundancy, and transfer limits |
+| `case-studies/case-frontiers-retraction.md` | `/case-studies/case-frontiers-retraction/` | AI disclosure, an unresolved reviewer warning, and workflow control |
+| `case-studies/case-alphafold.md` | `/case-studies/case-alphafold/` | Interdisciplinary integration with documented-fact/inference separation |
+| `case-studies/case-transistor-bcs.md` | `/case-studies/case-transistor-bcs/` | Paired contribution, authorship, inventorship, ownership, and recognition records |
+| `case-studies/case-challenger.md` | `/case-studies/case-challenger/` | Dissent, authority, escalation, and outcome-bias analysis |
+| `case-studies/case-biontech-pfizer.md` | `/case-studies/case-biontech-pfizer/` | Staged trust, asymmetric capabilities, and retained safeguards |
+| `scenarios/scenario-free-rider.md` | `/scenarios/scenario-free-rider/` | Composite CATME evidence and indirect-communication scenario |
+| `scenarios/module-1-microcases.md` | `/scenarios/module-1-microcases/` | Six fictional Charter stress tests with facilitation notes |
 
 ### Presentation Slide Decks (`presentations/`)
 
 | File | Size | Topic | Relevant Module |
 |---|---|---|---|
-| `Project_summary_tips.html` | 21 KB | Tips for summarizing and presenting research projects | All |
-| `Reframe_Applied_Research.html` | 6 KB | Reframing applied research narratives | Module 3 |
-| `Writing_Advice_Summary.html` | 31 KB | Condensed scientific writing advice | Module 2 |
-| `career_proposal_tips.html` | 35 KB | Career-focused proposal writing strategies | Module 3 |
+| `Project_summary_tips.html` | 21 KB | Intellectual merit and broader-impacts summaries | Module 2 |
+| `Reframe_Applied_Research.html` | 6 KB | Reframing applied research narratives | Module 2 |
+| `Writing_Advice_Summary.html` | 31 KB | Condensed scientific writing advice | Module 3 |
+| `career_proposal_tips.html` | 35 KB | NSF CAREER proposal writing strategies | Module 2 |
 | `deepseek_review_1.html` | 18 KB | DeepSeek AI peer review analysis — Part 1 | Module 2 |
 | `deepseek_review_2.html` | 9 KB | DeepSeek AI peer review analysis — Part 2 | Module 2 |
-| `fundamental_vs_applied.html` | 51 KB | Fundamental vs. applied research distinctions | Module 1 / 3 |
-| `hypothesis_definition.html` | 12 KB | Defining and framing research hypotheses | Module 1 |
-| `nobel-analysis.html` | 36 KB | Analysis of Nobel Prize-winning research | Module 1 / 3 |
-| `nsf_analysis.html` | 38 KB | NSF funding landscape analysis | Module 3 |
-| `nsf_research_challenges.html` | 55 KB | NSF research challenge frameworks | Module 3 |
+| `fundamental_vs_applied.html` | 51 KB | Fundamental vs. applied research distinctions | Module 2 |
+| `hypothesis_definition.html` | 12 KB | Defining and framing research hypotheses | Module 2 |
+| `nobel-analysis.html` | 36 KB | Analysis of Nobel Prize-winning research | Modules 2–3 |
+| `nsf_analysis.html` | 38 KB | NSF funding landscape analysis | Module 2 |
+| `nsf_research_challenges.html` | 55 KB | NSF research challenge frameworks | Module 2 |
 | `professor_advice_slides.html` | 13 KB | General research advice from faculty | All |
-| `proposal_resources_slides.html` | 20 KB | Curated proposal writing resource guide | Module 3 |
+| `proposal_resources_slides.html` | 20 KB | Curated proposal writing resource guide | Module 2 |
 
 ---
 
@@ -149,20 +175,20 @@ Homepage (/)
 │   └── Week-by-week Fall 2026 calendar + key deadlines
 │
 ├── Module 1: Foundations (/modules/foundation/)
-│   ├── CATME team tools
-│   ├── Interdisciplinary research resources
-│   └── Convergence research guides
+│   ├── CATME feedback practice
+│   ├── Field Guide and documented cases
+│   └── Staged Team Charter package
 │
-├── Module 2: Scientific Writing & Peer Review (/modules/paper/)
-│   ├── Scientific writing guides (Whitesides, TechRabbits)
-│   ├── Peer review resources (Nature, eLife, PLOS, COPE)
-│   └── Published review examples
-│
-├── Module 3: Proposal Writing & Review (/modules/proposal/)
+├── Module 2: Proposal Writing & Review (/modules/proposal/)
 │   ├── Federal funding (NSF, NIH)
 │   ├── Fellowship programs (GRFP, F31, Ford, Hertz)
 │   ├── Foundation funding (Gates, Sloan, Google, CZI)
 │   └── Broader impacts strategies
+│
+├── Module 3: Scientific Writing & Peer Review (/modules/paper/)
+│   ├── Scientific writing guides (Whitesides, TechRabbits)
+│   ├── Peer review resources (Nature, eLife, PLOS, COPE)
+│   └── Published review examples
 │
 └── Module 4: Research Ethics (/modules/ethics/)
     ├── Foundational ethics (Belmont Report, NSF RCR)
@@ -175,12 +201,12 @@ Homepage (/)
 
 | On Page | Previous | Next |
 |---|---|---|
-| `/modules/foundation/` | Research Ethics | Scientific Writing & Peer Review |
-| `/modules/paper/` | Team Work | Proposal Writing & Review |
-| `/modules/proposal/` | Scientific Writing & Peer Review | Research Ethics |
-| `/modules/ethics/` | Proposal Writing & Review | Team Work |
+| `/modules/foundation/` | Course Home | Proposal Writing & Review |
+| `/modules/proposal/` | Foundations of Teamwork | Scientific Writing & Peer Review |
+| `/modules/paper/` | Proposal Writing & Review | Research Ethics |
+| `/modules/ethics/` | Scientific Writing & Peer Review | Course Home |
 
-*(Modules are arranged in a circular navigation pattern.)*
+*(Modules follow the course sequence shown in the schedule.)*
 
 ---
 
@@ -188,7 +214,7 @@ Homepage (/)
 
 | Due Date | Assignment | Module |
 |---|---|---|
-| Sep 14 | Final Team Charter | Module 1 |
+| Sep 14 | Final Team Charter package | Module 1 |
 | Sep 21 | Challenge/Objectives Draft | Module 2 |
 | Sep 23 | Revised Challenge/Objectives | Module 2 |
 | Oct 5 | Panel Summary | Module 2 |
@@ -250,16 +276,16 @@ _config.yml
        ├── syllabus.md     → rendered at /syllabus/
        ├── schedule.md     → rendered at /schedule/
        └── modules/*.md   → rendered at /modules/<name>/
-            ├── foundation.md   → links to: paper.md, external CATME/NSF resources
-            ├── paper.md        → links to: foundation.md, proposal.md, external writing/review guides
-            ├── proposal.md     → links to: paper.md, ethics.md, external NSF/NIH/fellowship resources
-            └── ethics.md       → links to: proposal.md, foundation.md, external bioethics resources
+            ├── foundation.md   → links to: proposal.md, Field Guide, cases, and CATME resources
+            ├── proposal.md     → links to: foundation.md, paper.md, and external NSF/NIH/fellowship resources
+            ├── paper.md        → links to: proposal.md, ethics.md, and external writing/review guides
+            └── ethics.md       → links to: paper.md, course home, and external bioethics resources
 
 presentations/*.html
   └── standalone slide decks; referenced from module pages and schedule topics
-       ├── Module 2 focus: Writing_Advice_Summary, deepseek_review_1/2
-       ├── Module 3 focus: nsf_analysis, nsf_research_challenges, career_proposal_tips,
-       │                   proposal_resources_slides, Reframe_Applied_Research
-       └── General focus:  fundamental_vs_applied, hypothesis_definition, nobel-analysis,
-                           Project_summary_tips, professor_advice_slides
+       ├── Module 2 focus: deepseek_review_1/2, nsf_analysis, nsf_research_challenges,
+       │                   career_proposal_tips, proposal_resources_slides, Reframe_Applied_Research,
+       │                   fundamental_vs_applied, hypothesis_definition, Project_summary_tips
+       ├── Module 3 focus: Writing_Advice_Summary
+       └── Cross-module/general: nobel-analysis, professor_advice_slides
 ```

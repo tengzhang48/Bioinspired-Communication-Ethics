@@ -44,7 +44,7 @@ Learn more at:
 This course emphasizes **teamwork**, **scientific communication**, and **ethical research practices** through four integrated modules:
 
 ### 🧩 [Module 1: Foundations](modules/foundation)
-Team-building with CATME, literature review best practices, and 2-minute pitch exercises
+CATME feedback, interdisciplinary teamwork, documented cases, and a stress-tested Team Charter
 
 ### 💡 [Module 2: Research Proposal Preparation](modules/proposal)
 NSF-style grant proposal development, presentations, and mock panel review

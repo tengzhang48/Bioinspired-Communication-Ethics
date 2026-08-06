@@ -1,72 +1,74 @@
+---
+layout: page
+title: "Case Study: The Frontiers Retracted Figure"
+permalink: /case-studies/case-frontiers-retraction/
+---
+
 # Case Study: The *Frontiers* Retracted Figure
 
-***Frontiers in Cell and Developmental Biology*, February 13–15, 2024 | A peer-reviewed paper, an AI-generated figure, three authors, two reviewers, one editor, and a verification chain that failed at every layer.**
+***Frontiers in Cell and Developmental Biology*, February 13–16, 2024 | A peer-reviewed paper, disclosed AI-generated figures, a reviewer warning, and a publishing process that did not ensure the warning was resolved.**
 
 ---
 
-*A note before reading: This case is sometimes told as "AI made up an image and it got published." That is true but misses the teamwork point. The paper disclosed that the figure was AI-generated. The disclosure was in the published manuscript itself. Three authors, two peer reviewers, and one handling editor saw the figure before publication, and at least the authors saw the disclosure. The figure was published anyway. This case is not about hidden AI use. It is about disclosed AI use that no one verified — and what that tells you about the difference between a disclosure norm and a verification protocol.*
+*A note before reading: This case is sometimes told as "AI made up an image and no one noticed." The public record shows something more instructive. The manuscript identified Midjourney in a figure caption, and Frontiers later reported that one reviewer raised concerns about the figures and requested revisions. The authors did not respond to those requests, yet the article was published. The case therefore concerns more than disclosure or individual attentiveness: it asks how a workflow records a warning, assigns responsibility for resolving it, and prevents publication while a required response remains outstanding.*
 
 ---
 
 ## Setting
 
-In early February 2024, the journal *Frontiers in Cell and Developmental Biology* published a review article on the role of JAK/STAT signaling pathways in spermatogonial stem cells. The paper had three authors at Hong Hui Hospital and Xi'an Honghui Hospital in Xi'an, China, was sent through the journal's standard peer review, and was approved by the handling editor.
+On February 13, 2024, the journal *Frontiers in Cell and Developmental Biology* published a review article on the role of JAK/STAT signaling pathways in spermatogonial stem cells. The article listed three authors across two hospital affiliations in Xi'an, China, two reviewers, and a handling editor.
 
-The paper contained an illustrative anatomical figure of a rat. The figure had been generated using Midjourney, an AI image generation tool. This fact was disclosed in the figure caption.
+The paper contained an illustrative anatomical figure of a rat. Its caption stated that the images in the figure were generated using Midjourney, an AI image-generation tool.
 
 The figure was not anatomically possible. The rat was depicted with grossly oversized genitalia rendered in a configuration no actual rat possesses. The labels surrounding the figure were nonsense words formed by AI hallucination: "dissilced," "Testtomcels," "Stemm cells," "iollotte sserotgomar cell." The labels did not correspond to any real anatomical structures or biological terms.
 
-## The Verification Chain
+## The Four-Stage Workflow
 
-Before publication, the figure passed through a sequence of review stages. Each stage is a verification opportunity.
+The article moved through four broad stages. The available sources establish some events but do not provide a complete record of every participant's actions or reasoning.
 
-**Author self-review.** Three authors are listed on the paper. At least one of them — the author who generated and inserted the Midjourney figure — knew the figure was AI-generated. Whether the other two authors examined the figure carefully before submission is not part of the public record. What is known is that the submitted manuscript contained the figure as published, including the nonsense labels and impossible anatomy.
+**1. Author preparation and submission.** Three authors were listed, and the submitted manuscript contained the AI-generated figures and the Midjourney caption. The public record does not identify who prompted, selected, labelled, or inserted the images; how the authors divided figure-review responsibilities; or whether all three inspected the final figures before submission.
 
-**Peer review.** Two reviewers were assigned to the paper. *Frontiers* operates an open peer-review model in which reviewer names are published with the article. Both reviewers approved the paper. The reviewer reports, made public after the retraction, do not include any comment on the figure. One reviewer was based in India, one in the United States. Neither flagged the figure as a problem.
+**2. Peer review.** Two reviewers were named with the article. Frontiers' official post-publication statement says that one reviewer raised valid concerns about the figures and requested revisions. The statement does not specify every concern, reproduce the full exchange, or explain the other reviewer's assessment.
 
-**Editorial review.** The handling editor approved the paper for publication after receiving the reviewer reports. Editorial review at *Frontiers* includes responsibility for figure quality and integrity. The handling editor did not flag the figure.
+**3. Editorial decision and workflow control.** Frontiers says that the authors failed to respond to the reviewer's requests. Nevertheless, the article proceeded to publication. Frontiers subsequently investigated how its processes failed to act on the authors' lack of compliance. The public statements do not establish the handling editor's actions, the internal status of the requested revisions, or the precise control failure that allowed the article to advance.
 
-**Production.** The paper went through *Frontiers'* production process — copyediting, typesetting, figure rendering for publication. The figure was reproduced in the published version exactly as submitted.
-
-The paper was published online on February 13, 2024.
+**4. Production and publication.** The article, including the figures, was published online on February 13. The available record does not show which scientific-content checks, if any, were expected during production. Production is therefore a workflow stage to examine, not a group to blame without evidence.
 
 ## The Public Reaction and Retraction
 
-Within hours of publication, screenshots of the figure circulated on social media. Researchers, including many outside the paper's specific subfield, identified the labels as AI hallucinations and the anatomy as biologically impossible. The figure became the subject of widespread mockery within the scientific community.
+After publication, images from the article circulated online and readers raised concerns about the figures. Frontiers credited community feedback with bringing the problem to its attention.
 
-*Frontiers* retracted the paper on February 15, 2024 — two days after publication. The retraction notice cited the figure's lack of scientific validity. The journal's statement acknowledged that the publication had failed its own quality standards and announced a review of its editorial procedures.
+*Frontiers* retracted the paper on February 16, 2024. The formal notice said that concerns had been raised about the AI-generated figures and that the article did not meet the journal's standards of editorial and scientific rigor. A separate Frontiers statement reported the unanswered reviewer request and said the publisher was investigating why its processes failed to act.
 
-Both reviewers issued public statements. One stated that they had reviewed the text but not the figures. The other stated that they had reviewed the paper at a conceptual level and had not noticed the figure problem.
-
-The handling editor's account was not made public.
+The public record does not provide a complete account from the authors, both reviewers, the handling editor, and production staff. Claims about what each person noticed, assumed, or expected should therefore be treated as hypotheses rather than facts.
 
 ## What the Case Is Actually About
 
-If the paper had used a stock anatomy diagram, no problem would have arisen. If the paper had used an AI-generated figure that *looked plausible*, the figure might have been published and never retracted — which is the more concerning possibility. The reason this case is teachable is that the AI-generated figure was *visibly* wrong, and yet five separate review stages did not catch it.
+The reason this case is teachable is that the AI-generated figure was visibly defective, the manuscript disclosed use of Midjourney, and at least one reviewer raised concerns—yet the workflow still did not stop publication. A more plausible-looking but inaccurate image could be harder to detect, which makes reliable follow-through even more important.
 
-The teamwork question this raises is specific:
+The teamwork question is therefore specific:
 
-The paper disclosed AI use. Disclosure is the norm we tell teams to adopt. The disclosure was followed correctly here. And it did not prevent the failure.
+Disclosure alone did not prevent the failure. Nor was the problem simply a total absence of human scrutiny: a warning existed. What failed was accountable follow-through on that warning.
 
-What was missing was not disclosure but a *verification protocol*. None of the five reviewers — the three authors, the two peer reviewers, the editor — apparently understood that "AI-generated figure" was a flag requiring different verification than a normal figure. The figure passed through the system as if it were a regular illustration. The disclosure was treated as paperwork, not as a request for additional scrutiny.
+A functioning *verification and escalation protocol* would specify what must be checked, who must respond, who decides whether the response is adequate, how unresolved concerns are recorded, and what blocks the work from advancing. The case shows that a reviewer's request has little protective value if the workflow does not ensure or enforce a response before publication.
 
-This pattern has a name in safety engineering: *deference to the system*. Each reviewer assumed someone else upstream or downstream had checked the figure. The author who inserted it assumed the co-authors would catch problems. The co-authors assumed the reviewers would catch problems. The reviewers assumed the editor would catch problems. The editor assumed the reviewers had checked. No one was specifically responsible for AI-generated figure verification, so no one did it.
+Distributed responsibility may have contributed, but the sources do not reveal participants' mental states or justify claiming that each person deferred to someone else. Students can use responsibility diffusion as one possible explanation, compare it with alternatives such as a status-tracking or decision-control failure, and identify what additional evidence would be needed to distinguish among them.
 
 ## Discussion Questions
 
-1. **Disclosure versus verification.** The figure was disclosed as AI-generated. The disclosure did not prevent publication. **What is the difference between a team having a disclosure norm and a team having a verification protocol?** What would your team's verification protocol need to specify to prevent this failure mode?
+1. **Disclosure versus verification.** The caption identified Midjourney, but that disclosure did not ensure scientific validity. **What is the difference between disclosing a tool and verifying its output?** What must a team record about the use, review, and approval of AI-generated material?
 
-2. **The five-layer failure.** Three authors, two reviewers, one editor — each had an opportunity to flag the figure. Each missed it. Most discussion of review focuses on individual reviewers. **What does this case suggest about the limits of review when responsibility is distributed across multiple layers?** When does adding more reviewers reduce the chance of catching errors rather than increase it?
+2. **Warning without closure.** At least one reviewer raised concerns and requested revisions, but the authors did not respond and the article was still published. **What workflow controls should make an unresolved reviewer request visible and publication-blocking?** Who should have authority to close the concern?
 
-3. **The deference pattern.** "Someone else upstream or downstream will catch it" is a recognizable failure mode in any team that operates with sequential review. How does this connect to the Challenger case from Lecture 6? Both cases involve teams in which review existed but did not function. What did the structures have in common?
+3. **Facts, hypotheses, and accountability.** We know that a warning existed, but we do not know what every participant saw or assumed. **Which explanations are supported by the record, which are hypotheses, and what additional evidence would you seek?** How can a team assign accountability without inventing individual motives?
 
-4. **AI as a category requiring different protocols.** The reviewers treated the AI-generated figure with the same scrutiny they applied to a normal figure — which is to say, very little scrutiny in detail. **What would justify treating AI-generated outputs as a category requiring different verification than human-generated outputs?** Is the difference about reliability, about the authors' skin in the game, about something else?
+4. **AI as a category requiring different protocols.** **What would justify treating AI-generated outputs as requiring different verification from other outputs?** Should the protocol depend on the tool, the type of claim, the consequences of error, or the output's verifiability?
 
-5. **Apply this to your team.** Consider a moment where one of your teammates has used AI for some part of a deliverable — a draft section, a literature search, a data analysis. **What is your team's verification protocol for that work?** Not "do you trust your teammate," but specifically: what review step happens, who does it, and what would the reviewer be looking for?
+5. **Apply this to your team.** Consider a moment when a teammate uses AI for part of a deliverable—a draft section, literature search, data analysis, or image. **What is your team's verification and escalation protocol?** What gets checked, by whom, where are concerns recorded, and what prevents submission until they are resolved?
 
 ## Sources for Further Reading
 
-- Pearson, Helen. "AI-generated images of rats with giant penises show why publishers need vigilance." *Nature*, February 16, 2024. The most thorough public account of the retraction.
-- Retraction Watch. "All hands on deck: AI-generated images and the future of peer review." February 16, 2024. Editorial framing the case in the context of broader AI-in-publishing concerns.
-- The retracted paper: Guo, Xinyu et al. "Cellular functions of spermatogonial stem cells in relation to JAK/STAT signaling pathway." *Frontiers in Cell and Developmental Biology* 12 (2024): 1339390. Retracted February 15, 2024. The retracted version remains accessible through standard archive systems with the retraction notice attached.
-- *Frontiers* official retraction statement, available on the journal's website.
+- Frontiers Communications Editor. ["Frontiers statement concerning the article 'Cellular functions of spermatogonial stem cells in relation to JAK/STAT signaling pathway.'"](https://www.frontiersin.org/news/2024/02/16/frontiers-statement-concerning-the-article-cellular-functions-of-spermatogonial-stem-cells) February 16, 2024. This is the key source for the reviewer concern, the unanswered revision request, and Frontiers' process investigation.
+- Frontiers Editorial Office. ["Retraction: Cellular functions of spermatogonial stem cells in relation to JAK/STAT signaling pathway."](https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2024.1386861/full) *Frontiers in Cell and Developmental Biology* 12 (2024): 1386861. This is the formal retraction notice, published February 16, 2024.
+- Guo, Xinyu, Liang Dong, and Dingjun Hao. ["RETRACTED: Cellular functions of spermatogonial stem cells in relation to JAK/STAT signaling pathway."](https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1339390/full) *Frontiers in Cell and Developmental Biology* 11: 1339390 (published online February 13, 2024). This is the original article and its publication metadata; the publisher assigns it to volume 11 (2023) while citing the article by its 2024 publication year.
+- Wong, Carissa. ["AI-generated images and video are here: how could they shape research?"](https://www.nature.com/articles/d41586-024-00659-8) *Nature*, March 7, 2024. A broader account of scientific uses and risks of generated images that discusses this case.

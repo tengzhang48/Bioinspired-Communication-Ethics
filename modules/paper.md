@@ -453,6 +453,6 @@ Through seven lectures and guided practice, students develop skills in:
 ---
 
 <div class="module-nav" style="margin-right: 30px;">
-  <a href="../foundation/" class="btn" style="margin-right: 40px;">← Team Work</a>
-  <a href="../proposal/" class="btn" style="margin-right: 40px;">Proposal Writing & Review →</a>
+  <a href="../proposal/" class="btn" style="margin-right: 40px;">← Proposal Writing & Review</a>
+  <a href="../ethics/" class="btn" style="margin-right: 40px;">Research Ethics →</a>
 </div>
