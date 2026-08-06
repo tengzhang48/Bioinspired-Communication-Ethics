@@ -53,7 +53,7 @@ The Charter is a framework for a working relationship, not a substitute for one.
 |:---:|---------------------|:---:|
 | Rater Practice | Lecture 1 | None |
 | Evaluation 1 | After Module 1 | None — formative |
-| Evaluation 2 | After Module 2 | None — formative |
+| Evaluation 2 | After the final Module 2 team concept note (Oct 14) | None — formative |
 | Evaluation 3 | After Module 3 | None — formative |
 | Evaluation 4 | End of semester | **Multiplier applied** |
 
@@ -141,7 +141,7 @@ This course does not ban AI in teamwork. The goal is to prevent AI from becoming
 |---|---|---|---|
 | **Rater Practice** | Lecture 1 | Learn the system; practice with hypothetical teammates | None |
 | **Evaluation 1** | After Module 1 ends | Early formative feedback; establish baseline | Ratings do not affect grades |
-| **Evaluation 2** | After Module 2 deliverable | Mid-semester check; identify issues while there's time to change | None — purely feedback |
+| **Evaluation 2** | After the final Module 2 team concept note (Oct 14) | Mid-semester check; identify issues while there's time to change | None — purely feedback |
 | **Evaluation 3** | After Module 3 deliverable | Late formative; final chance to adjust | None — purely feedback |
 | **Evaluation 4** | End of semester | Full-semester summative evaluation | **Grade multiplier applied** |
 
@@ -444,7 +444,7 @@ CATME's descriptions differ by dimension. Do not apply one global label such as 
 |---|---|---|---|
 | Rater Practice | Lecture 1 | Learn the system | None |
 | Evaluation 1 | After Module 1 | Early formative feedback | None |
-| Evaluation 2 | After Module 2 | Mid-semester check | None |
+| Evaluation 2 | After the final Module 2 team concept note (Oct 14) | Mid-semester check | None |
 | Evaluation 3 | After Module 3 | Late formative | None |
 | Evaluation 4 | End of semester | Full-semester summative | **Multiplier applied** |
 

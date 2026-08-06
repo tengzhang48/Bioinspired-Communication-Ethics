@@ -47,7 +47,7 @@ This course emphasizes **teamwork**, **scientific communication**, and **ethical
 CATME feedback, interdisciplinary teamwork, documented cases, and a stress-tested Team Charter
 
 ### 💡 [Module 2: Research Proposal Preparation](modules/proposal)
-NSF-style grant proposal development, presentations, and mock panel review
+Current NSF/NIH criteria, evidence-consistent proposal development, responsible AI use, and mock panel review
 
 ### 📝 [Module 3: Scientific Literature Review](modules/paper)
 Transparent peer review process, manuscript analysis, and ethical review practices

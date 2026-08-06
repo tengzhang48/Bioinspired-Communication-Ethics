@@ -44,7 +44,7 @@ Upon successful completion of this course, students will be able to:
    > *Assessed through:* Writing Portfolio (Module 3), peer review exercises (Modules 2 & 3)
 
 2. **Construct** a research proposal narrative — including a challenge statement, research objectives, intellectual merit, and broader impacts — and **evaluate** proposals through mock review panels using agency-specific criteria.
-   > *Assessed through:* Challenge/objectives draft, GCR team proposal, panel summary (Module 2)
+   > *Assessed through:* Challenge/objectives draft, GCR-inspired team concept note, panel summary (Module 2)
 
 3. **Demonstrate** effective interdisciplinary collaboration by developing a Team Charter, providing behaviorally anchored peer feedback through CATME, and contributing equitably to team deliverables across the semester.
    > *Assessed through:* Team Charter, CATME evaluations, team project contributions (Module 1, ongoing)
@@ -72,7 +72,7 @@ The course is organized into four modules taught sequentially. Each module page 
 
 ### Module 2: Proposal Writing & Review (7 sessions)
 {: .module-header}
-**Focus:** How scientific breakthroughs happen, funding agency cultures, strategic research framing, and hands-on proposal development. Students draft challenge statements and research objectives for their own dissertation research, conduct mock review panels, and develop a team Growing Convergence Research (GCR) proposal.
+**Focus:** Evidence-consistent research framing, current NSF/NIH review frameworks, hands-on proposal development, formal peer review, and role-specific AI/confidentiality rules. Students draft and revise challenge statements and research objectives, conduct a mock review panel, and develop a team concept note modeled on Growing Convergence Research (GCR).
 
 → [Module 2 Details](../modules/proposal/)
 
@@ -99,7 +99,7 @@ Grading is based on a combination of individual and team assessments, designed t
 | Component | Percentage | Description |
 |-----------|:---:|-------------|
 | Group Discussion & Participation | 20% | In-class activities, Mentimeter engagement, case study discussions |
-| Project Reports | 30% | Writing Portfolio, challenge/objectives draft, GCR proposal, literature reviews |
+| Project Reports | 30% | Writing Portfolio, challenge/objectives draft, GCR-inspired concept note, literature reviews |
 | Project Presentations | 20% | Team pitches, mock panel reviews, final Technology & Responsibility Report presentation |
 | Peer Review Exercises | 10% | Manuscript peer review, cross-team proposal review, CATME evaluations |
 | Ethics Case Study & Final Report | 20% | Ethics session participation, Technology & Responsibility Report |
@@ -131,7 +131,7 @@ The final CATME evaluation produces a grade multiplier (0.85–1.05) applied to 
 |------------|:---:|:---:|------|
 | Team Charter package (iterative core + three appendices + final stress test) | 1 | Team | Aug 24–Sep 14 |
 | Challenge Statement & Research Objectives | 2 | Individual | Weeks 4–5 |
-| GCR Team Proposal | 2 | Team | Week 8 |
+| GCR-Inspired Team Concept Note | 2 | Team | Week 8 |
 | Writing Portfolio (iterative: 6 milestones) | 3 | Team | Weeks 8–12 |
 | Technology & Responsibility Report | 4 | Team | Dec 15 |
 
@@ -156,10 +156,11 @@ Students are expected to uphold the highest standards of academic integrity in a
 AI tools (ChatGPT, Claude, etc.) may be used as writing aids for brainstorming, structural feedback, and grammar checking. However:
 - AI-generated content must be disclosed when used in any assignment
 - AI output is not an acceptable source record for a citation. Every cited work must be independently located, read, and verified against the original source; fabricated or misattributed references violate academic-integrity expectations.
+- Protected, confidential, unpublished, proprietary, personally identifiable, or review-protected material may not be entered into a public or otherwise unauthorized AI tool. Course permission does not override sponsor, institutional, data-use, privacy, intellectual-property, or tool rules.
 - AI may not be used as a substitute for completing readings or engaging with course materials
 - The Technology & Responsibility Report must reflect your team's original analysis and reasoning
 
-This policy is intentionally practical rather than prohibitive — Module 3 includes an exercise where you test AI feedback on your own writing and evaluate its quality. The goal is critical AI literacy, not avoidance.
+No assignment requires use of AI; an equivalent no-AI path is always available. This policy is intentionally practical rather than prohibitive — Module 3 includes an exercise where you test AI feedback on authorized writing and evaluate its quality. The goal is critical AI literacy, not avoidance.
 
 ### Disability-Related Accommodations
 
