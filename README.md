@@ -19,7 +19,7 @@ This course is structured into four integrated modules:
    Foundations of interdisciplinary collaboration, CATME peer evaluation, convergence research.
 
 2. **Research Proposal Writing & Review**  
-   NSF-style grant preparation, oral presentations, and mock review panels.
+   Current NSF/NIH review frameworks, evidence-consistent proposal development, responsible AI use, and mock review panels.
    
 3. **Scientific Writing & Peer Review**  
    Writing and reviewing scientific manuscripts; peer review ethics and transparent review.
@@ -63,4 +63,3 @@ This site is actively maintained. Suggestions and contributions for improved con
 
 Content © 2025 by course instructors.  
 Website code is available under the [MIT License](LICENSE).
-

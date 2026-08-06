@@ -26,7 +26,7 @@ permalink: /schedule/
 | Module | Sessions | Weeks | Focus |
 |--------|:---:|:---:|-------|
 | [Module 1: Foundations of Teamwork](../modules/foundation/) | 6 | Aug 24 – Sep 14 | Team formation, CATME, collaboration skills |
-| [Module 2: Proposal Writing & Review](../modules/proposal/) | 7 | Sep 16 – Oct 7 | Research landscape, framing, proposal development |
+| [Module 2: Proposal Writing & Review](../modules/proposal/) | 7 | Sep 16 – Oct 7 | Evidence-consistent framing, current NSF/NIH criteria, review, responsible AI, and a GCR-inspired concept |
 | [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 7 | Oct 14 – Nov 4 | Writing principles, revision, peer review, AI tools |
 | [Module 4: Research Ethics](../modules/ethics/) | 7 | Nov 9 – Dec 7 | Misconduct, dual-use, sci-comm, AI ethics, IP |
 
@@ -52,13 +52,13 @@ permalink: /schedule/
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 7 | Wed, Sep 16 | [The Research Landscape & Research Framing](../modules/proposal/#lecture-1) | Pre-read: Nobel + NSF directorate analysis; "Classify Your Own Field" exercise; paragraph-level reframing | |
-| 8 | Mon, Sep 21 | [Funding Agencies & Your First Research Narrative](../modules/proposal/#lecture-2) | NSF vs. NIH comparison; draft challenge statement + 3 objectives; peer review in pairs | Challenge/Objectives Draft |
-| 9 | Wed, Sep 23 | [Writing the Research Narrative](../modules/proposal/#lecture-3) | Field-specific best practices; NIH specific aims; revision workshop; "Elevator Test" | Revised Challenge/Objectives |
-| 10 | Mon, Sep 28 | [Intellectual Merit, Broader Impacts & Case Studies](../modules/proposal/#lecture-4) | NSF CAREER case study; review panel simulation | |
-| 11 | Wed, Sep 30 | [AI in the Research Enterprise](../modules/proposal/#lecture-5) | AI history quiz; AI Winter jigsaw; hypothesis generation debate; AI detection callback | |
-| 12 | Mon, Oct 5 | [Peer Review, Ethics & Responding to Critique](../modules/proposal/#lecture-6) | AI over-values structure case; mock panel review; ethics discussion | Panel Summary |
-| 13 | Wed, Oct 7 | [GCR Team Proposal Workshop](../modules/proposal/#lecture-7) | GCR proposal drafting; cross-team peer review | **GCR Proposal (final due Oct 14)** |
+| 7 | Wed, Sep 16 | [Research Pathways & Evidence-Consistent Framing](../modules/proposal/#lecture-1) | Three official Nobel source cases; evidence/classification audit; paragraph reframe | |
+| 8 | Mon, Sep 21 | [Funding Agencies & Your First Research Narrative](../modules/proposal/#lecture-2) | Current NSF/NIH frameworks; draft challenge and objectives; cross-disciplinary review | Challenge/Objectives Draft |
+| 9 | Wed, Sep 23 | [Writing the Research Narrative](../modules/proposal/#lecture-3) | Public NIH aims-page analysis; argument map; revision; elevator test | Revised Challenge/Objectives |
+| 10 | Mon, Sep 28 | [Criteria Calibration: IM, BI & Evidence](../modules/proposal/#lecture-4) | Constructed proposal comparison; calibration; prestige/preliminary-data microcase; BI redesign; GCR concept launch | Team Integration Map; calibration note retained |
+| 11 | Wed, Sep 30 | [AI in Proposal Development: Use, Evidence & Confidentiality](../modules/proposal/#lecture-5) | Role-specific policy jigsaw; confidential-review microcase; claim verification; safe workflow | Individual AI Note + Team Concept Protocol |
+| 12 | Mon, Oct 5 | [Formal Peer Review & Responding to Critique](../modules/proposal/#lecture-6) | Independent review; formal panel; panel summary; response-to-critique memo | Panel Summary |
+| 13 | Wed, Oct 7 | [GCR-Inspired Team Concept Workshop](../modules/proposal/#lecture-7) | Convergence test; pre-draft cross-review; reviewer–author conference; revision sprint | **Concept Note (final due Oct 14)** |
 | | Mon, Oct 12 | **NO CLASS** | *Fall Break* | |
 
 ---
@@ -103,7 +103,7 @@ permalink: /schedule/
 | **Sep 21** | Challenge/Objectives Draft | Module 2 |
 | **Sep 23** | Revised Challenge/Objectives | Module 2 |
 | **Oct 5** | Panel Summary | Module 2 |
-| **Oct 14** | GCR Proposal (final) | Module 2 |
+| **Oct 14** | GCR-Inspired Concept Note (final) | Module 2 |
 | **Oct 19** | Writing Portfolio Draft 1 | Module 3 |
 | **Oct 21** | Writing Portfolio Draft 2 | Module 3 |
 | **Oct 28** | Writing Portfolio Peer Review | Module 3 |
@@ -117,6 +117,6 @@ permalink: /schedule/
 |------------|-------------|:---:|
 | Rater Practice | Lecture 1 (Aug 24) | None |
 | Evaluation 1 | Module 1 ends (Sep 14) | None |
-| Evaluation 2 | Module 2 ends (Oct 7) | None |
+| Evaluation 2 | Final Module 2 team concept note submitted (Oct 14) | None |
 | Evaluation 3 | Module 3 ends (Nov 4) | None |
 | Evaluation 4 | End of semester (Dec 7) | **Multiplier applied** |

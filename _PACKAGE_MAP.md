@@ -3,7 +3,7 @@
 > **Detailed scan and structural map of the repository.**  
 > Repository: `tengzhang48/Bioinspired-Communication-Ethics`  
 > Live site: <https://tengzhang48.github.io/Bioinspired-Communication-Ethics/>  
-> Last updated: 2026-08-06 (Module 1 resources and navigation)
+> Last updated: 2026-08-06 (Module 2 evidence, policy, activities, and navigation)
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 🗂️ Complete Directory Tree
+## 🗂️ Core Published Directory Tree
 
 ```
 Bioinspired-Communication-Ethics/
@@ -53,7 +53,8 @@ Bioinspired-Communication-Ethics/
 │
 ├── scenarios/                          ← Explicitly constructed teaching cases
 │   ├── scenario-free-rider.md
-│   └── module-1-microcases.md
+│   ├── module-1-microcases.md
+│   └── module-2-microcases.md
 │
 └── presentations/                     ← Standalone HTML slide decks
     ├── Project_summary_tips.html      (21 KB)
@@ -71,12 +72,12 @@ Bioinspired-Communication-Ethics/
     └── proposal_resources_slides.html (20 KB)
 ```
 
-**Summary counts (August 6, 2026 published tree):**
-- Markdown source files: **17**
+**Summary counts (August 6, 2026 core published tree; uploaded readings and working review documents excluded):**
+- Markdown course/site source files: **18**
 - HTML presentation decks: **13**
-- Other tracked source files: **1 YAML and 1 XML**
+- Other course/site source files: **1 YAML and 1 XML**
 - Jekyll collections configured: **1** (`modules`), but the current `modules/` files are ordinary permalinked pages rather than `_modules/` collection documents; case studies and scenarios are also permalinked pages
-- Total tracked repository files: **32** (excluding `.git/`)
+- Core published package files: **33**
 
 ---
 
@@ -86,11 +87,11 @@ Bioinspired-Communication-Ethics/
 
 | File | Live URL | Size | Description |
 |---|---|---|---|
-| `README.md` | *(GitHub repo page)* | 66 lines | Repository overview, link to live site, course summary, tech stack, license |
+| `README.md` | *(GitHub repo page)* | 65 lines | Repository overview, link to live site, course summary, tech stack, and stated license information |
 | `_PACKAGE_MAP.md` | *(GitHub repo page)* | ~300 lines | This file — package scan and structural map |
 | `_config.yml` | *(build-time only)* | 26 lines | Jekyll configuration: site title, email, baseurl, url, repository, Markdown engine, permalink style, plugins, and module collection settings |
 | `index.md` | `/` | 66 lines | Homepage: course info, instructor contact, course platforms (Blackboard + GitHub), EMIRGE-Bio NRT program description, module highlights, links to all resources |
-| `syllabus.md` | `/syllabus/` | 182 lines | Full course syllabus: description, learning outcomes (Communication, Teamwork, Research Workflow, Ethics), Blackboard access instructions, module-level schedule overview, grading breakdown |
+| `syllabus.md` | `/syllabus/` | 183 lines | Full course syllabus: description, learning outcomes (Communication, Teamwork, Research Workflow, Ethics), Blackboard access instructions, module-level schedule overview, grading breakdown |
 | `schedule.md` | `/schedule/` | 122 lines | Detailed week-by-week Fall 2026 class schedule with dates, topics, activities, and assignment due dates; key deadlines table |
 
 ### Module Pages (`modules/` ordinary page directory)
@@ -98,11 +99,11 @@ Bioinspired-Communication-Ethics/
 | File | Live URL | Description |
 |---|---|---|
 | `modules/foundation.md` | `/modules/foundation/` | **Module 1 — Foundations of Teamwork.** Field Guide readings, CATME, documented team-science cases, decision microcases, and a staged Team Charter with tooling, integration, and contribution appendices |
-| `modules/proposal.md` | `/modules/proposal/` | **Module 2 — Proposal Writing & Review.** NSF PAPPG, NSF merit review criteria, NSF GRFP application strategies, NIH application guides, foundation/private funding (Gates, Sloan, Google, CZI), fellowship programs (F31, Ford, Hertz), broader impacts toolkit, module learning objectives |
+| `modules/proposal.md` | `/modules/proposal/` | **Module 2 — Proposal Writing & Review.** Current NSF/NIH frameworks, source-bound framing, proposal revision, criteria calibration, role-specific AI/confidentiality policy, formal peer review, and a GCR-inspired concept note |
 | `modules/paper.md` | `/modules/paper/` | **Module 3 — Scientific Writing & Peer Review.** Whitesides writing guide, TechRabbits publication guide, Nature/Science author instructions, peer review frameworks (Nature, eLife, PLOS ONE, COPE), analyzing published reviews, module learning objectives |
 | `modules/ethics.md` | `/modules/ethics/` | **Module 4 — Research Ethics.** Guest lecturer Dr. Sarah Reckess (JD, Upstate Medical University). Belmont Report, NSF RCR guidelines, dual-use research policy, biosecurity challenges, bioinspired ethics case studies, trustworthy AI ethics guidelines, module learning objectives |
 
-### Module 1 Cases and Scenarios
+### Course Cases and Scenarios
 
 | File | Live URL | Role |
 |---|---|---|
@@ -114,6 +115,7 @@ Bioinspired-Communication-Ethics/
 | `case-studies/case-biontech-pfizer.md` | `/case-studies/case-biontech-pfizer/` | Staged trust, asymmetric capabilities, and retained safeguards |
 | `scenarios/scenario-free-rider.md` | `/scenarios/scenario-free-rider/` | Composite CATME evidence and indirect-communication scenario |
 | `scenarios/module-1-microcases.md` | `/scenarios/module-1-microcases/` | Six fictional Charter stress tests with facilitation notes |
+| `scenarios/module-2-microcases.md` | `/scenarios/module-2-microcases/` | Two fictional proposal-review decisions on confidential AI use, preliminary evidence, and prestige proxies |
 
 ### Presentation Slide Decks (`presentations/`)
 
@@ -180,10 +182,10 @@ Homepage (/)
 │   └── Staged Team Charter package
 │
 ├── Module 2: Proposal Writing & Review (/modules/proposal/)
-│   ├── Federal funding (NSF, NIH)
-│   ├── Fellowship programs (GRFP, F31, Ford, Hertz)
-│   ├── Foundation funding (Gates, Sloan, Google, CZI)
-│   └── Broader impacts strategies
+│   ├── Current NSF and NIH frameworks
+│   ├── Source-bound framing and narrative revision
+│   ├── AI, confidentiality, and verification decisions
+│   └── Formal review and GCR-inspired concept note
 │
 ├── Module 3: Scientific Writing & Peer Review (/modules/paper/)
 │   ├── Scientific writing guides (Whitesides, TechRabbits)
@@ -218,7 +220,7 @@ Homepage (/)
 | Sep 21 | Challenge/Objectives Draft | Module 2 |
 | Sep 23 | Revised Challenge/Objectives | Module 2 |
 | Oct 5 | Panel Summary | Module 2 |
-| Oct 14 | GCR Proposal (final) | Module 2 |
+| Oct 14 | GCR-Inspired Concept Note (final) | Module 2 |
 | Oct 19 | Writing Portfolio Draft 1 | Module 3 |
 | Oct 21 | Writing Portfolio Draft 2 | Module 3 |
 | Oct 28 | Writing Portfolio Peer Review | Module 3 |
@@ -277,13 +279,14 @@ _config.yml
        ├── schedule.md     → rendered at /schedule/
        └── modules/*.md   → rendered at /modules/<name>/
             ├── foundation.md   → links to: proposal.md, Field Guide, cases, and CATME resources
-            ├── proposal.md     → links to: foundation.md, paper.md, and external NSF/NIH/fellowship resources
+            ├── proposal.md     → links to: foundation.md, paper.md, Module 2 microcases, and current NSF/NIH primary sources
             ├── paper.md        → links to: proposal.md, ethics.md, and external writing/review guides
             └── ethics.md       → links to: paper.md, course home, and external bioethics resources
 
 presentations/*.html
-  └── standalone slide decks; referenced from module pages and schedule topics
-       ├── Module 2 focus: deepseek_review_1/2, nsf_analysis, nsf_research_challenges,
+  └── standalone slide decks retained in the repository
+       ├── Module 2 legacy materials (not currently assigned pending source/method audit):
+       │                   deepseek_review_1/2, nsf_analysis, nsf_research_challenges,
        │                   career_proposal_tips, proposal_resources_slides, Reframe_Applied_Research,
        │                   fundamental_vs_applied, hypothesis_definition, Project_summary_tips
        ├── Module 3 focus: Writing_Advice_Summary

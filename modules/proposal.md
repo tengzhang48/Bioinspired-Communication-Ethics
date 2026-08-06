@@ -6,519 +6,486 @@ permalink: /modules/proposal/
 
 # Module 2: Proposal Writing & Review
 
-This module provides training in research proposal development and evaluation. We begin with the research landscape — how breakthroughs happen and how funding works — then build proposal writing skills through practice, case studies, and peer review, before examining how AI is reshaping the research enterprise.
+This module develops proposal writing, criterion-based review, and responsible use of AI in proposal work. Students learn to identify the governing funding opportunity, make evidence-calibrated claims, write and revise a research narrative, and review proposals without substituting prestige, unsupported assumptions, or tool output for scientific judgment.
 
 <div style="background: #f0f4ff; border-left: 4px solid #2c3e7a; padding: 16px 20px; border-radius: 0 6px 6px 0; margin: 20px 0;">
-<strong>Student Profile (Mentimeter survey, n≈18):</strong> Most students are Year 2–3, preparing for qualifying exams. 10/14 require a written proposal; 8/16 do a formal proposal defense. Top concerns: <em>novelty</em>, <em>clarity</em>, and <em>feasibility</em>. Priority sections: Background & Significance (9), Research Design/Methods (9), Specific Aims/Hypotheses (7). Confidence in proposal writing: 3.4/5.
+<strong>Planning context:</strong> A prior anonymous class survey—the cohort year is not documented in the repository—had varying response counts across items (approximately 14–18). Respondents most often identified novelty, clarity, feasibility, background/significance, research design/methods, and aims/hypotheses as concerns. These small, item-specific results guide practice time; they are not treated as representative evidence about graduate students generally.
 </div>
+
+> **Teaching pattern:** Each 80-minute meeting has a bounded source or anchor task, a short application or decision task, a concrete output, and closure time. Historical examples are used to inspect evidence and framing—not to infer universal causes of scientific or funding success.
 
 ---
 
 ## Module Structure: 7 Lectures
 
-| # | Lecture | Key Topics |
-|---|--------|------------|
-| 1 | [The Research Landscape & Research Framing](#lecture-1) | Nobel patterns, NSF directorate culture, hypothesis-driven framing, paragraph-level reframing |
-| 2 | [Funding Agencies & Your First Research Narrative](#lecture-2) | NSF vs. NIH, drafting challenge & objectives |
-| 3 | [Writing the Research Narrative](#lecture-3) | Field-specific best practices, NIH specific aims, revision workshop |
-| 4 | [Intellectual Merit, Broader Impacts & Case Studies](#lecture-4) | NSF review criteria, CAREER case study, review panel simulation |
-| 5 | [AI in the Research Enterprise](#lecture-5) | AI history, hypothesis generation debate, AI detection callback |
-| 6 | [Peer Review, Ethics & Responding to Critique](#lecture-6) | Mock panel review, AI evaluation limits, ethical framing |
-| 7 | [GCR Team Proposal Workshop](#lecture-7) | Growing Convergence Research proposal drafting & cross-team review |
+| # | Lecture | Key Topics and Output |
+|:---:|---|---|
+| 1 | [Research Pathways & Evidence-Consistent Framing](#lecture-1) | Source-bound landmark cases; classification limits; paragraph reframe |
+| 2 | [Funding Agencies & Your First Research Narrative](#lecture-2) | Current NSF/NIH review frameworks; challenge/objectives draft |
+| 3 | [Writing the Research Narrative](#lecture-3) | NIH Specific Aims as an argument; revision and elevator test |
+| 4 | [Criteria Calibration: Intellectual Merit, Broader Impacts & Evidence](#lecture-4) | Synthetic proposal comparison; evidence-based calibration memo |
+| 5 | [AI in Proposal Development: Use, Evidence & Confidentiality](#lecture-5) | Role-specific policy; safe workflow; AI-use and verification note |
+| 6 | [Formal Peer Review & Responding to Critique](#lecture-6) | Individual review; panel summary; response-to-critique memo |
+| 7 | [GCR-Inspired Team Concept Workshop](#lecture-7) | Convergence concept note; cross-team review and revision plan |
 
-### 📝 Running Assignments
-
-Two threads build across the module — one individual, one team-based:
+### Running Assignments
 
 **Individual: Research Narrative Draft**
 
 | Lecture | Milestone |
-|:---:|---------------------|
-| 2 | Draft challenge statement (While…However) + 3 research objectives |
-| 2 | Peer review in pairs (cross-discipline) |
-| 3 | Revision workshop: strengthen challenge & sharpen objectives |
-| 3 | "Elevator Test" — 90-second pitch of your narrative |
+|:---:|---|
+| 2 | Draft challenge statement and a bounded set of research objectives |
+| 2 | Cross-disciplinary criterion-based peer review |
+| 3 | Revised challenge/objectives and 90-second elevator test |
+| 5 | AI-use and verification note for any AI-assisted work; submit “no AI used” when applicable |
 
-> This produces a draft challenge/objectives statement students can use for their qualifying exam proposals.
+Students may work on a dissertation or qualifying-exam topic only if it is appropriate to share with classmates. A public, published, or instructor-created alternative is always available; nobody is required to disclose confidential or unpublished research.
 
-**Team: GCR Convergence Proposal**
+**Team: GCR-Inspired Concept Note**
 
 | Lecture | Milestone |
-|:---:|---------------------|
-| 7 | Draft convergent research question + challenge + objectives + IM/BI |
-| 7 | Cross-team peer review using simplified rubric |
-| Post-L7 | Final revised submission on Blackboard |
+|:---:|---|
+| 4 | Select the problem and necessary disciplinary areas; draft an integration map |
+| 5 | Add a risk/feasibility note and AI-use/verification protocol |
+| Pre-L7 | Upload a complete two-page draft before class |
+| 7 | Cross-team review, reviewer–author conference, revision, and response-to-review note |
+| Post-L7 | Final revised concept note due on Blackboard October 14 |
+
+This is a short course exercise modeled on an authentic NSF genre. It is **not** represented as a complete or submission-ready NSF GCR proposal.
 
 ---
 
 <details open>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: The Research Landscape & Research Framing — How Breakthroughs Happen and How to Frame Them</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: Research Pathways & Evidence-Consistent Framing</h3></summary>
 
-**Goal:** Before writing proposals, understand what the research enterprise looks like — how discoveries are made, what patterns exist across fields, and how to frame your work strategically for different funding cultures.
+**Goal:** Distinguish observation-, hypothesis-, and method-centered pathways without forcing complex research into a single category, then reframe a paragraph for a target audience without changing the underlying research or evidence.
 
-#### 📖 Pre-Class Reading
+#### Pre-Class Source Packet
 
-- 🔬 **How Scientific Breakthroughs Really Happen: 125 Years of Nobel Prizes** *(presentation under revision — link temporarily removed)*
-  > Analysis of Physics, Chemistry, and Physiology/Medicine Nobel Prizes (1901–2025). Key findings: Physiology/Medicine has the highest rate of serendipitous discoveries (~50%); Physics is most theory-driven (~45–50% hypothesis-driven); Chemistry has the strongest tool-building tradition. All fields are shifting toward more hypothesis-driven research over time.
+- [2017 Nobel Prize in Physics press release: LIGO and gravitational waves](https://www.nobelprize.org/prizes/physics/2017/press-release/)
+- [2020 Nobel Prize in Chemistry press release: CRISPR/Cas9](https://www.nobelprize.org/prizes/chemistry/2020/press-release/)
+- [1945 Nobel Prize in Physiology or Medicine summary: penicillin](https://www.nobelprize.org/prizes/medicine/1945/summary/) and an instructor-selected excerpt from the [official presentation speech](https://www.nobelprize.org/prizes/medicine/1945/ceremony-speech/)
 
-- 📈 **Research Methodology Patterns Across NSF Directorates** *(presentation under revision — link temporarily removed)*
-  > Analysis of 494 funded grant abstracts (2024–2025) across BIO, PHY, CMMI, CHE, and CBET. Physics favors measurement (47%), Biology/Chemistry favor hypothesis testing (~50–60%), Engineering requires interdisciplinary integration (88% CMMI).
+For each source, students mark: the event described, the evidence passage supporting a classification, one plausible alternative classification, and one fact the source does not establish.
 
-- 🎯 **Hypothesis, Fundamental Research & Word Choice** *(presentation under revision — link temporarily removed)*
-  > The critical connection between hypothesis-driven and fundamental research. Includes corrected word choice guidance (words aren't "forbidden" — context is everything), the 2×2 matrix (hypothesis vs. discovery × fundamental vs. applied), and the NSF quote explicitly endorsing optimization and control as research topics.
+> **Interpretive limit:** “Hypothesis-centered,” “observation-centered,” and “method-centered” are course lenses, not Nobel Committee labels. Prize records also foreground the award and laureates; they are not complete histories of every contributor or cause. This three-case packet cannot support percentages or trends across disciplines.
 
-#### 🎯 Team Activity: "Classify Your Own Field" (~25 min)
+#### 80-Minute Plan
 
-Each team (12 min discussion + 13 min share-out):
+| Time | Activity |
+|:---:|---|
+| 8 min | Frame the source rule: separate text-supported fact, interpretation, and missing evidence |
+| 18 min | Triads classify the three landmark cases and cite the passage supporting each classification |
+| 12 min | Compare classifications; identify mixed pathways and what the sources leave unresolved |
+| 22 min | Reframe a public, published, or instructor-created research paragraph for a specified funding audience without changing the proposed work |
+| 12 min | Peer audit: underline changed claims, unsupported predictions, hidden audience assumptions, and retained applied context |
+| 5 min | Synthesis: when audience adaptation is accurate and when it becomes spin |
+| 3 min | Exit ticket: one defensible reframe plus one evidence boundary |
+| **80 min** | **Total** |
 
-1. **Pick 3 landmark discoveries in your team members' fields** (can be Nobel-winning or not)
-2. **Classify each** as hypothesis-driven, discovery-driven, or method-driven — and defend your choice
-3. **Identify one discovery that doesn't fit neatly** into any category. Why not?
-4. **Discuss:** Is your field becoming more or less hypothesis-driven over time? What's driving the shift?
+#### Reframing Constraints
 
-> This exercise forces students to apply the Nobel analysis framework to their own disciplines, rather than treating it as an abstract historical overview.
+- Lead with the research problem or knowledge gap appropriate to the stated audience.
+- Preserve the actual methods, uncertainty, intended use, and level of evidence.
+- Do not invent quantitative predictions, remove material limitations, or relabel development work as fundamental research merely to sound fundable.
+- Treat every word-choice rule as context-dependent. No word is automatically “forbidden.”
 
-#### ✍️ In-Class Practice: Paragraph-Level Reframing (~30 min)
+#### Key Takeaways
 
-Use the interactive exercises built into the Word Choice presentation (Slides 7–8). Teams work on the realistic paragraph-level prompts:
-
-- **Round 1 (12 min):** Each team takes one exercise passage (biomedical, environmental/AI, or chemistry/materials). Reframe without changing the actual research.
-- **Round 2 (8 min):** Teams swap and critique each other's reframes — did they change the research or just the framing? Did they fabricate unsupported numbers?
-- **Share-out (10 min):** Each team presents their best reframe. Class votes on which ones successfully led with the knowledge question without losing the applied context.
-
-#### 💬 Mentimeter Discussion & Quick Poll (~15 min)
-
-- Where does your own dissertation research fall on the hypothesis–discovery–method spectrum?
-- Has your field had its own "penicillin moment" — a breakthrough no one was looking for?
-- Which of these words would most trigger "not fundamental" for a reviewer in *your* field? (Revisit the survey from last year — "Optimize" was #1 at 10/16)
-
-#### 💡 Key Takeaways
-
-- Different fields have different discovery patterns — there's no single "scientific method"
-- The funding system's preference for hypothesis-driven proposals creates structural tension with how breakthroughs actually happen
-- "Hypothesis-driven" is a useful framing strategy, not a logical requirement for fundamental research
-- Words need careful framing, not avoidance — match your framing to your target directorate's culture
-- Don't fabricate specific predictions without evidence — reviewers will question unsupported claims
-
----
+- Scientific work can combine prediction, observation, tool building, and iteration.
+- Three selected cases illustrate possible pathways; they do not establish field-wide frequencies or historical trends.
+- Strategic framing is defensible when it remains faithful to the work, evidence, uncertainty, and target opportunity.
+- A source audit is part of proposal writing: a polished claim is not stronger than the evidence behind it.
 
 </details>
 
 <details>
 <summary><h3 style="display:inline; cursor:pointer;" id="lecture-2">Lecture 2: Funding Agencies & Your First Research Narrative</h3></summary>
 
-**Goal:** Understand the key differences between NSF and NIH (and other agencies), then immediately apply that knowledge by drafting your first challenge–objective statement.
+**Goal:** Read a funding opportunity and current review framework before drafting a challenge statement and objectives that fit the audience without treating a course template as a sponsor rule.
 
-#### 🏛️ Mini-Lecture: Know Your Audience (~20 min)
+The instructor supplies one bounded NSF solicitation excerpt and one bounded NIH NOFO excerpt. Before drafting, each student records the agency, program or mechanism, document number/version and date, relevant review criteria, and any instruction that changes the general comparison below. Students may select one of these fictionalized/public opportunities as the audience for their draft.
 
-**NSF vs. NIH at a Glance:**
+#### Current NSF and NIH Comparison
 
 | Feature | NSF | NIH |
-|---------|-----|-----|
-| **Review criteria** | Intellectual Merit + Broader Impacts | Significance, Investigators, Innovation, Approach, Environment |
-| **Scoring** | Qualitative (E/VG/G/F/P) | Numerical 1–9 (lower is better) |
-| **Proposal length** | 15 pages (project description) | 12 pages (research strategy, R01) |
-| **Specific aims** | Integrated into narrative | Separate 1-page document (critical) |
-| **Preliminary data** | Helpful but not required | Essentially required for R01 |
-| **Resubmission** | No formal response to reviews | 1-page Introduction responding to prior reviews |
-| **Broader impacts** | Required, weighted equally | Not a separate criterion |
-| **Fundamental vs. applied** | Strongly favors fundamental framing | Accepts translational and clinical framing |
+|---|---|---|
+| **Governing instruction** | Current PAPPG, supplements, and the specific solicitation | Current application guide and the specific notice of funding opportunity (NOFO) |
+| **Core review framework** | Intellectual Merit and Broader Impacts; solicitations may add criteria | For most covered research project grants with due dates on or after January 25, 2025, three factors organize five regulatory criteria: Importance of the Research; Rigor and Feasibility; Expertise and Resources |
+| **Assessment** | Reviewers apply the criteria and relevant solicitation; rating and panel practices can vary by competition | Factors 1 and 2 are scored 1–9; Factor 3 is evaluated as “Appropriate” or “Gaps Identified”; all inform Overall Impact |
+| **Typical space** | Many PAPPG proposals allow a 15-page Project Description, but the solicitation controls | Specific Aims is generally 1 page and an R01 Research Strategy generally 12 pages, but the NOFO and activity code control |
+| **Preliminary evidence** | No agency-wide preliminary-data requirement; evidence should support the rationale and feasibility expected by the solicitation and proposed work | New applications should present pertinent studies, data, and/or experience. For many mechanisms, preliminary evidence can be important to feasibility; expectations depend on the NOFO and project |
+| **Societal outcomes** | Intellectual Merit and Broader Impacts both receive full consideration; each is necessary and neither is sufficient by itself | Broader Impacts is not a separate scored factor; public-health relevance and other requirements are addressed through the applicable framework and application sections |
+| **Framing** | Fit the program and solicitation while representing the work accurately | Fit the institute/center, NOFO, activity code, and review audience while representing the work accurately |
 
-**Other key agencies** (brief overview): DOE Office of Science, DARPA, private foundations (Sloan, Gates, CZI). **Fellowships:** NSF GRFP, NIH F31, Ford, Hertz.
+> **Policy status—checked August 6, 2026:** [NSF 24-1 and Supplements NSF 26-200 and NSF 26-202](https://www.nsf.gov/policies/pappg) remain the current PAPPG materials. NSF has published a draft *Guidance on Financial Assistance* intended to replace the PAPPG; comments close August 24, 2026, but the draft is not current policy. Recheck the maintained landing page before this lecture and before any real submission.
 
-**Growing Convergence Research (GCR):** NSF's emphasis on deep integration across disciplines — not just collaboration, but disciplines reshaping each other. This connects to the team GCR proposal assignment in Lecture 7.
+#### Authoritative References
 
-#### 📚 Key References
+- [NSF PAPPG landing page and policy watch](https://www.nsf.gov/policies/pappg)
+- [NSF merit-review process and criteria](https://www.nsf.gov/funding/merit-review)
+- [NSF Award Search](https://www.nsf.gov/awardsearch/)
+- [NIH application guide](https://grants.nih.gov/grants/how-to-apply-application-guide.html)
+- [NIH Simplified Review Framework](https://www.grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework)
+- [NIH reviewer guidance for the simplified framework](https://www.grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/reviewer-guidance)
+- [NIH Simplified Review Scoring Guidance](https://www.grants.nih.gov/sites/default/files/Simplified-Review-Scoring-Guidance.pdf)
+- [NIH page limits](https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits)
+- [NIH RePORTER](https://reporter.nih.gov/)
 
-- 📄 [**NSF PAPPG**](https://www.nsf.gov/pubs/policydocs/pappg24_1/pappg_24_1.pdf) — Proposal preparation requirements
-- 📄 [**NSF Merit Review**](https://www.nsf.gov/bfa/dias/policy/merit_review/) — Intellectual Merit + Broader Impacts criteria
-- 📄 [**NSF Award Search**](https://www.nsf.gov/awardsearch/) — Search funded awards in your target program
-- 📄 [**NIH Application Guide**](https://grants.nih.gov/grants/how-to-apply-application-guide.html) — Comprehensive NIH guide
-- 📄 [**NIH Review Criteria (Scoring Guidance)**](https://grants.nih.gov/grants/peer/guidelines_general/scoring_guidance_research.pdf) — The 1–9 scoring system explained
-- 📄 [**NIH RePORTER**](https://reporter.nih.gov/) — Search funded NIH projects
-- 📄 [**NSF GCR Program**](https://www.nsf.gov/funding/programs/growing-convergence-research-gcr) — Growing Convergence Research
-- 📄 [**NSF GRFP**](https://www.nsf.gov/funding/programs/nsf-graduate-research-fellowship-program-grfp) — Graduate Research Fellowship
+#### 80-Minute Plan
 
-#### ✍️ Practice Session: Draft Your Challenge & Objectives (~60 min)
+| Time | Activity |
+|:---:|---|
+| 15 min | Opportunity check and source-guided comparison: record the assigned document, criteria, score language, and opportunity-specific exceptions |
+| 18 min | Draft a 4–6 sentence research challenge |
+| 12 min | Draft two or three research objectives with a clear relationship to the challenge |
+| 15 min | Cross-disciplinary peer review against the stated audience and relevant criteria |
+| 12 min | Revise the challenge and objectives from the review |
+| 5 min | Source check: label one sentence as supported, qualified, or still needing evidence |
+| 3 min | Exit ticket and submission |
+| **80 min** | **Total** |
 
-**Individual writing exercise** — students work on their *own* research, not hypothetical examples:
+#### Course Writing Scaffolds
 
-**Step 1 — Draft a Research Challenge (20 min):**
+Students may use this challenge scaffold:
 
-Using the "While…However" template:
+> **While** [current capability or importance], **a major unresolved problem is** [bounded knowledge or capability gap], **which limits** [specific consequence]. **Existing work does not yet establish** [what is missing and why].
 
-> **While** [broad area] is critical for [benefit/goal], **a major challenge is** [specific knowledge gap], **which limits** our ability to [achieve something important]. **This gap exists because** [current state] fails to [explain/account for phenomenon].
+Students may also test a **foundational → mechanistic → application/validation** objective sequence. These are optional course tools, not NSF or NIH requirements. Use a different sequence when the science demands it, and do not imply that later work is feasible merely because it appears third in a list.
 
-Write one paragraph (4–6 sentences) framing the core challenge of your dissertation research. If you don't have a dissertation topic yet, frame a challenge from your lab's recent work.
+The Lecture 2 draft is formative or lightly weighted. Lecture 3 assesses the documented revision rather than charging students twice for the same text within 48 hours.
 
-**Step 2 — Draft 3 Research Objectives (15 min):**
+#### Peer-Review Questions
 
-Following the three-objective framework:
-1. **Foundational:** Establish the core tool, method, or framework
-2. **Mechanistic:** Elucidate underlying mechanisms or test core hypotheses
-3. **Application/Validation:** Apply findings to demonstrate utility
+1. What problem and knowledge gap can a non-specialist identify from the text?
+2. Which objective addresses each part of the gap, and where is the logic incomplete?
+3. Which sentence needs evidence, qualification, or a more precise claim?
+4. How well does the draft fit the stated opportunity and criteria?
+5. What one revision would most improve clarity or evaluability?
 
-Write one sentence each. Use strong action verbs (test, measure, establish, elucidate, characterize).
-
-**Step 3 — Peer Review in Pairs (15 min):**
-
-Swap with a partner from a *different* field. Each reviewer answers:
-- Can I understand the challenge even though I'm not in this field?
-- Do the objectives directly address the stated challenge?
-- Is the framing fundamental or applied? Does it need to be shifted?
-- Would I fund this? What's missing?
-
-**Step 4 — Revise and Submit (10 min):**
-
-Revise based on partner feedback. Submit on Blackboard for instructor review.
-
-> **Why this matters:** Your Mentimeter survey showed 10/14 students need a written proposal for qualifying exams. This exercise produces a draft they can actually use. It's the most directly career-relevant activity in the module.
-
----
+**Output:** Challenge/Objectives Draft submitted on Blackboard.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: Writing the Research Narrative — From Challenge to Objectives</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: Writing the Research Narrative—From Challenge to Objectives</h3></summary>
 
-**Goal:** Deepen narrative writing skills with field-specific best practices, the NIH specific aims page structure, and hands-on revision of the challenge statements drafted in Lecture 2.
+**Goal:** Analyze how a one-page Specific Aims document functions as an argument, then revise the Lecture 2 narrative for logic, evidence, feasibility, and a non-specialist reader.
 
-#### 📊 Presentation (~25 min)
+#### Source-Bound NIH Aims Exercise
 
-- ✍️ [**Writing Compelling Research Challenges & Objectives**](../presentations/nsf_research_challenges.html)
-  > Field-specific best practices from funded NSF proposals (BIO, PHY, CMMI, CBET, CHE). Covers the three-objective framework in depth with real examples, quantifying ambition, the "if-then" logic connecting challenge to objectives, and common mistakes to avoid.
+The instructor selects one complete aims page from the [NIAID Sample Applications and Documents collection](https://www.niaid.nih.gov/grants-contracts/sample-applications) and preserves its wording and attribution under the permission stated with that sample. Students also use the [current NIH Research Plan instructions](https://grants.nih.gov/grants/how-to-apply-application-guide/forms-i/general/g.400-phs-398-research-plan-form.htm) and the target NOFO.
 
-#### 📋 NIH Specific Aims Page (~15 min)
+> **Historical limit:** A posted sample can illustrate grantsmanship, but it may reflect an older form, review framework, or funding context. Its award does not prove that a particular sentence or structure caused success. Current instructions and the target NOFO control.
 
-The 1-page specific aims document is arguably the most important page in biomedical research:
+Students annotate the page for a commonly used argument sequence:
 
-> **Paragraph 1 — The Hook:** Open with the problem's significance. Why does this matter?
->
-> **Paragraph 2 — The Gap:** What is unknown? What has been tried and why did it fail?
->
-> **Paragraph 3 — Your Solution:** Long-term goal, objective of *this* application, central hypothesis, and its basis.
->
-> **The Aims (numbered):** 2–3 specific, measurable aims with brief rationale for each.
->
-> **Paragraph 4 — The Payoff:** Expected outcomes and significance.
+1. importance and current state;
+2. bounded gap or unmet need;
+3. long-term goal, present objective, proposed approach or central hypothesis and rationale;
+4. aims and how they address the gap; and
+5. expected outcomes and significance.
 
-<div style="background: #fef8e8; border-left: 4px solid #d4a017; padding: 14px 18px; border-radius: 0 4px 4px 0; margin: 12px 0;">
-<strong>NIH Content — Placeholder for Development:</strong> This section will be expanded with:<br>
-• 2–3 real NIH specific aims pages (strong and weak) for in-class analysis<br>
-• Before/after comparison showing a weak aims page revised to be competitive<br>
-• NIH study section simulation exercise (scoring with 1–9 scale)<br>
-• Guest lecturer from an NIH-funded lab or study section member (TBD)<br>
-• Key differences in how NIH vs. NSF reviewers evaluate "significance" vs. "intellectual merit"<br>
-<em>These materials will be developed in consultation with NIH-experienced faculty and may include a dedicated guest lecture session.</em>
-</div>
+This sequence is descriptive guidance, not a mandatory paragraph formula.
 
-#### ✍️ Revision Workshop: Strengthen Your Lecture 2 Drafts (~40 min)
+#### 80-Minute Plan
 
-Students receive written feedback on their Lecture 2 challenge/objectives submissions. Working in pairs:
+| Time | Activity |
+|:---:|---|
+| 10 min | Compare the purpose and audience of an NSF narrative and an NIH Specific Aims page |
+| 15 min | Individually annotate the public NIH aims page for claims, evidence, gap, approach, outcomes, and uncertainty |
+| 10 min | Build an argument map; compare interpretations and identify what the page alone cannot establish |
+| 18 min | Revise the Lecture 2 challenge for specificity, evidence, and consequence |
+| 12 min | Stress-test objective dependencies, success indicators, alternatives, and feasible scope |
+| 10 min | Paired 90-second elevator test: “What will you learn?” and “Why does it matter?” |
+| 5 min | Final revision note and submission |
+| **80 min** | **Total** |
 
-**Round 1 — Strengthen the Challenge (15 min):**
-- Does your challenge use deficit-based language? ("It remains poorly understood…," "Current methods fail to…")
-- Is the knowledge gap specific enough? (Not "Cancer is a major problem" but "The lack of real-time biomarkers for X limits early intervention in Y")
-- Apply the "While…However" structure if you haven't already
+Students using sensitive work may complete the revision with an instructor-created composite. Peer partners respond to the argument presented; they are not asked to judge undisclosed proprietary details.
 
-**Round 2 — Sharpen the Objectives (15 min):**
-- Do your objectives follow the Foundational → Mechanistic → Application sequence?
-- Does each objective start with a strong action verb?
-- Can you articulate the "if-then" logic? ("If Obj 1 succeeds, then Obj 2 becomes possible, which enables Obj 3")
-- Are success criteria clear?
+**Output:** Revised Challenge/Objectives plus a two-sentence revision note.
 
-**Round 3 — The "Elevator Test" (10 min):**
+#### Key Takeaways
 
-Each student reads their challenge + objectives aloud in 90 seconds. Partner answers: "What will you learn?" and "Why should I care?" If the partner can't answer both, revise.
-
-#### 💡 Key Takeaways
-
-- The NIH specific aims page is a complete argument in one page — master its structure even if you target NSF
-- The "While…However" template works across agencies and fields
-- "If-then" logic between objectives tells reviewers your plan is coherent
-- The elevator test reveals whether your narrative communicates to non-specialists
-
----
+- Aims pages make a compact argument, but no single template fits every mechanism or project.
+- Reviewer-friendly structure cannot compensate for an unsupported premise or infeasible dependency.
+- A funded sample is an example to analyze, not a causal recipe for funding.
+- Current instructions and the target funding opportunity outrank remembered conventions.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Proposal Components — Intellectual Merit, Broader Impacts & Case Studies</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Criteria Calibration—Intellectual Merit, Broader Impacts & Evidence</h3></summary>
 
-**Goal:** Understand what makes Intellectual Merit and Broader Impacts compelling through real case studies, then practice evaluating and writing these sections.
+**Goal:** Apply current NSF criteria consistently, distinguish evidence from inference, and identify when a review substitutes reputation or a generic rule for the proposal record.
 
-#### 📊 Presentations (~30 min)
+#### Primary Framework
 
-- 📋 [**Writing Excellent Intellectual Merit & Broader Impacts**](../presentations/Project_summary_tips.html)
-  > NSF's two review criteria in depth. Side-by-side comparisons of weak vs. strong approaches. Key insight: the strongest proposals weave IM and BI together, rather than treating them as separate sections.
+- [NSF: How We Make Funding Decisions](https://www.nsf.gov/funding/merit-review)
+- The applicable solicitation excerpt supplied by the instructor
 
-- 🏆 [**NSF CAREER: A Case Study in Proposal Revision**](../presentations/deepseek_review_2.html)
-  > Two versions of the same CAREER proposal (2018 unfunded → 2019 funded). The "irregular lattice = FEM" proof was the killer preliminary result. Key lesson: scientific substance beats structural polish.
+NSF requires full consideration of both Intellectual Merit and Broader Impacts; this is not a universal numerical 50/50 weighting rule. Solicitations may add criteria, and funding decisions can also reflect portfolio considerations beyond a classroom rating exercise.
 
-#### 🎯 Team Activity: "Review Panel Simulation" (~40 min)
+#### Constructed Calibration Excerpts
 
-Teams role-play as an NSF review panel evaluating two short (1-page) proposal excerpts provided by the instructor:
+Both excerpts are instructor-created composites, not real proposals or records of actual funding decisions.
 
-**Step 1 — Individual Review (10 min):**
-Each student reads both excerpts and assigns ratings (Excellent / Very Good / Good / Fair / Poor) for Intellectual Merit and Broader Impacts separately. Write 2–3 sentences of justification for each rating.
+**Excerpt A—novel integration, bounded evidence:** An early-career team proposes a bioinspired soft-sensor architecture to test whether a distributed structural mechanism can separate deformation modes that conventional sensors conflate. Component calibration and noise data are available, but an integrated prototype has not been demonstrated. The plan specifies controls, decision milestones, an alternative architecture, needed facilities, and complementary team expertise. Its Broader Impacts plan co-designs an open laboratory module with two community-college instructors and defines adoption and learning measures.
 
-**Step 2 — Panel Discussion (15 min):**
-Teams discuss as a panel. Appoint a "panel chair" who must synthesize the group's views. Where do you agree? Where do you disagree? What would you tell the PI to improve?
+**Excerpt B—extensive data, unclear advance:** An established team proposes to optimize an existing sensor-analysis pipeline. Pilot data show a modest accuracy gain on the team's prior dataset, but the excerpt does not state what generalizable knowledge would result or whether the gain persists outside that dataset. Its Broader Impacts paragraph promises a summer workshop for “diverse students” but identifies no partner, participant need, access plan, activity, or measure of effect.
 
-**Step 3 — Panel Summary and Share-Out (15 min):**
-Each panel presents their consensus rating and the single most important strength and weakness they identified. Class compares how different panels rated the same proposals.
+The purpose is not to identify a hidden winner. Students identify supported strengths, material uncertainties, and the additional evidence needed under the stated solicitation.
 
-> **Why simulate a panel, not just review?** Because the panel discussion is where proposals live or die. Students need to experience how individual ratings get negotiated into a group consensus — and how a champion or detractor can swing the outcome.
+#### 80-Minute Plan
 
-#### 📚 References
+| Time | Activity |
+|:---:|---|
+| 12 min | Source briefing: criteria, review elements, solicitation-specific additions, and limits of classroom ratings |
+| 8 min | Individual criterion-linked notes on Excerpts A and B |
+| 12 min | Calibration triads compare ratings and mark where evidence, inference, or an unstated preference drove disagreement |
+| 8 min | Build a claim–evidence–uncertainty map for one excerpt |
+| 10 min | [Module 2 Microcase 2: “No Famous Name, No Preliminary Data”]({{ '/scenarios/module-2-microcases/' | relative_url }})—use the NSF branch: 8-minute case plus 2-minute debrief |
+| 12 min | Redesign one Broader Impacts paragraph: audience/partner, need, activity, responsible actor, access, and assessment |
+| 5 min | Write an individual calibration memo: one strength, one bounded gap, and one conditional request |
+| 10 min | Launch the GCR-inspired concept: shortlist a problem and map which disciplinary areas must integrate |
+| 3 min | Exit ticket: one rating assumption to monitor in Lecture 6 and the team's next concept task |
+| **80 min** | **Total** |
 
-- 📄 [**NSF CAREER Program**](https://www.nsf.gov/funding/programs/faculty-early-career-development-program-career) — Current solicitation
-- 🔍 [**Writing a Winning NSF CAREER Proposal**](../presentations/deepseek_review_1.html) — Detailed lessons from proposal versions
-- 📄 [**Science of Science Funding**](https://www.science.org/doi/10.1126/science.1165317) — Research on what makes proposals successful
+#### Review Discipline
 
-#### 💡 Key Takeaways
+- Link every strength or weakness to proposal text and a criterion.
+- Describe missing evidence as a bounded uncertainty, not proof that a team cannot succeed.
+- Evaluate qualifications and resources from the record; do not use name recognition or institutional prestige as a proxy.
+- Do not generalize the importance of preliminary data from one case to every mechanism or solicitation.
+- Do not infer why a real proposal was funded from an award outcome alone.
 
-- Preliminary data is the single strongest signal to reviewers
-- NSF CAREER rewards transformative vision over conservative scope — "improvements" can weaken proposals
-- Broader impacts that emerge from the research are stronger than bolted-on outreach
-- Panel dynamics matter — one strong advocate can fund a proposal, one strong critic can sink it
-
----
-
-</details>
-
-<details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: AI in the Research Enterprise</h3></summary>
-
-**Goal:** Examine AI's role in science through its history, capabilities, limitations, and ethical implications — connecting the proposal module to the paper writing module that follows.
-
-#### 🎮 AI Quiz & History (~25 min)
-
-Interactive Poll Everywhere quiz on AI history and facts (competitive, with leaderboard):
-
-- Who is the most famous figure in AI history? (Students said Sam Altman and Alan Turing — but 0/16 named Donald Hebb)
-- First formal model of an artificial neuron? (13/16 correctly identified McCulloch & Pitts, 1943)
-- How many citations does ResNet have? (Answer: ~300K — students' guesses ranged from 10K to 1M)
-- "1960s or 2020s?" exercise — students try to date AI claims:
-  - "Machines will be capable, within twenty years, of doing any work a man can do" → **1960s** (11 correct)
-  - "We are at the beginning of a new era… a new reasoning engine" → **2020s** (10 correct)
-  - "Within a generation… the problem of creating 'artificial intelligence' will be substantially solved" → **1960s** (7 correct — many students thought this was modern!)
-  - "The ultimate goal is to make computers that can learn to solve problems on their own" → **1960s** (10 correct)
-  - "AI is probably the most important thing humanity has ever worked on" → **2020s** (13 correct)
-  - "We are building 'electronic brains' that will one day be our partners in thought" → **1960s** (13 correct)
-
-> **The lesson:** AI hype cycles repeat. The rhetoric of the 1960s is nearly indistinguishable from 2020s discourse. This is a science communication case study in real time.
-
-#### 🧩 AI Winter Jigsaw Discussion (~20 min)
-
-Using the Toosi et al. (2021) paper "A brief history of AI: how to prevent another winter":
-
-- **Groups 1 & 2 (The Analysts):** Diagnose the causes. What specific factors led to the loss of faith and funding?
-- **Groups 3, 4 & 5 (The Strategists):** Extract the lessons. What concrete practices should researchers adopt to build sustainable, ethical, and well-communicated progress?
-- 15 min in groups → 5 min share-out of key insights
-
-#### 🤖 Mini-Debate: Can AI Generate Research Hypotheses? (~20 min)
-
-Prompt with data: "GPT-4 generated 100 hypotheses in 3 hours; experts rated 40% as 'plausible.' A PhD student generates 5–10 hypotheses over 3 years."
-
-- Last year's survey: 11/16 students said AI *cannot* generate research hypotheses
-- Teams take assigned positions (pro/con/nuanced) and debate for 15 min
-- Close with: What does "generate" mean? Is pattern-matching the same as understanding?
-
-#### 🔎 AI Detection Callback (~5 min)
-
-If the local Module 1 classroom demonstration was used, recall its bounded result: three model configurations scored 0–20% on that small exercise. Before interpreting it, restate the sample, prompts, model versions, scoring rule, and limitations. It is **not** a general benchmark and does not establish that all detection methods always fail.
-
-Use the result to ask a narrower question: why is a policy that depends only on guessing whether AI was used fragile, and what disclosure, source-checking, and human-verification practices are still required?
-
-Connect to students' survey data: trust in AI for funding decisions was 2.7/5; 13/18 preferred human-centric AI role.
-
-#### 🌉 Bridge to Module 4
-
-Close with: "You've now seen AI generate hypotheses, write proposal reviews, evaluate proposals, and create research timelines. In the Ethics module, we ask: what are the ethical responsibilities when using these tools? The same tensions between capability and judgment apply, but the stakes are different."
-
-#### 📚 Reading
-
-- 📄 [**A brief history of AI: how to prevent another winter**](https://arxiv.org/abs/2109.01517) — Toosi et al. (2021), arXiv
-- Geoffrey Hinton's and Daniel Kahneman's perspectives on AI communication (discussed in class)
-
-#### 💡 Key Takeaways
-
-- AI hype cycles repeat — the rhetoric of the 1960s is nearly indistinguishable from 2020s discourse
-- AI can generate plausible-sounding hypotheses but cannot evaluate their scientific merit
-- AI detection is unreliable — focus on demonstrating understanding, not catching cheaters
-- Understanding AI's history helps you communicate about AI more responsibly in your own proposals
-
----
+**Outputs:** Each student retains a short three-part calibration memo for the formal panel. Each team posts its initial GCR integration map in the course workspace as a concept-note milestone.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: Peer Review, Ethics & Responding to Critique</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: AI in Proposal Development—Use, Evidence & Confidentiality</h3></summary>
 
-**Goal:** Experience the reviewer's perspective, develop constructive review skills, and engage with ethical questions about AI, framing, and responsible communication in science.
+**Goal:** Distinguish applicant, reviewer, sponsor, course, and tool rules; classify proposal information before tool use; verify AI-mediated claims; and document human responsibility.
 
-#### 📊 Case Study: AI Over-Values Structure (~15 min)
+#### Current Role-Specific Rules
 
-- 🤖 [**NSF CAREER: AI Analysis Case Study**](../presentations/deepseek_review_2.html)
-  > AI models attempted to evaluate which CAREER proposal version was stronger — and got it wrong. AI over-valued structural polish ("modular, reviewer-friendly") and under-valued the scientific substance (preliminary data, demonstrated feasibility).
+| Role | Rule to Apply |
+|---|---|
+| **NIH reviewer** | Generative AI may not be used to analyze applications or formulate critiques; uploading application, proposal, critique, or original-concept content to an online generative-AI tool violates NIH confidentiality requirements |
+| **NSF reviewer** | Proposal and review information may not be uploaded to non-approved generative-AI tools; NSF separately permits sharing publicly available information with generative-AI tools, subject to other applicable rules |
+| **NIH applicant** | Limited assistance may be possible, but NIH does not treat applications or sections substantially developed by AI as the applicant's original ideas; applicants remain responsible for integrity and compliance |
+| **NSF proposer** | NSF encourages disclosure of generative-AI use and holds proposers responsible for the proposal's accuracy and authenticity |
+| **Student in this course** | Follow the [course AI Use Policy]({{ '/syllabus/' | relative_url }}#ai-use-policy), disclose AI-generated content used in an assignment, verify original sources, and also follow sponsor, institutional, data-use, privacy, IP, and tool rules |
 
-Discussion prompt: "If AI can't reliably evaluate proposals, what CAN it usefully do in the review process?" Connect to the student survey showing 13/18 prefer human-centric AI roles.
+Course permission never overrides a sponsor's rule or authorizes disclosure of unpublished, proprietary, privileged, personally identifiable, or review-protected material.
 
-#### ✍️ Mock Panel Review (~45 min)
+#### Policy Packet
 
-Teams conduct a formal mock panel review of a provided proposal excerpt (different from Lecture 4):
+- [NIH reviewer prohibition, NOT-OD-23-149](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-23-149.html)
+- [NIH applicant policy, NOT-OD-25-132](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html)
+- [NSF generative-AI policy for merit review](https://www.nsf.gov/policies/ai/merit-review)
+- [Course AI Use Policy]({{ '/syllabus/' | relative_url }}#ai-use-policy)
 
-**Step 1 — Individual Written Review (15 min):**
-Using simplified NSF criteria, each student writes a structured review:
-- Summary of proposed research (2–3 sentences)
-- Intellectual Merit: Key strength and key weakness
-- Broader Impacts: Key strength and key weakness
-- Overall rating (E/VG/G/F/P) with justification
-- One specific, constructive suggestion for improvement
+#### 80-Minute Plan
 
-**Step 2 — Panel Deliberation (15 min):**
-Teams discuss as a panel. The panel chair must:
-- Identify where reviewers agree and disagree
-- Facilitate discussion of the most contentious points
-- Reach a consensus recommendation (fund / fund with revisions / do not fund)
+| Time | Activity |
+|:---:|---|
+| 8 min | Retrieve Module 1 norms: disclosure, verification labor, input classification, and sign-off |
+| 15 min | Policy jigsaw: NIH reviewer, NIH applicant, NSF reviewer/proposer, and course/tool branch |
+| 10 min | Role comparison: what changes when the same person moves from applicant to reviewer to student? |
+| 12 min | [Module 2 Microcase 1: “The Convenient Review Assistant”]({{ '/scenarios/module-2-microcases/' | relative_url }})—8-minute case plus 4-minute policy debrief |
+| 15 min | Verify three constructed claims: “NSF uses a fixed 50/50 weighting”; “NIH always requires preliminary data”; “disclosure permits AI to draft any proposal section” |
+| 12 min | Build a safe workflow and AI-use/verification note; teams add a risk/feasibility note and protocol to the GCR concept |
+| 5 min | Pair check for hidden protected inputs, missing verification, or unclear human sign-off |
+| 3 min | Exit ticket: permitted task, prohibited input, responsible verifier |
+| **80 min** | **Total** |
 
-**Step 3 — Writing the Panel Summary (15 min):**
-Each team writes a 1-paragraph panel summary that captures their consensus and the key reasons. Submit on Blackboard.
+#### Required AI-Use and Verification Note
 
-#### 💬 Ethics Discussion (~20 min)
+Record the task; tool and version when available; date; input classification; output retained or used; claims and original sources checked; material changes; human verifier/signatory; required disclosure; and any unresolved limitation. Students who used no AI submit “No AI used.”
 
-Structured around the Caltech case study (José Andrade's mechanics course redesign: "When knowledge is instantly available, judgment becomes the differentiator"):
+Documenting any AI assistance is a Module 2 assignment requirement. It is not presented as a universal NSF, NIH, institutional, or journal disclosure standard.
 
-- Is using AI to draft a proposal section ethical? Where is the line between tool and ghost-writer?
-- If you can't detect AI-generated text, should we stop trying? What replaces detection?
-- How does framing your research differently for different agencies relate to honesty? Is strategic framing the same as spin?
-- Your students will write proposals that AI could write faster. What makes *your* proposal worth funding?
+**Individual product:** Submit the AI-use/verification note with the individual narrative record on Blackboard; submit “No AI used” when applicable. **Team product:** Add the risk/feasibility note and AI-use/provenance protocol to the working GCR-inspired concept draft; these are assessed with the final October 14 concept note rather than as a second stand-alone submission.
 
-#### 📚 References
+> This class does not ask students to upload any proposal to an AI tool. Exercises use public, synthetic, or explicitly authorized text, and policy analysis can be completed without using AI.
 
-- 📄 [**Conflict in Research Groups: Four Strategies**](https://www.science.org/content/article/conflict-your-research-group-here-are-four-strategies-finding-resolution) — Relevant for collaborative review
+#### Module Boundary
 
-#### 💡 Key Takeaways
-
-- Constructive peer review is a professional skill — "this is weak" without specifics doesn't help anyone
-- Panel dynamics (champion vs. detractor) matter as much as individual review quality
-- Ethical framing isn't about avoiding strategy — it's about ensuring your framing honestly represents your research
-- AI is a tool for drafting, not a substitute for scientific judgment
-
----
+Module 2 addresses proposal-specific permission, confidentiality, accuracy, and workflow. Module 3 evaluates AI feedback and source verification in scientific writing. Module 4 synthesizes broader ethical reasoning, governance, accountability, and research-lifecycle risks. A generic AI-history quiz or detection contest is not needed here.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: GCR Team Proposal Workshop</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: Formal Peer Review & Responding to Critique</h3></summary>
 
-**Goal:** Apply everything from the module by developing a Growing Convergence Research (GCR) proposal as a team, then conducting cross-team peer review.
+**Goal:** Produce an independent criterion-based review, deliberate without losing minority concerns, write an accurate panel summary, and convert critique into a bounded revision response.
 
-#### 📋 GCR Proposal Assignment Overview (~10 min)
+#### Panel Packet and Roles
 
-Each team develops a **Growing Convergence Research proposal** that integrates skills from the entire module:
+The instructor supplies a two-page **synthetic or explicitly authorized** proposal excerpt, its fictional funding-opportunity excerpt, the current review framework, and role cards. The packet must be different from Lecture 4's calibration excerpts and must contain enough information to identify evidence, uncertainty, and at least one genuine tradeoff. It must not include a student's unpublished proposal without specific permission and an equivalent alternative.
 
-**Requirements:**
-- A convergent research question where disciplines genuinely reshape each other (not just collaborate)
-- A challenge statement using the "While…However" structure
-- 3 specific objectives following the Foundational → Mechanistic → Application framework
-- Intellectual Merit section (1 paragraph)
-- Broader Impacts section (1 paragraph)
-- Framing appropriate for a target NSF directorate (specify which one)
+Before reading, students declare a fictional conflict from their role card or “no conflict,” identify the packet's confidentiality classification, and agree that criteria—not seniority, eloquence, or name recognition—govern the discussion. No generative-AI review is used in this simulation.
 
-**What "convergence" means (vs. multidisciplinary or interdisciplinary):**
+#### 80-Minute Plan
 
-| | Multidisciplinary | Interdisciplinary | Convergent |
-|--|---|---|---|
-| **Structure** | Disciplines work side by side | Disciplines integrate methods | Disciplines reshape each other |
-| **Example** | A biologist and engineer share data | An engineer uses biological models | Biology and engineering co-create a new framework neither could conceive alone |
-| **GCR standard** | ✗ | Partial | ✓ |
+| Time | Activity |
+|:---:|---|
+| 10 min | Reviewer briefing: role, conflicts, confidentiality, framework, evidence language, and chair/recorder duties |
+| 15 min | Independent written review before discussion |
+| 20 min | Panel deliberation; the chair records agreement, disagreement, open questions, and criterion-linked reasons |
+| 15 min | Draft a panel summary that does not erase a material minority concern |
+| 12 min | Author perspective: write a response-to-critique action, clarification, or reasoned disagreement |
+| 5 min | Fairness and power debrief using the Lecture 4 assumption each student chose to monitor |
+| 3 min | Exit ticket: one panel-process safeguard |
+| **80 min** | **Total** |
 
-#### ✍️ Team Working Session (~40 min)
+#### Independent Review Template
 
-Teams draft their GCR proposals. Instructor circulates to provide feedback. Key checkpoints:
+1. Two-sentence neutral summary of the proposed work.
+2. One key strength linked to proposal evidence and a criterion/factor.
+3. One material weakness or uncertainty linked to proposal evidence and a criterion/factor.
+4. Overall assessment using only the assigned framework and scale.
+5. One specific, feasible suggestion or question.
+6. One statement explicitly labeled as an inference or information gap.
 
-- **Minute 10:** Each team should have their convergent research question. Instructor spot-checks: "Is this truly convergent, or just interdisciplinary?"
-- **Minute 25:** Challenge statement and objectives drafted. Quick pair-check with another team.
-- **Minute 40:** Full draft ready for cross-team review.
+#### Panel Summary Requirements
 
-#### 🔄 Cross-Team Peer Review (~30 min)
+- State the panel's principal criterion-linked reasons, not a transcript or vote count.
+- Preserve a material unresolved concern and the evidence needed to resolve it.
+- Avoid speculating about intent, reputation, likely advocacy, or why an external funder would decide.
+- Distinguish the classroom assessment from an actual agency funding decision.
 
-Each team reviews another team's draft using a simplified rubric:
+**Output:** Team Panel Summary submitted on Blackboard; individual response-to-critique memo retained in the student's course portfolio.
 
-1. **Convergence Quality:** Do the disciplines genuinely reshape each other, or is this just collaboration? (1–5)
-2. **Challenge Clarity:** Can I understand the knowledge gap without being in this field? (1–5)
-3. **Objective Logic:** Do the three objectives follow the "if-then" chain? (1–5)
-4. **Framing Match:** Is the language appropriate for the target directorate? (1–5)
-5. **One specific suggestion** for strengthening the proposal
+</details>
 
-Teams return reviews; original teams have 10 minutes to discuss and plan revisions.
+<details>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: GCR-Inspired Team Concept Workshop</h3></summary>
 
-> **Final submissions** (revised based on peer review) are due on Blackboard by the following week.
+**Goal:** Integrate proposal framing, review criteria, and Module 1 team procedures in a short concept note addressing a problem that requires deep disciplinary integration.
 
-#### 💡 Key Takeaways
+#### Authentic Genre Anchor and Scope
 
-- True convergence means disciplines reshape each other — not just contribute side by side
-- The "While…However" structure and three-objective framework apply to team proposals just as they do to individual ones
-- Cross-team peer review reveals whether your proposal communicates to non-specialists
-- Everything in this module — framing, narrative, review criteria, ethical reasoning — comes together in this exercise
+- [Active NSF Growing Convergence Research program page](https://www.nsf.gov/funding/opportunities/gcr-growing-convergence-research)
+- [NSF 24-527 solicitation](https://www.nsf.gov/funding/opportunities/gcr-growing-convergence-research/nsf24-527/solicitation)
 
----
+**Status checked August 6, 2026:** GCR is active. Students must use the current program page, and an instructor must recheck status before class. The course assignment is a **GCR-inspired concept note**, not a full GCR proposal: it does not reproduce the solicitation's complete scale, phases, research plan, management plan, budget, or submission requirements.
+
+#### Two-Page Concept Note Requirements
+
+1. A specific and compelling scientific and/or societal problem.
+2. The disciplines, perspectives, or communities required and why parallel contributions are insufficient.
+3. The new framework, method, theory, tool, or research capacity that integration could create.
+4. At least two relevant NSF directorates and/or divisions, with a source-based reason each is relevant.
+5. An authentic-fit diagnostic: identify at least one existing NSF program or solicitation searched and explain why it would not support the concept—or explicitly state that actual GCR fit is unresolved or negative. The course does not reward a forced fit claim.
+6. A long-term vision and a bounded set of course-scale objectives, including key feasibility evidence, one material risk, and a fallback or decision point.
+7. Intellectual Merit and Broader Impacts, each tied to specific activities and evidence.
+8. A short convergence-management plan: reciprocal translation, integration points, decision authority, conflict/escalation path, and assessment of whether integration is occurring.
+9. References plus contribution, AI-use/verification, and response-to-review notes; these do not count toward the two-page limit.
+
+“While…However” and the three-objective sequence may be used as course writing scaffolds. Neither is an official GCR requirement.
+
+#### Convergence Test
+
+| Pattern | Diagnostic Question |
+|---|---|
+| Parallel contribution | Could each discipline complete its piece with only a handoff? |
+| Interdisciplinary integration | Are methods or concepts combined to answer a shared question? |
+| Convergence aspiration | Does sustained integration change how participants frame the problem or create capacity none could produce alone? |
+
+These are course diagnostics, not official categorical scores. Teams should explain the integration mechanism rather than merely select a label.
+
+#### 80-Minute Plan
+
+| Time | Activity |
+|:---:|---|
+| 8 min | Scope the authentic solicitation and the limits of the course exercise |
+| 10 min | Paired pitch and convergence test: problem, necessary disciplines, handoffs, and reciprocal integration |
+| 15 min | Silent cross-team criterion-based review of the complete pre-class draft |
+| 10 min | Reviewer–author conference focused on evidence and one question that could change the review |
+| 22 min | Team revision sprint on the problem, integration, objectives, IM/BI, fit, and management plan |
+| 10 min | Record accepted, modified, and declined feedback with reasons; complete final compliance check |
+| 5 min | Exit ticket: remaining revision, owner, deadline, and evidence needed |
+| **80 min** | **Total** |
+
+#### Cross-Team Review Rubric
+
+This is an **instructor-created course rubric**, not NSF's official GCR review or scoring scale. Rate each item 1–5 and cite one passage:
+
+1. Problem specificity and significance.
+2. Necessity and mechanism of deep integration.
+3. Objective logic and feasible course-scale scope.
+4. Intellectual Merit and Broader Impacts evidence.
+5. Directorate/division fit, search for an existing NSF home, and source support.
+6. Integration-management feasibility.
+
+Add one prioritized revision and one question whose answer could change the review.
+
+**Output:** Review, response note, and revisions completed in class; revised final concept note due October 14.
 
 </details>
 
 ---
 
-## 🏥 NIH Content Development Plan
+## Instructional Material Status and Preparation Checks
 
-<div style="background: #f7f5f0; border: 1px dashed #d0cdc6; padding: 20px; border-radius: 6px; margin: 20px 0;">
+| Material | Status and Required Boundary |
+|---|---|
+| Lecture 1 Nobel packet | Ready from the linked primary prize records; teach selected-case and incomplete-history limits |
+| Lecture 3 NIH aims page | Select from the NIAID public sample collection, preserve attribution/permission terms, label its date, and pair it with current instructions |
+| Lecture 4 calibration excerpts | Ready as constructed cases on this page; do not present them as real awards |
+| Lecture 5 policy claims and microcase | Ready from current primary policy sources; recheck before teaching |
+| Lecture 6 formal panel packet | Instructor preparation still required: synthetic or authorized excerpt, fictional opportunity, current rubric, role/conflict cards, and accessibility review |
+| Lecture 7 concept-note instructions | Ready as a course exercise; recheck the active GCR page before teaching |
 
-**Current status:** The module's interactive materials are primarily NSF-focused. NIH content exists as structural guidance (specific aims page format, comparison table) but lacks the depth of interactive materials available for NSF.
+### Legacy Presentation Decks
 
-**Planned development (for future iterations):**
+The repository retains earlier presentation files, but they are not assigned as evidence in this revision. Before reuse:
 
-**Priority 1 — Real NIH Specific Aims Pages:**
-Collect 2–3 publicly shared specific aims pages (strong and weak) for in-class analysis. Many funded PIs share these on lab websites or through institutional resources. These would anchor Lecture 3's NIH section, replacing the current text-only template.
+- the Nobel and NSF-landscape decks need source URLs, a reproducible coding method, denominators, uncertainty, and limits on population-level claims;
+- the “fundamental vs. applied” and word-choice materials need removal of categorical “forbidden word” and agency-wide framing claims;
+- the CAREER/DeepSeek materials need documented permission or public-source status, full proposal context, model/prompt/version/date/output records, and explicit limits on causal claims about why a proposal was funded; and
+- the project-summary and research-challenge decks need citation review and clear labels distinguishing instructor heuristics from sponsor requirements.
 
-**Priority 2 — Before/After Aims Page Revision:**
-Develop a case study showing a weak specific aims page revised to be competitive — parallel to the NSF CAREER 2018→2019 case study. Ideally from a real resubmission, anonymized with permission.
+Until those checks are complete, use the source-bound and constructed activities above. Do not infer that an award outcome reveals which revision caused funding or that an AI comparison without a reproducible packet demonstrates a general model limitation.
 
-**Priority 3 — NIH Study Section Simulation:**
-Design a mock study section exercise where students score a proposal excerpt using NIH's 1–9 scale across all five criteria (Significance, Investigator, Innovation, Approach, Environment). This would parallel the NSF panel simulation in Lectures 5 and 7.
+### Policy Refresh Checklist
 
-**Priority 4 — Guest Lecturer:**
-Invite an NIH-funded faculty member or current/former study section member to discuss how NIH review actually works in practice — especially the differences from NSF that can't be captured in a comparison table (e.g., the role of the Scientific Review Officer, triage processes, payline politics).
+Before the relevant class, the instructor should:
 
-**Priority 5 — NIH-Specific Framing Guide:**
-Develop an interactive presentation on NIH framing conventions — how "significance" differs from NSF's "intellectual merit," how to frame translational work, and how the innovation criterion is evaluated.
-
-</div>
-
----
-
-## 📚 Module Activities & Learning Objectives
-
-Through this module, students develop skills in:
-
-- **Research Landscape Awareness:** Understanding how breakthroughs happen across fields and how funding agencies evaluate research
-- **Strategic Framing:** Matching proposal language and structure to agency culture and directorate expectations
-- **Research Narrative Craft:** Writing compelling challenges, objectives, and significance statements — including practice with their *own* dissertation research
-- **Proposal Evaluation:** Conducting mock panel reviews using official NSF criteria
-- **Peer Review:** Providing constructive written feedback and participating in panel deliberation
-- **AI Literacy:** Understanding AI's capabilities and limitations in research — from hypothesis generation to proposal review to detection
-- **Ethical Reasoning:** Engaging with questions about framing, AI use, and responsible communication
-
-**» Detailed assignment instructions, rubrics, and submission portals are available on the course Blackboard site.**
+1. recheck the specific solicitation or NOFO and the maintained NSF/NIH landing pages;
+2. archive the access date and exact version used in the class packet;
+3. update screenshots or quoted wording rather than relying on last year's slides;
+4. verify that public samples remain available under the stated educational-use terms;
+5. check the accessibility of every PDF or packet and provide a lawful accessible alternative when needed; and
+6. provide a public or synthetic alternative whenever student work may be confidential, unpublished, or access-restricted.
 
 ---
 
-## 📚 Additional Resources
+## Module Activities & Learning Objectives
 
-- 📄 [**How to Write a Grant Proposal (Nature)**](https://www.nature.com/scitable/topicpage/how-to-write-a-grant-proposal-a-14220856/) — Step-by-step guide
-- 📄 [**NSF Broader Impacts Network**](https://broaderimpacts.net/) — Practical examples and templates
-- 📄 [**Grant Application Writer's Workbook**](https://grantcentral.com/workbooks/) — Comprehensive proposal writing guide
-- 📄 [**NIH Funding Mechanisms**](https://grants.nih.gov/grants/funding/funding_program.htm) — R01, R21, R03, F31, K99/R00 explained
+By the end of this module, students should be able to:
+
+- identify the governing opportunity and accurately apply current NSF or NIH review criteria;
+- distinguish sponsor requirements from common conventions and course writing scaffolds;
+- draft and revise a clear challenge, objectives, and compact research argument;
+- separate proposal evidence, reviewer inference, uncertainty, and reputation-based proxies;
+- provide a constructive independent review, participate in a documented panel, and respond to critique;
+- classify proposal information and apply role-specific AI, confidentiality, verification, and disclosure rules; and
+- produce a bounded convergence concept note with an integration-management plan.
+
+**Detailed submission portals and any instructor-supplied packets are available on Blackboard. Public instructions on this page define the course expectations and evidence boundaries.**
+
+---
+
+## Additional Resources
+
+- [NIH Funding Mechanisms](https://grants.nih.gov/funding/funding-categories)
+- [NSF Broader Impacts](https://www.nsf.gov/funding/learn/broader-impacts)
+- [NSF Award Search](https://www.nsf.gov/awardsearch/)
+- [NIH RePORTER](https://reporter.nih.gov/)
 
 ---
 
