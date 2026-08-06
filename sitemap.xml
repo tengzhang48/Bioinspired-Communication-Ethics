@@ -2,7 +2,7 @@
 <!--
   Static sitemap for the Bioinspired Communication & Ethics course website.
   Base URL: https://tengzhang48.github.io/Bioinspired-Communication-Ethics
-  Generated: 2026-03-07
+  Generated: 2026-08-06
 
   Note: Jekyll's jekyll-sitemap plugin also auto-generates a sitemap.xml at
   build time.  This file serves as a permanent, human-readable reference of
@@ -16,21 +16,21 @@
 
   <url>
     <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/syllabus/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/schedule/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -41,30 +41,90 @@
 
   <url>
     <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/foundation/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/paper/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/proposal/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/paper/</loc>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/modules/ethics/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- Module 1 Cases and Scenarios                                  -->
+  <!-- ============================================================ -->
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/case-studies/case-apollo-13/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/case-studies/case-frontiers-retraction/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/case-studies/case-alphafold/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/case-studies/case-transistor-bcs/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/case-studies/case-challenger/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/case-studies/case-biontech-pfizer/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/scenarios/scenario-free-rider/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tengzhang48.github.io/Bioinspired-Communication-Ethics/scenarios/module-1-microcases/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
   <!-- ============================================================ -->

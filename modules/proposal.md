@@ -327,9 +327,9 @@ Prompt with data: "GPT-4 generated 100 hypotheses in 3 hours; experts rated 40% 
 
 #### 🔎 AI Detection Callback (~5 min)
 
-Brief callback to the AI detection data you examined in Module 1 (Lecture 3):
+If the local Module 1 classroom demonstration was used, recall its bounded result: three model configurations scored 0–20% on that small exercise. Before interpreting it, restate the sample, prompts, model versions, scoring rule, and limitations. It is **not** a general benchmark and does not establish that all detection methods always fail.
 
-> You saw in Module 1 that AI detection fails reliably — three models achieved 0–20% accuracy, and the "angry reviewer" persona fooled all detectors. Today we ask what AI can and cannot do in the research enterprise, given that detection is off the table.
+Use the result to ask a narrower question: why is a policy that depends only on guessing whether AI was used fragile, and what disclosure, source-checking, and human-verification practices are still required?
 
 Connect to students' survey data: trust in AI for funding decisions was 2.7/5; 13/18 preferred human-centric AI role.
 
@@ -523,6 +523,6 @@ Through this module, students develop skills in:
 ---
 
 <div class="module-nav" style="margin-right: 30px;">
-  <a href="../paper/" class="btn" style="margin-right: 40px;">← Scientific Writing & Peer Review</a>
-  <a href="../ethics/" class="btn" style="margin-right: 40px;">Research Ethics →</a>
+  <a href="../foundation/" class="btn" style="margin-right: 40px;">← Foundations of Teamwork</a>
+  <a href="../paper/" class="btn" style="margin-right: 40px;">Scientific Writing & Peer Review →</a>
 </div>

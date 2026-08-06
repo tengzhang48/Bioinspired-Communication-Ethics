@@ -123,7 +123,7 @@ Teams discuss: Where is the line between acceptable and unacceptable? Does discl
 
 **Closing: Most powerful change (~5 min):** Open-ended: "Based on all the readings, what is the most powerful change we could make to reduce research misconduct?"
 
-> 🔗 **Connection to Module 2:** In Module 2 Lecture 3, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity — the same pressures that make transparent review uncomfortable also make it valuable.
+> 🔗 **Connection to Module 3:** In Module 3 Lecture 4, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity—the same pressures that make transparent review uncomfortable also make it valuable.
 
 #### 💡 Key Takeaways
 
@@ -232,7 +232,7 @@ This session produced the richest survey data in the module:
 
 **Closing: Barriers and next steps (~10 min):** Your #1 barrier was "don't know where/how to start" (12/15). Brief overview of concrete starting points: lab website, LinkedIn posts summarizing papers, departmental newsletters, local media contacts. The barrier is practical, and practical barriers have practical solutions.
 
-> 🔗 **Connection to Module 2:** In Module 2 Lecture 3, you examined transparent peer review and open access. The same principle applies here — making science accessible isn't just a nice-to-have, it's an ethical obligation grounded in the same transparency values you identified as benefits of open review.
+> 🔗 **Connection to Module 3:** In Module 3 Lecture 4, you examined transparent peer review and open access. The same principle applies here—making science accessible is an ethical obligation grounded in the same transparency values you identified as benefits of open review.
 
 #### 💡 Key Takeaways
 
@@ -264,24 +264,24 @@ This session produced the richest survey data in the module:
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Bridge from Modules 2 & 3 (~10 min):** Recall: In Module 2 (Lecture 5), you saw AI hallucinate the authors and lab of a paper it was analyzing. In Module 3 (Lecture 6), you saw AI fail to detect AI-written text and over-value structural polish in proposal evaluation. Those were *capability* questions. Today we ask the *ethical* questions.
+**Bridge from Modules 1–3 (~10 min):** Module 1 introduced disclosure and verification, with an optional small local detection exercise; Module 2 examined AI in the research enterprise; and Module 3 evaluated AI feedback on scientific writing. Revisit what each activity actually established and its limits. Those were *capability and workflow* questions. Today we ask the *ethical* questions.
 
 **The ghostwriting problem (~15 min):** Brainard reports far more authors use AI than disclose it. Discussion: Is undisclosed AI writing assistance the same as ghostwriting? As plagiarism? As a new category we don't have a name for yet? Where is the line between "AI as spell-checker" and "AI as co-author"?
 
 **AI bias case study (~15 min):** Lin's Nature piece argues AI chatbots are already biasing research directions. If AI tools steer researchers toward certain hypotheses or methods, who is responsible for the resulting bias? The AI developer? The researcher? The institution that mandates AI tool use?
 
-**Detection paradox discussion (~15 min):** Gerhard's piece on the "double-edged sword." Your Module 3 data showed AI detection achieved 0–20% accuracy. If we can't detect AI-written text, should we stop trying? What replaces detection? Teams propose alternative accountability mechanisms.
+**Detection paradox discussion (~15 min):** Use Gerhard's “double-edged sword” analysis. If the optional Module 1 exercise was used, its three model configurations scored 0–20% on one small classroom task; restate its methods and limits rather than generalizing it to every detector. What risks arise when policy depends mainly on detection? Teams propose complementary accountability mechanisms.
 
 **Regulatory frameworks mini-debate (~15 min):** Should AI in research be regulated through existing research integrity frameworks (extend current rules), through new AI-specific legislation (create new rules), or through professional self-regulation (scientists police themselves)? Teams take assigned positions.
 
 **Closing: Where do YOU draw the line? (~10 min):** Poll Everywhere scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
 
-> 🔗 **Connection to Module 2:** The AI hallucination case study from Module 2 Lecture 5 (ChatGPT vs. DeepSeek evaluating the hydrogel abstract) demonstrated a *capability* limitation. Today's session asks: given those limitations, what are the *ethical* obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
+> 🔗 **Connection to Module 3:** The ChatGPT/DeepSeek hydrogel-abstract exercise in Module 3 Lecture 6 demonstrated capability limitations. Today's session asks: given those limitations, what are the ethical obligations of researchers who use these tools? Resnik's principle of honesty applies directly—presenting AI-generated content as your own work violates it, regardless of detection capability.
 
 #### 💡 Key Takeaways
 
 - Undisclosed AI use in writing is an integrity issue, not a technology issue — existing ethics frameworks apply
-- AI detection is unreliable — accountability must come from transparency and professional norms, not surveillance
+- AI-detection systems have important limits—accountability cannot depend on detection alone and also requires transparency, verification, and professional norms
 - AI bias in research is a systemic risk that extends Alberts' perverse incentives argument into new territory
 - The ethical line isn't fixed — it depends on disclosure, the type of contribution, and the stakes of the research
 
@@ -311,7 +311,7 @@ This session produced the richest survey data in the module:
 - A collaborator provides a critical reagent and protocol but doesn't review the manuscript. Author?
 - A graduate student writes the paper but their advisor insists on first authorship. What do you do?
 
-In Module 1, you examined two team-level credit cases (Bardeen-Brattain-Shockley and BCS Theory) where the question was who counts as an inventor on a small team. Today we look at credit at the institutional and legal level, where the question becomes who owns the right to commercialize a discovery. The CRISPR patent dispute is the canonical contemporary example.
+**Bridge from Module 1:** Reopen Appendix C of the Team Charter. The transistor/BCS comparison separated contribution, leadership, paper authorship/order, patent inventorship, ownership, and prize recognition; it did not decide that all team credit is an inventorship question. Session 6 now applies ethical and publication standards to author eligibility, order, and accountability. Patent inventorship, ownership, commercialization, and the CRISPR dispute are reserved for Session 7.
 
 **Self-plagiarism revisited (~15 min):** This was introduced in Session 2 with the iThenticate reading. Now apply it to authorship: Is republishing your own conference paper in a journal (with minor revisions) ethical if you disclose it? What about reusing your methods section across papers? The nuance: copyright transfer agreements may make your own words legally someone else's property.
 
@@ -321,10 +321,10 @@ In Module 1, you examined two team-level credit cases (Bardeen-Brattain-Shockley
 
 #### 💡 Key Takeaways
 
-- ICMJE criteria are the standard, but they're often violated — knowing them gives you leverage in disputes
+- ICMJE criteria are an influential biomedical-journal standard; apply them carefully and also check the target journal's and field's requirements
 - CRediT taxonomy makes invisible contributions visible — advocate for its use in your publications
 - AI cannot meet ICMJE criteria (especially accountability) — but your obligation to disclose AI assistance is real
-- Most authorship disputes arise from assumptions that were never discussed — the Module 1 "prenup for scientists" prevents this
+- Undiscussed assumptions create authorship risk; the Module 1 provisional plan makes expectations revisable and visible but does not by itself settle eligibility, order, accountability, or power concerns
 
 ---
 
@@ -343,9 +343,9 @@ In Module 1, you examined two team-level credit cases (Bardeen-Brattain-Shockley
 
 **Mini-lecture: Four types of IP (~20 min):** Patents, copyrights, trade secrets, trademarks — each with different implications for scientific research. Key distinctions: patents protect inventions (but require disclosure), copyright protects expression (but not ideas), trade secrets protect information (but require secrecy). How each creates different incentive structures for openness vs. protection.
 
-**Patent case study (~15 min):** Return to the CRISPR patent dispute from Session 6. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Over $100M in licensing at stake. Discussion: Does the patent system reward the right people? Should fundamental biological discoveries be patentable at all?
+**Patent case study (~15 min):** Introduce the CRISPR patent dispute. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Analyze the legal record and current source packet before discussing: What does patent law recognize, how does that differ from scientific credit, and should fundamental biological discoveries be patentable at all?
 
-**Data sharing dilemma (~20 min):** The Human Genome Project's "Bermuda Agreement" (release all data within 24 hours) vs. Celera's proprietary model (use public data, keep own data private). Connect to Module 1's compressed treatment of HGP/Celera in Lecture 6. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
+**Data sharing dilemma (~20 min):** The Human Genome Project's “Bermuda Agreement” (rapid public data release) vs. Celera's proprietary model. Analyze the source record and the public/private incentives here as an open-science and data-governance case; Module 1 no longer previews this comparison. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
 
 **IP in your research (~15 min):** Each student identifies one potential IP issue in their own research: Does your university have a technology transfer office? Who owns your thesis data? If you develop code or a method, who controls it? What happens if you leave your lab?
 
@@ -406,6 +406,6 @@ Through seven sessions, students develop skills in:
 ---
 
 <div class="module-nav" style="margin-right: 30px;">
-  <a href="../proposal/" class="btn" style="margin-right: 40px;">← Proposal Writing & Review</a>
-  <a href="../foundation/" class="btn" style="margin-right: 40px;">Team Work →</a>
+  <a href="../paper/" class="btn" style="margin-right: 40px;">← Scientific Writing & Peer Review</a>
+  <a href="../../" class="btn" style="margin-right: 40px;">Course Home →</a>
 </div>
