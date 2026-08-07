@@ -27,7 +27,7 @@ permalink: /schedule/
 |--------|:---:|:---:|-------|
 | [Module 1: Foundations of Teamwork](../modules/foundation/) | 6 | Aug 24 – Sep 14 | Team formation, CATME, collaboration skills |
 | [Module 2: Proposal Writing & Review](../modules/proposal/) | 7 | Sep 16 – Oct 7 | Evidence-consistent framing, current NSF/NIH criteria, review, responsible AI, and a GCR-inspired concept |
-| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 7 | Oct 14 – Nov 4 | Writing principles, revision, peer review, AI tools |
+| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 7 | Oct 14 – Nov 4 | Reader-based writing, argument revision, real referee records, response letters, AI verification, and venue requirements |
 | [Module 4: Research Ethics](../modules/ethics/) | 7 | Nov 9 – Dec 7 | Misconduct, dual-use, sci-comm, AI ethics, IP |
 
 ---
@@ -67,13 +67,13 @@ permalink: /schedule/
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 14 | Wed, Oct 14 | [Your Writing Journey](../modules/paper/#lecture-1) | Mentimeter survey; CARS exercise; speed-reading challenge | Portfolio: Topic Selection |
-| 15 | Mon, Oct 19 | [Writing Principles in Action](../modules/paper/#lecture-2) | Writing principles presentation; mini-debate; "Reviewer Simulator" | Portfolio: Draft 1 |
-| 16 | Wed, Oct 21 | [The Art of Revision: Abstract Case Study](../modules/paper/#lecture-3) | Hydrogel abstract evolution (4 versions); 2-2-1 test; apply to own work | Portfolio: Draft 2 |
-| 17 | Mon, Oct 26 | [Peer Review & Transparent Publishing](../modules/paper/#lecture-4) | eLife model; seed carrier paper analysis; open access discussion | |
-| 18 | Wed, Oct 28 | [Responding to Reviewers](../modules/paper/#lecture-5) | Rebuttal anatomy; response drafting; tone test | Portfolio: Peer Review |
-| 19 | Mon, Nov 2 | [AI Tools in Scientific Writing](../modules/paper/#lecture-6) | ChatGPT vs. DeepSeek case; AI stress test; ethics discussion | Portfolio: AI Stress Test |
-| 20 | Wed, Nov 4 | [From Hypothesis to Publication](../modules/paper/#lecture-7) | Nobel Prize patterns; hypothesis frameworks; bridge to ethics module | **Portfolio: Final Version** |
+| 14 | Wed, Oct 14 | [Reading, Reporting, and the Reader's Work](../modules/paper/#lecture-1) | Gopen & Swan reader expectation; CARS move audit; tiered-reading measurement; topic, audience, and permission | Portfolio: Topic, Audience & Scope |
+| 15 | Mon, Oct 19 | [Writing Principles and Their Boundaries](../modules/paper/#lecture-2) | Whitesides outline-as-instrument; one observable rule tested in three preselected excerpts; conclusion-first drafting | Portfolio: Draft 1 |
+| 16 | Wed, Oct 21 | [Revision as Argument Restructuring](../modules/paper/#lecture-3) | Public abstract map; clearly constructed comparison; structural vs. surface change; number audit | Portfolio: Draft 2 |
+| 17 | Mon, Oct 26 | [Peer Review Systems and What They Publish](../modules/paper/#lecture-4) | Real *Nature* referee reports; two eLife review regimes; assessment-vocabulary calibration; independent review | |
+| 18 | Wed, Oct 28 | [Responding to Review](../modules/paper/#lecture-5) | Published point-by-point rebuttal; answering a necessity challenge; response letter | Portfolio: Peer Review + Response |
+| 19 | Mon, Nov 2 | [AI in Scientific Writing: Verification and Disclosure](../modules/paper/#lecture-6) | Common public input; equivalent direct-use and artifact-audit paths; claim verification | Portfolio: AI Stress Test |
+| 20 | Wed, Nov 4 | [Venue, Reporting, and What the Publication Record Supports](../modules/paper/#lecture-7) | Author instructions; reporting guidelines; preprint versions; public-record limits; bridge to ethics module | **Portfolio: Final Version** |
 
 ---
 
@@ -106,7 +106,7 @@ permalink: /schedule/
 | **Oct 14** | GCR-Inspired Concept Note (final) | Module 2 |
 | **Oct 19** | Writing Portfolio Draft 1 | Module 3 |
 | **Oct 21** | Writing Portfolio Draft 2 | Module 3 |
-| **Oct 28** | Writing Portfolio Peer Review | Module 3 |
+| **Oct 28** | Writing Portfolio Peer Review + Response to Review | Module 3 |
 | **Nov 2** | Writing Portfolio AI Stress Test | Module 3 |
 | **Nov 4** | Writing Portfolio Final Version | Module 3 |
 | **Dec 15** | Technology & Responsibility Report | Module 4 |

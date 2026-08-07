@@ -78,7 +78,7 @@ The course is organized into four modules taught sequentially. Each module page 
 
 ### Module 3: Scientific Writing & Peer Review (7 sessions)
 {: .module-header}
-**Focus:** Evidence-based writing principles (Whitesides, Weitz, Suo labs), the peer review process, transparent publishing, and AI tools in scientific writing. A team Writing Portfolio evolves across all seven lectures — from rough description to polished abstract with revision history.
+**Focus:** Reader-based writing principles (Gopen & Swan, Swales, Whitesides), revision as argument restructuring, published peer review records, professional response letters, verification and disclosure of AI use, and venue requirements. Students read assigned extracts from a real 96-page public referee file and author rebuttal rather than relying only on a summary. A team Writing Portfolio evolves across all seven lectures — from topic and audience selection to a polished abstract with a documented revision history. The AI audit uses one public source and offers equivalent direct-use and no-direct-use paths.
 
 → [Module 3 Details](../modules/paper/)
 
@@ -160,7 +160,7 @@ AI tools (ChatGPT, Claude, etc.) may be used as writing aids for brainstorming, 
 - AI may not be used as a substitute for completing readings or engaging with course materials
 - The Technology & Responsibility Report must reflect your team's original analysis and reasoning
 
-No assignment requires use of AI; an equivalent no-AI path is always available. This policy is intentionally practical rather than prohibitive — Module 3 includes an exercise where you test AI feedback on authorized writing and evaluate its quality. The goal is critical AI literacy, not avoidance.
+No assignment requires direct use of AI; an equivalent no-direct-use path is always available. Module 3 evaluates AI feedback on one public text: students may either run the authorized tool or audit provenance-complete outputs supplied by the instructor. Both paths use the same human baseline, verification record, and grading criteria. The goal is critical AI literacy, not avoidance.
 
 ### Disability-Related Accommodations
 

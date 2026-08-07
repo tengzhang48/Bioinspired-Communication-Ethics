@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revision as Argument Restructuring — Bioinspired Communication &amp; Ethics</title>
+<meta name="description" content="A public abstract and constructed comparison for mapping argument structure and auditing quantitative claims.">
+<style>
+:root{
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --bg:#ffffff; --bg-sunk:#f4f7fb; --bg-card:#ffffff;
+  --line:#d3ddea; --line-soft:#e6edf5;
+  --ink:#12233a; --ink-2:#3d4f66; --ink-3:#667c96;
+  --brand:#1a3a5f; --brand-2:#2c3e7a; --accent:#b3400b;
+  --ok:#14663a; --ok-bg:#eaf6ef;
+  --warn:#8a5a00; --warn-bg:#fdf4e3;
+  --stop:#a4232b; --stop-bg:#fdeeee;
+  --info:#24507e; --info-bg:#eef4fc;
+  --ask:#5b3d9e;  --ask-bg:#f2eefc;
+  --radius:14px; --radius-sm:8px;
+  --shadow:0 1px 2px rgba(18,35,58,.05), 0 10px 28px rgba(18,35,58,.07);
+  --maxw:62rem;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0e1621; --bg-sunk:#131f2e; --bg-card:#16222f;
+    --line:#2c3f55; --line-soft:#223145;
+    --ink:#e8eef6; --ink-2:#bdcbdc; --ink-3:#90a2b8;
+    --brand:#9fc2e8; --brand-2:#a9bdf0; --accent:#ff9d6b;
+    --ok:#86e0ac; --ok-bg:#10291d;
+    --warn:#f2c66a; --warn-bg:#2a2113;
+    --stop:#ffa8a8; --stop-bg:#2c1618;
+    --info:#9dc4f0; --info-bg:#101f31;
+    --ask:#c9b3f5; --ask-bg:#1d1830;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 28px rgba(0,0,0,.35);
+  }
+}
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } *{ transition:none !important; } }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--font); font-size:17px; line-height:1.62; -webkit-font-smoothing:antialiased; }
+a{ color:var(--brand-2); text-underline-offset:2px; }
+a:focus-visible,summary:focus-visible{ outline:3px solid var(--accent); outline-offset:2px; border-radius:4px; }
+.skip{ position:absolute; left:-9999px; top:0; z-index:100; background:var(--brand); color:#fff; padding:10px 16px; }
+.skip:focus{ left:0; }
+.progress{ position:fixed; inset:0 0 auto 0; height:4px; z-index:60; }
+.progress__bar{ height:100%; width:0; background:var(--accent); transition:width .1s linear; }
+.deck-head{ max-width:var(--maxw); margin:0 auto; padding:56px 22px 26px; }
+.eyebrow{ margin:0 0 10px; font-size:.78rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--accent); }
+.deck-head h1{ margin:0 0 12px; font-size:clamp(1.85rem,4.6vw,2.75rem); line-height:1.15; letter-spacing:-.02em; color:var(--brand); }
+.lede{ margin:0 0 26px; font-size:1.12rem; color:var(--ink-2); max-width:54ch; }
+.provenance{ margin:0; padding:18px 20px; background:var(--bg-sunk); border:1px solid var(--line); border-left:4px solid var(--brand-2); border-radius:0 var(--radius-sm) var(--radius-sm) 0; display:grid; grid-template-columns:auto 1fr; gap:6px 16px; font-size:.9rem; }
+.provenance dt{ font-weight:700; color:var(--ink-2); white-space:nowrap; }
+.provenance dd{ margin:0; color:var(--ink-2); }
+.toc{ max-width:var(--maxw); margin:26px auto 0; padding:0 22px; }
+.toc h2{ font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-3); margin:0 0 10px; }
+.toc ol{ margin:0; padding:0; list-style:none; display:flex; flex-wrap:wrap; gap:8px; counter-reset:toc; }
+.toc li{ counter-increment:toc; }
+.toc a{ display:inline-block; padding:6px 12px; font-size:.86rem; text-decoration:none; color:var(--ink-2); background:var(--bg-sunk); border:1px solid var(--line); border-radius:999px; }
+.toc a::before{ content:counter(toc) ". "; color:var(--ink-3); }
+.toc a:hover{ border-color:var(--brand-2); color:var(--brand-2); }
+main{ max-width:var(--maxw); margin:0 auto; padding:0 22px 40px; }
+.slide{ background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:32px 30px; margin:26px 0; scroll-margin-top:20px; }
+.slide__num{ margin:0 0 6px; font-family:var(--mono); font-size:.76rem; letter-spacing:.06em; color:var(--ink-3); }
+.slide h2{ margin:0 0 18px; font-size:clamp(1.3rem,2.9vw,1.72rem); line-height:1.25; letter-spacing:-.01em; color:var(--brand); border-bottom:2px solid var(--line-soft); padding-bottom:12px; }
+.slide h3{ margin:26px 0 10px; font-size:1.08rem; color:var(--ink); }
+.slide h4{ margin:18px 0 6px; font-size:.95rem; color:var(--ink-2); text-transform:uppercase; letter-spacing:.05em; }
+.slide > :first-child{ margin-top:0; }
+.slide p,.slide li{ color:var(--ink-2); }
+.slide strong{ color:var(--ink); }
+ul,ol{ padding-left:1.25em; } li{ margin:.4em 0; }
+.box{ margin:18px 0; padding:16px 18px; border-radius:0 var(--radius-sm) var(--radius-sm) 0; border:1px solid var(--line); border-left:4px solid var(--ink-3); background:var(--bg-sunk); }
+.box__label{ display:block; margin:0 0 6px; font-size:.74rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase; }
+.box > :last-child{ margin-bottom:0; }
+.box--source{ background:var(--info-bg); border-left-color:var(--info); } .box--source .box__label{ color:var(--info); }
+.box--limit{ background:var(--warn-bg); border-left-color:var(--warn); } .box--limit .box__label{ color:var(--warn); }
+.box--do{ background:var(--ok-bg); border-left-color:var(--ok); } .box--do .box__label{ color:var(--ok); }
+.box--dont{ background:var(--stop-bg); border-left-color:var(--stop); } .box--dont .box__label{ color:var(--stop); }
+.box--ask{ background:var(--ask-bg); border-left-color:var(--ask); } .box--ask .box__label{ color:var(--ask); }
+.badge{ display:inline-block; padding:2px 9px; border-radius:999px; font-size:.7rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; vertical-align:middle; }
+.badge--verified{ color:var(--ok); background:var(--ok-bg); }
+.badge--constructed{ color:var(--ask); background:var(--ask-bg); }
+.stat-row{ display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); margin:20px 0; }
+.stat{ padding:16px 18px; background:var(--bg-sunk); border:1px solid var(--line); border-radius:var(--radius-sm); }
+.stat__num{ display:block; font-size:1.9rem; font-weight:800; line-height:1.1; color:var(--brand); letter-spacing:-.02em; }
+.stat__label{ display:block; margin-top:4px; font-size:.92rem; color:var(--ink-2); }
+.stat__src{ display:block; margin-top:8px; font-size:.75rem; color:var(--ink-3); border-top:1px dotted var(--line); padding-top:6px; }
+.grid{ display:grid; gap:14px; margin:18px 0; }
+.grid--2{ grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+.grid--3{ grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+.card{ padding:16px 18px; background:var(--bg-sunk); border:1px solid var(--line); border-radius:var(--radius-sm); }
+.card h3{ margin:0 0 8px; font-size:1rem; color:var(--brand); }
+.card > :last-child{ margin-bottom:0; }
+.table-wrap{ overflow-x:auto; margin:18px 0; border:1px solid var(--line); border-radius:var(--radius-sm); }
+table{ border-collapse:collapse; width:100%; min-width:36rem; font-size:.93rem; }
+caption{ caption-side:top; text-align:left; padding:12px 14px; font-size:.85rem; color:var(--ink-3); }
+th,td{ padding:10px 14px; text-align:left; border-bottom:1px solid var(--line-soft); vertical-align:top; }
+thead th{ background:var(--bg-sunk); color:var(--ink); font-size:.83rem; letter-spacing:.04em; text-transform:uppercase; }
+tbody th{ font-weight:600; color:var(--ink); }
+tbody tr:last-child td, tbody tr:last-child th{ border-bottom:0; }
+blockquote{ margin:18px 0; padding:14px 18px; border-left:4px solid var(--brand-2); background:var(--bg-sunk); border-radius:0 var(--radius-sm) var(--radius-sm) 0; color:var(--ink-2); }
+blockquote cite{ display:block; margin-top:8px; font-size:.85rem; font-style:normal; color:var(--ink-3); }
+.cite{ font-size:.72rem; font-weight:700; text-decoration:none; color:var(--accent); vertical-align:super; padding:0 1px; }
+code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); padding:1px 5px; border-radius:4px; border:1px solid var(--line-soft); }
+.deck-foot{ max-width:var(--maxw); margin:0 auto; padding:30px 22px 70px; border-top:1px solid var(--line); color:var(--ink-2); font-size:.9rem; }
+.deck-foot h2{ font-size:1.05rem; color:var(--brand); margin:0 0 12px; }
+.deck-foot ol{ padding-left:1.2em; } .deck-foot li{ margin:.5em 0; }
+.deck-foot .meta{ margin-top:22px; font-size:.82rem; color:var(--ink-3); }
+@media print{
+  :root{ --shadow:none; }
+  .progress,.toc,.skip{ display:none !important; }
+  body{ font-size:11pt; background:#fff; color:#000; }
+  .slide{ break-inside:avoid; box-shadow:none; border:1px solid #999; margin:12px 0; }
+  a{ color:#000; text-decoration:underline; }
+  a[href^="http"]::after{ content:" (" attr(href) ")"; font-size:8pt; word-break:break-all; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#slide-1">Skip to slides</a>
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<header class="deck-head">
+  <p class="eyebrow">Bioinspired Communication &amp; Ethics &middot; Module 3 &middot; Lecture 3</p>
+  <h1>Revision as Argument Restructuring</h1>
+  <p class="lede">A public abstract and a constructed comparison for separating sentence editing from argument restructuring.</p>
+
+  <dl class="provenance">
+    <dt>Built from</dt><dd>The public accepted manuscript and DOI record for Yuk et&nbsp;al., <em>Nature Materials</em> 15:190&ndash;196 (2016), plus an instructor-created comparison.</dd>
+    <dt>Evidence type</dt><dd><span class="badge badge--verified">Verified</span> public article facts and <span class="badge badge--constructed">Constructed</span> teaching text. The comparison is not an earlier manuscript version.</dd>
+    <dt>Sources checked</dt><dd>August 7, 2026.</dd>
+    <dt>Cannot establish</dt><dd>How the authors actually drafted the paper, what changed before publication, or what influenced any editorial decision.</dd>
+  </dl>
+</header>
+
+<nav class="toc" aria-label="Slide index">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#slide-1">Evidence boundary</a></li>
+    <li><a href="#slide-2">Published argument map</a></li>
+    <li><a href="#slide-3">Constructed comparison</a></li>
+    <li><a href="#slide-4">The number audit</a></li>
+    <li><a href="#slide-5">Classify revisions</a></li>
+    <li><a href="#slide-6">Apply it to your Draft 1</a></li>
+  </ol>
+</nav>
+
+<main>
+
+  <section class="slide" id="slide-1" aria-labelledby="h-1">
+    <p class="slide__num">1 / 6</p>
+    <h2 id="h-1">Start with the evidence boundary</h2>
+
+    <blockquote>
+      Hyunwoo Yuk, <strong>Teng Zhang</strong>, Shaoting Lin, German Alberto Parada, and Xuanhe Zhao.
+      &ldquo;Tough bonding of hydrogels to diverse non-porous surfaces.&rdquo;
+      <em>Nature Materials</em> 15, no.&nbsp;2 (2016): 190&ndash;196.
+      <cite>doi:10.1038/nmat4463 &middot; published online 9 November 2015 &middot; Soft Active Materials Laboratory, MIT<a class="cite" href="#ref-1">1</a></cite>
+    </blockquote>
+
+    <p>The public paper reports a strategy for bonding hydrogels to non-porous solids by covalently anchoring the hydrogel network to the surface. Its abstract can be mapped, paraphrased, and checked against the accepted manuscript.</p>
+
+    <div class="box box--source">
+      <span class="box__label">What is public evidence</span>
+      <p>The accepted manuscript and DOI record support claims about the published argument, reported mechanism, materials, and numbers. They are the only evidence about this paper used in the exercise.</p>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">What is constructed</span>
+      <p>The weaker comparison on slide 3 was written for this course from public article facts. It is <strong>not</strong> a submitted draft, a reconstruction of one, or evidence about the authors&rsquo; process. Its only purpose is to make a structural diagnosis possible.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-2" aria-labelledby="h-2">
+    <p class="slide__num">2 / 6</p>
+    <h2 id="h-2">Map the published argument</h2>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Course map of the public abstract; the labels are analytical descriptions, not quotations.</caption>
+        <thead><tr><th scope="col">Move</th><th scope="col">Work it does for the reader</th><th scope="col">Check in the public text</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Benchmark and problem</th><td>Defines what biological interfaces achieve and the synthetic gap</td><td>Which value is background rather than this paper&rsquo;s result?</td></tr>
+          <tr><th scope="row">Strategy</th><td>States the general approach before procedural detail</td><td>What is bonded to what?</td></tr>
+          <tr><th scope="row">Mechanism</th><td>Explains why the approach can work</td><td>Where is silanation connected to covalent anchoring?</td></tr>
+          <tr><th scope="row">Result</th><td>Reports achieved performance against the benchmark</td><td>Which value belongs to the present work?</td></tr>
+          <tr><th scope="row">Scope</th><td>Names demonstrated materials and possible uses</td><td>Which nouns limit the claim?</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box box--ask">
+      <span class="box__label">One-read test</span>
+      <p>After one reading, write the problem, strategy, mechanism, principal result, and scope without looking back. Any missing item identifies work the structure left to the reader.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-3" aria-labelledby="h-3">
+    <p class="slide__num">3 / 6</p>
+    <h2 id="h-3">Compare a deliberately weak structure</h2>
+
+    <div class="compare">
+      <div class="compare__side compare__side--before">
+        <span class="compare__tag">Constructed teaching text</span>
+        <p>Hydrogels can be used in coatings and devices. We attach them to several non-porous solids through surface treatment and covalent anchoring. The interfaces reach over 1,000&nbsp;J&nbsp;m<sup>&minus;2</sup>. Biological soft&ndash;hard interfaces can reach about 800&nbsp;J&nbsp;m<sup>&minus;2</sup>.</p>
+      </div>
+      <div class="compare__side compare__side--after">
+        <span class="compare__tag">Published sequence, paraphrased</span>
+        <p><mark>Benchmark and unmet problem</mark> &rarr; bonding strategy &rarr; interfacial mechanism &rarr; <mark>result against the benchmark</mark> &rarr; demonstrated materials and applications.</p>
+      </div>
+    </div>
+
+    <p>Both sides contain public article facts. The constructed version makes the reader hold the result before learning why the comparison matters; the published sequence establishes the comparison first.</p>
+
+    <div class="box box--ask">
+      <span class="box__label">Discuss</span>
+      <ol>
+        <li>Reorder the constructed sentences without changing their factual content. What reader question does each move answer?</li>
+        <li>Which problem is structural, and which wording change would merely polish the surface?</li>
+      </ol>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">Do not infer a history</span>
+      <p>A successful reconstruction shows that one order is easier to follow in this exercise. It says nothing about which order the authors drafted first.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-4" aria-labelledby="h-4">
+    <p class="slide__num">4 / 6</p>
+    <h2 id="h-4">The number audit</h2>
+
+    <p>The published abstract contains two toughness values. Confusing them inverts the paper.</p>
+
+    <div class="stat-row">
+      <div class="stat">
+        <span class="stat__num">~800 J m&#8315;&sup2;</span>
+        <span class="stat__label">The <strong>biological benchmark</strong> &mdash; tendon and cartilage bonded to bone in animals</span>
+        <span class="stat__src">Published abstract, opening sentence. Not this paper&rsquo;s result.<a class="cite" href="#ref-1">1</a></span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">&gt;1,000 J m&#8315;&sup2;</span>
+        <span class="stat__label">The <strong>result reported by this paper</strong> for hydrogel bonded to non-porous solids</span>
+        <span class="stat__src">Published abstract, closing claim.<a class="cite" href="#ref-1">1</a></span>
+      </div>
+    </div>
+
+    <div class="box box--dont">
+      <span class="box__label">The failure mode</span>
+      <p>Reporting &ldquo;800 J m&#8315;&sup2;&rdquo; as the achievement makes the benchmark the finding and deletes the finding. The paper&rsquo;s whole rhetorical move &mdash; nature sets a bar, synthetic interfaces had not reached it, this work exceeds it &mdash; collapses into a single unanchored number.</p>
+    </div>
+
+    <div class="box box--do">
+      <span class="box__label">The rule</span>
+      <p>Every number in an abstract carries three things: its <strong>referent</strong> (what was measured), its <strong>comparison</strong> (against what), and its <strong>direction</strong> (who achieved it, and is more better). A number missing any of the three will be attached by the reader to the wrong quantity.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-5" aria-labelledby="h-5">
+    <p class="slide__num">5 / 6</p>
+    <h2 id="h-5">Classify before editing</h2>
+
+    <p>Label a proposed revision by the work it changes. A single edit may receive more than one label, but the reason must be visible in the text.</p>
+
+    <div class="grid grid--2">
+      <div class="card"><h3>Structure</h3><p>Changes the order or relationship of problem, strategy, mechanism, result, and scope.</p></div>
+      <div class="card"><h3>Specificity</h3><p>Replaces a general description with a checkable material, mechanism, quantity, or condition.</p></div>
+      <div class="card"><h3>Scope</h3><p>Changes what cases, materials, conditions, or conclusions the claim covers.</p></div>
+      <div class="card"><h3>Surface</h3><p>Changes grammar, rhythm, length, or word choice without changing the argument or its bounds.</p></div>
+    </div>
+
+    <div class="box box--ask">
+      <span class="box__label">Decision rule</span>
+      <p>If the edit changes what a reader must conclude or how the evidence supports the conclusion, explain the structural or scope change. If it only makes the same relationship easier to read, call it a surface or specificity edit.</p>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">Do not overstate the categories</span>
+      <p>These are course lenses for making revision decisions visible. They are not journal-defined categories and do not prove that one revision caused a publication outcome.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-6" aria-labelledby="h-6">
+    <p class="slide__num">6 / 6</p>
+    <h2 id="h-6">Apply it to your Draft 1</h2>
+
+    <h3>Pass 1 &mdash; restructure</h3>
+    <ol>
+      <li>Underline the sentence containing your central claim. If there is not one, that is the finding.</li>
+      <li>Write the four elements in order: what is already established, what was missing, what you did, what you got.</li>
+      <li>Reorder the abstract to match. Note which sentence had to move furthest.</li>
+    </ol>
+
+    <h3>Pass 2 &mdash; audit every number</h3>
+    <div class="table-wrap">
+      <table>
+        <caption>Fill one row per number in your abstract. A row you cannot complete is a number to cut or source.</caption>
+        <thead><tr><th scope="col">Number</th><th scope="col">Referent</th><th scope="col">Comparison</th><th scope="col">Whose result</th><th scope="col">Source</th></tr></thead>
+        <tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="box box--ask">
+      <span class="box__label">Cross-team check</span>
+      <p>Hand your revised abstract to another team. After <strong>one</strong> read, can they state your central claim and name your comparison? If not, the problem is structural and another editing pass will not fix it.</p>
+    </div>
+
+    <div class="box box--do">
+      <span class="box__label">Deliverable</span>
+      <p>Draft 2, due October 21, with a two-sentence note naming the one structural change your team considers most consequential &mdash; and why it is structural rather than cosmetic.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="deck-foot">
+  <h2>Sources</h2>
+  <ol>
+    <li id="ref-1">Yuk, Hyunwoo, Teng Zhang, Shaoting Lin, German Alberto Parada, and Xuanhe Zhao. &ldquo;Tough bonding of hydrogels to diverse non-porous surfaces.&rdquo; <em>Nature Materials</em> 15, no. 2 (2016): 190&ndash;196. doi:<a href="https://doi.org/10.1038/nmat4463">10.1038/nmat4463</a>. Published online 9 November 2015. Accepted manuscript: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4762474/">PMC4762474</a>. Retrieved August 7, 2026.</li>
+    <li id="ref-2">Gopen, George D., and Judith A. Swan. &ldquo;The Science of Scientific Writing.&rdquo; <em>American Scientist</em> 78, no. 6 (1990): 550&ndash;558. <a href="https://www.jstor.org/stable/29774235">JSTOR 29774235</a>.</li>
+    <li id="ref-3">Whitesides, George M. &ldquo;Whitesides&rsquo; Group: Writing a Paper.&rdquo; <em>Advanced Materials</em> 16, no. 15 (2004): 1375&ndash;1377. doi:<a href="https://doi.org/10.1002/adma.200400767">10.1002/adma.200400767</a>.</li>
+  </ol>
+  <p class="meta">
+    Bioinspired Communication &amp; Ethics, Syracuse University &middot; Module 3, Lecture 3 &middot; Deck house style v1 &middot;
+    Public-source claims and constructed teaching material are identified separately; the constructed comparison does not describe the paper&rsquo;s drafting history.
+  </p>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+  var bar = document.getElementById('progressBar');
+  function paint() {
+    var h = document.documentElement;
+    var scrollable = h.scrollHeight - h.clientHeight;
+    bar.style.width = (scrollable > 0 ? (h.scrollTop / scrollable) * 100 : 0) + '%';
+  }
+  addEventListener('scroll', paint, { passive: true });
+  addEventListener('resize', paint);
+  paint();
+
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  function step(dir) {
+    var y = scrollY + 1, target = null;
+    for (var i = 0; i < slides.length; i++) {
+      var top = slides[i].getBoundingClientRect().top + scrollY;
+      if (dir > 0 && top > y) { target = slides[i]; break; }
+      if (dir < 0 && top < y - 2) { target = slides[i]; }
+    }
+    if (target) target.scrollIntoView({ block: 'start' });
+  }
+  addEventListener('keydown', function (e) {
+    var t = e.target;
+    if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === 'j') { e.preventDefault(); step(1); }
+    if (e.key === 'ArrowUp'   || e.key === 'PageUp'   || e.key === 'k') { e.preventDefault(); step(-1); }
+  });
+})();
+</script>
+</body>
+</html>

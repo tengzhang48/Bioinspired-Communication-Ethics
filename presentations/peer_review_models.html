@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peer Review Systems and What They Publish — Bioinspired Communication &amp; Ethics</title>
+<meta name="description" content="What different journal peer review models make public, read from three real, verifiable review records.">
+<style>
+:root{
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --bg:#ffffff; --bg-sunk:#f4f7fb; --bg-card:#ffffff;
+  --line:#d3ddea; --line-soft:#e6edf5;
+  --ink:#12233a; --ink-2:#3d4f66; --ink-3:#667c96;
+  --brand:#1a3a5f; --brand-2:#2c3e7a; --accent:#b3400b;
+  --ok:#14663a; --ok-bg:#eaf6ef;
+  --warn:#8a5a00; --warn-bg:#fdf4e3;
+  --stop:#a4232b; --stop-bg:#fdeeee;
+  --info:#24507e; --info-bg:#eef4fc;
+  --ask:#5b3d9e;  --ask-bg:#f2eefc;
+  --radius:14px; --radius-sm:8px;
+  --shadow:0 1px 2px rgba(18,35,58,.05), 0 10px 28px rgba(18,35,58,.07);
+  --maxw:62rem;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0e1621; --bg-sunk:#131f2e; --bg-card:#16222f;
+    --line:#2c3f55; --line-soft:#223145;
+    --ink:#e8eef6; --ink-2:#bdcbdc; --ink-3:#90a2b8;
+    --brand:#9fc2e8; --brand-2:#a9bdf0; --accent:#ff9d6b;
+    --ok:#86e0ac; --ok-bg:#10291d;
+    --warn:#f2c66a; --warn-bg:#2a2113;
+    --stop:#ffa8a8; --stop-bg:#2c1618;
+    --info:#9dc4f0; --info-bg:#101f31;
+    --ask:#c9b3f5; --ask-bg:#1d1830;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 28px rgba(0,0,0,.35);
+  }
+}
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } *{ transition:none !important; } }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--font); font-size:17px; line-height:1.62; -webkit-font-smoothing:antialiased; }
+a{ color:var(--brand-2); text-underline-offset:2px; }
+a:focus-visible,summary:focus-visible{ outline:3px solid var(--accent); outline-offset:2px; border-radius:4px; }
+.skip{ position:absolute; left:-9999px; top:0; z-index:100; background:var(--brand); color:#fff; padding:10px 16px; }
+.skip:focus{ left:0; }
+.progress{ position:fixed; inset:0 0 auto 0; height:4px; z-index:60; }
+.progress__bar{ height:100%; width:0; background:var(--accent); transition:width .1s linear; }
+.deck-head{ max-width:var(--maxw); margin:0 auto; padding:56px 22px 26px; }
+.eyebrow{ margin:0 0 10px; font-size:.78rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--accent); }
+.deck-head h1{ margin:0 0 12px; font-size:clamp(1.85rem,4.6vw,2.75rem); line-height:1.15; letter-spacing:-.02em; color:var(--brand); }
+.lede{ margin:0 0 26px; font-size:1.12rem; color:var(--ink-2); max-width:54ch; }
+.provenance{ margin:0; padding:18px 20px; background:var(--bg-sunk); border:1px solid var(--line); border-left:4px solid var(--brand-2); border-radius:0 var(--radius-sm) var(--radius-sm) 0; display:grid; grid-template-columns:auto 1fr; gap:6px 16px; font-size:.9rem; }
+.provenance dt{ font-weight:700; color:var(--ink-2); white-space:nowrap; }
+.provenance dd{ margin:0; color:var(--ink-2); }
+.toc{ max-width:var(--maxw); margin:26px auto 0; padding:0 22px; }
+.toc h2{ font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-3); margin:0 0 10px; }
+.toc ol{ margin:0; padding:0; list-style:none; display:flex; flex-wrap:wrap; gap:8px; counter-reset:toc; }
+.toc li{ counter-increment:toc; }
+.toc a{ display:inline-block; padding:6px 12px; font-size:.86rem; text-decoration:none; color:var(--ink-2); background:var(--bg-sunk); border:1px solid var(--line); border-radius:999px; }
+.toc a::before{ content:counter(toc) ". "; color:var(--ink-3); }
+.toc a:hover{ border-color:var(--brand-2); color:var(--brand-2); }
+main{ max-width:var(--maxw); margin:0 auto; padding:0 22px 40px; }
+.slide{ background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:32px 30px; margin:26px 0; scroll-margin-top:20px; }
+.slide__num{ margin:0 0 6px; font-family:var(--mono); font-size:.76rem; letter-spacing:.06em; color:var(--ink-3); }
+.slide h2{ margin:0 0 18px; font-size:clamp(1.3rem,2.9vw,1.72rem); line-height:1.25; letter-spacing:-.01em; color:var(--brand); border-bottom:2px solid var(--line-soft); padding-bottom:12px; }
+.slide h3{ margin:26px 0 10px; font-size:1.08rem; color:var(--ink); }
+.slide h4{ margin:18px 0 6px; font-size:.95rem; color:var(--ink-2); text-transform:uppercase; letter-spacing:.05em; }
+.slide > :first-child{ margin-top:0; }
+.slide p,.slide li{ color:var(--ink-2); }
+.slide strong{ color:var(--ink); }
+ul,ol{ padding-left:1.25em; } li{ margin:.4em 0; }
+.box{ margin:18px 0; padding:16px 18px; border-radius:0 var(--radius-sm) var(--radius-sm) 0; border:1px solid var(--line); border-left:4px solid var(--ink-3); background:var(--bg-sunk); }
+.box__label{ display:block; margin:0 0 6px; font-size:.74rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase; }
+.box > :last-child{ margin-bottom:0; }
+.box--source{ background:var(--info-bg); border-left-color:var(--info); } .box--source .box__label{ color:var(--info); }
+.box--limit{ background:var(--warn-bg); border-left-color:var(--warn); } .box--limit .box__label{ color:var(--warn); }
+.box--do{ background:var(--ok-bg); border-left-color:var(--ok); } .box--do .box__label{ color:var(--ok); }
+.box--dont{ background:var(--stop-bg); border-left-color:var(--stop); } .box--dont .box__label{ color:var(--stop); }
+.box--ask{ background:var(--ask-bg); border-left-color:var(--ask); } .box--ask .box__label{ color:var(--ask); }
+.badge{ display:inline-block; padding:2px 9px; border-radius:999px; font-size:.7rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; border:1px solid currentColor; vertical-align:middle; }
+.badge--verified{ color:var(--ok); background:var(--ok-bg); }
+.badge--constructed{ color:var(--ask); background:var(--ask-bg); }
+.stat-row{ display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); margin:20px 0; }
+.stat{ padding:16px 18px; background:var(--bg-sunk); border:1px solid var(--line); border-radius:var(--radius-sm); }
+.stat__num{ display:block; font-size:1.9rem; font-weight:800; line-height:1.1; color:var(--brand); letter-spacing:-.02em; }
+.stat__label{ display:block; margin-top:4px; font-size:.92rem; color:var(--ink-2); }
+.stat__src{ display:block; margin-top:8px; font-size:.75rem; color:var(--ink-3); border-top:1px dotted var(--line); padding-top:6px; }
+.grid{ display:grid; gap:14px; margin:18px 0; }
+.grid--2{ grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+.grid--3{ grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+.card{ padding:16px 18px; background:var(--bg-sunk); border:1px solid var(--line); border-radius:var(--radius-sm); }
+.card h3{ margin:0 0 8px; font-size:1rem; color:var(--brand); }
+.card > :last-child{ margin-bottom:0; }
+.table-wrap{ overflow-x:auto; margin:18px 0; border:1px solid var(--line); border-radius:var(--radius-sm); }
+table{ border-collapse:collapse; width:100%; min-width:36rem; font-size:.93rem; }
+caption{ caption-side:top; text-align:left; padding:12px 14px; font-size:.85rem; color:var(--ink-3); }
+th,td{ padding:10px 14px; text-align:left; border-bottom:1px solid var(--line-soft); vertical-align:top; }
+thead th{ background:var(--bg-sunk); color:var(--ink); font-size:.83rem; letter-spacing:.04em; text-transform:uppercase; }
+tbody th{ font-weight:600; color:var(--ink); }
+tbody tr:last-child td, tbody tr:last-child th{ border-bottom:0; }
+blockquote{ margin:18px 0; padding:14px 18px; border-left:4px solid var(--brand-2); background:var(--bg-sunk); border-radius:0 var(--radius-sm) var(--radius-sm) 0; color:var(--ink-2); }
+blockquote cite{ display:block; margin-top:8px; font-size:.85rem; font-style:normal; color:var(--ink-3); }
+.cite{ font-size:.72rem; font-weight:700; text-decoration:none; color:var(--accent); vertical-align:super; padding:0 1px; }
+code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); padding:1px 5px; border-radius:4px; border:1px solid var(--line-soft); }
+.deck-foot{ max-width:var(--maxw); margin:0 auto; padding:30px 22px 70px; border-top:1px solid var(--line); color:var(--ink-2); font-size:.9rem; }
+.deck-foot h2{ font-size:1.05rem; color:var(--brand); margin:0 0 12px; }
+.deck-foot ol{ padding-left:1.2em; } .deck-foot li{ margin:.5em 0; }
+.deck-foot .meta{ margin-top:22px; font-size:.82rem; color:var(--ink-3); }
+@media print{
+  :root{ --shadow:none; }
+  .progress,.toc,.skip{ display:none !important; }
+  body{ font-size:11pt; background:#fff; color:#000; }
+  .slide{ break-inside:avoid; box-shadow:none; border:1px solid #999; margin:12px 0; }
+  a{ color:#000; text-decoration:underline; }
+  a[href^="http"]::after{ content:" (" attr(href) ")"; font-size:8pt; word-break:break-all; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#slide-1">Skip to slides</a>
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<header class="deck-head">
+  <p class="eyebrow">Bioinspired Communication &amp; Ethics · Module 3 · Lecture 4</p>
+  <h1>Peer Review Systems and What They Publish</h1>
+  <p class="lede">Most peer review is invisible, so students are asked to take its value on faith. These three review records are public in full — so we read them instead.</p>
+
+  <dl class="provenance">
+    <dt>Built from</dt><dd>Three published peer review records and the journals' own policy pages. Every quotation below is drawn from a source listed at the end of this deck.</dd>
+    <dt>Evidence type</dt><dd><span class="badge badge--verified">Verified</span> primary sources. Every link was retrieved and checked.</dd>
+    <dt>Sources checked</dt><dd>August 7, 2026. Journal review models change; recheck each policy page before teaching.</dd>
+    <dt>Cannot establish</dt><dd>How peer review works <em>in general</em>. Three records, at two journals, with the referees who happened to be assigned, describe those three cases and nothing wider.</dd>
+  </dl>
+</header>
+
+<nav class="toc" aria-label="Slide index">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#slide-1">What the record supports</a></li>
+    <li><a href="#slide-2">Three records you can read</a></li>
+    <li><a href="#slide-3">What each model publishes</a></li>
+    <li><a href="#slide-4">Inside a referee report</a></li>
+    <li><a href="#slide-5">The title came from a referee</a></li>
+    <li><a href="#slide-6">Assessment vocabulary</a></li>
+    <li><a href="#slide-7">Write your review</a></li>
+  </ol>
+</nav>
+
+<main>
+
+  <section class="slide" id="slide-1" aria-labelledby="h-1">
+    <p class="slide__num">1 / 7</p>
+    <h2 id="h-1">What the public record supports</h2>
+
+    <p>"Peer reviewed" is treated as a single guarantee. It is not one thing, and different venues publish different parts of the process — which means the phrase alone does not tell a reader what was checked, by how many people, or whether anyone can see the reasoning.</p>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Four distinct, potentially interacting properties. Each requires its own current source.</caption>
+        <thead><tr><th scope="col">Property</th><th scope="col">The question it answers</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Selectivity</th><td>What fraction of submissions are published, and against what bar?</td></tr>
+          <tr><th scope="row">Review model</th><td>Who reviews, whether identities are known, and what is published afterwards</td></tr>
+          <tr><th scope="row">Indexing</th><td>Which databases carry the record</td></tr>
+          <tr><th scope="row">Access model</th><td>Who can read it, and who paid for that</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">What the record does not establish</span>
+      <p>That a result is true or will replicate; that reviewers agreed; that every concern was resolved; or what the editor privately weighted. Read only the checks and decisions the venue actually makes public.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-2" aria-labelledby="h-2">
+    <p class="slide__num">2 / 7</p>
+    <h2 id="h-2">Three records you can read in full</h2>
+
+    <div class="grid grid--3">
+      <div class="card">
+        <h3><em>Nature</em> · seed carriers</h3>
+        <p>Bioinspired self-burying seed carriers. The published <strong>96-page Peer Review File</strong> includes reports from three referees across three rounds and point-by-point author responses. The paper acknowledges two reviewers by name; the file does not map names to report numbers.<a class="cite" href="#ref-1">1</a></p>
+        <p><strong>Your instructor is a co-author.</strong></p>
+      </div>
+      <div class="card">
+        <h3>eLife · earlier model</h3>
+        <p>Suction attachment in mountain-stream insect larvae. A consolidated <strong>decision letter</strong> with numbered essential revisions, plus the author response.<a class="cite" href="#ref-2">2</a></p>
+      </div>
+      <div class="card">
+        <h3>eLife · current model</h3>
+        <p>Pterosaur tail-vane soft tissue, published as a <strong>Reviewed Preprint</strong> with an <strong>eLife assessment</strong> in controlled vocabulary.<a class="cite" href="#ref-3">3</a></p>
+      </div>
+    </div>
+
+    <div class="box box--source">
+      <span class="box__label">Why these three</span>
+      <p>All three are bioinspired or organismal work, so the science is legible to this cohort. More importantly, all three publish the reasoning, which means every claim made in class can be checked against the record rather than accepted from a slide.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-3" aria-labelledby="h-3">
+    <p class="slide__num">3 / 7</p>
+    <h2 id="h-3">What each model makes public</h2>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Compiled from the three records and the journals' policy pages, checked August 7, 2026.</caption>
+        <thead>
+          <tr><th scope="col">&nbsp;</th><th scope="col"><em>Nature</em> peer review file</th><th scope="col">eLife, earlier model</th><th scope="col">eLife, current model</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Referee reports published</th><td>The article file includes reports and rebuttals across three rounds</td><td>Consolidated into a decision letter</td><td>Yes, as public reviews</td></tr>
+          <tr><th scope="row">Reviewer identities</th><td>Named in the acknowledgement when they consent; others anonymous</td><td>Anonymous; editors named</td><td>Anonymous unless the reviewer signs</td></tr>
+          <tr><th scope="row">Author response published</th><td>Yes, point by point</td><td>Yes</td><td>Yes, when provided</td></tr>
+          <tr><th scope="row">Accept / reject decision</th><td>Yes, before publication</td><td>Yes</td><td>Editorial invitation gate, but no post-review accept/reject decision; assessment plus versions</td></tr>
+          <tr><th scope="row">Controlled assessment vocabulary</th><td>No</td><td>No</td><td>Yes, for significance and strength of evidence</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">Read the source, not this table</span>
+      <p>This table is a snapshot. eLife changed its model substantially after 2022, and Springer Nature has extended transparent peer review across its titles. Before citing any row, open the journal's current policy page and confirm it.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-4" aria-labelledby="h-4">
+    <p class="slide__num">4 / 7</p>
+    <h2 id="h-4">Inside a referee report: three different lines of critique</h2>
+
+    <p>The three <em>Nature</em> referees do not offer variations on one shared opinion. They challenge different dimensions of the work, and one report is strongly skeptical.</p>
+
+    <h3>Referee #1 — technical</h3>
+    <p>Raises specific questions about whether an empirical correction factor is labelled accurately, whether an equation is complete, and whether replicate counts and statistical variation are reported. Each concern points to a checkable manuscript change.<a class="cite" href="#ref-1">1</a></p>
+
+    <h3>Referee #2 — a necessity challenge</h3>
+    <p>Questions whether the design provides a significant advance and asks why natural seed awns could not be used instead. The report also supplies literature showing that a three-tailed geometry exists in nature.<a class="cite" href="#ref-1">1</a></p>
+
+    <h3>Referee #3 — a venue-fit challenge</h3>
+    <p>Calls the work interesting but asks whether its significance is broad enough for the venue.<a class="cite" href="#ref-1">1</a></p>
+
+    <div class="box box--do">
+      <span class="box__label">How the authors answered the hardest one</span>
+      <p>Referee #2's challenge questioned necessity, not merely presentation. The authors conceded the valid comparison, answered with quantities, tested real seed awns, and incorporated the cited natural example into the design rationale. The published sequence documents the response; it does not reveal which element the editor privately weighted.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-5" aria-labelledby="h-5">
+    <p class="slide__num">5 / 7</p>
+    <h2 id="h-5">A referee proposed the published title</h2>
+
+    <p>Buried in Referee #1's list of minor points:</p>
+
+    <p>Referee #1 objected that &ldquo;self-drilling&rdquo; overstated what the seed did and proposed the more descriptive title <strong>&ldquo;Autonomous Self-burying Seed Carriers for Aerial Seeding.&rdquo;</strong><a class="cite" href="#ref-1">1</a></p>
+
+    <p>That is the paper's published title.</p>
+
+    <div class="box box--ask">
+      <span class="box__label">Discuss</span>
+      <ol>
+        <li>A title is a claim. What does it mean that this paper's central claim was reworded by an outside referee?</li>
+        <li>The referee's objection was <em>semantic</em>: the seed is not drilling itself. Find the equivalent objection in your own abstract — a word that asserts more than your evidence does.</li>
+        <li>You will get an outside reader in the next 15 minutes. What will you ask them to attack?</li>
+      </ol>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">Do not over-read this</span>
+      <p>One referee, one paper. This shows that a title <em>can</em> arrive from outside the author team, not that titles usually do, and not that accepting a referee's title improves acceptance odds.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-6" aria-labelledby="h-6">
+    <p class="slide__num">6 / 7</p>
+    <h2 id="h-6">Assessment vocabulary: intended order and reader interpretation</h2>
+
+    <p>Before displaying eLife&rsquo;s definitions, the instructor gives students the bare significance and evidence-strength terms. Each student ranks them individually and records confidence. This calibration task is completed before applying any term to a scientific abstract.</p>
+
+    <div class="box box--source">
+      <span class="box__label">Then reveal the source&rsquo;s intended meanings</span>
+      <p>The pinned eLife assessment describes the contribution as <strong>valuable</strong> and the methods as <strong>compelling</strong>. Those are defined terms in eLife&rsquo;s separate significance and strength-of-evidence vocabularies.<a class="cite" href="#ref-3">3</a></p>
+    </div>
+
+    <div class="grid grid--2">
+      <div class="card">
+        <h3>"Valuable"</h3>
+        <p>A significance term: findings with theoretical or practical implications for a subfield.</p>
+      </div>
+      <div class="card">
+        <h3>"Compelling"</h3>
+        <p>An evidence-strength term: methods, data and analyses more rigorous than the current state of the art.</p>
+      </div>
+    </div>
+
+    <div class="box box--dont">
+      <span class="box__label">What the isolated-phrase experiment found</span>
+      <p>Hardwicke and colleagues asked 301 individuals holding doctoral or graduate degrees to rate short hypothetical statements on 0&ndash;100 scales.<a class="cite" href="#ref-6">6</a> The implied ordering matched eLife&rsquo;s intended order for <strong>20%</strong> on significance and <strong>15%</strong> on strength of evidence. A more explicitly ordinal wording produced much higher agreement.</p>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <span class="stat__num">20% / 15%</span>
+        <span class="stat__label">Individual implied order matched eLife&rsquo;s intended significance / strength order</span>
+        <span class="stat__src">n = 301 individuals with doctoral or graduate degrees; 95% CI [15&ndash;24%] and [11&ndash;20%]. Hardwicke et al. 2024.<a class="cite" href="#ref-6">6</a></span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">62% / 67%</span>
+        <span class="stat__label">Same individual task with a more explicitly ordinal alternative</span>
+        <span class="stat__src">Same sample; 95% CI [57&ndash;68%] and [62&ndash;72%]. Odds ratios 8.17 and 11.4, both <em>p</em> &lt; .001.<a class="cite" href="#ref-6">6</a></span>
+      </div>
+    </div>
+
+    <div class="box box--ask">
+      <span class="box__label">Discuss</span>
+      <ol>
+        <li>Compare each student&rsquo;s recorded ordering with the intended order. Do not convert the individual study percentage into a prediction about teams.</li>
+        <li>What further study would distinguish a problem with this word list from a problem with controlled vocabularies generally?</li>
+        <li>Why might <em>important</em>, <em>valuable</em>, and <em>fundamental</em> be hard to order, when <em>high</em>, <em>moderate</em>, and <em>low</em> are not?</li>
+      </ol>
+    </div>
+
+    <div class="box box--limit">
+      <span class="box__label">Two limits on this slide</span>
+      <p>Hardwicke et&nbsp;al. tested individual interpretations of isolated hypothetical statements, not team deliberation, editorial prose, reviewer quality, or the overall value of eLife&rsquo;s model. The assessment is also <strong>not a scoring rubric</strong>; applying terms to an abstract is a separate classroom exercise with no numerical comparison to that experiment.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-7" aria-labelledby="h-7">
+    <p class="slide__num">7 / 7</p>
+    <h2 id="h-7">Now write one</h2>
+
+    <p>Write an independent review of another team's Draft 2. Five parts, each tied to text:</p>
+
+    <ol>
+      <li>Two-sentence neutral summary of the work <em>as the draft presents it</em>.</li>
+      <li>One strength, <strong>quoting</strong> the text that supports it.</li>
+      <li>One material weakness or uncertainty, quoting the text and naming what is missing.</li>
+      <li>One specific, feasible request, stating what evidence would resolve it.</li>
+      <li>One statement explicitly labeled as <em>inference</em> rather than as something the draft establishes.</li>
+    </ol>
+
+    <div class="grid grid--2">
+      <div class="box box--do" style="margin:0;">
+        <span class="box__label">Actionable</span>
+        <p>"Figure 1 reports one trial. Either report <em>n</em>, mean, and standard deviation for each condition, or restrict the claim from 'reliable' to 'observed in a single run.'"</p>
+      </div>
+      <div class="box box--dont" style="margin:0;">
+        <span class="box__label">Not actionable</span>
+        <p>"The results section needs more rigor and the writing could be clearer."</p>
+      </div>
+    </div>
+
+    <div class="box box--dont">
+      <span class="box__label">Out of bounds</span>
+      <p>Reviews address the draft, not the author. Do not speculate about a team's ability, effort, or intent. Do not evaluate who wrote which part.</p>
+    </div>
+
+    <div class="box box--ask">
+      <span class="box__label">Exit ticket</span>
+      <p>Name one comment you wrote that the receiving team could act on <strong>without asking you a follow-up question</strong>. If you cannot find one, rewrite your best comment until you can.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="deck-foot">
+  <h2>Sources</h2>
+  <ol>
+    <li id="ref-1">Luo, Danli, Aditi Maheshwari, Andreea Danielescu, Jiaji Li, Yue Yang, Ye Tao, Lingyun Sun, Dinesh K. Patel, Guanyun Wang, Shu Yang, Teng Zhang, and Lining Yao. "Autonomous self-burying seed carriers for aerial seeding." <em>Nature</em> 614 (2023): 463–470. doi:<a href="https://doi.org/10.1038/s41586-022-05656-3">10.1038/s41586-022-05656-3</a>. Referee quotations are from the publisher's <a href="https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-05656-3/MediaObjects/41586_2022_5656_MOESM12_ESM.pdf">Peer Review File</a> (PDF, 96 pages). Retrieved August 7, 2026.</li>
+    <li id="ref-2">Kang, Victor, Robin T. White, Simon Chen, and Walter Federle. "Extreme suction attachment performance from specialised insects living in mountain streams (Diptera: Blephariceridae)." <em>eLife</em> 10 (2021): e63250. doi:<a href="https://doi.org/10.7554/eLife.63250">10.7554/eLife.63250</a>. <a href="https://elifesciences.org/articles/63250v1/peer-reviews">Decision letter and author response</a>. Retrieved August 7, 2026.</li>
+    <li id="ref-3">Jagielska, Natalia, Thomas G. Kaye, Michael B. Habib, Tatsuya Hirasawa, and Michael Pittman. "New soft tissue data of pterosaur tail vane reveals sophisticated, dynamic tensioning usage and expands its evolutionary origins." <a href="https://elifesciences.org/reviewed-preprints/100673v2">eLife Reviewed Preprint 100673v2</a>, November 29, 2024. doi:<a href="https://doi.org/10.7554/eLife.100673.2">10.7554/eLife.100673.2</a>. Later Version of Record: <a href="https://doi.org/10.7554/eLife.100673.3">10.7554/eLife.100673.3</a>, December 18, 2024. Retrieved August 7, 2026.</li>
+    <li id="ref-4">COPE. <a href="https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers">Ethical Guidelines for Peer Reviewers</a>, Version 2, September 2017. Committee on Publication Ethics.</li>
+    <li id="ref-5"><em>Nature</em> Portfolio. <a href="https://www.nature.com/nature-portfolio/editorial-policies/peer-review">Peer-review policy and process</a>.</li>
+    <li id="ref-6">Hardwicke, Thomas E., Sarah R. Schiavone, Beth Clarke, and Simine Vazire. &ldquo;An empirical appraisal of eLife&rsquo;s assessment vocabulary.&rdquo; <em>PLOS Biology</em> 22, no. 8 (2024): e3002645. doi:<a href="https://doi.org/10.1371/journal.pbio.3002645">10.1371/journal.pbio.3002645</a>. Repeated-measures experiment, n = 301. Retrieved August 7, 2026.</li>
+  </ol>
+  <p class="meta">
+    Bioinspired Communication &amp; Ethics, Syracuse University · Module 3, Lecture 4 · Deck house style v1 ·
+    All referee quotations are from published, publicly accessible review records and are reproduced for teaching. No confidential review material appears in this deck.
+  </p>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+  var bar = document.getElementById('progressBar');
+  function paint() {
+    var h = document.documentElement;
+    var scrollable = h.scrollHeight - h.clientHeight;
+    bar.style.width = (scrollable > 0 ? (h.scrollTop / scrollable) * 100 : 0) + '%';
+  }
+  addEventListener('scroll', paint, { passive: true });
+  addEventListener('resize', paint);
+  paint();
+
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  function step(dir) {
+    var y = scrollY + 1, target = null;
+    for (var i = 0; i < slides.length; i++) {
+      var top = slides[i].getBoundingClientRect().top + scrollY;
+      if (dir > 0 && top > y) { target = slides[i]; break; }
+      if (dir < 0 && top < y - 2) { target = slides[i]; }
+    }
+    if (target) target.scrollIntoView({ block: 'start' });
+  }
+  addEventListener('keydown', function (e) {
+    var t = e.target;
+    if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === 'j') { e.preventDefault(); step(1); }
+    if (e.key === 'ArrowUp'   || e.key === 'PageUp'   || e.key === 'k') { e.preventDefault(); step(-1); }
+  });
+})();
+</script>
+</body>
+</html>
