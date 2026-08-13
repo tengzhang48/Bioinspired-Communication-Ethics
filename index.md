@@ -53,7 +53,7 @@ Current NSF/NIH criteria, evidence-consistent proposal development, responsible 
 Reader-based writing, argument revision, published referee records, response letters, and AI verification
 
 ### ⚖️ [Module 4: Ethics (with Prof. Sarah Reckess, JD)](modules/ethics)
-Ethical case studies, dual-use research discussions, and AI ethics considerations
+Ethical case studies, AI ethics, authorship and credit, and final team presentations
 
 ## 📚 Essential Resources
 
