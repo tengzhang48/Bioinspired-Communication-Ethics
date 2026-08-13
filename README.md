@@ -61,5 +61,4 @@ This site is actively maintained. Suggestions and contributions for improved con
 
 ## 📄 License
 
-Content © 2025 by course instructors.  
-Website code is available under the [MIT License](LICENSE).
+Website code is available under the [MIT License](LICENSE). Original course content is © 2025–2026 by the course instructors unless otherwise stated; external sources retain their own rights. See [Content and Source Notes](CONTENT_AND_SOURCE_NOTES.md) for the public/private, constructed-case, and source-refresh boundaries.

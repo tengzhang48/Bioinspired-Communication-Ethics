@@ -8,10 +8,6 @@ permalink: /modules/proposal/
 
 This module develops proposal writing, criterion-based review, and responsible use of AI in proposal work. Students learn to identify the governing funding opportunity, make evidence-calibrated claims, write and revise a research narrative, and review proposals without substituting prestige, unsupported assumptions, or tool output for scientific judgment.
 
-<div style="background: #f0f4ff; border-left: 4px solid #2c3e7a; padding: 16px 20px; border-radius: 0 6px 6px 0; margin: 20px 0;">
-<strong>Planning context:</strong> A prior anonymous class survey—the cohort year is not documented in the repository—had varying response counts across items (approximately 14–18). Respondents most often identified novelty, clarity, feasibility, background/significance, research design/methods, and aims/hypotheses as concerns. These small, item-specific results guide practice time; they are not treated as representative evidence about graduate students generally.
-</div>
-
 > **Teaching pattern:** Each 80-minute meeting has a bounded source or anchor task, a short application or decision task, a concrete output, and closure time. Historical examples are used to inspect evidence and framing—not to infer universal causes of scientific or funding success.
 
 ---
@@ -37,7 +33,7 @@ This module develops proposal writing, criterion-based review, and responsible u
 | 2 | Draft challenge statement and a bounded set of research objectives |
 | 2 | Cross-disciplinary criterion-based peer review |
 | 3 | Revised challenge/objectives and 90-second elevator test |
-| 5 | AI-use and verification note for any AI-assisted work; submit “no AI used” when applicable |
+| 5 | AI-use and verification note; record direct use or the equivalent no-direct-use policy/verification path |
 
 Students may work on a dissertation or qualifying-exam topic only if it is appropriate to share with classmates. A public, published, or instructor-created alternative is always available; nobody is required to disclose confidential or unpublished research.
 
@@ -303,11 +299,11 @@ Course permission never overrides a sponsor's rule or authorizes disclosure of u
 
 #### Required AI-Use and Verification Note
 
-Record the task; tool and version when available; date; input classification; output retained or used; claims and original sources checked; material changes; human verifier/signatory; required disclosure; and any unresolved limitation. Students who used no AI submit “No AI used.”
+Record the task; whether a tool was used directly; tool and version when available; date; input classification; output retained or used; claims and original sources checked; material changes; human verifier; required disclosure; and any unresolved limitation. Students taking the no-direct-use path document their policy classification and verification work on the instructor-provided constructed claims instead of signing a bare “No AI used” statement.
 
 Documenting any AI assistance is a Module 2 assignment requirement. It is not presented as a universal NSF, NIH, institutional, or journal disclosure standard.
 
-**Individual product:** Submit the AI-use/verification note with the individual narrative record on Blackboard; submit “No AI used” when applicable. **Team product:** Add the risk/feasibility note and AI-use/provenance protocol to the working GCR-inspired concept draft; these are assessed with the final October 14 concept note rather than as a second stand-alone submission.
+**Individual product:** Submit the AI-use/verification note with the individual narrative record on Blackboard through either participation path. **Team product:** Add the risk/feasibility note and AI-use/provenance protocol to the working GCR-inspired concept draft; these are assessed with the final October 14 concept note rather than as a second stand-alone submission.
 
 > This class does not ask students to upload any proposal to an AI tool. Exercises use public, synthetic, or explicitly authorized text, and policy analysis can be completed without using AI.
 
@@ -440,16 +436,9 @@ Add one prioritized revision and one question whose answer could change the revi
 | Lecture 6 formal panel packet | Instructor preparation still required: synthetic or authorized excerpt, fictional opportunity, current rubric, role/conflict cards, and accessibility review |
 | Lecture 7 concept-note instructions | Ready as a course exercise; recheck the active GCR page before teaching |
 
-### Legacy Presentation Decks
+### Retired Presentation Materials
 
-The repository retains earlier presentation files, but they are not assigned as evidence in this revision. Before reuse:
-
-- the Nobel and NSF-landscape decks need source URLs, a reproducible coding method, denominators, uncertainty, and limits on population-level claims;
-- the “fundamental vs. applied” and word-choice materials need removal of categorical “forbidden word” and agency-wide framing claims;
-- the CAREER/DeepSeek materials need documented permission or public-source status, full proposal context, model/prompt/version/date/output records, and explicit limits on causal claims about why a proposal was funded; and
-- the project-summary and research-challenge decks need citation review and clear labels distinguishing instructor heuristics from sponsor requirements.
-
-Until those checks are complete, use the source-bound and constructed activities above. Do not infer that an award outcome reveals which revision caused funding or that an AI comparison without a reproducible packet demonstrates a general model limitation.
+Earlier presentation files not used by this lecture plan were retired from the public course package on August 7, 2026. Reintroduce any older material only after independently checking its sources, permissions, policy version, accessibility, and evidentiary limits. The source-bound and constructed activities on this page are the current assigned materials.
 
 ### Policy Refresh Checklist
 
@@ -486,6 +475,14 @@ By the end of this module, students should be able to:
 - [NSF Broader Impacts](https://www.nsf.gov/funding/learn/broader-impacts)
 - [NSF Award Search](https://www.nsf.gov/awardsearch/)
 - [NIH RePORTER](https://reporter.nih.gov/)
+
+---
+
+## Instructor Planning Note: 2025 Student Survey
+
+An anonymous 2025 Mentimeter survey was used to allocate practice time in this module. Item response counts varied: 10 of 14 respondents reported that their program required a written proposal, and 8 of 16 reported a formal proposal defense. Most respondents were in Years 2–3 and preparing for qualifying examinations. The most frequently named concerns were novelty, clarity, and feasibility. The most requested sections were Background & Significance (9 responses), Research Design/Methods (9), and Specific Aims/Hypotheses (7). Mean self-rated confidence in proposal writing was 3.4/5. The retained summary does not give item-specific denominators for the latter counts or the confidence item.
+
+These descriptive results concern one small 2025 course cohort. They guide emphasis and time allocation; they are not treated as representative evidence about graduate students generally. Preserve the denominators that are known, label the others as unavailable, and do not infer missing-response totals.
 
 ---
 

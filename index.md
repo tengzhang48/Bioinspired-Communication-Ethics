@@ -49,8 +49,8 @@ CATME feedback, interdisciplinary teamwork, documented cases, and a stress-teste
 ### 💡 [Module 2: Research Proposal Preparation](modules/proposal)
 Current NSF/NIH criteria, evidence-consistent proposal development, responsible AI use, and mock panel review
 
-### 📝 [Module 3: Scientific Literature Review](modules/paper)
-Transparent peer review process, manuscript analysis, and ethical review practices
+### 📝 [Module 3: Scientific Writing & Peer Review](modules/paper)
+Reader-based writing, argument revision, published referee records, response letters, and AI verification
 
 ### ⚖️ [Module 4: Ethics (with Prof. Sarah Reckess, JD)](modules/ethics)
 Ethical case studies, dual-use research discussions, and AI ethics considerations

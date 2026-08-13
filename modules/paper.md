@@ -4,451 +4,547 @@ title: "Module 3: Scientific Writing & Peer Review"
 permalink: /modules/paper/
 ---
 
-# Module 3: Scientific Writing & Peer Review  
+# Module 3: Scientific Writing & Peer Review
 
-This module provides comprehensive training in scientific communication through writing and the peer review process. Across seven lectures, you'll learn evidence-based strategies for effective scientific writing, practice transparent peer review techniques, examine how AI tools interact with scientific writing, and develop skills to respond constructively to reviewer feedback—all grounded in real case studies and your own survey responses.
+This module develops scientific writing, criterion-based manuscript review, and responsible use of AI in writing and review. Students learn to write for a reader's expectations rather than their own memory of the work, to revise an argument rather than polish a surface, to read and produce a real peer review, and to verify every claim a tool hands them before it enters a manuscript.
 
-<div style="background: #f0f4ff; border-left: 4px solid #2c3e7a; padding: 16px 20px; border-radius: 0 6px 6px 0; margin: 20px 0;">
-<strong>Student Profile (Mentimeter survey, n≈20):</strong> 8/15 have zero publications; 13/16 target 3–5 papers for PhD completion. Top pain points: <em>generating ideas</em>, <em>writing introductions</em>, <em>deadlines</em>, and <em>revisions</em>. Most-wanted support: feedback, collaboration, and good mentoring. Reading habits: 14/21 read papers weekly, but only 1/21 annotates deeply. 16/18 got their research idea from their advisor. Confidence in handling reviewer comments: 3.6/5.
-</div>
+> **Teaching pattern:** Each 80-minute meeting has a bounded source or anchor task, a short application or decision task, a concrete output, closure time, and an explicit contingency reserve. Published papers, review files, and author responses are used to inspect how writing and review actually work—not to infer which specific sentence caused an acceptance.
 
 ---
 
 ## Module Structure: 7 Lectures
 
-| # | Lecture | Key Topics |
-|---|--------|------------|
-| 1 | [Your Writing Journey: Where We Start](#lecture-1) | Publication landscape, pain points, reading habits |
-| 2 | [Writing Principles in Action](#lecture-2) | Whitesides/Weitz/Suo frameworks, conclusion-first, figures-first |
-| 3 | [The Art of Revision: An Abstract Case Study](#lecture-3) | 4 versions of a real abstract, what changed and why |
-| 4 | [Peer Review & Transparent Publishing](#lecture-4) | eLife model, open access, transparent review |
-| 5 | [Responding to Reviewers](#lecture-5) | Professional rebuttals, evidence-based responses |
-| 6 | [AI Tools in Scientific Writing](#lecture-6) | AI evaluation of abstracts, hallucinations, limitations |
-| 7 | [From Hypothesis to Publication](#lecture-7) | Research approaches, Nobel Prize patterns, bridge to proposals |
+| # | Lecture | Key Topics and Output |
+|:---:|---|---|
+| 1 | [Reading, Reporting, and the Reader's Work](#lecture-1) | Reader-expectation prose; CARS moves; portfolio topic, audience, and scope |
+| 2 | [Writing Principles and Their Boundaries](#lecture-2) | Whitesides and lab guidance; testing a rule against a real corpus; Draft 1 |
+| 3 | [Revision as Argument Restructuring](#lecture-3) | A public published abstract and a clearly constructed comparison; number auditing; Draft 2 |
+| 4 | [Peer Review Systems and What They Publish](#lecture-4) | Real referee reports; two eLife regimes; independent criterion-based review |
+| 5 | [Responding to Review](#lecture-5) | A published point-by-point rebuttal; evidence-based disagreement; response letter |
+| 6 | [AI in Scientific Writing: Verification and Disclosure](#lecture-6) | Public-input AI audit with direct-use and no-direct-use paths; verification note |
+| 7 | [Venue, Reporting, and What the Publication Record Supports](#lecture-7) | Author instructions; reporting guidelines; preprints; final portfolio |
 
-### 📝 Running Assignment: Writing Portfolio (Team)
+### Running Assignment: Writing Portfolio
 
-The central deliverable is a **team Writing Portfolio** — a research abstract that evolves across lectures, mirroring the real publication cycle:
+The module deliverable is a **team Writing Portfolio**: a research abstract that is drafted, revised, formally reviewed, answered, and submitted with a documented revision history, plus a public-source AI-feedback audit whose verification lessons are applied to the final submission without uploading the team draft.
 
-| Lecture | Portfolio Milestone |
-|:---:|---------------------|
-| 1 | Select topic & write rough research description |
-| 2 | Draft 1: Apply conclusion-first, outline-driven principles |
-| 3 | Draft 2: Revise using abstract evolution case study lessons |
-| 5 | Peer Review: Another team reviews your abstract; you respond formally |
-| 6 | AI Stress Test: Submit to AI, compare feedback with human review |
-| 7 | Final Version: Polished abstract + 1-page revision history |
+| Lecture | Milestone | Due |
+|:---:|---|---|
+| 1 | Topic, target audience/venue, and scope-and-permission statement | In class |
+| 2 | Draft 1: conclusion-first abstract with a named central claim | Oct 19 |
+| 3 | Draft 2: revised for argument structure, specificity, and number discipline | Oct 21 |
+| 5 | Peer review of another team's Draft 2, plus a point-by-point response to the review your team received | Oct 28 |
+| 6 | AI feedback audit using a public source, with a complete verification record | Nov 2 |
+| 7 | Final abstract, one-page revision history, and submission-readiness check | Nov 4 |
+
+**Scope and permission.** Teams may write about a member's own research only if that member is willing to share it with classmates and has any co-author or advisor permission required. A public, published, or instructor-created alternative topic is always available. Nobody is required to disclose confidential, unpublished, proprietary, or embargoed work in order to complete this module. Permission to share within the course does not authorize uploading the work to an external AI service.
+
+**Contribution record.** Because the portfolio is a team product about work that usually belongs to one member, each submission carries a short contribution note identifying who drafted, who revised, who verified sources, and who signed off. This uses the procedure the team already wrote in [Module 1 Charter Appendix C]({{ '/modules/foundation/' | relative_url }}#lecture-5). Authorship *eligibility* and *order* are Module 4 topics; this note only records what each person did.
 
 ---
 
 <details open>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: Your Writing Journey — Where We Start</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-1">Lecture 1: Reading, Reporting, and the Reader's Work</h3></summary>
 
-**Goal:** Establish a shared baseline of the cohort's writing experience, identify common challenges, and frame scientific writing as a learnable, structured skill — not a mysterious talent.
+**Goal:** Establish that clarity is a property of the reader's experience rather than the writer's intention, then choose a portfolio topic, audience, and scope that the team can actually write about.
 
-#### 📊 What Your Survey Told Us
+#### Pre-Class Source Packet
 
-- **Publication experience:** 8/15 have zero publications; 5 have 1–2. Completely normal for this stage.
-- **"Enough" for a PhD:** 13/16 said 3–5 papers — a reasonable target.
-- **Biggest pain points:** The word cloud highlighted **"idea," "introduction," "deadlines," and "revisions"** as the hardest parts.
-- **Support you want most:** **Feedback, collaboration, and good mentoring** dominated.
-- **Reading habits:** 14/21 read papers weekly; 9/21 read the whole paper but quickly; only 1 annotates deeply.
+- George D. Gopen and Judith A. Swan, "The Science of Scientific Writing," *American Scientist* 78, no. 6 (November–December 1990): 550–558. [JSTOR 29774235](https://www.jstor.org/stable/29774235); [open PDF copy](https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf). The argument is that readers of English prose attach meaning to structural positions—what sits in the topic position, what sits in the stress position, how far a subject is separated from its verb—so a sentence can be grammatically correct and still mislead a reader.
+- John M. Swales, *Genre Analysis: English in Academic and Research Settings* (Cambridge: Cambridge University Press, 1990). Source of the **CARS** (Create A Research Space) description of research-article introductions: **Move 1** establish a territory, **Move 2** establish a niche, **Move 3** occupy the niche.
 
-#### 📖 Pre-Class Reading
+> **Interpretive limit:** CARS is a *description* of moves that Swales observed in published introductions, not a rule a journal enforces and not a guarantee that a paper containing all three moves is good. Gopen and Swan's claims are about reader expectation in English scientific prose; they are argued from worked examples, not from a controlled experiment, and they do not transfer automatically to every language, genre, or section. Use both as diagnostic lenses students can apply and check, not as scoring rubrics.
 
-- 📄 [**"Whitesides' Group: How to Write a Paper"**](https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper)  
-  > The foundational guide that frames a paper as a *communication tool*, not just a documentation exercise.
+#### 80-Minute Plan
 
-#### 🎯 In-Class Activities (~75 min)
+| Time | Activity |
+|:---:|---|
+| 7 min | Frame the distinction: what the writer knows, what the text states, and what a reader can reconstruct from the text alone |
+| 18 min | Tiered reading: after common instructions, teams receive the same paper at staggered start times so all stop together after an assigned 2, 5, 10, or 15 minutes; nobody answers during the reading window |
+| 10 min | In the same post-reading window, all teams answer the same five questions without reopening the text and record which questions their assigned depth could and could not answer; the class tabulates the result |
+| 14 min | CARS move audit: mark Moves 1–3 in the assigned introduction, then mark one sentence whose topic position or stress position works against the reader |
+| 11 min | Select the portfolio topic, name the target audience and a plausible venue, and write the one-sentence claim the abstract must support |
+| 8 min | Scope-and-permission check: confirm sharing permission, or switch to the public/instructor-created alternative; record the contribution plan |
+| 5 min | Exit ticket: one reading depth that was sufficient for a stated purpose, and one that was not |
+| 7 min | Transition and contingency reserve, distributed across the activities above |
+| **80 min** | **Total** |
 
-**Mentimeter warm-up (~10 min):** Share your publication experience and biggest writing frustration.
+#### What the Reading Exercise Measures
 
-**Discussion: Why is the introduction so painful? (~10 min):** Connect to the gap between *knowing your work* and *communicating it to others*.
+The tiered reading task produces a small classroom observation, not a finding about reading in general. The class records which of the five questions each depth answered correctly, with the number of teams at each depth as the denominator. That table is the evidence. It supports statements such as "in this class, on this paper, the abstract-only group could not answer the question about controls." It does not support claims about optimal reading strategy, about other papers, or about other readers.
 
-**CARS exercise (~20 min):** Read a poorly structured introduction. In teams, identify what's missing using the CARS model (Create A Research Space).
+#### Key Takeaways
 
-**Speed-reading challenge (~30 min):** Each team reads the *same* paper at a different depth level — title & abstract only (2 min), intro & conclusion (5 min), skim full paper (10 min), read deeply (15 min), annotate key sections (15 min). All teams then answer the same 5 questions. Compare: How much did reading depth actually matter for each question? When is skimming enough?
-
-> **Why this activity?** Your survey showed 9/21 read quickly and only 1 annotates. This exercise builds strategic reading skills — knowing *when* to skim and when to go deep.
-
-#### 📋 Writing Portfolio: Getting Started
-
-Each team selects a research topic from their members' work and writes a rough 1-paragraph description of the research question. No formatting rules yet — this is your starting point.
-
-#### 💡 Key Takeaways
-
-- Scientific writing is a structured, learnable skill — not an innate talent
-- Your pain points (introductions, ideas, revisions) are universal — every scientist struggles with these
-- Strategic reading is a skill: match your reading depth to your purpose
-
----
+- A reader reconstructs meaning from structural position, so a true sentence can still produce a false impression.
+- Introductions do recognizable work; naming that work makes a stuck introduction a solvable problem rather than a mood.
+- Matching reading depth to purpose is a decision, and the cost of the wrong depth is recoverable and measurable.
+- Choosing an audience and a venue *before* drafting determines what counts as background, what counts as a result, and what may not be disclosed at all.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-2">Lecture 2: Writing Principles in Action</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-2">Lecture 2: Writing Principles and Their Boundaries</h3></summary>
 
-**Goal:** Master the core writing workflow — conclusion first, outline-driven, figure-led — and confront which principles feel counterintuitive.
+**Goal:** Apply a conclusion-first, outline-driven drafting workflow, and learn to distinguish a well-argued practice from a field-wide rule by testing a specific stylistic claim against real published papers.
 
-#### ▶️ Interactive Presentation (~25 min)
+#### Source Packet
 
-- 📊 [**Writing Scientific Papers: Key Principles from Whitesides, Weitz & Suo Labs**](../presentations/Writing_Advice_Summary.html)
+- George M. Whitesides, ["Whitesides' Group: Writing a Paper,"](https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper) *Advanced Materials* 16, no. 15 (2004): 1375–1377, doi:[10.1002/adma.200400767](https://doi.org/10.1002/adma.200400767). The central proposal is that the outline is the primary instrument of the work: it is written early, it is written before the data are complete, and it is a living document the group revises together.
+- [**Writing Principles and Their Boundaries**]({{ '/presentations/Writing_Advice_Summary.html' | relative_url }}) — course deck quoting both guides verbatim, naming the source of every principle, preserving each source's own hedges, and reporting the places where the two disagree rather than resolving them.
+- Hyunwoo Yuk, [*TechRabbit's Note*](https://www.hyunwooyuk.com/table-of-contents.html) — a personally maintained practitioner guide covering literature review, figure preparation, submission, and rebuttal. Useful and concrete; it is one researcher's advice, not a journal requirement or a peer-reviewed source, and should be cited that way.
 
-#### 📊 What Your Survey Told Us
+> **Attribution discipline:** Advice circulates faster than its evidence. Before repeating a rule in your own writing group, name who states it, in what source, and for what kind of paper. Guidance associated with a specific research group describes that group's practice; it does not establish a norm across fields, and a rule that serves a physical-chemistry letter may not serve a methods paper or a review.
 
-Your agreement ratings on writing principles revealed interesting tensions:
+#### The Rule Test
 
-| Principle | Agreement (1–5) | Your Take |
-|-----------|:---:|-----------|
-| Figures should be chosen before writing text | **4.4** | Strong consensus — visual storytelling resonates |
-| Abstract should be written last | **4.1** | Most agree, but some resist |
-| Start writing when you have a hypothesis | **3.4** | Split opinions — connects to hypothesis debate in Lecture 7 |
-| Never use parentheses in main text | **2.7** | Controversial! Field-dependent |
-| Write conclusion first | **2.6** | Most disagreed — yet this is the experts' top recommendation |
+The instructor supplies three short, preselected excerpts and an operational definition of one **observable** feature—for example, parentheses per sentence, passive constructions under a stated coding rule, or whether a discussion opens with the principal finding. Each team records:
 
-The hardest principle to implement? **"Write conclusion first"** (11/19), followed by **"Start writing immediately"** (6/19). Both challenge the instinct to wait for "complete" data.
+1. the exact rule as stated, its source, and the unit being counted;
+2. a count of conforming and non-conforming instances in each excerpt, with the denominator;
+3. whether non-conformance appeared to damage clarity in context; and
+4. a revised statement of the rule with its scope conditions.
 
-And yet — when asked "In your field, when do people typically start writing papers?", 10/16 said **"it varies widely"**, only 4 said "as soon as initial results suggest a story," and 2 said "after all experiments are finished." The Whitesides principle — *start writing immediately* — contradicts what most of you observe in practice. That tension is exactly what makes this lecture productive.
+The output is a one-sentence rule with a stated boundary, not a verdict that the rule is right or wrong. Three excerpts cannot establish a field-wide convention. Process claims such as whether an abstract was drafted first or last require version history or author evidence and cannot be inferred from a finished paper.
 
-#### 📖 Pre-Class Reading
+#### 80-Minute Plan
 
-- 🎥 [**"How to Write a Paper" – Prof. Whitesides Video Tutorial**](https://www.youtube.com/watch?v=q3mrRH2aS98)
-- 📄 [**TechRabbits: Complete Guide to Scientific Publication**](https://www.hyunwooyuk.com/table-of-contents.html)
-  > Covers the entire publication journey from literature reviews through post-acceptance, including figure preparation and the art of rebuttal.
+| Time | Activity |
+|:---:|---|
+| 9 min | Principles deck: the outline as instrument, conclusion-first drafting, and figures as the argument's spine |
+| 14 min | Rule test against three preselected excerpts, using one operationally defined observable feature |
+| 14 min | Write the conclusion first: one or two sentences naming the central claim and what supports it |
+| 14 min | Rebuild a supplied weak paragraph using topic and stress positions from Lecture 1 |
+| 11 min | Peer audit: does the abstract state a claim, or only a topic? Is every number attached to a comparison? |
+| 8 min | Assemble Draft 1 and record the contribution note |
+| 5 min | Exit ticket: one rule with its scope condition, and one thing the team's draft still cannot support |
+| 5 min | Transition and contingency reserve, distributed across the activities above |
+| **80 min** | **Total** |
 
-#### 🎯 In-Class Activities (~50 min)
+**Output:** Writing Portfolio Draft 1, due October 19 on Blackboard. Draft 1 must contain an explicit central claim, at least one figure concept described in words, and no quantitative claim the team cannot source.
 
-**Mentimeter (~10 min):** Rate your agreement with the 5 controversial principles. Reveal results and discuss where disagreement is highest.
+#### Key Takeaways
 
-**Mini-debate (~15 min):** "Should you write your conclusion first, or does that bias your analysis?" Teams argue both sides.
-
-**"Reviewer Simulator" (~25 min):** Each team receives a badly written paragraph. Identify problems using the principles, then rewrite in 10 minutes. Compare versions.
-
-#### 📋 Writing Portfolio: Draft 1
-
-Using the principles from today, each team writes a first-draft abstract. Requirements: must include a conclusion statement (1–2 sentences) written *first*, and at least one figure concept described in words. Bring to Lecture 3 for revision practice.
-
-#### 💡 Key Takeaways
-
-- Start writing *before* your experiments are done — writing is thinking, not just reporting
-- Conclusion-first is counterintuitive but effective: it forces clarity about what your paper is actually about
-- Figures drive the story; text explains the figures — not the other way around
-- Rules like "no parentheses" are guidelines, not laws — but understanding *why* they exist helps
-
----
+- Writing early is a method for finding out what you do not yet know, not a report on finished work.
+- The conclusion is the hardest sentence and therefore the most useful one to write first.
+- A small, defined corpus can show whether an observable pattern appears there; it cannot establish a field-wide norm or reveal an unobserved drafting process.
+- Advice inherits the authority of its source and no more.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: The Art of Revision — An Abstract Case Study</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-3">Lecture 3: Revision as Argument Restructuring</h3></summary>
 
-**Goal:** See how a real paper's abstract evolved through 4 revisions — from initial submission to *Nature Materials* publication — and understand *why* each change was made.
+**Goal:** Map the argument structure of a public published abstract, distinguish structural revision from surface editing through a clearly constructed comparison, audit every number for its referent, and apply the same lenses to the team's own draft.
 
-#### 📋 Case Study: "Tough Bonding of Hydrogels to Diverse Nonporous Surfaces"
+#### Public Source and Constructed Comparison
 
-This abstract went through four major revisions before publication. By tracking what changed at each stage, you'll see the writing principles from Lecture 2 in action.
+The source text is the final published abstract of:
 
-**Key evolution across 4 versions:**
+> Hyunwoo Yuk, **Teng Zhang**, Shaoting Lin, German Alberto Parada, and Xuanhe Zhao, "Tough bonding of hydrogels to diverse non-porous surfaces," *Nature Materials* 15, no. 2 (2016): 190–196, doi:[10.1038/nmat4463](https://doi.org/10.1038/nmat4463). Published online November 9, 2015. Accepted manuscript available via [PubMed Central, PMC4762474](https://pmc.ncbi.nlm.nih.gov/articles/PMC4762474/).
 
-| Version | Title Change | Major Abstract Revisions |
-|---------|-------------|------------------------|
-| Initial | "Multifunctional bonding..." (descriptive) | Focused on strategy + method; mechanism described abstractly |
-| 1st Revision | Same title | Added quantitative benchmark (∼800 J/m²); simplified mechanism description |
-| 2nd Revision | Same title | Added "silanation" as specific method; expanded mechanistic explanation |
-| 3rd Revision | **"Tough Bonding of Hydrogels..."** (concise, impactful) | Restructured entirely — cleaner narrative flow, stronger opening hook |
+The course comparison text is **constructed for teaching from facts in the public accepted manuscript**. It deliberately presents the same public claims in a weaker order so students can diagnose structure without treating an unpublished draft as evidence. It is not an earlier manuscript version and must not be described or cited as one.
 
-**What the revisions teach:**
-- **Title:** Evolved from a description of features to a statement of the achievement
-- **Opening hook:** Shifted from "whereas..." (defensive) to an active comparison with nature
-- **Mechanism clarity:** Each revision added more specific detail (from vague "strategy" → "covalent anchoring" → "silanation")
-- **Narrative arc:** Final version follows a clear story: nature's benchmark → our approach → how it works → what it achieves → applications
+- [**Revision as Argument Restructuring**]({{ '/presentations/abstract_revision_case.html' | relative_url }}) — course deck with the public abstract map, the clearly labelled constructed comparison, and the number audit.
 
-#### ▶️ Interactive Presentation
+#### The Argument Map
 
-- 📊 **The Art of Revision: An Abstract Case Study** — Interactive side-by-side comparison of all 4 versions with diff highlighting
+| Move in the published abstract | Work it does for the reader |
+|---|---|
+| Biological benchmark and unmet synthetic challenge | Establishes the comparison and the problem |
+| General bonding strategy | States the approach before procedural detail |
+| Interfacial mechanism, including silanation | Explains why the approach can work |
+| Greater-than-1,000 J m⁻² result | Reports the achieved performance against the benchmark |
+| Materials and applications | States the demonstrated scope without turning it into a universal claim |
 
-#### 📖 Materials
+> **Evidence boundary:** The public abstract establishes what the published paper says. The constructed comparison supports a classroom revision exercise only. Neither source reveals the paper's actual drafting history, the order in which its authors wrote sentences, or which wording influenced editorial decisions. Lecture 4 uses a different paper whose referee record is public when the course needs evidence about review.
 
-- 📄 Abstract revision history (4 versions) — provided in class
-- 📄 [**"The Science of Scientific Writing" – American Scientist**](https://www.americanscientist.org/article/the-science-of-scientific-writing)
-  > Evidence-based principles for why certain writing structures work better for scientific communication.
+#### The Number Audit
 
-#### 🎯 In-Class Activities (~50 min)
+The published abstract contains two toughness values that are easy to confuse, and students must separate them:
 
-**Side-by-side analysis (~20 min):** Teams compare Version 1 and Version 4. List every change and categorize: *clarity*, *specificity*, *narrative structure*, or *scope*.
+- **~800 J m⁻²** is the *biological benchmark*—the interfacial toughness of tendon and cartilage bonded to bone, cited as the standard that synthetic interfaces had not reached.
+- **over 1,000 J m⁻²** is the *result reported by this paper* for hydrogel bonded to non-porous solids.
 
-**The "2-2-1" test (~15 min):** Does the final abstract follow Weitz Lab's formula (2 intro sentences, 2 result sentences, 1 significance sentence)? Where does it deviate and why?
+A number in an abstract must carry its referent, its comparison, and its direction. Reporting "800 J m⁻²" as the paper's achievement inverts the argument: the benchmark becomes the finding, and the finding disappears. Each team audits every number in its own Draft 1 the same way.
 
-**Apply to your own work (~15 min):** Each team applies the same revision lens to their Writing Portfolio abstract from Lecture 2. What needs to change?
+#### 80-Minute Plan
 
-#### 📋 Writing Portfolio: Draft 2
+| Time | Activity |
+|:---:|---|
+| 8 min | Provenance briefing: distinguish the public abstract, the constructed comparison, and claims neither can support |
+| 12 min | Map the published abstract's problem → strategy → mechanism → result → scope sequence |
+| 12 min | Compare the constructed weak version with the published sequence; classify differences as *specificity*, *structure*, *scope*, or *surface* |
+| 10 min | Number audit on the published abstract: for each value, name the referent, the comparison, and who achieved it |
+| 17 min | Apply both lenses to the team's Draft 1: restructure the argument, then audit every number |
+| 8 min | Cross-team check: can another team state your central claim and name your comparison after one read? |
+| 5 min | Exit ticket: one structural change made and the reason it is not merely cosmetic |
+| 8 min | Transition and contingency reserve, distributed across the activities above |
+| **80 min** | **Total** |
 
-Revise your team abstract based on the revision principles from today's case study. Focus on: title (descriptive → impactful), opening hook, mechanism clarity, and narrative arc. Bring to Lecture 5 for peer review.
+**Output:** Writing Portfolio Draft 2, due October 21 on Blackboard, with a two-sentence note naming the one structural change the team considers most consequential.
 
-#### 💡 Key Takeaways
+#### Key Takeaways
 
-- Revision is not cosmetic — it's restructuring the argument
-- Specificity builds across drafts: don't try to be precise in Draft 1
-- The title is often the *last* thing to finalize, not the first
-- Numbers earn their place: move quantitative claims to where they serve the narrative
-
----
-
-</details>
-
-<details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Peer Review & Transparent Publishing</h3></summary>
-
-**Goal:** Understand how peer review works, what transparent review changes, and form evidence-based opinions about modern publishing models.
-
-#### 📊 What Your Survey Told Us
-
-Your familiarity with these concepts varied significantly:
-
-- **eLife:** 9/17 had never heard of it; only 2 knew about the "Reviewed Preprint" model
-- **Open Access:** 12/18 understand the basic idea, but none could explain different models (Gold, Green, etc.)
-- **Transparent peer review:** 3 never heard of it, 7 heard the term, 6 understand the idea, 0 have direct experience
-- **Most positive eLife feature:** Public reviews (9/17)
-- **Most negative eLife feature:** Eliminating accept/reject decisions (12/18)
-- **Top Open Access benefit:** Faster access for everyone (9/17)
-- **Top Open Access concern:** Rise of predatory journals (12/20)
-- **Open Access associations:** "researcher friendly," "free," "visibility," "equity," "shared information"
-- **Transparent review concerns:** "criticism," "hesitance," "quality," "trust"
-- **Transparent review benefits:** "honesty," "unbiased," "trust," "accountability"
-
-#### 📖 Pre-Class Reading
-
-- 📄 [**eLife: Transparent Review Process**](https://elifesciences.org/inside-elife/3d8c981b/transparent-peer-review-at-elife)
-  > How eLife publishes review reports alongside papers, with examples of published review histories.
-- 📄 [**COPE: Ethical Guidelines for Peer Reviewers**](https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers.pdf)
-  > Essential guidelines for maintaining integrity throughout the review process.
-
-#### 🎯 In-Class Activities (~75 min)
-
-**Mentimeter (~15 min):** Gauge familiarity with eLife, Open Access, and transparent review. Reveal results.
-
-**Case study analysis (~35 min):** Read the transparent peer review of [**"Autonomous self-burying seed carriers for aerial seeding"**](https://elifesciences.org/articles/87398#public-review) (8/12 read it; 4 did not — team up for cross-teaching). Each team answers: (1) What was the most challenging reviewer comment? (2) How did authors respond? (3) Was transparency helpful or harmful here?
-
-**Structured discussion: Open Access concerns (~20 min):** Your top concern was predatory journals (12/20). How do you distinguish legitimate open-access journals from predatory ones? What role do APCs play? Is the current system equitable?
-
-**Closing poll (~5 min):** "After seeing this example, are you more or less supportive of transparent peer review?"
-
-> 🔗 **Connection to Module 4 (Ethics):** Transparent peer review raises fundamental ethical questions: Does reviewer anonymity protect honest critique, or enable abuse of power? What happens when early-career researchers review senior colleagues' work publicly? We'll return to these tensions in the Ethics module when we discuss systemic pressures in science (Alberts et al.).
-
-#### 💡 Key Takeaways
-
-- Peer review is imperfect but essential — understanding its structure helps you navigate it
-- Transparent review increases accountability but raises real concerns about power dynamics
-- Open access benefits readers but creates new problems (APCs, predatory journals)
-- Your concerns about quality and hesitance in transparent review are shared by the field — this is an active debate
-
----
+- Revision that only improves sentences leaves the argument where it was.
+- A constructed comparison is useful only when its constructed status and evidentiary limits are explicit.
+- A published abstract can be analyzed as a finished argument without inventing a history of how it was written.
+- Every number needs a referent and a comparison, or a reader will attach it to the wrong quantity.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: Responding to Reviewers</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Peer Review Systems and What They Publish</h3></summary>
 
-**Goal:** Develop professional strategies for responding to reviewer comments — including how to disagree respectfully with evidence.
+**Goal:** Read an actual set of referee reports, compare what two different journal models make public, and write an independent criterion-based review of another team's draft.
 
-#### 📊 What Your Survey Told Us
+#### Primary Review Records
 
-From your analysis of the seed carrier paper's transparent review:
+All three records below are public and can be read in full before class.
 
-- **Most challenging comment type:** Requests for additional experiments (8/14), followed by statistical/reproducibility concerns (3/14)
-- **Most effective response strategy:** Respectful, evidence-based rebuttals when disagreeing (11/12) — near-unanimous
-- **Authors' attitude toward reviewers:** "Respectful" and "professional" dominated, with "specific" and "clarifying" also prominent
-- **Most surprising aspect:** How much new work the authors had to do (8/15)
+**1. A bioinspired paper with a detailed published referee file.**
+Danli Luo, Aditi Maheshwari, Andreea Danielescu, Jiaji Li, Yue Yang, Ye Tao, Lingyun Sun, Dinesh K. Patel, Guanyun Wang, Shu Yang, **Teng Zhang**, and Lining Yao, ["Autonomous self-burying seed carriers for aerial seeding,"](https://www.nature.com/articles/s41586-022-05656-3) *Nature* 614 (February 16, 2023): 463–470, doi:[10.1038/s41586-022-05656-3](https://doi.org/10.1038/s41586-022-05656-3).
+Springer Nature publishes the [**Peer Review File**](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-05656-3/MediaObjects/41586_2022_5656_MOESM12_ESM.pdf) (PDF, 96 pages): reports from three referees across three rounds and the authors' point-by-point responses. The paper's acknowledgement thanks Barbara Mazzolai, Naomi Nakayama, and another anonymous reviewer; the public file does not map names to report numbers. The instructor is a co-author and can distinguish personal recollection from what the published record establishes. See the [case brief and source-linked extracts]({{ '/case-studies/case-seed-carrier-review/' | relative_url }}) for the assigned passages.
 
-**Peer Review Reflection (scale ratings):**
+**2. eLife under its earlier model.**
+Victor Kang, Robin T. White, Simon Chen, and Walter Federle, ["Extreme suction attachment performance from specialised insects living in mountain streams (Diptera: Blephariceridae),"](https://elifesciences.org/articles/63250v1/peer-reviews) *eLife* 10 (2021): e63250, doi:[10.7554/eLife.63250](https://doi.org/10.7554/eLife.63250). Publishes a consolidated **decision letter** with essential revisions and the **author response**. Reviewers anonymous; reviewing and senior editors named.
 
-| Question | Average |
-|----------|:---:|
-| How well did authors handle Referee #2's challenge about necessity? | **4.5** / 5 |
-| How much did the manuscript improve through review? | **4.2** / 5 |
-| How confident do you feel handling major reviewer comments? | **3.6** / 5 |
+**3. eLife under its current model.**
+Natalia Jagielska, Thomas G. Kaye, Michael B. Habib, Tatsuya Hirasawa, and Michael Pittman, ["New soft tissue data of pterosaur tail vane…"](https://elifesciences.org/reviewed-preprints/100673v2) (Reviewed Preprint v2, November 29, 2024; doi:[10.7554/eLife.100673.2](https://doi.org/10.7554/eLife.100673.2)). Publishes an **eLife assessment** using controlled vocabulary for significance and for strength of evidence, alongside public reviews. Its assessment calls the contribution "**valuable**" and the methods "**compelling**"—two terms with published definitions rather than free prose. A later [Version of Record](https://doi.org/10.7554/eLife.100673.3) was published December 18, 2024; the version number is pinned here because the assessment exercise uses v2.
 
-That 3.6 confidence score is exactly why we're spending a full lecture on this.
+eLife publishes separate [term sets and definitions](https://elifesciences.org/about/elife-assessments) for significance and strength of evidence. For the calibration exercise, the instructor supplies the terms in randomized order and withholds the definitions and intended order until every student has recorded an individual ordering. This section and the linked deck are revealed only after that first response.
 
-#### 📖 Pre-Class Reading
+> **What an isolated-phrase experiment found.** Thomas E. Hardwicke, Sarah R. Schiavone, Beth Clarke, and Simine Vazire, ["An empirical appraisal of eLife's assessment vocabulary,"](https://doi.org/10.1371/journal.pbio.3002645) *PLOS Biology* 22, no. 8 (2024): e3002645, asked 301 individual participants holding doctoral or graduate degrees to rate short hypothetical statements on 0–100 scales. The implied ranking matched eLife's intended order for **20% [15–24%]** on significance and **15% [11–20%]** on strength of evidence. A more explicitly ordinal alternative reached **62% [57–68%]** and **67% [62–72%]** (odds ratios 8.17 and 11.4, both *p* < .001).
+>
+> This tests how individuals interpreted isolated phrases under the study's conditions. It does not test team deliberation, actual editorial assessments embedded in explanatory prose, reviewer quality, or the overall value of eLife's publishing model. The intended ranking was the most common, and typical deviations were small. The assessment is also **not a rubric**: eLife instructs editors and reviewers to include terms "when appropriate," and a single assessment may mix levels across a paper's parts.
 
-- 📄 [**TechRabbits: The Art of Rebuttal**](https://www.hyunwooyuk.com/table-of-contents.html)
-- 📄 [**How to Respond to Reviewer Comments – Nature Guide**](https://www.nature.com/scitable/blog/mental_elixir/how_to_respond_to_peer_reviewers/)
-  > Practical guidance on crafting professional, effective responses to reviewer comments.
+Students first rank the bare terms individually without seeing eLife's definitions, then compare their ranking with the intended order and the study. Applying the terms to an abstract is a separate classroom task and is not compared numerically with Hardwicke's individual phrase-ranking result.
 
-#### 🎯 In-Class Activities (~75 min)
+- [**Peer Review Systems and What They Publish**]({{ '/presentations/peer_review_models.html' | relative_url }}) — course deck with quoted referee extracts and the assessment-vocabulary calibration exercise.
 
-**Anatomy of a rebuttal (~20 min):** Dissect 3 real reviewer comments and author responses from the seed carrier paper. Categorize each response as: *agreed and changed*, *agreed partially*, or *respectfully disagreed with evidence*.
+#### Comparing What Each Model Makes Public
 
-**Response drafting exercise (~25 min):** Each team receives a challenging reviewer comment (drawn from real reviews). Draft a response in 15 minutes. Teams then peer-review each other's responses.
+| | *Nature* peer review file | eLife, earlier model | eLife, current model |
+|---|---|---|---|
+| Referee reports published | This article's file includes reports and rebuttals across three rounds | Consolidated into a decision letter | Yes, as public reviews |
+| Reviewer identities | The article acknowledges two by name and another as anonymous; report numbers are not mapped to names | Anonymous; editors named | Anonymous unless the reviewer signs |
+| Author response published | Yes, point by point | Yes | Yes, when provided |
+| Accept/reject decision | Yes, and it precedes publication | Yes | Editorial invitation gate, but no post-review accept/reject decision; assessment plus versions |
+| Controlled assessment vocabulary | No | No | Yes, for significance and strength of evidence |
 
-**The "tone test" (~15 min):** Compare two responses to the same comment — one defensive, one professional. Discuss what makes the difference.
+> **Read the source, not the summary.** Journal models change. eLife's model changed substantially after 2022, and Springer Nature has extended transparent peer review across its titles. Confirm each journal's current practice on its own policy page before teaching or citing this table.
 
-**Mentimeter closing (~5 min):** "What's your confidence level for handling reviewer comments now?" Compare with the 3.6 baseline.
+#### When a Review Model Meets the Indexing System
 
-#### 📋 Writing Portfolio: Peer Review
+Publishing models are not judged only on their merits; they interact with the infrastructure that counts them. eLife's decision to stop making accept/reject decisions had a measurable institutional consequence:
 
-Each team submits their Draft 2 abstract. Another team acts as "reviewers" — writing 3 specific comments (1 major, 2 minor) using the constructive review principles from today. The authoring team then drafts a formal response to each comment. Both the review and the response are graded.
+- October 2024: Web of Science [paused indexing](https://elifesciences.org/inside-elife/16afe6ec/update-on-elife-s-indexing-status-at-web-of-science) of eLife Versions of Record, on the stated ground that its policy excludes research where publication has been decoupled from validation by peer review.
+- December 2024: a [partial-feed resolution](https://elifesciences.org/inside-elife/ae620829/changes-to-elife-s-indexing-status-in-web-of-science-and-scopus) — papers assessed "solid" or higher remain indexed; "incomplete" and "inadequate" Versions of Record are not eligible. eLife became a partially indexed journal and therefore **not eligible for a Journal Impact Factor**.
+- 2025: eLife lost its Journal Impact Factor.
 
-#### 💡 Key Takeaways
+This is a concrete case for the class: a journal changed its post-review publication decision, and an indexing policy that required a validation decision no longer treated every Version of Record as eligible. Students should be able to distinguish eLife's design choice from Clarivate's eligibility rule and ask what this interaction implies for reforming assessment and publishing at the same time.
 
-- "Respectful, evidence-based rebuttal" is the single most effective response strategy — your survey confirmed it unanimously
-- Responding to reviewers is a negotiation, not a capitulation — disagreement with evidence is expected and respected
-- The tone of your response matters as much as the content — defensive language triggers defensive reviewers
-- The review process genuinely improves manuscripts (your 4.2/5 rating confirms this)
+#### 80-Minute Plan
 
----
+| Time | Activity |
+|:---:|---|
+| 7 min | Briefing: what each review model chooses to publish and what no model guarantees |
+| 12 min | Read an assigned extract of the *Nature* referee reports; classify each comment as *evidence requested*, *analysis questioned*, *presentation*, or *scope* |
+| 7 min | Locate the referee comment that proposed the paper's final title; discuss what it means that framing can change through review |
+| 9 min | Before seeing definitions, rank the bare eLife terms individually; then reveal the intended order and read the bounded Hardwicke result |
+| 9 min | Apply the defined terms to a supplied abstract and defend each choice from its text; state why this is not the Hardwicke task |
+| 10 min | [Module 3 Microcase 1: "The Review That Was Never Closed"]({{ '/scenarios/module-3-microcases/' | relative_url }})—8-minute case plus 2-minute debrief |
+| 13 min | Write an independent review of another team's Draft 2: one strength, one material weakness, one specific request, each tied to text |
+| 5 min | Exit ticket: one comment you wrote that a reader could act on without asking you a question |
+| 8 min | Transition and contingency reserve, distributed across the activities above |
+| **80 min** | **Total** |
 
-</details>
+#### Independent Review Template
 
-<details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: AI Tools in Scientific Writing</h3></summary>
+1. Two-sentence neutral summary of the work as the draft presents it.
+2. One strength, quoting the text that supports it.
+3. One material weakness or uncertainty, quoting the text and naming what is missing.
+4. One specific, feasible request, stating what evidence would resolve it.
+5. One statement explicitly labeled as inference rather than as something the draft establishes.
 
-**Goal:** Critically evaluate what AI tools can and cannot do in scientific writing — using a concrete case study that exposes both capabilities and dangerous failures.
+Reviews address the draft, not the author. Do not speculate about the team's ability, effort, or intent.
 
-#### 📋 Case Study: Two AI Models Evaluate the Same Abstract
+#### Key Takeaways
 
-Remember the hydrogel abstract we traced through 4 revisions in Lecture 3? We gave the final published version to ChatGPT (GPT-5) and DeepSeek (V3.1) and asked: *"Is this a good abstract?"* This creates a direct comparison — you already know what makes this abstract strong from human revision. Now see how AI evaluates it.
-
-#### ▶️ Interactive Presentation (~20 min)
-
-- 📊 **AI Tools in Scientific Writing: Capabilities and Failures** — Side-by-side AI responses with error annotations
-
-**What both AI models got right:**
-- Identified the IMRaD structure correctly
-- Recognized the bio-inspired framing as effective
-- Praised the quantitative benchmarks
-- Offered reasonable stylistic suggestions
-
-**Where things went wrong — hallucinations and errors:**
-
-| | ChatGPT (GPT-5) | DeepSeek (V3.1) |
-|--|-----------------|-----------------|
-| **Authors** | ✓ Correct (after follow-up) | ✗ Wrong — listed authors from a different paper |
-| **Lab** | ✓ Correct — Zhao group at MIT | ✗ Wrong — attributed to Suo group at Harvard |
-| **Title** | ✓ Correct | ✗ Wrong — gave a completely different title, then "corrected" to another wrong title |
-| **Year** | ✓ Correct | ✗ Wrong — initially wrong, self-corrected to another wrong answer |
-
-DeepSeek's response is particularly instructive: it *confidently* provided incorrect details, then when asked to fact-check itself, produced an apologetic correction that was *also wrong* — attributing the paper to a completely different research group.
-
-#### 🎯 In-Class Activities (~55 min)
-
-**Reveal exercise (~15 min):** Show the AI responses side by side. Teams identify what's correct vs. hallucinated *before* seeing the answer key.
-
-**Test it yourself (~20 min):** Each team submits an abstract from their field to an AI tool. Evaluate the feedback: What's useful? What's wrong? What's missing?
-
-**Ethics discussion (~15 min):** If AI can't reliably identify authors of a paper it's analyzing, what does that mean for using AI to write literature reviews? Where do you draw the line?
-
-**Poll Everywhere (~5 min):** "After this exercise, how much do you trust AI feedback on scientific writing?" (Scale 1–5)
-
-> 🔗 **Connection to Module 4 (Ethics):** AI hallucinations in citation are a research integrity issue. If a student uses AI-generated references without verification, is that fabrication? Negligence? We'll explore this further in the Ethics module alongside discussions of responsible AI use in research (Resnik's principles of honesty and due diligence).
-
-#### 📋 Writing Portfolio: AI Stress Test
-
-Each team submits their revised abstract to an AI tool and evaluates the feedback. What did AI get right? What did it miss that your human peer reviewers caught? Write a 1-paragraph reflection comparing AI vs. human feedback quality.
-
-#### 💡 Key Takeaways
-
-- Use AI for *structural* feedback (Is my argument clear? Am I missing a section?). Never trust it for *factual attribution*.
-- Confident tone in AI output is not evidence of accuracy — always verify
-- The same abstract that took 4 human revisions to perfect got reasonable structural feedback from AI in seconds — but the AI couldn't tell you who wrote it
-- AI is a drafting tool, not a scientific authority
-
----
+- Referee reports are ordinary technical writing, and reading real ones removes most of the mystery.
+- Different journals publish different parts of the same process; "peer reviewed" alone does not say which.
+- A controlled vocabulary makes an intended ordering explicit, but whether readers interpret its terms as intended is an empirical question with task-specific evidence.
+- A review comment is useful in proportion to the specific action it makes possible.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: From Hypothesis to Publication</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-5">Lecture 5: Responding to Review</h3></summary>
 
-**Goal:** Connect writing skills to research design by examining how different research approaches shape what and how you write — bridging to Module 3 (Proposal Writing).
+**Goal:** Analyze a published point-by-point rebuttal, then write a response that agrees, partially agrees, or disagrees with evidence—without conceding a point the record does not require conceding.
 
-#### 📊 What Your Survey Told Us
+#### Source Packet
 
-- **Research approach:** Primarily hypothesis-driven (9/18), followed by method/technology development (4/18) and mixed (3/18). Only 2 primarily exploratory.
-- **Hypothesis importance:** Rated 4.7/5 for quality research — near-unanimous. But when asked if *all* research needs a hypothesis, Statements 2 and 3 scored only 1.7 and 1.8 — strong disagreement.
-- **What else drives research:** "Exploration," "observation," and "test" dominated the word cloud.
-- **Nobel Prize estimate:** You guessed 73.8% of Nobel-winning research is hypothesis-driven. The actual answer (which varies by field) is a productive surprise.
-- **Which field has more accidental discoveries?** Split between Chemistry (8) and Physiology/Medicine (8). The data shows Physiology/Medicine leads at ∼55% serendipitous.
-- **Which examples truly need a hypothesis?** Only Discovery Science got a vote (1). Method Development, Exploratory Research, and Applied Problem-Solving all scored 0 — you already recognize these don't require traditional hypotheses.
+- The Lecture 4 *Nature* Peer Review File (the worked example below).
+- William Stafford Noble, ["Ten simple rules for writing a response to reviewers,"](https://doi.org/10.1371/journal.pcbi.1005730) *PLOS Computational Biology* 13, no. 10 (2017): e1005730. Peer-reviewed, open access, and short. Read it as a checklist to test against the real rebuttal, not as a rule set to memorize.
 
-**Where do your research ideas come from?** 16/18 said their idea came from **their academic advisor or PI**. Only 2 said "myself, based on my own curiosity." Zero came from brainstorming, class projects, literature gaps, or existing projects. That's completely normal at this stage — but it highlights a skill gap that Module 3 (Proposal Writing) directly addresses. Writing a proposal requires you to generate and defend *your own* research question.
+#### The Published Rebuttal
 
-#### ▶️ Interactive Presentations (~25 min)
+The Lecture 4 *Nature* Peer Review File contains the authors' published responses across three rounds. Its structure is a usable template, and students can verify every element:
 
-- 📊 [**What is a Hypothesis?**](../presentations/hypothesis_definition.html)
-- 📊 [**Nobel Prize Analysis: How Scientific Breakthroughs Really Happen**](../presentations/nobel-analysis.html)
+- the referee's comment is **quoted verbatim** and numbered;
+- **"Our response"** states agreement, partial agreement, or reasoned disagreement;
+- **"Our modification to the manuscript"** gives the page and line numbers and quotes the new text; and
+- where new work was required, the response reports the new experiment or simulation rather than arguing that the request was unnecessary.
 
-#### 📖 Pre-Class Reading
+Worked examples visible in that file include a request for replicate counts and mean ± standard deviation reporting; a challenge to whether simulations were dynamical and how they should be parameterized; a request that an empirical correction factor be labeled as empirical; and a request to clarify how model parameters were calibrated. The hardest comment in the file is a **necessity challenge**—one referee argued the work showed no significant advance and asked why natural seed awns would not serve instead—and the [case brief]({{ '/case-studies/case-seed-carrier-review/' | relative_url }}) walks through how the authors answered it by conceding what was true, supplying quantities, running the experiment the challenge implied, and adopting the referee's own counter-example as design rationale.
 
-- 📄 [**Nature: How to Review a Paper**](https://www.nature.com/nature-portfolio/editorial-policies/how-review-paper) — Read with an eye toward how hypothesis clarity affects reviewability
+> **What a published rebuttal shows and does not show:** It documents what the authors wrote and what the referees said next. It does not reveal what the editor privately weighted, and a response that preceded acceptance is not proof that it was the response that produced acceptance.
 
-#### 🎯 In-Class Activities (~50 min)
+#### Response Categories
 
-**Mentimeter (~10 min):** Estimate what % of Nobel-winning research is hypothesis-driven. Reveal and discuss the actual data by field.
+| Category | When to use it | What it must contain |
+|---|---|---|
+| Agree and change | The request is right, or the cost of complying is lower than the cost of arguing | The change, its location, and the new text |
+| Agree in part | The concern is valid; the proposed remedy is not the only one | What you changed, what you did not, and why the alternative addresses the concern |
+| Disagree with evidence | The comment rests on a misreading, or the requested work would not test what it is meant to test | The evidence, the reasoning, and a clarification in the manuscript so the next reader does not misread it the same way |
+| Cannot do within scope | The request is legitimate but out of reach | An explicit statement of the limitation in the manuscript, not silence |
 
-**Team exercise (~15 min):** Each team categorizes 5 famous discoveries as hypothesis-driven, serendipitous, or method-driven. Compare with the research literature.
+Disagreement is a normal part of the genre. A response that concedes every point produces a worse paper and does not, on this record, produce a faster acceptance.
 
-**Writing connection (~15 min):** "How does your research approach change how you write your introduction?" Teams draft two versions of the same introduction — one hypothesis-framed, one exploration-framed.
+#### 80-Minute Plan
 
-**Bridge to Module 3 (~10 min):** Preview how these principles apply to proposal writing. What does NSF look for in a hypothesis statement? How do you frame exploratory work in a proposal? The research idea origin data (16/18 from advisors) shows why this transition matters — proposals require you to generate your own questions.
+| Time | Activity |
+|:---:|---|
+| 8 min | Retrieve Lecture 4 reviews; each team receives the review written about its Draft 2 |
+| 18 min | Rebuttal anatomy: read assigned extracts from the published response; classify each as agree / agree in part / disagree with evidence / out of scope, and identify what makes each verifiable |
+| 14 min | Draft a point-by-point response to the review the team received, using the quote–response–modification structure |
+| 10 min | Reviewer–author exchange: reviewers state whether each response resolves the comment, and name what would |
+| 10 min | Tone and evidence test: read the round-three exchange in which a referee challenged a single changed adjective as a good-faith problem and the authors answered with a plain correction; then rewrite one response that concedes a point the evidence does not require conceding, and one that disagrees without giving a reason |
+| 7 min | Assemble the response letter and record the contribution note |
+| 5 min | Exit ticket: one point on which the team disagreed, and the evidence it cited |
+| 8 min | Transition and contingency reserve |
+| **80 min** | **Total** |
 
-#### 📋 Writing Portfolio: Final Version
+**Output:** Peer review written for another team and point-by-point response to the review received, both due October 28 on Blackboard. Both documents are assessed.
 
-Submit your final polished team abstract. It should reflect all revisions from Lectures 2–6: conclusion-first structure, clear narrative arc, peer review responses incorporated, and a brief note on how AI feedback did (or didn't) improve it. Include a 1-page revision history showing how the abstract evolved across drafts.
+#### Key Takeaways
 
-#### 💡 Key Takeaways
+- The unit of a rebuttal is the individual comment, quoted, answered, and located in the revised text.
+- "We have revised the manuscript accordingly" without a location is not a response.
+- Reasoned disagreement is expected; unexplained disagreement and reflexive agreement both fail.
+- A limitation stated plainly in the manuscript is a stronger answer than a limitation left for a reader to discover.
 
-- There's no single "scientific method" — hypothesis-driven, exploratory, and method-development approaches all produce Nobel-worthy science
-- The funding system's preference for hypothesis-driven proposals creates structural tension with how breakthroughs actually happen
-- Understanding discovery patterns helps you position your work strategically — not dishonestly
-- The transition from executing your advisor's idea to generating your own is the key skill Module 3 develops
+</details>
 
----
+<details>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: AI in Scientific Writing—Verification and Disclosure</h3></summary>
+
+**Goal:** Evaluate AI-mediated feedback on a public scientific text, verify every factual claim in the output, and produce the same evidence record whether a student uses a tool directly or audits an instructor-provided output.
+
+#### Current Publisher and Committee Rules
+
+Journal and committee policies on AI are version-sensitive and differ by role and venue. Check these maintained primary pages directly rather than relying on remembered rules or secondary summaries:
+
+- [ICMJE Section V, "Use of Artificial Intelligence in Publishing"](https://www.icmje.org/recommendations/browse/artificial-intelligence/), in the **January 2026** recommendations, with separate subsections for authors (V.A), reviewers (V.B), and editors (V.C). Earlier editions handled AI in a short passage; a summary written before 2026 will not reflect this structure.
+- [*Nature* Portfolio AI policy](https://www.nature.com/nature-portfolio/editorial-policies/ai) and its [peer-review policy](https://www.nature.com/nature-portfolio/editorial-policies/peer-review), which asks reviewers not to upload manuscripts into generative-AI tools.
+- [*Science* journals editorial policies](https://www.science.org/content/page/science-journals-editorial-policies) — read the current authorship, manuscript-preparation, confidentiality, and disclosure wording for the relevant journal rather than relying on an older summary.
+- [COPE position on authorship and AI tools](https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools). Note that COPE's *reviewer* guideline is still Version 2, September 2017 and predates large language models entirely — a gap worth pointing out to students.
+
+These policies are not interchangeable. Students build a **role × input × tool** matrix before acting:
+
+| Question | What must be checked |
+|---|---|
+| **Role** | Author, reviewer, editor, applicant, or student? A person can move between roles, and the applicable duties change. |
+| **Input** | Public, synthetic, authorized but unpublished, confidential, privileged, personally identifiable, or review-protected? Disclosure after use cannot cure an unauthorized upload. |
+| **Tool** | Has the relevant publisher, sponsor, institution, data owner, and course authorized this tool and its data handling for this input? |
+
+Authors remain responsible for accuracy, attribution, originality, and any required disclosure; that is not a universal permission to use every tool on every manuscript. Reviewers and editors handle confidential or privileged material and may use only systems expressly allowed by the controlling policy. The exact current policy—not a role stereotype—controls.
+
+#### Module Boundary
+
+Module 2 covered proposal-specific permission, confidentiality, and role-specific rules for applicants and reviewers. This lecture covers writing and review: what AI feedback is worth on a manuscript, and what must be verified before any AI-mediated claim enters a document. Module 4 takes up integrity, accountability, authorship, and governance. The [course AI Use Policy]({{ '/syllabus/' | relative_url }}#ai-use-policy) governs throughout, and sponsor, publisher, institutional, and tool rules outrank course permission.
+
+**One common public input.** Nothing in this lecture authorizes entering another team's draft, a team's own unpublished draft, or any confidential, proprietary, personally identifiable, privileged, or review-protected material into a public AI tool. Every team evaluates the same instructor-supplied **publicly available abstract** and verifies it against its DOI record and public article. The instructor records the selected source and confirms that course, institutional, and tool rules permit the planned use.
+
+#### Two Equivalent Participation Paths
+
+- **Direct-use path:** A student who is willing and permitted to use the selected tool enters the common public text and fixed prompt, records the tool/model/date, and saves the full output.
+- **No-direct-use path:** A student who does not use the tool receives two instructor-provided saved outputs produced from the same public text and fixed prompt. Each artifact includes the tool/model label available at generation, date, prompt, full output, and public input. The student audits the artifacts without creating an account or interacting with the tool.
+
+Both paths begin with an independent human review of the same text and end with the same verification record and grading criteria. The second path is not a lesser or substitute assignment.
+
+#### The Protocol
+
+1. **Fix the public input.** Record the DOI, public version, and exact text supplied to everyone.
+2. **Write the human baseline first.** Answer the structural and attribution questions before seeing either AI output.
+3. **Record provenance.** On the direct-use path, record the tool/model label shown, date, exact prompt, and settings available. On the no-direct-use path, confirm that the provided artifact contains those same fields.
+4. **Ask or inspect two questions.** A *structural* question ("What is the central claim, and what text supports it?") and an *attributional* question ("Who wrote this paper, where was it published, and in what year?").
+5. **Save or read the complete output**, not a summary of it.
+6. **Verify every factual assertion** against the DOI record and public article—title, authors, venue, year, and every number—and mark each as correct, incorrect, or unverifiable.
+7. **Compare with the human baseline.** Identify feedback that is supported, unsupported, missed, or newly useful; do not score fluency as correctness.
+8. **Test variation once.** Direct users repeat the fixed prompt once. No-direct-use students compare the two saved runs. Record what changed without treating two outputs as an error-rate estimate.
+
+#### The Attribution Test
+
+The attributional question exists because structural and factual competence are different capabilities, and a tool can be useful at one while failing at the other. Where a tool supplies an author list, an institution, a venue, or a year, students check it against the DOI record and count the errors. Where a tool is asked to correct itself, students record whether the correction was right, since a confident correction can be wrong in a new way.
+
+> **What one class run can establish:** that a *named tool*, at a *named version*, on a *named date*, given a *specific prompt*, produced a *specific* correct or incorrect output. It cannot establish a general capability ranking between products, a stable error rate, or that a competitor would do better. Report what happened in your run and stop there. Model versions change without notice, and a result from a prior semester is a historical observation, not a current benchmark.
+
+#### 80-Minute Plan
+
+| Time | Activity |
+|:---:|---|
+| 7 min | Build the role × input × tool matrix and confirm the public-input boundary |
+| 7 min | Write the independent human baseline on the common text |
+| 10 min | Direct-use path: produce and save an output; no-direct-use path: inspect the first provenance-complete artifact |
+| 13 min | Verify every factual claim against the DOI record and public article; tabulate correct, incorrect, and unverifiable |
+| 9 min | [Module 3 Microcase 2: "The Reference That Checked Out"]({{ '/scenarios/module-3-microcases/' | relative_url }}) and debrief |
+| 9 min | Compare the output with the human baseline: supported, unsupported, missed, and newly useful feedback |
+| 7 min | Repeat the fixed prompt or compare the second saved run; record variation without generalizing |
+| 5 min | Complete the AI-use and verification note |
+| 4 min | Exit ticket: one useful observation and one claim that failed or resisted verification |
+| 9 min | Transition and contingency reserve |
+| **80 min** | **Total** |
+
+#### Required AI-Use and Verification Note
+
+Record the task; whether the student used the tool directly or audited a provided artifact; the tool/model label available; date; exact prompt; public input and DOI; full output identifier; every claim checked and the source against which it was checked; comparison with the human baseline; any material change adopted; human verifier; and unresolved limitation. This is a Module 3 assignment record, not a universal journal, publisher, or institutional disclosure form. Students must separately check the rules of any venue to which they actually submit.
+
+**Output:** AI stress test and complete verification record, completed through either participation path, due November 2 on Blackboard.
+
+#### Key Takeaways
+
+- Structural feedback and factual reliability are separate capabilities; useful at one does not imply trustworthy at the other.
+- A citation that has not been retrieved and read has not been verified, regardless of how well formed it looks.
+- Fluent, confident output is not evidence, and a confident self-correction is not evidence either.
+- The verification record, not the tool output, is what makes AI-assisted work reviewable.
+
+</details>
+
+<details>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: Venue, Reporting, and What the Publication Record Supports</h3></summary>
+
+**Goal:** Match a manuscript to a venue's actual stated requirements, apply the relevant reporting expectations, and finish the portfolio with a documented revision history.
+
+#### Source Packet
+
+- [*Nature* Portfolio editorial policies](https://www.nature.com/nature-portfolio/editorial-policies) and its [peer-review policy and process](https://www.nature.com/nature-portfolio/editorial-policies/peer-review), which includes guidance on writing the review
+- [*Science* information for authors](https://www.science.org/content/page/science-information-authors)
+- [PLOS ONE criteria for publication](https://journals.plos.org/plosone/s/criteria-for-publication) — notable because the criteria explicitly exclude perceived importance, which makes the contrast with selective journals concrete
+- [COPE, *Ethical Guidelines for Peer Reviewers*](https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers) (Version 2, September 2017)
+- [The EQUATOR Network](https://www.equator-network.org/) reporting-guideline library
+
+#### What the Public Record Lets a Reader Check
+
+| The record may let a reader check | The record alone does not establish |
+|---|---|
+| The version, date, DOI, venue, author list, and stated article history | That every contribution or responsibility is captured by the byline |
+| The venue's published criteria and, when released, reports, responses, or editor summaries | That reviewers agreed, that every concern was resolved, or what an editor privately weighted |
+| The methods, data-availability statement, disclosures, reporting checklist, and corrections that are actually published | That the result is true, will replicate, used the best available method, or passed every possible integrity check |
+| The venue's current statements about review, access, scope, and fees, plus the named index's own record of coverage | That reputation accurately predicts rigor, selectivity, indexing, or access for this article |
+
+Selectivity, review model, indexing, and access model are **distinct properties that may interact**. Students check review, access, scope, and fees against the venue's current pages; indexing against the named database or index; and selectivity against a documented venue report, recording **not publicly reported** when no denominator is available. Where a venue's legitimacy is genuinely in question, the checkable route is the criteria published by [Think. Check. Submit.](https://thinkchecksubmit.org/) and the [DOAJ](https://doaj.org/) inclusion criteria, not a memorized list of bad publishers.
+
+#### Preprints and the Version Question
+
+A preprint makes work public and citable before or alongside review, which changes what "unpublished" means for confidentiality, for priority, and for a reader deciding how much weight to give a result. Because the same work can exist as a preprint, a reviewed preprint, an accepted manuscript, and a version of record simultaneously, a citation should name the version being cited. Venue policies on preprinting differ and must be checked per venue.
+
+#### 80-Minute Plan
+
+| Time | Activity |
+|:---:|---|
+| 9 min | Read the target venue's own author instructions; extract the requirements that actually bind this abstract |
+| 13 min | Search a relevant reporting-guideline registry; identify applicable items or document that no fitting guideline was found for this study type |
+| 12 min | Venue property check: review/access/scope/fees from venue pages, indexing from the named index, and selectivity from a reported denominator or “not publicly reported”; record every source |
+| 14 min | Final revision sprint on the abstract, incorporating the Lecture 5 responses |
+| 10 min | Assemble the one-page revision history: what changed at each draft, who made the change, and what prompted it |
+| 7 min | Submission-readiness check and contribution note sign-off |
+| 5 min | Exit ticket: one venue requirement discovered today that the team had assumed rather than checked |
+| 10 min | Transition and contingency reserve |
+| **80 min** | **Total** |
+
+**Output:** Final abstract, one-page revision history, and submission-readiness check, due November 4 on Blackboard.
+
+#### Bridge to Module 4
+
+This module treated authorship only as a record of who did what. Module 4 takes up the questions that record raises: who qualifies as an author, how order and corresponding responsibility are decided, what CRediT roles capture, what accountability means when a paper is wrong, and how AI assistance interacts with all of it. "Contributor," "author," "inventor," and "rightsholder" remain distinct categories.
 
 </details>
 
 ---
 
-## 📚 Additional Resources
+## Instructional Material Status and Preparation Checks
 
-### Writing Guides
+| Material | Status and Required Boundary |
+|---|---|
+| Lecture 1 Gopen & Swan and Swales packet | Ready from cited primary sources; teach CARS as description, not requirement |
+| Lecture 2 Whitesides article and principles deck | Ready; each principle must name its source and its scope condition |
+| Lecture 3 abstract restructuring case | Ready from the public accepted manuscript and a clearly labeled constructed comparison. The comparison is a teaching artifact, not an earlier draft or evidence of the authors' process |
+| Lecture 4 *Nature* Peer Review File | Ready; public 96-page PDF with a [case brief]({{ '/case-studies/case-seed-carrier-review/' | relative_url }}) of assigned extracts. Assign extracts rather than the whole file, and check the link before class |
+| Lecture 4 eLife comparison | Ready from the pinned November 29, 2024 reviewed preprint (v2) and December 18, 2024 Version of Record (v3); recheck both exact versions before teaching |
+| Lecture 5 rebuttal extracts | Ready from the same public file |
+| Lecture 6 AI protocol | Ready as a two-path protocol using one public input. Prepare two provenance-complete saved outputs for the no-direct-use path and recheck all governing policies |
+| Lecture 7 venue and reporting packet | Ready; author instructions change frequently and must be rechecked each offering |
+| Module 3 microcases | Constructed teaching composites; see the [scenario pack]({{ '/scenarios/module-3-microcases/' | relative_url }}) |
 
-- 📄 [**"Whitesides' Group: How to Write a Paper"**](https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper) — The foundational guide
-- 🎥 [**"How to Write a Paper" – Prof. Whitesides Video Tutorial**](https://www.youtube.com/watch?v=q3mrRH2aS98)
-- 📄 [**TechRabbits: Complete Guide to Scientific Publication**](https://www.hyunwooyuk.com/table-of-contents.html) — Full publication journey + Art of Rebuttal
-- 📄 [**"The Science of Scientific Writing" – American Scientist**](https://www.americanscientist.org/article/the-science-of-scientific-writing)
-- 📄 [**MIT Communication Lab Resources**](https://commkit.mit.edu/writing/)
+### Preparation Checklist
 
-### Journal Author Guidelines
+Before the relevant class, the instructor should:
 
-- 📄 [**Nature Portfolio: Author Instructions**](https://www.nature.com/nature-portfolio/editorial-policies)
-- 📄 [**Science Magazine: Writing Resources**](https://www.science.org/content/page/science-authors)
-- 📄 [**PLOS ONE: Peer Review Criteria**](https://journals.plos.org/plosone/s/criteria-for-publication)
-
-### Peer Review
-
-- 📄 [**Nature: How to Review a Paper**](https://www.nature.com/nature-portfolio/editorial-policies/how-review-paper)
-- 📄 [**eLife: Transparent Review Process**](https://elifesciences.org/inside-elife/3d8c981b/transparent-peer-review-at-elife)
-- 📄 [**COPE: Ethical Guidelines for Peer Reviewers**](https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers.pdf)
-- 📄 [**eLife: Seed Carrier Paper — Full Review History**](https://elifesciences.org/articles/87398#public-review) — Primary case study for Lectures 4–5
-- 📄 [**How to Respond to Reviewer Comments – Nature Guide**](https://www.nature.com/scitable/blog/mental_elixir/how_to_respond_to_peer_reviewers/)
-- 📄 [**Editage Insights: Academic Writing Resources**](https://www.editage.com/insights/)
+1. re-fetch every linked source and confirm it resolves to the content described here;
+2. archive the access date and the version used in the class packet;
+3. confirm that the *Nature* Peer Review File and the pinned eLife versions remain publicly accessible;
+4. prepare the Lecture 6 common public input and two provenance-complete artifacts for the no-direct-use path;
+5. check the accessibility of every PDF and provide a lawful accessible alternative when needed; and
+6. provide a public or instructor-created alternative whenever a team's own work is confidential, unpublished, or access-restricted.
 
 ---
 
-## 📚 Module Activities & Learning Objectives
+## Module Activities & Learning Objectives
 
-Through seven lectures and guided practice, students develop skills in:
+By the end of this module, students should be able to:
 
-- **Scientific Manuscript Writing:** Applying structured frameworks (conclusion-first, outline-driven, figure-led) to craft clear abstracts and introductions for bioinspired research.
-- **Critical Analysis of Revision:** Tracking how real papers evolve through peer review, understanding *why* changes improve communication.
-- **Constructive Peer Review:** Evaluating manuscripts using established criteria, providing specific, actionable, and respectful feedback.
-- **Professional Response to Review:** Crafting evidence-based responses to reviewer comments, including respectful disagreement.
-- **AI Literacy in Writing:** Evaluating AI writing tools critically, recognizing capabilities and limitations (especially hallucinations in attribution).
-- **Research Design & Communication:** Connecting research approach (hypothesis-driven, exploratory, method-development) to writing strategy.
+- write prose whose structure matches what a reader must reconstruct, and diagnose a passage that fails that test;
+- distinguish a sourced writing principle from a field-wide rule, and state a rule's scope conditions;
+- revise an argument rather than a surface, and audit every quantitative claim for referent, comparison, and direction;
+- read a real referee record, and explain what different peer review models make public;
+- produce an independent criterion-based review and a point-by-point response that agrees, partially agrees, or disagrees with evidence;
+- evaluate AI-mediated writing feedback through a direct-use or no-direct-use path, verify every factual claim in the output, and document provenance and human responsibility; and
+- match a manuscript to a venue's stated requirements and distinguish what the public publication record supports from what it cannot establish.
 
-**» Detailed assignment instructions, rubrics, and submission portals are available on the course Blackboard site.**
+**Detailed submission portals and any instructor-supplied packets are available on Blackboard. Public instructions on this page define the course expectations and evidence boundaries.**
+
+---
+
+## Additional Resources
+
+### Writing
+
+- Gopen and Swan, "The Science of Scientific Writing," *American Scientist* 78 (1990): 550–558 — [JSTOR](https://www.jstor.org/stable/29774235) · [open PDF](https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf)
+- Whitesides, ["Whitesides' Group: Writing a Paper"](https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper), *Advanced Materials* 16 (2004): 1375–1377
+- Swales, *Genre Analysis: English in Academic and Research Settings* (Cambridge University Press, 1990)
+- Hyunwoo Yuk, [*TechRabbit's Note*](https://www.hyunwooyuk.com/table-of-contents.html) — practitioner guide by the hydrogel paper's first author; personal site, no DOI or version, and not a standard
+- [MIT Communication Lab CommKit](https://mitcommlab.mit.edu/broad/use-the-commkit/)
+
+### Peer Review Records to Read
+
+- [Case brief: The Seed-Carrier Peer Review Record]({{ '/case-studies/case-seed-carrier-review/' | relative_url }}) — quoted extracts and discussion questions
+- [*Nature* Peer Review File for the seed-carrier paper](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-05656-3/MediaObjects/41586_2022_5656_MOESM12_ESM.pdf) (PDF, 96 pages)
+- [eLife 63250 peer reviews](https://elifesciences.org/articles/63250v1/peer-reviews) — earlier model
+- [eLife Reviewed Preprint 100673v2](https://elifesciences.org/reviewed-preprints/100673v2) — November 29, 2024 assessment used in class; later Version of Record is [100673v3](https://doi.org/10.7554/eLife.100673.3)
+- [COPE, *Ethical Guidelines for Peer Reviewers*](https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers) (Version 2, September 2017)
+- [*Nature* Portfolio peer-review policy and process](https://www.nature.com/nature-portfolio/editorial-policies/peer-review)
+- [ICMJE Section V: Use of Artificial Intelligence in Publishing](https://www.icmje.org/recommendations/browse/artificial-intelligence/) — January 2026 recommendations for authors, reviewers, and editors
+- Noble, ["Ten simple rules for writing a response to reviewers,"](https://doi.org/10.1371/journal.pcbi.1005730) *PLOS Computational Biology* 13 (2017): e1005730
+- [eLife assessment vocabulary](https://elifesciences.org/about/elife-assessments) — the published significance and strength-of-evidence ladders
+- Hardwicke, Schiavone, Clarke, and Vazire, ["An empirical appraisal of eLife's assessment vocabulary,"](https://doi.org/10.1371/journal.pbio.3002645) *PLOS Biology* 22 (2024): e3002645
+
+### Venue and Reporting
+
+- [EQUATOR Network](https://www.equator-network.org/) reporting guidelines
+- [PLOS ONE criteria for publication](https://journals.plos.org/plosone/s/criteria-for-publication)
+- [Think. Check. Submit.](https://thinkchecksubmit.org/)
+- [DOAJ](https://doaj.org/)
 
 ---
 
