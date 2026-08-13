@@ -224,8 +224,8 @@ Homepage (/)
 | Oct 19 | Writing Portfolio Draft 1 | Module 3 |
 | Oct 21 | Writing Portfolio Draft 2 | Module 3 |
 | Oct 28 | Writing Portfolio Peer Review | Module 3 |
-| Nov 2 | Writing Portfolio AI Stress Test | Module 3 |
-| Nov 4 | Writing Portfolio Final Version | Module 3 |
+| Nov 4 | Writing Portfolio Final Version (AI verification record + revision history + submission-readiness check) | Module 3 |
+| Dec 7 | Technology & Responsibility Report Presentations (formative) | Module 4 |
 | Dec 15 | Technology & Responsibility Report | Module 4 |
 
 ---

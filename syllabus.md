@@ -49,7 +49,7 @@ Upon successful completion of this course, students will be able to:
 3. **Demonstrate** effective interdisciplinary collaboration by developing a Team Charter, providing behaviorally anchored peer feedback through CATME, and contributing equitably to team deliverables across the semester.
    > *Assessed through:* Team Charter, CATME evaluations, team project contributions (Module 1, ongoing)
 
-4. **Analyze** research ethics dilemmas — including misconduct, conflicts of interest, dual-use research, and AI use — by applying established ethical frameworks (Resnik's principles, Alberts' systemic analysis) to real-world scenarios.
+4. **Analyze** research ethics dilemmas — including misconduct, conflicts of interest, authorship, and AI use — by applying established ethical frameworks (Resnik's principles, Alberts' systemic analysis) to real-world scenarios.
    > *Assessed through:* Ethics case discussions, in-class scenario analyses (Module 4)
 
 5. **Explain in writing** why science communication is an ethical obligation, and **compare** AI capabilities and limitations in scientific research by evaluating AI-generated feedback against human peer review.
@@ -76,15 +76,15 @@ The course is organized into four modules taught sequentially. Each module page 
 
 → [Module 2 Details](../modules/proposal/)
 
-### Module 3: Scientific Writing & Peer Review (7 sessions)
+### Module 3: Scientific Writing & Peer Review (6 sessions)
 {: .module-header}
-**Focus:** Reader-based writing principles (Gopen & Swan, Swales, Whitesides), revision as argument restructuring, published peer review records, professional response letters, verification and disclosure of AI use, and venue requirements. Students read assigned extracts from a real 96-page public referee file and author rebuttal rather than relying only on a summary. A team Writing Portfolio evolves across all seven lectures — from topic and audience selection to a polished abstract with a documented revision history. The AI audit uses one public source and offers equivalent direct-use and no-direct-use paths.
+**Focus:** Reader-based writing principles (Gopen & Swan, Swales, Whitesides), revision as argument restructuring, published peer review records, professional response letters, verification and disclosure of AI use, and venue requirements. Students read assigned extracts from a real 96-page public referee file and author rebuttal rather than relying only on a summary. A team Writing Portfolio evolves across six lectures — from topic and audience selection to a polished abstract with a documented revision history and submission-readiness check. The AI audit uses one public source and offers equivalent direct-use and no-direct-use paths.
 
 → [Module 3 Details](../modules/paper/)
 
-### Module 4: Research Ethics (7 sessions)
+### Module 4: Research Ethics (7 sessions + final presentations)
 {: .module-header}
-**Focus:** Research integrity, misconduct, conflicts of interest, dual-use research, science communication as ethical obligation, AI ethics, authorship, and intellectual property. Co-taught with Prof. Sarah Reckess, JD (Upstate Medical University). Directly feeds the final team Technology & Responsibility Report.
+**Focus:** Research integrity, authorship and credit, AI ethics, misconduct, conflicts of interest, science communication as ethical obligation, and intellectual property. Co-taught with Prof. Sarah Reckess, JD (Upstate Medical University); Eric Mathis guest-lectures the AI session, and Prof. Zhang teaches the authorship session. Concludes with formative team presentations on December 7; the Technology & Responsibility Report is due December 15 so presentation feedback can inform revision.
 
 → [Module 4 Details](../modules/ethics/)
 

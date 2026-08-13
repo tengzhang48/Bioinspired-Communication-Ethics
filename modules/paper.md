@@ -12,17 +12,16 @@ This module develops scientific writing, criterion-based manuscript review, and 
 
 ---
 
-## Module Structure: 7 Lectures
+## Module Structure: 6 Lectures
 
 | # | Lecture | Key Topics and Output |
 |:---:|---|---|
-| 1 | [Reading, Reporting, and the Reader's Work](#lecture-1) | Reader-expectation prose; CARS moves; portfolio topic, audience, and scope |
+| 1 | [Reading, Reporting, and the Reader's Work](#lecture-1) | Reader-expectation prose; CARS moves; reporting-guideline orientation; portfolio topic, audience, and scope |
 | 2 | [Writing Principles and Their Boundaries](#lecture-2) | Whitesides and lab guidance; testing a rule against a real corpus; Draft 1 |
 | 3 | [Revision as Argument Restructuring](#lecture-3) | A public published abstract and a clearly constructed comparison; number auditing; Draft 2 |
-| 4 | [Peer Review Systems and What They Publish](#lecture-4) | Real referee reports; two eLife regimes; independent criterion-based review |
+| 4 | [Peer Review Systems, Venue Requirements, and What They Publish](#lecture-4) | Real referee reports; two eLife regimes; assessment-vocabulary calibration; venue-property and version check; independent review |
 | 5 | [Responding to Review](#lecture-5) | A published point-by-point rebuttal; evidence-based disagreement; response letter |
-| 6 | [AI in Scientific Writing: Verification and Disclosure](#lecture-6) | Public-input AI audit with direct-use and no-direct-use paths; verification note |
-| 7 | [Venue, Reporting, and What the Publication Record Supports](#lecture-7) | Author instructions; reporting guidelines; preprints; final portfolio |
+| 6 | [AI in Scientific Writing: Verification, Disclosure & Submission](#lecture-6) | Public-input AI audit with direct-use and no-direct-use paths; verification note; final revision sprint and submission readiness |
 
 ### Running Assignment: Writing Portfolio
 
@@ -33,9 +32,9 @@ The module deliverable is a **team Writing Portfolio**: a research abstract that
 | 1 | Topic, target audience/venue, and scope-and-permission statement | In class |
 | 2 | Draft 1: conclusion-first abstract with a named central claim | Oct 19 |
 | 3 | Draft 2: revised for argument structure, specificity, and number discipline | Oct 21 |
+| 4 | Venue-property and version check for the target venue, recorded with sources | In class |
 | 5 | Peer review of another team's Draft 2, plus a point-by-point response to the review your team received | Oct 28 |
-| 6 | AI feedback audit using a public source, with a complete verification record | Nov 2 |
-| 7 | Final abstract, one-page revision history, and submission-readiness check | Nov 4 |
+| 6 | AI feedback audit using a public source, with a complete verification record; final revision sprint, one-page revision history, and submission-readiness sign-off | Nov 4 |
 
 **Scope and permission.** Teams may write about a member's own research only if that member is willing to share it with classmates and has any co-author or advisor permission required. A public, published, or instructor-created alternative topic is always available. Nobody is required to disclose confidential, unpublished, proprietary, or embargoed work in order to complete this module. Permission to share within the course does not authorize uploading the work to an external AI service.
 
@@ -59,14 +58,15 @@ The module deliverable is a **team Writing Portfolio**: a research abstract that
 
 | Time | Activity |
 |:---:|---|
-| 7 min | Frame the distinction: what the writer knows, what the text states, and what a reader can reconstruct from the text alone |
-| 18 min | Tiered reading: after common instructions, teams receive the same paper at staggered start times so all stop together after an assigned 2, 5, 10, or 15 minutes; nobody answers during the reading window |
+| 6 min | Frame the distinction: what the writer knows, what the text states, and what a reader can reconstruct from the text alone |
+| 17 min | Tiered reading: after common instructions, teams receive the same paper at staggered start times so all stop together after an assigned 2, 5, 10, or 15 minutes; nobody answers during the reading window |
 | 10 min | In the same post-reading window, all teams answer the same five questions without reopening the text and record which questions their assigned depth could and could not answer; the class tabulates the result |
 | 14 min | CARS move audit: mark Moves 1–3 in the assigned introduction, then mark one sentence whose topic position or stress position works against the reader |
 | 11 min | Select the portfolio topic, name the target audience and a plausible venue, and write the one-sentence claim the abstract must support |
+| 5 min | Reporting-guideline orientation: search the [EQUATOR Network](https://www.equator-network.org/) library for a guideline matching the study type, or record that no fitting guideline was found; the applicable reporting items shape what the abstract must eventually support |
 | 8 min | Scope-and-permission check: confirm sharing permission, or switch to the public/instructor-created alternative; record the contribution plan |
 | 5 min | Exit ticket: one reading depth that was sufficient for a stated purpose, and one that was not |
-| 7 min | Transition and contingency reserve, distributed across the activities above |
+| 4 min | Transition and contingency reserve, distributed across the activities above |
 | **80 min** | **Total** |
 
 #### What the Reading Exercise Measures
@@ -193,9 +193,9 @@ A number in an abstract must carry its referent, its comparison, and its directi
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Peer Review Systems and What They Publish</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Peer Review Systems, Venue Requirements, and What They Publish</h3></summary>
 
-**Goal:** Read an actual set of referee reports, compare what two different journal models make public, and write an independent criterion-based review of another team's draft.
+**Goal:** Read an actual set of referee reports, compare what two different journal models make public, check the target venue's actual stated requirements, and write an independent criterion-based review of another team's draft.
 
 #### Primary Review Records
 
@@ -243,19 +243,32 @@ Publishing models are not judged only on their merits; they interact with the in
 
 This is a concrete case for the class: a journal changed its post-review publication decision, and an indexing policy that required a validation decision no longer treated every Version of Record as eligible. Students should be able to distinguish eLife's design choice from Clarivate's eligibility rule and ask what this interaction implies for reforming assessment and publishing at the same time.
 
+#### Venue Requirements and Version Discipline
+
+Selectivity, review model, indexing, and access model are **distinct properties that may interact**. Before this class, each team checks its own target venue (selected in Lecture 1) against current primary pages:
+
+- **Author instructions.** The venue's own instructions bind; examples like [*Nature* Portfolio editorial policies](https://www.nature.com/nature-portfolio/editorial-policies), [*Science* information for authors](https://www.science.org/content/page/science-information-authors), and [PLOS ONE criteria for publication](https://journals.plos.org/plosone/s/criteria-for-publication) illustrate different requirements but do not substitute for the instructions of the venue the team actually selected.
+- **Review, access, scope, and fees.** Checked against the venue's current pages.
+- **Indexing.** Checked against the named database or index, not against reputation.
+- **Selectivity.** Recorded only when a venue publishes a denominator; otherwise the correct entry is **not publicly reported**. Where a venue's legitimacy is genuinely in question, the checkable route is the criteria published by [Think. Check. Submit.](https://thinkchecksubmit.org/) and the [DOAJ](https://doaj.org/) inclusion criteria, not a memorized list of bad publishers.
+- **Version.** The same work can exist as a preprint, a reviewed preprint, an accepted manuscript, and a version of record simultaneously. A preprint makes work public and citable before or alongside review, which changes what "unpublished" means for confidentiality and priority. The team names the exact version it is citing, and venue policies on preprinting are checked per venue.
+
+> **What the public record lets a reader check:** the version, date, DOI, venue, author list, and stated article history; the venue's published criteria; the methods, data-availability statement, disclosures, and corrections that are actually published; and the venue's current statements about review, access, scope, and fees. What it does **not** establish: that every contribution appears in the byline, that reviewers agreed or every concern was resolved, what an editor privately weighted, that a result is true or will replicate, or that reputation accurately predicts rigor or indexing for this article.
+
 #### 80-Minute Plan
 
 | Time | Activity |
 |:---:|---|
-| 7 min | Briefing: what each review model chooses to publish and what no model guarantees |
+| 6 min | Briefing: what each review model chooses to publish and what no model guarantees |
 | 12 min | Read an assigned extract of the *Nature* referee reports; classify each comment as *evidence requested*, *analysis questioned*, *presentation*, or *scope* |
-| 7 min | Locate the referee comment that proposed the paper's final title; discuss what it means that framing can change through review |
-| 9 min | Before seeing definitions, rank the bare eLife terms individually; then reveal the intended order and read the bounded Hardwicke result |
+| 6 min | Locate the referee comment that proposed the paper's final title; discuss what it means that framing can change through review |
+| 8 min | Before seeing definitions, rank the bare eLife terms individually; then reveal the intended order and read the bounded Hardwicke result |
 | 9 min | Apply the defined terms to a supplied abstract and defend each choice from its text; state why this is not the Hardwicke task |
 | 10 min | [Module 3 Microcase 1: "The Review That Was Never Closed"]({{ '/scenarios/module-3-microcases/' | relative_url }})—8-minute case plus 2-minute debrief |
-| 13 min | Write an independent review of another team's Draft 2: one strength, one material weakness, one specific request, each tied to text |
-| 5 min | Exit ticket: one comment you wrote that a reader could act on without asking you a question |
-| 8 min | Transition and contingency reserve, distributed across the activities above |
+| 12 min | Write an independent review of another team's Draft 2: one strength, one material weakness, one specific request, each tied to text |
+| 7 min | Venue-property check: from the team's pre-class notes, confirm review/access/scope/fees from venue pages, indexing from the named index, selectivity only with a reported denominator, and the exact version cited; record every source or mark **not publicly reported** |
+| 5 min | Exit ticket: one venue requirement your team had assumed rather than checked |
+| 5 min | Transition and contingency reserve, distributed across the activities above |
 | **80 min** | **Total** |
 
 #### Independent Review Template
@@ -337,9 +350,9 @@ Disagreement is a normal part of the genre. A response that concedes every point
 </details>
 
 <details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: AI in Scientific Writing—Verification and Disclosure</h3></summary>
+<summary><h3 style="display:inline; cursor:pointer;" id="lecture-6">Lecture 6: AI in Scientific Writing—Verification, Disclosure & Submission</h3></summary>
 
-**Goal:** Evaluate AI-mediated feedback on a public scientific text, verify every factual claim in the output, and produce the same evidence record whether a student uses a tool directly or audits an instructor-provided output.
+**Goal:** Evaluate AI-mediated feedback on a public scientific text, verify every factual claim in the output, produce the same evidence record whether a student uses a tool directly or audits an instructor-provided output, and complete the portfolio with a final revision sprint, a one-page revision history, and a submission-readiness sign-off.
 
 #### Current Publisher and Committee Rules
 
@@ -394,23 +407,36 @@ The attributional question exists because structural and factual competence are 
 
 | Time | Activity |
 |:---:|---|
-| 7 min | Build the role × input × tool matrix and confirm the public-input boundary |
-| 7 min | Write the independent human baseline on the common text |
-| 10 min | Direct-use path: produce and save an output; no-direct-use path: inspect the first provenance-complete artifact |
-| 13 min | Verify every factual claim against the DOI record and public article; tabulate correct, incorrect, and unverifiable |
+| 6 min | Build the role × input × tool matrix and confirm the public-input boundary |
+| 6 min | Write the independent human baseline on the common text |
+| 9 min | Direct-use path: produce and save an output; no-direct-use path: inspect the first provenance-complete artifact |
+| 11 min | Verify every factual claim against the DOI record and public article; tabulate correct, incorrect, and unverifiable |
 | 9 min | [Module 3 Microcase 2: "The Reference That Checked Out"]({{ '/scenarios/module-3-microcases/' | relative_url }}) and debrief |
-| 9 min | Compare the output with the human baseline: supported, unsupported, missed, and newly useful feedback |
-| 7 min | Repeat the fixed prompt or compare the second saved run; record variation without generalizing |
+| 8 min | Compare the output with the human baseline: supported, unsupported, missed, and newly useful feedback |
+| 6 min | Repeat the fixed prompt or compare the second saved run; record variation without generalizing |
 | 5 min | Complete the AI-use and verification note |
-| 4 min | Exit ticket: one useful observation and one claim that failed or resisted verification |
-| 9 min | Transition and contingency reserve |
+| 11 min | Final assembly: short revision sprint incorporating the Lecture 5 responses; assemble the one-page revision history (what changed at each draft, who made the change, what prompted it); run the submission-readiness check against the Lecture 4 venue-property record and sign off the contribution note |
+| 4 min | Exit ticket: one useful observation from the AI audit and one claim that failed or resisted verification |
+| 5 min | Transition and contingency reserve |
 | **80 min** | **Total** |
 
 #### Required AI-Use and Verification Note
 
 Record the task; whether the student used the tool directly or audited a provided artifact; the tool/model label available; date; exact prompt; public input and DOI; full output identifier; every claim checked and the source against which it was checked; comparison with the human baseline; any material change adopted; human verifier; and unresolved limitation. This is a Module 3 assignment record, not a universal journal, publisher, or institutional disclosure form. Students must separately check the rules of any venue to which they actually submit.
 
-**Output:** AI stress test and complete verification record, completed through either participation path, due November 2 on Blackboard.
+#### Final Assembly and Submission Readiness
+
+The final assembly uses materials already produced in the module: the response letter from Lecture 5, the venue-property record from Lecture 4, and the verification record from this lecture. Nothing new is drafted from scratch in the last 11 minutes:
+
+- **Revision sprint.** Incorporate the Lecture 5 responses that were agreed; do not reopen settled points or invent new experiments at this stage.
+- **Revision history.** One page: what changed at each draft, who made the change, and what prompted it. The contribution note follows the Module 1 Charter Appendix C procedure.
+- **Submission-readiness check.** Against the Lecture 4 venue record: author instructions satisfied, applicable reporting items addressed, exact version named, contribution note signed off by every member.
+
+**Output:** Final abstract, one-page revision history, AI verification record, and submission-readiness check, due November 4 on Blackboard.
+
+#### Bridge to Module 4
+
+This module treated authorship only as a record of who did what. Module 4 takes up the questions that record raises: who qualifies as an author, how order and corresponding responsibility are decided, what CRediT roles capture, what accountability means when a paper is wrong, and how AI assistance interacts with all of it. "Contributor," "author," "inventor," and "rightsholder" remain distinct categories.
 
 #### Key Takeaways
 
@@ -418,56 +444,6 @@ Record the task; whether the student used the tool directly or audited a provide
 - A citation that has not been retrieved and read has not been verified, regardless of how well formed it looks.
 - Fluent, confident output is not evidence, and a confident self-correction is not evidence either.
 - The verification record, not the tool output, is what makes AI-assisted work reviewable.
-
-</details>
-
-<details>
-<summary><h3 style="display:inline; cursor:pointer;" id="lecture-7">Lecture 7: Venue, Reporting, and What the Publication Record Supports</h3></summary>
-
-**Goal:** Match a manuscript to a venue's actual stated requirements, apply the relevant reporting expectations, and finish the portfolio with a documented revision history.
-
-#### Source Packet
-
-- [*Nature* Portfolio editorial policies](https://www.nature.com/nature-portfolio/editorial-policies) and its [peer-review policy and process](https://www.nature.com/nature-portfolio/editorial-policies/peer-review), which includes guidance on writing the review
-- [*Science* information for authors](https://www.science.org/content/page/science-information-authors)
-- [PLOS ONE criteria for publication](https://journals.plos.org/plosone/s/criteria-for-publication) — notable because the criteria explicitly exclude perceived importance, which makes the contrast with selective journals concrete
-- [COPE, *Ethical Guidelines for Peer Reviewers*](https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers) (Version 2, September 2017)
-- [The EQUATOR Network](https://www.equator-network.org/) reporting-guideline library
-
-#### What the Public Record Lets a Reader Check
-
-| The record may let a reader check | The record alone does not establish |
-|---|---|
-| The version, date, DOI, venue, author list, and stated article history | That every contribution or responsibility is captured by the byline |
-| The venue's published criteria and, when released, reports, responses, or editor summaries | That reviewers agreed, that every concern was resolved, or what an editor privately weighted |
-| The methods, data-availability statement, disclosures, reporting checklist, and corrections that are actually published | That the result is true, will replicate, used the best available method, or passed every possible integrity check |
-| The venue's current statements about review, access, scope, and fees, plus the named index's own record of coverage | That reputation accurately predicts rigor, selectivity, indexing, or access for this article |
-
-Selectivity, review model, indexing, and access model are **distinct properties that may interact**. Students check review, access, scope, and fees against the venue's current pages; indexing against the named database or index; and selectivity against a documented venue report, recording **not publicly reported** when no denominator is available. Where a venue's legitimacy is genuinely in question, the checkable route is the criteria published by [Think. Check. Submit.](https://thinkchecksubmit.org/) and the [DOAJ](https://doaj.org/) inclusion criteria, not a memorized list of bad publishers.
-
-#### Preprints and the Version Question
-
-A preprint makes work public and citable before or alongside review, which changes what "unpublished" means for confidentiality, for priority, and for a reader deciding how much weight to give a result. Because the same work can exist as a preprint, a reviewed preprint, an accepted manuscript, and a version of record simultaneously, a citation should name the version being cited. Venue policies on preprinting differ and must be checked per venue.
-
-#### 80-Minute Plan
-
-| Time | Activity |
-|:---:|---|
-| 9 min | Read the target venue's own author instructions; extract the requirements that actually bind this abstract |
-| 13 min | Search a relevant reporting-guideline registry; identify applicable items or document that no fitting guideline was found for this study type |
-| 12 min | Venue property check: review/access/scope/fees from venue pages, indexing from the named index, and selectivity from a reported denominator or “not publicly reported”; record every source |
-| 14 min | Final revision sprint on the abstract, incorporating the Lecture 5 responses |
-| 10 min | Assemble the one-page revision history: what changed at each draft, who made the change, and what prompted it |
-| 7 min | Submission-readiness check and contribution note sign-off |
-| 5 min | Exit ticket: one venue requirement discovered today that the team had assumed rather than checked |
-| 10 min | Transition and contingency reserve |
-| **80 min** | **Total** |
-
-**Output:** Final abstract, one-page revision history, and submission-readiness check, due November 4 on Blackboard.
-
-#### Bridge to Module 4
-
-This module treated authorship only as a record of who did what. Module 4 takes up the questions that record raises: who qualifies as an author, how order and corresponding responsibility are decided, what CRediT roles capture, what accountability means when a paper is wrong, and how AI assistance interacts with all of it. "Contributor," "author," "inventor," and "rightsholder" remain distinct categories.
 
 </details>
 
@@ -482,9 +458,10 @@ This module treated authorship only as a record of who did what. Module 4 takes 
 | Lecture 3 abstract restructuring case | Ready from the public accepted manuscript and a clearly labeled constructed comparison. The comparison is a teaching artifact, not an earlier draft or evidence of the authors' process |
 | Lecture 4 *Nature* Peer Review File | Ready; public 96-page PDF with a [case brief]({{ '/case-studies/case-seed-carrier-review/' | relative_url }}) of assigned extracts. Assign extracts rather than the whole file, and check the link before class |
 | Lecture 4 eLife comparison | Ready from the pinned November 29, 2024 reviewed preprint (v2) and December 18, 2024 Version of Record (v3); recheck both exact versions before teaching |
+| Lecture 4 venue and version check | Ready as a pre-class task against current venue pages; author instructions change frequently and must be rechecked each offering; prepare the Think. Check. Submit. and DOAJ criteria in advance |
 | Lecture 5 rebuttal extracts | Ready from the same public file |
 | Lecture 6 AI protocol | Ready as a two-path protocol using one public input. Prepare two provenance-complete saved outputs for the no-direct-use path and recheck all governing policies |
-| Lecture 7 venue and reporting packet | Ready; author instructions change frequently and must be rechecked each offering |
+| Lecture 6 final assembly | Ready; reuses the Lecture 5 response letter, the Lecture 4 venue-property record, and the Lecture 6 verification record |
 | Module 3 microcases | Constructed teaching composites; see the [scenario pack]({{ '/scenarios/module-3-microcases/' | relative_url }}) |
 
 ### Preparation Checklist
@@ -509,8 +486,9 @@ By the end of this module, students should be able to:
 - revise an argument rather than a surface, and audit every quantitative claim for referent, comparison, and direction;
 - read a real referee record, and explain what different peer review models make public;
 - produce an independent criterion-based review and a point-by-point response that agrees, partially agrees, or disagrees with evidence;
-- evaluate AI-mediated writing feedback through a direct-use or no-direct-use path, verify every factual claim in the output, and document provenance and human responsibility; and
-- match a manuscript to a venue's stated requirements and distinguish what the public publication record supports from what it cannot establish.
+- evaluate AI-mediated writing feedback through a direct-use or no-direct-use path, verify every factual claim in the output, and document provenance and human responsibility;
+- match a manuscript to a venue's stated requirements, name the exact version cited, and distinguish what the public publication record supports from what it cannot establish; and
+- assemble a submission package with a documented revision history, contribution note, and submission-readiness sign-off.
 
 **Detailed submission portals and any instructor-supplied packets are available on Blackboard. Public instructions on this page define the course expectations and evidence boundaries.**
 

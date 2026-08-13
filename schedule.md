@@ -27,8 +27,8 @@ permalink: /schedule/
 |--------|:---:|:---:|-------|
 | [Module 1: Foundations of Teamwork](../modules/foundation/) | 6 | Aug 24 – Sep 14 | Team formation, CATME, collaboration skills |
 | [Module 2: Proposal Writing & Review](../modules/proposal/) | 7 | Sep 16 – Oct 7 | Evidence-consistent framing, current NSF/NIH criteria, review, responsible AI, and a GCR-inspired concept |
-| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 7 | Oct 14 – Nov 4 | Reader-based writing, argument revision, real referee records, response letters, AI verification, and venue requirements |
-| [Module 4: Research Ethics](../modules/ethics/) | 7 | Nov 9 – Dec 7 | Misconduct, dual-use, sci-comm, AI ethics, IP |
+| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 6 | Oct 14 – Nov 2 | Reader-based writing, argument revision, real referee records, response letters, AI verification, and venue requirements |
+| [Module 4: Research Ethics](../modules/ethics/) | 7 + presentations | Nov 4 – Dec 7 | Authorship, AI ethics, misconduct, conflicts of interest, sci-comm, IP, and final presentations |
 
 ---
 
@@ -63,33 +63,33 @@ permalink: /schedule/
 
 ---
 
-### Module 3: Scientific Writing & Peer Review (7 sessions)
+### Module 3: Scientific Writing & Peer Review (6 sessions)
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 14 | Wed, Oct 14 | [Reading, Reporting, and the Reader's Work](../modules/paper/#lecture-1) | Gopen & Swan reader expectation; CARS move audit; tiered-reading measurement; topic, audience, and permission | Portfolio: Topic, Audience & Scope |
+| 14 | Wed, Oct 14 | [Reading, Reporting, and the Reader's Work](../modules/paper/#lecture-1) | Gopen & Swan reader expectation; CARS move audit; tiered-reading measurement; reporting-guideline orientation; topic, audience, and permission | Portfolio: Topic, Audience & Scope |
 | 15 | Mon, Oct 19 | [Writing Principles and Their Boundaries](../modules/paper/#lecture-2) | Whitesides outline-as-instrument; one observable rule tested in three preselected excerpts; conclusion-first drafting | Portfolio: Draft 1 |
 | 16 | Wed, Oct 21 | [Revision as Argument Restructuring](../modules/paper/#lecture-3) | Public abstract map; clearly constructed comparison; structural vs. surface change; number audit | Portfolio: Draft 2 |
-| 17 | Mon, Oct 26 | [Peer Review Systems and What They Publish](../modules/paper/#lecture-4) | Real *Nature* referee reports; two eLife review regimes; assessment-vocabulary calibration; independent review | |
+| 17 | Mon, Oct 26 | [Peer Review Systems, Venue Requirements, and What They Publish](../modules/paper/#lecture-4) | Real *Nature* referee reports; two eLife review regimes; assessment-vocabulary calibration; venue-property and version check; independent review | Venue-property record (in class) |
 | 18 | Wed, Oct 28 | [Responding to Review](../modules/paper/#lecture-5) | Published point-by-point rebuttal; answering a necessity challenge; response letter | Portfolio: Peer Review + Response |
-| 19 | Mon, Nov 2 | [AI in Scientific Writing: Verification and Disclosure](../modules/paper/#lecture-6) | Common public input; equivalent direct-use and artifact-audit paths; claim verification | Portfolio: AI Stress Test |
-| 20 | Wed, Nov 4 | [Venue, Reporting, and What the Publication Record Supports](../modules/paper/#lecture-7) | Author instructions; reporting guidelines; preprint versions; public-record limits; bridge to ethics module | **Portfolio: Final Version** |
+| 19 | Mon, Nov 2 | [AI Verification, Disclosure & Submission](../modules/paper/#lecture-6) | Common public input; equivalent direct-use and artifact-audit paths; claim verification; final revision sprint and submission readiness | **Portfolio: Final Version (due Nov 4)** |
 
 ---
 
-### Module 4: Research Ethics (7 sessions)
+### Module 4: Research Ethics (7 content sessions + final presentations)
 
-| # | Date | Topic | Key Activities | Deliverable |
-|:---:|------|-------|----------------|-------------|
-| 21 | Mon, Nov 9 | [Introduction to Ethics in Research](../modules/ethics/#session-1) | Ethics vs. law vs. morals; Resnik principles; Alberts systemic pressures; perverse incentives exercise | |
-| 22 | Wed, Nov 11 | [Research Misconduct, COI & Industry](../modules/ethics/#session-2) | FFP + gray zone; paper mills case; COI scenario analysis | |
-| 23 | Mon, Nov 16 | [Dual-Use Research](../modules/ethics/#session-3) | DURC framework; scenario concern ratings; gene drive debate; oversight ranking | |
-| 24 | Wed, Nov 18 | [Science Communication as Ethical Obligation](../modules/ethics/#session-4) | Scientist/family info gap; genuine vs. false successes; press release rewrite; preliminary findings scenario | |
+| # | Date | Topic | Key Activities | Instructor |
+|:---:|------|-------|----------------|:---:|
+| 20 | Wed, Nov 4 | [Introduction to Ethics in Scientific Research](../modules/ethics/#session-1) | Ethics vs. law vs. morals; Resnik principles; Alberts systemic pressures; perverse incentives exercise | Dr. Reckess |
+| 21 | Mon, Nov 9 | [Authorship, Plagiarism & Peer Review](../modules/ethics/#session-2) | ICMJE criteria; CRediT taxonomy; self-plagiarism; authorship scenarios; AI authorship exercise | Prof. Zhang |
+| 22 | Wed, Nov 11 | [Artificial Intelligence in Research](../modules/ethics/#session-3) | Ghostwriting problem; AI bias; detection paradox; regulatory frameworks debate | Eric Mathis (guest) |
+| 23 | Mon, Nov 16 | [Research Misconduct](../modules/ethics/#session-4) | FFP + gray zone; paper mills case; responding to suspected violations | Dr. Reckess |
+| 24 | Wed, Nov 18 | [Conflicts of Interest & Industry Relationships](../modules/ethics/#session-5) | Individual and institutional COI; scenario analysis; mitigation plans | Dr. Reckess |
 | | Mon, Nov 23 | **NO CLASS** | *Thanksgiving Break* | |
 | | Wed, Nov 25 | **NO CLASS** | *Thanksgiving Break* | |
-| 25 | Mon, Nov 30 | [Artificial Intelligence in Research](../modules/ethics/#session-5) | Ghostwriting problem; AI bias; detection paradox; regulatory frameworks debate | |
-| 26 | Wed, Dec 2 | [Authorship & Credit](../modules/ethics/#session-6) | ICMJE criteria; CRediT taxonomy; authorship scenarios; AI authorship exercise | |
-| 27 | Mon, Dec 7 | [Intellectual Property & Data Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent dispute; data sharing dilemma; course wrap-up | |
+| 25 | Mon, Nov 30 | [Science Communication and Science in Society](../modules/ethics/#session-6) | Scientist/family info gap; genuine vs. false successes; press release rewrite; preliminary findings scenario | Dr. Reckess |
+| 26 | Wed, Dec 2 | [Intellectual Property & Ownership](../modules/ethics/#session-7) | Four types of IP; CRISPR patent dispute; data sharing dilemma; course wrap-up | Dr. Reckess |
+| 27 | Mon, Dec 7 | [Final Team Presentations](../modules/ethics/#presentations) | Formative project presentations; feedback informs the final report | All instructors |
 
 **Final Team Project (Technology & Responsibility Report) due: Tuesday, December 15**
 
@@ -107,8 +107,8 @@ permalink: /schedule/
 | **Oct 19** | Writing Portfolio Draft 1 | Module 3 |
 | **Oct 21** | Writing Portfolio Draft 2 | Module 3 |
 | **Oct 28** | Writing Portfolio Peer Review + Response to Review | Module 3 |
-| **Nov 2** | Writing Portfolio AI Stress Test | Module 3 |
-| **Nov 4** | Writing Portfolio Final Version | Module 3 |
+| **Nov 4** | Writing Portfolio Final Version (AI verification record + revision history + submission-readiness check) | Module 3 |
+| **Dec 7** | Technology & Responsibility Report Presentations (formative) | Module 4 |
 | **Dec 15** | Technology & Responsibility Report | Module 4 |
 
 ### CATME Peer Evaluation Schedule
@@ -118,5 +118,5 @@ permalink: /schedule/
 | Rater Practice | Lecture 1 (Aug 24) | None |
 | Evaluation 1 | Module 1 ends (Sep 14) | None |
 | Evaluation 2 | Final Module 2 team concept note submitted (Oct 14) | None |
-| Evaluation 3 | Module 3 ends (Nov 4) | None |
+| Evaluation 3 | Module 3 ends (Nov 2) | None |
 | Evaluation 4 | End of semester (Dec 7) | **Multiplier applied** |
