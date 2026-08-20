@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CATME &middot; Bioinspired Communication and Ethics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --c: #A8770E;   /* Contributing to the Team's Work */
+  --i: #2E7D32;   /* Interacting with Teammates */
+  --k: #C62828;   /* Keeping the Team on Track */
+  --e: #1565C0;   /* Expecting Quality */
+  --h: #7B1FA2;   /* Having Relevant KSAs */
+  --ink: #1C1B19;
+  --paper: #FCFCFA;
+  --muted: #6E6C66;
+  --rule: #DEDBD3;
+  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+*{box-sizing:border-box;}
+p{margin:0;}
+html,body{height:100%;margin:0;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--display);
+  -webkit-font-smoothing:antialiased;
+  overflow:hidden;
+}
+
+/* ---------- signature: the five-dimension spine ---------- */
+.spine{
+  position:fixed; top:0; left:0; right:0; height:6px;
+  display:grid; grid-template-columns:repeat(5,1fr);
+  z-index:40;
+}
+.spine span{background:currentColor; opacity:.22; transition:opacity .35s ease;}
+.spine span:nth-child(1){color:var(--c);}
+.spine span:nth-child(2){color:var(--i);}
+.spine span:nth-child(3){color:var(--k);}
+.spine span:nth-child(4){color:var(--e);}
+.spine span:nth-child(5){color:var(--h);}
+body.dims-live .spine span{opacity:1;}
+
+/* ---------- deck frame ---------- */
+.deck{position:relative; height:100%; width:100%;}
+.slide{
+  position:absolute; inset:0;
+  padding:clamp(3.4rem,7vh,5.5rem) clamp(2rem,7vw,7rem) clamp(3rem,6vh,4.6rem);
+  display:flex; flex-direction:column; justify-content:center;
+  opacity:0; visibility:hidden; transform:translateY(10px);
+  transition:opacity .3s ease, transform .3s ease, visibility .3s;
+}
+.slide.active{opacity:1; visibility:visible; transform:none; overflow-y:auto;}
+@media (prefers-reduced-motion:reduce){
+  .slide{transition:none; transform:none;}
+}
+
+.eyebrow{
+  font-family:var(--mono); font-size:.72rem; font-weight:500;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 1.4rem;
+}
+h1{
+  font-size:clamp(2.6rem,6.4vw,4.6rem); font-weight:800;
+  line-height:1.02; letter-spacing:-.03em; margin:0 0 1.4rem; max-width:20ch;
+}
+h2{
+  font-size:clamp(1.9rem,4vw,3rem); font-weight:700;
+  line-height:1.08; letter-spacing:-.02em; margin:0 0 1.6rem; max-width:22ch;
+}
+.lede{
+  font-size:clamp(1.15rem,1.8vw,1.45rem); line-height:1.5;
+  color:var(--muted); max-width:64ch; margin:0 0 1.6rem;
+}
+.meta{font-family:var(--mono); font-size:.86rem; color:var(--muted); line-height:1.9;}
+
+/* ---------- dimension list ---------- */
+.dims{list-style:none; margin:0; padding:0; display:grid; gap:.85rem; max-width:74ch;}
+.dims li{display:grid; grid-template-columns:2.6rem 1fr; align-items:baseline; gap:1rem;}
+.tag{
+  font-family:var(--mono); font-weight:600; font-size:1.35rem;
+  color:currentColor; letter-spacing:.02em;
+}
+.dims li b{font-weight:700; font-size:clamp(1rem,1.5vw,1.2rem);}
+.dims li span.gloss{display:block; color:var(--muted); font-size:.95rem; line-height:1.45; margin-top:.15rem;}
+.d-c{color:var(--c);} .d-i{color:var(--i);} .d-k{color:var(--k);}
+.d-e{color:var(--e);} .d-h{color:var(--h);}
+
+/* ---------- practice items ---------- */
+.items{list-style:none; margin:0; padding:0; display:grid; gap:1.2rem; max-width:74ch;}
+.items li{
+  display:grid; grid-template-columns:1fr 5.5rem; gap:1.5rem; align-items:baseline;
+  font-size:clamp(1.05rem,1.75vw,1.4rem); line-height:1.35;
+  padding-bottom:1rem; border-bottom:1px solid var(--rule);
+}
+.items li:last-child{border-bottom:0;}
+.key{
+  font-family:var(--mono); font-weight:600; font-size:1.15rem; text-align:right;
+  opacity:0; transform:translateX(-6px);
+  transition:opacity .28s ease, transform .28s ease;
+  white-space:nowrap;
+}
+.slide.revealed .key{opacity:1; transform:none;}
+@media (prefers-reduced-motion:reduce){ .key{transition:none; transform:none;} }
+
+.reveal-btn{
+  align-self:flex-start; margin-top:2rem;
+  font-family:var(--mono); font-size:.75rem; font-weight:500;
+  letter-spacing:.12em; text-transform:uppercase;
+  background:none; color:var(--muted);
+  border:1px solid var(--rule); border-radius:2px;
+  padding:.6rem 1.1rem; cursor:pointer;
+  transition:color .2s, border-color .2s;
+}
+.reveal-btn:hover{color:var(--ink); border-color:var(--ink);}
+.reveal-btn:focus-visible{outline:2px solid var(--ink); outline-offset:3px;}
+.slide.revealed .reveal-btn{visibility:hidden;}
+
+/* ---------- scorecard ---------- */
+.scores{list-style:none; margin:0; padding:0; display:grid; gap:1.05rem; max-width:60ch;}
+.scores li{
+  display:flex; justify-content:space-between; align-items:baseline;
+  gap:2rem; font-weight:700; font-size:clamp(1.1rem,1.9vw,1.55rem);
+  border-bottom:1px solid var(--rule); padding-bottom:.7rem;
+}
+.scores li em{font-style:normal; font-family:var(--mono); font-size:1.5rem;}
+
+/* ---------- callout ---------- */
+.callout{
+  border-left:3px solid var(--ink); padding:.3rem 0 .3rem 1.4rem;
+  max-width:70ch; font-size:clamp(1.15rem,1.8vw,1.45rem); line-height:1.45;
+}
+.callout.warn{border-left-color:var(--k);}
+.stack{display:grid; gap:1.75rem;}
+.note{display:block; font-size:clamp(1rem,1.25vw,1.15rem); color:var(--muted);
+      line-height:1.55; max-width:70ch;}
+.callout .nested{margin-top:.55rem;}
+.note.tail{margin-top:1.9rem;}
+.strike{text-decoration:line-through; text-decoration-thickness:2px; color:var(--muted);}
+mark{background:#FBEFC4; color:inherit; padding:0 .2em;}
+
+/* ---------- timeline ---------- */
+.tl{list-style:none; margin:0; padding:0; display:grid; gap:0; max-width:78ch;
+    border-top:1px solid var(--rule);}
+.tl li{display:grid; grid-template-columns:8.5rem 1fr; gap:1.6rem;
+       padding:1.15rem 0; border-bottom:1px solid var(--rule); align-items:baseline;}
+.tl time,.tl .when{font-family:var(--mono); font-size:.95rem; font-weight:600;
+       letter-spacing:.06em; color:var(--ink); white-space:nowrap;}
+.tl .when.soft{color:var(--muted); font-weight:500;}
+.tl b{font-size:clamp(1.05rem,1.55vw,1.3rem); font-weight:700;}
+.tl p{color:var(--muted); font-size:clamp(.95rem,1.15vw,1.08rem);
+      line-height:1.5; margin-top:.2rem;}
+
+/* ---------- chrome ---------- */
+.dots{
+  position:fixed; bottom:1.6rem; left:50%; transform:translateX(-50%);
+  display:flex; gap:.5rem; z-index:30;
+}
+.dots button{
+  width:7px; height:7px; padding:0; border-radius:50%;
+  border:1px solid var(--muted); background:none; cursor:pointer;
+  transition:background .2s, transform .2s;
+}
+.dots button[aria-current="true"]{background:var(--ink); border-color:var(--ink); transform:scale(1.35);}
+.dots button:focus-visible{outline:2px solid var(--ink); outline-offset:3px;}
+
+.counter{
+  position:fixed; bottom:1.4rem; right:clamp(1.5rem,5vw,4rem);
+  font-family:var(--mono); font-size:.75rem; color:var(--muted); z-index:30;
+}
+.brand{
+  position:fixed; top:1.6rem; left:clamp(2rem,7vw,7rem);
+  font-family:var(--mono); font-size:.72rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); z-index:30;
+}
+
+@media print{
+  body{overflow:visible;}
+  .slide{position:static; opacity:1; visibility:visible; transform:none;
+         page-break-after:always; height:100vh; padding:3rem;}
+  .key{opacity:1; transform:none;}
+  .dots,.counter,.reveal-btn,.spine{display:none;}
+}
+</style>
+</head>
+<body>
+
+<div class="spine" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+<div class="brand">Bioinspired Communication and Ethics</div>
+
+<main class="deck" id="deck">
+
+  <!-- 1 -->
+  <section class="slide" data-dims>
+    <p class="eyebrow">Week 1 · Teamwork</p>
+    <h1>CATME: how we form teams, and how you'll evaluate them</h1>
+    <p class="lede">Two tools, one system. You'll use both this semester, starting in September.</p>
+    <p class="meta">Fall 2026 · Teams of three · Four evaluations</p>
+  </section>
+
+  <!-- 2 -->
+  <section class="slide">
+    <p class="eyebrow">Dates to write down</p>
+    <h2>Teams form in September and stay put</h2>
+    <ul class="tl">
+      <li><span class="when">SEP 9</span>
+          <div><b>Team-forming survey opens</b>
+          <p>CATME emails you a link. Schedule, background, working preferences.</p></div></li>
+      <li><span class="when">SEP [__]</span>
+          <div><b>Survey closes, 11:59pm</b>
+          <p>I can't build teams until everyone has answered.</p></div></li>
+      <li><span class="when">SEP 14</span>
+          <div><b>Teams announced</b>
+          <p>Teams of three. Same team for the whole semester.</p></div></li>
+      <li><span class="when soft">&times;4</span>
+          <div><b>Peer evaluation, after each presentation</b>
+          <p>Dates on Blackboard. The first three are feedback only; the fourth affects your grade.</p></div></li>
+    </ul>
+  </section>
+
+  <!-- 3 -->
+  <section class="slide">
+    <p class="eyebrow">Team-forming survey · September 9</p>
+    <h2>The one mistake almost everyone makes</h2>
+    <div class="stack">
+      <p class="callout warn">The schedule grid asks when you are <mark><b>busy and unavailable</b></mark>. It is not a when-are-you-free poll. Check the blocks you <em>cannot</em> meet.</p>
+      <p class="note">Everyone should mark our class block as busy: <b>Monday and Wednesday, [class time]</b>. Also mark standing commitments: lab, TA duties, seminars, care responsibilities, standing meetings.</p>
+      <p class="note">The survey also asks your program, year, programming and writing experience, hours you plan to spend outside class, and how you prefer to lead or follow. Answer honestly. The algorithm can only build workable teams from accurate input, and schedule compatibility is weighted most heavily.</p>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section class="slide" data-dims>
+    <p class="eyebrow">The instrument</p>
+    <h2>Five dimensions</h2>
+    <ul class="dims">
+      <li class="d-c"><span class="tag">C</span><div><b>Contributing to the Team's Work</b><span class="gloss">Does the share of work, on time, at usable quality.</span></div></li>
+      <li class="d-i"><span class="tag">I</span><div><b>Interacting with Teammates</b><span class="gloss">Communicates, listens, keeps everyone informed, handles conflict.</span></div></li>
+      <li class="d-k"><span class="tag">K</span><div><b>Keeping the Team on Track</b><span class="gloss">Tracks progress, notices when things slip, gives teammates feedback.</span></div></li>
+      <li class="d-e"><span class="tag">E</span><div><b>Expecting Quality</b><span class="gloss">Holds the team to a high standard and says so out loud.</span></div></li>
+      <li class="d-h"><span class="tag">H</span><div><b>Having Relevant Knowledge, Skills, and Abilities</b><span class="gloss">Brings the ability the task needs, and picks up what's missing.</span></div></li>
+    </ul>
+  </section>
+
+  <!-- 5 -->
+  <section class="slide">
+    <p class="eyebrow">Before you rate anyone</p>
+    <h2>Three is the expectation, not a disappointment</h2>
+    <div class="stack">
+      <p class="callout">The middle description is what a <b>perfectly functioning team</b> looks like. Save the top description for someone who genuinely stood out. Use the bottom one when expectations were genuinely not met.</p>
+      <p class="note">Inflating everyone to 5 makes the whole instrument useless. It also makes it impossible to tell your team anything they can act on. A 3 says the work got done well; that is a good outcome.</p>
+      <p class="note">Rate in private. Don't compare answers with your team beforehand.</p>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section class="slide">
+    <p class="eyebrow">Practice · Madison Lewis</p>
+    <h2>Assign a dimension, then a rating</h2>
+    <ul class="items">
+      <li><span>Writes down a checklist of what the team needs to get done for meetings.</span><span class="key d-k">K · 5</span></li>
+      <li><span>Completes any math required as part of the team's assignments.</span><span class="key d-c">C · 3</span></li>
+      <li><span>Fails to give status reports to other team members.</span><span class="key d-i">I · 1</span></li>
+    </ul>
+    <button class="reveal-btn" type="button">Show answers</button>
+  </section>
+
+  <!-- 7 -->
+  <section class="slide">
+    <p class="eyebrow">Practice · Madison Lewis</p>
+    <h2>Keep going</h2>
+    <ul class="items">
+      <li><span>Encourages the team to achieve its highest potential.</span><span class="key d-e">E · 5</span></li>
+      <li><span>Communicates high expectations with regard to the quality of assignments.</span><span class="key d-e">E · 5</span></li>
+      <li><span>Generates novel ideas that help the team.</span><span class="key d-c">C · 5</span></li>
+    </ul>
+    <button class="reveal-btn" type="button">Show answers</button>
+  </section>
+
+  <!-- 8 -->
+  <section class="slide">
+    <p class="eyebrow">Practice · Madison Lewis</p>
+    <h2>Last four</h2>
+    <ul class="items">
+      <li><span>Figures out how to do the math for assigned problems.</span><span class="key d-h">H · 3</span></li>
+      <li><span>Listens to everyone's opinions.</span><span class="key d-i">I · 3</span></li>
+      <li><span>Able to use base knowledge of computers in some assignments.</span><span class="key d-h">H · 3</span></li>
+      <li><span>Gives constructive feedback.</span><span class="key d-k">K · 5</span></li>
+    </ul>
+    <button class="reveal-btn" type="button">Show answers</button>
+  </section>
+
+  <!-- 9 -->
+  <section class="slide" data-dims>
+    <p class="eyebrow">Practice · Overall ratings</p>
+    <h2>What Madison gets</h2>
+    <ul class="scores">
+      <li class="d-c"><span>Contributing to the Team's Work</span><em>4</em></li>
+      <li class="d-i"><span>Interacting with Teammates</span><em>2</em></li>
+      <li class="d-k"><span>Keeping the Team on Track</span><em>5</em></li>
+      <li class="d-e"><span>Expecting Quality</span><em>5</em></li>
+      <li class="d-h"><span>Having Relevant KSAs</span><em>3</em></li>
+    </ul>
+    <p class="note tail">Each overall rating follows from the behaviors in that dimension. Madison is a strong teammate with one real problem: she doesn't keep people informed. That is exactly the kind of thing peer evaluation is for.</p>
+  </section>
+
+  <!-- 10 -->
+  <section class="slide">
+    <p class="eyebrow">Two distinctions worth remembering</p>
+    <h2>Where people disagree</h2>
+    <div class="stack">
+      <p class="callout"><b class="d-c">Doing the work</b> is not the same as <b class="d-h">having the ability</b>.<br>
+      <span class="note nested">"Completes the math required" is contributing. "Figures out how to do the math" is knowledge and skill. One is effort, the other is capability.</span></p>
+      <p class="callout"><b class="d-k">Giving feedback</b> is keeping the team on track, not interacting.<br>
+      <span class="note nested">Interacting covers communication and listening. Noticing that something needs to change, and saying so, is track-keeping.</span></p>
+    </div>
+  </section>
+
+  <!-- 11 -->
+  <section class="slide">
+    <p class="eyebrow">Peer-to-peer comments</p>
+    <h2>Write something they can act on</h2>
+    <div class="stack">
+      <p class="callout">Address the person directly. <span class="strike">"They were often late to meetings."</span> → "Arriving with your section drafted would give us more time to revise."</p>
+      <p class="note"><b>Respectful and actionable.</b> Name a behavior and a change, not a trait. "Disorganized" is not usable; "post the draft the night before so we can read it" is.</p>
+      <p class="note"><b>On a team of three, assume your comments are attributable.</b> Two teammates, two sets of comments. Write only what you would say to their face, because functionally you are.</p>
+      <p class="note">There is a separate box for confidential comments to me. Use it for anything you don't want your team to see.</p>
+    </div>
+  </section>
+
+  <!-- 12 -->
+  <section class="slide">
+    <p class="eyebrow">Grading</p>
+    <h2>Three rounds of feedback, one that counts</h2>
+    <div class="stack">
+      <p class="callout">Evaluations 1, 2, and 3 are formative. Only the fourth affects your grade.</p>
+      <p class="note">That is deliberate. Early low ratings are useful information, not a penalty, and you have the rest of the semester to respond to them. Someone who takes the feedback and changes should not be carrying the first-round score in December.</p>
+      <p class="note">Completing each evaluation is required, including the ones that don't affect your grade. I can't return results to your team until everyone has submitted.</p>
+    </div>
+  </section>
+
+</main>
+
+<nav class="dots" id="dots" aria-label="Slides"></nav>
+<div class="counter" id="counter" aria-live="polite"></div>
+
+<script>
+(function(){
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var dotsBar = document.getElementById('dots');
+  var counter = document.getElementById('counter');
+  var idx = 0;
+
+  slides.forEach(function(s, i){
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.setAttribute('aria-label', 'Slide ' + (i + 1));
+    b.addEventListener('click', function(){ go(i); });
+    dotsBar.appendChild(b);
+  });
+  var dots = Array.prototype.slice.call(dotsBar.children);
+
+  function go(n){
+    idx = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach(function(s, i){ s.classList.toggle('active', i === idx); });
+    dots.forEach(function(d, i){ d.setAttribute('aria-current', i === idx ? 'true' : 'false'); });
+    counter.textContent = (idx + 1) + ' / ' + slides.length;
+    document.body.classList.toggle('dims-live', slides[idx].hasAttribute('data-dims'));
+  }
+
+  function reveal(){
+    var s = slides[idx];
+    if (s.querySelector('.key')) s.classList.add('revealed');
+  }
+
+  document.querySelectorAll('.reveal-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){ btn.closest('.slide').classList.add('revealed'); });
+  });
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight' || e.key === 'PageDown') { go(idx + 1); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { go(idx - 1); }
+    else if (e.key === ' ') { e.preventDefault(); slides[idx].querySelector('.key') && !slides[idx].classList.contains('revealed') ? reveal() : go(idx + 1); }
+    else if (e.key === 'Home') { go(0); }
+    else if (e.key === 'End') { go(slides.length - 1); }
+    else if (e.key === 'r' || e.key === 'R') { reveal(); }
+  });
+
+  go(0);
+})();
+</script>
+</body>
+</html>
