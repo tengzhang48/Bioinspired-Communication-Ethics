@@ -69,6 +69,7 @@ Bioinspired-Communication-Ethics/
 │
 └── presentations/                     ← Standalone HTML slide decks
     ├── _deck-template.html            ← House style v1 (not published; name starts with "_")
+    ├── CATME_intro_Fall2026.html      ← Module 1 L1
     ├── Writing_Advice_Summary.html    ← Module 3 L2
     ├── abstract_revision_case.html    ← Module 3 L3
     └── peer_review_models.html        ← Module 3 L4
@@ -127,6 +128,7 @@ Internal review notes and retired source files are maintained outside this publi
 | File | Size | Topic | Status |
 |---|---|---|---|
 | `_deck-template.html` | 18 KB | House style v1 — provenance block, evidence badges, sourced-number rule, dark mode, print, a11y | Not published (leading `_`) |
+| `CATME_intro_Fall2026.html` | 18 KB | The five behaviorally anchored CATME dimensions, why a rating of 3 is a good rating, and how to write feedback teammates can act on | **Module 1 L1 — new** |
 | `Writing_Advice_Summary.html` | 28 KB | Writing principles with per-principle attribution and the Whitesides/Weitz disagreement on tense | **Module 3 L2 — rebuilt, verified** |
 | `abstract_revision_case.html` | 23 KB | Public abstract map, clearly constructed comparison, and number audit | **Module 3 L3 — new, source-bound** |
 | `peer_review_models.html` | 28 KB | Three real review records; what each model publishes | **Module 3 L4 — new, verified** |
