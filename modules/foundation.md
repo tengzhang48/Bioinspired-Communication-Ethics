@@ -18,7 +18,7 @@ This module builds practical skills for working in diverse, interdisciplinary re
 
 | # | Lecture | Case Study | Field Guide Ch. | Deliverable |
 |---|--------|------------|:---:|-------------|
-| 1 | [CATME & Peer Evaluation](#lecture-1) | Free-rider + feedback microcases | 2, 11 (selected pages) | Rater Practice + feedback exit ticket |
+| 1 | [CATME & Peer Evaluation](#lecture-1) | Free-rider + feedback microcases | 2, 11 (selected pages) | Rating practice (paper) + feedback exit ticket |
 | 2 | [Team Formation & Shared Standards](#lecture-2) | Apollo 13 | 4–5 (selected pages) | Team Charter core draft |
 | 3 | [When the Tools Change the Work](#lecture-3) | *Frontiers* retraction | 4–5 (selected pages) | Tooling & verification appendix |
 | 4 | [Cross-Disciplinary Communication](#lecture-4) | AlphaFold | 6–7, 9 (selected pages) | Skills & integration appendix |
@@ -51,7 +51,7 @@ The Charter is a framework for a working relationship, not a substitute for one.
 
 | Evaluation | Timing | Grade Impact |
 |:---:|---------------------|:---:|
-| Rater Practice | Lecture 1 | None |
+| Rater Practice | Inside the Team-Maker survey (opens Sep 9) | None |
 | Evaluation 1 | After Module 1 | None — formative |
 | Evaluation 2 | After the final Module 2 team concept note (Oct 14) | None — formative |
 | Evaluation 3 | After Module 3 | None — formative |
@@ -63,7 +63,7 @@ The Charter is a framework for a working relationship, not a substitute for one.
 
 For this course, **teams of three** are used to increase participation, make individual responsibilities visible, and keep coordination manageable. This is a course-design choice, not a claim that three is the universally optimal size for research teams; the Field Guide explicitly covers teams ranging from two-person collaborations to large international networks.
 
-For a class of approximately 25 students, this means about eight teams, with one team of four when enrollment does not divide evenly. Teams normally stay together for the semester so that members can practice repair and revision through the difficult middle phase. The instructor may intervene when safety, accessibility, sustained nonparticipation, or another serious condition makes continuity inappropriate.
+For a class of approximately 25 students, this means about eight teams, with one team of four when enrollment does not divide evenly. Module 1 uses a fixed practice trio of three so that the Team Charter can accumulate, unbroken, across Lectures 2–6. Semester teams are formed with CATME Team-Maker after Module 1 and announced September 14. Teams normally stay together for the semester so that members can practice repair and revision through the difficult middle phase. The instructor may intervene when safety, accessibility, sustained nonparticipation, or another serious condition makes continuity inappropriate.
 
 ---
 
@@ -123,24 +123,43 @@ Receiving feedback is also a team skill. Begin with a sincere “thank you”; a
 
 ### AI, Contribution, and Transparency in Teamwork
 
-Generative AI tools are now part of many research environments. In this course, one basic principle applies: **AI use in team settings must be transparent to teammates.**
+Generative AI tools are now part of many research environments. In this course, one basic principle applies: **AI use in team settings must be transparent, accountable, and open to appropriate human oversight.**
 
 The key question is not whether you used AI, but **how** you used it and whether that use changed the nature of your contribution. Using AI to brainstorm, reorganize notes, or clean up prose after doing the underlying thinking is different from using AI to produce a draft that the rest of the team must verify, rewrite, or repair.
 
+As AI becomes increasingly integrated into scientific research, another question becomes equally important: can your teammates understand and evaluate how AI contributed to the work? Effective collaboration depends upon **observability**—the ability for collaborators to understand the decisions, assumptions, and human judgment that shaped a research product. Responsible AI use therefore requires transparency not simply about whether AI was used, but how it informed the research process and where human expertise remained essential.
+
 Peer evaluation is based on **observable contribution, communication, accountability, and quality control**. AI does not remove those responsibilities. When you share work with your team, you are expected to:
 
-- **Advance the work, not create cleanup.** Verify claims, references, and reasoning before sharing. Do not hand the team unverified output that others must fix.
-- **Disclose AI use honestly.** Tell teammates what you used AI for and what still needs human checking.
+- **Advance the work, not create cleanup.** Verify claims, references, reasoning, and AI-generated outputs before sharing. Do not hand the team unverified material that others must correct or validate.
+- **Disclose AI use honestly.** Tell teammates what you used AI for, where it contributed, and what still requires human review.
 - **Meet deadlines responsibly.** AI should help you manage time, not create last-minute surprises or hidden risks.
-- **Apply your own judgment.** Use AI as a support tool, not a replacement for your expertise and critical thinking.
+- **Apply your own judgment.** Use AI as a support tool, not a replacement for your expertise, disciplinary knowledge, or critical thinking.
+- **Maintain accountability.** Regardless of how much AI assisted your work, you remain responsible for the accuracy, integrity, and quality of everything you contribute to the team.
 
-This course does not ban AI in teamwork. The goal is to prevent AI from becoming a source of hidden labor, unequal contribution, or confusion about authorship and responsibility. You will revisit these questions in later modules as writing, peer review, and research ethics issues.
+This course does not ban AI in teamwork. The goal is to prevent AI from becoming a source of hidden labor, unequal contribution, or confusion about authorship and responsibility. More broadly, the goal is to help you develop the habits of responsible AI stewardship that increasingly define effective interdisciplinary research. Throughout the semester, we will revisit these ideas through writing, proposal development, peer review, and research ethics as we explore how transparency, observability, governance, and human judgment remain central to trustworthy scientific collaboration.
+
+### Asynchronous Activity: AI-Assisted Reflection and Source Verification
+
+Assigned today; **due August 31.** Watch the two required videos below and complete the reflection activity. The purpose of this assignment is not simply to use generative AI, but to critically evaluate how AI can support—and sometimes undermine—scientific communication and scholarly work.
+
+**Required Video 1 — "Why AI Is Incredibly Smart and Shockingly Stupid,"** Dr. Yejin Choi (TED), ~15 min. Explores both the remarkable capabilities and the fundamental limitations of modern generative AI systems. As you watch, consider how AI influences trust, accountability, transparency, and human judgment within interdisciplinary research teams.
+
+**Required Video 2 — "Why Large Language Models Hallucinate,"** IBM Technology, ~10 min. Explains why generative AI systems sometimes generate fabricated facts, misleading summaries, or nonexistent citations. As you watch, think about why researchers must verify AI-generated information before sharing it with collaborators and how unverified AI output can create hidden labor for research teams.
+
+Together, these videos introduce one of the central themes of the lecture: responsible AI use is not determined by whether AI was used, but by whether it was used transparently, critically, and responsibly.
+
+**Part 1 — AI-Assisted Reflection.** Using a generative AI tool of your choice, develop an initial reflection on each video (brainstorming, bullet points, an outline, a rough narrative, or summarizing major themes are all acceptable uses). Your final submission should reflect your own thinking and judgment, even if AI assisted in developing the initial draft.
+
+**Part 2 — Citation Verification.** Ask your AI assistant for at least three scholarly or authoritative sources supporting claims made in your reflection. For each citation, verify that it actually exists, confirm it accurately supports the claim it's cited for, and identify any inaccuracies, fabricated citations ("hallucinations"), misleading summaries, or unsupported claims. Revise your reflection as necessary after completing your verification, and briefly describe how you verified each citation (e.g., Google Scholar, publisher website, university library database).
+
+**Part 3 — AI Use and Ethical Reflection.** Include a short appendix describing your interaction with AI: which tool(s) you used, what prompts or workflow you developed, which portions of your reflection were AI-assisted, what edits you made after reviewing the AI output, any factual errors/fabricated citations/biased responses the AI produced, how using AI changed your approach to learning or critical thinking, and what you believe are the ethical responsibilities of researchers using generative AI.
 
 ### How We'll Use CATME This Semester
 
 | Evaluation | Timing | Purpose | Grade Impact |
 |---|---|---|---|
-| **Rater Practice** | Lecture 1 | Learn the system; practice with hypothetical teammates | None |
+| **Rater Practice** | Inside the Team-Maker survey (opens Sep 9) | Learn the system; practice with hypothetical teammates | None |
 | **Evaluation 1** | After Module 1 ends | Early formative feedback; establish baseline | Ratings do not affect grades |
 | **Evaluation 2** | After the final Module 2 team concept note (Oct 14) | Mid-semester check; identify issues while there's time to change | None — purely feedback |
 | **Evaluation 3** | After Module 3 deliverable | Late formative; final chance to adjust | None — purely feedback |
@@ -186,7 +205,7 @@ Before applying a substantial downward adjustment—or when the underlying CATME
 
 **CATME purpose and walkthrough (~12 min):** Demonstrate the five dimensions and behavioral anchors. Distinguish observed behavior from assumptions, popularity, and personality judgments.
 
-**Rater Practice (~18 min):** Complete CATME's rating simulation with hypothetical teammates. Record one place where your initial rating differed from the practice feedback.
+**Rating practice on paper (~15 min):** Assign ten described behaviors to the five dimensions and rate each one, individually and without discussion. Compare answers as a class. The two distinctions that matter are completing assigned work versus having the ability to do it, and giving feedback as track-keeping rather than interaction.
 
 **Free-rider scenario and evidence audit (~12 min):** Rate Alex on each dimension using only the scenario. Mark each statement as observation, inference, or missing information. Compare Jordan's proposed private conversation with Field Guide Case Study 23 and the Chapter 11 “When It's Not Working” indicators on indirect communication and gossip.
 
@@ -196,11 +215,11 @@ Before applying a substantial downward adjustment—or when the underlying CATME
 
 **Individual reflection and provisional norm (~8 min):** Write one evidence rule for future CATME ratings and one provisional team norm for feedback or transparent AI use. These become inputs to the Lecture 2 Charter draft.
 
-**Buffer and exit check (~6 min).**
+**Buffer and exit check (~9 min).**
 
 ### Deliverable
 
-Complete **CATME Rater Practice during class** and submit the feedback/Charter-norm exit ticket before leaving. If a technical problem prevents completion, notify the instructor and finish within the arranged window. Evaluation 1 opens after Module 1 ends on September 14.
+Submit the feedback/Charter-norm exit ticket before leaving. CATME Rater Practice is completed inside the Team-Maker survey, which opens September 9. The AI-Assisted Reflection and Source Verification assignment (Parts 1–3, above) is due August 31.
 
 </div>
 </details>
@@ -224,7 +243,7 @@ Complete **CATME Rater Practice during class** and submit the feedback/Charter-n
 
 **Apollo 13 discussion (~15 min):** *Instructor note: “Failure is not an option” was created for the 1995 film, not spoken during the mission.* What roles, authority, communication routines, and verification resources supported distributed decisions? Which practices can a three-person student team adopt, and which depended on years of training, hierarchy, redundancy, simulation, and institutional infrastructure?
 
-**Team interviews (~12 min):** Teams are announced. Interview a partner about their research interests, a strength they enjoy contributing, work they do not yet feel ready to lead, what helps them respond to disagreement, one access or scheduling condition relevant to teamwork, and one light personal question. Introduce the partner without disclosing information they did not agree to share.
+**Team interviews (~12 min):** Practice trios for Module 1 are announced today. These are not your semester teams—CATME Team-Maker forms those after Module 1, and they are announced September 14. Interview a partner about their research interests, a strength they enjoy contributing, work they do not yet feel ready to lead, what helps them respond to disagreement, one access or scheduling condition relevant to teamwork, and one light personal question. Introduce the partner without disclosing information they did not agree to share.
 
 **“Unit conversion” exercise (~10 min):** Each member names one disciplinary assumption teammates may not share—for example, what “validated,” “significant,” “safe,” or “complete” means. Write an operational definition and identify what evidence would justify pausing an experiment, analysis, or submission.
 
@@ -455,7 +474,7 @@ CATME's descriptions differ by dimension. Do not apply one global label such as 
 
 | Evaluation | Opens | Purpose | Grade Impact |
 |---|---|---|---|
-| Rater Practice | Lecture 1 | Learn the system | None |
+| Rater Practice | Inside the Team-Maker survey (opens Sep 9) | Learn the system | None |
 | Evaluation 1 | After Module 1 | Early formative feedback | None |
 | Evaluation 2 | After the final Module 2 team concept note (Oct 14) | Mid-semester check | None |
 | Evaluation 3 | After Module 3 | Late formative | None |
