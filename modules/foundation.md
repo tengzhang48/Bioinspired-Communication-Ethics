@@ -177,6 +177,7 @@ Before applying a substantial downward adjustment—or when the underlying CATME
 - Field Guide **pp. 16–18 and 21–23**: self-reflection, disciplinary lenses, the Maxim/Lao vignette, psychological safety in feedback, and SBIF
 - Field Guide **p. 26**: “Am I Ready to Participate?” self-check
 - Field Guide **pp. 118–120**: Case Study 23 and indicators of indirect communication, disengagement, and gossip
+- [**CATME: How We Form Teams, and How You'll Evaluate Them**]({{ '/presentations/CATME_intro_Fall2026.html' | relative_url }}) — course deck walking through the five behaviorally anchored dimensions, why a 3 is a good rating, and how to write feedback teammates can act on.
 - [CATME Overview](https://info.catme.org/features/overview/)
 - [CATME Peer Evaluation](https://info.catme.org/features/peer-evaluation/)
 - [Free-rider scenario]({{ '/scenarios/scenario-free-rider/' | relative_url }}): *Mid-Project, Four Weeks In*
