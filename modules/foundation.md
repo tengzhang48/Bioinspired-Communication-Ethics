@@ -274,7 +274,7 @@ Tool decisions are team governance decisions. Teams can make those decisions imp
 
 ### Reading (before class)
 
-- Field Guide **pp. 45 and 53**: keep agreements living, and decide in advance how analysis, review, submission, and publication will be handled
+- Field Guide **p. 53**: decide in advance how analysis, review, submission, and publication will be handled. Published in 2018, the Field Guide predates generative AI tools and does not address them directly—use it for the general practice of deciding tool governance in advance, not for AI-specific guidance.
 - [Case brief: *The Frontiers Retracted Figure*]({{ '/case-studies/case-frontiers-retraction/' | relative_url }}), including the official publisher statement and retraction notice
 - NIH Office of Intramural Research, [*Guidelines and Policies for the Conduct of Research*](https://oir.nih.gov/system/files/media/file/2026-06/guidelines-conduct_research.pdf), **pp. 61–65**, “Responsible Use of AI and Documenting its Utilization.” This is current NIH **intramural** guidance, not a universal policy for every institution.
 - **Pre-class reflection prompt:** Identify one tool you currently use heavily for research work and one tool you have considered using but have not adopted. Bring both to class.
