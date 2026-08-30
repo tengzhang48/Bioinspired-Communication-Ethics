@@ -185,11 +185,9 @@ CATME can flag patterns such as unusually low contribution ratings, disagreement
 
 ### The Grade Multiplier
 
-Only Evaluation 4 produces the course grade multiplier. The applied multiplier is bounded at **0.85–1.05**, matching the syllabus. For this course, self-ratings are excluded from the multiplier; they are used for reflection and discrepancy review.
+Only Evaluation 4 produces the course grade multiplier. Per the syllabus, peer evaluation scales each individual's grade on team assignments **up by as much as 5% and down by as much as 100%**. For example, a team grade of 90 could be increased to 94.5 for a member who receives outstanding peer evaluations, or reduced to 0 for a member who contributes no effort and receives very low peer evaluations.
 
-Before applying a substantial downward adjustment—or when the underlying CATME pattern would fall below the course floor—the instructor reviews the behavioral evidence, written comments, role visibility, workload and access circumstances, possible bias, and the student's response. A CATME flag or raw score alone does not determine the adjustment. Students may ask for the calculation and request review before the multiplier is finalized.
-
-**Example:** If your team earns 90 on a project and your multiplier is 1.02, your individual score is 91.8. If your multiplier is 0.95, your score is 85.5.
+Because peer ratings may have a large effect, any grade multiplier below 0.85 is investigated further before it is assigned—it is not applied automatically. The instructor reviews the behavioral evidence, written comments, role visibility, workload and access circumstances, possible bias, and the student's response before finalizing it. A CATME flag or raw score alone does not determine the adjustment. Students may ask for the calculation and request review before the multiplier is finalized.
 
 ### Reading
 
