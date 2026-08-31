@@ -316,8 +316,7 @@ The 2024 Nobel Prize in Chemistry previews a question the course returns to in L
 
 ### Reading (before class)
 
-- Field Guide **pp. 58–63, 64–70, and 90–96**: shared vision, communication, and managing disciplinary difference
-- [Case brief: AlphaFold]({{ '/case-studies/case-alphafold/' | relative_url }}), including the two primary *Nature* papers, database paper, and official Nobel attribution
+Reading: Field Guide **pp. 58–62, 64–70, and 90–96**, plus the [AlphaFold case brief]({{ '/case-studies/case-alphafold/' | relative_url }}) on the course site. Wednesday's session works directly from the brief rather than summarizing it, so read that one properly.
 
 ### In-Class Activities (80 min)
 
