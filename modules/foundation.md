@@ -201,19 +201,19 @@ Because peer ratings may have a large effect, any grade multiplier below 0.85 is
 
 ### In-Class Activities (80 min)
 
-**CATME purpose and walkthrough (~12 min):** Demonstrate the five dimensions and behavioral anchors. Distinguish observed behavior from assumptions, popularity, and personality judgments.
+**CATME purpose and walkthrough:** Demonstrate the five dimensions and behavioral anchors. Distinguish observed behavior from assumptions, popularity, and personality judgments.
 
-**Rating practice on paper (~15 min):** Assign ten described behaviors to the five dimensions and rate each one, individually and without discussion. Compare answers as a class. The two distinctions that matter are completing assigned work versus having the ability to do it, and giving feedback as track-keeping rather than interaction.
+**Rating practice on paper:** Assign ten described behaviors to the five dimensions and rate each one, individually and without discussion. Compare answers as a class. The two distinctions that matter are completing assigned work versus having the ability to do it, and giving feedback as track-keeping rather than interaction.
 
-**Free-rider scenario and evidence audit (~12 min):** Rate Alex on each dimension using only the scenario. Mark each statement as observation, inference, or missing information. Compare Jordan's proposed private conversation with Field Guide Case Study 23 and the Chapter 11 “When It's Not Working” indicators on indirect communication and gossip.
+**Free-rider scenario and evidence audit:** Rate Alex on each dimension using only the scenario. Mark each statement as observation, inference, or missing information. Compare Jordan's proposed private conversation with Field Guide Case Study 23 and the Chapter 11 “When It's Not Working” indicators on indirect communication and gossip.
 
-**AI and hidden-verification-labor scenario (~9 min):** One teammate uses AI to draft a section quickly, but unsupported claims and fabricated references create repair work for the others. Which CATME dimensions are implicated? What behavior and impact—not assumed intent—should appear in feedback?
+**AI and hidden-verification-labor scenario:** One teammate uses AI to draft a section quickly, but unsupported claims and fabricated references create repair work for the others. Which CATME dimensions are implicated? What behavior and impact—not assumed intent—should appear in feedback?
 
-**SBIF giving-and-receiving role-play (~15 min):** Adapt the Field Guide's Maxim/Lao vignette. Partners separate the observed question from the story each scientist constructs, write one SBIF comment, and practice receiving it with thanks and one clarifying question before responding.
+**SBIF giving-and-receiving role-play:** Adapt the Field Guide's Maxim/Lao vignette. Partners separate the observed question from the story each scientist constructs, write one SBIF comment, and practice receiving it with thanks and one clarifying question before responding.
 
-**Individual reflection and provisional norm (~8 min):** Write one evidence rule for future CATME ratings and one provisional team norm for feedback or transparent AI use. These become inputs to the Lecture 2 Charter draft.
+**Individual reflection and provisional norm:** Write one evidence rule for future CATME ratings and one provisional team norm for feedback or transparent AI use. These become inputs to the Lecture 2 Charter draft.
 
-**Buffer and exit check (~9 min).**
+**Buffer and exit check.**
 
 ### Deliverable
 
@@ -237,21 +237,19 @@ Submit the feedback/Charter-norm exit ticket before leaving. CATME Rater Practic
 
 ### In-Class Activities (80 min)
 
-**Trust retrieval prompt (~5 min):** Identify one example each of competence-based, swift, identity-based, or calculus-based trust from the reading. Which kinds can a new course team reasonably possess in week one?
+**Trust retrieval prompt:** Identify one example each of competence-based, swift, identity-based, or calculus-based trust from the reading. Which kinds can a new course team reasonably possess in week one?
 
-**Apollo 13 discussion (~15 min):** *Instructor note: “Failure is not an option” was created for the 1995 film, not spoken during the mission.* What roles, authority, communication routines, and verification resources supported distributed decisions? Which practices can a three-person student team adopt, and which depended on years of training, hierarchy, redundancy, simulation, and institutional infrastructure?
+**Apollo 13 discussion:** *Instructor note: “Failure is not an option” was created for the 1995 film, not spoken during the mission.* What roles, authority, communication routines, and verification resources supported distributed decisions? Which practices can a three-person student team adopt, and which depended on years of training, hierarchy, redundancy, simulation, and institutional infrastructure?
 
-**Team interviews (~12 min):** Practice trios for Module 1 are announced today. These are not your semester teams—CATME Team-Maker forms those after Module 1, and they are announced September 14. Interview a partner about their research interests, a strength they enjoy contributing, work they do not yet feel ready to lead, what helps them respond to disagreement, one access or scheduling condition relevant to teamwork, and one light personal question. Introduce the partner without disclosing information they did not agree to share.
+**Team interviews:** Practice trios for Module 1 are announced today. These are not your semester teams—CATME Team-Maker forms those after Module 1, and they are announced September 14. Interview a partner about their research interests, a strength they enjoy contributing, work they do not yet feel ready to lead, what helps them respond to disagreement, one access or scheduling condition relevant to teamwork, and one light personal question. Introduce the partner without disclosing information they did not agree to share.
 
-**“Unit conversion” exercise (~10 min):** Each member names one disciplinary assumption teammates may not share—for example, what “validated,” “significant,” “safe,” or “complete” means. Write an operational definition and identify what evidence would justify pausing an experiment, analysis, or submission.
+**“Unit conversion” exercise:** Each member names one disciplinary assumption teammates may not share—for example, what “validated,” “significant,” “safe,” or “complete” means. Write an operational definition and identify what evidence would justify pausing an experiment, analysis, or submission.
 
-**Core Charter drafting (~20 min):** Draft the team's shared purpose and expected outputs; definition of complete/high-quality work; roles, backups, and decision rights; meeting and communication routines; procedure for missed commitments and workload reset; provisional data/file access and credit expectations; and Charter review process. Add a concern protocol that records the issue, identifies who must respond, defines temporary pause conditions, and provides an escalation route when consensus is inappropriate or unavailable.
+**Core Charter drafting:** Draft the team's shared purpose and expected outputs; definition of complete/high-quality work; roles, backups, and decision rights; meeting and communication routines; procedure for missed commitments and workload reset; provisional data/file access and credit expectations; and Charter review process. Add a concern protocol that records the issue, identifies who must respond, defines temporary pause conditions, and provides an escalation route when consensus is inappropriate or unavailable.
 
-**Micro-scenario—“Friday at 4:52” (~8 min):** Eight minutes before submission, the member responsible for quantitative validation finds a unit mismatch that may reverse the conclusion. The coordinator proposes a two-to-one vote to submit. Apply the draft Charter: Does work pause? Who has authority? What is documented? When is the instructor contacted? What happens if no answer arrives before the deadline?
+**Micro-scenario—“Friday at 4:52”:** Eight minutes before submission, the member responsible for quantitative validation finds a unit mismatch that may reverse the conclusion. The coordinator proposes a two-to-one vote to submit. Apply the draft Charter: Does work pause? Who has authority? What is documented? When is the instructor contacted? What happens if no answer arrives before the deadline?
 
-**Revise one clause and exit check (~5 min):** Rewrite the concern clause so another team could follow it without guessing.
-
-Approximately five minutes remain distributed across transitions and discussion.
+**Revise one clause and exit check:** Rewrite the concern clause so another team could follow it without guessing.
 
 ### Deliverable
 
@@ -272,32 +270,32 @@ Tool decisions are team governance decisions. Teams can make those decisions imp
 
 ### Reading (before class)
 
-- Field Guide **pp. 45 and 53**: keep agreements living, and decide in advance how analysis, review, submission, and publication will be handled
+- Field Guide **p. 53**: decide in advance how analysis, review, submission, and publication will be handled. Published in 2018, the Field Guide predates generative AI tools and does not address them directly—use it for the general practice of deciding tool governance in advance, not for AI-specific guidance.
 - [Case brief: *The Frontiers Retracted Figure*]({{ '/case-studies/case-frontiers-retraction/' | relative_url }}), including the official publisher statement and retraction notice
 - NIH Office of Intramural Research, [*Guidelines and Policies for the Conduct of Research*](https://oir.nih.gov/system/files/media/file/2026-06/guidelines-conduct_research.pdf), **pp. 61–65**, “Responsible Use of AI and Documenting its Utilization.” This is current NIH **intramural** guidance, not a universal policy for every institution.
 - **Pre-class reflection prompt:** Identify one tool you currently use heavily for research work and one tool you have considered using but have not adopted. Bring both to class.
 
 ### In-Class Activities (80 min)
 
-**Framing: tools as team governance (~5 min):** Five failure modes that follow from implicit tool decisions: asymmetric tool fluency, verification labor, documentation choices, coordination friction, and tool selection as governance. Each is a teamwork problem, not a technology problem.
+**Framing: tools as team governance:** Five failure modes that follow from implicit tool decisions: asymmetric tool fluency, verification labor, documentation choices, coordination friction, and tool selection as governance. Each is a teamwork problem, not a technology problem.
 
-**Tool category survey with team implications (~10 min):** Briefly examine knowledge management, literature management, meeting coordination, collaborative writing/version control, analysis/code, and generative AI. For each category, ask what the choice determines about access, records, labor, privacy, reproducibility, and responsibility.
+**Tool category survey with team implications:** Briefly examine knowledge management, literature management, meeting coordination, collaborative writing/version control, analysis/code, and generative AI. For each category, ask what the choice determines about access, records, labor, privacy, reproducibility, and responsibility.
 
-**Case workflow reconstruction (~12 min):** Separate the documented record from assumptions. Map author preparation, peer review, editorial control, and production/publication. Mark where evidence is known, where it is missing, and where a blocking reviewer request should have remained open. What is the difference between disclosing a tool and closing a verification concern?
+**Case workflow reconstruction:** Separate the documented record from assumptions. Map author preparation, peer review, editorial control, and production/publication. Mark where evidence is known, where it is missing, and where a blocking reviewer request should have remained open. What is the difference between disclosing a tool and closing a verification concern?
 
-**AI detection evidence check (~8 min):** If the prior-course demonstration is used, present the 0–20% result only as a small local classroom exercise—not as a general benchmark or proof about all detection systems. Ask what information about prompts, samples, scoring, and models would be needed to interpret it. Then identify norms that do not depend on reliably guessing whether AI was used.
+**Rules that address the wrong failure:** Test whether last year's rule—“never use AI to write content; always disclose its use”—would have prevented the *Frontiers* retraction. It would not: the figures were generated, not written, and the AI use was already disclosed; the unresolved failure was an unclosed reviewer request. Then revisit the prior-course AI-detection demonstration (0–20% accuracy) as a small local exercise that cannot be interpreted without knowing the prompts, samples, scoring, and models used—not a benchmark or proof about detection systems generally. Close with four norms that do not depend on reliably guessing whether AI was used: verify the claim, not the author; require the record, not the confession; assign a verifier before the work starts; and make the unresolved concern visible. These four become the spine of Appendix A.
 
-**Team tool-and-labor audit (~13 min):** Identify the team's current tool stack and where decisions, sources, drafts, data, and code are stored. Who pays, configures, documents, verifies, troubleshoots, and onboards others? Which access, privacy, security, or accessibility constraints have not been discussed?
+**Team tool-and-labor audit:** Complete the five-column worksheet—challenge, root cause, process solution, tool solution, and owner/timing/failure—for at least two problems drawn from different areas (scheduling, communication and coordination, collective writing, references and literature, or analysis and code). Fill the process column before the tool column: if you cannot name a process rule, you have an unmade decision, not a tool problem. Then map who pays, configures, documents, verifies, troubleshoots, and onboards for the team's current stack, putting a name in every box. A name in four or more boxes marks a single point of failure and an unrecorded contribution—both belong in Appendix A, and the contribution belongs in Appendix C later.
 
-**Microcase—“The inaccessible workspace” (~7 min):** A team adopts a paid, visually dense workspace because two members already use it; the system does not work reliably with the third member's access setup, and they miss decisions recorded there. Apply the Charter's concern and decision rules without asking for private medical information. What must be changed now, and what selection rule would have prevented the problem?
+**Microcase—“The inaccessible workspace”:** A team adopts a paid, visually dense workspace because two members already use it; the system does not work reliably with the third member's access setup, and they miss decisions recorded there. Apply the Charter's concern and decision rules without asking for private medical information. What must be changed now, and what selection rule would have prevented the problem?
 
-**Drafting Appendix A: tooling and verification (~18 min):** For each important tool or output, specify the record to retain, disclosure requirement, primary verifier, evidence/source check, second-review trigger, sign-off authority, and what blocks submission. Add access/cost, privacy/security, accessibility, onboarding, version-control, fallback, and revision procedures. An unresolved high-consequence concern must have an owner and deadline and must remain visible until it is closed or escalated.
+**Drafting Appendix A: tooling and verification:** For each important tool or output, specify the record to retain, disclosure requirement, primary verifier, evidence/source check, second-review trigger, sign-off authority, and what blocks submission. Add access/cost, privacy/security, accessibility, onboarding, version-control, fallback, and revision procedures. An unresolved high-consequence concern must have an owner and deadline and must remain visible until it is closed or escalated.
 
-**Buffer and submission check (~7 min).**
+**Buffer and submission check.**
 
 ### Deliverable
 
-**Team Charter Appendix A: Tooling & Verification** — Drafted in class and completed before Lecture 4. This structured appendix must be usable as a procedure, not merely list preferred products.
+**Team Charter Appendix A: Tooling & Verification** — Drafted in class and completed before Lecture 5. This structured appendix must be usable as a procedure, not merely list preferred products.
 
 ### Connection to Lecture 4 (Cross-Disciplinary Communication)
 
@@ -323,17 +321,17 @@ The 2024 Nobel Prize in Chemistry also provides a useful credit distinction: one
 
 ### In-Class Activities (80 min)
 
-**Shared-vision retrieval and “validated” microcase (~6 min):** Compare three disciplinary meanings of “validated.” Write a two-sentence project vision that states both the shared outcome and the evidence needed to claim success.
+**Shared-vision retrieval and “validated” microcase:** Compare three disciplinary meanings of “validated.” Write a two-sentence project vision that states both the shared outcome and the evidence needed to claim success.
 
-**AlphaFold evidence/inference audit (~18 min):** Examine the CASP13 result, the documented redesign, the architecture, author-contribution statements, database partnership, limitations, and Nobel recognition. Classify claims as documented, reasonable teaching inference, or unsupported history. What team processes *could* support this result, and what additional evidence would show that AlphaFold used them?
+**AlphaFold evidence/inference audit:** Examine the CASP13 result, the documented redesign, the architecture, author-contribution statements, database partnership, limitations, and Nobel recognition. Classify claims as documented, reasonable teaching inference, or unsupported history. What team processes *could* support this result, and what additional evidence would show that AlphaFold used them?
 
-**Integration architecture (~12 min):** Map how domain concepts, model design, engineering, evaluation, and database stewardship depend on one another. Distinguish integration, reciprocal translation, and handoff. Where would a designated connector between disciplines or a redundant communication path reduce risk?
+**Integration architecture:** Map how domain concepts, model design, engineering, evaluation, and database stewardship depend on one another. Distinguish integration, reciprocal translation, and handoff. Where would a designated connector between disciplines or a redundant communication path reduce risk?
 
-**Skills-and-limits inventory (~20 min):** Each member identifies the expertise, methods, tools, and relationships they can contribute; work they are not yet ready to lead; a term teammates may interpret differently; a skill they want to learn; and the kind of challenge or support that helps them participate. Record backups for single points of expertise.
+**Skills-and-limits inventory:** Each member identifies the expertise, methods, tools, and relationships they can contribute; work they are not yet ready to lead; a term teammates may interpret differently; a skill they want to learn; and the kind of challenge or support that helps them participate. Record backups for single points of expertise.
 
-**Reciprocal translation exercise (~12 min):** Apply each discipline's lens to one project concept. Build a small shared glossary containing operational definitions, evidence standards, and “ask before assuming” terms. Identify one point where the team needs integration rather than sequential handoff.
+**Reciprocal translation exercise:** Apply each discipline's lens to one project concept. Build a small shared glossary containing operational definitions, evidence standards, and “ask before assuming” terms. Identify one point where the team needs integration rather than sequential handoff.
 
-**Appendix B revision and exit check (~5 min):** Add the inventory, glossary, learning commitment, integration point, and a norm for inclusive scientific disagreement. Approximately seven minutes remain distributed across transitions and discussion.
+**Appendix B revision and exit check:** Add the inventory, glossary, learning commitment, integration point, and a norm for inclusive scientific disagreement.
 
 ### Deliverable
 
@@ -365,19 +363,19 @@ John Bardeen contributed to both the transistor work at Bell Labs and BCS theory
 
 ### In-Class Activities (80 min)
 
-**Framing the pairing (~5 min):** The same scientist appears in two different collaborations. What can the available records establish, and what would be an interpretation rather than a fact?
+**Framing the pairing:** The same scientist appears in two different collaborations. What can the available records establish, and what would be an interpretation rather than a fact?
 
-**Evidence-packet jigsaw (~18 min):** Groups examine Nobel lectures, paper metadata, and short institutional histories. Identify each source's claim, perspective, and limit. Do not infer motives or the absence of a process merely because a surviving source does not describe one.
+**Evidence-packet jigsaw:** Groups examine Nobel lectures, paper metadata, and short institutional histories. Identify each source's claim, perspective, and limit. Do not infer motives or the absence of a process merely because a surviving source does not describe one.
 
-**Comparative analysis (~7 min):** Compare contribution recording, formal authority, career stage, publication order, and later recognition. Which explanations are supported, plausible but unproven, or contradicted?
+**Comparative analysis:** Compare contribution recording, formal authority, career stage, publication order, and later recognition. Which explanations are supported, plausible but unproven, or contradicted?
 
-**Microcase—“Two first authors” (~9 min):** Two trainees have both led major parts of a project, but their fields interpret first-author order differently. Separate contribution, author eligibility, order, corresponding responsibility, patent inventorship, ownership, and prize recognition. What must be recorded now, and what remains provisional?
+**Microcase—“Two first authors”:** Two trainees have both led major parts of a project, but their fields interpret first-author order differently. Separate contribution, author eligibility, order, corresponding responsibility, patent inventorship, ownership, and prize recognition. What must be recorded now, and what remains provisional?
 
-**Conflict-protocol drill (~10 min):** One member believes invisible verification work has been omitted from the contribution record; another says the plan has already been agreed. Use Field Guide Chapter 10 to specify the first conversation, documentation, neutral consultation, decision authority, and escalation point.
+**Conflict-protocol drill:** One member believes invisible verification work has been omitted from the contribution record; another says the plan has already been agreed. Use Field Guide Chapter 10 to specify the first conversation, documentation, neutral consultation, decision authority, and escalation point.
 
-**Drafting Appendix C (~20 min):** Create a provisional contribution matrix, record both intellectual and coordination/verification labor, state recognition and credit principles, and set review dates. Add procedures for changing scope, unequal or missing contributions, new or departing members, non-author recognition, disagreement, and escalation.
+**Drafting Appendix C:** Create a provisional contribution matrix, record both intellectual and coordination/verification labor, state recognition and credit principles, and set review dates. Add procedures for changing scope, unequal or missing contributions, new or departing members, non-author recognition, disagreement, and escalation.
 
-**Peer stress test and exit check (~6 min):** Another team applies one change scenario and identifies any clause that cannot be executed. Approximately five minutes remain distributed across transitions and discussion.
+**Peer stress test and exit check:** Another team applies one change scenario and identifies any clause that cannot be executed.
 
 ### Deliverable
 
@@ -412,21 +410,21 @@ The cases are deliberately contrasting, but not moral mirror images. Challenger 
 
 ### In-Class Activities (80 min)
 
-**Memorial framing for Challenger (~3 min):** *Brief framing before Case 1 discussion. Seven astronauts died on Challenger — Francis Scobee, Michael Smith, Ronald McNair, Ellison Onizuka, Judith Resnik, Gregory Jarvis, and Christa McAuliffe. Their families and colleagues have spent four decades examining how the decision to launch was made. We study this case to understand what their experience teaches about how teams handle dissent, hierarchy, and pressure under time constraint — not to extract neat lessons from a tragedy.*
+**Memorial framing for Challenger:** *Brief framing before Case 1 discussion. Seven astronauts died on Challenger — Francis Scobee, Michael Smith, Ronald McNair, Ellison Onizuka, Judith Resnik, Gregory Jarvis, and Christa McAuliffe. Their families and colleagues have spent four decades examining how the decision to launch was made. We study this case to understand what their experience teaches about how teams handle dissent, hierarchy, and pressure under time constraint — not to extract neat lessons from a tragedy.*
 
-**Challenger evidence and decision map (~15 min):** Trace the initial recommendation, NASA challenge, request to caucus, actual caucus duration, changed recommendation, signature, and launch decision. Who had voice, advice, sign-off, veto, and escalation authority? Which statements are documented and which are later interpretations?
+**Challenger evidence and decision map:** Trace the initial recommendation, NASA challenge, request to caucus, actual caucus duration, changed recommendation, signature, and launch decision. Who had voice, advice, sign-off, veto, and escalation authority? Which statements are documented and which are later interpretations?
 
-**BioNTech/Pfizer decision map (~10 min):** Identify the prior relationship, provisional agreements, different capabilities, cost sharing, information exchange, independent monitoring, evidentiary standards, and regulatory gates. Which risks were accepted, allocated, retained, or independently checked?
+**BioNTech/Pfizer decision map:** Identify the prior relationship, provisional agreements, different capabilities, cost sharing, information exchange, independent monitoring, evidentiary standards, and regulatory gates. Which risks were accepted, allocated, retained, or independently checked?
 
-**Outcome-bias comparison (~7 min):** Imagine that the vaccine had failed despite the same process, or that Challenger had launched without an accident despite the same decision process. Which judgments about process quality remain? Which differences make direct comparison misleading?
+**Outcome-bias comparison:** Imagine that the vaccine had failed despite the same process, or that Challenger had launched without an accident despite the same decision process. Which judgments about process quality remain? Which differences make direct comparison misleading?
 
-**Chapter 12 network map (~10 min):** Map the team's **Knowledge, Access, Source Receptive, and Energy Networks**, using the Guide's four labels. Add a redundant path for one critical resource. Drawing on Chapter 8, identify any member functioning as a boundary spanner and avoid making that person a single point of failure.
+**Chapter 12 network map:** Map the team's **Knowledge, Access, Source Receptive, and Energy Networks**, using the Guide's four labels. Add a redundant path for one critical resource. Drawing on Chapter 8, identify any member functioning as a boundary spanner and avoid making that person a single point of failure.
 
-**Deadline-dissent microcase (~8 min):** A senior member says a concern has been heard and the team must now submit. Apply the Charter: what evidence triggers a pause, who records the concern, who can close it, when is voting inappropriate, and where does escalation go?
+**Deadline-dissent microcase:** A senior member says a concern has been heard and the team must now submit. Apply the Charter: what evidence triggers a pause, who records the concern, who can close it, when is voting inappropriate, and where does escalation go?
 
-**Final Charter stress test and revision (~20 min):** Exchange packages and apply two new variants: an external collaborator asks for a draft and underlying data when sharing permission is unclear; then a member leaves after making significant contributions while still holding the only editable source files and one service credential. Revise clauses that rely on goodwill, an unnamed actor, inaccessible records, unresolved ownership/permission, or a decision rule that cannot handle membership change.
+**Final Charter stress test and revision:** Exchange packages and apply two new variants: an external collaborator asks for a draft and underlying data when sharing permission is unclear; then a member leaves after making significant contributions while still holding the only editable source files and one service credential. Revise clauses that rely on goodwill, an unnamed actor, inaccessible records, unresolved ownership/permission, or a decision rule that cannot handle membership change.
 
-**All-member review and exit check (~5 min):** Confirm that each member understands the core and appendices and record unresolved items. Approximately two minutes remain as buffer.
+**All-member review and exit check:** Confirm that each member understands the core and appendices and record unresolved items.
 
 ### Deliverable
 

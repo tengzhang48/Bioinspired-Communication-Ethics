@@ -75,17 +75,17 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mentimeter warm-up (~10 min):** "What's the first word that comes to mind when you hear 'Research Ethics'?" Reveal word cloud. Discuss: why are most responses about *individual* character, not *systemic* conditions?
+**Mentimeter warm-up:** "What's the first word that comes to mind when you hear 'Research Ethics'?" Reveal word cloud. Discuss: why are most responses about *individual* character, not *systemic* conditions?
 
-**Mini-lecture: Ethics vs. Law vs. Morals (~15 min):** Establish the framework. Ethics is not just "following the rules" — it's reasoning about what *should* be done when rules are ambiguous or conflicting.
+**Mini-lecture: Ethics vs. Law vs. Morals:** Establish the framework. Ethics is not just "following the rules" — it's reasoning about what *should* be done when rules are ambiguous or conflicting.
 
-**Alberts deep dive (~20 min):** Your survey showed 9/15 identified "inadequate ethical training" as the root cause, while 6 chose "assumption of never-ending growth." Discuss: Alberts actually argues the growth assumption is root — the training gap is a *symptom*. What changes if you accept that framing?
+**Alberts deep dive:** Your survey showed 9/15 identified "inadequate ethical training" as the root cause, while 6 chose "assumption of never-ending growth." Discuss: Alberts actually argues the growth assumption is root — the training gap is a *symptom*. What changes if you accept that framing?
 
-**Mentimeter: Resnik principles under pressure (~10 min):** Rank which principles are most threatened by hypercompetition. Your results: (1) Honesty, (2) Responsible Publication, (3) Openness, (4) Objectivity. Discuss why honesty ranked #1 — is it because it's the most *valued* or the most *vulnerable*?
+**Mentimeter: Resnik principles under pressure:** Rank which principles are most threatened by hypercompetition. Your results: (1) Honesty, (2) Responsible Publication, (3) Openness, (4) Objectivity. Discuss why honesty ranked #1 — is it because it's the most *valued* or the most *vulnerable*?
 
-**Perverse incentives exercise (~15 min):** Open-ended: "Name one perverse incentive that could lead to ethical deviation." Your responses: "publish or die," "quantity over quality," "pressure to obtain funding," "publication bias," "overstating results." Connect each to specific Resnik principles it threatens.
+**Perverse incentives exercise:** Open-ended: "Name one perverse incentive that could lead to ethical deviation." Your responses: "publish or die," "quantity over quality," "pressure to obtain funding," "publication bias," "overstating results." Connect each to specific Resnik principles it threatens.
 
-**Closing poll (~10 min):** "What is the most significant barrier to ethical research?" and "What is one action that could help create a more ethical research culture?"
+**Closing poll:** "What is the most significant barrier to ethical research?" and "What is one action that could help create a more ethical research culture?"
 
 #### 💡 Key Takeaways
 
@@ -111,11 +111,11 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mentimeter recall (~5 min):** Your confidence in navigating authorship disputes was 2.8/5 at the start of the module. Let's see if we can raise that today.
+**Mentimeter recall:** Your confidence in navigating authorship disputes was 2.8/5 at the start of the module. Let's see if we can raise that today.
 
-**Mini-lecture: ICMJE criteria + CRediT (~15 min):** The four ICMJE criteria (substantial contribution, drafting/revising, final approval, accountability). Why all four must be met. The CRediT taxonomy as a complementary tool that makes contribution types visible without gatekeeping authorship. Key question: under these criteria, can AI be an author? (Most journals now say no — but the reasoning matters.)
+**Mini-lecture: ICMJE criteria + CRediT:** The four ICMJE criteria (substantial contribution, drafting/revising, final approval, accountability). Why all four must be met. The CRediT taxonomy as a complementary tool that makes contribution types visible without gatekeeping authorship. Key question: under these criteria, can AI be an author? (Most journals now say no — but the reasoning matters.)
 
-**Scenario-based discussion (~25 min):** Four authorship dilemmas — teams discuss and vote:
+**Scenario-based discussion:** Four authorship dilemmas — teams discuss and vote:
 - A PI contributes the idea and funding but doesn't write or revise. Author?
 - A technician runs all experiments but doesn't participate in analysis or writing. Author?
 - A collaborator provides a critical reagent and protocol but doesn't review the manuscript. Author?
@@ -123,13 +123,13 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 **Bridge from Module 1:** Reopen Appendix C of the Team Charter. The transistor/BCS comparison separated contribution, leadership, paper authorship/order, patent inventorship, ownership, and prize recognition; it did not decide that all team credit is an inventorship question. This session now applies ethical and publication standards to author eligibility, order, and accountability. Patent inventorship, ownership, commercialization, and the CRISPR dispute are reserved for Session 7 (Intellectual Property & Ownership).
 
-**Self-plagiarism (~15 min):** Open with the ORI guide and the classic framing question: "To what extent do you agree: self-plagiarism is a victimless crime because I'm only reusing my own work?" Then sort the cases: republishing a conference paper without new analysis, reusing methods with citation, publishing one study as several "salami-sliced" papers, and quoting your own thesis with citation. Apply it to authorship: is republishing your own conference paper in a journal (with minor revisions) ethical if you disclose it? The nuance: copyright transfer agreements may make your own words legally someone else's property.
+**Self-plagiarism:** Open with the ORI guide and the classic framing question: "To what extent do you agree: self-plagiarism is a victimless crime because I'm only reusing my own work?" Then sort the cases: republishing a conference paper without new analysis, reusing methods with citation, publishing one study as several "salami-sliced" papers, and quoting your own thesis with citation. Apply it to authorship: is republishing your own conference paper in a journal (with minor revisions) ethical if you disclose it? The nuance: copyright transfer agreements may make your own words legally someone else's property.
 
-**Peer review expectations (~5 min):** What Module 3 already showed: reviewers who quote, locate, and answer comments; authors who respond point by point. Now ask the ethical question: what do authors owe reviewers, and reviewers owe authors, beyond the workflow? Confidentiality, conflict disclosure, and not using review to claim priority.
+**Peer review expectations:** What Module 3 already showed: reviewers who quote, locate, and answer comments; authors who respond point by point. Now ask the ethical question: what do authors owe reviewers, and reviewers owe authors, beyond the workflow? Confidentiality, conflict disclosure, and not using review to claim priority.
 
-**AI authorship exercise (~10 min):** Take a paragraph from your Technology & Responsibility Report. If AI helped draft it, apply the ICMJE criteria: did AI make a "substantial contribution"? Can AI approve the final version? Can AI be accountable? What does this mean for your disclosure obligations?
+**AI authorship exercise:** Take a paragraph from your Technology & Responsibility Report. If AI helped draft it, apply the ICMJE criteria: did AI make a "substantial contribution"? Can AI approve the final version? Can AI be accountable? What does this mean for your disclosure obligations?
 
-**Closing (~5 min):** Mentimeter: "How confident are you now in navigating authorship disputes?" Compare with 2.8 baseline.
+**Closing:** Mentimeter: "How confident are you now in navigating authorship disputes?" Compare with 2.8 baseline.
 
 #### 💡 Key Takeaways
 
@@ -162,17 +162,17 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Bridge from Modules 1–3 (~10 min):** Module 1 introduced disclosure and verification, with an optional small local detection exercise; Module 2 examined AI in the research enterprise; and Module 3 evaluated AI feedback on scientific writing. Revisit what each activity actually established and its limits. Those were *capability and workflow* questions. Today we ask the *ethical* questions.
+**Bridge from Modules 1–3:** Module 1 introduced disclosure and verification, with an optional small local detection exercise; Module 2 examined AI in the research enterprise; and Module 3 evaluated AI feedback on scientific writing. Revisit what each activity actually established and its limits. Those were *capability and workflow* questions. Today we ask the *ethical* questions.
 
-**The ghostwriting problem (~15 min):** Brainard reports far more authors use AI than disclose it. Discussion: Is undisclosed AI writing assistance the same as ghostwriting? As plagiarism? As a new category we don't have a name for yet? Where is the line between "AI as spell-checker" and "AI as co-author"?
+**The ghostwriting problem:** Brainard reports far more authors use AI than disclose it. Discussion: Is undisclosed AI writing assistance the same as ghostwriting? As plagiarism? As a new category we don't have a name for yet? Where is the line between "AI as spell-checker" and "AI as co-author"?
 
-**AI bias case study (~15 min):** Lin's Nature piece argues AI chatbots are already biasing research directions. If AI tools steer researchers toward certain hypotheses or methods, who is responsible for the resulting bias? The AI developer? The researcher? The institution that mandates AI tool use?
+**AI bias case study:** Lin's Nature piece argues AI chatbots are already biasing research directions. If AI tools steer researchers toward certain hypotheses or methods, who is responsible for the resulting bias? The AI developer? The researcher? The institution that mandates AI tool use?
 
-**Detection paradox discussion (~15 min):** Use Gerhard's "double-edged sword" analysis. If the optional Module 1 exercise was used, its three model configurations scored 0–20% on one small classroom task; restate its methods and limits rather than generalizing it to every detector. What risks arise when policy depends mainly on detection? Teams propose complementary accountability mechanisms.
+**Detection paradox discussion:** Use Gerhard's "double-edged sword" analysis. If the optional Module 1 exercise was used, its three model configurations scored 0–20% on one small classroom task; restate its methods and limits rather than generalizing it to every detector. What risks arise when policy depends mainly on detection? Teams propose complementary accountability mechanisms.
 
-**Regulatory frameworks mini-debate (~15 min):** Should AI in research be regulated through existing research integrity frameworks (extend current rules), through new AI-specific legislation (create new rules), or through professional self-regulation (scientists police themselves)? Teams take assigned positions.
+**Regulatory frameworks mini-debate:** Should AI in research be regulated through existing research integrity frameworks (extend current rules), through new AI-specific legislation (create new rules), or through professional self-regulation (scientists police themselves)? Teams take assigned positions.
 
-**Closing: Where do YOU draw the line? (~10 min):** Poll Everywhere scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
+**Closing: Where do YOU draw the line?:** Poll Everywhere scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
 
 > 🔗 **Connection to Module 3:** In Module 3 Lecture 6, you audited AI feedback on a public abstract and verified every factual claim in the output — some claims failed or resisted verification. Today's session asks: given those limitations, what are the ethical obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
 
@@ -199,19 +199,19 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mentimeter: Misconduct or gray zone? (~10 min):** Classify each example as fabrication, falsification, plagiarism, a questionable research practice, or acceptable: cleaning a figure "for clarity," dropping an outlier without reporting it, copying a colleague's methods paragraph, padding a reference list, splitting one study into three papers.
+**Mentimeter: Misconduct or gray zone?:** Classify each example as fabrication, falsification, plagiarism, a questionable research practice, or acceptable: cleaning a figure "for clarity," dropping an outlier without reporting it, copying a colleague's methods paragraph, padding a reference list, splitting one study into three papers.
 
-**Mini-lecture: FFP + Questionable Practices (~15 min):** The bright line (fabrication, falsification, plagiarism) vs. the gray zone (p-hacking, selective reporting, honorary authorship, salami-slicing). Most misconduct exists in the gray zone — these are the decisions students will actually face.
+**Mini-lecture: FFP + Questionable Practices:** The bright line (fabrication, falsification, plagiarism) vs. the gray zone (p-hacking, selective reporting, honorary authorship, salami-slicing). Most misconduct exists in the gray zone — these are the decisions students will actually face.
 
-**Paper mills case study (~15 min):** The Washington Post article describes an "epidemic" of fraudulent papers. Discussion: What is the single biggest driver? Then rank solutions from most to least impactful: strengthen government oversight, abolish citation counts as quality metric, retire pay-for-play journal model.
+**Paper mills case study:** The Washington Post article describes an "epidemic" of fraudulent papers. Discussion: What is the single biggest driver? Then rank solutions from most to least impactful: strengthen government oversight, abolish citation counts as quality metric, retire pay-for-play journal model.
 
-**Responding to suspected violations (~20 min):** From the National Academies chapter: what should you do if you suspect a colleague of misconduct — or if someone raises a concern about you? Discuss the reporting routes, the difference between asking a question and making an accusation, and what a fair institutional process looks like. Relate to the Module 1 Charter: what does your own team's escalation clause do and not do?
+**Responding to suspected violations:** From the National Academies chapter: what should you do if you suspect a colleague of misconduct — or if someone raises a concern about you? Discuss the reporting routes, the difference between asking a question and making an accusation, and what a fair institutional process looks like. Relate to the Module 1 Charter: what does your own team's escalation clause do and not do?
 
-**Closing: Most powerful change (~10 min):** Open-ended: "Based on all the readings, what is the most powerful change we could make to reduce research misconduct?"
+**Closing: Most powerful change:** Open-ended: "Based on all the readings, what is the most powerful change we could make to reduce research misconduct?"
 
-**Exit ticket (~5 min):** Name one gray-zone practice you have personally seen or heard described, and classify it against the FFP/QPR boundary.
+**Exit ticket:** Name one gray-zone practice you have personally seen or heard described, and classify it against the FFP/QPR boundary.
 
-**Contingency reserve (~5 min)**
+**Contingency reserve**
 
 > 🔗 **Connection to Module 3:** In Module 3 Lecture 4, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity — the same pressures that make transparent review uncomfortable also make it valuable.
 
@@ -237,9 +237,9 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mini-lecture: Individual vs. institutional COI (~10 min):** A researcher's financial interest is only one layer. The Resnik reading extends the question to institutions: when a university receives industry funding, runs its own clinical trials, or holds equity in spinoffs, whose judgment is compromised — and who is supposed to notice?
+**Mini-lecture: Individual vs. institutional COI:** A researcher's financial interest is only one layer. The Resnik reading extends the question to institutions: when a university receives industry funding, runs its own clinical trials, or holds equity in spinoffs, whose judgment is compromised — and who is supposed to notice?
 
-**COI scenario analysis (~25 min):** Four scenarios, rated on a 1–5 "how ethically problematic" scale:
+**COI scenario analysis:** Four scenarios, rated on a 1–5 "how ethically problematic" scale:
 - A professor holds $50K in pharmaceutical stock while running a clinical trial for that company
 - A researcher accepts a $300 "finder's fee" per patient recruited into a company's trial
 - A university accepts a multi-million dollar gift from a tech company for a new research center
@@ -247,13 +247,13 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 Teams discuss: Where is the line between acceptable and unacceptable? Does disclosure solve the problem, or just acknowledge it?
 
-**Institutional COI discussion (~15 min):** From the Resnik reading: university-industry research centers, institutional equity in spinoffs, and the special problem that institutional COI can affect every researcher in the institution at once. Who can credibly oversee an institutional conflict when the institution itself is the conflicted party?
+**Institutional COI discussion:** From the Resnik reading: university-industry research centers, institutional equity in spinoffs, and the special problem that institutional COI can affect every researcher in the institution at once. Who can credibly oversee an institutional conflict when the institution itself is the conflicted party?
 
-**Mitigation strategies (~15 min):** Teams draft a management plan for one scenario: what combination of disclosure, recusal, independent review, and structural separation would make the arrangement defensible? Test each plan: would it survive a headline?
+**Mitigation strategies:** Teams draft a management plan for one scenario: what combination of disclosure, recusal, independent review, and structural separation would make the arrangement defensible? Test each plan: would it survive a headline?
 
-**Closing discussion (~10 min):** "What is the difference between having a conflict of interest and letting one affect your judgment?" Connect to Session 1: COI is one of the systemic pressures Alberts described.
+**Closing discussion:** "What is the difference between having a conflict of interest and letting one affect your judgment?" Connect to Session 1: COI is one of the systemic pressures Alberts described.
 
-**Exit ticket (~5 min):** One scenario from today whose management plan you would trust, and the single element that makes it defensible.
+**Exit ticket:** One scenario from today whose management plan you would trust, and the single element that makes it defensible.
 
 #### 💡 Key Takeaways
 
@@ -300,17 +300,17 @@ This session produced the richest survey data in the module:
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mentimeter: Discovery sources (~10 min):** Reveal the gap between where *you* learn about science (literature, papers) and where your *family* learns (social media, TV). This is the communication problem in one data point.
+**Mentimeter: Discovery sources:** Reveal the gap between where *you* learn about science (literature, papers) and where your *family* learns (social media, TV). This is the communication problem in one data point.
 
-**The ethical obligation argument (~15 min):** Science communication is not optional. NSPE Code of Ethics requires engineers to "hold paramount the safety, health, and welfare of the public." ABET requires graduates who can "communicate effectively with a range of audiences." Resnik's "social responsibility" principle demands it. If publicly funded research doesn't reach the public, is that an ethical failure?
+**The ethical obligation argument:** Science communication is not optional. NSPE Code of Ethics requires engineers to "hold paramount the safety, health, and welfare of the public." ABET requires graduates who can "communicate effectively with a range of audiences." Resnik's "social responsibility" principle demands it. If publicly funded research doesn't reach the public, is that an ethical failure?
 
-**Genuine successes vs. false successes (~20 min):** Analyze your examples. Genuine successes (seatbelts, iodized salt, handwashing, ozone/CFCs) share traits: non-politicized, simple actionable message, clear personal relevance, no powerful opposition, sustained institutional support. Many commonly cited "successes" (climate change, GMOs, mRNA vaccines) are actually mixed or failed cases when measured by public behavior change. The vaccine/COVID appearing on *both* your lists proves this point.
+**Genuine successes vs. false successes:** Analyze your examples. Genuine successes (seatbelts, iodized salt, handwashing, ozone/CFCs) share traits: non-politicized, simple actionable message, clear personal relevance, no powerful opposition, sustained institutional support. Many commonly cited "successes" (climate change, GMOs, mRNA vaccines) are actually mixed or failed cases when measured by public behavior change. The vaccine/COVID appearing on *both* your lists proves this point.
 
-**Press release analysis (~15 min):** The coffee/cancer press release. You correctly identified the misleading headline (14/15). Now rewrite it: produce a headline that is both accurate *and* compelling. Teams compete. Discuss: Is it possible to be accurate without being boring?
+**Press release analysis:** The coffee/cancer press release. You correctly identified the misleading headline (14/15). Now rewrite it: produce a headline that is both accurate *and* compelling. Teams compete. Discuss: Is it possible to be accurate without being boring?
 
-**Preliminary findings scenario (~10 min):** You were split (9 decline, 5 share with caveats). Discuss: What if the supplement is widely used? Does urgency change the ethical calculus? Connect to Resnik's principle of social responsibility vs. responsible publication.
+**Preliminary findings scenario:** You were split (9 decline, 5 share with caveats). Discuss: What if the supplement is widely used? Does urgency change the ethical calculus? Connect to Resnik's principle of social responsibility vs. responsible publication.
 
-**Closing: Barriers and next steps (~10 min):** Your #1 barrier was "don't know where/how to start" (12/15). Brief overview of concrete starting points: lab website, LinkedIn posts summarizing papers, departmental newsletters, local media contacts. The barrier is practical, and practical barriers have practical solutions.
+**Closing: Barriers and next steps:** Your #1 barrier was "don't know where/how to start" (12/15). Brief overview of concrete starting points: lab website, LinkedIn posts summarizing papers, departmental newsletters, local media contacts. The barrier is practical, and practical barriers have practical solutions.
 
 > 🔗 **Connection to Module 3:** In Module 3 Lecture 4, you examined transparent peer review and open access. The same principle applies here — making science accessible is an ethical obligation grounded in the same transparency values you identified as benefits of open review.
 
@@ -337,15 +337,15 @@ This session produced the richest survey data in the module:
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mini-lecture: Four types of IP (~20 min):** Patents, copyrights, trade secrets, trademarks — each with different implications for scientific research. Key distinctions: patents protect inventions (but require disclosure), copyright protects expression (but not ideas), trade secrets protect information (but require secrecy). How each creates different incentive structures for openness vs. protection.
+**Mini-lecture: Four types of IP:** Patents, copyrights, trade secrets, trademarks — each with different implications for scientific research. Key distinctions: patents protect inventions (but require disclosure), copyright protects expression (but not ideas), trade secrets protect information (but require secrecy). How each creates different incentive structures for openness vs. protection.
 
-**Patent case study (~15 min):** Introduce the CRISPR patent dispute. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Analyze the legal record and current source packet before discussing: What does patent law recognize, how does that differ from scientific credit, and should fundamental biological discoveries be patentable at all?
+**Patent case study:** Introduce the CRISPR patent dispute. The Broad Institute holds key U.S. patents despite Doudna/Charpentier winning the Nobel. Analyze the legal record and current source packet before discussing: What does patent law recognize, how does that differ from scientific credit, and should fundamental biological discoveries be patentable at all?
 
-**Data sharing dilemma (~20 min):** The Human Genome Project's "Bermuda Agreement" (rapid public data release) vs. Celera's proprietary model. Analyze the source record and the public/private incentives here as an open-science and data-governance case; Module 1 no longer previews this comparison. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
+**Data sharing dilemma:** The Human Genome Project's "Bermuda Agreement" (rapid public data release) vs. Celera's proprietary model. Analyze the source record and the public/private incentives here as an open-science and data-governance case; Module 1 no longer previews this comparison. Modern parallel: Should AI training data be open? Should datasets funded by public grants be freely available?
 
-**IP in your research (~15 min):** Each student identifies one potential IP issue in their own research: Does your university have a technology transfer office? Who owns your thesis data? If you develop code or a method, who controls it? What happens if you leave your lab?
+**IP in your research:** Each student identifies one potential IP issue in their own research: Does your university have a technology transfer office? Who owns your thesis data? If you develop code or a method, who controls it? What happens if you leave your lab?
 
-**Closing discussion (~10 min):** "What is the right balance between protecting intellectual property and sharing knowledge openly?" Connect to the full module arc: Resnik's openness principle, Alberts' critique of competition, and science communication's obligation to the public.
+**Closing discussion:** "What is the right balance between protecting intellectual property and sharing knowledge openly?" Connect to the full module arc: Resnik's openness principle, Alberts' critique of competition, and science communication's obligation to the public.
 
 #### 💡 Key Takeaways
 
@@ -443,15 +443,15 @@ The crop pathogen scored highest — interesting because it's the least discusse
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Mentimeter: Values in tension (~10 min):** "What two values are in conflict in dual-use research?" Reveal responses. Frame the session around this tension.
+**Mentimeter: Values in tension:** "What two values are in conflict in dual-use research?" Reveal responses. Frame the session around this tension.
 
-**Mini-lecture: DURC framework (~15 min):** Formal definition, the 15 categories of DURC agents, institutional oversight structure (IBC, IRE, federal review). The H5N1 ferret study as the canonical case.
+**Mini-lecture: DURC framework:** Formal definition, the 15 categories of DURC agents, institutional oversight structure (IBC, IRE, federal review). The H5N1 ferret study as the canonical case.
 
-**Scenario analysis (~25 min):** Rate concern for the 4 scenarios above. Reveal results. Deep discussion on the crop pathogen: Why did this score highest? Is agricultural bioterrorism under-regulated compared to human pathogens?
+**Scenario analysis:** Rate concern for the 4 scenarios above. Reveal results. Deep discussion on the crop pathogen: Why did this score highest? Is agricultural bioterrorism under-regulated compared to human pathogens?
 
-**Zoloth case discussion (~15 min):** The malaria gene drive argument — when does the moral imperative to act override the precautionary principle? Teams debate: "Should scientists proceed with gene drive research for malaria even if we can't fully predict ecological consequences?"
+**Zoloth case discussion:** The malaria gene drive argument — when does the moral imperative to act override the precautionary principle? Teams debate: "Should scientists proceed with gene drive research for malaria even if we can't fully predict ecological consequences?"
 
-**Oversight mechanism ranking (~15 min):** Reveal the ranking. Discuss: If education ranked #3, why is it the mechanism most of you will actually encounter (like this course)? Is that a problem?
+**Oversight mechanism ranking:** Reveal the ranking. Discuss: If education ranked #3, why is it the mechanism most of you will actually encounter (like this course)? Is that a problem?
 
 #### 💡 Key Takeaways
 
