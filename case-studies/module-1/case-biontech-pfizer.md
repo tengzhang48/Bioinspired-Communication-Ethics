@@ -10,6 +10,18 @@ permalink: /case-studies/case-biontech-pfizer/
 
 ---
 
+## How to Read the Evidence
+
+This case draws on three kinds of sources, and they do not establish the same kinds of claims:
+
+- **Company announcement:** the March 17 and April 9 press releases and the November 9 interim-analysis release. These establish that agreements existed, what terms were disclosed and when, and the public chronology. They are the companies' own statements about their own conduct.
+- **Insider account:** Miller's *The Vaccine*, developed with BioNTech leadership, and Bourla's *Moonshot*. These are the principal sources for internal deliberations and for the reported "share everything" instruction. They are retrospective, written after the outcome was known, and produced with the cooperation of the people they describe.
+- **Clinical and regulatory record:** the trial start dates, the independent data-monitoring committee's review, the *New England Journal of Medicine* results paper, and the UK and FDA authorizations. These establish that independent checks and evidentiary requirements existed and when they were met.
+
+None of these sources, by itself, establishes any participant's private motive, or that "trust" caused the successful outcome. The vaccine worked; that fact does not retroactively prove that every decision along the way was well made. Judge the decisions on the information and safeguards available at the time, as the outcome-bias question at the end of this brief asks you to do.
+
+---
+
 ## Setting
 
 BioNTech had worked on mRNA technologies since 2008, primarily for cancer immunotherapy, and had also begun applying its platforms to infectious disease. According to the account developed with BioNTech leaders in Joe Miller's *The Vaccine*, co-founder and CEO Uğur Şahin became concerned in January 2020 that the cluster of pneumonia cases in Wuhan could develop into a pandemic. He and BioNTech co-founder Özlem Türeci spent the weekend of January 24–26 considering whether the company's mRNA platforms could be redirected toward a vaccine.
