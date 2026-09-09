@@ -44,7 +44,7 @@ permalink: /schedule/
 | 4 | Wed, Sep 2 | [Cross-Disciplinary Communication](../modules/foundation/#lecture-4) | AlphaFold evidence/inference audit; skills and limits; shared glossary; integration mapping | Charter Appendix B: Skills & Integration |
 | 5 | Wed, Sep 9 | [Credit, Conflict & Accountability](../modules/foundation/#lecture-5) | Transistor + BCS evidence jigsaw; two-first-authors microcase; conflict protocol; contribution planning | Charter Appendix C: Contribution & Credit |
 | | Mon, Sep 7 | **NO CLASS** | *Labor Day* | |
-| 6 | Mon, Sep 14 | [Trust Under Pressure](../modules/foundation/#lecture-6) | Challenger + BioNTech/Pfizer decision maps; outcome-bias check; network map; Charter stress test | **Final Team Charter package** |
+| 6 | Mon, Sep 14 | [Trust Under Pressure](../modules/foundation/#lecture-6) | Challenger + BioNTech/Pfizer decision maps; outcome-bias check; network map; Charter stress test | **Final practice-trio Charter package** |
 
 ---
 
@@ -99,7 +99,7 @@ permalink: /schedule/
 
 | Date | Assignment | Module |
 |------|------------|--------|
-| **Sep 14** | Final Team Charter package | Module 1 |
+| **Sep 14** | Final practice-trio Charter package | Module 1 |
 | **Sep 21** | Challenge/Objectives Draft | Module 2 |
 | **Sep 23** | Revised Challenge/Objectives | Module 2 |
 | **Oct 5** | Panel Summary | Module 2 |

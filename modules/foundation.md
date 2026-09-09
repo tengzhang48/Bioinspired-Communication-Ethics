@@ -23,7 +23,7 @@ This module builds practical skills for working in diverse, interdisciplinary re
 | 3 | [When the Tools Change the Work](#lecture-3) | *Frontiers* retraction | 4–5 (selected pages) | Tooling & verification appendix |
 | 4 | [Cross-Disciplinary Communication](#lecture-4) | AlphaFold | 6–7, 9 (selected pages) | Skills & integration appendix |
 | 5 | [Credit, Conflict & Accountability](#lecture-5) | Transistor + BCS Theory | 8, 10 + Appendix A | Provisional Contribution & Credit Plan |
-| 6 | [Trust Under Pressure](#lecture-6) | Challenger + BioNTech/Pfizer | 5, 12 | Final Team Charter package |
+| 6 | [Trust Under Pressure](#lecture-6) | Challenger + BioNTech/Pfizer | 5, 12 | Final practice-trio Charter package |
 
 The short prompts are not additional historical claims. They are explicitly fictional composites collected in [*Module 1 Microcases: Charter Decisions in Practice*]({{ '/scenarios/module-1-microcases/' | relative_url }}), with timing, required outputs, and instructor cautions.
 
@@ -31,7 +31,7 @@ The short prompts are not additional historical claims. They are explicitly fict
 
 Two threads build across the module:
 
-**Team Charter (evolves across Lectures 2–6)**
+**Team Charter — Module 1 practice trio (evolves across Lectures 2–6)**
 
 | Lecture | Milestone |
 |:---:|---------------------|
@@ -40,6 +40,8 @@ Two threads build across the module:
 | 4 | Appendix B: skills, blind spots, shared terminology, cross-disciplinary learning, and inclusive discussion norms |
 | 5 | Appendix C: provisional contributions, recognition/credit principles, review dates, change contingencies, and dispute process |
 | 6 | Final package: stress-tested core Charter and appendices, version history, all-member review, and sign-off |
+
+Module 1's Charter is written and submitted by your **practice trio**, not by your semester team. Practice trios are announced in Lecture 2 and stay fixed through Lecture 6 so that the Charter can accumulate without a membership change. CATME Team-Maker forms semester teams after Module 1 and announces them September 14 — the same day this package is due.
 
 **Format:** The final package uses a **two-page core Charter plus structured appendices**. The core contains the norms the team needs during ordinary work; appendices hold the detail needed for tools and verification, skills and integration, and contribution/credit planning. A useful clause identifies a **trigger, responsible person, required action, timeframe, escalation route, and revision rule**. Specific, workable commitments matter more than polished but vague prose.
 
@@ -427,7 +429,7 @@ The cases are deliberately contrasting, but not moral mirror images. Challenger 
 
 ### Deliverable
 
-**Final Team Charter package** (due September 14) — The two-page core, Appendices A–C, version history, and all-member review/sign-off. A signature indicates that the member reviewed the package and can raise future revisions; it does not waive the right to dissent or report a concern.
+**Final Module 1 practice-trio Charter package** — The two-page core, Appendices A–C, version history, and all-member review/sign-off. Complete the stress test in class and submit by the Blackboard deadline on September 14. This is your practice trio's Charter; the semester teams announced the same day are a separate team formed after Module 1. A signature indicates that the member reviewed the package and can raise future revisions; it does not waive the right to dissent or report a concern.
 
 </div>
 </details>
