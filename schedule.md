@@ -55,7 +55,7 @@ permalink: /schedule/
 | 7 | Wed, Sep 16 | [Research Pathways & Evidence-Consistent Framing](../modules/proposal/#lecture-1) | Three official Nobel source cases; evidence/classification audit; paragraph reframe | |
 | 8 | Mon, Sep 21 | [Funding Agencies & Your First Research Narrative](../modules/proposal/#lecture-2) | Current NSF/NIH frameworks; draft challenge and objectives; cross-disciplinary review | Challenge/Objectives Draft |
 | 9 | Wed, Sep 23 | [Writing the Research Narrative](../modules/proposal/#lecture-3) | Public NIH aims-page analysis; argument map; revision; elevator test | Revised Challenge/Objectives |
-| 10 | Mon, Sep 28 | [Criteria Calibration: IM, BI & Evidence](../modules/proposal/#lecture-4) | Constructed proposal comparison; calibration; prestige/preliminary-data microcase; BI redesign; GCR concept launch | Team Integration Map; calibration note retained |
+| 10 | Mon, Sep 28 | [Criteria Calibration: IM, BI & Evidence](../modules/proposal/#lecture-4) | Compare two real NSF proposals; build the class IM/BI/evidence table; calibrate selected authentic reviewer comments against proposal text | In-class comparison/reviewer-calibration handout (**Participation**) |
 | 11 | Wed, Sep 30 | [AI in Proposal Development: Use, Evidence & Confidentiality](../modules/proposal/#lecture-5) | Role-specific policy jigsaw; confidential-review microcase; claim verification; safe workflow | Individual AI Note + Team Concept Protocol |
 | 12 | Mon, Oct 5 | [Formal Peer Review & Responding to Critique](../modules/proposal/#lecture-6) | Independent review; formal panel; panel summary; response-to-critique memo | Panel Summary |
 | 13 | Wed, Oct 7 | [GCR-Inspired Team Concept Workshop](../modules/proposal/#lecture-7) | Convergence test; pre-draft cross-review; reviewer–author conference; revision sprint | **Concept Note (final due Oct 14)** |
@@ -115,8 +115,7 @@ permalink: /schedule/
 
 | Evaluation | Opens After | Grade Impact |
 |------------|-------------|:---:|
-| Rater Practice | Lecture 1 (Aug 24) | None |
-| Evaluation 1 | Module 1 ends (Sep 14) | None |
-| Evaluation 2 | Final Module 2 team concept note submitted (Oct 14) | None |
-| Evaluation 3 | Module 3 ends (Nov 2) | None |
-| Evaluation 4 | End of semester (Dec 7) | **Multiplier applied** |
+| Rater Practice | Module 1 practice | None |
+| Evaluation 1 | Final Module 2 team concept note submitted (Oct 14) | None — formative |
+| Evaluation 2 | Module 3 ends (Nov 2) | None — formative |
+| Evaluation 3 | End of semester (Dec 7) | **Multiplier applied to team assignments** |
