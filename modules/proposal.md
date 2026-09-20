@@ -19,7 +19,7 @@ This module develops proposal writing, criterion-based review, and responsible u
 | 1 | [Research Pathways & Evidence-Consistent Framing](#lecture-1) | Source-bound landmark cases; classification limits; paragraph reframe |
 | 2 | [Funding Agencies & Your First Research Narrative](#lecture-2) | Current NSF/NIH review frameworks; challenge/objectives draft |
 | 3 | [Writing the Research Narrative](#lecture-3) | NIH Specific Aims as an argument; revision and elevator test |
-| 4 | [Criteria Calibration: Intellectual Merit, Broader Impacts & Evidence](#lecture-4) | Synthetic proposal comparison; evidence-based calibration memo |
+| 4 | [Criteria Calibration: Intellectual Merit, Broader Impacts & Evidence](#lecture-4) | Two real NSF proposals; proposal comparison and reviewer calibration |
 | 5 | [AI in Proposal Development: Use, Evidence & Confidentiality](#lecture-5) | Role-specific policy; safe workflow; AI-use and verification note |
 | 6 | [Formal Peer Review & Responding to Critique](#lecture-6) | Individual review; panel summary; response-to-critique memo |
 | 7 | [GCR-Inspired Team Concept Workshop](#lecture-7) | Convergence concept note; cross-team review and revision plan |
@@ -41,7 +41,7 @@ Students may work on a dissertation or qualifying-exam topic only if it is appro
 
 | Lecture | Milestone |
 |:---:|---|
-| 4 | Select the problem and necessary disciplinary areas; draft an integration map |
+| Post-L4 | Select the problem and necessary disciplinary areas; draft an integration map |
 | 5 | Add a risk/feasibility note and AI-use/verification protocol |
 | Pre-L7 | Upload a complete two-page draft before class |
 | 7 | Cross-team review, reviewer–author conference, revision, and response-to-review note |
@@ -213,49 +213,100 @@ Students using sensitive work may complete the revision with an instructor-creat
 <details>
 <summary><h3 style="display:inline; cursor:pointer;" id="lecture-4">Lecture 4: Criteria Calibration—Intellectual Merit, Broader Impacts & Evidence</h3></summary>
 
-**Goal:** Apply current NSF criteria consistently, distinguish evidence from inference, and identify when a review substitutes reputation or a generic rule for the proposal record.
+**Goal:** Apply NSF Intellectual Merit and Broader Impacts criteria to authentic proposal text, distinguish proposal evidence from reviewer inference, and use reviewer disagreement as evidence for revision rather than as a search for a single “correct” judgment.
 
 #### Primary Framework
 
 - [NSF: How We Make Funding Decisions](https://www.nsf.gov/funding/merit-review)
 - The applicable solicitation excerpt supplied by the instructor
+- Two instructor-authorized NSF proposals posted in full on Blackboard as **Proposal 1** and **Proposal 2**
 
 NSF requires full consideration of both Intellectual Merit and Broader Impacts; this is not a universal numerical 50/50 weighting rule. Solicitations may add criteria, and funding decisions can also reflect portfolio considerations beyond a classroom rating exercise.
 
-#### Constructed Calibration Excerpts
+#### Pre-Class Reading: Proposal 1 and Proposal 2
 
-Both excerpts are instructor-created composites, not real proposals or records of actual funding decisions.
+Students read both full proposals on Blackboard. They do **not** need to master every technical detail. Reading should focus especially on:
 
-**Excerpt A—novel integration, bounded evidence:** An early-career team proposes a bioinspired soft-sensor architecture to test whether a distributed structural mechanism can separate deformation modes that conventional sensors conflate. Component calibration and noise data are available, but an integrated prototype has not been demonstrated. The plan specifies controls, decision milestones, an alternative architecture, needed facilities, and complementary team expertise. Its Broader Impacts plan co-designs an open laboratory module with two community-college instructors and defines adoption and learning measures.
+1. the Project Summary;
+2. how the proposal defines the research problem and intellectual contribution;
+3. the Intellectual Merit section; and
+4. the Broader Impacts section.
 
-**Excerpt B—extensive data, unclear advance:** An established team proposes to optimize an existing sensor-analysis pipeline. Pilot data show a modest accuracy gain on the team's prior dataset, but the excerpt does not state what generalizable knowledge would result or whether the gain persists outside that dataset. Its Broader Impacts paragraph promises a summer workshop for “diverse students” but identifies no partner, participant need, access plan, activity, or measure of effect.
+Use one question to guide the reading:
 
-The purpose is not to identify a hidden winner. Students identify supported strengths, material uncertainties, and the additional evidence needed under the stated solicitation.
+> **What changed from Proposal 1 to Proposal 2, and what evidence in the proposal supports those changes?**
+
+The two proposals are related in intellectual origin but differ substantially in proposal architecture. Proposal 1 centers on developing a general energy-landscape analysis method for flexible thin-shell structures. Proposal 2 develops a related energy-landscape idea around the scientific problem of controlling multistable reconfigurable 3D structures and tightly couples modeling with experiments.
+
+The proposals are labeled only **Proposal 1** and **Proposal 2** for the initial comparison. PI names, institutional reputation, and funding outcomes are not part of the first-pass evaluation. Selected reviewer comments are introduced only after students have made their own criterion-based observations.
+
+#### Activity 1 — Compare the Proposal Architecture
+
+In pairs or triads, students complete the comparison table using evidence from the full proposals.
+
+| Question | Proposal 1 | Proposal 2 | What changed? |
+|---|---|---|---|
+| What is the central knowledge gap? |  |  |  |
+| What is the main intellectual advance? |  |  |  |
+| What evidence supports feasibility? |  |  |  |
+| What role does the team play? |  |  |  |
+| How are Broader Impacts made concrete? |  |  |  |
+
+The class then builds the same table together. The purpose is **not** to rank the proposals. Students identify changes in framing, evidence, task integration, team structure, and Broader Impacts and point to the proposal text supporting each observation.
+
+A useful synthesis question is:
+
+> **Which change most improves evaluability—the scientific question, the evidence, the team, the connection between tasks, or the Broader Impacts? What text supports your answer?**
+
+#### Activity 2 — Calibrate Against Real Reviewer Comments
+
+After the proposal comparison, the instructor reveals a small set of authentic reviewer comments on Proposal 2. The selected comments include concerns about:
+
+- why the lattice/NEB approach is preferable to conventional finite-element modeling;
+- whether the proposed structures and use cases are sufficiently compelling;
+- whether extensive preliminary results make the remaining novelty less clear;
+- whether the proposed design strategy appears systematic or trial-and-error; and
+- contrasting assessments of the education and outreach plan.
+
+For two comments, students complete four checks:
+
+| Reviewer comment | Evidence in the proposal | Evidence, inference, or preference? | Best revision or clarification |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+
+The class debrief focuses on where reviewers agree, where they disagree, and whether different judgments can reasonably arise from the same proposal text.
+
+> **Important boundary:** The eventual funding outcome is revealed only after the evidence-based comparison. An outcome does not establish that a particular sentence, activity, reviewer comment, or proposal change caused the decision.
 
 #### 80-Minute Plan
 
 | Time | Activity |
 |:---:|---|
-| 12 min | Source briefing: criteria, review elements, solicitation-specific additions, and limits of classroom ratings |
-| 8 min | Individual criterion-linked notes on Excerpts A and B |
-| 12 min | Calibration triads compare ratings and mark where evidence, inference, or an unstated preference drove disagreement |
-| 8 min | Build a claim–evidence–uncertainty map for one excerpt |
-| 10 min | [Module 2 Microcase 2: “No Famous Name, No Preliminary Data”]({{ '/scenarios/module-2-microcases/' | relative_url }})—use the NSF branch: 8-minute case plus 2-minute debrief |
-| 12 min | Redesign one Broader Impacts paragraph: audience/partner, need, activity, responsible actor, access, and assessment |
-| 5 min | Write an individual calibration memo: one strength, one bounded gap, and one conditional request |
-| 10 min | Launch the GCR-inspired concept: shortlist a problem and map which disciplinary areas must integrate |
-| 3 min | Exit ticket: one rating assumption to monitor in Lecture 6 and the team's next concept task |
+| 8 min | Criterion refresher: Intellectual Merit, Broader Impacts, solicitation-specific additions, and the evidence rule |
+| 7 min | Orient the two-proposal case and clarify what students should and should not infer from it |
+| 15 min | **Activity 1:** pairs/triads complete the proposal-comparison table |
+| 15 min | Build the class comparison table and require proposal evidence for each entry |
+| 5 min | Bridge: reveal that authentic reviewer comments exist and introduce the calibration task |
+| 15 min | **Activity 2:** groups test two reviewer comments against proposal evidence and propose a revision |
+| 10 min | Whole-class debrief on reviewer agreement, disagreement, and what the comments reveal about writing |
+| 5 min | Exit ticket: one proposal-writing lesson and one reviewer assumption to monitor in Lecture 6 |
 | **80 min** | **Total** |
 
 #### Review Discipline
 
-- Link every strength or weakness to proposal text and a criterion.
-- Describe missing evidence as a bounded uncertainty, not proof that a team cannot succeed.
-- Evaluate qualifications and resources from the record; do not use name recognition or institutional prestige as a proxy.
-- Do not generalize the importance of preliminary data from one case to every mechanism or solicitation.
-- Do not infer why a real proposal was funded from an award outcome alone.
+- Link every strength or concern to proposal text and a criterion.
+- Distinguish **what the proposal says**, **what a reviewer infers**, and **what evidence is still missing**.
+- Treat preliminary data as evidence serving a specific argument—not as an automatic marker of proposal quality.
+- Ask whether a collaboration is intellectually necessary, not merely whether multiple investigators are listed.
+- Evaluate Broader Impacts through the specificity of audience, activity, pathway, responsible actor, access, and assessment.
+- Do not use funding outcome, name recognition, or institutional prestige as a proxy for proposal quality.
+- Do not infer why a real proposal was funded or declined from the outcome alone.
 
-**Outputs:** Each student retains a short three-part calibration memo for the formal panel. Each team posts its initial GCR integration map in the course workspace as a concept-note milestone.
+**In-class material:** Lecture 4 handout with the comparison table and selected reviewer comments.  
+**Blackboard reading:** the full Proposal 1 and Proposal 2. The complete review packet is not assigned as pre-reading so that students first form their own criterion-based assessment.
+
+**Output:** Each student keeps the completed comparison/reviewer-calibration handout for use in the formal panel exercise. The GCR-inspired team integration map is started after Lecture 4 rather than as a third in-class activity.
 
 </details>
 
@@ -320,7 +371,7 @@ Module 2 addresses proposal-specific permission, confidentiality, accuracy, and 
 
 #### Panel Packet and Roles
 
-The instructor supplies a two-page **synthetic or explicitly authorized** proposal excerpt, its fictional funding-opportunity excerpt, the current review framework, and role cards. The packet must be different from Lecture 4's calibration excerpts and must contain enough information to identify evidence, uncertainty, and at least one genuine tradeoff. It must not include a student's unpublished proposal without specific permission and an equivalent alternative.
+The instructor supplies a two-page **synthetic or explicitly authorized** proposal excerpt, its fictional funding-opportunity excerpt, the current review framework, and role cards. The packet must be different from Lecture 4's two-proposal case and must contain enough information to identify evidence, uncertainty, and at least one genuine tradeoff. It must not include a student's unpublished proposal without specific permission and an equivalent alternative.
 
 Before reading, students declare a fictional conflict from their role card or “no conflict,” identify the packet's confidentiality classification, and agree that criteria—not seniority, eloquence, or name recognition—govern the discussion. No generative-AI review is used in this simulation.
 
@@ -431,7 +482,7 @@ Add one prioritized revision and one question whose answer could change the revi
 |---|---|
 | Lecture 1 Nobel packet | Ready from the linked primary prize records; teach selected-case and incomplete-history limits |
 | Lecture 3 NIH aims page | Select from the NIAID public sample collection, preserve attribution/permission terms, label its date, and pair it with current instructions |
-| Lecture 4 calibration excerpts | Ready as constructed cases on this page; do not present them as real awards |
+| Lecture 4 proposal pair and handout | Full Proposal 1 and Proposal 2 are posted on Blackboard; use the in-class comparison handout and reveal selected authentic reviewer comments only after students complete their first-pass evaluation |
 | Lecture 5 policy claims and microcase | Ready from current primary policy sources; recheck before teaching |
 | Lecture 6 formal panel packet | Instructor preparation still required: synthetic or authorized excerpt, fictional opportunity, current rubric, role/conflict cards, and accessibility review |
 | Lecture 7 concept-note instructions | Ready as a course exercise; recheck the active GCR page before teaching |
