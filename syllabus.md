@@ -89,7 +89,7 @@ The official Fall 2026 syllabus uses four grading categories. In-class exercises
 |-----------|:---:|:---:|-------------|
 | **Participation** | **20%** | 1–6 | Attendance and preparation; in-class discussion and group work; criterion-calibration activities such as the Lecture 4 proposal comparison and reviewer-calibration handout |
 | **Team assignments** | **25%** | 3, 4 | Graded team products designated on Blackboard, including the team charter/standards work, GCR-inspired concept note, and team products from the mock proposal-review process |
-| **Writing portfolio** | **30%** | 1, 2, 3, 6 | Individual proposal writing and revision; proposal review and response; scientific writing drafts and final version; manuscript review and response; required verification/disclosure notes attached to those pieces |
+| **Writing portfolio** | **30%** | 1, 2, 3, 6 | Individual proposal writing and revision; proposal review and response; **team scientific paper / Writing Portfolio in Module 3**, including drafts, peer review and response, final version, and required verification/disclosure records |
 | **Ethics case study and final report** | **25%** | 5, 6 | Individual ethics case analyses and the final Technology & Responsibility Report; the final presentation is formative and informs revision of the report |
 
 ### How the Current Module 2 Work Maps to Grades
@@ -142,7 +142,7 @@ You are guaranteed a letter grade no lower than the range below. The sign next t
 | Team standards / charter work designated for grading on Blackboard | 1 | Team | Team assignments |
 | Challenge Statement & Research Objectives, revision, and proposal review/response | 2 | Individual | Writing portfolio |
 | GCR-Inspired Team Concept Note and associated team review product | 2 | Team | Team assignments |
-| Scientific Writing Portfolio and manuscript review/response | 3 | Individual | Writing portfolio |
+| Scientific Writing Portfolio and manuscript review/response | 3 | **Team** | Writing portfolio |
 | Ethics case analyses | 4 | Individual | Ethics case study and final report |
 | Technology & Responsibility Report | 4 | Team | Ethics case study and final report |
 
