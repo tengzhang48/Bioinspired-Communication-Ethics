@@ -49,6 +49,14 @@ Students may work on a dissertation or qualifying-exam topic only if it is appro
 
 This is a short course exercise modeled on an authentic NSF genre. It is **not** represented as a complete or submission-ready NSF GCR proposal.
 
+### Grade Mapping for Module 2
+
+- **Lecture 4 proposal comparison and reviewer calibration:** Participation (20% course category); no separate assignment grade.
+- **Challenge/Objectives writing, revision, proposal review/response, and attached AI-use/verification note:** Writing Portfolio (30% course category).
+- **Team panel summary and GCR-inspired concept note:** Team Assignments (25% course category).
+
+This mapping follows the official Fall 2026 syllabus. Rubrics and assignment-level point values within each category are posted on Blackboard.
+
 ---
 
 <details open>
