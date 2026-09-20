@@ -49,15 +49,16 @@ The Charter is a framework for a working relationship, not a substitute for one.
 
 **Final quality check:** A complete package (1) includes every required core and appendix element; (2) uses procedures another team could follow without guessing; (3) gives high-consequence integrity or safety concerns a pause, record, response, and escalation route rather than relying only on majority vote; (4) accounts for access, capacity, role visibility, backups, and change; and (5) shows revision through a dated version history. The instructor will state point values and appendix length limits on Blackboard before the assignment begins.
 
-**CATME Peer Evaluation (4 cycles across the semester)**
+**CATME Peer Evaluation (3 evaluations after team formation)**
 
 | Evaluation | Timing | Grade Impact |
 |:---:|---------------------|:---:|
-| Rater Practice | Inside the Team-Maker survey (opens Sep 9) | None |
-| Evaluation 1 | After Module 1 | None — formative |
-| Evaluation 2 | After the final Module 2 team concept note (Oct 14) | None — formative |
-| Evaluation 3 | After Module 3 | None — formative |
-| Evaluation 4 | End of semester | **Multiplier applied** |
+| Rater Practice | Module 1 practice | None |
+| Evaluation 1 | After the final Module 2 team concept note (Oct 14) | None — formative |
+| Evaluation 2 | After Module 3 | None — formative |
+| Evaluation 3 | End of semester | **Multiplier applied to team assignments** |
+
+Only the final evaluation affects team-assignment grades. The multiplier may increase a team score by up to 5% or reduce it by up to 100%; any multiplier below 0.85 receives instructor review before it is applied.
 
 ---
 
