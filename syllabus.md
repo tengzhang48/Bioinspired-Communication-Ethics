@@ -40,23 +40,12 @@ By the end of the course, students will be equipped with the tools and knowledge
 
 Upon successful completion of this course, students will be able to:
 
-1. **Apply** evidence-based scientific writing principles to produce and iteratively revise a research abstract, and **evaluate** peer manuscripts by writing specific, actionable, and constructive reviews.
-   > *Assessed through:* Writing Portfolio (Module 3), peer review exercises (Modules 2 & 3)
-
-2. **Construct** a research proposal narrative — including a challenge statement, research objectives, intellectual merit, and broader impacts — and **evaluate** proposals through mock review panels using agency-specific criteria.
-   > *Assessed through:* Challenge/objectives draft, GCR-inspired team concept note, panel summary (Module 2)
-
-3. **Demonstrate** effective interdisciplinary collaboration by developing a Team Charter, providing behaviorally anchored peer feedback through CATME, and contributing equitably to team deliverables across the semester.
-   > *Assessed through:* Team Charter, CATME evaluations, team project contributions (Module 1, ongoing)
-
-4. **Analyze** research ethics dilemmas — including misconduct, conflicts of interest, authorship, and AI use — by applying established ethical frameworks (Resnik's principles, Alberts' systemic analysis) to real-world scenarios.
-   > *Assessed through:* Ethics case discussions, in-class scenario analyses (Module 4)
-
-5. **Explain in writing** why science communication is an ethical obligation, and **compare** AI capabilities and limitations in scientific research by evaluating AI-generated feedback against human peer review.
-   > *Assessed through:* Writing Portfolio AI stress test (Module 3), ethics session participation (Module 4)
-
-6. **Produce** a Technology & Responsibility Report that integrates research synthesis, ethical analysis using course frameworks, and concrete recommendations for responsible stewardship of a transformative technology.
-   > *Assessed through:* Final team report and presentation (Module 4)
+1. **Produce and revise** scientific writing that meets the expectations of expert readers.
+2. **Evaluate** manuscripts and proposals against explicit review criteria and respond constructively to critique.
+3. **Construct** a research proposal narrative, including challenge statement, objectives, intellectual merit, and broader impacts, aligned with agency review criteria.
+4. **Collaborate** in interdisciplinary teams using written shared standards and structured peer evaluation.
+5. **Analyze** research ethics dilemmas, including authorship, misconduct, conflicts of interest, intellectual property, AI use, and public communication, using established ethical frameworks.
+6. **Verify** claims against primary sources and disclose AI use according to venue and agency requirements.
 
 ---
 
@@ -94,46 +83,69 @@ The course is organized into four modules taught sequentially. Each module page 
 
 ## 📊 Course Evaluation & Grading
 
-Grading is based on a combination of individual and team assessments, designed to evaluate students' communication, teamwork, research skills, and ethical reasoning.
+The official Fall 2026 syllabus uses four grading categories. In-class exercises are not separate extra grades; each graded item maps to one of these categories.
 
-| Component | Percentage | Description |
-|-----------|:---:|-------------|
-| Group Discussion & Participation | 20% | In-class activities, Mentimeter engagement, case study discussions |
-| Project Reports | 30% | Writing Portfolio, challenge/objectives draft, GCR-inspired concept note, literature reviews |
-| Project Presentations | 20% | Team pitches, mock panel reviews, final Technology & Responsibility Report presentation |
-| Peer Review Exercises | 10% | Manuscript peer review, cross-team proposal review, CATME evaluations |
-| Ethics Case Study & Final Report | 20% | Ethics session participation, Technology & Responsibility Report |
+| Component | Percentage | CLOs | What maps here |
+|-----------|:---:|:---:|-------------|
+| **Participation** | **20%** | 1–6 | Attendance and preparation; in-class discussion and group work; criterion-calibration activities such as the Lecture 4 proposal comparison and reviewer-calibration handout |
+| **Team assignments** | **25%** | 3, 4 | Graded team products designated on Blackboard, including the team charter/standards work, GCR-inspired concept note, and team products from the mock proposal-review process |
+| **Writing portfolio** | **30%** | 1, 2, 3, 6 | Individual proposal writing and revision; proposal review and response; scientific writing drafts and final version; manuscript review and response; required verification/disclosure notes attached to those pieces |
+| **Ethics case study and final report** | **25%** | 5, 6 | Individual ethics case analyses and the final Technology & Responsibility Report; the final presentation is formative and informs revision of the report |
+
+### How the Current Module 2 Work Maps to Grades
+
+| Module 2 item | Grade category |
+|---|---|
+| Challenge/Objectives Draft and Revised Challenge/Objectives | Writing portfolio |
+| Lecture 4 Proposal 1 / Proposal 2 comparison and reviewer-calibration handout | Participation |
+| AI-use / verification note attached to proposal work | Writing portfolio |
+| Mock-panel written review / response completed as individual writing | Writing portfolio |
+| Team panel summary and GCR-inspired concept work | Team assignments |
+| GCR-Inspired Team Concept Note | Team assignments |
+
+The Lecture 4 redesign therefore **does not create a new graded assignment**. The in-class comparison and reviewer-calibration work counts through participation, while the later GCR concept work remains in the Team Assignments category.
+
+Rubrics and any assignment-level point values within these four categories are posted on Blackboard before the work is due. The category percentages above control the final course grade.
+
+### Participation Scoring
+
+Participation is graded each class on a **check+ / check / check-** scale based on attendance, preparation, contributions to discussion, and participation in group work. Missing a class normally results in a 0 for that session. **At least the three lowest in-class participation scores are dropped.** Any additional drops will be announced on Blackboard.
 
 ### CATME Peer Evaluation & Grade Adjustment
 
-The final CATME evaluation produces a grade multiplier (0.85–1.05) applied to team project scores. Only the end-of-semester **ratings** affect grades; earlier ratings are formative, while completing every evaluation remains a separate course responsibility. See [Module 1](../modules/foundation/) for the CATME rating guidelines and review safeguards.
+After permanent teams are formed, students complete three CATME peer evaluations. The first two are formative and do not change grades. **Only the final evaluation produces a multiplier for team-assignment grades.**
+
+The multiplier may increase a team-assignment score by as much as **5%** or reduce it by as much as **100%** when peer evaluations document substantially different levels of contribution. Any multiplier below **0.85** is reviewed by the instructor before it is applied. Failure to complete a required peer evaluation by the deadline results in a **5-point deduction from the associated project grade** unless an extension has been arranged.
 
 ### Letter Grade Assignment
 
-| Letter Grade | Percentage Range |
-|:---:|:---:|
-| A | 93–100 |
-| A- | 90–92 |
-| B+ | 87–89 |
-| B | 83–86 |
-| B- | 80–82 |
-| C+ | 77–79 |
-| C | 73–76 |
-| C- | 70–72 |
-| D | 60–69 |
-| F | Below 60 |
+You are guaranteed a letter grade no lower than the range below. The sign next to the letter grade is assigned at the instructor's discretion within these stated thresholds.
+
+| Letter Grade | Grade Point | Numerical Score |
+|:---:|:---:|:---:|
+| A | 4.000 | ≥ 95 |
+| A- | 3.667 | ≥ 90 and < 95 |
+| B+ | 3.333 | ≥ 87 and < 90 |
+| B | 3.000 | ≥ 83 and < 87 |
+| B- | 2.667 | ≥ 80 and < 83 |
+| C+ | 2.333 | ≥ 77 and < 80 |
+| C | 2.000 | ≥ 73 and < 77 |
+| C- | 1.667 | ≥ 70 and < 73 |
+| F | 0 | < 70 |
 
 ---
 
 ## 📝 Key Assignments
 
-| Assignment | Module | Type | Due |
-|------------|:---:|:---:|------|
-| Team Charter package (iterative core + three appendices + final stress test) | 1 | Team | Aug 24–Sep 14 |
-| Challenge Statement & Research Objectives | 2 | Individual | Weeks 4–5 |
-| GCR-Inspired Team Concept Note | 2 | Team | Week 8 |
-| Writing Portfolio (iterative: 6 milestones) | 3 | Team | Weeks 8–12 |
-| Technology & Responsibility Report | 4 | Team | Dec 15 |
+| Assignment | Module | Type | Grade category |
+|------------|:---:|:---:|---|
+| Team standards / charter work designated for grading on Blackboard | 1 | Team | Team assignments |
+| Challenge Statement & Research Objectives, revision, and proposal review/response | 2 | Individual | Writing portfolio |
+| GCR-Inspired Team Concept Note and associated team review product | 2 | Team | Team assignments |
+| Scientific Writing Portfolio and manuscript review/response | 3 | Individual | Writing portfolio |
+| Ethics case analyses | 4 | Individual | Ethics case study and final report |
+| Technology & Responsibility Report | 4 | Team | Ethics case study and final report |
+
 
 ---
 
@@ -141,11 +153,11 @@ The final CATME evaluation produces a grade multiplier (0.85–1.05) applied to 
 
 ### Attendance & Participation
 
-Active participation is essential. This course relies heavily on in-class activities, team exercises, and discussions that cannot be replicated independently. Students are expected to attend all sessions and come prepared (readings completed, materials reviewed). If you must miss a class, notify the instructor and your team in advance.
+Attendance is required. This course relies heavily on in-class activities, team exercises, and discussions that cannot be replicated independently. Students are expected to attend all sessions, arrive on time, and come prepared (readings completed, materials reviewed). If you know you will miss a class for a legitimate reason, notify the instructor as soon as possible. Participation is scored each class as described in the grading section above, with at least the three lowest in-class participation scores dropped.
 
 ### Late Work
 
-Assignments are due by the posted deadline on Blackboard. Late submissions receive a 10% deduction per day unless an extension is arranged in advance. CATME evaluations have a strict deadline: unless an extension is arranged, late completion receives a 5-point deduction on the associated project grade. This is a completion consequence, separate from the ratings given or received.
+Each team member is responsible for ensuring on-time submission of team assignments. **Team project deadlines are accepted up to 24 hours late with a 20% penalty and receive no credit after 24 hours**, although feedback may still be provided. CATME evaluations have a strict deadline: unless an extension is arranged, failure to complete a required evaluation by the deadline results in a 5-point deduction on the associated project grade. Other assignment-specific deadlines and any approved extensions are stated on Blackboard.
 
 ### Academic Integrity
 
