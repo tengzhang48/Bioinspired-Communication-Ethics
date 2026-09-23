@@ -87,7 +87,7 @@ The official Fall 2026 syllabus uses four grading categories. In-class exercises
 
 | Component | Percentage | CLOs | What maps here |
 |-----------|:---:|:---:|-------------|
-| **Participation** | **20%** | 1–6 | Attendance and preparation; in-class discussion and group work; criterion-calibration activities such as the Lecture 4 proposal comparison and reviewer-calibration handout |
+| **Participation** | **20%** | 1–6 | Attendance and preparation; in-class discussion and group work; criterion-calibration activities such as the Lecture 4 reviewer-calibration memo |
 | **Team assignments** | **25%** | 3, 4 | Graded team products designated on Blackboard, including the team charter/standards work, GCR-inspired concept note, and team products from the mock proposal-review process |
 | **Writing portfolio** | **30%** | 1, 2, 3, 6 | Individual proposal writing and revision; proposal review and response; **team scientific paper / Writing Portfolio in Module 3**, including drafts, peer review and response, final version, and required verification/disclosure records |
 | **Ethics case study and final report** | **25%** | 5, 6 | Individual ethics case analyses and the final Technology & Responsibility Report; the final presentation is formative and informs revision of the report |
@@ -97,13 +97,13 @@ The official Fall 2026 syllabus uses four grading categories. In-class exercises
 | Module 2 item | Grade category |
 |---|---|
 | Challenge/Objectives Draft and Revised Challenge/Objectives | Writing portfolio |
-| Lecture 4 Proposal 1 / Proposal 2 comparison and reviewer-calibration handout | Participation |
+| Lecture 4 reviewer-calibration memo | Participation |
 | AI-use / verification note attached to proposal work | Writing portfolio |
 | Mock-panel written review / response completed as individual writing | Writing portfolio |
 | Team panel summary and GCR-inspired concept work | Team assignments |
 | GCR-Inspired Team Concept Note | Team assignments |
 
-The Lecture 4 redesign therefore **does not create a new graded assignment**. The in-class comparison and reviewer-calibration work counts through participation, while the later GCR concept work remains in the Team Assignments category.
+The Lecture 4 redesign therefore **does not create a new graded assignment**. The in-class assessment and reviewer-calibration work counts through participation, while the later GCR concept work remains in the Team Assignments category.
 
 Rubrics and any assignment-level point values within these four categories are posted on Blackboard before the work is due. The category percentages above control the final course grade.
 
