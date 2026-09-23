@@ -406,7 +406,8 @@ The cases are deliberately contrasting, but not moral mirror images. Challenger 
 
 ### Reading (before class)
 
-- Field Guide **pp. 50–57 and 122–127**: trust practices and navigating networks and systems
+- Field Guide **pp. 53 and 56–57**: Case Studies 8 and 9 — one collaboration governed by an explicit authorship and data-analysis committee, one with no advance agreement that ended in escalation to senior leadership, a formal investigation, and collapsed trust — followed by the trust working/not-working check and the chapter take-aways. **Re-read pp. 50–52 and 54–55** from Lecture 2 (forms of trust, psychological safety) — note that the psychological-safety example there is *Columbia* (2003), a different accident from the *Challenger* launch decision we analyze today.
+- Field Guide **pp. 124–125**: why an organization chart does not show how information actually flows, and the four networks — Knowledge, Access, Source Receptive, and Energy — including building redundancy so the team does not halt when one person is unavailable
 - [Evidence packet: Challenger and the Night-Before Teleconference]({{ '/case-studies/case-challenger/' | relative_url }}), with selected Rogers Commission records and an authority map
 - [Case brief: BioNTech and Pfizer—Project Lightspeed]({{ '/case-studies/case-biontech-pfizer/' | relative_url }}), including primary company, journal, and regulatory sources
 
