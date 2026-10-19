@@ -66,13 +66,13 @@ Avoid two overclaims. First, do not generalize from this constructed case to a r
 
 ### Scenario
 
-A team is writing the introduction to its Writing Portfolio abstract on humidity-driven actuation in plant-derived materials. Under deadline, one member asks an AI assistant for "a citation supporting that hygroscopic actuators built from wood veneer achieve bending curvatures an order of magnitude above conventional bilayers."
+A team is writing the introduction to its Writing Portfolio manuscript on humidity-driven actuation in plant-derived materials. Under deadline, one member asks an AI assistant for "a citation supporting that hygroscopic actuators built from wood veneer achieve bending curvatures an order of magnitude above conventional bilayers."
 
 The tool returns a formatted citation: real authors who work in this area, a real journal, a plausible volume and page range, and a DOI. The member follows the course rule and checks it. The DOI resolves. The authors are correct. The journal is correct. The year is correct. The title matches. Nothing is fabricated.
 
 The member marks the citation "verified" and inserts it. The sentence in the draft reads: "Wood-veneer hygroscopic actuators achieve bending curvatures an order of magnitude above conventional bilayers [7]."
 
-At the Lecture 4 cross-team review, a reviewer from another team reads the cited paper. It is a real paper about hygroscopic actuation. It reports a curvature comparison, but the comparison is against a different class of actuator, under different humidity cycling, and the paper explicitly declines to generalize the ratio. The cited source does not support the sentence it is attached to.
+At the Session 5 cross-team review, a reviewer from another team reads the cited paper. It is a real paper about hygroscopic actuation. It reports a curvature comparison, but the comparison is against a different class of actuator, under different humidity cycling, and the paper explicitly declines to generalize the ratio. The cited source does not support the sentence it is attached to.
 
 The member's verification record is complete and accurate. Every box was checked. The citation still does not do the job the sentence assigns it.
 

@@ -50,7 +50,7 @@ CATME feedback, interdisciplinary teamwork, documented cases, and a stress-teste
 Current NSF/NIH criteria, evidence-consistent proposal development, responsible AI use, and mock panel review
 
 ### 📝 [Module 3: Scientific Writing & Peer Review](modules/paper)
-Reader-based writing, argument revision, published referee records, response letters, and AI verification
+Hypothesis-driven outlines, writing a short manuscript section by section, published referee records, reviews, and response letters, including where AI fits
 
 ### ⚖️ [Module 4: Ethics (with Prof. Sarah Reckess, JD)](modules/ethics)
 Ethical case studies, AI ethics, authorship and credit, and final team presentations

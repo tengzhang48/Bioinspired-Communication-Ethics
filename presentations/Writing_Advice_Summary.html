@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Writing Principles and Their Boundaries — Bioinspired Communication &amp; Ethics</title>
-<meta name="description" content="What Whitesides and the Weitz lab actually wrote about scientific writing, where they disagree, and how to test a stylistic rule yourself.">
+<meta name="description" content="What the Whitesides group and the Weitz lab wrote about writing papers, where they agree, where they disagree, and how to test a writing rule yourself.">
 <style>
 :root{
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -115,6 +115,20 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
   a{ color:#000; text-decoration:underline; }
   a[href^="http"]::after{ content:" (" attr(href) ")"; font-size:8pt; word-break:break-all; }
 }
+
+/* comparison boxes (from _deck-template.html); --a / --b are neutral, for two sources that disagree */
+.compare{ display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); margin:18px 0; }
+.compare__side{ padding:16px 18px; border-radius:var(--radius-sm); border:1px solid var(--line); }
+.compare__side > :last-child{ margin-bottom:0; }
+.compare__side--a{ background:var(--info-bg); border-left:4px solid var(--info); }
+.compare__side--b{ background:var(--ask-bg); border-left:4px solid var(--ask); }
+.compare__tag{ display:block; margin-bottom:8px; font-size:.72rem; font-weight:800; letter-spacing:.09em; text-transform:uppercase; }
+.compare__side--a .compare__tag{ color:var(--info); }
+.compare__side--b .compare__tag{ color:var(--ask); }
+mark{ background:#ffe9a8; color:#2a2113; padding:0 2px; border-radius:2px; }
+@media (prefers-color-scheme: dark){ mark{ background:#4a3c12; color:#ffe9a8; } }
+.howto{ margin:0; padding:14px 18px; background:var(--bg-sunk); border:1px solid var(--line); border-left:4px solid var(--brand-2); border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:.95rem; color:var(--ink-2); }
+.note-small{ font-size:.85rem; color:var(--ink-3); }
 </style>
 </head>
 <body>
@@ -122,61 +136,83 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
 <header class="deck-head">
-  <p class="eyebrow">Bioinspired Communication &amp; Ethics &middot; Module 3 &middot; Lecture 2</p>
+  <p class="eyebrow">Bioinspired Communication &amp; Ethics &middot; Module 3 &middot; Sessions 2 and 4</p>
   <h1>Writing Principles and Their Boundaries</h1>
-  <p class="lede">Two of the most-cited writing guides in the physical sciences give opposite advice on a basic question. That disagreement is more useful than either rule.</p>
-
-  <dl class="provenance">
-    <dt>Built from</dt><dd>Two named primary sources, quoted verbatim. <strong>Every principle on every slide names which source states it</strong> &mdash; and where the two disagree, the deck says so rather than picking a winner.</dd>
-    <dt>Evidence type</dt><dd><span class="badge badge--verified">Verified</span> against the source documents. Quotations are exact; the source's own hedges are preserved.</dd>
-    <dt>Sources checked</dt><dd>August 7, 2026. The Weitz lab guide's original Harvard URLs now 404; it is recoverable via the Internet Archive.</dd>
-    <dt>Cannot establish</dt><dd>That either guide's rules generalise beyond the fields they were written for, or that writing quality determines a review outcome.</dd>
-  </dl>
+  <p class="lede">Two well-known lab guides to writing papers, from the Whitesides group and the Weitz lab, agree on a lot. On a few basic points they give opposite advice. Seeing where and why they differ helps you choose what fits your field and your journal.</p>
+  <p class="howto"><strong>How to read this deck:</strong> every quotation names its source. When the two guides disagree, the deck shows both sides. Use &darr; and &uarr; (or J and K) to move between slides.</p>
 </header>
 
 <nav class="toc" aria-label="Slide index">
   <h2>Contents</h2>
   <ol>
     <li><a href="#slide-1">Whose advice is this?</a></li>
-    <li><a href="#slide-2">The outline is the instrument</a></li>
-    <li><a href="#slide-3">Where the two sources disagree</a></li>
-    <li><a href="#slide-4">The abstract, and the 2-2-1 heuristic</a></li>
-    <li><a href="#slide-5">Figures, and the exception</a></li>
-    <li><a href="#slide-6">Guidelines that get quoted as laws</a></li>
-    <li><a href="#slide-7">Test a rule yourself</a></li>
+    <li><a href="#slide-2">Hypotheses, data, conclusions</a></li>
+    <li><a href="#slide-3">Start the outline early</a></li>
+    <li><a href="#slide-4">Where the guides disagree</a></li>
+    <li><a href="#slide-5">The abstract comes last</a></li>
+    <li><a href="#slide-6">Figures: text or caption?</a></li>
+    <li><a href="#slide-7">Guidelines, not laws</a></li>
+    <li><a href="#slide-8">Test a rule yourself</a></li>
   </ol>
 </nav>
 
 <main>
 
   <section class="slide" id="slide-1" aria-labelledby="h-1">
-    <p class="slide__num">1 / 7</p>
+    <p class="slide__num">1 / 8</p>
     <h2 id="h-1">Whose advice is this?</h2>
 
-    <p>Writing advice circulates faster than its evidence. Before repeating a rule, you should be able to name who states it, in what document, and for what kind of paper. This deck uses two sources and labels every principle.</p>
+    <p>Before you follow or repeat a writing rule, ask three questions: <strong>Who says it? In which document? For what kind of paper?</strong> This deck uses two sources and labels each piece of advice with its source.</p>
 
     <div class="grid grid--2">
       <div class="card">
-        <h3>Whitesides (2004)</h3>
+        <h3>Whitesides group (2004)</h3>
         <p>George M. Whitesides, &ldquo;Whitesides&rsquo; Group: Writing a Paper,&rdquo; <em>Advanced Materials</em>.<a class="cite" href="#ref-1">1</a></p>
-        <p><strong>Scope, from the document itself:</strong> the text is based on a group handout created <strong>October 4, 1989</strong>, and assumes &ldquo;we will write all papers using the style of the American Chemical Society.&rdquo; It is chemistry-group practice, now 37 years old.</p>
+        <p><strong>Written for:</strong> his chemistry group&rsquo;s papers, in the style of the American Chemical Society (ACS). The text is based on a group handout from October 4, 1989.</p>
       </div>
       <div class="card">
-        <h3>Weitz lab (rev. 10/4/2012)</h3>
-        <p>Harvard Weitz lab, <em>Guide to Good Paper Writing</em>.<a class="cite" href="#ref-2">2</a></p>
-        <p><strong>Scope, from the document itself:</strong> written for &ldquo;<em>Science</em>, <em>Nature</em>, PRL or other letters journal&rdquo; soft-matter letters. Fourteen years old. Its Harvard URLs now return 404.</p>
+        <h3>Weitz lab (revised 2012)</h3>
+        <p>Harvard Weitz lab, <em>Guide to Good Paper Writing</em>, revised October 4, 2012.<a class="cite" href="#ref-2">2</a></p>
+        <p><strong>Written for:</strong> short papers (letters) in journals such as <em>Science</em>, <em>Nature</em>, and <em>Physical Review Letters</em> (PRL).</p>
       </div>
     </div>
 
     <div class="box box--limit">
       <span class="box__label">What a lab guide is</span>
-      <p>Each of these documents describes <strong>one group&rsquo;s practice</strong>, written by a senior author for their own trainees, in one subfield, at one time. Neither is a journal requirement, a field standard, or a finding. Advice inherits the authority of its source and no more.</p>
+      <p>Each guide describes how <strong>one research group</strong> writes, for its own students, in one field, at one time. Neither one is a journal requirement or a rule for every field. A piece of advice is only as strong as its source.</p>
     </div>
   </section>
 
   <section class="slide" id="slide-2" aria-labelledby="h-2">
-    <p class="slide__num">2 / 7</p>
-    <h2 id="h-2">The outline is the instrument &mdash; Whitesides</h2>
+    <p class="slide__num">2 / 8</p>
+    <h2 id="h-2">Hypotheses, data, conclusions &mdash; Whitesides</h2>
+
+    <p>Whitesides calls a paper &ldquo;an organized description of hypotheses, data and conclusions.&rdquo;<a class="cite" href="#ref-1">1</a> His outline is built from these three parts.</p>
+
+    <div class="grid grid--3">
+      <div class="card">
+        <h3>Hypotheses</h3>
+        <p>What you propose and then test. A goal such as &ldquo;make a tougher gel&rdquo; is not yet a hypothesis. A hypothesis says what you expect, and why.</p>
+      </div>
+      <div class="card">
+        <h3>Data</h3>
+        <p>The figures, tables, and schemes that test each hypothesis. In Whitesides&rsquo; outline they come first; full sentences come later.</p>
+      </div>
+      <div class="card">
+        <h3>Conclusions</h3>
+        <p>What the data show about each hypothesis, and what is still open.</p>
+      </div>
+    </div>
+
+    <div class="box box--ask">
+      <span class="box__label">Try it with your outline</span>
+      <p>Write your team&rsquo;s central claim in one sentence. Under it, write the hypothesis it rests on and the one figure that would test it. If you cannot name that figure yet, you have found the experiment or analysis that is still missing.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="slide-3" aria-labelledby="h-3">
+    <p class="slide__num">3 / 8</p>
+    <h2 id="h-3">Start the outline early &mdash; Whitesides</h2>
 
     <blockquote>
       &ldquo;A paper is not just an archival device for storing a completed research program; it is also a structure for <strong>planning your research in progress</strong>.&rdquo;
@@ -188,10 +224,10 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
       <cite>Whitesides 2004<a class="cite" href="#ref-1">1</a></cite>
     </blockquote>
 
-    <p>The claim is not that outlining is tidy. It is that the outline is where you discover which experiments you have not done &mdash; which is why Whitesides tells his group to &ldquo;start writing possible outlines for papers early in a project. Do not wait until the &lsquo;end&rsquo;.&rdquo;</p>
+    <p>His point is practical: when you outline early, you can see which experiments are still missing. That is why he tells his group to &ldquo;start writing possible outlines for papers early in a project. Do not wait until the &lsquo;end&rsquo;.&rdquo;</p>
 
     <div class="box box--source">
-      <span class="box__label">Ordering &mdash; Whitesides</span>
+      <span class="box__label">Order &mdash; Whitesides</span>
       <p>&ldquo;Organize in order of <strong>importance</strong>, not in chronological order.&rdquo; The order in which you did the work is rarely the order in which a reader needs it.</p>
     </div>
 
@@ -201,20 +237,20 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
     </div>
   </section>
 
-  <section class="slide" id="slide-3" aria-labelledby="h-3">
-    <p class="slide__num">3 / 7</p>
-    <h2 id="h-3">Where the two sources disagree: tense</h2>
+  <section class="slide" id="slide-4" aria-labelledby="h-4">
+    <p class="slide__num">4 / 8</p>
+    <h2 id="h-4">Where the guides disagree: tense</h2>
 
-    <p>This deck previously reported a single rule here. Both sources address the same question and give <strong>opposite</strong> answers.</p>
+    <p>Both guides answer the same question: which tense should you use for your results? They give <strong>opposite</strong> answers.</p>
 
     <div class="compare">
-      <div class="compare__side compare__side--before">
+      <div class="compare__side compare__side--a">
         <span class="compare__tag">Whitesides &mdash; past tense</span>
         <p>&ldquo;Describe experimental results uniformly in the <strong>past tense</strong>.&rdquo;</p>
         <p><em>Not:</em> Addition of water <mark>gives</mark> product.<br>
            <em>But:</em> Addition of water <mark>gave</mark> product.</p>
       </div>
-      <div class="compare__side compare__side--after">
+      <div class="compare__side compare__side--b">
         <span class="compare__tag">Weitz &mdash; present tense</span>
         <p>&ldquo;Generally use the <strong>present tense</strong>&hellip; You can also use the past tense for things that you did in the past&hellip; It is <strong>simpler</strong> to use the present tense for everything.&rdquo;</p>
       </div>
@@ -223,21 +259,21 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
     <div class="box box--ask">
       <span class="box__label">Discuss</span>
       <ol>
-        <li>Both authors are eminent. Both are describing good practice. What differs &mdash; the field, the genre, the era, or the underlying claim about readers?</li>
-        <li>Whitesides is writing for ACS-style chemistry papers reporting synthesis; Weitz for short letters in <em>Science</em>, <em>Nature</em>, and PRL. Does that account for it?</li>
-        <li>Open three recent papers from your own field. Which convention do they follow? Bring a count, not an impression.</li>
+        <li>What could explain the difference: the field, the type of paper, or the time when each guide was written?</li>
+        <li>Whitesides wrote for ACS chemistry papers; Weitz wrote for short letters in <em>Science</em>, <em>Nature</em>, and PRL. Does that explain it?</li>
+        <li>Open three recent papers in your field. Which tense do they use for results? Count first, then decide.</li>
       </ol>
     </div>
 
     <div class="box box--do">
-      <span class="box__label">Why this slide exists</span>
-      <p>A deck that silently resolves a disagreement between its own named sources teaches students that a contested convention is settled. Where sources conflict, say so and name the scope condition &mdash; that is the transferable skill.</p>
+      <span class="box__label">What to do</span>
+      <p>When good sources disagree, check your target journal and recent papers in your field. Then choose one style and use it consistently in your own paper.</p>
     </div>
   </section>
 
-  <section class="slide" id="slide-4" aria-labelledby="h-4">
-    <p class="slide__num">4 / 7</p>
-    <h2 id="h-4">The abstract: both sources agree, and it is not first</h2>
+  <section class="slide" id="slide-5" aria-labelledby="h-5">
+    <p class="slide__num">5 / 8</p>
+    <h2 id="h-5">The abstract comes last: here the guides agree</h2>
 
     <div class="grid grid--2">
       <div class="card">
@@ -250,7 +286,7 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
       </div>
     </div>
 
-    <h3>The 2-2-1 heuristic &mdash; Weitz, quoted in full</h3>
+    <h3>A rough shape for an abstract &mdash; Weitz</h3>
 
     <blockquote>
       &ldquo;It should consist <strong>roughly, not literally</strong>, of: 2 sentences from the Introduction / 2 sentences from the Conclusion / 1 sentence about the importance of the paper.&rdquo;
@@ -259,18 +295,23 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
 
     <div class="box box--limit">
       <span class="box__label">&ldquo;Roughly, not literally&rdquo;</span>
-      <p>The source states this as an approximate shape and says so in the same sentence. It is a heuristic, not a formula, and a deck that calls it &ldquo;the 2-2-1 Formula&rdquo; and drops the qualifier has changed what the source claims.</p>
+      <p>The 2-2-1 shape is a starting point, not a formula. The guide says so in the same sentence.</p>
     </div>
 
     <div class="box box--source">
       <span class="box__label">On the introduction &mdash; Weitz</span>
-      <p>&ldquo;It is <strong>often</strong> also the main paragraph that determines whether or not a paper is accepted.&rdquo; Note &ldquo;often.&rdquo; Preserve it.</p>
+      <p>&ldquo;It is <strong>often</strong> also the main paragraph that determines whether or not a paper is accepted.&rdquo; The word &ldquo;often&rdquo; matters: the introduction is important, but it is not the only thing reviewers judge.</p>
+    </div>
+
+    <div class="box box--do">
+      <span class="box__label">For our Writing Portfolio</span>
+      <p>Our portfolio is a short manuscript. Follow both guides: draft the outline first, then the sections, and write the abstract last, once the rest is written.</p>
     </div>
   </section>
 
-  <section class="slide" id="slide-5" aria-labelledby="h-5">
-    <p class="slide__num">5 / 7</p>
-    <h2 id="h-5">Figures &mdash; and the exception that gets deleted</h2>
+  <section class="slide" id="slide-6" aria-labelledby="h-6">
+    <p class="slide__num">6 / 8</p>
+    <h2 id="h-6">Figures: in the text or in the caption?</h2>
 
     <blockquote>
       &ldquo;Discuss the figures in the text&hellip; The reader should not have to stop and read the caption to understand what is in the figure and why it is important.
@@ -278,79 +319,80 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
       <cite>Weitz lab guide, rev. 10/4/2012<a class="cite" href="#ref-2">2</a></cite>
     </blockquote>
 
-    <p>The bolded sentence is part of the same bullet. Quoting the first half alone produces a &ldquo;golden rule&rdquo; that is wrong at exactly the journals this cohort is most likely to target.</p>
+    <p>Many summaries of this guide quote only the first sentence. The second sentence matters: <em>Science</em> and <em>Nature</em> prefer the opposite.</p>
 
     <div class="compare">
-      <div class="compare__side compare__side--after">
-        <span class="compare__tag">Weitz prefers</span>
+      <div class="compare__side compare__side--a">
+        <span class="compare__tag">Point first (the style Weitz prefers)</span>
         <p>&ldquo;The interface toughens as the network is anchored covalently, <mark>as shown in Fig.&nbsp;3</mark>.&rdquo;</p>
-        <p>The point comes first; the figure is the evidence for it.</p>
+        <p>The reader learns the point first; the figure is the evidence.</p>
       </div>
-      <div class="compare__side compare__side--before">
-        <span class="compare__tag">Weitz avoids</span>
+      <div class="compare__side compare__side--b">
+        <span class="compare__tag">Location first</span>
         <p>&ldquo;<mark>In Fig.&nbsp;3, we show</mark> the interfacial toughness as a function of anchoring density.&rdquo;</p>
-        <p>The reader is told where to look before being told why.</p>
+        <p>The reader learns where to look before learning why.</p>
       </div>
     </div>
+    <p class="note-small">The two example sentences were written for this course; they are not quotations.</p>
 
     <div class="box box--do">
-      <span class="box__label">The actual rule</span>
-      <p>Where the figure discussion lives is a <strong>venue</strong> decision. Check the target journal's author instructions, then write to that. Neither pattern is universally correct.</p>
+      <span class="box__label">Check your journal</span>
+      <p>Where you discuss a figure depends on the journal. Read the target journal&rsquo;s author instructions, then follow them.</p>
     </div>
   </section>
 
-  <section class="slide" id="slide-6" aria-labelledby="h-6">
-    <p class="slide__num">6 / 7</p>
-    <h2 id="h-6">Guidelines that get quoted as laws</h2>
+  <section class="slide" id="slide-7" aria-labelledby="h-7">
+    <p class="slide__num">7 / 8</p>
+    <h2 id="h-7">Guidelines, not laws</h2>
 
     <blockquote>
       &ldquo;Please remember that, like all cases with the English language, <strong>these are not rules, but are guidelines</strong>, and there will certainly be times that they do not apply or that they should be changed.&rdquo;
       <cite>Weitz lab guide, opening paragraph<a class="cite" href="#ref-2">2</a></cite>
     </blockquote>
 
-    <p>That sentence opens the source document. It is routinely dropped when the list is re-circulated, and the list then hardens into prohibitions.</p>
+    <p>This sentence opens the Weitz guide, but it is often left out when the list is shared. Without it, the guidelines start to sound like strict rules.</p>
 
     <div class="table-wrap">
       <table>
-        <caption>Commonly repeated as absolutes. Left column as usually quoted; right column as the source actually states it.</caption>
-        <thead><tr><th scope="col">As usually repeated</th><th scope="col">What the source says</th></tr></thead>
+        <caption>Left: how the advice is often repeated. Right: what the source actually says.</caption>
+        <thead><tr><th scope="col">Often repeated as</th><th scope="col">What the source says</th></tr></thead>
         <tbody>
           <tr>
             <td>&ldquo;Never begin a sentence with <em>This</em>.&rdquo;</td>
-            <td><strong>Whitesides:</strong> &ldquo;The word &lsquo;this&rsquo; must always be followed by a noun, so that its reference is explicit&rdquo; &mdash; and his own <em>correct</em> examples begin with it: &ldquo;This reaction is fast&rdquo;; &ldquo;This observation leads us to conclude.&rdquo; <strong>Weitz:</strong> a problem only if you do it &ldquo;<strong>frequently</strong>.&rdquo;</td>
+            <td><strong>Whitesides:</strong> &ldquo;The word &lsquo;this&rsquo; must always be followed by a noun, so that its reference is explicit.&rdquo; His own <em>correct</em> examples begin with it: &ldquo;This reaction is fast&rdquo;; &ldquo;This observation leads us to conclude.&rdquo; <strong>Weitz:</strong> a problem only if you do it &ldquo;<strong>frequently</strong>.&rdquo;</td>
           </tr>
           <tr>
             <td>&ldquo;Never name living people.&rdquo;</td>
-            <td><strong>Weitz:</strong> &ldquo;The only personal names you should include in the text of a paper <strong>(not counting article references or citations)</strong> are names of people who are dead.&rdquo; The parenthetical is the whole point &mdash; citations are unaffected.</td>
+            <td><strong>Weitz:</strong> &ldquo;The only personal names you should include in the text of a paper <strong>(not counting article references or citations)</strong> are names of people who are dead.&rdquo; The part in parentheses matters: citations are not affected.</td>
           </tr>
           <tr>
             <td>&ldquo;No parentheses. No <em>i.e.</em> Forbidden phrases.&rdquo;</td>
-            <td>These appear in the Weitz list, under the document's own &ldquo;not rules, but guidelines&rdquo; framing. They are style preferences for short letters, not prohibitions.</td>
+            <td>These are in the Weitz list, under its own &ldquo;not rules, but guidelines&rdquo; opening. They are style choices for short letters, not bans.</td>
           </tr>
           <tr>
             <td>&ldquo;Don&rsquo;t be historical.&rdquo;</td>
-            <td><strong>Weitz:</strong> &ldquo;don&rsquo;t be historical, be as clear as possible.&rdquo; Accurately quoted &mdash; and note it is a clarity claim, not a prohibition on narrative.</td>
+            <td><strong>Weitz:</strong> &ldquo;don&rsquo;t be historical, be as clear as possible.&rdquo; The point is clarity. It does not forbid explaining how the work developed.</td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <div class="box box--dont">
-      <span class="box__label">What this deck will not claim</span>
-      <p>That writing quality determines whether a paper is accepted. Review outcomes turn on novelty, correctness, scope fit, venue tier, and which referees were assigned. Neither source claims otherwise, and no evidence here supports it.</p>
+    <div class="box box--limit">
+      <span class="box__label">Writing is not everything</span>
+      <p>Clear writing helps readers and reviewers, but it does not decide acceptance by itself. Reviews also depend on whether the work is new and correct, whether it fits the journal, and which reviewers read it.</p>
     </div>
   </section>
 
-  <section class="slide" id="slide-7" aria-labelledby="h-7">
-    <p class="slide__num">7 / 7</p>
-    <h2 id="h-7">Test a rule yourself</h2>
+  <section class="slide" id="slide-8" aria-labelledby="h-8">
+    <p class="slide__num">8 / 8</p>
+    <h2 id="h-8">Test a rule yourself</h2>
 
-    <p>The instructor supplies three short excerpts and one operational definition of an <strong>observable</strong> feature &mdash; for example, parentheses per sentence, passive constructions under a stated coding rule, or whether a discussion opens with its principal finding. Count only that feature.</p>
+    <p>Pick one rule that you can count. For example: the tense used for results, the number of parentheses per sentence, or whether the discussion starts with the main finding. Use the three excerpts your instructor provides, or three recent papers from your field. Count only that one feature, the same way in each.</p>
 
     <div class="table-wrap">
       <table>
-        <caption>Fill one row per preselected excerpt, using the same coding unit and definition.</caption>
-        <thead><tr><th scope="col">Excerpt</th><th scope="col">Conforming</th><th scope="col">Non-conforming</th><th scope="col">Denominator</th><th scope="col">Did non-conformance hurt clarity?</th></tr></thead>
+        <caption>One row per excerpt or paper.</caption>
+        <thead><tr><th scope="col">Excerpt or paper</th><th scope="col">Follows the rule</th><th scope="col">Does not</th><th scope="col">Total</th><th scope="col">Was it harder to read when the rule was broken?</th></tr></thead>
         <tbody>
           <tr><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
           <tr><td>2</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -360,18 +402,18 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
     </div>
 
     <div class="box box--do">
-      <span class="box__label">The output</span>
-      <p>Not a verdict that the rule is right or wrong. <strong>A one-sentence restatement of the rule with its scope condition</strong> &mdash; the field, genre, and venue in which you observed it holding or failing.</p>
+      <span class="box__label">What to write</span>
+      <p>Not &ldquo;the rule is right&rdquo; or &ldquo;the rule is wrong.&rdquo; Write the rule again in <strong>one sentence that says where it applies</strong>: which field, which type of paper, which journal.</p>
     </div>
 
     <div class="box box--limit">
-      <span class="box__label">What three excerpts can establish</span>
-      <p>Only whether the defined feature appears in this small corpus and how it functions in context. A finished passage cannot reveal an unobserved drafting process, and three excerpts cannot establish a field-wide convention.</p>
+      <span class="box__label">What three examples can show</span>
+      <p>Whether the rule holds in these three examples. They cannot show what is normal for a whole field, and a finished paper cannot show how its authors drafted it.</p>
     </div>
 
     <div class="box box--ask">
       <span class="box__label">Exit ticket</span>
-      <p>One rule with its scope condition, and one thing your Draft 1 still cannot support.</p>
+      <p>One rule, with where it applies, and one claim your outline cannot support yet.</p>
     </div>
   </section>
 
@@ -380,14 +422,14 @@ code{ font-family:var(--mono); font-size:.9em; background:var(--bg-sunk); paddin
 <footer class="deck-foot">
   <h2>Sources</h2>
   <ol>
-    <li id="ref-1">Whitesides, George M. &ldquo;Whitesides&rsquo; Group: Writing a Paper.&rdquo; <em>Advanced Materials</em> 16, no. 15 (2004): 1375&ndash;1377. doi:<a href="https://doi.org/10.1002/adma.200400767">10.1002/adma.200400767</a>. The article notes that its text is based on a group handout created October 4, 1989. Also posted at the <a href="https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper">Whitesides group site</a>.</li>
-    <li id="ref-2">Weitz Lab, Harvard University. <em>Guide to Good Paper Writing</em>, revision of October 4, 2012. The lab&rsquo;s original Harvard-hosted URLs return 404 as of August 7, 2026; the revision quoted here was retrieved via the Internet Archive. <strong>Instructor note:</strong> archive the PDF alongside the course packet, since this source is no longer reliably available at a stable address.</li>
-    <li id="ref-3">Gopen, George D., and Judith A. Swan. &ldquo;The Science of Scientific Writing.&rdquo; <em>American Scientist</em> 78, no. 6 (1990): 550&ndash;558. <a href="https://www.jstor.org/stable/29774235">JSTOR 29774235</a>. Assigned in Lecture 1.</li>
-    <li id="ref-4">Yuk, Hyunwoo. <a href="https://www.hyunwooyuk.com/table-of-contents.html"><em>TechRabbit&rsquo;s Note</em></a>. A personally maintained practitioner guide covering literature review, figures, submission, and rebuttal. No DOI, no version, subject to change without notice; cite accordingly.</li>
+    <li id="ref-1">Whitesides, George M. &ldquo;Whitesides&rsquo; Group: Writing a Paper.&rdquo; <em>Advanced Materials</em> 16, no. 15 (2004): 1375&ndash;1377. doi:<a href="https://doi.org/10.1002/adma.200400767">10.1002/adma.200400767</a>. The article notes that its text is based on a group handout created October 4, 1989. Free copy on the <a href="https://www.gmwgroup.harvard.edu/publications/whitesides-group-writing-paper">Whitesides group site</a>.</li>
+    <li id="ref-2">Weitz Lab, Harvard University. <em>Guide to Good Paper Writing</em>, revision of October 4, 2012. The lab&rsquo;s original Harvard links no longer work (checked August 7, 2026); the quotations here come from the October 2012 version saved in the Internet Archive.</li>
+    <li id="ref-3">Related reading: Gopen, George D., and Judith A. Swan. &ldquo;The Science of Scientific Writing.&rdquo; <em>American Scientist</em> 78, no. 6 (1990): 550&ndash;558. <a href="https://www.jstor.org/stable/29774235">JSTOR 29774235</a>.</li>
+    <li id="ref-4">Related reading: Yuk, Hyunwoo. <a href="https://www.hyunwooyuk.com/table-of-contents.html"><em>TechRabbit&rsquo;s Note</em></a>. One researcher&rsquo;s practical guide to literature review, figures, submission, and rebuttal. It is a personal website with no DOI or version number, so cite it as a website.</li>
   </ol>
   <p class="meta">
-    Bioinspired Communication &amp; Ethics, Syracuse University &middot; Module 3, Lecture 2 &middot; Deck house style v1 &middot;
-    All quotations are verbatim from the cited documents, with the sources&rsquo; own hedges preserved. Where the two guides disagree, this deck reports the disagreement rather than resolving it.
+    Bioinspired Communication &amp; Ethics, Syracuse University &middot; Module 3, Sessions 2 and 4 &middot;
+    Quotations are word for word from the cited guides. Where the two guides disagree, this deck shows both sides.
   </p>
 </footer>
 

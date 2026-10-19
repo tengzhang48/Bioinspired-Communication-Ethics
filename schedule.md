@@ -27,7 +27,7 @@ permalink: /schedule/
 |--------|:---:|:---:|-------|
 | [Module 1: Foundations of Teamwork](../modules/foundation/) | 6 | Aug 24 – Sep 14 | Team formation, CATME, collaboration skills |
 | [Module 2: Proposal Writing & Review](../modules/proposal/) | 7 | Sep 16 – Oct 7 | Evidence-consistent framing, current NSF/NIH criteria, review, responsible AI, and a GCR-inspired concept |
-| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 6 | Oct 14 – Nov 2 | Reader-based writing, argument revision, real referee records, response letters, AI verification, and venue requirements |
+| [Module 3: Scientific Writing & Peer Review](../modules/paper/) | 6 | Oct 14 – Nov 2 | Hypothesis-driven outlines, writing a short manuscript section by section, real referee records, reviews, and response letters, including where AI fits |
 | [Module 4: Research Ethics](../modules/ethics/) | 7 + presentations | Nov 4 – Dec 7 | Authorship, AI ethics, misconduct, conflicts of interest, sci-comm, IP, and final presentations |
 
 ---
@@ -67,12 +67,12 @@ permalink: /schedule/
 
 | # | Date | Topic | Key Activities | Deliverable |
 |:---:|------|-------|----------------|-------------|
-| 14 | Wed, Oct 14 | [Reading, Reporting, and the Reader's Work](../modules/paper/#lecture-1) | Gopen & Swan reader expectation; CARS move audit; tiered-reading measurement; reporting-guideline orientation; topic, audience, and permission | Portfolio: Topic, Audience & Scope |
-| 15 | Mon, Oct 19 | [Writing Principles and Their Boundaries](../modules/paper/#lecture-2) | Whitesides outline-as-instrument; one observable rule tested in three preselected excerpts; conclusion-first drafting | Portfolio: Draft 1 |
-| 16 | Wed, Oct 21 | [Revision as Argument Restructuring](../modules/paper/#lecture-3) | Public abstract map; clearly constructed comparison; structural vs. surface change; number audit | Portfolio: Draft 2 |
-| 17 | Mon, Oct 26 | [Peer Review Systems, Venue Requirements, and What They Publish](../modules/paper/#lecture-4) | Real *Nature* referee reports; two eLife review regimes; assessment-vocabulary calibration; venue-property and version check; independent review | Venue-property record (in class) |
-| 18 | Wed, Oct 28 | [Responding to Review](../modules/paper/#lecture-5) | Published point-by-point rebuttal; answering a necessity challenge; response letter | Portfolio: Peer Review + Response |
-| 19 | Mon, Nov 2 | [AI Verification, Disclosure & Submission](../modules/paper/#lecture-6) | Common public input; equivalent direct-use and artifact-audit paths; claim verification; final revision sprint and submission readiness | **Portfolio: Final Version (due Nov 4)** |
+| 14 | Wed, Oct 14 | [Guest Lecture: Pranav Soman](../modules/paper/#lecture-1) | How proposals are judged and funded; student questions collected in advance | |
+| 15 | Mon, Oct 19 | [Writing a Paper Starts With a Hypothesis](../modules/paper/#lecture-2) | Whitesides video and paper; goal vs. hypothesis; four short cases; team outline from hypothesis to figure to expected result | Portfolio: Outline (in class) |
+| 16 | Wed, Oct 21 | [PI Panel](../modules/paper/#lecture-3) | Lisa Manning, Carlos Castañeda, and Michael Blatchley answer student questions about writing and reviewing | |
+| 17 | Mon, Oct 26 | [Writing the Manuscript, Section by Section](../modules/paper/#lecture-4) | Central claims that are not hypotheses; introduction in three moves; results built around figures; number audit | Portfolio: Manuscript draft (due Oct 27) |
+| 18 | Wed, Oct 28 | [Peer Review: Reading Real Reports and Reviewing a Manuscript](../modules/paper/#lecture-5) | Real *Nature* referee reports; independent review of another team's manuscript; venue check | Portfolio: Review (due Oct 29) |
+| 19 | Mon, Nov 2 | [Responding to Review, and Where AI Fits](../modules/paper/#lecture-6) | Published point-by-point rebuttal; AI-drafted response checked against the authors' real one; response letter; final revision | **Portfolio: Final Version (due Nov 4)** |
 
 ---
 
@@ -104,10 +104,10 @@ permalink: /schedule/
 | **Sep 23** | Revised Challenge/Objectives | Module 2 |
 | **Oct 5** | Panel Summary | Module 2 |
 | **Oct 14** | GCR-Inspired Concept Note (final) | Module 2 |
-| **Oct 19** | Writing Portfolio Draft 1 | Module 3 |
-| **Oct 21** | Writing Portfolio Draft 2 | Module 3 |
-| **Oct 28** | Writing Portfolio Peer Review + Response to Review | Module 3 |
-| **Nov 4** | Writing Portfolio Final Version (AI verification record + revision history + submission-readiness check) | Module 3 |
+| **Oct 19** | Writing Portfolio Outline (in class) | Module 3 |
+| **Oct 27** | Writing Portfolio Manuscript Draft | Module 3 |
+| **Oct 29** | Writing Portfolio Review of Another Team's Manuscript | Module 3 |
+| **Nov 4** | Writing Portfolio Final Version (response letter + final manuscript + revision history) | Module 3 |
 | **Dec 7** | Technology & Responsibility Report Presentations (formative) | Module 4 |
 | **Dec 15** | Technology & Responsibility Report | Module 4 |
 
