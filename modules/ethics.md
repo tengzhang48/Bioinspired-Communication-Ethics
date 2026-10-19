@@ -162,7 +162,7 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 #### 🎯 In-Class Activities (~80 min)
 
-**Bridge from Modules 1–3:** Module 1 introduced disclosure and verification, with an optional small local detection exercise; Module 2 examined AI in the research enterprise; and Module 3 evaluated AI feedback on scientific writing. Revisit what each activity actually established and its limits. Those were *capability and workflow* questions. Today we ask the *ethical* questions.
+**Bridge from Modules 1–3:** Module 1 introduced disclosure and verification, with an optional small local detection exercise; Module 2 examined AI in the research enterprise; and Module 3 checked an AI-drafted response to a referee comment against the authors' published response. Revisit what each activity actually established and its limits. Those were *capability and workflow* questions. Today we ask the *ethical* questions.
 
 **The ghostwriting problem:** Brainard reports far more authors use AI than disclose it. Discussion: Is undisclosed AI writing assistance the same as ghostwriting? As plagiarism? As a new category we don't have a name for yet? Where is the line between "AI as spell-checker" and "AI as co-author"?
 
@@ -174,7 +174,7 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 **Closing: Where do YOU draw the line?:** Poll Everywhere scale: Rate the ethical acceptability of these AI uses (1 = clearly unethical, 5 = clearly acceptable): using AI to check grammar, using AI to restructure an argument, using AI to draft a literature review section, using AI to generate hypotheses, using AI to write an entire methods section.
 
-> 🔗 **Connection to Module 3:** In Module 3 Lecture 6, you audited AI feedback on a public abstract and verified every factual claim in the output — some claims failed or resisted verification. Today's session asks: given those limitations, what are the ethical obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
+> 🔗 **Connection to Module 3:** In Module 3 Session 6, you checked an AI-drafted response to a public referee comment against the authors' published response and marked every factual statement as supported, unsupported, or unverifiable. Today's session asks: given those limitations, what are the ethical obligations of researchers who use these tools? Resnik's principle of honesty applies directly — presenting AI-generated content as your own work violates it, regardless of detection capability.
 
 #### 💡 Key Takeaways
 
@@ -213,7 +213,7 @@ That 2.8 on authorship is the lowest confidence score in any module — Session 
 
 **Contingency reserve**
 
-> 🔗 **Connection to Module 3:** In Module 3 Lecture 4, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity — the same pressures that make transparent review uncomfortable also make it valuable.
+> 🔗 **Connection to Module 3:** In Module 3 Session 5, you discussed transparent peer review and how it affects accountability. Misconduct thrives in opacity — the same pressures that make transparent review uncomfortable also make it valuable.
 
 #### 💡 Key Takeaways
 
@@ -312,7 +312,7 @@ This session produced the richest survey data in the module:
 
 **Closing: Barriers and next steps:** Your #1 barrier was "don't know where/how to start" (12/15). Brief overview of concrete starting points: lab website, LinkedIn posts summarizing papers, departmental newsletters, local media contacts. The barrier is practical, and practical barriers have practical solutions.
 
-> 🔗 **Connection to Module 3:** In Module 3 Lecture 4, you examined transparent peer review and open access. The same principle applies here — making science accessible is an ethical obligation grounded in the same transparency values you identified as benefits of open review.
+> 🔗 **Connection to Module 3:** In Module 3 Session 5, you examined transparent peer review and open access. The same principle applies here — making science accessible is an ethical obligation grounded in the same transparency values you identified as benefits of open review.
 
 #### 💡 Key Takeaways
 

@@ -67,7 +67,7 @@ The course is organized into four modules taught sequentially. Each module page 
 
 ### Module 3: Scientific Writing & Peer Review (6 sessions)
 {: .module-header}
-**Focus:** Reader-based writing principles (Gopen & Swan, Swales, Whitesides), revision as argument restructuring, published peer review records, professional response letters, verification and disclosure of AI use, and venue requirements. Students read assigned extracts from a real 96-page public referee file and author rebuttal rather than relying only on a summary. A team Writing Portfolio evolves across six lectures — from topic and audience selection to a polished abstract with a documented revision history and submission-readiness check. The AI audit uses one public source and offers equivalent direct-use and no-direct-use paths.
+**Focus:** Writing a research manuscript: outlining from hypotheses, data, and conclusions (Whitesides), writing each section for the reader (Gopen & Swan, Swales), reading real referee reports, reviewing another team's manuscript, and responding to review with evidence, including what AI can and cannot do in a response. Students read assigned extracts from a real 96-page public referee file and author rebuttal rather than relying only on a summary. A team Writing Portfolio grows from an outline into a short manuscript (title, abstract, introduction, results, discussion) with a review, a response letter, and a documented revision history. The module includes a guest lecture and a PI panel. The AI exercise uses one public referee comment and offers equivalent direct-use and no-direct-use paths.
 
 → [Module 3 Details](../modules/paper/)
 
@@ -172,7 +172,7 @@ AI tools (ChatGPT, Claude, etc.) may be used as writing aids for brainstorming, 
 - AI may not be used as a substitute for completing readings or engaging with course materials
 - The Technology & Responsibility Report must reflect your team's original analysis and reasoning
 
-No assignment requires direct use of AI; an equivalent no-direct-use path is always available. Module 3 evaluates AI feedback on one public text: students may either run the authorized tool or audit provenance-complete outputs supplied by the instructor. Both paths use the same human baseline, verification record, and grading criteria. The goal is critical AI literacy, not avoidance.
+No assignment requires direct use of AI; an equivalent no-direct-use path is always available. In Module 3, students compare an AI-drafted response to one public referee comment with the authors' published response: students may either run the authorized tool or audit saved outputs supplied by the instructor. Both paths use the same checklist and grading criteria. The goal is critical AI literacy, not avoidance.
 
 ### Disability-Related Accommodations
 

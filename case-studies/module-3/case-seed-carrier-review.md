@@ -78,13 +78,13 @@ Finally, the file is a record of *review*, not of *correctness* or reviewer unan
 
 2. **The counter-example that became a citation.** The referee raised *Aristida* to undercut the design's originality; the authors cited it as a design source. **When is absorbing a reviewer's counter-example the right move, and when would it amount to abandoning your own claim?**
 
-3. **Who owns the title?** A referee proposed the published title. **What does that suggest about how much of a paper's framing is settled by its authors, and what does it imply about the value of an outside reader for your own portfolio abstract?**
+3. **Who owns the title?** A referee proposed the published title. **What does that suggest about how much of a paper's framing is settled by its authors, and what does it imply about the value of an outside reader for your own portfolio manuscript?**
 
 4. **The number that got worse.** The controlled result is 80%; the outdoor result is ~39% establishment. Both appear in the record. **How should a paper report a laboratory number and a field number together without either overselling or burying the result?**
 
 5. **Venue fit as a review criterion.** Referee #3 asked whether the work had "broad significance expected for publications in *Nature*." **Is that a scientific question or an editorial one, and how should an author answer it in a rebuttal?**
 
-6. **Apply this to your team.** Take the review your team received in Lecture 4. **Which comment is the closest thing you have to a necessity challenge, and can you answer it with a quantity and a comparison rather than an assertion?**
+6. **Apply this to your team.** Take the review your team received from another team (Session 6). **Which comment is the closest thing you have to a necessity challenge, and can you answer it with a quantity and a comparison rather than an assertion?**
 
 ## Sources
 

@@ -3,7 +3,7 @@
 > **Detailed scan and structural map of the repository.**  
 > Repository: `tengzhang48/Bioinspired-Communication-Ethics`  
 > Live site: <https://tengzhang48.github.io/Bioinspired-Communication-Ethics/>  
-> Last updated: 2026-08-07 (Module 3 source-bound revision, case/scenario pack, and deck house style)
+> Last updated: 2026-10-19 (Module 3 sessions follow the real calendar; short team manuscript; AI moved into responding to review)
 
 ---
 
@@ -70,9 +70,9 @@ Bioinspired-Communication-Ethics/
 └── presentations/                     ← Standalone HTML slide decks
     ├── _deck-template.html            ← House style v1 (not published; name starts with "_")
     ├── CATME_intro_Fall2026.html      ← Module 1 L1
-    ├── Writing_Advice_Summary.html    ← Module 3 L2
-    ├── abstract_revision_case.html    ← Module 3 L3
-    └── peer_review_models.html        ← Module 3 L4
+    ├── Writing_Advice_Summary.html    ← Module 3 S2, S4
+    ├── abstract_revision_case.html    ← Module 3 S4
+    └── peer_review_models.html        ← Module 3 S5
 ```
 
 Case and scenario source files are grouped by instructional module. Their explicit front-matter permalinks preserve the existing public website URLs, so this repository reorganization does not hide pages or break bookmarked links.
@@ -104,7 +104,7 @@ Internal review notes and retired source files are maintained outside this publi
 |---|---|---|
 | `modules/foundation.md` | `/modules/foundation/` | **Module 1 — Foundations of Teamwork.** Field Guide readings, CATME, documented team-science cases, decision microcases, and a staged Team Charter with tooling, integration, and contribution appendices |
 | `modules/proposal.md` | `/modules/proposal/` | **Module 2 — Proposal Writing & Review.** Current NSF/NIH frameworks, source-bound framing, proposal revision, criteria calibration, role-specific AI/confidentiality policy, formal peer review, and a GCR-inspired concept note |
-| `modules/paper.md` | `/modules/paper/` | **Module 3 — Scientific Writing & Peer Review.** Reader-expectation prose and CARS moves; sourced writing principles with scope conditions; a public abstract and constructed restructuring exercise; published review records and rebuttal; equivalent direct-use and no-direct-use AI audits; and venue/reporting checks bounded by what the public record supports |
+| `modules/paper.md` | `/modules/paper/` | **Module 3 — Scientific Writing & Peer Review.** Guest lecture and PI panel; hypothesis-driven outlines (Whitesides); writing a short manuscript section by section, including central claims that are not hypotheses; a public abstract map and number audit; a published referee file, independent review, and rebuttal; an AI-drafted response checked against the published one; venue checks bounded by what the public record supports |
 | `modules/ethics.md` | `/modules/ethics/` | **Module 4 — Research Ethics.** Guest lecturer Dr. Sarah Reckess (JD, Upstate Medical University). Belmont Report, NSF RCR guidelines, dual-use research policy, biosecurity challenges, bioinspired ethics case studies, trustworthy AI ethics guidelines, module learning objectives |
 
 ### Course Cases and Scenarios
@@ -129,9 +129,9 @@ Internal review notes and retired source files are maintained outside this publi
 |---|---|---|---|
 | `_deck-template.html` | 18 KB | House style v1 — provenance block, evidence badges, sourced-number rule, dark mode, print, a11y | Not published (leading `_`) |
 | `CATME_intro_Fall2026.html` | 18 KB | The five behaviorally anchored CATME dimensions, why a rating of 3 is a good rating, and how to write feedback teammates can act on | **Module 1 L1 — new** |
-| `Writing_Advice_Summary.html` | 28 KB | Writing principles with per-principle attribution and the Whitesides/Weitz disagreement on tense | **Module 3 L2 — rebuilt, verified** |
-| `abstract_revision_case.html` | 23 KB | Public abstract map, clearly constructed comparison, and number audit | **Module 3 L3 — new, source-bound** |
-| `peer_review_models.html` | 28 KB | Three real review records; what each model publishes | **Module 3 L4 — new, verified** |
+| `Writing_Advice_Summary.html` | 28 KB | Writing principles with per-principle attribution and the Whitesides/Weitz disagreement on tense | **Module 3 S2, S4** |
+| `abstract_revision_case.html` | 23 KB | Public abstract map, clearly constructed comparison, and number audit | **Module 3 S4 — source-bound** |
+| `peer_review_models.html` | 28 KB | Three real review records; what each model publishes | **Module 3 S5 — verified** |
 
 ---
 
@@ -223,10 +223,10 @@ Homepage (/)
 | Sep 23 | Revised Challenge/Objectives | Module 2 |
 | Oct 5 | Panel Summary | Module 2 |
 | Oct 14 | GCR-Inspired Concept Note (final) | Module 2 |
-| Oct 19 | Writing Portfolio Draft 1 | Module 3 |
-| Oct 21 | Writing Portfolio Draft 2 | Module 3 |
-| Oct 28 | Writing Portfolio Peer Review | Module 3 |
-| Nov 4 | Writing Portfolio Final Version (AI verification record + revision history + submission-readiness check) | Module 3 |
+| Oct 19 | Writing Portfolio Outline (in class) | Module 3 |
+| Oct 27 | Writing Portfolio Manuscript Draft | Module 3 |
+| Oct 29 | Writing Portfolio Review of Another Team's Manuscript | Module 3 |
+| Nov 4 | Writing Portfolio Final Version (response letter + final manuscript + revision history) | Module 3 |
 | Dec 7 | Technology & Responsibility Report Presentations (formative) | Module 4 |
 | Dec 15 | Technology & Responsibility Report | Module 4 |
 
@@ -291,7 +291,7 @@ presentations/*.html
   └── standalone, self-contained slide decks (no CDN, no external font, no remote asset)
        ├── _deck-template.html  → house style v1; every new deck starts here
        └── Current assigned decks (revised 2026-08-07):
-               Writing_Advice_Summary  → Module 3 L2
-               abstract_revision_case  → Module 3 L3
-               peer_review_models      → Module 3 L4
+               Writing_Advice_Summary  → Module 3 S2, S4
+               abstract_revision_case  → Module 3 S4
+               peer_review_models      → Module 3 S5
 ```
